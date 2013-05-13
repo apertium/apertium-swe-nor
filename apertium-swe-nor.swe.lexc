@@ -1,16 +1,227 @@
 
 Multichar_Symbols
 
-%<n%>   ! Имя существительное · Noun
+%<n%>   ! Noun
 
 LEXICON Root
 
-Nouns ; 
+Nouns ;
+Adjectives ;
+Adverbs ;
+Conjunctions ;
+Determiners ;
+Prepositions ;
+Pronouns ;
+Propernouns ;
+Verbs ;
 
-LEXICON N1
+LEXICON N1 ! Utrum
 
-%<n%>: # ;
+%<n%>%<sg%>%<indef%>: # ;
+%<n%>%<sg%>%<def%>:en # ;
+%<n%>%<pl%>%<indef%>:ar # ;
+%<n%>%<pl%>%<def%>:arna # ;
+
+LEXICON N2 ! Neutrum
+
+%<n%>%<sg%>%<indef%>: # ;
+%<n%>%<sg%>%<def%>:et # ;
+%<n%>%<pl%>%<indef%>: # ;
+%<n%>%<pl%>%<def%>:en # ;
+
+LEXICON N3 ! Utrum on -a
+
+%<n%>%<sg%>%<indef%>:a # ;
+%<n%>%<sg%>%<def%>:an # ;
+%<n%>%<pl%>%<indef%>:or # ;
+%<n%>%<pl%>%<def%>:orna # ;
+
+LEXICON PRON
+
+%<pron%>: # ;
+
+LEXICON Adj-ig-lex
+%<adj%>%<sg%>%<utr%>: # ;
+%<adj%>%<sg%>%<neutr%>:t # ;
+
+LEXICON Adv-lex
+%<adv%>: # ;
+
+LEXICON Conj-lex
+%<conj%>: # ;
+
+LEXICON Det-lex
+%<det%>: # ;
+
+LEXICON Prep-lex
+%<prep%>: # ;
+
+LEXICON Proper-lex
+%<n%>%<prop%>: # ;
+
+LEXICON V-vara-lex
+%<v%>%<inf%>:vara  # ;
+%<v%>%<pres%>:är  # ;
+%<v%>%<pret%>:var # ;
+%<v%>%<perf%>:varit # ;
+
+LEXICON V-er-lex
+%<v%>%<inf%>:a   # ;
+%<v%>%<pres%>:er # ;
+%<v%>%<pret%>:te # ;
+%<v%>%<perf%>:t  # ;
+
+LEXICON V-ar-lex
+%<v%>%<inf%>:a    # ;
+%<v%>%<pres%>:ar  # ;
+%<v%>%<pret%>:ade # ;
+%<v%>%<perf%>:at  # ;
+
+LEXICON V-veta-lex
+%<v%>%<inf%>:eta    # ;
+%<v%>%<pres%>:et    # ;
+%<v%>%<pret%>:isste # ;
+%<v%>%<perf%>:isst  # ;
+
+LEXICON V-kunna-lex
+%<v%>%<inf%>:unna   # ;
+%<v%>%<pres%>:an    # ;
+%<v%>%<pret%>:unde  # ;
+%<v%>%<perf%>:unnat # ;
+
+LEXICON V-ha-lex
+%<v%>%<inf%>:    # ;
+%<v%>%<pres%>:r  # ;
+%<v%>%<pret%>:de # ;
+%<v%>%<perf%>:ft # ;
+
+LEXICON V-se-lex
+%<v%>%<inf%>:e    # ;
+%<v%>%<pres%>:er  # ;
+%<v%>%<pret%>:åg  # ;
+%<v%>%<perf%>:ett # ;
+
+LEXICON V-gå-lex
+%<v%>%<inf%>:å    # ;
+%<v%>%<pres%>:år  # ;
+%<v%>%<pret%>:ick # ;
+%<v%>%<perf%>:ått # ;
+
+LEXICON V-ta-lex
+%<v%>%<inf%>:a     # ;
+%<v%>%<pres%>:ar   # ;
+%<v%>%<pret%>:og   # ;
+%<v%>%<perf%>:agit # ;
+
+LEXICON V-äta-lex
+%<v%>%<inf%>:äta   # ;
+%<v%>%<pres%>:äter # ;
+%<v%>%<pret%>:åt   # ;
+%<v%>%<perf%>:ätit # ;
+
+LEXICON V-dricka-lex
+%<v%>%<inf%>:icka   # ;
+%<v%>%<pres%>:icker # ;
+%<v%>%<pret%>:ack   # ;
+%<v%>%<perf%>:uckit # ;
 
 LEXICON Nouns
 
-hund N1 ; ! ""
+hund         N1 "dog"       ;
+hus          N2 "house"     ;
+träd         N2 "tree"      ;
+svar         N2 "answer"    ;
+år           N2 "year"      ;
+trädgård     N1 "garden"    ;
+mamma:mamm   N3 "mother"    ;
+katt         N1 "cat"       ;
+väg          N1 "way, road" ;
+flicka:flick N3 "girl"      ;
+
+LEXICON Adverbs
+
+inte   Adv-lex ;
+också  Adv-lex ;
+när    Adv-lex ;
+även   Adv-lex ;
+då     Adv-lex ;
+där    Adv-lex ;
+nu     Adv-lex ;
+aldrig Adv-lex ;
+alltid Adv-lex ;
+
+LEXICON Adjectives
+
+väldig Adj-ig-lex ;
+tydlig Adj-ig-lex ;
+
+LEXICON Conjunctions
+
+och   Conj-lex ;
+men   Conj-lex ;
+att   Conj-lex ;
+eller Conj-lex ;
+
+LEXICON Determiners
+en  Det-lex ;
+ett Det-lex ;
+
+LEXICON Prepositions
+i       Prep-lex ;
+på      Prep-lex ;
+över    Prep-lex ;
+under   Prep-lex ;
+för     Prep-lex ;
+ut      Prep-lex ;
+till    Prep-lex ;
+med     Prep-lex ;
+framför Prep-lex ;
+bakom   Prep-lex ;
+om      Prep-lex ;
+att     Prep-lex ;
+genom   Prep-lex ;
+efter   Prep-lex ;
+
+LEXICON Propernouns
+Mary  Proper-lex ;
+James Proper-lex ;
+
+LEXICON Pronouns
+jag PRON ;
+du  PRON ;
+hon PRON ;
+han PRON ;
+det PRON ;
+vi  PRON ;
+ni  PRON ;
+de  PRON ;
+
+LEXICON Verbs
+! Irregular and strond verbs:
+   vara:       V-vara-lex ;
+   veta:v      V-veta-lex ;
+  kunna:k      V-kunna-lex ;
+ dricka:dr     V-dricka-lex ;
+    äta:       V-äta-lex ;
+     ha        V-ha-lex ;
+     se:s      V-se-lex ;
+     gå:g      V-gå-lex ;
+     ta:t      V-ta-lex ;
+
+! Regular verbs:
+  tänka:tänk   V-er-lex ;
+skratta:skratt V-ar-lex ;
+   leka:lek    V-ar-lex ;
+  hitta:hitt   V-ar-lex ;
+  svara:svar   V-ar-lex ;
+berätta:berätt V-ar-lex ;
+   leta:let    V-ar-lex ;
+  titta:titt   V-ar-lex ;
+   tala:tal    V-ar-lex ;
+  fråga:fråg   V-ar-lex ;
+  räkna:räkn   V-ar-lex ;
+  prata:prat   V-ar-lex ;
+  älska:älsk   V-ar-lex ;
+  gilla:gill   V-ar-lex ;
+  kolla:koll   V-ar-lex ;
+ lyssna:lyssn  V-ar-lex ;
