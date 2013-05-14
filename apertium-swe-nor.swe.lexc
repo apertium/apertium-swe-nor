@@ -169,6 +169,10 @@ väder:vädE1r     N2 "weather"   ;
 fönster:fönstE1r N2 "window"    ;
 stol             N1 "chair"     ;
 ljud             N2 "sound"     ;
+bord             N2 "table"     ;
+barn             N2 "child"     ;
+djur             N2 "animal"    ;
+huvud            N2 "head"      ;
 
 LEXICON Adverbs
 
@@ -186,6 +190,9 @@ utomhus Adv-lex ;
 sedan   Adv-lex ;
 i% går  Adv-lex ;
 tillsammans Adv-lex ;
+igen Adv-lex ;
+naturligtvis Adv-lex ;
+troligen Adv-lex ;
 
 LEXICON Adjectives
 

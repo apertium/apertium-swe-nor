@@ -33,6 +33,10 @@
     <e><p><l>dag<s n="n"/><s n="utr"/></l><r>dag<s n="n"/><s n="masc"/></r></p></e>
     <e><p><l>väder<s n="n"/><s n="neu"/></l><r>vær<s n="n"/><s n="neu"/></r></p></e>
     <e><p><l>fönster<s n="n"/><s n="neu"/></l><r>vindu<s n="n"/><s n="neu"/></r></p></e>
+    <e><p><l>bord<s n="n"/><s n="neu"/></l><r>bord<s n="n"/><s n="neu"/></r></p></e>
+    <e><p><l>barn<s n="n"/><s n="neu"/></l><r>barn<s n="n"/><s n="neu"/></r></p></e>
+    <e><p><l>djur<s n="n"/><s n="neu"/></l><r>dyr<s n="n"/><s n="neu"/></r></p></e>
+    <e><p><l>huvud<s n="n"/><s n="neu"/></l><r>hode<s n="n"/><s n="neu"/></r></p></e>
 
     <e><p><l>Mary<s n="n"/><s n="prop"/></l><r>Mary<s n="n"/><s n="prop"/></r></p></e>
     <e><p><l>James<s n="n"/><s n="prop"/></l><r>James<s n="n"/><s n="prop"/></r></p></e>
@@ -52,6 +56,9 @@
     <e><p><l>sedan<s n="adv"/></l><r>siden<s n="adv"/></r></p></e>
     <e><p><l>i<b/>går<s n="adv"/></l><r>i<b/>går<s n="adv"/></r></p></e>
     <e><p><l>tillsammans<s n="adv"/></l><r>i<b/>sammen<s n="adv"/></r></p></e>
+    <e><p><l>igen<s n="adv"/></l><r>i<b/>igjen<s n="adv"/></r></p></e>
+    <e><p><l>naturligtvis<s n="adv"/></l><r>i<b/>naturligvis<s n="adv"/></r></p></e>
+    <e><p><l>troligen<s n="adv"/></l><r>i<b/>sannsynligvis<s n="adv"/></r></p></e>
 
     <e><p><l>i<s n="prep"/></l><r>i<s n="prep"/></r></p></e>
     <e><p><l>på<s n="prep"/></l><r>på<s n="prep"/></r></p></e>
