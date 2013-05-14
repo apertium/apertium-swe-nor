@@ -1,12 +1,127 @@
 <dictionary>
   <alphabet/>
   <sdefs>
-    <sdef n="n"  c="Имя существительное"/>
+    <sdef n="n"    c="Noun"/>
+    <sdef n="prop" c="Proper (noun)"/>
+    <sdef n="utr"  c="Utrum"/>
+    <sdef n="neu"  c="Neutrum"/>
+    <sdef n="masc" c="Masculine"/>
+    <sdef n="fem"  c="Feminine"/>
+    <sdef n="adv"  c="Adverb"/>
+    <sdef n="prep" c="Preposition"/>
+    <sdef n="conj" c="Conjunction"/>
+    <sdef n="v"    c="Verb"/>
+    <sdef n="adj"  c="Adjective"/>
+    <sdef n="det"  c="Determiner"/>
+    <sdef n="pron" c="Pronoun"/>
   </sdefs>
-  <section id="main" type="standard">
-    <!-- Раздел: Имя Существительное -->
 
-    <e><p><l>hund<s n="n"/></l><r>hund<s n="n"/></r></p></e>
+  <section id="main" type="standard">
+
+    <e><p><l>hund<s n="n"/><s n="utr"/></l><r>hund<s n="n"/><s n="masc"/></r></p></e>
+    <e><p><l>stol<s n="n"/><s n="utr"/></l><r>stol<s n="n"/><s n="masc"/></r></p></e>
+    <e><p><l>hus<s n="n"/><s n="neu"/></l><r>hus<s n="n"/><s n="neu"/></r></p></e>
+    <e><p><l>svar<s n="n"/><s n="utr"/></l><r>svar<s n="n"/><s n="masc"/></r></p></e>
+    <e><p><l>ljud<s n="n"/><s n="neu"/></l><r>lyd<s n="n"/><s n="masc"/></r></p></e>
+    <e><p><l>träd<s n="n"/><s n="neu"/></l><r>tre<s n="n"/><s n="neu"/></r></p></e>
+    <e><p><l>år<s n="n"/><s n="neu"/></l><r>år<s n="n"/><s n="neu"/></r></p></e>
+    <e><p><l>trädgård<s n="n"/><s n="utr"/></l><r>hage<s n="n"/><s n="masc"/></r></p></e>
+    <e><p><l>mamma<s n="n"/><s n="utr"/></l><r>mor<s n="n"/><s n="fem"/></r></p></e>
+    <e><p><l>katt<s n="n"/><s n="utr"/></l><r>katt<s n="n"/><s n="masc"/></r></p></e>
+    <e><p><l>väg<s n="n"/><s n="utr"/></l><r>veg<s n="n"/><s n="masc"/></r></p></e>
+    <e><p><l>flicka<s n="n"/><s n="utr"/></l><r>jente<s n="n"/><s n="fem"/></r></p></e>
+    <e><p><l>dag<s n="n"/><s n="utr"/></l><r>dag<s n="n"/><s n="masc"/></r></p></e>
+    <e><p><l>väder<s n="n"/><s n="neu"/></l><r>vær<s n="n"/><s n="neu"/></r></p></e>
+    <e><p><l>fönster<s n="n"/><s n="neu"/></l><r>vindu<s n="n"/><s n="neu"/></r></p></e>
+
+    <e><p><l>Mary<s n="n"/><s n="prop"/></l><r>Mary<s n="n"/><s n="prop"/></r></p></e>
+    <e><p><l>James<s n="n"/><s n="prop"/></l><r>James<s n="n"/><s n="prop"/></r></p></e>
+
+    <e><p><l>inte<s n="adv"/></l><r>ikke<s n="adv"/></r></p></e>
+    <e><p><l>också<s n="adv"/></l><r>også<s n="adv"/></r></p></e>
+    <e><p><l>när<s n="adv"/></l><r>når<s n="adv"/></r></p></e>
+    <e><p><l>även<s n="adv"/></l><r>selv<b/>om<s n="adv"/></r></p></e>
+    <e><p><l>då<s n="adv"/></l><r>da<s n="adv"/></r></p></e>
+    <e><p><l>där<s n="adv"/></l><r>der<s n="adv"/></r></p></e>
+    <e><p><l>nu<s n="adv"/></l><r>nå<s n="adv"/></r></p></e>
+    <e><p><l>aldrig<s n="adv"/></l><r>aldri<s n="adv"/></r></p></e>
+    <e><p><l>alltid<s n="adv"/></l><r>alltid<s n="adv"/></r></p></e>
+    <e><p><l>fast<s n="adv"/></l><r>men<s n="adv"/></r></p></e>
+    <e><p><l>fast<s n="adv"/></l><r>selv<b/>om<s n="adv"/></r></p></e>
+    <e><p><l>utomhus<s n="adv"/></l><r>utendørs<s n="adv"/></r></p></e>
+    <e><p><l>sedan<s n="adv"/></l><r>siden<s n="adv"/></r></p></e>
+    <e><p><l>i<b/>går<s n="adv"/></l><r>i<b/>går<s n="adv"/></r></p></e>
+    <e><p><l>tillsammans<s n="adv"/></l><r>i<b/>sammen<s n="adv"/></r></p></e>
+
+    <e><p><l>i<s n="prep"/></l><r>i<s n="prep"/></r></p></e>
+    <e><p><l>på<s n="prep"/></l><r>på<s n="prep"/></r></p></e>
+    <e><p><l>över<s n="prep"/></l><r>over<s n="prep"/></r></p></e>
+    <e><p><l>under<s n="prep"/></l><r>under<s n="prep"/></r></p></e>
+    <e><p><l>för<s n="prep"/></l><r>for<s n="prep"/></r></p></e>
+    <e><p><l>ut<s n="prep"/></l><r>ut<s n="prep"/></r></p></e>
+    <e><p><l>till<s n="prep"/></l><r>til<s n="prep"/></r></p></e>
+    <e><p><l>med<s n="prep"/></l><r>med<s n="prep"/></r></p></e>
+    <e><p><l>framför<s n="prep"/></l><r>framfor<s n="prep"/></r></p></e>
+    <e><p><l>bakom<s n="prep"/></l><r>bakenfor<s n="prep"/></r></p></e>
+    <e><p><l>om<s n="prep"/></l><r>om<s n="prep"/></r></p></e>
+    <e><p><l>att<s n="prep"/></l><r>å<s n="prep"/></r></p></e>
+    <e><p><l>genom<s n="prep"/></l><r>gjennom<s n="prep"/></r></p></e>
+    <e><p><l>efter<s n="prep"/></l><r>etter<s n="prep"/></r></p></e>
+    <e><p><l>från<s n="prep"/></l><r>fra<s n="prep"/></r></p></e>
+
+    <e><p><l>och<s n="conj"/></l><r>og<s n="conj"/></r></p></e>
+    <e><p><l>men<s n="conj"/></l><r>men<s n="conj"/></r></p></e>
+    <e><p><l>att<s n="conj"/></l><r>at<s n="conj"/></r></p></e>
+    <e><p><l>eller<s n="conj"/></l><r>eller<s n="conj"/></r></p></e>
+
+    <e><p><l>en<s n="det"/></l><r>en<s n="det"/></r></p></e>
+
+    <e><p><l>jag<s n="pron"/></l><r>jeg<s n="pron"/></r></p></e>
+    <e><p><l>du<s n="pron"/></l><r>du<s n="pron"/></r></p></e>
+    <e><p><l>hon<s n="pron"/></l><r>hun<s n="pron"/></r></p></e>
+    <e><p><l>han<s n="pron"/></l><r>han<s n="pron"/></r></p></e>
+    <e><p><l>det<s n="pron"/></l><r>det<s n="pron"/></r></p></e>
+    <e><p><l>vi<s n="pron"/></l><r>vi<s n="pron"/></r></p></e>
+    <e><p><l>ni<s n="pron"/></l><r>dere<s n="pron"/></r></p></e>
+    <e><p><l>de<s n="pron"/></l><r>de<s n="pron"/></r></p></e>
+
+    <e><p><l>vara<s n="v"/></l><r>være<s n="v"/></r></p></e>
+    <e><p><l>veta<s n="v"/></l><r>vite<s n="v"/></r></p></e>
+    <e><p><l>kunna<s n="v"/></l><r>kunne<s n="v"/></r></p></e>
+    <e><p><l>dricka<s n="v"/></l><r>drikkw<s n="v"/></r></p></e>
+    <e><p><l>äta<s n="v"/></l><r>spise<s n="v"/></r></p></e>
+    <e><p><l>ha<s n="v"/></l><r>ha<s n="v"/></r></p></e>
+    <e><p><l>se<s n="v"/></l><r>se<s n="v"/></r></p></e>
+    <e><p><l>gå<s n="v"/></l><r>gå<s n="v"/></r></p></e>
+    <e><p><l>ta<s n="v"/></l><r>ta<s n="v"/></r></p></e>
+    <e><p><l>tänka<s n="v"/></l><r>tenke<s n="v"/></r></p></e>
+    <e><p><l>skratta<s n="v"/></l><r>le<s n="v"/></r></p></e>
+    <e><p><l>leka<s n="v"/></l><r>leke<s n="v"/></r></p></e>
+    <e><p><l>hitta<s n="v"/></l><r>finne<s n="v"/></r></p></e>
+    <e><p><l>svara<s n="v"/></l><r>svare<s n="v"/></r></p></e>
+    <e><p><l>berätta<s n="v"/></l><r>fortelle<s n="v"/></r></p></e>
+    <e><p><l>leta<s n="v"/></l><r>lete<s n="v"/></r></p></e>
+    <e><p><l>titta<s n="v"/></l><r>titte<s n="v"/></r></p></e>
+    <e><p><l>tala<s n="v"/></l><r>snakke<s n="v"/></r></p></e>
+    <e><p><l>tala<s n="v"/></l><r>tale<s n="v"/></r></p></e>
+    <e><p><l>fråga<s n="v"/></l><r>spørre<s n="v"/></r></p></e>
+    <e><p><l>räkna<s n="v"/></l><r>regne<s n="v"/></r></p></e>
+    <e><p><l>prata<s n="v"/></l><r>prate<s n="v"/></r></p></e>
+    <e><p><l>älska<s n="v"/></l><r>elske<s n="v"/></r></p></e>
+    <e><p><l>gilla<s n="v"/></l><r>like<s n="v"/></r></p></e>
+    <e><p><l>kolla<s n="v"/></l><r>undersøke<s n="v"/></r></p></e>
+    <e><p><l>lyssna<s n="v"/></l><r>lytte<s n="v"/></r></p></e>
+    <e><p><l>lyssna<s n="v"/></l><r>lytte<b/>etter<s n="v"/></r></p></e>
+    <e><p><l>sluta<s n="v"/></l><r>slutte<s n="v"/></r></p></e>
+
+    <e><p><l>väldig<s n="adj"/></l><r>veldig<s n="adj"/></r></p></e>
+    <e><p><l>tydlig<s n="adj"/></l><r>tydelig<s n="adj"/></r></p></e>
+    <e><p><l>kall<s n="adj"/></l><r>kald<s n="adj"/></r></p></e>
+    <e><p><l>varm<s n="adj"/></l><r>varm<s n="adj"/></r></p></e>
+    <e><p><l>vacker<s n="adj"/></l><r>vakker<s n="adj"/></r></p></e>
+    <e><p><l>glad<s n="adj"/></l><r>glad<s n="adj"/></r></p></e>
+    <e><p><l>gammal<s n="adj"/></l><r>gammel<s n="adj"/></r></p></e>
+    <e><p><l>stor<s n="adj"/></l><r>stor<s n="adj"/></r></p></e>
 
   </section>
 </dictionary>

@@ -7,7 +7,9 @@ Alphabet
  E1:e ! Used for e:0 alternations in certain contexts.
  D1:d ! Used for d:t alternations in front of t
 
- %>:0 ;
+ %>:0
+ %  ! Don't remove - space declared as part of the alphabet
+ ;
 
 Sets
 

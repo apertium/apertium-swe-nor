@@ -9,7 +9,7 @@ Multichar_Symbols
 %<def%>
 %<adj%>
 %<utr%>
-%<neutr%>
+%<neu%>
 
 ! Verb tags:
 %<v%>
@@ -29,6 +29,8 @@ A1 ! Archiphoneme for a:0 alternations
 E1 ! Archiphoneme for e:0 alternations
 D1 ! Archiphoneme for d:t alternations
 
+%  
+
 LEXICON Root
 
 Nouns ;
@@ -42,29 +44,29 @@ Propernouns ;
 Verbs ;
 
 LEXICON N1 ! Utrum
-%<n%>%<sg%>%<indef%>: # ;
-%<n%>%<sg%>%<def%>:en # ;
-%<n%>%<pl%>%<indef%>:ar # ;
-%<n%>%<pl%>%<def%>:arna # ;
+%<n%>%<utr%>%<sg%>%<indef%>: # ;
+%<n%>%<utr%>%<sg%>%<def%>:en # ;
+%<n%>%<utr%>%<pl%>%<indef%>:ar # ;
+%<n%>%<utr%>%<pl%>%<def%>:arna # ;
 
 LEXICON N2 ! Neutrum
-%<n%>%<sg%>%<indef%>: # ;
-%<n%>%<sg%>%<def%>:et # ;
-%<n%>%<pl%>%<indef%>: # ;
-%<n%>%<pl%>%<def%>:en # ;
+%<n%>%<neu%>%<sg%>%<indef%>: # ;
+%<n%>%<neu%>%<sg%>%<def%>:et # ;
+%<n%>%<neu%>%<pl%>%<indef%>: # ;
+%<n%>%<neu%>%<pl%>%<def%>:en # ;
 
 LEXICON N3 ! Utrum on -a
-%<n%>%<sg%>%<indef%>:a  # ;
-%<n%>%<sg%>%<def%>:an   # ;
-%<n%>%<pl%>%<indef%>:or # ;
-%<n%>%<pl%>%<def%>:orna # ;
+%<n%>%<utr%>%<sg%>%<indef%>:a  # ;
+%<n%>%<utr%>%<sg%>%<def%>:an   # ;
+%<n%>%<utr%>%<pl%>%<indef%>:or # ;
+%<n%>%<utr%>%<pl%>%<def%>:orna # ;
 
 LEXICON PRON
 %<pron%>: # ;
 
 LEXICON Adj-lex
-%<adj%>%<sg%>%<indef%>%<utr%>:    # ;
-%<adj%>%<sg%>%<indef%>%<neutr%>:t # ;
+%<adj%>%<sg%>%<indef%>%<utr%>:  # ;
+%<adj%>%<sg%>%<indef%>%<neu%>:t # ;
 %<adj%>%<pl%>:a  # ;
 %<adj%>%<def%>:a # ;
 
@@ -75,7 +77,8 @@ LEXICON Conj-lex
 %<conj%>: # ;
 
 LEXICON Det-lex
-%<det%>: # ;
+%<det%>%<utr%>:n # ;
+%<det%>%<neu%>:tt # ;
 
 LEXICON Prep-lex
 %<prep%>: # ;
@@ -165,6 +168,7 @@ dag              N1 "day"       ;
 väder:vädE1r     N2 "weather"   ;
 fönster:fönstE1r N2 "window"    ;
 stol             N1 "chair"     ;
+ljud             N2 "sound"     ;
 
 LEXICON Adverbs
 
@@ -180,6 +184,8 @@ alltid  Adv-lex ;
 fast    Adv-lex ;
 utomhus Adv-lex ;
 sedan   Adv-lex ;
+i% går  Adv-lex ;
+tillsammans Adv-lex ;
 
 LEXICON Adjectives
 
@@ -200,8 +206,7 @@ att   Conj-lex ;
 eller Conj-lex ;
 
 LEXICON Determiners
-en  Det-lex ;
-ett Det-lex ;
+en:e Det-lex ;
 
 LEXICON Prepositions
 i       Prep-lex ;
