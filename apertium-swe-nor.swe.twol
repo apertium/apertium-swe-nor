@@ -1,16 +1,39 @@
 Alphabet
 
- А Ә Б В Г Д Е Ё Ж Җ З И Й К Л М Н Ң О Ө П Р С Т У Ү Ф Х Һ Ц Ч Ш Щ Ъ Ы Ь Э Ю Я  
- а ә б в г д е ё ж җ з и й к л м н ң о ө п р с т у ү ф х һ ц ч ш щ ъ ы ь э ю я 
+ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z Å Ä Ö  
+ a b c d e f g h i j k l m n o p q r s t u v w x y z å ä ö  
+
+ A1:a ! Used for a:0 alternations in certain contexts.
+ E1:e ! Used for e:0 alternations in certain contexts.
+ D1:d ! Used for d:t alternations in front of t
 
  %>:0 ;
 
 Sets
 
-Vow = А О Ы У Я Ю Ә Е Э И Ө Ү
-      а о ы у я ю ә е э и ө ү ;
+Vow =
+ A       E       I           O           U           Å Ä Ö  
+ a       e       i           o           u           å ä ö  
+ ;
+
+Con = 
+
+   B C D   F G H   J K L M N   P Q R S T   V W X   Z
+   b c d   f g h   j k l m n   p q r s t   v w x   z
+;
 
 Rules
 
 "Remove morpheme boundary"
 %>:0 <=> _ ;
+
+"Delete second syllable e when suffix is a full syllable"
+x:0 <=> :Con ( :0 ) _ Con+ Vow ;
+        where x in ( A1 E1 ) ;
+
+"d goes to t in front of t suffix"
+D1:t <=> _ :t ;
+
+"Collapse geminate in front of deleted syllable"
+m:0 <=> m _ x:0 ;
+        where x in ( A1 E1 ) ;

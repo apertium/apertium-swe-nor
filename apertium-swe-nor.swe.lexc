@@ -1,7 +1,33 @@
 
 Multichar_Symbols
 
-%<n%>   ! Noun
+! Nominal tags:
+%<n%>
+%<sg%>
+%<pl%>
+%<indef%>
+%<def%>
+%<adj%>
+%<utr%>
+%<neutr%>
+
+! Verb tags:
+%<v%>
+%<inf%>
+%<pres%>
+%<pret%>
+%<perf%>
+
+%<adv%>
+%<conj%>
+%<det%>
+%<prep%>
+%<prop%>
+%<pron%>
+
+A1 ! Archiphoneme for a:0 alternations
+E1 ! Archiphoneme for e:0 alternations
+D1 ! Archiphoneme for d:t alternations
 
 LEXICON Root
 
@@ -16,33 +42,31 @@ Propernouns ;
 Verbs ;
 
 LEXICON N1 ! Utrum
-
 %<n%>%<sg%>%<indef%>: # ;
 %<n%>%<sg%>%<def%>:en # ;
 %<n%>%<pl%>%<indef%>:ar # ;
 %<n%>%<pl%>%<def%>:arna # ;
 
 LEXICON N2 ! Neutrum
-
 %<n%>%<sg%>%<indef%>: # ;
 %<n%>%<sg%>%<def%>:et # ;
 %<n%>%<pl%>%<indef%>: # ;
 %<n%>%<pl%>%<def%>:en # ;
 
 LEXICON N3 ! Utrum on -a
-
-%<n%>%<sg%>%<indef%>:a # ;
-%<n%>%<sg%>%<def%>:an # ;
+%<n%>%<sg%>%<indef%>:a  # ;
+%<n%>%<sg%>%<def%>:an   # ;
 %<n%>%<pl%>%<indef%>:or # ;
 %<n%>%<pl%>%<def%>:orna # ;
 
 LEXICON PRON
-
 %<pron%>: # ;
 
-LEXICON Adj-ig-lex
-%<adj%>%<sg%>%<utr%>: # ;
-%<adj%>%<sg%>%<neutr%>:t # ;
+LEXICON Adj-lex
+%<adj%>%<sg%>%<indef%>%<utr%>:    # ;
+%<adj%>%<sg%>%<indef%>%<neutr%>:t # ;
+%<adj%>%<pl%>:a  # ;
+%<adj%>%<def%>:a # ;
 
 LEXICON Adv-lex
 %<adv%>: # ;
@@ -127,33 +151,46 @@ LEXICON V-dricka-lex
 
 LEXICON Nouns
 
-hund         N1 "dog"       ;
-hus          N2 "house"     ;
-träd         N2 "tree"      ;
-svar         N2 "answer"    ;
-år           N2 "year"      ;
-trädgård     N1 "garden"    ;
-mamma:mamm   N3 "mother"    ;
-katt         N1 "cat"       ;
-väg          N1 "way, road" ;
-flicka:flick N3 "girl"      ;
+hund             N1 "dog"       ;
+hus              N2 "house"     ;
+träd             N2 "tree"      ;
+svar             N2 "answer"    ;
+år               N2 "year"      ;
+trädgård         N1 "garden"    ;
+mamma:mamm       N3 "mother"    ;
+katt             N1 "cat"       ;
+väg              N1 "way, road" ;
+flicka:flick     N3 "girl"      ;
+dag              N1 "day"       ;
+väder:vädE1r     N2 "weather"   ;
+fönster:fönstE1r N2 "window"    ;
+stol             N1 "chair"     ;
 
 LEXICON Adverbs
 
-inte   Adv-lex ;
-också  Adv-lex ;
-när    Adv-lex ;
-även   Adv-lex ;
-då     Adv-lex ;
-där    Adv-lex ;
-nu     Adv-lex ;
-aldrig Adv-lex ;
-alltid Adv-lex ;
+inte    Adv-lex ;
+också   Adv-lex ;
+när     Adv-lex ;
+även    Adv-lex ;
+då      Adv-lex ;
+där     Adv-lex ;
+nu      Adv-lex ;
+aldrig  Adv-lex ;
+alltid  Adv-lex ;
+fast    Adv-lex ;
+utomhus Adv-lex ;
+sedan   Adv-lex ;
 
 LEXICON Adjectives
 
-väldig Adj-ig-lex ;
-tydlig Adj-ig-lex ;
+väldig         Adj-lex ;
+tydlig         Adj-lex ;
+kall           Adj-lex ;
+varm           Adj-lex ;
+vacker:vackE1r Adj-lex ;
+glad:glaD1     Adj-lex ;
+gammal:gammA1l Adj-lex ;
+stor           Adj-lex ;
 
 LEXICON Conjunctions
 
@@ -181,6 +218,7 @@ om      Prep-lex ;
 att     Prep-lex ;
 genom   Prep-lex ;
 efter   Prep-lex ;
+från    Prep-lex ;
 
 LEXICON Propernouns
 Mary  Proper-lex ;
@@ -225,3 +263,4 @@ berätta:berätt V-ar-lex ;
   gilla:gill   V-ar-lex ;
   kolla:koll   V-ar-lex ;
  lyssna:lyssn  V-ar-lex ;
+  sluta:slut   V-ar-lex ;
