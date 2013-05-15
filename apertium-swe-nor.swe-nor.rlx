@@ -3,9 +3,56 @@ SOFT-DELIMITERS = "<,>" ;
 
 SETS
 
-LIST N = n ; 
+# Nominal tags as lists:
+LIST N     = n     ;
+LIST Sg    = sg    ;
+LIST Pl    = pl    ;
+LIST Adj   = adj   ;
+LIST Def   = def   ;
+LIST Indef = indef ;
+LIST Utr   = utr   ;
+LIST Neu   = neu   ;
+LIST Prop  = prop  ;
+
+# Verbal tags as lists:
+LIST V   = v    ;
+LIST Inf = inf  ;
+LIST Prs = pres ;
+LIST Prt = pret ;
+LIST Prf = perf ;
+
+# Other POS tags as lists:
+LIST Adv  = adv  ;
+LIST Conj = conj ;
+LIST Det  = det  ;
+LIST Prep = prep ;
+LIST Pron = pron ;
+LIST Num  = num  ;
+
+# Sets:
+SET Definitness = Indef OR Def ;
+SET Number = Sg OR Pl ;
+SET AdjOrPron = Adj OR Pron ;
 
 SECTION
+
+# First rule: select the definitness form of an adjective agreeing with the noun
+SELECT:unifDef $$Definitness IF             # select the definitness
+               ( 0C Adj )
+               ( 0  Adj + $$Definitness )   # in the adjective
+               ( 1C N   + $$Definitness ) ; # that agrees with the following noun
+
+# Second rule: select the number of noun agreeing with the preceding adjective
+SELECT:unifNum $$Number IF             # select the number IF
+               (-1C AdjOrPron )        # the preceding word is unambiguously an adjective or a pron
+               (-1C       $$Number )   # and has a certain number
+               ( 0C N )                # and the target word is unambiguously a noun
+               ( 0  N   + $$Number ) ; # then select the number agreeing with the adjective
+
+# Select plural reading of indef neutral nouns if preceded by a numeral ('one' is considered an article)
+SELECT:neutrPl Pl IF                   # select plural IF
+               (-1C Num )              # the preceding word is unambiguously an adjective or a pron
+               ( 0C N + Neu )          # and the target word is unambiguously a noun
 
 SELECT N ;
   ## 

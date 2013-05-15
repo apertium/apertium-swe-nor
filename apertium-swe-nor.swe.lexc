@@ -10,6 +10,14 @@ Multichar_Symbols
 %<adj%>
 %<utr%>
 %<neu%>
+%<prop%>
+
+! Pronominal additions:
+%<pron%>
+%<subj%>
+%<obj%>
+%<px%> ! Possessive forms like hans, hennes
+%<refl%>
 
 ! Verb tags:
 %<v%>
@@ -18,12 +26,12 @@ Multichar_Symbols
 %<pret%>
 %<perf%>
 
+! Tags for other POSes
 %<adv%>
 %<conj%>
 %<det%>
 %<prep%>
-%<prop%>
-%<pron%>
+%<num%>
 
 A1 ! Archiphoneme for a:0 alternations
 E1 ! Archiphoneme for e:0 alternations
@@ -42,6 +50,7 @@ Prepositions ;
 Pronouns ;
 Propernouns ;
 Verbs ;
+Numerals ;
 
 LEXICON N1 ! Utrum
 %<n%>%<utr%>%<sg%>%<indef%>: # ;
@@ -61,9 +70,6 @@ LEXICON N3 ! Utrum on -a
 %<n%>%<utr%>%<pl%>%<indef%>:or # ;
 %<n%>%<utr%>%<pl%>%<def%>:orna # ;
 
-LEXICON PRON
-%<pron%>: # ;
-
 LEXICON Adj-lex
 %<adj%>%<sg%>%<indef%>%<utr%>:  # ;
 %<adj%>%<sg%>%<indef%>%<neu%>:t # ;
@@ -76,15 +82,27 @@ LEXICON Adv-lex
 LEXICON Conj-lex
 %<conj%>: # ;
 
-LEXICON Det-lex
-%<det%>%<utr%>:n # ;
-%<det%>%<neu%>:tt # ;
+LEXICON Det-en-lex
+%<det%>%<indef%>%<utr%>:n # ;
+%<det%>%<indef%>%<neu%>:tt # ;
+
+LEXICON Det-den-lex
+%<det%>%<def%>%<utr%>:n # ;
+%<det%>%<def%>%<neu%>:t # ;
 
 LEXICON Prep-lex
 %<prep%>: # ;
 
 LEXICON Proper-lex
 %<n%>%<prop%>: # ;
+
+LEXICON PRON_INGEN
+ %<sg%>%<utr%>:en # ;
+ %<sg%>%<neu%>:et # ;
+ %<pl%>:a # ;
+
+LEXICON Num-lex
+%<num%>: # ;
 
 LEXICON V-vara-lex
 %<v%>%<inf%>:vara  # ;
@@ -173,6 +191,7 @@ bord             N2 "table"     ;
 barn             N2 "child"     ;
 djur             N2 "animal"    ;
 huvud            N2 "head"      ;
+folk             N2 "people"    ;
 
 LEXICON Adverbs
 
@@ -193,6 +212,8 @@ tillsammans Adv-lex ;
 igen Adv-lex ;
 naturligtvis Adv-lex ;
 troligen Adv-lex ;
+så       Adv-lex ;
+sakta    Adv-lex ;
 
 LEXICON Adjectives
 
@@ -204,6 +225,7 @@ vacker:vackE1r Adj-lex ;
 glad:glaD1     Adj-lex ;
 gammal:gammA1l Adj-lex ;
 stor           Adj-lex ;
+snabb          Adj-lex ;
 
 LEXICON Conjunctions
 
@@ -213,7 +235,8 @@ att   Conj-lex ;
 eller Conj-lex ;
 
 LEXICON Determiners
-en:e Det-lex ;
+ en:e  Det-en-lex ;
+den:de Det-den-lex ;
 
 LEXICON Prepositions
 i       Prep-lex ;
@@ -231,20 +254,44 @@ att     Prep-lex ;
 genom   Prep-lex ;
 efter   Prep-lex ;
 från    Prep-lex ;
+inuti   Prep-lex ;
 
 LEXICON Propernouns
 Mary  Proper-lex ;
 James Proper-lex ;
 
 LEXICON Pronouns
-jag PRON ;
-du  PRON ;
-hon PRON ;
-han PRON ;
-det PRON ;
-vi  PRON ;
-ni  PRON ;
-de  PRON ;
+jag%<pron%>%<sg%>%<subj%>:jag  # ;
+jag%<pron%>%<sg%>%<obj%>:mig   # ;
+ du%<pron%>%<sg%>%<subj%>:du   # ;
+ du%<pron%>%<sg%>%<obj%>:dig   # ;
+hon%<pron%>%<sg%>%<subj%>:hon  # ;
+hon%<pron%>%<sg%>%<obj%>:henne # ;
+hon%<pron%>%<sg%>%<px%>:hennes # ;
+han%<pron%>%<sg%>%<subj%>:han  # ;
+han%<pron%>%<sg%>%<obj%>:honom # ;
+han%<pron%>%<sg%>%<px%>:hans   # ;
+sig%<pron%>%<refl%>%<obj%>:sig # ;
+ vi%<pron%>%<pl%>%<subj%>:vi   # ;
+ vi%<pron%>%<pl%>%<obj%>:oss   # ;
+ ni%<pron%>%<pl%>%<subj%>:ni   # ;
+ ni%<pron%>%<pl%>%<obj%>:er    # ;
+ de%<pron%>%<pl%>%<subj%>:de   # ;
+ de%<pron%>%<pl%>%<obj%>:dem   # ;
+ de%<pron%>%<pl%>%<px%>:deras  # ;
+ 
+ ingen%<pron%>:ing PRON_INGEN ;
+
+LEXICON Numerals
+två  Num-lex ;
+tre  Num-lex ;
+fyra Num-lex ;
+fem  Num-lex ;
+sex  Num-lex ;
+sju  Num-lex ;
+åtta Num-lex ;
+nio  Num-lex ;
+tio  Num-lex ;
 
 LEXICON Verbs
 ! Irregular and strond verbs:
@@ -256,6 +303,7 @@ LEXICON Verbs
      ha        V-ha-lex ;
      se:s      V-se-lex ;
      gå:g      V-gå-lex ;
+     få:f      V-gå-lex ;
      ta:t      V-ta-lex ;
 
 ! Regular verbs:
