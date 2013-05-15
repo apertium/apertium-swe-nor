@@ -68,6 +68,7 @@
     <e><p><l>ut<s n="prep"/></l><r>ut<s n="prep"/></r></p></e>
     <e><p><l>till<s n="prep"/></l><r>til<s n="prep"/></r></p></e>
     <e><p><l>med<s n="prep"/></l><r>med<s n="prep"/></r></p></e>
+    <e><p><l>framför<s n="prep"/></l><r>foran<s n="prep"/></r></p></e>
     <e><p><l>framför<s n="prep"/></l><r>framfor<s n="prep"/></r></p></e>
     <e><p><l>bakom<s n="prep"/></l><r>bakenfor<s n="prep"/></r></p></e>
     <e><p><l>om<s n="prep"/></l><r>om<s n="prep"/></r></p></e>
@@ -95,7 +96,7 @@
     <e><p><l>vara<s n="v"/></l><r>være<s n="v"/></r></p></e>
     <e><p><l>veta<s n="v"/></l><r>vite<s n="v"/></r></p></e>
     <e><p><l>kunna<s n="v"/></l><r>kunne<s n="v"/></r></p></e>
-    <e><p><l>dricka<s n="v"/></l><r>drikkw<s n="v"/></r></p></e>
+    <e><p><l>dricka<s n="v"/></l><r>drikke<s n="v"/></r></p></e>
     <e><p><l>äta<s n="v"/></l><r>spise<s n="v"/></r></p></e>
     <e><p><l>ha<s n="v"/></l><r>ha<s n="v"/></r></p></e>
     <e><p><l>se<s n="v"/></l><r>se<s n="v"/></r></p></e>
@@ -104,6 +105,7 @@
     <e><p><l>tänka<s n="v"/></l><r>tenke<s n="v"/></r></p></e>
     <e><p><l>skratta<s n="v"/></l><r>le<s n="v"/></r></p></e>
     <e><p><l>leka<s n="v"/></l><r>leke<s n="v"/></r></p></e>
+    <e><p><l>leka<s n="v"/></l><r>gå<b/>opp<s n="v"/></r></p></e>
     <e><p><l>hitta<s n="v"/></l><r>finne<s n="v"/></r></p></e>
     <e><p><l>svara<s n="v"/></l><r>svare<s n="v"/></r></p></e>
     <e><p><l>berätta<s n="v"/></l><r>fortelle<s n="v"/></r></p></e>

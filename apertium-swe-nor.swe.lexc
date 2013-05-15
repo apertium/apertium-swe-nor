@@ -195,25 +195,26 @@ folk             N2 "people"    ;
 
 LEXICON Adverbs
 
-inte    Adv-lex ;
-också   Adv-lex ;
-när     Adv-lex ;
-även    Adv-lex ;
-då      Adv-lex ;
-där     Adv-lex ;
-nu      Adv-lex ;
-aldrig  Adv-lex ;
-alltid  Adv-lex ;
-fast    Adv-lex ;
-utomhus Adv-lex ;
-sedan   Adv-lex ;
-i% går  Adv-lex ;
-tillsammans Adv-lex ;
-igen Adv-lex ;
-naturligtvis Adv-lex ;
+inte     Adv-lex ;
+också    Adv-lex ;
+när      Adv-lex ;
+även     Adv-lex ;
+då       Adv-lex ;
+där      Adv-lex ;
+nu       Adv-lex ;
+aldrig   Adv-lex ;
+alltid   Adv-lex ;
+fast     Adv-lex ;
+utomhus  Adv-lex ;
+sedan    Adv-lex ;
+i% går   Adv-lex ;
+igen     Adv-lex ;
 troligen Adv-lex ;
 så       Adv-lex ;
 sakta    Adv-lex ;
+tillsammans  Adv-lex ;
+naturligtvis Adv-lex ;
+fortfarande  Adv-lex ;
 
 LEXICON Adjectives
 
