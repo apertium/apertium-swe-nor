@@ -1,16 +1,187 @@
 
 Multichar_Symbols
 
-%<n%>   ! Имя существительное · Noun
+! Nominal tags:
+%<n%>
+%<sg%>
+%<pl%>
+%<indef%>
+%<def%>
+%<adj%>
+%<masc%>
+%<fem%>
+%<neu%>
+%<prop%>
+
+! Pronominal additions:
+%<pron%>
+%<subj%>
+%<obj%>
+%<px%> ! Possessive forms like hans, hennes
+%<refl%>
+%<qst%>
+
+! Verb tags:
+%<v%>
+%<inf%>
+%<pres%>
+%<pret%>
+%<perf%>
+
+! Tags for other POSes
+%<adv%>
+%<conj%>
+%<det%>
+%<prep%>
+%<num%>
+
+%  ! The space char as multichar.
 
 LEXICON Root
 
-Nouns ; 
+Nouns ;
+Prepositions ;
+Propernouns ;
+Conjunctions ;
+Verbs ;
 
-LEXICON N1
+LEXICON m1
 
-%<n%>: # ;
+%<n%>%<masc%>%<sg%>%<indef%>: # ;
+%<n%>%<masc%>%<sg%>%<def%>:en # ;
+%<n%>%<masc%>%<pl%>%<indef%>:er # ;
+%<n%>%<masc%>%<pl%>%<def%>:ene # ;
+
+LEXICON m1e
+
+%<n%>%<masc%>%<sg%>%<indef%>: # ;
+%<n%>%<masc%>%<sg%>%<def%>:n # ;
+%<n%>%<masc%>%<pl%>%<indef%>:r # ;
+%<n%>%<masc%>%<pl%>%<def%>:ne # ;
+
+LEXICON Conj-lex
+%<conj%>: # ;
+
+LEXICON Prep-lex
+%<prep%>: # ;
+
+LEXICON Proper-lex
+%<n%>%<prop%>: # ;
+
+LEXICON V-e-lex
+%<v%>%<inf%>:e   # ;
+%<v%>%<pres%>:er # ;
+%<v%>%<pret%>:te # ;
+%<v%>%<perf%>:t  # ;
+
+LEXICON V-a-lex
+%<v%>%<inf%>:e   # ;
+%<v%>%<pres%>:er # ;
+%<v%>%<pret%>:a  # ;
+%<v%>%<perf%>:a  # ;
+
+LEXICON V-være-lex
+%<v%>%<inf%>:være  # ;
+%<v%>%<pres%>:er  # ;
+%<v%>%<pret%>:var # ;
+%<v%>%<perf%>:vært # ;
+
+LEXICON V-vite-lex
+%<v%>%<inf%>:ite    # ;
+%<v%>%<pres%>:et    # ;
+%<v%>%<pret%>:isste # ;
+%<v%>%<perf%>:isst  # ;
+
+LEXICON V-kunne-lex
+%<v%>%<inf%>:unne   # ;
+%<v%>%<pres%>:an    # ;
+%<v%>%<pret%>:unne  # ;
+%<v%>%<perf%>:unnet # ;
+
+LEXICON V-ha-lex
+%<v%>%<inf%>:    # ;
+%<v%>%<pres%>:r  # ;
+%<v%>%<pret%>:dde # ;
+%<v%>%<perf%>:tt # ;
+
+LEXICON V-se-lex
+%<v%>%<inf%>:e    # ;
+%<v%>%<pres%>:er  # ;
+%<v%>%<pret%>:å   # ;
+%<v%>%<perf%>:ett # ;
+
+LEXICON V-gå-lex
+%<v%>%<inf%>:å    # ;
+%<v%>%<pres%>:år  # ;
+%<v%>%<pret%>:ikk # ;
+%<v%>%<perf%>:ått # ;
+
+LEXICON V-ta-lex
+%<v%>%<inf%>:a     # ;
+%<v%>%<pres%>:ar   # ;
+%<v%>%<pret%>:ok   # ;
+%<v%>%<perf%>:att  # ;
+
+LEXICON V-drikke-lex
+%<v%>%<inf%>:ikke   # ;
+%<v%>%<pres%>:ikker # ;
+%<v%>%<pret%>:akk   # ;
+%<v%>%<perf%>:ukket # ;
 
 LEXICON Nouns
 
-hund N1 ; ! ""
+hund m1 ;
+hage m1e ;
+
+LEXICON Conjunctions
+
+og    Conj-lex ;
+men   Conj-lex ;
+at    Conj-lex ;
+eller Conj-lex ;
+
+LEXICON Prepositions
+i       Prep-lex ;
+på      Prep-lex ;
+over    Prep-lex ;
+under   Prep-lex ;
+for     Prep-lex ;
+ut      Prep-lex ;
+til     Prep-lex ;
+med     Prep-lex ;
+framfor Prep-lex ;
+bakom   Prep-lex ;
+om      Prep-lex ;
+å       Prep-lex ;
+gjennom Prep-lex ;
+etter   Prep-lex ;
+fra     Prep-lex ;
+inni    Prep-lex ;
+
+LEXICON Propernouns
+Mary  Proper-lex ;
+James Proper-lex ;
+
+LEXICON Verbs
+! Irregular and strond verbs:
+   være:       V-være-lex ;
+   vite:v      V-vite-lex ;
+  kunne:k      V-kunne-lex ;
+ drikke:dr     V-drikke-lex ;
+     ha        V-ha-lex ;
+     se:s      V-se-lex ;
+     gå:g      V-gå-lex ;
+     få:f      V-gå-lex ;
+     ta:t      V-ta-lex ;
+
+! Regular verbs:
+  tenke:tenk   V-e-lex ;
+   leke:lek    V-a-lex ;
+  svare:svar   V-a-lex ;
+   lete:let    V-a-lex ;
+  titte:titt   V-a-lex ;
+  regne:regn   V-a-lex ;
+  prate:prat   V-a-lex ;
+  elske:elsk   V-a-lex ;
+  gille:gill   V-a-lex ;
+ slutte:slutt  V-a-lex ;
