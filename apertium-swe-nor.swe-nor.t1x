@@ -8,19 +8,25 @@
     <def-cat n="sent">
       <cat-item tags="sent"/>
     </def-cat>
+    <def-cat n="DetIndef">
+      <cat-item tags="det.indef.*"/>
+    </def-cat>
+    <def-cat n="AdjIndef">
+      <cat-item tags="adj.*.*.indef"/>
+    </def-cat>
+    <def-cat n="NounIndef">
+      <cat-item tags="n.*.*.indef"/>
+    </def-cat>
   </section-def-cats>
   <section-def-attrs>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
     </def-attr>
-    <def-attr n="a_cas">
-      <attr-item tags="nom"/>
-      <attr-item tags="acc"/>
-      <attr-item tags="dat"/>
-      <attr-item tags="gen"/>
-      <attr-item tags="loc"/>
-      <attr-item tags="ins"/>
-      <attr-item tags="abl"/>
+    <def-attr n="gender">
+      <attr-item tags="masc"/>
+      <attr-item tags="fem"/>
+      <attr-item tags="utr"/>
+      <attr-item tags="neu"/>
     </def-attr>
 
   </section-def-attrs>
@@ -50,6 +56,42 @@
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: ADJ-NOUN-AGREEMENT">
+      <pattern>
+        <pattern-item n="DetIndef"/>
+        <pattern-item n="AdjIndef"/>
+        <pattern-item n="NounIndef"/>
+      </pattern>
+      <action>
+        <let>
+          <clip pos="1" side="tl" part="gender" />
+          <clip pos="3" side="tl" part="gender" />
+        </let>
+        <let>
+          <clip pos="2" side="tl" part="gender" />
+          <clip pos="3" side="tl" part="gender" />
+        </let>
+        <out>
+          <chunk name="NP" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="NP"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="2" side="tl" part="whole"/>
+            </lu>
+            <b/>
+            <lu>
+              <clip pos="3" side="tl" part="whole"/>
             </lu>
           </chunk>
         </out>

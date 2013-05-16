@@ -18,6 +18,7 @@ Multichar_Symbols
 %<obj%>
 %<px%> ! Possessive forms like hans, hennes
 %<refl%>
+%<qst%>
 
 ! Verb tags:
 %<v%>
@@ -70,11 +71,24 @@ LEXICON N3 ! Utrum on -a
 %<n%>%<utr%>%<pl%>%<indef%>:or # ;
 %<n%>%<utr%>%<pl%>%<def%>:orna # ;
 
+LEXICON N4 ! Utrum on -e
+%<n%>%<utr%>%<sg%>%<indef%>:e  # ;
+%<n%>%<utr%>%<sg%>%<def%>:en   # ;
+%<n%>%<utr%>%<pl%>%<indef%>:ar # ;
+%<n%>%<utr%>%<pl%>%<def%>:arna # ;
+
 LEXICON Adj-lex
-%<adj%>%<sg%>%<indef%>%<utr%>:  # ;
-%<adj%>%<sg%>%<indef%>%<neu%>:t # ;
+%<adj%>%<utr%>%<sg%>%<indef%>:  # ;
+%<adj%>%<neu%>%<sg%>%<indef%>:t # ;
 %<adj%>%<pl%>:a  # ;
 %<adj%>%<def%>:a # ;
+
+LEXICON Adj-liten-lex
+%<adj%>%<utr%>%<sg%>%<indef%>:liten  # ;
+%<adj%>%<neu%>%<sg%>%<indef%>:litet # ;
+%<adj%>%<pl%>%<indef%>:små  # ;
+%<adj%>%<sg%>%<def%>:lilla # ;
+%<adj%>%<pl%>%<def%>:småa  # ;
 
 LEXICON Adv-lex
 %<adv%>: # ;
@@ -100,6 +114,9 @@ LEXICON PRON_INGEN
  %<sg%>%<utr%>:en # ;
  %<sg%>%<neu%>:et # ;
  %<pl%>:a # ;
+
+LEXICON QPRON
+  %<pron%>%<qst%>: # ;
 
 LEXICON Num-lex
 %<num%>: # ;
@@ -185,6 +202,7 @@ flicka:flick     N3 "girl"      ;
 dag              N1 "day"       ;
 väder:vädE1r     N2 "weather"   ;
 fönster:fönstE1r N2 "window"    ;
+syster:systE1r   N1 "sister"    ;
 stol             N1 "chair"     ;
 ljud             N2 "sound"     ;
 bord             N2 "table"     ;
@@ -192,6 +210,7 @@ barn             N2 "child"     ;
 djur             N2 "animal"    ;
 huvud            N2 "head"      ;
 folk             N2 "people"    ;
+pojke:pojk       N4 "boy"       ;
 
 LEXICON Adverbs
 
@@ -208,6 +227,7 @@ fast     Adv-lex ;
 utomhus  Adv-lex ;
 sedan    Adv-lex ;
 i% går   Adv-lex ;
+i% dag   Adv-lex ;
 igen     Adv-lex ;
 troligen Adv-lex ;
 så       Adv-lex ;
@@ -227,6 +247,7 @@ glad:glaD1     Adj-lex ;
 gammal:gammA1l Adj-lex ;
 stor           Adj-lex ;
 snabb          Adj-lex ;
+liten:         Adj-liten-lex ;
 
 LEXICON Conjunctions
 
@@ -282,6 +303,11 @@ sig%<pron%>%<refl%>%<obj%>:sig # ;
  de%<pron%>%<pl%>%<px%>:deras  # ;
  
  ingen%<pron%>:ing PRON_INGEN ;
+
+ var    QPRON ;
+ varför QPRON ;
+ vad    QPRON ;
+ vart   QPRON ;
 
 LEXICON Numerals
 två  Num-lex ;

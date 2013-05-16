@@ -14,6 +14,8 @@
     <sdef n="adj"  c="Adjective"/>
     <sdef n="det"  c="Determiner"/>
     <sdef n="pron" c="Pronoun"/>
+    <sdef n="num"  c="Numeral"/>
+    <sdef n="qst"  c="Question (pronoun)"/>
   </sdefs>
 
   <section id="main" type="standard">
@@ -37,6 +39,8 @@
     <e><p><l>barn<s n="n"/><s n="neu"/></l><r>barn<s n="n"/><s n="neu"/></r></p></e>
     <e><p><l>djur<s n="n"/><s n="neu"/></l><r>dyr<s n="n"/><s n="neu"/></r></p></e>
     <e><p><l>huvud<s n="n"/><s n="neu"/></l><r>hode<s n="n"/><s n="neu"/></r></p></e>
+    <e><p><l>pojke<s n="n"/><s n="utr"/></l><r>gutt<s n="n"/><s n="masc"/></r></p></e>
+    <e><p><l>syster<s n="n"/><s n="utr"/></l><r>søster<s n="n"/><s n="fem"/></r></p></e>
 
     <e><p><l>Mary<s n="n"/><s n="prop"/></l><r>Mary<s n="n"/><s n="prop"/></r></p></e>
     <e><p><l>James<s n="n"/><s n="prop"/></l><r>James<s n="n"/><s n="prop"/></r></p></e>
@@ -52,9 +56,12 @@
     <e><p><l>alltid<s n="adv"/></l><r>alltid<s n="adv"/></r></p></e>
     <e><p><l>fast<s n="adv"/></l><r>men<s n="adv"/></r></p></e>
     <e><p><l>fast<s n="adv"/></l><r>selv<b/>om<s n="adv"/></r></p></e>
+    <e><p><l>fast<s n="adv"/></l><r>bortsett<b/>fra<s n="adv"/></r></p></e>
+    <e><p><l>fast<s n="adv"/></l><r>foruten<s n="adv"/></r></p></e>
     <e><p><l>utomhus<s n="adv"/></l><r>utendørs<s n="adv"/></r></p></e>
     <e><p><l>sedan<s n="adv"/></l><r>siden<s n="adv"/></r></p></e>
     <e><p><l>i<b/>går<s n="adv"/></l><r>i<b/>går<s n="adv"/></r></p></e>
+    <e><p><l>i<b/>dag<s n="adv"/></l><r>i<b/>dag<s n="adv"/></r></p></e>
     <e><p><l>tillsammans<s n="adv"/></l><r>i<b/>sammen<s n="adv"/></r></p></e>
     <e><p><l>igen<s n="adv"/></l><r>i<b/>igjen<s n="adv"/></r></p></e>
     <e><p><l>naturligtvis<s n="adv"/></l><r>i<b/>naturligvis<s n="adv"/></r></p></e>
@@ -83,6 +90,7 @@
     <e><p><l>eller<s n="conj"/></l><r>eller<s n="conj"/></r></p></e>
 
     <e><p><l>en<s n="det"/></l><r>en<s n="det"/></r></p></e>
+    <e><p><l>den<s n="det"/></l><r>den<s n="det"/></r></p></e>
 
     <e><p><l>jag<s n="pron"/></l><r>jeg<s n="pron"/></r></p></e>
     <e><p><l>du<s n="pron"/></l><r>du<s n="pron"/></r></p></e>
@@ -92,6 +100,11 @@
     <e><p><l>vi<s n="pron"/></l><r>vi<s n="pron"/></r></p></e>
     <e><p><l>ni<s n="pron"/></l><r>dere<s n="pron"/></r></p></e>
     <e><p><l>de<s n="pron"/></l><r>de<s n="pron"/></r></p></e>
+
+    <e><p><l>var<s n="pron"/></l><r>hvor<s n="pron"/></r></p></e>
+    <e><p><l>varför<s n="pron"/></l><r>hvorfor<s n="pron"/></r></p></e>
+    <e><p><l>vad<s n="pron"/></l><r>hva<s n="pron"/></r></p></e>
+    <e><p><l>vart<s n="pron"/></l><r>hvorhen<s n="pron"/></r></p></e>
 
     <e><p><l>vara<s n="v"/></l><r>være<s n="v"/></r></p></e>
     <e><p><l>veta<s n="v"/></l><r>vite<s n="v"/></r></p></e>
@@ -131,6 +144,17 @@
     <e><p><l>glad<s n="adj"/></l><r>glad<s n="adj"/></r></p></e>
     <e><p><l>gammal<s n="adj"/></l><r>gammel<s n="adj"/></r></p></e>
     <e><p><l>stor<s n="adj"/></l><r>stor<s n="adj"/></r></p></e>
+    <e><p><l>liten<s n="adj"/></l><r>liten<s n="adj"/></r></p></e>
+
+    <e><p><l>två<s n="num"/></l><r>to<s n="num"/></r></p></e>
+    <e><p><l>tre<s n="num"/></l><r>tre<s n="num"/></r></p></e>
+    <e><p><l>fyra<s n="num"/></l><r>fire<s n="num"/></r></p></e>
+    <e><p><l>fem<s n="num"/></l><r>fem<s n="num"/></r></p></e>
+    <e><p><l>sex<s n="num"/></l><r>seks<s n="num"/></r></p></e>
+    <e><p><l>sju<s n="num"/></l><r>sju<s n="num"/></r></p></e>
+    <e><p><l>åtta<s n="num"/></l><r>åtte<s n="num"/></r></p></e>
+    <e><p><l>nio<s n="num"/></l><r>ni<s n="num"/></r></p></e>
+    <e><p><l>tio<s n="num"/></l><r>ti<s n="num"/></r></p></e>
 
   </section>
 </dictionary>
