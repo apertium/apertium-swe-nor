@@ -35,29 +35,75 @@ Multichar_Symbols
 %<prep%>
 %<num%>
 
+A1 ! Archiphoneme for a:0 alternations
+E1 ! Archiphoneme for e:0 alternations
+
 %  ! The space char as multichar.
 
 LEXICON Root
 
 Nouns ;
+Adjectives ;
+Adverbs ;
 Prepositions ;
 Propernouns ;
 Conjunctions ;
 Verbs ;
 
 LEXICON m1
-
 %<n%>%<masc%>%<sg%>%<indef%>: # ;
 %<n%>%<masc%>%<sg%>%<def%>:en # ;
 %<n%>%<masc%>%<pl%>%<indef%>:er # ;
 %<n%>%<masc%>%<pl%>%<def%>:ene # ;
 
 LEXICON m1e
-
 %<n%>%<masc%>%<sg%>%<indef%>: # ;
 %<n%>%<masc%>%<sg%>%<def%>:n # ;
 %<n%>%<masc%>%<pl%>%<indef%>:r # ;
 %<n%>%<masc%>%<pl%>%<def%>:ne # ;
+
+LEXICON f2
+%<n%>%<fem%>%<sg%>%<indef%>: # ;
+%<n%>%<fem%>%<sg%>%<def%>:a # ;
+%<n%>%<fem%>%<pl%>%<indef%>:er # ;
+%<n%>%<fem%>%<pl%>%<def%>:ene # ;
+
+LEXICON n1
+%<n%>%<neu%>%<sg%>%<indef%>: # ;
+%<n%>%<neu%>%<sg%>%<def%>:et # ;
+%<n%>%<neu%>%<pl%>%<indef%>: # ;
+%<n%>%<neu%>%<pl%>%<def%>:ene # ;
+
+LEXICON n1e
+%<n%>%<neu%>%<sg%>%<indef%>:  # ;
+%<n%>%<neu%>%<sg%>%<def%>:t   # ;
+%<n%>%<neu%>%<pl%>%<indef%>:r # ;
+%<n%>%<neu%>%<pl%>%<def%>:ne  # ;
+
+LEXICON Adj-lex
+%<adj%>%<masc%>%<sg%>%<indef%>: # ;
+%<adj%>%<fem%>%<sg%>%<indef%>:  # ;
+%<adj%>%<neu%>%<sg%>%<indef%>:t # ;
+%<adj%>%<pl%>:e  # ;
+%<adj%>%<def%>:e # ;
+
+LEXICON Adj-ig-lex
+%<adj%>%<masc%>%<sg%>%<indef%>: # ;
+%<adj%>%<fem%>%<sg%>%<indef%>:  # ;
+%<adj%>%<neu%>%<sg%>%<indef%>: # ;
+%<adj%>%<pl%>:e  # ;
+%<adj%>%<def%>:e # ;
+
+LEXICON Adj-liten-lex
+%<adj%>%<masc%>%<sg%>%<indef%>:liten  # ;
+%<adj%>%<fem%>%<sg%>%<indef%>:lita  # ;
+%<adj%>%<neu%>%<sg%>%<indef%>:lite # ;
+%<adj%>%<pl%>%<indef%>:små  # ;
+%<adj%>%<sg%>%<def%>:lille # ;
+%<adj%>%<pl%>%<def%>:småe  # ;
+
+LEXICON Adv-lex
+%<adv%>: # ;
 
 LEXICON Conj-lex
 %<conj%>: # ;
@@ -130,8 +176,65 @@ LEXICON V-drikke-lex
 
 LEXICON Nouns
 
-hund m1 ;
-hage m1e ;
+hund             m1  "house"     ;
+hus              n1  "house"     ;
+hage             m1e "garden"    ;
+tre              n1  "tree"      ;
+svar             n1  "answer"    ;
+år               n1  "year"      ;
+mamma            m1  "mother"    ;
+katt             m1  "cat"       ;
+veg              m1  "way, road" ;
+jente:jent       f2  "girl"      ;
+dag              m1  "day"       ;
+vær              n1 "weather"    ;
+!fönster:fönstE1r N2 "window"    ;
+!syster:systE1r   N1 "sister"    ;
+stol             m1  "chair"     ;
+lyd              m1  "sound"     ;
+bord             n1  "table"     ;
+barn             n1  "child"     ;
+dyr              n1  "animal"    ;
+hode             n1e "head"      ;
+folk             n1  "people"    ;
+gutt             m1  "boy"       ;
+
+LEXICON Adverbs
+
+ikke     Adv-lex ;
+også     Adv-lex ;
+når      Adv-lex ;
+selv% om Adv-lex ;
+da       Adv-lex ;
+der      Adv-lex ;
+nå       Adv-lex ;
+aldri    Adv-lex ;
+alltid   Adv-lex ;
+selv% om Adv-lex ;
+utendørs Adv-lex ;
+siden    Adv-lex ;
+i% går   Adv-lex ;
+i% dag   Adv-lex ;
+igjen    Adv-lex ;
+så       Adv-lex ;
+sakte    Adv-lex ;
+fortsatt Adv-lex ;
+troligvis   Adv-lex ;
+i% sammen   Adv-lex ;
+naturligvis Adv-lex ;
+
+LEXICON Adjectives
+
+veldig         Adj-ig-lex ;
+tydelig        Adj-ig-lex ;
+kald           Adj-lex ;
+varm           Adj-lex ;
+vakker:vakkE1r Adj-lex ;
+glad:glad      Adj-lex ;
+gammel:gammE1l Adj-lex ;
+stor           Adj-lex ;
+rask           Adj-lex ;
+liten:         Adj-liten-lex ;
 
 LEXICON Conjunctions
 
@@ -157,6 +260,7 @@ gjennom Prep-lex ;
 etter   Prep-lex ;
 fra     Prep-lex ;
 inni    Prep-lex ;
+inne% i Prep-lex ;
 
 LEXICON Propernouns
 Mary  Proper-lex ;

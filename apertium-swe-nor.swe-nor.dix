@@ -41,6 +41,7 @@
     <e><p><l>huvud<s n="n"/><s n="neu"/></l><r>hode<s n="n"/><s n="neu"/></r></p></e>
     <e><p><l>pojke<s n="n"/><s n="utr"/></l><r>gutt<s n="n"/><s n="masc"/></r></p></e>
     <e><p><l>syster<s n="n"/><s n="utr"/></l><r>søster<s n="n"/><s n="fem"/></r></p></e>
+    <e><p><l>fråga<s n="n"/><s n="utr"/></l><r>spørsmål<s n="n"/><s n="neu"/></r></p></e>
 
     <e><p><l>Mary<s n="n"/><s n="prop"/></l><r>Mary<s n="n"/><s n="prop"/></r></p></e>
     <e><p><l>James<s n="n"/><s n="prop"/></l><r>James<s n="n"/><s n="prop"/></r></p></e>
@@ -63,8 +64,8 @@
     <e><p><l>i<b/>går<s n="adv"/></l><r>i<b/>går<s n="adv"/></r></p></e>
     <e><p><l>i<b/>dag<s n="adv"/></l><r>i<b/>dag<s n="adv"/></r></p></e>
     <e><p><l>tillsammans<s n="adv"/></l><r>i<b/>sammen<s n="adv"/></r></p></e>
-    <e><p><l>igen<s n="adv"/></l><r>i<b/>igjen<s n="adv"/></r></p></e>
-    <e><p><l>naturligtvis<s n="adv"/></l><r>i<b/>naturligvis<s n="adv"/></r></p></e>
+    <e><p><l>igen<s n="adv"/></l><r>igjen<s n="adv"/></r></p></e>
+    <e><p><l>naturligtvis<s n="adv"/></l><r>naturligvis<s n="adv"/></r></p></e>
     <e><p><l>troligen<s n="adv"/></l><r>i<b/>sannsynligvis<s n="adv"/></r></p></e>
 
     <e><p><l>i<s n="prep"/></l><r>i<s n="prep"/></r></p></e>
@@ -83,6 +84,7 @@
     <e><p><l>genom<s n="prep"/></l><r>gjennom<s n="prep"/></r></p></e>
     <e><p><l>efter<s n="prep"/></l><r>etter<s n="prep"/></r></p></e>
     <e><p><l>från<s n="prep"/></l><r>fra<s n="prep"/></r></p></e>
+    <e><p><l>inuti<s n="prep"/></l><r>inne<b/>i<s n="prep"/></r></p></e>
 
     <e><p><l>och<s n="conj"/></l><r>og<s n="conj"/></r></p></e>
     <e><p><l>men<s n="conj"/></l><r>men<s n="conj"/></r></p></e>
