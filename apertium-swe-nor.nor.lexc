@@ -174,14 +174,24 @@ LEXICON Verbs
      få:f      V-gå-lex ;
      ta:t      V-ta-lex ;
 
+!le
+!finne
+!fortelle
+!spørre
+
 ! Regular verbs:
-  tenke:tenk   V-e-lex ;
-   leke:lek    V-a-lex ;
-  svare:svar   V-a-lex ;
-   lete:let    V-a-lex ;
-  titte:titt   V-a-lex ;
-  regne:regn   V-a-lex ;
-  prate:prat   V-a-lex ;
-  elske:elsk   V-a-lex ;
-  gille:gill   V-a-lex ;
- slutte:slutt  V-a-lex ;
+    tenke:tenk     V-e-lex ;
+     leke:lek      V-a-lex ;
+    svare:svar     V-a-lex ;
+     lete:let      V-a-lex ;
+    titte:titt     V-a-lex ;
+    regne:regn     V-a-lex ;
+    prate:prat     V-a-lex ;
+    elske:elsk     V-a-lex ;
+   slutte:slutt    V-a-lex ;
+    spise:spis     V-e-lex ;
+   snakke:snakk    V-a-lex ;
+     tale:tal      V-e-lex ;
+     like:lik      V-e-lex ;
+undersøke:undersøk V-e-lex ;
+    lytte:lytt     V-a-lex ;
