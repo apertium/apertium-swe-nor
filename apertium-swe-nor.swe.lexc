@@ -97,8 +97,9 @@ LEXICON Conj-lex
 %<conj%>: # ;
 
 LEXICON Det-en-lex
-%<det%>%<indef%>%<utr%>:n # ;
-%<det%>%<indef%>%<neu%>:tt # ;
+%<det%>%<sg%>%<indef%>%<utr%>:n  # ;
+%<det%>%<sg%>%<indef%>%<neu%>:tt # ;
+%<det%>%<pl%>%<indef%>:na        # ;
 
 LEXICON Det-den-lex
 %<det%>%<def%>%<utr%>:n # ;
