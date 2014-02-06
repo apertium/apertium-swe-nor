@@ -1,40 +1,27 @@
+#                                               -*- Autoconf -*-
+# Process this file with autoconf to produce a configure script.
+
+
 AC_PREREQ(2.52)
 
-AC_INIT([apertium-swe-nor], [0.1.0], [unknown@users.sourceforge.net])
-AM_INIT_AUTOMAKE([apertium-swe-nor], [0.1.0], no-define)
+m4_define([required_apertium_version], [3.2.0])
+m4_define([required_lttoolbox_version], [3.2.0])
+
+AC_INIT([apertium-swe-nor], [1.0.0], [Jonas Fromseier Mortensen <lst190@alumni.ku.dk>])
+AM_INIT_AUTOMAKE([apertium-swe-nor], [1.0.0], no-define)
 AC_PROG_LN_S
 AC_PROG_AWK
+#AC_CONFIG_HEADER([config])
 
-m4_define([required_apertium_version], [3.2.0])
-PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version, [], [PKG_CHECK_MODULES(APERTIUM,   apertium-3.2 >= required_apertium_version)])
-                          
-
-AC_PATH_PROG(HFSTLEXC, hfst-lexc, no)
-if test x$ac_cv_path_HFSTLEXC = x
-then
-  AC_MSG_ERROR([You don't have hfst-lexc installed.])
-fi
-if test x$ac_cv_path_HFSTLEXC = xno
-then
-  AC_MSG_ERROR([You don't have hfst-lexc installed.])
-fi
-
-AC_PATH_PROG(HFSTTWOLC, hfst-twolc, no)
-if test x$ac_cv_path_HFSTTWOLC = x
-then
-  AC_MSG_ERROR([You don't have hfst-twolc installed.])
-fi
-if test x$ac_cv_path_HFSTTWOLC = xno
-then
-  AC_MSG_ERROR([You don't have hfst-twolc installed.])
-fi
+PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version, [], [PKG_CHECK_MODULES(APERTIUM,   apertium >= required_apertium_version)])
+PKG_CHECK_MODULES(LTTOOLBOX,   lttoolbox >= required_lttoolbox_version, [], [PKG_CHECK_MODULES(LTTOOLBOX,   lttoolbox >= required_lttoolbox_version)])
 
 AC_PATH_PROG(CGCOMP, cg-comp, no)
 if test x$ac_cv_path_CGCOMP = x
 then
   AC_MSG_ERROR([You don't have cg-comp installed.])
 fi
-if test x$ac_cv_path_CGCOMP = xno
+if test x$ac_cv_path_CGPROC = xno
 then
   AC_MSG_ERROR([You don't have cg-comp installed.])
 fi
@@ -69,6 +56,19 @@ then
   AC_MSG_ERROR([You don't have lrx-proc installed.])
 fi
 
+AC_PATH_PROG(XSLTPROC, xsltproc, no)
+if test x$ac_cv_path_XSLTPROC = x
+then
+  AC_MSG_ERROR([You don't have xsltproc installed.])
+fi
+if test x$ac_cv_path_XSLTPROC = xno
+then
+  AC_MSG_ERROR([You don't have xsltproc installed.])
+fi
+
+
+
+
+
 
 AC_OUTPUT([Makefile])
-
