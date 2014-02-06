@@ -3,160 +3,462 @@
   <sdefs>
     <sdef n="n"    c="Noun"/>
     <sdef n="prop" c="Proper (noun)"/>
-    <sdef n="utr"  c="Utrum"/>
-    <sdef n="neu"  c="Neutrum"/>
-    <sdef n="masc" c="Masculine"/>
-    <sdef n="fem"  c="Feminine"/>
+    <sdef n="ut"  c="Utrum"/>
+    <sdef n="nt"  c="Neutrum"/>
+    <sdef n="m" c="Masculine"/>
+    <sdef n="f"  c="Feminine"/>
     <sdef n="adv"  c="Adverb"/>
-    <sdef n="prep" c="Preposition"/>
-    <sdef n="conj" c="Conjunction"/>
-    <sdef n="v"    c="Verb"/>
+    <sdef n="pr" c="Preposition"/>
+    <sdef n="cnjcoo" c="Conjunction"/>
+    <sdef n="vblex"    c="Verb"/>
     <sdef n="adj"  c="Adjective"/>
     <sdef n="det"  c="Determiner"/>
-    <sdef n="pron" c="Pronoun"/>
+    <sdef n="prn" c="Pronoun"/>
     <sdef n="num"  c="Numeral"/>
-    <sdef n="qst"  c="Question (pronoun)"/>
+    <sdef n="itg"  c="Question (pronoun)"/>
   </sdefs>
 
   <section id="main" type="standard">
 
-    <e><p><l>hund<s n="n"/><s n="utr"/></l><r>hund<s n="n"/><s n="masc"/></r></p></e>
-    <e><p><l>stol<s n="n"/><s n="utr"/></l><r>stol<s n="n"/><s n="masc"/></r></p></e>
-    <e><p><l>hus<s n="n"/><s n="neu"/></l><r>hus<s n="n"/><s n="neu"/></r></p></e>
-    <e><p><l>svar<s n="n"/><s n="utr"/></l><r>svar<s n="n"/><s n="masc"/></r></p></e>
-    <e><p><l>ljud<s n="n"/><s n="neu"/></l><r>lyd<s n="n"/><s n="masc"/></r></p></e>
-    <e><p><l>träd<s n="n"/><s n="neu"/></l><r>tre<s n="n"/><s n="neu"/></r></p></e>
-    <e><p><l>år<s n="n"/><s n="neu"/></l><r>år<s n="n"/><s n="neu"/></r></p></e>
-    <e><p><l>trädgård<s n="n"/><s n="utr"/></l><r>hage<s n="n"/><s n="masc"/></r></p></e>
-    <e><p><l>mamma<s n="n"/><s n="utr"/></l><r>mor<s n="n"/><s n="fem"/></r></p></e>
-    <e><p><l>katt<s n="n"/><s n="utr"/></l><r>katt<s n="n"/><s n="masc"/></r></p></e>
-    <e><p><l>väg<s n="n"/><s n="utr"/></l><r>veg<s n="n"/><s n="masc"/></r></p></e>
-    <e><p><l>flicka<s n="n"/><s n="utr"/></l><r>jente<s n="n"/><s n="fem"/></r></p></e>
-    <e><p><l>dag<s n="n"/><s n="utr"/></l><r>dag<s n="n"/><s n="masc"/></r></p></e>
-    <e><p><l>väder<s n="n"/><s n="neu"/></l><r>vær<s n="n"/><s n="neu"/></r></p></e>
-    <e><p><l>fönster<s n="n"/><s n="neu"/></l><r>vindu<s n="n"/><s n="neu"/></r></p></e>
-    <e><p><l>bord<s n="n"/><s n="neu"/></l><r>bord<s n="n"/><s n="neu"/></r></p></e>
-    <e><p><l>barn<s n="n"/><s n="neu"/></l><r>barn<s n="n"/><s n="neu"/></r></p></e>
-    <e><p><l>djur<s n="n"/><s n="neu"/></l><r>dyr<s n="n"/><s n="neu"/></r></p></e>
-    <e><p><l>huvud<s n="n"/><s n="neu"/></l><r>hode<s n="n"/><s n="neu"/></r></p></e>
-    <e><p><l>pojke<s n="n"/><s n="utr"/></l><r>gutt<s n="n"/><s n="masc"/></r></p></e>
-    <e><p><l>syster<s n="n"/><s n="utr"/></l><r>søster<s n="n"/><s n="fem"/></r></p></e>
-    <e><p><l>fråga<s n="n"/><s n="utr"/></l><r>spørsmål<s n="n"/><s n="neu"/></r></p></e>
+    <!-- SECTION: Conjunctions -->
 
-    <e><p><l>Mary<s n="n"/><s n="prop"/></l><r>Mary<s n="n"/><s n="prop"/></r></p></e>
-    <e><p><l>James<s n="n"/><s n="prop"/></l><r>James<s n="n"/><s n="prop"/></r></p></e>
+    <e><p><l>att<s n="cnjcoo"/></l><r>at<s n="cnjcoo"/></r></p></e>
+    <e><p><l>eller<s n="cnjcoo"/></l><r>eller<s n="cnjcoo"/></r></p></e>
+    <e><p><l>men<s n="cnjcoo"/></l><r>men<s n="cnjcoo"/></r></p></e>
+    <e><p><l>och<s n="cnjcoo"/></l><r>og<s n="cnjcoo"/></r></p></e>
 
-    <e><p><l>inte<s n="adv"/></l><r>ikke<s n="adv"/></r></p></e>
-    <e><p><l>också<s n="adv"/></l><r>også<s n="adv"/></r></p></e>
-    <e><p><l>när<s n="adv"/></l><r>når<s n="adv"/></r></p></e>
-    <e><p><l>även<s n="adv"/></l><r>selv<b/>om<s n="adv"/></r></p></e>
-    <e><p><l>då<s n="adv"/></l><r>da<s n="adv"/></r></p></e>
-    <e><p><l>där<s n="adv"/></l><r>der<s n="adv"/></r></p></e>
-    <e><p><l>nu<s n="adv"/></l><r>nå<s n="adv"/></r></p></e>
-    <e><p><l>aldrig<s n="adv"/></l><r>aldri<s n="adv"/></r></p></e>
-    <e><p><l>alltid<s n="adv"/></l><r>alltid<s n="adv"/></r></p></e>
-    <e><p><l>fast<s n="adv"/></l><r>men<s n="adv"/></r></p></e>
-    <e><p><l>fast<s n="adv"/></l><r>selv<b/>om<s n="adv"/></r></p></e>
-    <e><p><l>fast<s n="adv"/></l><r>bortsett<b/>fra<s n="adv"/></r></p></e>
-    <e><p><l>fast<s n="adv"/></l><r>foruten<s n="adv"/></r></p></e>
-    <e><p><l>utomhus<s n="adv"/></l><r>utendørs<s n="adv"/></r></p></e>
-    <e><p><l>sedan<s n="adv"/></l><r>siden<s n="adv"/></r></p></e>
-    <e><p><l>i<b/>går<s n="adv"/></l><r>i<b/>går<s n="adv"/></r></p></e>
-    <e><p><l>i<b/>dag<s n="adv"/></l><r>i<b/>dag<s n="adv"/></r></p></e>
-    <e><p><l>tillsammans<s n="adv"/></l><r>i<b/>sammen<s n="adv"/></r></p></e>
-    <e><p><l>igen<s n="adv"/></l><r>igjen<s n="adv"/></r></p></e>
-    <e><p><l>naturligtvis<s n="adv"/></l><r>naturligvis<s n="adv"/></r></p></e>
-    <e><p><l>troligen<s n="adv"/></l><r>i<b/>sannsynligvis<s n="adv"/></r></p></e>
+    <!-- SECTION: Prepositions -->
 
-    <e><p><l>i<s n="prep"/></l><r>i<s n="prep"/></r></p></e>
-    <e><p><l>på<s n="prep"/></l><r>på<s n="prep"/></r></p></e>
-    <e><p><l>över<s n="prep"/></l><r>over<s n="prep"/></r></p></e>
-    <e><p><l>under<s n="prep"/></l><r>under<s n="prep"/></r></p></e>
-    <e><p><l>för<s n="prep"/></l><r>for<s n="prep"/></r></p></e>
-    <e><p><l>ut<s n="prep"/></l><r>ut<s n="prep"/></r></p></e>
-    <e><p><l>till<s n="prep"/></l><r>til<s n="prep"/></r></p></e>
-    <e><p><l>med<s n="prep"/></l><r>med<s n="prep"/></r></p></e>
-    <e><p><l>framför<s n="prep"/></l><r>foran<s n="prep"/></r></p></e>
-    <e><p><l>framför<s n="prep"/></l><r>framfor<s n="prep"/></r></p></e>
-    <e><p><l>bakom<s n="prep"/></l><r>bakenfor<s n="prep"/></r></p></e>
-    <e><p><l>om<s n="prep"/></l><r>om<s n="prep"/></r></p></e>
-    <e><p><l>att<s n="prep"/></l><r>å<s n="prep"/></r></p></e>
-    <e><p><l>genom<s n="prep"/></l><r>gjennom<s n="prep"/></r></p></e>
-    <e><p><l>efter<s n="prep"/></l><r>etter<s n="prep"/></r></p></e>
-    <e><p><l>från<s n="prep"/></l><r>fra<s n="prep"/></r></p></e>
-    <e><p><l>inuti<s n="prep"/></l><r>inne<b/>i<s n="prep"/></r></p></e>
+    <e><p><l>att<s n="pr"/></l><r>å<s n="pr"/></r></p></e>
+    <e><p><l>bakom<s n="pr"/></l><r>bakenfor<s n="pr"/></r></p></e>
+    <e><p><l>efter<s n="pr"/></l><r>etter<s n="pr"/></r></p></e>
+    <e><p><l>för<s n="pr"/></l><r>for<s n="pr"/></r></p></e>
+    <e><p><l>framför<s n="pr"/></l><r>foran<s n="pr"/></r></p></e>
+    <e><p><l>framför<s n="pr"/></l><r>framfor<s n="pr"/></r></p></e>
+    <e><p><l>från<s n="pr"/></l><r>fra<s n="pr"/></r></p></e>
+    <e><p><l>genom<s n="pr"/></l><r>gjennom<s n="pr"/></r></p></e>
+    <e><p><l>inuti<s n="pr"/></l><r>inne<b/>i<s n="pr"/></r></p></e>
+    <e><p><l>i<s n="pr"/></l><r>i<s n="pr"/></r></p></e>
+    <e><p><l>med<s n="pr"/></l><r>med<s n="pr"/></r></p></e>
+    <e><p><l>om<s n="pr"/></l><r>om<s n="pr"/></r></p></e>
+    <e><p><l>över<s n="pr"/></l><r>over<s n="pr"/></r></p></e>
+    <e><p><l>på<s n="pr"/></l><r>på<s n="pr"/></r></p></e>
+    <e><p><l>till<s n="pr"/></l><r>til<s n="pr"/></r></p></e>
+    <e><p><l>under<s n="pr"/></l><r>under<s n="pr"/></r></p></e>
+    <e><p><l>ut<s n="pr"/></l><r>ut<s n="pr"/></r></p></e>
 
-    <e><p><l>och<s n="conj"/></l><r>og<s n="conj"/></r></p></e>
-    <e><p><l>men<s n="conj"/></l><r>men<s n="conj"/></r></p></e>
-    <e><p><l>att<s n="conj"/></l><r>at<s n="conj"/></r></p></e>
-    <e><p><l>eller<s n="conj"/></l><r>eller<s n="conj"/></r></p></e>
+    <!-- SECTION: Pronouns -->
 
-    <e><p><l>en<s n="det"/></l><r>en<s n="det"/></r></p></e>
+    <e><p><l>de<s n="prn"/></l><r>de<s n="prn"/></r></p></e>
+    <e><p><l>det<s n="prn"/></l><r>det<s n="prn"/></r></p></e>
+    <e><p><l>du<s n="prn"/></l><r>du<s n="prn"/></r></p></e>
+    <e><p><l>han<s n="prn"/></l><r>han<s n="prn"/></r></p></e>
+    <e><p><l>hon<s n="prn"/></l><r>hun<s n="prn"/></r></p></e>
+    <e><p><l>jag<s n="prn"/></l><r>jeg<s n="prn"/></r></p></e>
+    <e><p><l>ni<s n="prn"/></l><r>dere<s n="prn"/></r></p></e>
+    <e><p><l>vad<s n="prn"/></l><r>hva<s n="prn"/></r></p></e>
+    <e><p><l>varför<s n="prn"/></l><r>hvorfor<s n="prn"/></r></p></e>
+    <e><p><l>var<s n="prn"/></l><r>hvor<s n="prn"/></r></p></e>
+    <e><p><l>vart<s n="prn"/></l><r>hvorhen<s n="prn"/></r></p></e>
+    <e><p><l>vi<s n="prn"/></l><r>vi<s n="prn"/></r></p></e>
+
+    <!-- SECTION: Determiners -->
+
     <e><p><l>den<s n="det"/></l><r>den<s n="det"/></r></p></e>
+    <e><p><l>en<s n="det"/></l><r>en<s n="det"/></r></p></e>
 
-    <e><p><l>jag<s n="pron"/></l><r>jeg<s n="pron"/></r></p></e>
-    <e><p><l>du<s n="pron"/></l><r>du<s n="pron"/></r></p></e>
-    <e><p><l>hon<s n="pron"/></l><r>hun<s n="pron"/></r></p></e>
-    <e><p><l>han<s n="pron"/></l><r>han<s n="pron"/></r></p></e>
-    <e><p><l>det<s n="pron"/></l><r>det<s n="pron"/></r></p></e>
-    <e><p><l>vi<s n="pron"/></l><r>vi<s n="pron"/></r></p></e>
-    <e><p><l>ni<s n="pron"/></l><r>dere<s n="pron"/></r></p></e>
-    <e><p><l>de<s n="pron"/></l><r>de<s n="pron"/></r></p></e>
+    <!-- SECTION: Numerals -->
 
-    <e><p><l>var<s n="pron"/></l><r>hvor<s n="pron"/></r></p></e>
-    <e><p><l>varför<s n="pron"/></l><r>hvorfor<s n="pron"/></r></p></e>
-    <e><p><l>vad<s n="pron"/></l><r>hva<s n="pron"/></r></p></e>
-    <e><p><l>vart<s n="pron"/></l><r>hvorhen<s n="pron"/></r></p></e>
-
-    <e><p><l>vara<s n="v"/></l><r>være<s n="v"/></r></p></e>
-    <e><p><l>veta<s n="v"/></l><r>vite<s n="v"/></r></p></e>
-    <e><p><l>kunna<s n="v"/></l><r>kunne<s n="v"/></r></p></e>
-    <e><p><l>dricka<s n="v"/></l><r>drikke<s n="v"/></r></p></e>
-    <e><p><l>äta<s n="v"/></l><r>spise<s n="v"/></r></p></e>
-    <e><p><l>ha<s n="v"/></l><r>ha<s n="v"/></r></p></e>
-    <e><p><l>se<s n="v"/></l><r>se<s n="v"/></r></p></e>
-    <e><p><l>gå<s n="v"/></l><r>gå<s n="v"/></r></p></e>
-    <e><p><l>ta<s n="v"/></l><r>ta<s n="v"/></r></p></e>
-    <e><p><l>tänka<s n="v"/></l><r>tenke<s n="v"/></r></p></e>
-    <e><p><l>skratta<s n="v"/></l><r>le<s n="v"/></r></p></e>
-    <e><p><l>leka<s n="v"/></l><r>leke<s n="v"/></r></p></e>
-    <e><p><l>leka<s n="v"/></l><r>gå<b/>opp<s n="v"/></r></p></e>
-    <e><p><l>hitta<s n="v"/></l><r>finne<s n="v"/></r></p></e>
-    <e><p><l>svara<s n="v"/></l><r>svare<s n="v"/></r></p></e>
-    <e><p><l>berätta<s n="v"/></l><r>fortelle<s n="v"/></r></p></e>
-    <e><p><l>leta<s n="v"/></l><r>lete<s n="v"/></r></p></e>
-    <e><p><l>titta<s n="v"/></l><r>titte<s n="v"/></r></p></e>
-    <e><p><l>tala<s n="v"/></l><r>snakke<s n="v"/></r></p></e>
-    <e><p><l>tala<s n="v"/></l><r>tale<s n="v"/></r></p></e>
-    <e><p><l>fråga<s n="v"/></l><r>spørre<s n="v"/></r></p></e>
-    <e><p><l>räkna<s n="v"/></l><r>regne<s n="v"/></r></p></e>
-    <e><p><l>prata<s n="v"/></l><r>prate<s n="v"/></r></p></e>
-    <e><p><l>älska<s n="v"/></l><r>elske<s n="v"/></r></p></e>
-    <e><p><l>gilla<s n="v"/></l><r>like<s n="v"/></r></p></e>
-    <e><p><l>kolla<s n="v"/></l><r>undersøke<s n="v"/></r></p></e>
-    <e><p><l>lyssna<s n="v"/></l><r>lytte<s n="v"/></r></p></e>
-    <e><p><l>lyssna<s n="v"/></l><r>lytte<b/>etter<s n="v"/></r></p></e>
-    <e><p><l>sluta<s n="v"/></l><r>slutte<s n="v"/></r></p></e>
-
-    <e><p><l>väldig<s n="adj"/></l><r>veldig<s n="adj"/></r></p></e>
-    <e><p><l>tydlig<s n="adj"/></l><r>tydelig<s n="adj"/></r></p></e>
-    <e><p><l>kall<s n="adj"/></l><r>kald<s n="adj"/></r></p></e>
-    <e><p><l>varm<s n="adj"/></l><r>varm<s n="adj"/></r></p></e>
-    <e><p><l>vacker<s n="adj"/></l><r>vakker<s n="adj"/></r></p></e>
-    <e><p><l>glad<s n="adj"/></l><r>glad<s n="adj"/></r></p></e>
-    <e><p><l>gammal<s n="adj"/></l><r>gammel<s n="adj"/></r></p></e>
-    <e><p><l>stor<s n="adj"/></l><r>stor<s n="adj"/></r></p></e>
-    <e><p><l>liten<s n="adj"/></l><r>liten<s n="adj"/></r></p></e>
-
-    <e><p><l>två<s n="num"/></l><r>to<s n="num"/></r></p></e>
-    <e><p><l>tre<s n="num"/></l><r>tre<s n="num"/></r></p></e>
-    <e><p><l>fyra<s n="num"/></l><r>fire<s n="num"/></r></p></e>
+    <e><p><l>åtta<s n="num"/></l><r>åtte<s n="num"/></r></p></e>
     <e><p><l>fem<s n="num"/></l><r>fem<s n="num"/></r></p></e>
+    <e><p><l>fyra<s n="num"/></l><r>fire<s n="num"/></r></p></e>
+    <e><p><l>nio<s n="num"/></l><r>ni<s n="num"/></r></p></e>
     <e><p><l>sex<s n="num"/></l><r>seks<s n="num"/></r></p></e>
     <e><p><l>sju<s n="num"/></l><r>sju<s n="num"/></r></p></e>
-    <e><p><l>åtta<s n="num"/></l><r>åtte<s n="num"/></r></p></e>
-    <e><p><l>nio<s n="num"/></l><r>ni<s n="num"/></r></p></e>
     <e><p><l>tio<s n="num"/></l><r>ti<s n="num"/></r></p></e>
+    <e><p><l>tre<s n="num"/></l><r>tre<s n="num"/></r></p></e>
+    <e><p><l>två<s n="num"/></l><r>to<s n="num"/></r></p></e>
+
+    <!-- SECTION: Nouns  -->
+
+    <e><p><l>år<s n="n"/><s n="nt"/></l><r>år<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>barn<s n="n"/><s n="nt"/></l><r>barn<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>bord<s n="n"/><s n="nt"/></l><r>bord<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>dag<s n="n"/><s n="ut"/></l><r>dag<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>djur<s n="n"/><s n="nt"/></l><r>dyr<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>flicka<s n="n"/><s n="ut"/></l><r>jente<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>fönster<s n="n"/><s n="nt"/></l><r>vindu<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>fråga<s n="n"/><s n="ut"/></l><r>spørsmål<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>hund<s n="n"/><s n="ut"/></l><r>hund<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>hus<s n="n"/><s n="nt"/></l><r>hus<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>huvud<s n="n"/><s n="nt"/></l><r>hode<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>katt<s n="n"/><s n="ut"/></l><r>katt<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>ljud<s n="n"/><s n="nt"/></l><r>lyd<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>mamma<s n="n"/><s n="ut"/></l><r>mor<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>pojke<s n="n"/><s n="ut"/></l><r>gutt<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>stol<s n="n"/><s n="ut"/></l><r>stol<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>svar<s n="n"/><s n="ut"/></l><r>svar<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>syster<s n="n"/><s n="ut"/></l><r>søster<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>trädgård<s n="n"/><s n="ut"/></l><r>hage<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>träd<s n="n"/><s n="nt"/></l><r>tre<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>väder<s n="n"/><s n="nt"/></l><r>vær<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>väg<s n="n"/><s n="ut"/></l><r>veg<s n="n"/><s n="m"/></r></p></e>
+
+    <!-- SECTION: Proper nouns -->
+
+    <e><p><l>James<s n="np"/><s n="ant"/></l><r>James<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>Mary<s n="np"/><s n="ant"/></l><r>Mary<s n="np"/><s n="ant"/></r></p></e>
+
+    <!-- SECTION: Adjectives -->
+
+    <e><p><l>absolut<s n="adj"/></l><r>absolutt<s n="adj"/></r></p></e>
+    <e><p><l>afrikansk<s n="adj"/></l><r>afrikansk<s n="adj"/></r></p></e>
+    <e><p><l>akademisk<s n="adj"/></l><r>akademisk<s n="adj"/></r></p></e>
+    <e><p><l>aktiv<s n="adj"/></l><r>aktiv<s n="adj"/></r></p></e>
+    <e><p><l>alldaglig<s n="adj"/></l><r>dagligdags<s n="adj"/></r></p></e>
+    <e><p><l>allvarlig<s n="adj"/></l><r>alvorlig<s n="adj"/></r></p></e>
+    <e><p><l>allvarlig<s n="adj"/></l><r>seriøs<s n="adj"/></r></p></e>
+    <e><p><l>amerikansk<s n="adj"/></l><r>amerikansk<s n="adj"/></r></p></e>
+    <e><p><l>anonym<s n="adj"/></l><r>anonym<s n="adj"/></r></p></e>
+    <e><p><l>ansvarig<s n="adj"/></l><r>ansvarlig<s n="adj"/></r></p></e>
+    <e><p><l>arbetsam<s n="adj"/></l><r>anstrengende<s n="adj"/></r></p></e>
+    <e><p><l>arbetsam<s n="adj"/></l><r>arbeidsom<s n="adj"/></r></p></e>
+    <e><p><l>asiatisk<s n="adj"/></l><r>asiatisk<s n="adj"/></r></p></e>
+    <e><p><l>australisk<s n="adj"/></l><r>australsk<s n="adj"/></r></p></e>
+    <e><p><l>bar<s n="adj"/></l><r>bar<s n="adj"/></r></p></e>
+    <e><p><l>baskisk<s n="adj"/></l><r>baskisk<s n="adj"/></r></p></e>
+    <e><p><l>belgisk<s n="adj"/></l><r>belgisk<s n="adj"/></r></p></e>
+    <e><p><l>blind<s n="adj"/></l><r>blind<s n="adj"/></r></p></e>
+    <e><p><l>blygsam<s n="adj"/></l><r>beskjeden<s n="adj"/></r></p></e>
+    <e><p><l>brittisk<s n="adj"/></l><r>britisk<s n="adj"/></r></p></e>
+    <e><p><l>brun<s n="adj"/></l><r>brun<s n="adj"/></r></p></e>
+    <e><p><l>central<s n="adj"/></l><r>sentral<s n="adj"/></r></p></e>
+    <e><p><l>cynisk<s n="adj"/></l><r>kynisk<s n="adj"/></r></p></e>
+    <e><p><l>dansk<s n="adj"/></l><r>danske<s n="adj"/></r></p></e>
+    <e><p><l>dansk<s n="adj"/></l><r>dansk<s n="adj"/></r></p></e>
+    <e><p><l>demokratisk<s n="adj"/></l><r>demokratisk<s n="adj"/></r></p></e>
+    <e><p><l>direkt<s n="adj"/></l><r>direkte<s n="adj"/></r></p></e>
+    <e><p><l>diskret<s n="adj"/></l><r>diskré<s n="adj"/></r></p></e>
+    <e><p><l>djup<s n="adj"/></l><r>dybde<s n="adj"/></r></p></e>
+    <e><p><l>dramatisk<s n="adj"/></l><r>dramatisk<s n="adj"/></r></p></e>
+    <e><p><l>dubbel<s n="adj"/></l><r>dobbel<s n="adj"/></r></p></e>
+    <e><p><l>dum<s n="adj"/></l><r>dum<s n="adj"/></r></p></e>
+    <e><p><l>dyrbar<s n="adj"/></l><r>kostbar<s n="adj"/></r></p></e>
+    <e><p><l>egen<s n="adj"/></l><r>egendefinert<s n="adj"/></r></p></e>
+    <e><p><l>egen<s n="adj"/></l><r>egen<s n="adj"/></r></p></e>
+    <e><p><l>ekonomisk<s n="adj"/></l><r>økonomisk<s n="adj"/></r></p></e>
+    <e><p><l>elastisk<s n="adj"/></l><r>elastisk<s n="adj"/></r></p></e>
+    <e><p><l>elektrisk<s n="adj"/></l><r>elektrisk<s n="adj"/></r></p></e>
+    <e><p><l>elektronisk<s n="adj"/></l><r>elektronisk<s n="adj"/></r></p></e>
+    <e><p><l>engelsk<s n="adj"/></l><r>engelsk<s n="adj"/></r></p></e>
+    <e><p><l>ensam<s n="adj"/></l><r>ensom<s n="adj"/></r></p></e>
+    <e><p><l>enskild<s n="adj"/></l><r>enkelt<s n="adj"/></r></p></e>
+    <e><p><l>etnisk<s n="adj"/></l><r>etnisk<s n="adj"/></r></p></e>
+    <e><p><l>europeisk<s n="adj"/></l><r>europeisk<s n="adj"/></r></p></e>
+    <e><p><l>extra<s n="adj"/></l><r>ekstra<s n="adj"/></r></p></e>
+    <e><p><l>extra<s n="adj"/></l><r>ekstra<s n="adj"/></r></p></e>  
+    <e><p><l>faktisk<s n="adj"/></l><r>faktisk<s n="adj"/></r></p></e>
+    <e><p><l>falsk<s n="adj"/></l><r>falsk<s n="adj"/></r></p></e>
+    <e><p><l>falsk<s n="adj"/></l><r>usann<s n="adj"/></r></p></e>
+    <e><p><l>fattig<s n="adj"/></l><r>fattig<s n="adj"/></r></p></e>
+    <e><p><l>finsk<s n="adj"/></l><r>finsk<s n="adj"/></r></p></e>
+    <e><p><l>fransk<s n="adj"/></l><r>fransk<s n="adj"/></r></p></e>
+    <e><p><l>fri<s n="adj"/></l><r>free<s n="adj"/></r></p></e>
+    <e><p><l>fri<s n="adj"/></l><r>fri<s n="adj"/></r></p></e>
+    <e><p><l>fuktig<s n="adj"/></l><r>fuktig<s n="adj"/></r></p></e>
+    <e><p><l>full<s n="adj"/></l><r>full<s n="adj"/></r></p></e>
+    <e><p><l>ful<s n="adj"/></l><r>stygg<s n="adj"/></r></p></e>
+    <e><p><l>gammal<s n="adj"/></l><r>gammel<s n="adj"/></r></p></e>
+    <e><p><l>gen<s n="adj"/></l><r>gen<s n="adj"/></r></p></e>
+    <e><p><l>giftig<s n="adj"/></l><r>giftig<s n="adj"/></r></p></e>
+    <e><p><l>gift<s n="adj"/></l><r>gift<s n="adj"/></r></p></e>
+    <e><p><l>glad<s n="adj"/></l><r>glad<s n="adj"/></r></p></e>
+    <e><p><l>godmodig<s n="adj"/></l><r>godmodig<s n="adj"/></r></p></e>
+    <e><p><l>god<s n="adj"/></l><r>god<s n="adj"/></r></p></e>
+    <e><p><l>grekisk<s n="adj"/></l><r>gresk<s n="adj"/></r></p></e>
+    <e><p><l>grund<s n="adj"/></l><r>grunnet<s n="adj"/></r></p></e>
+    <e><p><l>grund<s n="adj"/></l><r>grunn<s n="adj"/></r></p></e>
+    <e><p><l>grym<s n="adj"/></l><r>grusom<s n="adj"/></r></p></e>
+    <e><p><l>gudomlig<s n="adj"/></l><r>guddommelig<s n="adj"/></r></p></e>
+    <e><p><l>gul<s n="adj"/></l><r>gul<s n="adj"/></r></p></e>
+    <e><p><l>gynnsam<s n="adj"/></l><r>gunstig<s n="adj"/></r></p></e>
+    <e><p><l>havande<s n="adj"/></l><r>gravid<s n="adj"/></r></p></e>
+    <e><p><l>hel<s n="adj"/></l><r>hel<s n="adj"/></r></p></e>
+    <e><p><l>hemsk<s n="adj"/></l><r>forferdelig<s n="adj"/></r></p></e>
+    <e><p><l>hemsk<s n="adj"/></l><r>uhyggelig<s n="adj"/></r></p></e>
+    <e><p><l>het<s n="adj"/></l><r>het<s n="adj"/></r></p></e>
+    <e><p><l>historisk<s n="adj"/></l><r>historisk<s n="adj"/></r></p></e>
+    <e><p><l>hungrig<s n="adj"/></l><r>sulten<s n="adj"/></r></p></e>
+    <e><p><l>hydraulisk<s n="adj"/></l><r>hydraulisk<s n="adj"/></r></p></e>
+    <e><p><l>hygienisk<s n="adj"/></l><r>hygienisk<s n="adj"/></r></p></e>
+    <e><p><l>hysterisk<s n="adj"/></l><r>hysterisk<s n="adj"/></r></p></e>
+    <e><p><l>ideal<s n="adj"/></l><r>ideal<s n="adj"/></r></p></e>
+    <e><p><l>identisk<s n="adj"/></l><r>identisk<s n="adj"/></r></p></e>
+    <e><p><l>indisk<s n="adj"/></l><r>indisk<s n="adj"/></r></p></e>
+    <e><p><l>internationell<s n="adj"/></l><r>internasjonal<s n="adj"/></r></p></e>
+    <e><p><l>intressant<s n="adj"/></l><r>interessant<s n="adj"/></r></p></e>
+    <e><p><l>judisk<s n="adj"/></l><r>jødisk<s n="adj"/></r></p></e>
+    <e><p><l>juridisk<s n="adj"/></l><r>juridisk<s n="adj"/></r></p></e>
+    <e><p><l>kall<s n="adj"/></l><r>kald<s n="adj"/></r></p></e>
+    <e><p><l>kall<s n="adj"/></l><r>kald<s n="adj"/></r></p></e>  
+    <e><p><l>kall<s n="adj"/></l><r>kall<s n="adj"/></r></p></e>
+    <e><p><l>kemisk<s n="adj"/></l><r>kjemisk<s n="adj"/></r></p></e>
+    <e><p><l>kinesisk<s n="adj"/></l><r>kinesisk<s n="adj"/></r></p></e>
+    <e><p><l>klassisk<s n="adj"/></l><r>klassisk<s n="adj"/></r></p></e>
+    <e><p><l>klentrogen<s n="adj"/></l><r>skeptisk<s n="adj"/></r></p></e>
+    <e><p><l>komisk<s n="adj"/></l><r>komisk<s n="adj"/></r></p></e>
+    <e><p><l>komplett<s n="adj"/></l><r>komplett<s n="adj"/></r></p></e>
+    <e><p><l>komplett<s n="adj"/></l><r>tidsplanlegger<s n="adj"/></r></p></e>
+    <e><p><l>konstgjord<s n="adj"/></l><r>kunstig<s n="adj"/></r></p></e>
+    <e><p><l>kritisk<s n="adj"/></l><r>batteri<s n="adj"/></r></p></e>
+    <e><p><l>kritisk<s n="adj"/></l><r>kritisk<s n="adj"/></r></p></e>
+    <e><p><l>krokig<s n="adj"/></l><r>krokete<s n="adj"/></r></p></e>
+    <e><p><l>kvinnlig<s n="adj"/></l><r>kvinnelig<s n="adj"/></r></p></e>
+    <e><p><l>lat<s n="adj"/></l><r>lat<s n="adj"/></r></p></e>
+    <e><p><l>ledsen<s n="adj"/></l><r>lei<s n="adj"/></r></p></e>
+    <e><p><l>liberal<s n="adj"/></l><r>liberal<s n="adj"/></r></p></e>
+    <e><p><l>liknande<s n="adj"/></l><r>lignende<s n="adj"/></r></p></e>
+    <e><p><l>lik<s n="adj"/></l><r>lik<s n="adj"/></r></p></e>
+    <e><p><l>liten<s n="adj"/></l><r>liten<s n="adj"/></r></p></e>
+    <e><p><l>livlig<s n="adj"/></l><r>livlig<s n="adj"/></r></p></e>
+    <e><p><l>ljum<s n="adj"/></l><r>lunken<s n="adj"/></r></p></e>
+    <e><p><l>ljus<s n="adj"/></l><r>lys<s n="adj"/></r></p></e>
+    <e><p><l>ljus<s n="adj"/></l><r>lys<s n="adj"/></r></p></e>  
+    <e><p><l>lojal<s n="adj"/></l><r>lojal<s n="adj"/></r></p></e>
+    <e><p><l>lycklig<s n="adj"/></l><r>lykkelig<s n="adj"/></r></p></e>
+    <e><p><l>lydig<s n="adj"/></l><r>lydig<s n="adj"/></r></p></e>
+    <e><p><l>manlig<s n="adj"/></l><r>mannlig<s n="adj"/></r></p></e>
+    <e><p><l>matematisk<s n="adj"/></l><r>matematisk<s n="adj"/></r></p></e>
+    <e><p><l>matematisk<s n="adj"/></l><r>tegner<s n="adj"/></r></p></e>
+    <e><p><l>materiell<s n="adj"/></l><r>materiell<s n="adj"/></r></p></e>
+    <e><p><l>mekanisk<s n="adj"/></l><r>mekanisk<s n="adj"/></r></p></e>
+    <e><p><l>mild<s n="adj"/></l><r>mild<s n="adj"/></r></p></e>
+    <e><p><l>modern<s n="adj"/></l><r>moderne<s n="adj"/></r></p></e>
+    <e><p><l>mogen<s n="adj"/></l><r>moden<s n="adj"/></r></p></e>
+    <e><p><l>musikalisk<s n="adj"/></l><r>musikalsk<s n="adj"/></r></p></e>
+    <e><p><l>myndig<s n="adj"/></l><r>myndig<s n="adj"/></r></p></e>
+    <e><p><l>mystisk<s n="adj"/></l><r>mystisk<s n="adj"/></r></p></e>
+    <e><p><l>naiv<s n="adj"/></l><r>naiv<s n="adj"/></r></p></e>
+    <e><p><l>naken<s n="adj"/></l><r>naken<s n="adj"/></r></p></e>
+    <e><p><l>nationell<s n="adj"/></l><r>nasjonal<s n="adj"/></r></p></e>
+    <e><p><l>naturlig<s n="adj"/></l><r>naturlig<s n="adj"/></r></p></e>
+    <e><p><l>neutral<s n="adj"/></l><r>nøytral<s n="adj"/></r></p></e>
+    <e><p><l>nordisk<s n="adj"/></l><r>nordisk<s n="adj"/></r></p></e>
+    <e><p><l>normal<s n="adj"/></l><r>normal<s n="adj"/></r></p></e>
+    <e><p><l>norsk<s n="adj"/></l><r>norsk<s n="adj"/></r></p></e>
+    <e><p><l>nyfiken<s n="adj"/></l><r>nysgjerrig<s n="adj"/></r></p></e>
+    <e><p><l>ny<s n="adj"/></l><r>ny<s n="adj"/></r></p></e>
+    <e><p><l>nyttig<s n="adj"/></l><r>nyttig<s n="adj"/></r></p></e>
+    <e><p><l>oduglig<s n="adj"/></l><r>udugelig<s n="adj"/></r></p></e>
+    <e><p><l>officiell<s n="adj"/></l><r>offisiell<s n="adj"/></r></p></e>
+    <e><p><l>ogift<s n="adj"/></l><r>ugift<s n="adj"/></r></p></e>
+    <e><p><l>oklar<s n="adj"/></l><r>uklar<s n="adj"/></r></p></e>
+    <e><p><l>olik<s n="adj"/></l><r>forskjellig<s n="adj"/></r></p></e>
+    <e><p><l>olik<s n="adj"/></l><r>ulik<s n="adj"/></r></p></e>
+    <e><p><l>olycklig<s n="adj"/></l><r>uheldig<s n="adj"/></r></p></e>
+    <e><p><l>olycklig<s n="adj"/></l><r>ulykkelig<s n="adj"/></r></p></e>
+    <e><p><l>oregelbunden<s n="adj"/></l><r>uregelmessig<s n="adj"/></r></p></e>
+    <e><p><l>osann<s n="adj"/></l><r>usann<s n="adj"/></r></p></e>
+    <e><p><l>oskyldig<s n="adj"/></l><r>uskyldig<s n="adj"/></r></p></e>
+    <e><p><l>otacksam<s n="adj"/></l><r>utakknemlig<s n="adj"/></r></p></e>
+    <e><p><l>passiv<s n="adj"/></l><r>passiv<s n="adj"/></r></p></e>
+    <e><p><l>personlig<s n="adj"/></l><r>personlig<s n="adj"/></r></p></e>
+    <e><p><l>politisk<s n="adj"/></l><r>politisk<s n="adj"/></r></p></e>
+    <e><p><l>praktisk<s n="adj"/></l><r>praktisk<s n="adj"/></r></p></e>
+    <e><p><l>psykisk<s n="adj"/></l><r>psykisk<s n="adj"/></r></p></e>
+    <e><p><l>reell<s n="adj"/></l><r>reell<s n="adj"/></r></p></e>
+    <e><p><l>ren<s n="adj"/></l><r>rein<s n="adj"/></r></p></e>
+    <e><p><l>ren<s n="adj"/></l><r>ren<s n="adj"/></r></p></e>
+    <e><p><l>ren<s n="adj"/></l><r>ren<s n="adj"/></r></p></e>  
+    <e><p><l>rik<s n="adj"/></l><r>rik<s n="adj"/></r></p></e>
+    <e><p><l>riktig<s n="adj"/></l><r>riktig<s n="adj"/></r></p></e>
+    <e><p><l>romersk<s n="adj"/></l><r>romersk<s n="adj"/></r></p></e>
+    <e><p><l>rostig<s n="adj"/></l><r>rusten<s n="adj"/></r></p></e>
+    <e><p><l>rund<s n="adj"/></l><r>rund<s n="adj"/></r></p></e>
+    <e><p><l>rusig<s n="adj"/></l><r>ruset<s n="adj"/></r></p></e>
+    <e><p><l>rysk<s n="adj"/></l><r>russisk<s n="adj"/></r></p></e>
+    <e><p><l>samtidig<s n="adj"/></l><r>samtidig<s n="adj"/></r></p></e>
+    <e><p><l>sandig<s n="adj"/></l><r>sandete<s n="adj"/></r></p></e>
+    <e><p><l>sann<s n="adj"/></l><r>sann<s n="adj"/></r></p></e>
+    <e><p><l>sen<s n="adj"/></l><r>sen<s n="adj"/></r></p></e>
+    <e><p><l>sexuell<s n="adj"/></l><r>seksuell<s n="adj"/></r></p></e>
+    <e><p><l>sjuk<s n="adj"/></l><r>syk<s n="adj"/></r></p></e>
+    <e><p><l>skarp<s n="adj"/></l><r>skarp<s n="adj"/></r></p></e>
+    <e><p><l>skyldig<s n="adj"/></l><r>forpliktet<s n="adj"/></r></p></e>
+    <e><p><l>skyldig<s n="adj"/></l><r>skyldig<s n="adj"/></r></p></e>
+    <e><p><l>smutsig<s n="adj"/></l><r>skitten<s n="adj"/></r></p></e>
+    <e><p><l>social<s n="adj"/></l><r>sosial<s n="adj"/></r></p></e>
+    <e><p><l>sorgsen<s n="adj"/></l><r>sørgmodig<s n="adj"/></r></p></e>
+    <e><p><l>sovjetisk<s n="adj"/></l><r>sovjetisk<s n="adj"/></r></p></e>
+    <e><p><l>speciell<s n="adj"/></l><r>spesiell<s n="adj"/></r></p></e>
+    <e><p><l>speciell<s n="adj"/></l><r>spesiell<s n="adj"/></r></p></e>  
+    <e><p><l>stadig<s n="adj"/></l><r>stødig<s n="adj"/></r></p></e>
+    <e><p><l>stark<s n="adj"/></l><r>sterk<s n="adj"/></r></p></e>
+    <e><p><l>stenig<s n="adj"/></l><r>steinete<s n="adj"/></r></p></e>
+    <e><p><l>stilig<s n="adj"/></l><r>stilig<s n="adj"/></r></p></e>
+    <e><p><l>stor<s n="adj"/></l><r>stor<s n="adj"/></r></p></e>
+    <e><p><l>stum<s n="adj"/></l><r>stum<s n="adj"/></r></p></e>
+    <e><p><l>stygg<s n="adj"/></l><r>stygg<s n="adj"/></r></p></e>
+    <e><p><l>sund<s n="adj"/></l><r>sund<s n="adj"/></r></p></e>
+    <e><p><l>sund<s n="adj"/></l><r>sunn<s n="adj"/></r></p></e>
+    <e><p><l>sur<s n="adj"/></l><r>sur<s n="adj"/></r></p></e>
+    <e><p><l>svag<s n="adj"/></l><r>svak<s n="adj"/></r></p></e>
+    <e><p><l>sval<s n="adj"/></l><r>sval<s n="adj"/></r></p></e>
+    <e><p><l>svart<s n="adj"/></l><r>svart<s n="adj"/></r></p></e>
+    <e><p><l>svart<s n="adj"/></l><r>svart<s n="adj"/></r></p></e>  
+    <e><p><l>svensk<s n="adj"/></l><r>svenske<s n="adj"/></r></p></e>
+    <e><p><l>svensk<s n="adj"/></l><r>svensk<s n="adj"/></r></p></e>
+    <e><p><l>sympatisk<s n="adj"/></l><r>sympatisk<s n="adj"/></r></p></e>
+    <e><p><l>systematisk<s n="adj"/></l><r>systematisk<s n="adj"/></r></p></e>
+    <e><p><l>tacksam<s n="adj"/></l><r>takknemlig<s n="adj"/></r></p></e>
+    <e><p><l>tapper<s n="adj"/></l><r>tapper<s n="adj"/></r></p></e>
+    <e><p><l>teknisk<s n="adj"/></l><r>teknisk<s n="adj"/></r></p></e>
+    <e><p><l>teoretisk<s n="adj"/></l><r>teoretisk<s n="adj"/></r></p></e>
+    <e><p><l>tidig<s n="adj"/></l><r>tidlig<s n="adj"/></r></p></e>
+    <e><p><l>tjock<s n="adj"/></l><r>bred<s n="adj"/></r></p></e>
+    <e><p><l>tjock<s n="adj"/></l><r>tykk<s n="adj"/></r></p></e>  
+    <e><p><l>tolerant<s n="adj"/></l><r>tolerant<s n="adj"/></r></p></e>
+    <e><p><l>tom<s n="adj"/></l><r>tom<s n="adj"/></r></p></e>
+    <e><p><l>torr<s n="adj"/></l><r>tørr<s n="adj"/></r></p></e>
+    <e><p><l>trevlig<s n="adj"/></l><r>trivelig<s n="adj"/></r></p></e>
+    <e><p><l>tropisk<s n="adj"/></l><r>tropisk<s n="adj"/></r></p></e>
+    <e><p><l>trygg<s n="adj"/></l><r>trygg<s n="adj"/></r></p></e>
+    <e><p><l>tunn<s n="adj"/></l><r>tynn<s n="adj"/></r></p></e>
+    <e><p><l>tunn<s n="adj"/></l><r>tynn<s n="adj"/></r></p></e>  
+    <e><p><l>tvetydig<s n="adj"/></l><r>tvetydig<s n="adj"/></r></p></e>
+    <e><p><l>tydlig<s n="adj"/></l><r>tydelig<s n="adj"/></r></p></e>
+    <e><p><l>typisk<s n="adj"/></l><r>typisk<s n="adj"/></r></p></e>
+    <e><p><l>tysk<s n="adj"/></l><r>tysker<s n="adj"/></r></p></e>
+    <e><p><l>tysk<s n="adj"/></l><r>tysk<s n="adj"/></r></p></e>
+    <e><p><l>ungdomlig<s n="adj"/></l><r>ungdommelig<s n="adj"/></r></p></e>
+    <e><p><l>ung<s n="adj"/></l><r>ung<s n="adj"/></r></p></e>
+    <e><p><l>ung<s n="adj"/></l><r>young<s n="adj"/></r></p></e>
+    <e><p><l>unik<s n="adj"/></l><r>unik<s n="adj"/></r></p></e>
+    <e><p><l>ursinnig<s n="adj"/></l><r>rasende<s n="adj"/></r></p></e>
+    <e><p><l>vacker<s n="adj"/></l><r>pen<s n="adj"/></r></p></e>
+    <e><p><l>vacker<s n="adj"/></l><r>vakker<s n="adj"/></r></p></e>
+    <e><p><l>väldig<s n="adj"/></l><r>veldig<s n="adj"/></r></p></e>
+    <e><p><l>varm<s n="adj"/></l><r>varm<s n="adj"/></r></p></e>
+    <e><p><l>varsam<s n="adj"/></l><r>varsom<s n="adj"/></r></p></e>
+    <e><p><l>vek<s n="adj"/></l><r>sart<s n="adj"/></r></p></e>
+    <e><p><l>vetenskaplig<s n="adj"/></l><r>vitenskapelig<s n="adj"/></r></p></e>
+    <e><p><l>vettig<s n="adj"/></l><r>vettig<s n="adj"/></r></p></e>
+    <e><p><l>vidskeplig<s n="adj"/></l><r>overtroisk<s n="adj"/></r></p></e>
+    <e><p><l>vid<s n="adj"/></l><r>ved<s n="adj"/></r></p></e>  
+    <e><p><l>vid<s n="adj"/></l><r>vid<s n="adj"/></r></p></e>
+    <e><p><l>viktig<s n="adj"/></l><r>viktig<s n="adj"/></r></p></e>
+    <e><p><l>viss<s n="adj"/></l><r>viss<s n="adj"/></r></p></e>
+    <e><p><l>vit<s n="adj"/></l><r>hvit<s n="adj"/></r></p></e>
+    <e><p><l>vuxen<s n="adj"/></l><r>voksen<s n="adj"/></r></p></e>
+
+    <!-- SECTION: Adverbs -->
+
+    <e><p><l>aldrig<s n="adv"/></l><r>aldri<s n="adv"/></r></p></e>
+    <e><p><l>alltid<s n="adv"/></l><r>alltid<s n="adv"/></r></p></e>
+    <e><p><l>även<s n="adv"/></l><r>selv<b/>om<s n="adv"/></r></p></e>
+    <e><p><l>där<s n="adv"/></l><r>der<s n="adv"/></r></p></e>
+    <e><p><l>då<s n="adv"/></l><r>da<s n="adv"/></r></p></e>
+    <e><p><l>fast<s n="adv"/></l><r>bortsett<b/>fra<s n="adv"/></r></p></e>
+    <e><p><l>fast<s n="adv"/></l><r>foruten<s n="adv"/></r></p></e>
+    <e><p><l>fast<s n="adv"/></l><r>men<s n="adv"/></r></p></e>
+    <e><p><l>fast<s n="adv"/></l><r>selv<b/>om<s n="adv"/></r></p></e>
+    <e><p><l>i<b/>dag<s n="adv"/></l><r>i<b/>dag<s n="adv"/></r></p></e>
+    <e><p><l>i<b/>går<s n="adv"/></l><r>i<b/>går<s n="adv"/></r></p></e>
+    <e><p><l>igen<s n="adv"/></l><r>igjen<s n="adv"/></r></p></e>
+    <e><p><l>inte<s n="adv"/></l><r>ikke<s n="adv"/></r></p></e>
+    <e><p><l>när<s n="adv"/></l><r>når<s n="adv"/></r></p></e>
+    <e><p><l>naturligtvis<s n="adv"/></l><r>naturligvis<s n="adv"/></r></p></e>
+    <e><p><l>nu<s n="adv"/></l><r>nå<s n="adv"/></r></p></e>
+    <e><p><l>också<s n="adv"/></l><r>også<s n="adv"/></r></p></e>
+    <e><p><l>sedan<s n="adv"/></l><r>siden<s n="adv"/></r></p></e>
+    <e><p><l>tillsammans<s n="adv"/></l><r>i<b/>sammen<s n="adv"/></r></p></e>
+    <e><p><l>troligen<s n="adv"/></l><r>i<b/>sannsynligvis<s n="adv"/></r></p></e>
+    <e><p><l>utomhus<s n="adv"/></l><r>utendørs<s n="adv"/></r></p></e>
+
+    <!-- SECTION: Verbs -->
+
+    <e><p><l>älska<s n="vblex"/></l><r>elske<s n="vblex"/></r></p></e>
+    <e><p><l>äta<s n="vblex"/></l><r>spise<s n="vblex"/></r></p></e>
+    <e><p><l>attackera<s n="vblex"/></l><r>attakkere<s n="vblex"/></r></p></e>
+    <e><p><l>avskaffa<s n="vblex"/></l><r>avskaffe<s n="vblex"/></r></p></e>
+    <e><p><l>avveckla<s n="vblex"/></l><r>avvikle<s n="vblex"/></r></p></e>
+    <e><p><l>berätta<s n="vblex"/></l><r>fortelle<s n="vblex"/></r></p></e>
+    <e><p><l>bromsa<s n="vblex"/></l><r>bremse<s n="vblex"/></r></p></e>
+    <e><p><l>dala<s n="vblex"/></l><r>dale<s n="vblex"/></r></p></e>
+    <e><p><l>dansa<s n="vblex"/></l><r>danse<s n="vblex"/></r></p></e>
+    <e><p><l>debutera<s n="vblex"/></l><r>debutere<s n="vblex"/></r></p></e>
+    <e><p><l>dokumentera<s n="vblex"/></l><r>dokumentere<s n="vblex"/></r></p></e>
+    <e><p><l>drabba<s n="vblex"/></l><r>ramme<s n="vblex"/></r></p></e>
+    <e><p><l>dricka<s n="vblex"/></l><r>drikke<s n="vblex"/></r></p></e>
+    <e><p><l>dubbla<s n="vblex"/></l><r>doble<s n="vblex"/></r></p></e>
+    <e><p><l>fixa<s n="vblex"/></l><r>fikse<s n="vblex"/></r></p></e>
+    <e><p><l>fråga<s n="vblex"/></l><r>spørre<s n="vblex"/></r></p></e>
+    <e><p><l>gå<s n="vblex"/></l><r>gå<s n="vblex"/></r></p></e>
+    <e><p><l>gilla<s n="vblex"/></l><r>like<s n="vblex"/></r></p></e>
+    <e><p><l>grilla<s n="vblex"/></l><r>grille<s n="vblex"/></r></p></e>
+    <e><p><l>hacka<s n="vblex"/></l><r>hakke<s n="vblex"/></r></p></e>
+    <e><p><l>halvera<s n="vblex"/></l><r>halvere<s n="vblex"/></r></p></e>
+    <e><p><l>ha<s n="vblex"/></l><r>ha<s n="vblex"/></r></p></e>
+    <e><p><l>hitta<s n="vblex"/></l><r>finne<s n="vblex"/></r></p></e>
+    <e><p><l>klappa<s n="vblex"/></l><r>klappe<s n="vblex"/></r></p></e>
+    <e><p><l>kolla<s n="vblex"/></l><r>undersøke<s n="vblex"/></r></p></e>
+    <e><p><l>koncentrera<s n="vblex"/></l><r>konsentrere<s n="vblex"/></r></p></e>
+    <e><p><l>kontakta<s n="vblex"/></l><r>kontakte<s n="vblex"/></r></p></e>
+    <e><p><l>koppla<s n="vblex"/></l><r>koble<s n="vblex"/></r></p></e>
+    <e><p><l>kritisera<s n="vblex"/></l><r>kritisere<s n="vblex"/></r></p></e>
+    <e><p><l>kunna<s n="vblex"/></l><r>kunne<s n="vblex"/></r></p></e>
+    <e><p><l>ladda<s n="vblex"/></l><r>lade opp<s n="vblex"/></r></p></e>
+    <e><p><l>laga<s n="vblex"/></l><r>lage<s n="vblex"/></r></p></e>
+    <e><p><l>leka<s n="vblex"/></l><r>gå<b/>opp<s n="vblex"/></r></p></e>
+    <e><p><l>leka<s n="vblex"/></l><r>leke<s n="vblex"/></r></p></e>
+    <e><p><l>leta<s n="vblex"/></l><r>lete<s n="vblex"/></r></p></e>
+    <e><p><l>lugna<s n="vblex"/></l><r>berolige<s n="vblex"/></r></p></e>
+    <e><p><l>lyssna<s n="vblex"/></l><r>lytte<b/>etter<s n="vblex"/></r></p></e>
+    <e><p><l>lyssna<s n="vblex"/></l><r>lytte<s n="vblex"/></r></p></e>
+    <e><p><l>medge<s n="vblex"/></l><r>medgi<s n="vblex"/></r></p></e>
+    <e><p><l>mildra<s n="vblex"/></l><r>mildne<s n="vblex"/></r></p></e>
+    <e><p><l>minska<s n="vblex"/></l><r>minske<s n="vblex"/></r></p></e>
+    <e><p><l>missa<s n="vblex"/></l><r>gå glipp av<s n="vblex"/></r></p></e>
+    <e><p><l>mogna<s n="vblex"/></l><r>modne<s n="vblex"/></r></p></e>
+    <e><p><l>muta<s n="vblex"/></l><r>mute<s n="vblex"/></r></p></e>
+    <e><p><l>nominera<s n="vblex"/></l><r>nominere<s n="vblex"/></r></p></e>
+    <e><p><l>ordna<s n="vblex"/></l><r>ordne<s n="vblex"/></r></p></e>
+    <e><p><l>oroa<s n="vblex"/></l><r>uroe<s n="vblex"/></r></p></e>
+    <e><p><l>planera<s n="vblex"/></l><r>planlegge<s n="vblex"/></r></p></e>
+    <e><p><l>prata<s n="vblex"/></l><r>prate<s n="vblex"/></r></p></e>
+    <e><p><l>pressa<s n="vblex"/></l><r>presse<s n="vblex"/></r></p></e>
+    <e><p><l>putsa<s n="vblex"/></l><r>pusse<s n="vblex"/></r></p></e>
+    <e><p><l>raka<s n="vblex"/></l><r>barbere<s n="vblex"/></r></p></e>
+    <e><p><l>räkna<s n="vblex"/></l><r>regne<s n="vblex"/></r></p></e>
+    <e><p><l>rasa<s n="vblex"/></l><r>rase<s n="vblex"/></r></p></e>
+    <e><p><l>rikta<s n="vblex"/></l><r>rette<s n="vblex"/></r></p></e>
+    <e><p><l>rulla<s n="vblex"/></l><r>rulle<s n="vblex"/></r></p></e>
+    <e><p><l>sadla<s n="vblex"/></l><r>sale<s n="vblex"/></r></p></e>
+    <e><p><l>se<s n="vblex"/></l><r>se<s n="vblex"/></r></p></e>
+    <e><p><l>skada<s n="vblex"/></l><r>skade<s n="vblex"/></r></p></e>
+    <e><p><l>skicka<s n="vblex"/></l><r>sende<s n="vblex"/></r></p></e>
+    <e><p><l>skratta<s n="vblex"/></l><r>le<s n="vblex"/></r></p></e>
+    <e><p><l>skrota<s n="vblex"/></l><r>skrote<s n="vblex"/></r></p></e>
+    <e><p><l>sluta<s n="vblex"/></l><r>slutte<s n="vblex"/></r></p></e>
+    <e><p><l>spionera<s n="vblex"/></l><r>spionere<s n="vblex"/></r></p></e>
+    <e><p><l>splittra<s n="vblex"/></l><r>splintre<s n="vblex"/></r></p></e>
+    <e><p><l>starta<s n="vblex"/></l><r>starte<s n="vblex"/></r></p></e>
+    <e><p><l>svara<s n="vblex"/></l><r>svare<s n="vblex"/></r></p></e>
+    <e><p><l>tala<s n="vblex"/></l><r>snakke<s n="vblex"/></r></p></e>
+    <e><p><l>tala<s n="vblex"/></l><r>tale<s n="vblex"/></r></p></e>
+    <e><p><l>tänka<s n="vblex"/></l><r>tenke<s n="vblex"/></r></p></e>
+    <e><p><l>ta<s n="vblex"/></l><r>ta<s n="vblex"/></r></p></e>
+    <e><p><l>testa<s n="vblex"/></l><r>teste<s n="vblex"/></r></p></e>
+    <e><p><l>titta<s n="vblex"/></l><r>titte<s n="vblex"/></r></p></e>
+    <e><p><l>tortera<s n="vblex"/></l><r>torturere<s n="vblex"/></r></p></e>
+    <e><p><l>trampa<s n="vblex"/></l><r>tråkke<s n="vblex"/></r></p></e>
+    <e><p><l>tro<s n="vblex"/></l><r>tro<s n="vblex"/></r></p></e>
+    <e><p><l>urarta<s n="vblex"/></l><r>utarte<s n="vblex"/></r></p></e>
+    <e><p><l>vara<s n="vblex"/></l><r>være<s n="vblex"/></r></p></e>
+    <e><p><l>veta<s n="vblex"/></l><r>vite<s n="vblex"/></r></p></e>
+    <e><p><l>vila<s n="vblex"/></l><r>hvile<s n="vblex"/></r></p></e>
+    <e><p><l>vinna<s n="vblex"/></l><r>vinne<s n="vblex"/></r></p></e>
+    <e><p><l>visa<s n="vblex"/></l><r>vise<s n="vblex"/></r></p></e>
 
   </section>
 </dictionary>

@@ -10,16 +10,12 @@
 /apertium-swe-nor.nor-swe.t1x -text
 /apertium-swe-nor.nor-swe.t2x -text
 /apertium-swe-nor.nor-swe.t3x -text
-/apertium-swe-nor.nor.lexc -text
-/apertium-swe-nor.nor.twol -text
 /apertium-swe-nor.swe-nor.dix -text
 /apertium-swe-nor.swe-nor.lrx -text
 /apertium-swe-nor.swe-nor.rlx -text
 /apertium-swe-nor.swe-nor.t1x -text
 /apertium-swe-nor.swe-nor.t2x -text
 /apertium-swe-nor.swe-nor.t3x -text
-/apertium-swe-nor.swe.lexc -text
-/apertium-swe-nor.swe.twol -text
 /autogen.sh -text
 /configure.ac -text
 /modes.xml -text
