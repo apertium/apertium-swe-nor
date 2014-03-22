@@ -17,6 +17,5 @@
 /autogen.sh -text
 /configure.ac -text
 /modes.xml -text
-/swe-nor.prob -text svneol=unset#unset
 texts/story.nob.txt -text
 texts/story.swe.txt -text

@@ -24,8 +24,7 @@ PREFIX2n=$(LANG2n)-$(LANG1)
 BASENAME=apertium-$(PREFIX1)
 
 TARGETS_COMMON = \
-      $(PREFIX2n).prob \
-      $(PREFIX2b).prob \
+      $(PREFIX1).prob \
       $(PREFIX1b).automorf.bin \
       $(PREFIX1n).automorf.bin \
       $(PREFIX1).rlx.bin \
@@ -37,6 +36,8 @@ TARGETS_COMMON = \
       $(PREFIX1).t2x.bin \
       $(PREFIX1).t3x.bin \
       $(PREFIX1n).autogen.bin \
+      $(PREFIX2n).prob \
+      $(PREFIX2b).prob \
       $(PREFIX2b).automorf.bin \
       $(PREFIX2n).automorf.bin \
       $(PREFIX2b).rlx.bin \
@@ -93,6 +94,9 @@ $(PREFIX1n).autogen.bin: $(AP_LIB2n)/$(LANG2n).autogen.bin
 ###############################################################################
 ## Disambiguation models
 ###############################################################################
+
+$(PREFIX1).prob: $(AP_LIB1)/$(LANG1).prob
+	cp $< $@
 
 $(PREFIX2b).prob: $(AP_LIB2b)/$(LANG2b).prob
 	cp $< $@
