@@ -1,28 +1,95 @@
 <dictionary>
   <alphabet/>
   <sdefs>
-    <sdef n="n"    c="Noun"/>
-    <sdef n="prop" c="Proper (noun)"/>
-    <sdef n="ut"  c="Utrum"/>
-    <sdef n="nt"  c="Neutrum"/>
-    <sdef n="m" c="Masculine"/>
-    <sdef n="f"  c="Feminine"/>
-    <sdef n="adv"  c="Adverb"/>
-    <sdef n="pr" c="Preposition"/>
-    <sdef n="cnjcoo" c="Conjunction"/>
-    <sdef n="vblex"    c="Verb"/>
-    <sdef n="adj"  c="Adjective"/>
-    <sdef n="det"  c="Determiner"/>
-    <sdef n="prn" c="Pronoun"/>
-    <sdef n="num"  c="Numeral"/>
-    <sdef n="itg"  c="Question (pronoun)"/>
+    <sdef n="n"       c="Noun"/>
+    <sdef n="np"      c="Proper noun"/>
+    <sdef n="prn"     c="Pronoun"/>
+    <sdef n="det"     c="Determiner"/>
+    <sdef n="pos"     c="Possessive"/>
+
+    <sdef n="p1"      c="1st person"/>
+    <sdef n="p2"      c="2nd person"/>
+    <sdef n="p3"      c="3rd person"/>
+
+    <sdef n="nt"      c="Neuter"/>
+    <sdef n="mf"      c="Masculine / feminine, also utrum in nouns"/>
+    <sdef n="f"       c="Feminine"/>
+    <sdef n="m"       c="Masculine"/>
+    <sdef n="ut"      c="Utrum"/>
+
+    <sdef n="sp"      c="Singular / plural"/>
+    <sdef n="sg"      c="Singular"/>
+    <sdef n="pl"      c="Plural"/>
+
+    <sdef n="ind"     c="Indefinite"/>
+    <sdef n="def"     c="Definite"/>
+
+    <sdef n="nom"     c="Nominative"/>
+    <sdef n="acc"     c="Accusative"/>        <!-- objective case -->
+    <sdef n="gen"     c="Genitive"/>
+
+    <sdef n="dem"     c="Demonstrative"/>
+    <sdef n="itg"     c="Question word / interrogative"/>
+    <sdef n="qnt"     c="Quantifier"/>
+    <sdef n="neg"     c="Negative"/>
+    <sdef n="emph"   c="Emphatic"/>
+
+    <sdef n="vblex"   c="Verb"/>
+    <sdef n="pstv"    c="-st verb (Nynorsk)"/>
+    <sdef n="pass"    c="Passive (Bokmål) or -st form (Nynorsk)"/>
+    <sdef n="inf"     c="Infinitive"/>
+    <sdef n="pres"    c="Present"/>
+    <sdef n="imp"     c="Imperative"/>
+    <sdef n="pret"    c="Preterite"/>
+    <sdef n="pp"      c="Perfect participle"/>
+    <sdef n="pprs"  c="Present participle (adjectival)"/>
+
+    <sdef n="pr"      c="Preposition"/>
+    <sdef n="ij"      c="Interjection"/>
+    <sdef n="adv"     c="Adverb"/>
+    <sdef n="adj"     c="Adjective"/>
+    <sdef n="sint"    c="Synthetic (of adjectives)"/>
+    <sdef n="cnjsub"  c="Subordinating conjunction"/>
+    <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
+    <sdef n="cnjadv"  c="Adverbial conjunction"/>
+
+    <sdef n="posi"    c="Positive"/>
+    <sdef n="comp"    c="Comparative"/>
+    <sdef n="sup"     c="Superlative"/>
+
+    <sdef n="num"     c="Numeral"/>
+    <sdef n="ord"     c="Ordinal"/>
+    <sdef n="acr"     c="Acronym"/>
+    <sdef n="sent"    c="Sentence end" />
+    <sdef n="cm"      c="Comma" />
+    <sdef n="clb"     c="Possible clause boundary"/>
+    <sdef n="overskrift" c="Headline"/>
+    <sdef n="apos"    c="Apostrophe" />
+    <sdef n="lpar"    c="Left parenthesis" />
+    <sdef n="rpar"    c="Right parenthesis" />
+
+    <sdef n="top"     c="Toponym" />
+    <sdef n="ant"     c="an ant is an insect innit" />
+
+    <sdef n="GD"     c="Género por determinar" />
+    <sdef n="ND"     c="Número por determinar" />
   </sdefs>
+
+  <pardefs>
+    <!--
+        A colon (:) in pardef names separate the left from the right
+    -->
+    <pardef n=":/leg__adj">
+      <e vr="nno"><p><l></l><r>leg<s n="adj"/></r></p></e>
+      <e vr="nob"><p><l></l><r>lig<s n="adj"/></r></p></e>
+    </pardef>
+  </pardefs>
 
   <section id="main" type="standard">
 
     <!-- SECTION: Conjunctions -->
 
-    <e><p><l>att<s n="cnjcoo"/></l><r>at<s n="cnjcoo"/></r></p></e>
+    <e><p><l>att<s n="cnjsub"/></l><r>at<s n="cnjsub"/></r></p></e>
     <e><p><l>eller<s n="cnjcoo"/></l><r>eller<s n="cnjcoo"/></r></p></e>
     <e><p><l>men<s n="cnjcoo"/></l><r>men<s n="cnjcoo"/></r></p></e>
     <e><p><l>och<s n="cnjcoo"/></l><r>og<s n="cnjcoo"/></r></p></e>
@@ -116,11 +183,11 @@
     <e><p><l>akademisk<s n="adj"/></l><r>akademisk<s n="adj"/></r></p></e>
     <e><p><l>aktiv<s n="adj"/></l><r>aktiv<s n="adj"/></r></p></e>
     <e><p><l>alldaglig<s n="adj"/></l><r>dagligdags<s n="adj"/></r></p></e>
-    <e><p><l>allvarlig<s n="adj"/></l><r>alvorlig<s n="adj"/></r></p></e>
+    <e><p><l>allvarlig<s n="adj"/></l><r>alvor</r></p><par n=":/leg__adj"/></e>
     <e><p><l>allvarlig<s n="adj"/></l><r>seriøs<s n="adj"/></r></p></e>
     <e><p><l>amerikansk<s n="adj"/></l><r>amerikansk<s n="adj"/></r></p></e>
     <e><p><l>anonym<s n="adj"/></l><r>anonym<s n="adj"/></r></p></e>
-    <e><p><l>ansvarig<s n="adj"/></l><r>ansvarlig<s n="adj"/></r></p></e>
+    <e><p><l>ansvarig<s n="adj"/></l><r>ansvar</r></p><par n=":/leg__adj"/></e>
     <e><p><l>arbetsam<s n="adj"/></l><r>anstrengende<s n="adj"/></r></p></e>
     <e><p><l>arbetsam<s n="adj"/></l><r>arbeidsom<s n="adj"/></r></p></e>
     <e><p><l>asiatisk<s n="adj"/></l><r>asiatisk<s n="adj"/></r></p></e>
@@ -156,7 +223,7 @@
     <e><p><l>etnisk<s n="adj"/></l><r>etnisk<s n="adj"/></r></p></e>
     <e><p><l>europeisk<s n="adj"/></l><r>europeisk<s n="adj"/></r></p></e>
     <e><p><l>extra<s n="adj"/></l><r>ekstra<s n="adj"/></r></p></e>
-    <e><p><l>extra<s n="adj"/></l><r>ekstra<s n="adj"/></r></p></e>  
+    <e><p><l>extra<s n="adj"/></l><r>ekstra<s n="adj"/></r></p></e>
     <e><p><l>faktisk<s n="adj"/></l><r>faktisk<s n="adj"/></r></p></e>
     <e><p><l>falsk<s n="adj"/></l><r>falsk<s n="adj"/></r></p></e>
     <e><p><l>falsk<s n="adj"/></l><r>usann<s n="adj"/></r></p></e>
@@ -179,13 +246,13 @@
     <e><p><l>grund<s n="adj"/></l><r>grunnet<s n="adj"/></r></p></e>
     <e><p><l>grund<s n="adj"/></l><r>grunn<s n="adj"/></r></p></e>
     <e><p><l>grym<s n="adj"/></l><r>grusom<s n="adj"/></r></p></e>
-    <e><p><l>gudomlig<s n="adj"/></l><r>guddommelig<s n="adj"/></r></p></e>
+    <e><p><l>gudomlig<s n="adj"/></l><r>guddomme</r></p><par n=":/leg__adj"/></e>
     <e><p><l>gul<s n="adj"/></l><r>gul<s n="adj"/></r></p></e>
     <e><p><l>gynnsam<s n="adj"/></l><r>gunstig<s n="adj"/></r></p></e>
     <e><p><l>havande<s n="adj"/></l><r>gravid<s n="adj"/></r></p></e>
     <e><p><l>hel<s n="adj"/></l><r>hel<s n="adj"/></r></p></e>
-    <e><p><l>hemsk<s n="adj"/></l><r>forferdelig<s n="adj"/></r></p></e>
-    <e><p><l>hemsk<s n="adj"/></l><r>uhyggelig<s n="adj"/></r></p></e>
+    <e><p><l>hemsk<s n="adj"/></l><r>forferde</r></p><par n=":/leg__adj"/></e>
+    <e><p><l>hemsk<s n="adj"/></l><r>uhygge</r></p><par n=":/leg__adj"/></e>
     <e><p><l>het<s n="adj"/></l><r>het<s n="adj"/></r></p></e>
     <e><p><l>historisk<s n="adj"/></l><r>historisk<s n="adj"/></r></p></e>
     <e><p><l>hungrig<s n="adj"/></l><r>sulten<s n="adj"/></r></p></e>
@@ -200,7 +267,7 @@
     <e><p><l>judisk<s n="adj"/></l><r>jødisk<s n="adj"/></r></p></e>
     <e><p><l>juridisk<s n="adj"/></l><r>juridisk<s n="adj"/></r></p></e>
     <e><p><l>kall<s n="adj"/></l><r>kald<s n="adj"/></r></p></e>
-    <e><p><l>kall<s n="adj"/></l><r>kald<s n="adj"/></r></p></e>  
+    <e><p><l>kall<s n="adj"/></l><r>kald<s n="adj"/></r></p></e>
     <e><p><l>kall<s n="adj"/></l><r>kall<s n="adj"/></r></p></e>
     <e><p><l>kemisk<s n="adj"/></l><r>kjemisk<s n="adj"/></r></p></e>
     <e><p><l>kinesisk<s n="adj"/></l><r>kinesisk<s n="adj"/></r></p></e>
@@ -213,21 +280,21 @@
     <e><p><l>kritisk<s n="adj"/></l><r>batteri<s n="adj"/></r></p></e>
     <e><p><l>kritisk<s n="adj"/></l><r>kritisk<s n="adj"/></r></p></e>
     <e><p><l>krokig<s n="adj"/></l><r>krokete<s n="adj"/></r></p></e>
-    <e><p><l>kvinnlig<s n="adj"/></l><r>kvinnelig<s n="adj"/></r></p></e>
+    <e><p><l>kvinnlig<s n="adj"/></l><r>kvinne</r></p><par n=":/leg__adj"/></e>
     <e><p><l>lat<s n="adj"/></l><r>lat<s n="adj"/></r></p></e>
     <e><p><l>ledsen<s n="adj"/></l><r>lei<s n="adj"/></r></p></e>
     <e><p><l>liberal<s n="adj"/></l><r>liberal<s n="adj"/></r></p></e>
     <e><p><l>liknande<s n="adj"/></l><r>lignende<s n="adj"/></r></p></e>
     <e><p><l>lik<s n="adj"/></l><r>lik<s n="adj"/></r></p></e>
     <e><p><l>liten<s n="adj"/></l><r>liten<s n="adj"/></r></p></e>
-    <e><p><l>livlig<s n="adj"/></l><r>livlig<s n="adj"/></r></p></e>
+    <e><p><l>livlig<s n="adj"/></l><r>liv</r></p><par n=":/leg__adj"/></e>
     <e><p><l>ljum<s n="adj"/></l><r>lunken<s n="adj"/></r></p></e>
     <e><p><l>ljus<s n="adj"/></l><r>lys<s n="adj"/></r></p></e>
-    <e><p><l>ljus<s n="adj"/></l><r>lys<s n="adj"/></r></p></e>  
+    <e><p><l>ljus<s n="adj"/></l><r>lys<s n="adj"/></r></p></e>
     <e><p><l>lojal<s n="adj"/></l><r>lojal<s n="adj"/></r></p></e>
-    <e><p><l>lycklig<s n="adj"/></l><r>lykkelig<s n="adj"/></r></p></e>
+    <e><p><l>lycklig<s n="adj"/></l><r>lykke</r></p><par n=":/leg__adj"/></e>
     <e><p><l>lydig<s n="adj"/></l><r>lydig<s n="adj"/></r></p></e>
-    <e><p><l>manlig<s n="adj"/></l><r>mannlig<s n="adj"/></r></p></e>
+    <e><p><l>manlig<s n="adj"/></l><r>mann</r></p><par n=":/leg__adj"/></e>
     <e><p><l>matematisk<s n="adj"/></l><r>matematisk<s n="adj"/></r></p></e>
     <e><p><l>matematisk<s n="adj"/></l><r>tegner<s n="adj"/></r></p></e>
     <e><p><l>materiell<s n="adj"/></l><r>materiell<s n="adj"/></r></p></e>
@@ -241,7 +308,7 @@
     <e><p><l>naiv<s n="adj"/></l><r>naiv<s n="adj"/></r></p></e>
     <e><p><l>naken<s n="adj"/></l><r>naken<s n="adj"/></r></p></e>
     <e><p><l>nationell<s n="adj"/></l><r>nasjonal<s n="adj"/></r></p></e>
-    <e><p><l>naturlig<s n="adj"/></l><r>naturlig<s n="adj"/></r></p></e>
+    <e><p><l>naturlig<s n="adj"/></l><r>natur</r></p><par n=":/leg__adj"/></e>
     <e><p><l>neutral<s n="adj"/></l><r>nøytral<s n="adj"/></r></p></e>
     <e><p><l>nordisk<s n="adj"/></l><r>nordisk<s n="adj"/></r></p></e>
     <e><p><l>normal<s n="adj"/></l><r>normal<s n="adj"/></r></p></e>
@@ -249,27 +316,27 @@
     <e><p><l>nyfiken<s n="adj"/></l><r>nysgjerrig<s n="adj"/></r></p></e>
     <e><p><l>ny<s n="adj"/></l><r>ny<s n="adj"/></r></p></e>
     <e><p><l>nyttig<s n="adj"/></l><r>nyttig<s n="adj"/></r></p></e>
-    <e><p><l>oduglig<s n="adj"/></l><r>udugelig<s n="adj"/></r></p></e>
+    <e><p><l>oduglig<s n="adj"/></l><r>uduge</r></p><par n=":/leg__adj"/></e>
     <e><p><l>officiell<s n="adj"/></l><r>offisiell<s n="adj"/></r></p></e>
     <e><p><l>ogift<s n="adj"/></l><r>ugift<s n="adj"/></r></p></e>
     <e><p><l>oklar<s n="adj"/></l><r>uklar<s n="adj"/></r></p></e>
-    <e><p><l>olik<s n="adj"/></l><r>forskjellig<s n="adj"/></r></p></e>
+    <e><p><l>olik<s n="adj"/></l><r>forskjel</r></p><par n=":/leg__adj"/></e>
     <e><p><l>olik<s n="adj"/></l><r>ulik<s n="adj"/></r></p></e>
     <e><p><l>olycklig<s n="adj"/></l><r>uheldig<s n="adj"/></r></p></e>
-    <e><p><l>olycklig<s n="adj"/></l><r>ulykkelig<s n="adj"/></r></p></e>
+    <e><p><l>olycklig<s n="adj"/></l><r>ulykke</r></p><par n=":/leg__adj"/></e>
     <e><p><l>oregelbunden<s n="adj"/></l><r>uregelmessig<s n="adj"/></r></p></e>
     <e><p><l>osann<s n="adj"/></l><r>usann<s n="adj"/></r></p></e>
     <e><p><l>oskyldig<s n="adj"/></l><r>uskyldig<s n="adj"/></r></p></e>
-    <e><p><l>otacksam<s n="adj"/></l><r>utakknemlig<s n="adj"/></r></p></e>
+    <e><p><l>otacksam<s n="adj"/></l><r>utakknem</r></p><par n=":/leg__adj"/></e>
     <e><p><l>passiv<s n="adj"/></l><r>passiv<s n="adj"/></r></p></e>
-    <e><p><l>personlig<s n="adj"/></l><r>personlig<s n="adj"/></r></p></e>
+    <e><p><l>personlig<s n="adj"/></l><r>person</r></p><par n=":/leg__adj"/></e>
     <e><p><l>politisk<s n="adj"/></l><r>politisk<s n="adj"/></r></p></e>
     <e><p><l>praktisk<s n="adj"/></l><r>praktisk<s n="adj"/></r></p></e>
     <e><p><l>psykisk<s n="adj"/></l><r>psykisk<s n="adj"/></r></p></e>
     <e><p><l>reell<s n="adj"/></l><r>reell<s n="adj"/></r></p></e>
     <e><p><l>ren<s n="adj"/></l><r>rein<s n="adj"/></r></p></e>
     <e><p><l>ren<s n="adj"/></l><r>ren<s n="adj"/></r></p></e>
-    <e><p><l>ren<s n="adj"/></l><r>ren<s n="adj"/></r></p></e>  
+    <e><p><l>ren<s n="adj"/></l><r>ren<s n="adj"/></r></p></e>
     <e><p><l>rik<s n="adj"/></l><r>rik<s n="adj"/></r></p></e>
     <e><p><l>riktig<s n="adj"/></l><r>riktig<s n="adj"/></r></p></e>
     <e><p><l>romersk<s n="adj"/></l><r>romersk<s n="adj"/></r></p></e>
@@ -291,11 +358,11 @@
     <e><p><l>sorgsen<s n="adj"/></l><r>sørgmodig<s n="adj"/></r></p></e>
     <e><p><l>sovjetisk<s n="adj"/></l><r>sovjetisk<s n="adj"/></r></p></e>
     <e><p><l>speciell<s n="adj"/></l><r>spesiell<s n="adj"/></r></p></e>
-    <e><p><l>speciell<s n="adj"/></l><r>spesiell<s n="adj"/></r></p></e>  
+    <e><p><l>speciell<s n="adj"/></l><r>spesiell<s n="adj"/></r></p></e>
     <e><p><l>stadig<s n="adj"/></l><r>stødig<s n="adj"/></r></p></e>
     <e><p><l>stark<s n="adj"/></l><r>sterk<s n="adj"/></r></p></e>
     <e><p><l>stenig<s n="adj"/></l><r>steinete<s n="adj"/></r></p></e>
-    <e><p><l>stilig<s n="adj"/></l><r>stilig<s n="adj"/></r></p></e>
+    <e><p><l>stilig<s n="adj"/></l><r>sti</r></p><par n=":/leg__adj"/></e>
     <e><p><l>stor<s n="adj"/></l><r>stor<s n="adj"/></r></p></e>
     <e><p><l>stum<s n="adj"/></l><r>stum<s n="adj"/></r></p></e>
     <e><p><l>stygg<s n="adj"/></l><r>stygg<s n="adj"/></r></p></e>
@@ -305,32 +372,32 @@
     <e><p><l>svag<s n="adj"/></l><r>svak<s n="adj"/></r></p></e>
     <e><p><l>sval<s n="adj"/></l><r>sval<s n="adj"/></r></p></e>
     <e><p><l>svart<s n="adj"/></l><r>svart<s n="adj"/></r></p></e>
-    <e><p><l>svart<s n="adj"/></l><r>svart<s n="adj"/></r></p></e>  
+    <e><p><l>svart<s n="adj"/></l><r>svart<s n="adj"/></r></p></e>
     <e><p><l>svensk<s n="adj"/></l><r>svenske<s n="adj"/></r></p></e>
     <e><p><l>svensk<s n="adj"/></l><r>svensk<s n="adj"/></r></p></e>
     <e><p><l>sympatisk<s n="adj"/></l><r>sympatisk<s n="adj"/></r></p></e>
     <e><p><l>systematisk<s n="adj"/></l><r>systematisk<s n="adj"/></r></p></e>
-    <e><p><l>tacksam<s n="adj"/></l><r>takknemlig<s n="adj"/></r></p></e>
+    <e><p><l>tacksam<s n="adj"/></l><r>takknem</r></p><par n=":/leg__adj"/></e>
     <e><p><l>tapper<s n="adj"/></l><r>tapper<s n="adj"/></r></p></e>
     <e><p><l>teknisk<s n="adj"/></l><r>teknisk<s n="adj"/></r></p></e>
     <e><p><l>teoretisk<s n="adj"/></l><r>teoretisk<s n="adj"/></r></p></e>
-    <e><p><l>tidig<s n="adj"/></l><r>tidlig<s n="adj"/></r></p></e>
+    <e><p><l>tidig<s n="adj"/></l><r>tid</r></p><par n=":/leg__adj"/></e>
     <e><p><l>tjock<s n="adj"/></l><r>bred<s n="adj"/></r></p></e>
-    <e><p><l>tjock<s n="adj"/></l><r>tykk<s n="adj"/></r></p></e>  
+    <e><p><l>tjock<s n="adj"/></l><r>tykk<s n="adj"/></r></p></e>
     <e><p><l>tolerant<s n="adj"/></l><r>tolerant<s n="adj"/></r></p></e>
     <e><p><l>tom<s n="adj"/></l><r>tom<s n="adj"/></r></p></e>
     <e><p><l>torr<s n="adj"/></l><r>tørr<s n="adj"/></r></p></e>
-    <e><p><l>trevlig<s n="adj"/></l><r>trivelig<s n="adj"/></r></p></e>
+    <e><p><l>trevlig<s n="adj"/></l><r>trive</r></p><par n=":/leg__adj"/></e>
     <e><p><l>tropisk<s n="adj"/></l><r>tropisk<s n="adj"/></r></p></e>
     <e><p><l>trygg<s n="adj"/></l><r>trygg<s n="adj"/></r></p></e>
     <e><p><l>tunn<s n="adj"/></l><r>tynn<s n="adj"/></r></p></e>
-    <e><p><l>tunn<s n="adj"/></l><r>tynn<s n="adj"/></r></p></e>  
+    <e><p><l>tunn<s n="adj"/></l><r>tynn<s n="adj"/></r></p></e>
     <e><p><l>tvetydig<s n="adj"/></l><r>tvetydig<s n="adj"/></r></p></e>
-    <e><p><l>tydlig<s n="adj"/></l><r>tydelig<s n="adj"/></r></p></e>
+    <e><p><l>tydlig<s n="adj"/></l><r>tyde</r></p><par n=":/leg__adj"/></e>
     <e><p><l>typisk<s n="adj"/></l><r>typisk<s n="adj"/></r></p></e>
     <e><p><l>tysk<s n="adj"/></l><r>tysker<s n="adj"/></r></p></e>
     <e><p><l>tysk<s n="adj"/></l><r>tysk<s n="adj"/></r></p></e>
-    <e><p><l>ungdomlig<s n="adj"/></l><r>ungdommelig<s n="adj"/></r></p></e>
+    <e><p><l>ungdomlig<s n="adj"/></l><r>ungdomme</r></p><par n=":/leg__adj"/></e>
     <e><p><l>ung<s n="adj"/></l><r>ung<s n="adj"/></r></p></e>
     <e><p><l>ung<s n="adj"/></l><r>young<s n="adj"/></r></p></e>
     <e><p><l>unik<s n="adj"/></l><r>unik<s n="adj"/></r></p></e>
@@ -341,10 +408,10 @@
     <e><p><l>varm<s n="adj"/></l><r>varm<s n="adj"/></r></p></e>
     <e><p><l>varsam<s n="adj"/></l><r>varsom<s n="adj"/></r></p></e>
     <e><p><l>vek<s n="adj"/></l><r>sart<s n="adj"/></r></p></e>
-    <e><p><l>vetenskaplig<s n="adj"/></l><r>vitenskapelig<s n="adj"/></r></p></e>
+    <e><p><l>vetenskaplig<s n="adj"/></l><r>vitenskape</r></p><par n=":/leg__adj"/></e>
     <e><p><l>vettig<s n="adj"/></l><r>vettig<s n="adj"/></r></p></e>
     <e><p><l>vidskeplig<s n="adj"/></l><r>overtroisk<s n="adj"/></r></p></e>
-    <e><p><l>vid<s n="adj"/></l><r>ved<s n="adj"/></r></p></e>  
+    <e><p><l>vid<s n="adj"/></l><r>ved<s n="adj"/></r></p></e>
     <e><p><l>vid<s n="adj"/></l><r>vid<s n="adj"/></r></p></e>
     <e><p><l>viktig<s n="adj"/></l><r>viktig<s n="adj"/></r></p></e>
     <e><p><l>viss<s n="adj"/></l><r>viss<s n="adj"/></r></p></e>
@@ -460,5 +527,6 @@
     <e><p><l>vinna<s n="vblex"/></l><r>vinne<s n="vblex"/></r></p></e>
     <e><p><l>visa<s n="vblex"/></l><r>vise<s n="vblex"/></r></p></e>
 
+    <e>       <re>[\)\]]</re><p><l><s n="rpar"/></l><r><s n="rpar"/></r></p></e>
   </section>
 </dictionary>

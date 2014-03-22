@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
-  <!-- swe → nor --> 
+  <!-- swe → nor -->
 
-  <mode name="swe-nor" install="yes">
+  <mode name="swe-nob" install="yes">
     <pipeline>
-      <program name="hfst-proc -w">
-        <file name="swe-nor.automorf.hfst"/>
+      <program name="lt-proc -w">
+        <file name="swe-nob.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
         <file name="swe-nor.rlx.bin"/>
@@ -15,7 +15,7 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="swe-nor.autobil.bin"/>
+        <file name="swe-nob.autobil.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-swe-nor.swe-nor.t1x"/>
@@ -29,16 +29,16 @@
         <file name="apertium-swe-nor.swe-nor.t3x"/>
         <file name="swe-nor.t3x.bin"/>
       </program>
-      <program name="hfst-proc $1">
-        <file name="swe-nor.autogen.hfst"/>
+      <program name="lt-proc $1">
+        <file name="swe-nob.autogen.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="swe-nor-debug" install="no">
+  <mode name="swe-nno" install="yes">
     <pipeline>
-      <program name="hfst-proc -w">
-        <file name="swe-nor.automorf.hfst"/>
+      <program name="lt-proc -w">
+        <file name="swe-nno.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
         <file name="swe-nor.rlx.bin"/>
@@ -48,7 +48,7 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="swe-nor.autobil.bin"/>
+        <file name="swe-nno.autobil.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-swe-nor.swe-nor.t1x"/>
@@ -62,188 +62,24 @@
         <file name="apertium-swe-nor.swe-nor.t3x"/>
         <file name="swe-nor.t3x.bin"/>
       </program>
-      <program name="hfst-proc -d">
-        <file name="swe-nor.autogen.hfst"/>
-      </program>
-    </pipeline>
-  </mode>
- 
-  
-  <mode name="swe-nor-morph" install="no">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="swe-nor.automorf.hfst"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="swe-nor-disam" install="no">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="swe-nor.automorf.hfst"/>
-      </program>
-      <program name="cg-conv -a"/>
-      <program name="vislcg3 --trace --grammar">
-        <file name="swe-nor.rlx.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-
-  <mode name="swe-nor-tagger" install="no">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="swe-nor.automorf.hfst"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="swe-nor.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="swe-nor.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-    </pipeline>
-  </mode>
-
-  <mode name="swe-nor-biltrans" install="no">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="swe-nor.automorf.hfst"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="swe-nor.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="swe-nor.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="swe-nor.autobil.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="swe-nor-lextor" install="no">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="swe-nor.automorf.hfst"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="swe-nor.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="swe-nor.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="swe-nor.autobil.bin"/>
-      </program>
-      <program name="lrx-proc -t">
-        <file name="swe-nor.autolex.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-
-  <mode name="swe-nor-transfer" install="no">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="swe-nor.automorf.hfst"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="swe-nor.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="swe-nor.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="swe-nor.autobil.bin"/>
-      </program>
-      <program name="lrx-proc">
-        <file name="swe-nor.autolex.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
-        <file name="apertium-swe-nor.swe-nor.t1x"/>
-        <file name="swe-nor.t1x.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="swe-nor-interchunk" install="no">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="swe-nor.automorf.hfst"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="swe-nor.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="swe-nor.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="swe-nor.autobil.bin"/>
-      </program>
-      <program name="lrx-proc">
-        <file name="swe-nor.autolex.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
-        <file name="apertium-swe-nor.swe-nor.t1x"/>
-        <file name="swe-nor.t1x.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-swe-nor.swe-nor.t2x"/>
-        <file name="swe-nor.t2x.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="swe-nor-postchunk" install="no">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="swe-nor.automorf.hfst"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="swe-nor.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="swe-nor.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="swe-nor.autobil.bin"/>
-      </program>
-      <program name="lrx-proc">
-        <file name="swe-nor.autolex.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
-        <file name="apertium-swe-nor.swe-nor.t1x"/>
-        <file name="swe-nor.t1x.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-swe-nor.swe-nor.t2x"/>
-        <file name="swe-nor.t2x.bin"/>
-      </program>
-      <program name="apertium-postchunk">
-        <file name="apertium-swe-nor.swe-nor.t3x"/>
-        <file name="swe-nor.t3x.bin"/>
+      <program name="lt-proc $1">
+        <file name="swe-nno.autogen.bin"/>
       </program>
     </pipeline>
   </mode>
 
   <!-- nor → swe -->
 
-  <mode name="nor-swe" install="yes">
+  <mode name="nob-swe" install="yes">
     <pipeline>
-      <program name="hfst-proc -w">
-        <file name="nor-swe.automorf.hfst"/>
+      <program name="lt-proc -w -e">
+        <file name="nob-swe.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
-        <file name="nor-swe.rlx.bin"/>
+        <file name="nob-swe.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="nor-swe.prob"/>
+        <file name="nob-swe.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
@@ -261,22 +97,22 @@
         <file name="apertium-swe-nor.nor-swe.t3x"/>
         <file name="nor-swe.t3x.bin"/>
       </program>
-      <program name="hfst-proc $1">
-        <file name="nor-swe.autogen.hfst"/>
+      <program name="lt-proc $1">
+        <file name="nor-swe.autogen.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="nor-swe-debug" install="no">
+  <mode name="nno-swe" install="yes">
     <pipeline>
-      <program name="hfst-proc -w">
-        <file name="nor-swe.automorf.hfst"/>
+      <program name="lt-proc -w -e">
+        <file name="nno-swe.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
-        <file name="nor-swe.rlx.bin"/>
+        <file name="nno-swe.rlx.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="nor-swe.prob"/>
+        <file name="nno-swe.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
@@ -294,161 +130,8 @@
         <file name="apertium-swe-nor.nor-swe.t3x"/>
         <file name="nor-swe.t3x.bin"/>
       </program>
-      <program name="hfst-proc -d">
-        <file name="nor-swe.autogen.hfst"/>
-      </program>
-    </pipeline>
-  </mode>
-  
-  <mode name="nor-swe-morph" install="no">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="nor-swe.automorf.hfst"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="nor-swe-disam" install="no">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="nor-swe.automorf.hfst"/>
-      </program>
-      <program name="cg-conv -a"/>
-      <program name="vislcg3 --trace --grammar">
-        <file name="nor-swe.rlx.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-
-  <mode name="nor-swe-tagger" install="no">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="nor-swe.automorf.hfst"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="nor-swe.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="nor-swe.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-    </pipeline>
-  </mode>
-
-  <mode name="nor-swe-biltrans" install="no">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="nor-swe.automorf.hfst"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="nor-swe.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="nor-swe.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="nor-swe.autobil.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="nor-swe-lextor" install="no">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="nor-swe.automorf.hfst"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="nor-swe.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="nor-swe.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="nor-swe.autobil.bin"/>
-      </program>
-      <program name="lrx-proc">
-        <file name="nor-swe.autolex.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="nor-swe-transfer" install="no">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="nor-swe.automorf.hfst"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="nor-swe.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="nor-swe.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="nor-swe.autobil.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
-        <file name="apertium-swe-nor.nor-swe.t1x"/>
-        <file name="nor-swe.t1x.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="nor-swe-interchunk" install="no">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="nor-swe.automorf.hfst"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="nor-swe.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="nor-swe.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="nor-swe.autobil.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
-        <file name="apertium-swe-nor.nor-swe.t1x"/>
-        <file name="nor-swe.t1x.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-swe-nor.nor-swe.t2x"/>
-        <file name="nor-swe.t2x.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-  <mode name="nor-swe-postchunk" install="no">
-    <pipeline>
-      <program name="hfst-proc -w">
-        <file name="nor-swe.automorf.hfst"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="nor-swe.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="nor-swe.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="nor-swe.autobil.bin"/>
-      </program>
-      <program name="apertium-transfer -b">
-        <file name="apertium-swe-nor.nor-swe.t1x"/>
-        <file name="nor-swe.t1x.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-swe-nor.nor-swe.t2x"/>
-        <file name="nor-swe.t2x.bin"/>
-      </program>
-      <program name="apertium-postchunk">
-        <file name="apertium-swe-nor.nor-swe.t3x"/>
-        <file name="nor-swe.t3x.bin"/>
+      <program name="lt-proc $1">
+        <file name="nor-swe.autogen.bin"/>
       </program>
     </pipeline>
   </mode>
