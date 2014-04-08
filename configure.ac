@@ -77,6 +77,6 @@ AP_CHECK_LING([2n], [apertium-nno])
 AP_CHECK_LING([2b], [apertium-nob])
 
 
-
+AP_MKINCLUDE
 
 AC_OUTPUT([Makefile])
