@@ -124,10 +124,15 @@
     <e><p><l>jag<s n="prn"/></l><r>jeg<s n="prn"/></r></p></e>
     <e><p><l>ni<s n="prn"/></l><r>dere<s n="prn"/></r></p></e>
     <e><p><l>vad<s n="prn"/></l><r>hva<s n="prn"/></r></p></e>
-    <e><p><l>varför<s n="prn"/></l><r>hvorfor<s n="prn"/></r></p></e>
     <e><p><l>var<s n="prn"/></l><r>hvor<s n="prn"/></r></p></e>
     <e><p><l>vart<s n="prn"/></l><r>hvorhen<s n="prn"/></r></p></e>
+    <e><p><l>varför<s n="prn"/></l><r>hvorfor<s n="prn"/></r></p></e>
     <e><p><l>vi<s n="prn"/></l><r>vi<s n="prn"/></r></p></e>
+
+    <e><p><l>jag<s n="prn"/></l><r>eg<s n="prn"/></r></p></e>
+    <e><p><l>hon<s n="prn"/></l><r>ho<s n="prn"/></r></p></e>
+    <e><p><l>vad<s n="prn"/></l><r>kva<s n="prn"/></r></p></e>
+    <e><p><l>var<s n="prn"/></l><r>kor<s n="prn"/></r></p></e>
 
     <!-- SECTION: Determiners -->
 
