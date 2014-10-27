@@ -1,9 +1,0 @@
-<rules>
-  <rule>
-    <match lemma="leka" tags="v.*"><select lemma="leke" tags="v.*"/></match>
-  </rule>
-  <rule>
-    <match lemma="fisk" tags="n.*"/>
-    <match lemma="leka" tags="v.*"><select lemma="gå# opp" tags="v.*"/></match>
-  </rule>
-</rules>

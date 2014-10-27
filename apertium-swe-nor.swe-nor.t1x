@@ -22,11 +22,18 @@
     <def-attr n="a_nom">
       <attr-item tags="n"/>
     </def-attr>
+    <def-attr n="a_case">
+      <attr-item tags="nom"/>
+      <attr-item tags="gen"/>
+    </def-attr>
+    <def-attr n="a_case_nom">
+      <attr-item tags="nom"/>
+    </def-attr>
     <def-attr n="gender">
-      <attr-item tags="masc"/>
-      <attr-item tags="fem"/>
-      <attr-item tags="utr"/>
-      <attr-item tags="neu"/>
+      <attr-item tags="m"/>
+      <attr-item tags="f"/>
+      <attr-item tags="ut"/>
+      <attr-item tags="nt"/>
     </def-attr>
 
   </section-def-attrs>
@@ -61,6 +68,26 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: NOUN ">
+      <pattern>
+        <pattern-item n="nom"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_case_nom"/><lit v=""/></let>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: ADJ-NOUN-AGREEMENT">
       <pattern>

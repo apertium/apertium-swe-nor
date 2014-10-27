@@ -35,6 +35,11 @@
     <sdef n="emph"   c="Emphatic"/>
 
     <sdef n="vblex"   c="Verb"/>
+    <sdef n="vaux"   c="Verb"/>
+    <sdef n="vbser"   c="Verb"/>
+    <sdef n="vbhaver"   c="Verb"/>
+    <sdef n="vbmod"   c="Verb"/>
+
     <sdef n="pstv"    c="-st verb (Nynorsk)"/>
     <sdef n="pass"    c="Passive (Bokmål) or -st form (Nynorsk)"/>
     <sdef n="inf"     c="Infinitive"/>
@@ -63,13 +68,12 @@
     <sdef n="sent"    c="Sentence end" />
     <sdef n="cm"      c="Comma" />
     <sdef n="clb"     c="Possible clause boundary"/>
-    <sdef n="overskrift" c="Headline"/>
     <sdef n="apos"    c="Apostrophe" />
     <sdef n="lpar"    c="Left parenthesis" />
     <sdef n="rpar"    c="Right parenthesis" />
 
     <sdef n="top"     c="Toponym" />
-    <sdef n="ant"     c="an ant is an insect innit" />
+    <sdef n="ant"     c="Anthroponym" />
 
     <sdef n="GD"     c="Género por determinar" />
     <sdef n="ND"     c="Número por determinar" />
@@ -93,6 +97,8 @@
     <e><p><l>eller<s n="cnjcoo"/></l><r>eller<s n="cnjcoo"/></r></p></e>
     <e><p><l>men<s n="cnjcoo"/></l><r>men<s n="cnjcoo"/></r></p></e>
     <e><p><l>och<s n="cnjcoo"/></l><r>og<s n="cnjcoo"/></r></p></e>
+    <e><p><l>när<s n="cnjadv"/></l><r>når<s n="cnjadv"/></r></p></e>
+    <e><p><l>då<s n="cnjadv"/></l><r>da<s n="cnjadv"/></r></p></e>
 
     <!-- SECTION: Prepositions -->
 
@@ -120,36 +126,50 @@
     <e><p><l>det<s n="prn"/></l><r>det<s n="prn"/></r></p></e>
     <e><p><l>du<s n="prn"/></l><r>du<s n="prn"/></r></p></e>
     <e><p><l>han<s n="prn"/></l><r>han<s n="prn"/></r></p></e>
-    <e><p><l>hon<s n="prn"/></l><r>hun<s n="prn"/></r></p></e>
-    <e><p><l>jag<s n="prn"/></l><r>jeg<s n="prn"/></r></p></e>
+    <e vr="nob"><p><l>hon<s n="prn"/></l><r>hun<s n="prn"/></r></p></e>
+    <e vr="nob"><p><l>jag<s n="prn"/></l><r>jeg<s n="prn"/></r></p></e>
     <e><p><l>ni<s n="prn"/></l><r>dere<s n="prn"/></r></p></e>
-    <e><p><l>vad<s n="prn"/></l><r>hva<s n="prn"/></r></p></e>
-    <e><p><l>var<s n="prn"/></l><r>hvor<s n="prn"/></r></p></e>
+    <e vr="nob"><p><l>vad<s n="prn"/></l><r>hva<s n="prn"/></r></p></e>
+    <e vr="nob"><p><l>var<s n="prn"/></l><r>hvor<s n="prn"/></r></p></e>
     <e><p><l>vart<s n="prn"/></l><r>hvorhen<s n="prn"/></r></p></e>
-    <e><p><l>varför<s n="prn"/></l><r>hvorfor<s n="prn"/></r></p></e>
     <e><p><l>vi<s n="prn"/></l><r>vi<s n="prn"/></r></p></e>
 
-    <e><p><l>jag<s n="prn"/></l><r>eg<s n="prn"/></r></p></e>
-    <e><p><l>hon<s n="prn"/></l><r>ho<s n="prn"/></r></p></e>
-    <e><p><l>vad<s n="prn"/></l><r>kva<s n="prn"/></r></p></e>
-    <e><p><l>var<s n="prn"/></l><r>kor<s n="prn"/></r></p></e>
+    <e vr="nno"><p><l>jag<s n="prn"/></l><r>eg<s n="prn"/></r></p></e>
+    <e vr="nno"><p><l>hon<s n="prn"/></l><r>ho<s n="prn"/></r></p></e>
+    <e vr="nno"><p><l>vem<s n="prn"/><s n="itg"/><s n="ut"/></l><r>kven<s n="prn"/><s n="itg"/></r></p></e>
+    <e vr="nno"><p><l>vem<s n="prn"/><s n="itg"/><s n="nt"/></l><r>kva<s n="prn"/><s n="itg"/></r></p></e>
+    <e vr="nno"><p><l>var<s n="prn"/></l><r>kor<s n="prn"/></r></p></e>
+
+    <e><p><l>någonting<s n="prn"/></l><r>ingenting<s n="prn"/></r></p></e>
+    <e><p><l>någon<s n="prn"/></l><r>ingen<s n="prn"/></r></p></e>
+
+    <e><p><l>sig<s n="prn"/></l><r>seg<s n="prn"/></r></p></e>
+
+    <e vr="nno"><p><l>båda<s n="prn"/></l><r>begge<s n="prn"/></r></p></e>
+    <e vr="nob"><p><l>båda<s n="prn"/></l><r>både<s n="prn"/></r></p></e>
 
     <!-- SECTION: Determiners -->
 
     <e><p><l>den<s n="det"/></l><r>den<s n="det"/></r></p></e>
-    <e><p><l>en<s n="det"/></l><r>en<s n="det"/></r></p></e>
+    <e vr="nob"><p><l>en<s n="det"/></l><r>en<s n="det"/></r></p></e>
+    <e vr="nno"><p><l>en<s n="det"/></l><r>ein<s n="det"/></r></p></e>
+
+    <e><p><l>någon<s n="det"/></l><r>ingen<s n="det"/></r></p></e>
+    <e><p><l>all<s n="det"/></l><r>all<s n="det"/></r></p></e>
+
+    <e><p><l>sin<s n="det"/></l><r>sinn<s n="det"/></r></p></e>
 
     <!-- SECTION: Numerals -->
 
-    <e><p><l>åtta<s n="num"/></l><r>åtte<s n="num"/></r></p></e>
-    <e><p><l>fem<s n="num"/></l><r>fem<s n="num"/></r></p></e>
+    <e><p><l>två<s n="num"/></l><r>to<s n="num"/></r></p></e>
+    <e><p><l>tre<s n="num"/></l><r>tre<s n="num"/></r></p></e>
     <e><p><l>fyra<s n="num"/></l><r>fire<s n="num"/></r></p></e>
-    <e><p><l>nio<s n="num"/></l><r>ni<s n="num"/></r></p></e>
+    <e><p><l>fem<s n="num"/></l><r>fem<s n="num"/></r></p></e>
     <e><p><l>sex<s n="num"/></l><r>seks<s n="num"/></r></p></e>
     <e><p><l>sju<s n="num"/></l><r>sju<s n="num"/></r></p></e>
+    <e><p><l>åtta<s n="num"/></l><r>åtte<s n="num"/></r></p></e>
+    <e><p><l>nio<s n="num"/></l><r>ni<s n="num"/></r></p></e>
     <e><p><l>tio<s n="num"/></l><r>ti<s n="num"/></r></p></e>
-    <e><p><l>tre<s n="num"/></l><r>tre<s n="num"/></r></p></e>
-    <e><p><l>två<s n="num"/></l><r>to<s n="num"/></r></p></e>
 
     <!-- SECTION: Nouns  -->
 
@@ -163,23 +183,31 @@
     <e><p><l>fråga<s n="n"/><s n="ut"/></l><r>spørsmål<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>hund<s n="n"/><s n="ut"/></l><r>hund<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hus<s n="n"/><s n="nt"/></l><r>hus<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>huvud<s n="n"/><s n="nt"/></l><r>hode<s n="n"/><s n="nt"/></r></p></e>
+    <e vr="nob"><p><l>huvud<s n="n"/><s n="nt"/></l><r>hode<s n="n"/><s n="nt"/></r></p></e>
+    <e vr="nno"><p><l>huvud<s n="n"/><s n="nt"/></l><r>hovud<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>katt<s n="n"/><s n="ut"/></l><r>katt<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ljud<s n="n"/><s n="nt"/></l><r>lyd<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>mamma<s n="n"/><s n="ut"/></l><r>mor<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>pojke<s n="n"/><s n="ut"/></l><r>gutt<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>stol<s n="n"/><s n="ut"/></l><r>stol<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>svar<s n="n"/><s n="ut"/></l><r>svar<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>svar<s n="n"/><s n="nt"/></l><r>svar<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>vatten<s n="n"/><s n="nt"/></l><r>vann<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>folk<s n="n"/><s n="nt"/></l><r>folk<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>syster<s n="n"/><s n="ut"/></l><r>søster<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>trädgård<s n="n"/><s n="ut"/></l><r>hage<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>träd<s n="n"/><s n="nt"/></l><r>tre<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>väder<s n="n"/><s n="nt"/></l><r>vær<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>väg<s n="n"/><s n="ut"/></l><r>veg<s n="n"/><s n="m"/></r></p></e>
+    <e vr="nob"><p><l>lek<s n="n"/><s n="ut"/></l><r>lek<s n="n"/><s n="m"/></r></p></e>
+    <e vr="nno"><p><l>lek<s n="n"/><s n="ut"/></l><r>leik<s n="n"/><s n="m"/></r></p></e>
+    <e vr="nob"><p><l>öga<s n="n"/><s n="nt"/></l><r>øye<s n="n"/><s n="nt"/></r></p></e>
+    <e vr="nno"><p><l>öga<s n="n"/><s n="nt"/></l><r>auga<s n="n"/><s n="nt"/></r></p></e>
+
 
     <!-- SECTION: Proper nouns -->
 
-    <e><p><l>James<s n="np"/><s n="ant"/></l><r>James<s n="np"/><s n="ant"/></r></p></e>
-    <e><p><l>Mary<s n="np"/><s n="ant"/></l><r>Mary<s n="np"/><s n="ant"/></r></p></e>
+    <e><p><l>James<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>James<s n="np"/><s n="m"/></r></p></e>
+    <e><p><l>Mary<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Mary<s n="np"/><s n="f"/></r></p></e>
 
     <!-- SECTION: Adjectives -->
 
@@ -422,11 +450,16 @@
     <e><p><l>viss<s n="adj"/></l><r>viss<s n="adj"/></r></p></e>
     <e><p><l>vit<s n="adj"/></l><r>hvit<s n="adj"/></r></p></e>
     <e><p><l>vuxen<s n="adj"/></l><r>voksen<s n="adj"/></r></p></e>
+    <e><p><l>fortfarande<s n="adj"/></l><r>stadig<s n="adj"/></r></p></e>
 
     <!-- SECTION: Adverbs -->
 
+    <e vr="nob"><p><l>varför<s n="adv"/><s n="itg"/></l><r>hvorfor<s n="adv"/></r></p></e>
+    <e vr="nno"><p><l>varför<s n="adv"/><s n="itg"/></l><r>kvifor<s n="adv"/></r></p></e>
+
     <e><p><l>aldrig<s n="adv"/></l><r>aldri<s n="adv"/></r></p></e>
     <e><p><l>alltid<s n="adv"/></l><r>alltid<s n="adv"/></r></p></e>
+    <e><p><l>väldigt<s n="adv"/></l><r>veldig<s n="adv"/></r></p></e>
     <e><p><l>även<s n="adv"/></l><r>selv<b/>om<s n="adv"/></r></p></e>
     <e><p><l>där<s n="adv"/></l><r>der<s n="adv"/></r></p></e>
     <e><p><l>då<s n="adv"/></l><r>da<s n="adv"/></r></p></e>
@@ -437,10 +470,13 @@
     <e><p><l>i<b/>dag<s n="adv"/></l><r>i<b/>dag<s n="adv"/></r></p></e>
     <e><p><l>i<b/>går<s n="adv"/></l><r>i<b/>går<s n="adv"/></r></p></e>
     <e><p><l>igen<s n="adv"/></l><r>igjen<s n="adv"/></r></p></e>
-    <e><p><l>inte<s n="adv"/></l><r>ikke<s n="adv"/></r></p></e>
+    <e><p><l>kvar<s n="adv"/></l><r>igjen<s n="adv"/></r></p></e>
+    <e vr="nno"><p><l>inte<s n="adv"/></l><r>ikkje<s n="adv"/></r></p></e>
+    <e vr="nob"><p><l>inte<s n="adv"/></l><r>ikke<s n="adv"/></r></p></e>
     <e><p><l>när<s n="adv"/></l><r>når<s n="adv"/></r></p></e>
     <e><p><l>naturligtvis<s n="adv"/></l><r>naturligvis<s n="adv"/></r></p></e>
-    <e><p><l>nu<s n="adv"/></l><r>nå<s n="adv"/></r></p></e>
+    <e vr="nob"><p><l>nu<s n="adv"/></l><r>nå<s n="adv"/></r></p></e>
+    <e vr="nno"><p><l>nu<s n="adv"/></l><r>no<s n="adv"/></r></p></e>
     <e><p><l>också<s n="adv"/></l><r>også<s n="adv"/></r></p></e>
     <e><p><l>sedan<s n="adv"/></l><r>siden<s n="adv"/></r></p></e>
     <e><p><l>tillsammans<s n="adv"/></l><r>i<b/>sammen<s n="adv"/></r></p></e>
@@ -448,6 +484,17 @@
     <e><p><l>utomhus<s n="adv"/></l><r>utendørs<s n="adv"/></r></p></e>
 
     <!-- SECTION: Verbs -->
+
+    <e vr="nob"><p><l>vara<s n="vbser"/></l><r>være<s n="vblex"/></r></p></e>
+    <e vr="nno"><p><l>vara<s n="vbser"/></l><r>vere<s n="vblex"/></r></p></e>
+
+    <e><p><l>ha<s n="vblex"/></l><r>ha<s n="vblex"/></r></p></e>
+    <e><p><l>ha<s n="vbhaver"/></l><r>ha<s n="vbhaver"/></r></p></e>
+
+    <e vr="nob"><p><l>vilja<s n="vaux"/></l><r>ville<s n="vaux"/></r></p></e>
+    <e vr="nno"><p><l>vilja<s n="vaux"/></l><r>vilje<s n="vaux"/></r></p></e>
+
+    <e><p><l>kunna<s n="vbmod"/></l><r>kunne<s n="vbmod"/></r></p></e>
 
     <e><p><l>älska<s n="vblex"/></l><r>elske<s n="vblex"/></r></p></e>
     <e><p><l>äta<s n="vblex"/></l><r>spise<s n="vblex"/></r></p></e>
@@ -466,12 +513,12 @@
     <e><p><l>dubbla<s n="vblex"/></l><r>doble<s n="vblex"/></r></p></e>
     <e><p><l>fixa<s n="vblex"/></l><r>fikse<s n="vblex"/></r></p></e>
     <e><p><l>fråga<s n="vblex"/></l><r>spørre<s n="vblex"/></r></p></e>
+    <e><p><l>få<s n="vblex"/></l><r>få<s n="vblex"/></r></p></e>
     <e><p><l>gå<s n="vblex"/></l><r>gå<s n="vblex"/></r></p></e>
     <e><p><l>gilla<s n="vblex"/></l><r>like<s n="vblex"/></r></p></e>
     <e><p><l>grilla<s n="vblex"/></l><r>grille<s n="vblex"/></r></p></e>
     <e><p><l>hacka<s n="vblex"/></l><r>hakke<s n="vblex"/></r></p></e>
     <e><p><l>halvera<s n="vblex"/></l><r>halvere<s n="vblex"/></r></p></e>
-    <e><p><l>ha<s n="vblex"/></l><r>ha<s n="vblex"/></r></p></e>
     <e><p><l>hitta<s n="vblex"/></l><r>finne<s n="vblex"/></r></p></e>
     <e><p><l>klappa<s n="vblex"/></l><r>klappe<s n="vblex"/></r></p></e>
     <e><p><l>kolla<s n="vblex"/></l><r>undersøke<s n="vblex"/></r></p></e>
@@ -479,10 +526,9 @@
     <e><p><l>kontakta<s n="vblex"/></l><r>kontakte<s n="vblex"/></r></p></e>
     <e><p><l>koppla<s n="vblex"/></l><r>koble<s n="vblex"/></r></p></e>
     <e><p><l>kritisera<s n="vblex"/></l><r>kritisere<s n="vblex"/></r></p></e>
-    <e><p><l>kunna<s n="vblex"/></l><r>kunne<s n="vblex"/></r></p></e>
     <e><p><l>ladda<s n="vblex"/></l><r>lade opp<s n="vblex"/></r></p></e>
     <e><p><l>laga<s n="vblex"/></l><r>lage<s n="vblex"/></r></p></e>
-    <e><p><l>leka<s n="vblex"/></l><r>gå<b/>opp<s n="vblex"/></r></p></e>
+    <e><p><l>leka<s n="vblex"/></l><r>gå<g><b/>opp</g><s n="vblex"/></r></p></e>
     <e><p><l>leka<s n="vblex"/></l><r>leke<s n="vblex"/></r></p></e>
     <e><p><l>leta<s n="vblex"/></l><r>lete<s n="vblex"/></r></p></e>
     <e><p><l>lugna<s n="vblex"/></l><r>berolige<s n="vblex"/></r></p></e>
@@ -499,6 +545,7 @@
     <e><p><l>oroa<s n="vblex"/></l><r>uroe<s n="vblex"/></r></p></e>
     <e><p><l>planera<s n="vblex"/></l><r>planlegge<s n="vblex"/></r></p></e>
     <e><p><l>prata<s n="vblex"/></l><r>prate<s n="vblex"/></r></p></e>
+    <e><p><l>prata<s n="vblex"/></l><r>snakke<s n="vblex"/></r></p></e>
     <e><p><l>pressa<s n="vblex"/></l><r>presse<s n="vblex"/></r></p></e>
     <e><p><l>putsa<s n="vblex"/></l><r>pusse<s n="vblex"/></r></p></e>
     <e><p><l>raka<s n="vblex"/></l><r>barbere<s n="vblex"/></r></p></e>
@@ -507,7 +554,8 @@
     <e><p><l>rikta<s n="vblex"/></l><r>rette<s n="vblex"/></r></p></e>
     <e><p><l>rulla<s n="vblex"/></l><r>rulle<s n="vblex"/></r></p></e>
     <e><p><l>sadla<s n="vblex"/></l><r>sale<s n="vblex"/></r></p></e>
-    <e><p><l>se<s n="vblex"/></l><r>se<s n="vblex"/></r></p></e>
+    <e vr="nob"><p><l>se<s n="vblex"/></l><r>se<s n="vblex"/></r></p></e>
+    <e vr="nno"><p><l>se<s n="vblex"/></l><r>sjå<s n="vblex"/></r></p></e>
     <e><p><l>skada<s n="vblex"/></l><r>skade<s n="vblex"/></r></p></e>
     <e><p><l>skicka<s n="vblex"/></l><r>sende<s n="vblex"/></r></p></e>
     <e><p><l>skratta<s n="vblex"/></l><r>le<s n="vblex"/></r></p></e>
@@ -527,12 +575,30 @@
     <e><p><l>trampa<s n="vblex"/></l><r>tråkke<s n="vblex"/></r></p></e>
     <e><p><l>tro<s n="vblex"/></l><r>tro<s n="vblex"/></r></p></e>
     <e><p><l>urarta<s n="vblex"/></l><r>utarte<s n="vblex"/></r></p></e>
-    <e><p><l>vara<s n="vblex"/></l><r>være<s n="vblex"/></r></p></e>
     <e><p><l>veta<s n="vblex"/></l><r>vite<s n="vblex"/></r></p></e>
     <e><p><l>vila<s n="vblex"/></l><r>hvile<s n="vblex"/></r></p></e>
     <e><p><l>vinna<s n="vblex"/></l><r>vinne<s n="vblex"/></r></p></e>
     <e><p><l>visa<s n="vblex"/></l><r>vise<s n="vblex"/></r></p></e>
+    <e><p><l>sitta<s n="vblex"/></l><r>sitte<s n="vblex"/></r></p></e>
+    <e><p><l>komma<s n="vblex"/></l><r>komme<s n="vblex"/></r></p></e>
+    <e><p><l>sova<s n="vblex"/></l><r>sove<s n="vblex"/></r></p></e>
 
+    <e vr="nob"><p><l>göra<s n="vblex"/></l><r>gjøre<s n="vblex"/></r></p></e>
+    <e vr="nno"><p><l>göra<s n="vblex"/></l><r>gjere<s n="vblex"/></r></p></e>
+
+    <e vr="nob"><p><l>säga<s n="vblex"/></l><r>se<s n="vblex"/></r></p></e>
+    <e vr="nno"><p><l>säga<s n="vblex"/></l><r>seie<s n="vblex"/></r></p></e>
+
+    <!-- SECTION: Interjections -->
+
+    <e><p><l>nej<s n="ij"/></l><r>nei<s n="ij"/></r></p></e>
+
+    <!-- SECTION: Punctuation -->
+ 
     <e>       <re>[\)\]]</re><p><l><s n="rpar"/></l><r><s n="rpar"/></r></p></e>
+    <e><re>[.\?;:!·…]+</re><p><l><s n="sent"/></l><r><s n="sent"/><s n="clb"/></r></p></e>
+    <e><re>,</re><p><l><s n="cm"/></l><r><s n="cm"/></r></p></e>
+    <e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="det"/><s n="qnt"/></l><r><s n="det"/><s n="qnt"/></r></p></e>
+
   </section>
 </dictionary>
