@@ -208,7 +208,8 @@
     <e><p><l>pojke<s n="n"/><s n="ut"/></l><r>gutt<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>stol<s n="n"/><s n="ut"/></l><r>stol<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>svar<s n="n"/><s n="nt"/></l><r>svar<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>vatten<s n="n"/><s n="nt"/></l><r>vann<s n="n"/><s n="nt"/></r></p></e>
+    <e vr="nob"><p><l>vatten<s n="n"/><s n="nt"/></l><r>vann<s n="n"/><s n="nt"/></r></p></e>
+    <e vr="nno"><p><l>vatten<s n="n"/><s n="nt"/></l><r>vatn<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>folk<s n="n"/><s n="nt"/></l><r>folk<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>syster<s n="n"/><s n="ut"/></l><r>søster<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>trädgård<s n="n"/><s n="ut"/></l><r>hage<s n="n"/><s n="m"/></r></p></e>
