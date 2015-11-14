@@ -131,6 +131,7 @@
     <e vr="nob"><p><l>hon<s n="prn"/></l><r>hun<s n="prn"/></r></p></e>
     <e vr="nob"><p><l>jag<s n="prn"/></l><r>jeg<s n="prn"/></r></p></e>
     <e><p><l>ni<s n="prn"/></l><r>dere<s n="prn"/></r></p></e>
+    <e vr="nno"><p><l>vad<s n="prn"/></l><r>kva<s n="prn"/></r></p></e>
     <e vr="nob"><p><l>vad<s n="prn"/></l><r>hva<s n="prn"/></r></p></e>
     <e vr="nob"><p><l>var<s n="prn"/></l><r>hvor<s n="prn"/></r></p></e>
     <e><p><l>vart<s n="prn"/></l><r>hvorhen<s n="prn"/></r></p></e>
@@ -525,6 +526,7 @@
     <e><p><l>ha<s n="vblex"/></l><r>ha<s n="vblex"/></r></p></e>
     <e><p><l>ha<s n="vbhaver"/></l><r>ha<s n="vbhaver"/></r></p></e>
 
+
     <e vr="nob"><p><l>vilja<s n="vaux"/></l><r>ville<s n="vaux"/></r></p></e>
     <e vr="nno"><p><l>vilja<s n="vaux"/></l><r>vilje<s n="vaux"/></r></p></e>
 
@@ -704,5 +706,19 @@
     <e><re>,</re><p><l><s n="cm"/></l><r><s n="cm"/></r></p></e>
     <e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="det"/><s n="qnt"/></l><r><s n="det"/><s n="qnt"/></r></p></e>
 
+  </section>
+  <section id="pending" type="standard">
+    <e vr="nob"><p><l>hand<s n="n"/><s n="ut"/></l><r>hånd<s n="n"/><s n="m"/></r></p></e>
+    <e vr="nno"><p><l>hand<s n="n"/><s n="ut"/></l><r>hand<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>fågel<s n="n"/><s n="ut"/></l><r>fugl<s n="n"/><s n="m"/></r></p></e>
+
+    <e><p><l>snabbt<s n="adv"/></l><r>rask<s n="adv"/></r></p></e>
+    <e><p><l>snabbt<s n="adv"/></l><r>fort<s n="adv"/></r></p></e>
+
+    <e><p><l>måsta<s n="vaux"/></l><r>må<s n="vaux"/></r></p></e>
+    <e><p><l>höra<s n="vblex"/></l><r>høre<s n="vblex"/></r></p></e>
+    <e><p><l>leka<s n="vblex"/></l><r>leke<s n="vblex"/></r></p></e>
+    <e><p><l>springa<s n="vblex"/></l><r>lope<s n="vblex"/></r></p></e>
+    <e><p><l>springa<s n="vblex"/></l><r>springe<s n="vblex"/></r></p></e>
   </section>
 </dictionary>
