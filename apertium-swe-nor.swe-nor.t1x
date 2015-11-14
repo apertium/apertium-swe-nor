@@ -8,6 +8,7 @@
     <def-cat n="vblex">
       <cat-item tags="vblex.*"/>
       <cat-item tags="vbser.*"/>
+      <cat-item tags="vbhaver.*"/>
       <cat-item tags="vaux.*"/>
     </def-cat>
     <def-cat n="nom">
@@ -69,44 +70,7 @@
   </section-def-macros>
   <section-rules>
 
-    <rule comment="REGLA: SENT">
-      <pattern>
-        <pattern-item n="sent"/>
-      </pattern>
-      <action>
-        <out>
-          <chunk name="sent" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SENT"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="whole"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
-    <rule comment="REGLA: VBLEX">
-      <pattern>
-        <pattern-item n="vblex"/>
-      </pattern>
-      <action>
-        <call-macro n="f_verb1"><with-param pos="1"/></call-macro>
-        <out>
-          <chunk name="n" case="caseFirstWord">
-            <tags>
-              <tag><lit-tag v="SV"/></tag>
-            </tags>
-            <lu>
-              <clip pos="1" side="tl" part="whole"/>
-            </lu>
-          </chunk>
-        </out>
-      </action>
-    </rule>
-
-    <rule comment="REGLA: PROP">
+   <rule comment="REGLA: PROP">
       <pattern>
         <pattern-item n="prop"/>
       </pattern>
@@ -145,42 +109,44 @@
       </action>
     </rule>
 
-
-    <rule comment="REGLA: ADJ-NOUN-AGREEMENT">
+    <rule comment="REGLA: VBLEX">
       <pattern>
-        <pattern-item n="DetIndef"/>
-        <pattern-item n="AdjIndef"/>
-        <pattern-item n="NounIndef"/>
+        <pattern-item n="vblex"/>
       </pattern>
       <action>
-        <let>
-          <clip pos="1" side="tl" part="gender" />
-          <clip pos="3" side="tl" part="gender" />
-        </let>
-        <let>
-          <clip pos="2" side="tl" part="gender" />
-          <clip pos="3" side="tl" part="gender" />
-        </let>
+        <call-macro n="f_verb1"><with-param pos="1"/></call-macro>
         <out>
-          <chunk name="NP" case="caseFirstWord">
+          <chunk name="v" case="caseFirstWord">
             <tags>
-              <tag><lit-tag v="NP"/></tag>
+              <tag><lit-tag v="SV"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>
-            </lu>
-            <b/>
-            <lu>
-              <clip pos="2" side="tl" part="whole"/>
-            </lu>
-            <b/>
-            <lu>
-              <clip pos="3" side="tl" part="whole"/>
             </lu>
           </chunk>
         </out>
       </action>
     </rule>
+
+ 
+    <rule comment="REGLA: SENT">
+      <pattern>
+        <pattern-item n="sent"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="sent" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SENT"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
   </section-rules>
 </transfer>

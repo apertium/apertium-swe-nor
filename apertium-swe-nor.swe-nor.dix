@@ -6,6 +6,7 @@
     <sdef n="prn"     c="Pronoun"/>
     <sdef n="det"     c="Determiner"/>
     <sdef n="pos"     c="Possessive"/>
+    <sdef n="predet"  c=""/>
 
     <sdef n="p1"      c="1st person"/>
     <sdef n="p2"      c="2nd person"/>
@@ -173,6 +174,8 @@
     <e><p><l>din<s n="det"/></l><r>din<s n="det"/></r></p></e>
 
     <e><p><l>sin<s n="det"/></l><r>sinn<s n="det"/></r></p></e>
+
+    <e><p><l>all<s n="predet"/></l><r>all<s n="det"/><s n="qnt"/></r></p></e>
 
     <!-- SECTION: Numerals -->
 
@@ -538,7 +541,8 @@
     <e><p><l>kunna<s n="vbmod"/></l><r>kunne<s n="vbmod"/></r></p></e>
 
     <e><p><l>älska<s n="vblex"/></l><r>elske<s n="vblex"/></r></p></e>
-    <e><p><l>äta<s n="vblex"/></l><r>spise<s n="vblex"/></r></p></e>
+    <e vr="nob"><p><l>äta<s n="vblex"/></l><r>spise<s n="vblex"/></r></p></e>
+    <e vr="nno"><p><l>äta<s n="vblex"/></l><r>spisse<s n="vblex"/></r></p></e>
     <e><p><l>attackera<s n="vblex"/></l><r>attakkere<s n="vblex"/></r></p></e>
     <e><p><l>avskaffa<s n="vblex"/></l><r>avskaffe<s n="vblex"/></r></p></e>
     <e><p><l>avveckla<s n="vblex"/></l><r>avvikle<s n="vblex"/></r></p></e>
@@ -553,7 +557,8 @@
     <e><p><l>dricka<s n="vblex"/></l><r>drikke<s n="vblex"/></r></p></e>
     <e><p><l>dubbla<s n="vblex"/></l><r>doble<s n="vblex"/></r></p></e>
     <e><p><l>fixa<s n="vblex"/></l><r>fikse<s n="vblex"/></r></p></e>
-    <e><p><l>fråga<s n="vblex"/></l><r>spørre<s n="vblex"/></r></p></e>
+    <e vr="nob"><p><l>fråga<s n="vblex"/></l><r>spørre<s n="vblex"/></r></p></e>
+    <e vr="nno"><p><l>fråga<s n="vblex"/></l><r>spørje<s n="vblex"/></r></p></e>
     <e><p><l>få<s n="vblex"/></l><r>få<s n="vblex"/></r></p></e>
     <e><p><l>gå<s n="vblex"/></l><r>gå<s n="vblex"/></r></p></e>
     <e><p><l>gilla<s n="vblex"/></l><r>like<s n="vblex"/></r></p></e>
