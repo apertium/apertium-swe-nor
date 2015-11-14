@@ -18,6 +18,8 @@
 /autogen.sh -text
 /configure.ac -text
 dev/precommit-testvoc.sh -text
+dev/wikt.nouns.swe-nor.txt -text
+dev/wikt.verbs.swe-nor.txt -text
 /modes.xml -text
 texts/story.nob.txt -text
 texts/story.swe.txt -text

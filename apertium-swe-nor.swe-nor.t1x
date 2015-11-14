@@ -2,6 +2,14 @@
 <!-- -*- nxml -*- -->
 <transfer default="chunk">
   <section-def-cats>
+    <def-cat n="prop">
+      <cat-item tags="np.*"/>
+    </def-cat>
+    <def-cat n="vblex">
+      <cat-item tags="vblex.*"/>
+      <cat-item tags="vbser.*"/>
+      <cat-item tags="vaux.*"/>
+    </def-cat>
     <def-cat n="nom">
       <cat-item tags="n.*"/>
     </def-cat>
@@ -9,22 +17,30 @@
       <cat-item tags="sent"/>
     </def-cat>
     <def-cat n="DetIndef">
-      <cat-item tags="det.indef.*"/>
+      <cat-item tags="det.ind.*"/>
     </def-cat>
     <def-cat n="AdjIndef">
-      <cat-item tags="adj.*.*.indef"/>
+      <cat-item tags="adj.*.*.ind"/>
     </def-cat>
     <def-cat n="NounIndef">
-      <cat-item tags="n.*.*.indef"/>
+      <cat-item tags="n.*.*.ind"/>
     </def-cat>
   </section-def-cats>
   <section-def-attrs>
+    <def-attr n="a_voice_actv">
+      <attr-item tags="actv"/>
+    </def-attr>
     <def-attr n="a_nom">
       <attr-item tags="n"/>
     </def-attr>
     <def-attr n="a_case">
       <attr-item tags="nom"/>
       <attr-item tags="gen"/>
+    </def-attr>
+    <def-attr n="a_temps">
+      <attr-item tags="past"/>
+      <attr-item tags="pret"/>
+      <attr-item tags="pres"/>
     </def-attr>
     <def-attr n="a_case_nom">
       <attr-item tags="nom"/>
@@ -42,11 +58,13 @@
     <def-var n="current_verb"/>
   </section-def-vars>
   <section-def-macros>
-    <def-macro n="test" npar="1">
-          <let>
-            <var n="number"/>
-            <lit v=""/>
-          </let>
+    <def-macro n="f_verb1" npar="1">
+          <let><clip pos="1" side="tl" part="a_voice_actv"/><lit v=""/></let>
+          <choose>
+            <when><test><equal><clip pos="1" side="sl" part="a_temps"/><lit-tag v="past"/></equal></test>
+                  <let><clip pos="1" side="tl" part="a_temps"/><lit-tag v="pret"/></let>
+            </when>
+          </choose>
     </def-macro>
   </section-def-macros>
   <section-rules>
@@ -68,6 +86,45 @@
         </out>
       </action>
     </rule>
+
+    <rule comment="REGLA: VBLEX">
+      <pattern>
+        <pattern-item n="vblex"/>
+      </pattern>
+      <action>
+        <call-macro n="f_verb1"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: PROP">
+      <pattern>
+        <pattern-item n="prop"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_case_nom"/><lit v=""/></let>
+        <out>
+          <chunk name="n" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
 
     <rule comment="REGLA: NOUN ">
       <pattern>

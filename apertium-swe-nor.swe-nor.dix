@@ -66,6 +66,8 @@
     <sdef n="ord"     c="Ordinal"/>
     <sdef n="acr"     c="Acronym"/>
     <sdef n="sent"    c="Sentence end" />
+    <sdef n="rquot"   c="" />
+    <sdef n="lquot"   c="" />
     <sdef n="cm"      c="Comma" />
     <sdef n="clb"     c="Possible clause boundary"/>
     <sdef n="apos"    c="Apostrophe" />
@@ -485,6 +487,8 @@
 
     <e vr="nob"><p><l>varför<s n="adv"/><s n="itg"/></l><r>hvorfor<s n="adv"/></r></p></e>
     <e vr="nno"><p><l>varför<s n="adv"/><s n="itg"/></l><r>kvifor<s n="adv"/></r></p></e>
+    <e vr="nob"><p><l>var<s n="adv"/><s n="itg"/></l><r>hvor<s n="adv"/></r></p></e>
+    <e vr="nno"><p><l>var<s n="adv"/><s n="itg"/></l><r>kor<s n="adv"/></r></p></e>
 
     <e><p><l>aldrig<s n="adv"/></l><r>aldri<s n="adv"/></r></p></e>
     <e><p><l>alltid<s n="adv"/></l><r>alltid<s n="adv"/></r></p></e>
@@ -705,6 +709,8 @@
     <e>       <re>[\)\]]</re><p><l><s n="rpar"/></l><r><s n="rpar"/></r></p></e>
     <e><re>[.\?;:!·…]+</re><p><l><s n="sent"/></l><r><s n="sent"/><s n="clb"/></r></p></e>
     <e><re>,</re><p><l><s n="cm"/></l><r><s n="cm"/></r></p></e>
+    <e><re>«</re><p><l><s n="lquot"/></l><r><s n="lquot"/></r></p></e>
+    <e><re>»</re><p><l><s n="rquot"/></l><r><s n="rquot"/></r></p></e>
     <e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="det"/><s n="qnt"/></l><r><s n="det"/><s n="qnt"/></r></p></e>
 
   </section>
@@ -720,6 +726,7 @@
     <e><p><l>höra<s n="vblex"/></l><r>høre<s n="vblex"/></r></p></e>
     <e><p><l>leka<s n="vblex"/></l><r>leke<s n="vblex"/></r></p></e>
     <e><p><l>springa<s n="vblex"/></l><r>lope<s n="vblex"/></r></p></e>
+    <e><p><l>skriva<s n="vblex"/></l><r>skrive<s n="vblex"/></r></p></e>
     <e><p><l>springa<s n="vblex"/></l><r>springe<s n="vblex"/></r></p></e>
   </section>
 </dictionary>

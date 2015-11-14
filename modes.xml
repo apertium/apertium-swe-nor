@@ -4,7 +4,7 @@
 
   <mode name="swe-nob" install="yes">
     <pipeline>
-      <program name="lt-proc -w">
+      <program name="lt-proc -e -w">
         <file name="swe-nob.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
@@ -40,7 +40,7 @@
 
   <mode name="swe-nno" install="yes">
     <pipeline>
-      <program name="lt-proc -w">
+      <program name="lt-proc -e -w">
         <file name="swe-nno.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
@@ -74,9 +74,37 @@
     </pipeline>
   </mode>
 
-  <mode name="swe-nno-postchunk" install="yes">
+  <mode name="swe-nno-morph" install="no">
     <pipeline>
-      <program name="lt-proc -w">
+      <program name="lt-proc -e -w">
+        <file name="swe-nno.automorf.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+  <mode name="swe-nno-biltrans" install="no">
+    <pipeline>
+      <program name="lt-proc -e -w">
+        <file name="swe-nno.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="swe-nor.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="swe-nor.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="swe-nno.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+  <mode name="swe-nno-postchunk" install="no">
+    <pipeline>
+      <program name="lt-proc -e -w">
         <file name="swe-nno.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
