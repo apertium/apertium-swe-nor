@@ -47,6 +47,8 @@
       <attr-item tags="past"/>
       <attr-item tags="pret"/>
       <attr-item tags="pres"/>
+      <attr-item tags="supn"/>
+      <attr-item tags="pp"/>
     </def-attr>
     <def-attr n="a_case_nom">
       <attr-item tags="nom"/>
@@ -78,6 +80,9 @@
           <choose>
             <when><test><equal><clip pos="1" side="sl" part="a_temps"/><lit-tag v="past"/></equal></test>
                   <let><clip pos="1" side="tl" part="a_temps"/><lit-tag v="pret"/></let>
+            </when>
+            <when><test><equal><clip pos="1" side="sl" part="a_temps"/><lit-tag v="supn"/></equal></test>
+                  <let><clip pos="1" side="tl" part="a_temps"/><lit-tag v="pp"/></let>
             </when>
           </choose>
     </def-macro>
