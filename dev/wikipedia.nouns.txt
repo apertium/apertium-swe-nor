@@ -1,1158 +1,1145 @@
-ablativ[n][nt]	nno	ablativ
-ablativ[n][nt]	nob	ablativ
-abonnemang[n][nt]	nno	abonnement
-abonnemang[n][nt]	nob	abonnement
-ackompanjemang[n][nt]	nob	akkompagnement
-adelskap[n][nt]	nno	adel
-adelskap[n][nt]	nob	adel
-adjektiv[n][nt]	nno	adjektiv
-adjektiv[n][nt]	nob	adjektiv
-adverbial[n][nt]	nno	adverbial
-adverbial[n][nt]	nob	adverbial
-adverb[n][nt]	nno	adverb
-adverb[n][nt]	nob	adverb
-affix[n][nt]	nno	affiks
-affix[n][nt]	nob	affiks
-aggregat[n][nt]	nno	aggregat
-aids[n][ut]	nno	hiv/aids
-aids[n][ut]	nob	aids
-åkerbruk[n][nt]	nno	landbruk
-åkerbruk[n][nt]	nob	landbruk
-åklagare[n][ut]	nno	aktor
-åklagare[n][ut]	nob	aktor
-aktiekapital[n][nt]	nob	aksjekapital
-aktris[n][ut]	nno	skodespelar
-aktris[n][ut]	nob	skuespiller
-album[n][nt]	nob	album
-älggräs[n][nt]	nno	mjødurt
-älggräs[n][nt]	nob	mjødurt
-alkoholproblem[n][nt]	nno	alkoholisme
-alkoholproblem[n][nt]	nob	alkoholismedata-wb-badge="q17437798	
-allians[n][ut]	nob	allianse
-ambulans[n][ut]	nob	ambulanse
-amt[n][nt]	nno	amt
-amt[n][nt]	nob	amt
-ändelse[n][ut]	nob	suffiks
-andetag[n][nt]	nno	anding
-andetag[n][nt]	nob	respirasjon
-ånglok[n][nt]	nno	damplokomotiv
-anlag[n][nt]	nno	genetikk
-anlag[n][nt]	nob	genetikk
-annex[n][nt]	nob	anneks
-ansiktsuttryck[n][nt]	nno	kroppsspråk
-ansiktsuttryck[n][nt]	nob	kroppsspråk
-apotekare[n][ut]	nno	farmasøyt
-apotekare[n][ut]	nob	farmasøyt
-arbetsgivare[n][ut]	nob	arbeidsgiver
-arbetstagare[n][ut]	nno	kroppsarbeidar
-argument[n][nt]	nob	argument
-ark[n][nt]	nob	ark
-ar[n][nt]	nob	ar
-arv[n][nt]	nno	arv
-arv[n][nt]	nob	arv
-as[n][nt]	nob	as
-åtal[n][nt]	nob	siktelse
-atlas[n][ut]	nob	atlas (mytologi)
-attentat[n][nt]	nno	attentat
-attentat[n][nt]	nob	attentat
-automatvapen[n][nt]	nob	helautomatisk skytevåpen
-avdrag[n][nt]	nno	skatt
-avdrag[n][nt]	nob	skattdata-wb-badge="q17437796	
-avfall[n][nt]	nno	sløsing
-avfall[n][nt]	nno	søppel
-avfall[n][nt]	nob	avfall
-avstånd[n][nt]	nno	avstand
-avstånd[n][nt]	nob	avstand
-avtal[n][nt]	nob	avtale
-ax[n][nt]	nob	aks
-badrum[n][nt]	nno	baderom
-badrum[n][nt]	nob	bad
-bål[n][nt]	nno	punsj
-band[n][nt]	nob	bånd
-befäl[n][nt]	nno	befalingsmann
-befäl[n][nt]	nob	befal
-begrepp[n][nt]	nob	begrep
-behag[n][nt]	nno	bryst
-behag[n][nt]	nob	bryst
-behov[n][nt]	nno	behov
-behov[n][nt]	nob	behov
-belopp[n][nt]	nno	absoluttverdi
-belopp[n][nt]	nob	absoluttverdi
-benmjöl[n][nt]	nob	benmel
-ben[n][nt]	nob	ben
-beredskap[n][nt]	nob	beredskap
-berg[n][nt]	nno	fjell
-berg[n][nt]	nob	fjell
-bestånd[n][nt]	nno	bestandsskogbruk
-bestånd[n][nt]	nob	bestandsskogbruk
-bestick[n][nt]	nno	bestikk
-bestick[n][nt]	nob	bestikk
-bibliotek[n][nt]	nno	bibliotek
-bibliotek[n][nt]	nob	bibliotek
-bidrag[n][nt]	nob	bidrag
-bindestreck[n][nt]	nno	bindestrek
-bindestreck[n][nt]	nob	bindestrek
-blad[n][nt]	nno	lauv
-blad[n][nt]	nob	blad
-blåsinstrument[n][nt]	nno	blåseinstrument
-blåsinstrument[n][nt]	nob	blåseinstrument
-blink[n][nt]	nno	nettstaden blink
-blink[n][nt]	nob	blink (nettsamfunn)
-block[n][nt]	nno	blokk
-block[n][nt]	nob	blokk
-blodkärl[n][nt]	nno	blodåre
-blodkärl[n][nt]	nob	blodåre
-blues[n][ut]	nno	blues
-blues[n][ut]	nob	blues
-blus[n][ut]	nob	bluse
-bokförlag[n][nt]	nob	forlag
-bokhandlare[n][ut]	nno	bokhandel
-bokhandlare[n][ut]	nob	bokhandel
-bombardemang[n][nt]	nob	bombe
-borgmästare[n][ut]	nno	ordførar i noreg
-borgmästare[n][ut]	nob	ordfører
-boss[n][nt]	nob	boss
-boss[n][ut]	nob	boss
-bostadshus[n][nt]	nob	bolig
-bot[n][ut]	nob	bot (andre betydninger)
-brädspel[n][nt]	nno	brettspel
-brädspel[n][nt]	nob	brettspill
-bråk[n][nt]	nno	brøk
-bråk[n][nt]	nob	brøk
-bromssystem[n][nt]	nob	parkeringsbrems
-brott[n][nt]	nno	kriminalitet
-brus[n][nt]	nno	støy
-bud[n][nt]	nob	bud (andre betydninger)
-burgare[n][ut]	nob	hamburger
-burr[n][nt]	nno	guden bor
-burr[n][nt]	nob	bor (gud)
-buss[n][ut]	nno	buss
-buss[n][ut]	nob	buss
-byggnadsverk[n][nt]	nob	byggverk
-centimeter[n][ut]	nno	centimeter
-centimeter[n][ut]	nob	centimeter
-cent[n][ut]	nob	cent
-chatt[n][nt]	nob	chatting
-cirkulationsplats[n][ut]	nno	rundkøyring
-cirkulationsplats[n][ut]	nob	rundkjøring
-cirkus[n][ut]	nno	sirkus
-cirkus[n][ut]	nob	sirkus
-citat[n][nt]	nno	sitat
-citat[n][nt]	nob	sitat
-däck[n][nt]	nob	dekk
-däggdjur[n][nt]	nno	pattedyr
-däggdjur[n][nt]	nob	pattedyr
-dagsljus[n][nt]	nno	dagslys
-dagsljus[n][nt]	nob	dagslys
-damlandslag[n][nt]	nob	landslag
-dammsugare[n][ut]	nno	støvsugar
-dammsugare[n][ut]	nob	støvsuger
-dansband[n][nt]	nno	danseband
-dansband[n][nt]	nob	danseband
-dans[n][ut]	nno	dans
-dans[n][ut]	nob	dans
-databas[n][ut]	nno	database
-databas[n][ut]	nob	database
-data[n][nt]	nob	data
-dataprogram[n][nt]	nob	dataprogram
-dataspel[n][nt]	nno	dataspel
-dataspel[n][nt]	nob	videospill
-datornätverk[n][nt]	nno	datanett
-datornätverk[n][nt]	nob	datanett
-datorspel[n][nt]	nno	dataspel
-datorspel[n][nt]	nob	videospill
-datum[n][nt]	nno	dato
-datum[n][nt]	nob	dato
-dekret[n][nt]	nob	dekret
-departement[n][nt]	nno	departement
-departement[n][nt]	nob	departement
-derivat[n][nt]	nob	derivat (kjemi)
-diktatur[n][ut]	nno	diktatur
-diktatur[n][ut]	nob	diktatur
-diplom[n][nt]	nob	diplom
-diskotek[n][nt]	nno	nattklubb
-diskotek[n][nt]	nob	nattklubb
-distrikt[n][nt]	nno	distrikt
-djurfoder[n][nt]	nno	fôr
-djurfoder[n][nt]	nob	grovfôr
-djurförsök[n][nt]	nob	dyreforsøk
-dödsfall[n][nt]	nno	død
-dödsfall[n][nt]	nno	døden
-dödsfall[n][nt]	nob	død
-dödsstraff[n][nt]	nno	dødsstraff
-dödsstraff[n][nt]	nob	dødsstraff
-dokument[n][nt]	nno	dokument
-dokument[n][nt]	nob	dokument
-dollar[n][ut]	nno	dollar
-dollar[n][ut]	nob	dollar
-domännamn[n][nt]	nob	domenenavn
-domare[n][ut]	nno	dommar i retten
-domare[n][ut]	nob	dommer
-don[n][nt]	nob	don (andre betydninger)
-dop[n][nt]	nno	dåp
-dop[n][nt]	nob	dåpdata-wb-badge="q17437798	
-dotterbolag[n][nt]	nob	datterselskap
-drag[n][nt]	nob	drag (andre betydninger)
-dragspel[n][nt]	nno	trekkspel
-dragspel[n][nt]	nob	trekkspill
-dricksvatten[n][nt]	nno	drikkevatn
-dricksvatten[n][nt]	nob	drikkevann
-drogproblem[n][nt]	nno	avhengnad
-drogproblem[n][nt]	nob	avhengighet
-dubbelmoral[n][ut]	nob	dobbeltmoral
-dun[n][nt]	nno	dun
-dun[n][nt]	nob	dun
-dussin[n][nt]	nno	tylft
-dussin[n][nt]	nob	dusin
-dygn[n][nt]	nno	dag
-dygn[n][nt]	nno	dagar
-dygn[n][nt]	nob	dag
-e-brev[n][nt]	nno	e-post
-e-brev[n][nt]	nob	e-post
-edikt[n][nt]	nno	edikt
-edikt[n][nt]	nob	edikt
-efterfrågan[n][ut]	nob	tilbud og etterspørsel
-egenföretagare[n][ut]	nob	selvstendig næringsdrivende
-egennamn[n][nt]	nno	namn
-egennamn[n][nt]	nob	navn
-egnahemshus[n][nt]	nob	enebolig
-ekfat[n][nt]	nob	eikefat
-ekollon[n][nt]	nno	eikeslekta
-ekollon[n][nt]	nob	eikeslekten
-ekosystem[n][nt]	nno	økosystem
-ekosystem[n][nt]	nob	økosystem
-elnät[n][nt]	nno	elektrisk leidning
-elnät[n][nt]	nob	elektrisk ledning
-emblem[n][nt]	nob	emblem
-enbär[n][nt]	nob	einerslekten
-enfamiljshus[n][nt]	nno	rekkjehus
-enfamiljshus[n][nt]	nob	rekkehus
-enzym[n][nt]	nno	enzym
-enzym[n][nt]	nob	enzym
-epigram[n][nt]	nob	epigram
-epitet[n][nt]	nno	epitet
-epitet[n][nt]	nob	epitet
-epos[n][nt]	nno	episk dikt
-epos[n][nt]	nob	epos
-erfarenhet[n][ut]	nob	erfaring
-ess[n][nt]	nob	ess
-ess[n][ut]	nob	ess
-euro[n][ut]	nno	euro
-euro[n][ut]	nob	euro
-existens[n][ut]	nob	eksistens
-experiment[n][nt]	nno	eksperiment
-experiment[n][nt]	nob	eksperiment
-fackföreningsrörelse[n][ut]	nno	fagorganisasjon
-fackföreningsrörelse[n][ut]	nob	fagforening
-fågelskådare[n][ut]	nno	ornitologi
-fågelskådare[n][ut]	nob	ornitologi
-faktum[n][nt]	nob	faktum
-fältslag[n][nt]	nob	feltslag
-fälttåg[n][nt]	nno	felttog
-fälttåg[n][nt]	nob	felttog
-färdighet[n][ut]	nob	ferdighet
-fars[n][ut]	nob	farse (teater)
-fas[n][ut]	nob	fas
-fat[n][nt]	nno	fat
-fat[n][nt]	nob	fat
-fel[n][nt]	nno	feil
-fel[n][nt]	nno	feil i matematikk
-fenomen[n][nt]	nno	fenomen
-fenomen[n][nt]	nob	fenomen
-fik[n][nt]	nno	kafé
-fik[n][nt]	nob	kafé
-filmbolag[n][nt]	nob	filmselskap
-filmmanus[n][nt]	nno	filmmanus
-filmmanus[n][nt]	nob	filmmanus
-filnamn[n][nt]	nob	filnavn
-finansinstitut[n][nt]	nob	finansinstitusjon
-finanskris[n][ut]	nob	finanskrise
-finans[n][ut]	nno	finans
-finans[n][ut]	nob	finans
-fingeravtryck[n][nt]	nob	fingeravtrykk
-finländare[n][ut]	nno	finnar
-finländare[n][ut]	nob	finner
-fiskare[n][ut]	nno	fiske
-fiskare[n][ut]	nob	fiske
-fiskefartyg[n][nt]	nno	fiskefartøy
-fiskefartyg[n][nt]	nob	fiskebåt
-fiskeredskap[n][nt]	nno	fiskereiskapar
-fiskeredskap[n][nt]	nob	fiskeredskap
-fjäll[n][nt]	nno	snaufjell
-fjäll[n][nt]	nob	snaufjell
-fjärilsim[n][nt]	nob	butterfly
-flagg[n][nt]	nno	flagg
-flagg[n][nt]	nob	flagg
-flaggskepp[n][nt]	nno	flaggskip
-flaggskepp[n][nt]	nob	flaggskip
-flak[n][nt]	nob	flak
-flerspråkighet[n][ut]	nno	fleirspråkleg
-flerspråkighet[n][ut]	nob	flerspråklighet
-flicknamn[n][nt]	nno	oppvekstnamn
-flipperspel[n][nt]	nob	flipperspill
-flygblad[n][nt]	nob	flyveblad
-flygbolag[n][nt]	nno	flyselskap
-flygbolag[n][nt]	nob	flyselskap
-flygfält[n][nt]	nno	lufthamn
-flygfält[n][nt]	nob	flyplass
-flyg[n][nt]	nob	kategori:luftfart
-flyg[n][nt]	nob	luftfart
-flygplan[n][nt]	nno	fly
-flygplan[n][nt]	nob	fly
-flygplats[n][ut]	nno	lufthamn
-flygplats[n][ut]	nob	flyplass
-flygtrafik[n][ut]	nno	passasjerfly
-flygtrafik[n][ut]	nob	passasjerfly
-flyktingstatus[n][ut]	nno	flyktning
-flyktingstatus[n][ut]	nob	flyktning
-fokus[n][nt]	nno	fokus
-fokus[n][nt]	nob	fokus
-folkdans[n][ut]	nno	folkedans
-folkdans[n][ut]	nob	folkedans
-folkmord[n][nt]	nno	folkemord
-folkmord[n][nt]	nob	folkemord
-föl[n][nt]	nno	føl
-föl[n][nt]	nob	føll
-fonem[n][nt]	nno	fonem
-fonem[n][nt]	nob	fonem
-fordon[n][nt]	nno	fargreie
-fördrag[n][nt]	nno	traktat
-fördrag[n][nt]	nob	traktat
-föredrag[n][nt]	nob	forelesning
-föremål[n][nt]	nob	legeme (fysikk)
-företag[n][nt]	nno	næringsliv
-företag[n][nt]	nob	næringsliv
-författare[n][ut]	nno	forfattar
-författare[n][ut]	nob	forfatter
-förföljelse[n][ut]	nob	forfølgelse
-förhör[n][nt]	nob	forhør
-förmak[n][nt]	nno	framkammer
-formulär[n][nt]	nob	skjema
-förnamn[n][nt]	nno	personnamn
-fornfynd[n][nt]	nno	fornminne
-fornfynd[n][nt]	nob	fornminne
-förnuft[n][nt]	nob	fornuft
-förpliktelse[n][ut]	nob	plikt
-forskare[n][ut]	nob	forsker
-forskningsprogram[n][nt]	nob	imre lakatos
-förstörelse[n][ut]	nno	hærverk
-förstörelse[n][ut]	nob	hærverk
-fort[n][nt]	nob	fort
-förtryck[n][nt]	nob	undertrykkelse
-fossil[n][nt]	nno	fossil
-fossil[n][nt]	nob	fossil
-foster[n][nt]	nno	foster
-foster[n][nt]	nob	foster
-frågetecken[n][nt]	nno	spørsmålsteikn
-frågetecken[n][nt]	nob	spørsmålstegn
-främlingsfientlighet[n][ut]	nno	xenofobi
-främlingsfientlighet[n][ut]	nob	xenofobi
-fredsavtal[n][nt]	nob	fredsavtale
-fredsfördrag[n][nt]	nob	fredsavtale
-frekvens[n][ut]	nno	frekvens
-frekvens[n][ut]	nob	frekvens
-frimurare[n][ut]	nno	frimureri
-frimurare[n][ut]	nob	frimureri
-fris[n][ut]	nob	frise
-fundament[n][nt]	nno	bygningsfundament
-funktionshinder[n][nt]	nno	funksjonshemming
-funktionshinder[n][nt]	nob	funksjonshemning
-galax[n][ut]	nno	galakse
-galax[n][ut]	nob	galaksedata-wb-badge="q17437796	
-gap[n][nt]	nno	gap
-gap[n][nt]	nob	gap (hautes-alpes)
-garage[n][nt]	nob	garasje
-garn[n][nt]	nno	garn
-garn[n][nt]	nob	garn
-gas[n][ut]	nno	gass
-gas[n][ut]	nob	gass
-gäsp[n][nt]	nob	gjesping
-gatukök[n][nt]	nob	snackbar
-gehör[n][nt]	nob	gehør
-genomsnitt[n][nt]	nno	gjennomsnitt
-gerillakrig[n][nt]	nno	gerilja
-gerillakrig[n][nt]	nob	geriljakrig
-gevär[n][nt]	nno	rifle
-gevär[n][nt]	nob	gevær
-gips[n][nt]	nno	gips
-gips[n][nt]	nob	gips
-givare[n][ut]	nob	sensor (instrument)
-glas[n][nt]	nno	glas
-glas[n][nt]	nob	glass (materiale)
-glasögon[n][ut]	nno	briller
-glasögon[n][ut]	nob	briller
-glass[n][ut]	nno	iskrem
-glass[n][ut]	nob	iskrem
-godis[n][nt]	nno	godteri
-godis[n][nt]	nob	godteri
-godståg[n][nt]	nob	godstog
-golv[n][nt]	nno	golv
-golv[n][nt]	nob	gulv
-gram[n][nt]	nno	gram
-gram[n][nt]	nob	gram
-gräns[n][ut]	nno	grense
-gräns[n][ut]	nno	grenser
-gräns[n][ut]	nob	grense (geografisk)
-gränssnitt[n][nt]	nob	grensesnitt
-gräs[n][nt]	nno	grasfamilien
-gräs[n][nt]	nob	grasfamilien
-gravfält[n][nt]	nno	gravfelt
-gravfält[n][nt]	nob	gravfelt
-gris[n][ut]	nno	gris
-gris[n][ut]	nob	gris
-grundvatten[n][nt]	nno	grunnvatn
-grundvatten[n][nt]	nob	grunnvann
-grus[n][nt]	nno	grus
-grus[n][nt]	nob	grus
-gull[n][nt]	nob	gull (andre betydninger)
-hack[n][nt]	nno	fôrhaustar
-hack[n][nt]	nob	fôrhøster
-hagelgevär[n][nt]	nno	hagle
-hagelgevär[n][nt]	nob	haglgevær
-hallon[n][nt]	nno	bringebær
-hallon[n][nt]	nob	bringebær
-hals[n][ut]	nno	hals
-hals[n][ut]	nob	hals
-hamburgare[n][ut]	nob	hamburger
-handelsfartyg[n][nt]	nno	handelsskip
-handelsfartyg[n][nt]	nob	handelsskip
-handelsunderskott[n][nt]	nob	handelsbalanse
-handikapp[n][nt]	nob	handicap
-hangarfartyg[n][nt]	nno	hangarskip
-hangarfartyg[n][nt]	nob	hangarskip
-hantverk[n][nt]	nno	handverk
-hantverk[n][nt]	nob	håndverk
-harem[n][nt]	nob	harem
-hår[n][nt]	nno	hår
-hår[n][nt]	nob	hår
-hästskötare[n][ut]	nno	hest
-hästskötare[n][ut]	nno	hestar
-hästskötare[n][ut]	nob	hest
-heat[n][nt]	nob	heat (film)
-helgon[n][nt]	nno	helgen
-helgon[n][nt]	nob	helgen
-heltal[n][nt]	nno	heiltal
-heltal[n][nt]	nob	heltall
-himmel[n][ut]	nno	himmel
-hiss[n][ut]	nob	heis
-hjärtslag[n][nt]	nno	hjartelyd
-höghus[n][nt]	nno	bustadblokk
-höghus[n][nt]	nob	høyhus
-högkvarter[n][nt]	nob	hovedkvarter
-hov[n][nt]	nob	hov
-humör[n][nt]	nob	humør
-hungersnöd[n][nt]	nno	hungersnaud
-hungersnöd[n][nt]	nob	hungersnød
-husdjur[n][nt]	nno	husdyr
-husdjur[n][nt]	nob	husdyr
-husgeråd[n][nt]	nob	husgeråd
-hustru[n][ut]	nno	hustru
-hustru[n][ut]	nob	hustru
-huvudvärk[n][nt]	nno	hovudverk
-huvudvärk[n][nt]	nob	hodepine
-hypotes[n][ut]	nno	hypotese
-hypotes[n][ut]	nob	hypotese
-iakttagelse[n][ut]	nno	observasjon
-iakttagelse[n][ut]	nob	observasjon
-ideal[n][nt]	nob	ideal
-impedans[n][ut]	nno	elektrisk impedans
-impedans[n][ut]	nob	impedans
-implantat[n][nt]	nno	implantat
-implantat[n][nt]	nob	implantat
-impuls[n][ut]	nob	impuls
-inbrott[n][nt]	nob	innbrudd
-incitament[n][nt]	nob	incitament
-industriföretag[n][nt]	nob	industriteknikk
-informationssystem[n][nt]	nob	informasjonssystem
-ingrepp[n][nt]	nno	kirurgi
-ingrepp[n][nt]	nob	kirurgi
-inköp[n][nt]	nob	innkjøp
-institut[n][nt]	nno	institutt
-institut[n][nt]	nob	institutt
-instrument[n][nt]	nno	instrument
-instrument[n][nt]	nob	instrument
-intellekt[n][nt]	nob	intelligens
-intelligens[n][ut]	nob	intelligens
-internat[n][nt]	nob	kostskole
-intervall[n][nt]	nno	intervall
-intervall[n][nt]	nob	intervall
-investerare[n][ut]	nno	investering
-investerare[n][ut]	nob	investering
-iris[n][ut]	nno	iris (fleirtyding)
-iris[n][ut]	nob	iris
-isberg[n][nt]	nno	isfjell
-isberg[n][nt]	nob	isfjell
-ishockeylag[n][nt]	nno	ishockey
-ishockeylag[n][nt]	nob	ishockey
-is[n][ut]	nno	is
-is[n][ut]	nob	is
-isterband[n][nt]	nob	isterband
-jack[n][nt]	nob	jack (roman)
-jaktflygplan[n][nt]	nno	jagarfly
-jaktflygplan[n][nt]	nob	jagerfly
-jämförelse[n][ut]	nob	progymnasmata
-järnverk[n][nt]	nno	jernverk
-järnverk[n][nt]	nob	jernverk
-jeep[n][nt]	nob	jeep
-jetplan[n][nt]	nno	jetfly
-jetplan[n][nt]	nob	jetfly
-jordbrukare[n][ut]	nno	landbruk
-jordbrukare[n][ut]	nob	landbruk
-jordskalv[n][nt]	nno	jordskjelv
-jordskalv[n][nt]	nob	jordskjelv
-jordskalv[n][nt]	nob	kategori:jordskjelv
-jordskred[n][nt]	nno	jordras
-jordskred[n][nt]	nob	jordskred
-jude[n][ut]	nno	jødar
-jude[n][ut]	nob	jøder
-jungfru[n][ut]	nno	jomfrudom
-jungfru[n][ut]	nob	jomfrudom
-justitieråd[n][nt]	nob	justisråd
-kabinett[n][nt]	nno	kabinett (fleirtyding)
-kafé[n][nt]	nno	kafé
-kafé[n][nt]	nob	kafé
-kaffebryggare[n][ut]	nno	kaffitraktar
-kaffebryggare[n][ut]	nob	kaffetrakter
-kalas[n][nt]	nno	fest
-kalas[n][nt]	nob	fest
-kalenderår[n][nt]	nob	kalenderår
-kändis[n][ut]	nno	kjendis
-kändis[n][ut]	nob	kjendis
-kaos[n][nt]	nob	kaos
-kapital[n][nt]	nno	kapital
-kapital[n][nt]	nob	kapital
-kapitel[n][nt]	nob	kapittel
-kardinaltal[n][nt]	nno	kardinaltal
-kärnkraftverk[n][nt]	nno	kjernekraftverk
-kärnkraftverk[n][nt]	nob	atomkraftverk
-kärnvapenkrig[n][nt]	nob	atomkrig
-kärnvapen[n][nt]	nno	atomvåpen
-kärnvapen[n][nt]	nob	kjernefysiske våpen
-kärr[n][nt]	nno	jordvassmyr
-kassaskåp[n][nt]	nob	safe
-kassettband[n][nt]	nno	kassettband
-kassettband[n][nt]	nob	musikkassett
-kast[n][nt]	nno	kaste
-kast[n][nt]	nob	kaste
-kemikalie[n][ut]	nno	kjemikalie
-kemikalie[n][ut]	nob	kjemisk substans
-kid[n][nt]	nno	rådyr
-kid[n][nt]	nob	rådyr
-kilometer[n][ut]	nno	kilometer
-kilometer[n][ut]	nob	kilometer
-klarspråk[n][nt]	nno	klarspråk
-klarspråk[n][nt]	nob	klarspråk
-klausul[n][nt]	nob	klausul
-klimat[n][nt]	nno	klima
-klimat[n][nt]	nob	klima
-klockspel[n][nt]	nno	carillon
-klo[n][ut]	nno	klo
-klo[n][ut]	nob	klo
-kloster[n][nt]	nno	kloster
-kloster[n][nt]	nob	kloster
-knäckebröd[n][nt]	nno	knekkebrød
-knäckebröd[n][nt]	nob	knekkebrød
-kollektiv[n][nt]	nob	kollektiv
-kol[n][nt]	nno	karbon
-kol[n][nt]	nob	karbon
-kommunikationsteknik[n][ut]	nno	ikt
-kommunikationsteknik[n][ut]	nob	informasjons- og kommunikasjonsteknologi
-komplex[n][nt]	nob	kompleks
-kongress[n][ut]	nob	kongress
-konkurs[n][ut]	nno	konkurs
-konkurs[n][ut]	nob	konkurs
-könsorgan[n][nt]	nno	kjønnsorgan
-könsorgan[n][nt]	nob	kjønnsorgan
-konstverk[n][nt]	nob	disegno
-kontrollsystem[n][nt]	nno	reguleringsteknikk
-kontrollsystem[n][nt]	nob	reguleringsteknikk
-konvergens[n][ut]	nno	konvergens
-koordinatsystem[n][nt]	nno	koordinatsystem
-koordinatsystem[n][nt]	nob	koordinatsystem
-korallrev[n][nt]	nno	korallrev
-korallrev[n][nt]	nob	korallrev
-kort[n][nt]	nob	kort
-kortspel[n][nt]	nno	kortspel
-kortspel[n][nt]	nob	kortspill
-köttfärs[n][ut]	nob	kjøttdeig
-kräftdjur[n][nt]	nno	krepsdyr
-kräftdjur[n][nt]	nob	krepsdyr
-kraftverk[n][nt]	nno	kraftverk
-kraftverk[n][nt]	nob	kraftverk
-kreativitet[n][ut]	nob	kreativitet
-kreatur[n][nt]	nno	husdyr
-kreatur[n][nt]	nob	husdyr
-kreditkort[n][nt]	nno	betalingskort
-kreditkort[n][nt]	nob	kredittkort
-kretskort[n][nt]	nno	kretskort
-kretskort[n][nt]	nob	kretskort
-krigsförbrytelse[n][ut]	nno	krigsforbrytar
-krigsförbrytelse[n][ut]	nob	krigsforbrytelse
-kriminalitet[n][ut]	nno	kriminalitet
-kronblad[n][nt]	nno	blomar
-kronblad[n][nt]	nno	blome
-kronblad[n][nt]	nob	blomst
-kryss[n][nt]	nob	kryss
-kubikmeter[n][ut]	nno	kubikkmeter
-kubikmeter[n][ut]	nob	kubikkmeter
-kugghjul[n][nt]	nno	tannhjul
-kugghjul[n][nt]	nob	tannhjul
-kulturarv[n][ut]	nno	kulturminne
-kulturarv[n][ut]	nob	kulturarv
-kvadratmeter[n][ut]	nno	kvadratmeter
-kvadratmeter[n][ut]	nob	kvadratmeter
-kvartal[n][nt]	nno	kvartal
-kvartal[n][nt]	nob	kvartal (tid)
-kvarter[n][nt]	nob	kvartal (bebyggelse)
-kypare[n][ut]	nob	servitør
-labb[n][nt]	nno	tjuvjo
-labb[n][nt]	nob	tyvjo
-lagerblad[n][nt]	nno	laurbær
-lagerblad[n][nt]	nob	laurbær
-lager[n][nt]	nob	lager
-lågtryck[n][nt]	nno	lågtrykk
-lågtryck[n][nt]	nob	lavtrykk
-lakrits[n][ut]	nob	lakris
-läktare[n][ut]	nob	tribune
-landsbygd[n][ut]	nno	bygd
-landsbygd[n][ut]	nob	bygd
-landskap[n][nt]	nob	landskap (landsdel)
-landsting[n][nt]	nob	landsting
-lans[n][ut]	nno	lanse
-lans[n][ut]	nob	lanse
-lantbrukare[n][ut]	nno	landbruk
-lantbrukare[n][ut]	nob	landbruk
-lantbruk[n][nt]	nno	landbruk
-lantbruk[n][nt]	nob	landbruk
-läppstift[n][nt]	nob	leppestift
-lår[n][nt]	nob	lår
-läsare[n][ut]	nno	haugianarane
-läsare[n][ut]	nob	haugianisme
-lasarett[n][nt]	nno	sjukehus
-lasarett[n][nt]	nob	sykehus
-lås[n][nt]	nno	lås
-lås[n][nt]	nob	lås
-levnadsstandard[n][ut]	nob	levestandard
-licens[n][ut]	nno	konsesjon
-licens[n][ut]	nob	konsesjon
-linje[n][ut]	nno	linje
-linje[n][ut]	nob	linje
-lins[n][ut]	nno	optisk linse
-lins[n][ut]	nob	optisk linse
-liter[n][ut]	nno	liter
-liter[n][ut]	nob	liter
-ljusår[n][nt]	nno	lysår
-ljusår[n][nt]	nob	lysår
-lobbyverksamhet[n][ut]	nno	lobbyverksemd
-lobbyverksamhet[n][ut]	nob	korridorpolitikk
-lokomotiv[n][nt]	nno	lokomotiv
-lokomotiv[n][nt]	nob	lokomotiv
-lösenord[n][nt]	nno	passord
-lösenord[n][nt]	nob	passord
-luftfart[n][ut]	nob	kategori:luftfart
-luftfart[n][ut]	nob	luftfart
-luftvärn[n][nt]	nob	luftvern
-lusthus[n][nt]	nob	lysthus
-lysrör[n][nt]	nno	lysrøyr
-lysrör[n][nt]	nob	lysrør
-magasin[n][nt]	nob	magasin
-magnetfält[n][nt]	nno	magnetfelt
-magnetfält[n][nt]	nob	magnetfelt
-mål[n][nt]	nno	mål
-mål[n][nt]	nob	mål
-mandat[n][nt]	nno	mandat
-mandat[n][nt]	nob	mandat
-manifest[n][nt]	nob	manifest
-mantal[n][nt]	nob	mantal
-marknadsplats[n][ut]	nob	torg
-massförstörelsevapen[n][nt]	nno	masseøydeleggingsvåpen
-mätare[n][ut]	nob	målere
-material[n][nt]	nno	materiale
-material[n][nt]	nob	materiale
-mätinstrument[n][nt]	nno	måleinstrument
-matris[n][ut]	nno	matrise
-matris[n][ut]	nob	matrise
-medborgarrätt[n][ut]	nno	borgarrettar
-medborgarrätt[n][ut]	nob	borgerrettigheter
-medborgarskap[n][nt]	nno	statsborgar
-medborgarskap[n][nt]	nob	statsborgerskap
-medeltal[n][nt]	nno	gjennomsnitt
-medium[n][nt]	nob	medium
-medlare[n][ut]	nob	mekling
-medvetenhet[n][ut]	nob	oppmerksomhet
-mejl[n][nt]	nno	e-post
-mejl[n][nt]	nob	e-post
-memorandum[n][nt]	nob	promemoria
-mentalsjukhus[n][nt]	nno	psykiatrisk sjukehus
-mentalsjukhus[n][nt]	nob	psykiatrisk sykehus
-meter[n][ut]	nno	meter
-meter[n][ut]	nob	meter
-mikroskop[n][nt]	nno	mikroskop
-mikroskop[n][nt]	nob	mikroskop
-miljöproblem[n][nt]	nno	miljø
-miljöproblem[n][nt]	nob	miljø
-millimeter[n][ut]	nno	millimeter
-millimeter[n][ut]	nob	millimeter
-mil[n][nt]	nno	mil
-mil[n][nt]	nob	mil
-mil[n][ut]	nno	mil
-mil[n][ut]	nob	mil
-minus[n][nt]	nno	minus
-modem[n][nt]	nno	modem
-modem[n][nt]	nob	modem
-moderkort[n][nt]	nno	hovudkort
-moderkort[n][nt]	nob	hovedkort
-moll[n][ut]	nno	moll
-moll[n][ut]	nob	moll
-monopol[n][nt]	nno	monopol
-monopol[n][nt]	nob	monopol
-monument[n][nt]	nno	monument
-monument[n][nt]	nob	monument
-mord[n][nt]	nno	drap
-mord[n][nt]	nob	drap
-morfem[n][nt]	nno	morfem
-morfem[n][nt]	nob	morfem
-motorfordon[n][nt]	nob	motorvogn (kjøretøy)
-motsats[n][ut]	nno	antonym
-motsats[n][ut]	nob	antonym
-motstånd[n][nt]	nno	motstand
-motstånd[n][nt]	nob	motstand
-mott[n][ut]	nob	mott (andre betydninger)
-munspel[n][nt]	nno	munnspel
-munspel[n][nt]	nob	munnspill
-musikalbum[n][nt]	nno	musikkalbum
-musikalbum[n][nt]	nob	musikkalbum
-musiker[n][ut]	nno	musikar
-musiker[n][ut]	nob	musiker
-myndighet[n][ut]	nno	etat
-myndighet[n][ut]	nob	etat
-narkotikamissbruk[n][nt]	nob	narkomani
-näs[n][nt]	nno	landforma eid
-näs[n][nt]	nob	eid (landform)
-naturgas[n][ut]	nno	naturgass
-naturgas[n][ut]	nob	naturgass
-nätverk[n][nt]	nno	nettverk
-nätverk[n][nt]	nob	nettverk
-nav[n][nt]	nob	nav
-nervsystem[n][nt]	nno	nervesystemet
-nervsystem[n][nt]	nob	nervesystem
-nos[n][ut]	nno	nase
-nos[n][ut]	nob	nese
-nötkött[n][nt]	nob	storfekjøtt
-nötkreatur[n][nt]	nno	storfe
-nötkreatur[n][nt]	nob	storfe
-objektiv[n][nt]	nno	objektiv
-objektiv[n][nt]	nob	objektiv
-odds[n][nt]	nob	odds
-offentlighet[n][ut]	nob	offentlighet
-ögonvrå[n][ut]	nno	auga
-ögonvrå[n][ut]	nno	auge
-ögonvrå[n][ut]	nob	øye
-olikhet[n][ut]	nno	ulikskap i matematikk
-olikhet[n][ut]	nob	ulikhet (matematikk)
-oljud[n][nt]	nob	støyforurensning
-omlopp[n][nt]	nno	bane
-omlopp[n][nt]	nob	bane
-operativsystem[n][nt]	nno	operativsystem
-operativsystem[n][nt]	nob	operativsystemdata-wb-badge="q17437798	
-opus[n][nt]	nob	opus (andre betydninger)
-organ[n][nt]	nno	organ
-organ[n][nt]	nob	organ
-original[n][nt]	nob	original
-örlogsfartyg[n][nt]	nno	orlogsfartøy
-ornament[n][nt]	nob	ornament
-ortnamn[n][nt]	nno	stadnamn
-ortnamn[n][nt]	nob	toponymi
-överdrag[n][nt]	nob	cover
-överenskommelse[n][ut]	nob	avtale
-papp[n][nt]	nob	papp
-paradigm[n][nt]	nob	paradigme
-paradis[n][nt]	nno	paradis
-paradis[n][nt]	nob	paradis
-parentes[n][ut]	nno	parentes
-parentes[n][ut]	nob	parentes
-parlament[n][nt]	nno	parlament
-parlament[n][nt]	nob	parlament
-parlamentsval[n][nt]	nno	val
-parlamentsval[n][nt]	nob	valg
-par[n][nt]	nob	par
-partnerskap[n][nt]	nob	registrert partnerskap
-påslakan[n][nt]	nob	laken (sengetøy)
-passagerarfartyg[n][nt]	nno	passasjerskip
-passagerarfartyg[n][nt]	nob	passasjerskip
-pass[n][nt]	nno	pass
-pass[n][nt]	nob	pass
-patent[n][nt]	nno	patent
-patent[n][nt]	nob	patent
-pelare[n][ut]	nob	pilar
-pendeltåg[n][nt]	nno	forstadsbane
-pendeltåg[n][nt]	nob	forstadsbane
-penis[n][ut]	nno	penis
-penis[n][ut]	nob	penis
-pergament[n][nt]	nno	pergament
-pergament[n][nt]	nob	pergament
-personnummer[n][nt]	nno	fødselsnummer
-personnummer[n][nt]	nob	fødselsnummer
-perspektiv[n][nt]	nob	perspektiv
-pigment[n][nt]	nno	pigment
-piller[n][nt]	nno	tablett
-piller[n][nt]	nob	tabletter
-plagg[n][nt]	nno	klede
-plagg[n][nt]	nob	klær
-plagiat[n][nt]	nno	plagiat
-plagiat[n][nt]	nob	plagiat
-plus[n][nt]	nno	pluss
-poem[n][nt]	nno	dikt
-poem[n][nt]	nob	poesi
-polynom[n][nt]	nno	polynom
-polynom[n][nt]	nob	polynom
-pors[n][ut]	nob	pors
-predikat[n][nt]	nno	predikat
-predikat[n][nt]	nob	predikat
-prejudikat[n][nt]	nob	prejudikat
-primärval[n][nt]	nob	primærvalg i usa
-prins[n][ut]	nno	prins
-prins[n][ut]	nob	prins
-problem[n][nt]	nno	vanskar
-problem[n][nt]	nob	problem
-process[n][ut]	nno	prosess
-process[n][ut]	nob	prosess
-programmerare[n][ut]	nob	programmerer
-program[n][nt]	nob	program
-protokoll[n][nt]	nob	protokoll
-pund[n][nt]	nob	pund
-punkband[n][nt]	nno	pønkrock
-punkband[n][nt]	nob	pønkrock
-radhus[n][nt]	nno	rekkjehus
-radhus[n][nt]	nob	rekkehus
-radio[n][ut]	nno	radio
-radio[n][ut]	nob	kategori:radio
-radio[n][ut]	nob	radio
-rådjur[n][nt]	nno	rådyr
-rådjur[n][nt]	nob	rådyr
-rand[n][ut]	nob	rand
-rån[n][nt]	nno	ran
-rån[n][nt]	nob	ran
-raseri[n][nt]	nno	sinne
-raseri[n][nt]	nob	sinne
-ras[n][nt]	nno	rase
-ras[n][nt]	nob	rase
-ras[n][ut]	nno	rase
-ras[n][ut]	nob	rase
-realitet[n][ut]	nno	røyndom
-realitet[n][ut]	nob	virkelighet
-redare[n][ut]	nno	reiar
-redare[n][ut]	nob	skipsreder
-rederi[n][nt]	nno	reiarlag
-rederi[n][nt]	nob	rederi
-register[n][nt]	nno	register
-register[n][nt]	nob	register
-rek[n][nt]	nob	rekommandert post
-rekord[n][nt]	nob	rekord
-relativpronomen[n][nt]	nob	relativt pronomen
-reningsverk[n][nt]	nob	kloakkanlegg
-rep[n][nt]	nno	tau
-rep[n][nt]	nob	tau
-reservat[n][nt]	nob	reservat
-residens[n][nt]	nob	residens
-resistans[n][ut]	nno	elektrisk motstand
-resistans[n][ut]	nob	motstand (resistans)
-resurs[n][ut]	nob	ressurs
-revir[n][nt]	nno	revir
-revir[n][nt]	nob	revir
-rev[n][nt]	nno	rev i sjø
-rev[n][nt]	nob	rev (maritimt)
-rim[n][nt]	nob	rim
-ris[n][nt]	nno	ris
-ris[n][nt]	nob	ris
-rockband[n][nt]	nno	rock
-rockband[n][nt]	nob	rock
-rödvin[n][nt]	nno	raudvin
-rödvin[n][nt]	nob	rødvin
-rollspel[n][nt]	nno	rpg-rollespel
-rollspel[n][nt]	nob	rollespill
-rov[n][nt]	nno	fjernstyrte undervassfartøy
-rov[n][nt]	nob	fjernstyrt undervannsfarkost
-rymdskepp[n][nt]	nno	romskip
-rymdskepp[n][nt]	nob	romskip
-ryss[n][ut]	nno	russarar
-ryss[n][ut]	nob	russere
-sädesslag[n][nt]	nno	korn
-sädesslag[n][nt]	nob	korn
-sågverk[n][nt]	nno	sagbruk
-sågverk[n][nt]	nob	sagbruk
-sakrament[n][nt]	nno	sakrament
-sakrament[n][nt]	nob	sakrament
-sällskap[n][nt]	nob	forening
-sällskapsdjur[n][nt]	nno	kjæledyr
-sällskapsdjur[n][nt]	nob	kjæledyr
-sambo[n][ut]	nno	sambuarskap
-sambo[n][ut]	nob	samboerskap
-samfund[n][nt]	nno	kyrkjesamfunn
-samfund[n][nt]	nob	kirkesamfunn
-samlag[n][nt]	nno	samleie
-samlag[n][nt]	nob	samleie
-sammanhang[n][nt]	nob	kontekst
-sändare[n][ut]	nob	radiosender
-sångare[n][ut]	nob	vokalist
-särdrag[n][nt]	nob	fonologiske særtrekk
-sats[n][ut]	nno	sats
-sats[n][ut]	nob	sats
-sax[n][ut]	nob	saks
-segelfartyg[n][nt]	nno	seglskip
-segelfartyg[n][nt]	nob	seilskip
-sekretariat[n][nt]	nno	kanselli
-sekretariat[n][nt]	nob	kanselli
-sekreterare[n][ut]	nno	sekretær som yrke
-sekreterare[n][ut]	nob	sekretær
-sekret[n][nt]	nob	sekresjon
-sigill[n][nt]	nno	sigill
-sigill[n][nt]	nob	segl
-simhopp[n][nt]	nno	stuping
-simhopp[n][nt]	nob	stuping
-sinnesintryck[n][nt]	nno	persepsjon
-sinnesintryck[n][nt]	nob	persepsjon
-sinnessjukhus[n][nt]	nno	psykiatrisk sjukehus
-sinnessjukhus[n][nt]	nob	psykiatrisk sykehus
-självmål[n][nt]	nob	selvmål
-självmordsförsök[n][nt]	nno	sjølvmord
-självmordsförsök[n][nt]	nob	selvmord
-självporträtt[n][nt]	nob	selvportrett
-självständighet[n][ut]	nno	sjølvstende
-självständighet[n][ut]	nob	uavhengighet
-sjöjungfru[n][ut]	nob	havfrue
-sjökort[n][nt]	nno	sjøkart
-sjökort[n][nt]	nob	sjøkart
-skadestånd[n][nt]	nno	erstatning
-skadestånd[n][nt]	nob	erstatning
-skaft[n][nt]	nob	skaft
-skaldjur[n][nt]	nno	skaldyr
-skaldjur[n][nt]	nob	skalldyr
-skämt[n][nt]	nno	vits
-skämt[n][nt]	nob	vitsdata-wb-badge="q17437798	
-skär[n][nt]	nob	skjær (andre betydninger)
-skattmästare[n][ut]	nob	kasserer
-skeppare[n][ut]	nob	skipper
-skeppsbrott[n][nt]	nob	forlis
-skeppsvarv[n][nt]	nno	verft
-skeppsvarv[n][nt]	nob	skipsverft
-skivbolag[n][nt]	nno	plateselskap
-skivbolag[n][nt]	nob	plateselskap
-skjul[n][nt]	nob	skur
-skogsbruk[n][nt]	nno	skogbruk
-skogsbruk[n][nt]	nob	skogbruk
-skräddare[n][ut]	nob	skredder
-skriftspråk[n][nt]	nno	skriftsystem
-skriftspråk[n][nt]	nob	skriftsystem
-skrik[n][nt]	nno	røyst
-skrik[n][nt]	nob	stemme
-skrin[n][nt]	nno	skrin
-skript[n][nt]	nob	skriptspråk
-skrivare[n][ut]	nob	skriver
-skrov[n][nt]	nob	skrog (skip)
-skum[n][nt]	nno	skum
-skum[n][nt]	nob	skum
-slagfält[n][nt]	nob	feltslag
-slagsmål[n][nt]	nob	kamp
-slagverk[n][nt]	nno	perkusjon
-slagverk[n][nt]	nob	slagverkinstrument
-slaktare[n][ut]	nob	gårdsslakting
-slips[n][ut]	nob	slips
-slutsats[n][ut]	nob	konklusjon
-småbarn[n][nt]	nno	barn
-småbarn[n][nt]	nob	barn
-småföretag[n][nt]	nob	små og mellomstore bedrifter
-småhus[n][nt]	nno	rekkjehus
-småhus[n][nt]	nob	rekkehus
-smeknamn[n][nt]	nno	kallenamn
-smeknamn[n][nt]	nob	kallenavn
-smul[n][nt]	nno	sjøgang
-smul[n][nt]	nob	sjøgang
-smultron[n][nt]	nno	markjordbær
-smultron[n][nt]	nob	markjordbær
-snedstreck[n][nt]	nob	skråstrek
-snickare[n][ut]	nno	snikkar
-snickare[n][ut]	nob	snekker
-snitt[n][nt]	nno	snitt i matematikk
-snitt[n][nt]	nob	snitt (mengdelære)
-sökare[n][ut]	nob	søker
-solljus[n][nt]	nno	solstråling
-solljus[n][nt]	nob	solstråling
-spädbarn[n][nt]	nno	spedbarn
-spädbarn[n][nt]	nob	spedbarn
-spannmål[n][nt]	nno	korn
-spannmål[n][nt]	nob	korn
-spänn[n][ut]	nno	svensk krona
-spänn[n][ut]	nob	svensk krone
-spårbarhet[n][ut]	nno	sporbarheit
-spelare[n][ut]	nno	spel
-spelare[n][ut]	nob	spill
-spelkort[n][nt]	nob	spillkort
-spel[n][nt]	nno	spel
-spel[n][nt]	nob	spill
-spjut[n][nt]	nno	spyd
-spjut[n][nt]	nob	spyd
-sportevenemang[n][nt]	nno	idrett
-sportevenemang[n][nt]	nob	sport
-spratt[n][nt]	nno	gapstrek
-spratt[n][nt]	nob	narrestrek
-städ[n][nt]	nno	ambolt
-städ[n][nt]	nob	ambolt (verktøy)
-stall[n][nt]	nno	stall
-stall[n][nt]	nob	stall
-stål[n][nt]	nno	stål
-stål[n][nt]	nob	stål
-stålverk[n][nt]	nno	jernverk
-stålverk[n][nt]	nob	jernverk
-statsbesök[n][nt]	nob	statsbesøk
-status[n][ut]	nno	status
-stavfel[n][nt]	nno	stava
-stavhopp[n][nt]	nob	stavsprang
-stearinljus[n][nt]	nno	levande lysdata-wb-badge="q17437796	
-stearinljus[n][nt]	nob	levende lys
-stenbrott[n][nt]	nno	steinbrot
-stenbrott[n][nt]	nob	pukkverk
-stenkast[n][nt]	nob	steinkast
-stift[n][nt]	nob	stift (andre betydninger)
-stillestånd[n][nt]	nno	våpenkvile
-stillestånd[n][nt]	nob	våpenhvile
-storband[n][nt]	nno	storband
-storband[n][nt]	nob	storband
-styrelse[n][ut]	nob	styre
-styrsystem[n][nt]	nno	reguleringsteknikk
-styrsystem[n][nt]	nob	reguleringsteknikk
-subjekt[n][nt]	nob	subjekt
-substrat[n][nt]	nob	substrat
-suffix[n][nt]	nob	suffiks
-svans[n][ut]	nno	hale
-svans[n][ut]	nob	hale
-symptom[n][nt]	nno	symptom
-symptom[n][nt]	nob	symptom
-symtom[n][nt]	nno	symptom
-symtom[n][nt]	nob	symptom
-syntes[n][ut]	nno	syntese
-syntes[n][ut]	nob	syntese
-tacksamhet[n][ut]	nno	takksemd
-tacksamhet[n][ut]	nob	takknemlighet
-tag[n][nt]	nob	tag
-talare[n][ut]	nno	retorikk
-talare[n][ut]	nob	retorikk
-tal[n][nt]	nno	tal
-tal[n][nt]	nob	tall
-team[n][nt]	nno	lag
-team[n][nt]	nob	lag
-tecknare[n][ut]	nob	tegning
-telefonnummer[n][nt]	nno	telefonnummer
-telefonnummer[n][nt]	nob	telefonnummer
-telegram[n][nt]	nob	telegram
-teleskop[n][nt]	nno	teleskop
-teleskop[n][nt]	nob	teleskop
-tempel[n][nt]	nno	tempel
-tempel[n][nt]	nob	tempel
-teorem[n][nt]	nno	teorem
-teorem[n][nt]	nob	teorem
-terrass[n][ut]	nno	terrasse
-terrass[n][ut]	nob	terrasse
-territorialvatten[n][nt]	nob	territorialfarvann
-terrordåd[n][nt]	nno	terrorisme
-terrordåd[n][nt]	nob	terrorisme
-terrorism[n][ut]	nno	terrorisme
-terrorism[n][ut]	nob	terrorisme
-test[n][nt]	nob	test
-textil[n][ut]	nno	tekstil
-textil[n][ut]	nob	tekstil
-tillverkare[n][ut]	nob	industriteknikk
-ting[n][nt]	nob	ting
-tingshus[n][nt]	nob	tinghus
-titan[n][nt]	nno	grunnstoffet titan
-titan[n][nt]	nob	titan (grunnstoff)
-trafikljus[n][nt]	nob	trafikklys
-tråg[n][nt]	nob	trau
-trålare[n][ut]	nno	trålar
-trålare[n][ut]	nob	tråler
-träsk[n][nt]	nno	sump
-träsk[n][nt]	nob	sump
-träsko[n][ut]	nno	tresko
-träsko[n][ut]	nob	tresko
-troll[n][nt]	nno	troll
-troll[n][nt]	nob	troll
-tvärsnitt[n][nt]	nno	tverrsnitt
-tvärsnitt[n][nt]	nob	tverrsnitt
-typsnitt[n][nt]	nob	skrifttype
-undantagstillstånd[n][nt]	nno	unntakstilstand
-undantagstillstånd[n][nt]	nob	unntakstilstand
-underbarn[n][nt]	nno	vidunderbarn
-underbarn[n][nt]	nob	vidunderbarn
-undertryck[n][nt]	nno	trykk
-undertryck[n][nt]	nob	trykk
-underverk[n][nt]	nno	mirakel
-underverk[n][nt]	nob	mirakel
-ungrare[n][ut]	nob	madjarer
-universitet[n][nt]	nno	universitet
-universitet[n][nt]	nob	universitet
-universum[n][nt]	nno	universet
-universum[n][nt]	nob	universet
-uppsåt[n][nt]	nob	forsett
-uppslagsverk[n][nt]	nno	leksikon
-uppslagsverk[n][nt]	nob	encyklopedi
-urmakare[n][ut]	nob	urmaker
-ur[n][nt]	nno	klokke
-ur[n][nt]	nno	klokker
-ur[n][nt]	nob	klokke (ur)
-utbud[n][nt]	nob	tilbud og etterspørsel
-uthus[n][nt]	nob	uthus
-utkast[n][nt]	nno	formgjeving
-utkast[n][nt]	nob	design
-utskott[n][nt]	nob	komité
-utvecklingsbistånd[n][nt]	nno	utviklingshjelp
-utvecklingsbistånd[n][nt]	nob	bistand
-väderstreck[n][nt]	nno	himmelretning
-väderstreck[n][nt]	nob	himmelretning
-väktare[n][ut]	nob	vekter
-vaktmästare[n][ut]	nob	vaktmester
-valförbund[n][nt]	nob	valgallianse
-valv[n][nt]	nno	kvelv i arkitekturen
-valv[n][nt]	nob	hvelv (arkitektur)
-vant[n][nt]	nno	vant
-vant[n][nt]	nob	vant
-värdepapper[n][nt]	nob	verdipapir
-värdshus[n][nt]	nob	kro
-vass[n][nt]	nno	takrøyr
-vass[n][nt]	nob	takrør
-vattenkraftverk[n][nt]	nno	vassenergi
-vattenkraftverk[n][nt]	nob	vannkraft
-vattenpass[n][nt]	nob	vaterpass
-vattenverk[n][nt]	nob	vannverk
-växthus[n][nt]	nno	veksthus
-växthus[n][nt]	nob	drivhus
-vektorfält[n][nt]	nno	vektorfelt
-vektorfält[n][nt]	nob	vektorfelt
-verb[n][nt]	nno	verb
-verb[n][nt]	nob	verb
-verk[n][nt]	nno	verk
-versmått[n][nt]	nno	metrikk
-versmått[n][nt]	nob	metrikk
-vietnames[n][ut]	nno	vietnam
-vietnames[n][ut]	nob	vietnam
-vilt[n][nt]	nob	småvilt
-vindkraftverk[n][nt]	nno	vindturbin
-vindkraftverk[n][nt]	nob	vindkraftverk
-vindskydd[n][nt]	nno	gapahuk
-vindskydd[n][nt]	nob	gapahuk
-virus[n][nt]	nno	virus
-virus[n][nt]	nob	virus
-visum[n][nt]	nno	visum
-visum[n][nt]	nob	visum
-vrak[n][nt]	nob	vrak
-vulkanutbrott[n][nt]	nno	vulkan
-vulkanutbrott[n][nt]	nob	vulkan
-vykort[n][nt]	nno	postkort
-vykort[n][nt]	nob	postkort
-webbläsare[n][ut]	nno	nettlesar
-webbläsare[n][ut]	nob	nettleser
-yen[n][ut]	nno	japansk yen
-yen[n][ut]	nob	japansk yen
-yttertak[n][nt]	nno	tak
-yttertak[n][nt]	nob	tak (arkitektur)
-zigenare[n][ut]	nno	sigøynarar
-zigenare[n][ut]	nob	romanifolket
+x	ablativ[n][nt]	nor	ablativ
+x	abonnemang[n][nt]	nor	abonnement
+	ackompanjemang[n][nt]	nob	akkompagnement
+	adelskap[n][nt]	nor	adel
+x	adjektiv[n][nt]	nor	adjektiv
+x	adverbial[n][nt]	nor	adverbial
+x	adverb[n][nt]	nor	adverb
+x	affix[n][nt]	nor	affiks
+x	aggregat[n][nt]	nor	aggregat
+x	aids[n][ut]	nor	aids
+x	åkerbruk[n][nt]	nor	landbruk
+	åklagare[n][ut]	nor	aktor
+	aktiekapital[n][nt]	nor	aksjekapital
+x	aktris[n][ut]	nno	skodespelar
+x	aktris[n][ut]	nob	skuespiller
+x	album[n][nt]	nor	album
+x	älggräs[n][nt]	nor	mjødurt
+	alkoholproblem[n][nt]	nor	alkoholisme
+x	alkoholproblem[n][nt]	nor	alkoholproblem
+x	allians[n][ut]	nor	allianse
+x	ambulans[n][ut]	nor	ambulanse
+x	amt[n][nt]	nor	amt
+	ändelse[n][ut]	nor	suffiks
+	andetag[n][nt]	nno	anding
+	andetag[n][nt]	nob	respirasjon
+	ånglok[n][nt]	nno	damplokomotiv
+	anlag[n][nt]	nno	genetikk
+	anlag[n][nt]	nob	genetikk
+	annex[n][nt]	nob	anneks
+	ansiktsuttryck[n][nt]	nno	kroppsspråk
+	ansiktsuttryck[n][nt]	nob	kroppsspråk
+	apotekare[n][ut]	nno	farmasøyt
+	apotekare[n][ut]	nob	farmasøyt
+x	arbetsgivare[n][ut]	nor	arbeidsgiver
+	arbetstagare[n][ut]	nno	kroppsarbeidar
+x	argument[n][nt]	nor	argument
+x	ark[n][nt]	nor	ark
+x	ar[n][nt]	nor	ar
+x	arv[n][nt]	nor	arv
+x	as[n][nt]	nor	as
+	åtal[n][nt]	nob	siktelse
+	atlas[n][ut]	nob	atlas (mytologi)
+	attentat[n][nt]	nno	attentat
+	attentat[n][nt]	nob	attentat
+	automatvapen[n][nt]	nob	helautomatisk skytevåpen
+	avdrag[n][nt]	nno	skatt
+	avdrag[n][nt]	nob	skatt
+	avfall[n][nt]	nno	sløsing
+	avfall[n][nt]	nno	søppel
+	avfall[n][nt]	nob	avfall
+	avstånd[n][nt]	nno	avstand
+	avstånd[n][nt]	nob	avstand
+	avtal[n][nt]	nob	avtale
+	ax[n][nt]	nob	aks
+	badrum[n][nt]	nno	baderom
+	badrum[n][nt]	nob	bad
+	bål[n][nt]	nno	punsj
+	band[n][nt]	nob	bånd
+	befäl[n][nt]	nno	befalingsmann
+	befäl[n][nt]	nob	befal
+	begrepp[n][nt]	nob	begrep
+	behag[n][nt]	nno	bryst
+	behag[n][nt]	nob	bryst
+	behov[n][nt]	nno	behov
+	behov[n][nt]	nob	behov
+	belopp[n][nt]	nno	absoluttverdi
+	belopp[n][nt]	nob	absoluttverdi
+	benmjöl[n][nt]	nob	benmel
+	ben[n][nt]	nob	ben
+	beredskap[n][nt]	nob	beredskap
+	berg[n][nt]	nno	fjell
+	berg[n][nt]	nob	fjell
+	bestånd[n][nt]	nno	bestandsskogbruk
+	bestånd[n][nt]	nob	bestandsskogbruk
+	bestick[n][nt]	nno	bestikk
+	bestick[n][nt]	nob	bestikk
+	bibliotek[n][nt]	nno	bibliotek
+	bibliotek[n][nt]	nob	bibliotek
+	bidrag[n][nt]	nob	bidrag
+	bindestreck[n][nt]	nno	bindestrek
+	bindestreck[n][nt]	nob	bindestrek
+	blad[n][nt]	nno	lauv
+	blad[n][nt]	nob	blad
+	blåsinstrument[n][nt]	nno	blåseinstrument
+	blåsinstrument[n][nt]	nob	blåseinstrument
+	blink[n][nt]	nno	nettstaden blink
+	blink[n][nt]	nob	blink (nettsamfunn)
+	block[n][nt]	nno	blokk
+	block[n][nt]	nob	blokk
+	blodkärl[n][nt]	nno	blodåre
+	blodkärl[n][nt]	nob	blodåre
+	blues[n][ut]	nno	blues
+	blues[n][ut]	nob	blues
+	blus[n][ut]	nob	bluse
+	bokförlag[n][nt]	nob	forlag
+	bokhandlare[n][ut]	nno	bokhandel
+	bokhandlare[n][ut]	nob	bokhandel
+	bombardemang[n][nt]	nob	bombe
+	borgmästare[n][ut]	nno	ordførar i noreg
+	borgmästare[n][ut]	nob	ordfører
+	boss[n][nt]	nob	boss
+	boss[n][ut]	nob	boss
+	bostadshus[n][nt]	nob	bolig
+	bot[n][ut]	nob	bot (andre betydninger)
+	brädspel[n][nt]	nno	brettspel
+	brädspel[n][nt]	nob	brettspill
+	bråk[n][nt]	nno	brøk
+	bråk[n][nt]	nob	brøk
+	bromssystem[n][nt]	nob	parkeringsbrems
+	brott[n][nt]	nno	kriminalitet
+	brus[n][nt]	nno	støy
+	bud[n][nt]	nob	bud (andre betydninger)
+	burgare[n][ut]	nob	hamburger
+	burr[n][nt]	nno	guden bor
+	burr[n][nt]	nob	bor (gud)
+	buss[n][ut]	nno	buss
+	buss[n][ut]	nob	buss
+	byggnadsverk[n][nt]	nob	byggverk
+	centimeter[n][ut]	nno	centimeter
+	centimeter[n][ut]	nob	centimeter
+	cent[n][ut]	nob	cent
+	chatt[n][nt]	nob	chatting
+	cirkulationsplats[n][ut]	nno	rundkøyring
+	cirkulationsplats[n][ut]	nob	rundkjøring
+	cirkus[n][ut]	nno	sirkus
+	cirkus[n][ut]	nob	sirkus
+	citat[n][nt]	nno	sitat
+	citat[n][nt]	nob	sitat
+	däck[n][nt]	nob	dekk
+	däggdjur[n][nt]	nno	pattedyr
+	däggdjur[n][nt]	nob	pattedyr
+	dagsljus[n][nt]	nno	dagslys
+	dagsljus[n][nt]	nob	dagslys
+	damlandslag[n][nt]	nob	landslag
+	dammsugare[n][ut]	nno	støvsugar
+	dammsugare[n][ut]	nob	støvsuger
+	dansband[n][nt]	nno	danseband
+	dansband[n][nt]	nob	danseband
+	dans[n][ut]	nno	dans
+	dans[n][ut]	nob	dans
+	databas[n][ut]	nno	database
+	databas[n][ut]	nob	database
+	data[n][nt]	nob	data
+	dataprogram[n][nt]	nob	dataprogram
+	dataspel[n][nt]	nno	dataspel
+	dataspel[n][nt]	nob	videospill
+	datornätverk[n][nt]	nno	datanett
+	datornätverk[n][nt]	nob	datanett
+	datorspel[n][nt]	nno	dataspel
+	datorspel[n][nt]	nob	videospill
+	datum[n][nt]	nno	dato
+	datum[n][nt]	nob	dato
+	dekret[n][nt]	nob	dekret
+	departement[n][nt]	nno	departement
+	departement[n][nt]	nob	departement
+	derivat[n][nt]	nob	derivat (kjemi)
+	diktatur[n][ut]	nno	diktatur
+	diktatur[n][ut]	nob	diktatur
+	diplom[n][nt]	nob	diplom
+	diskotek[n][nt]	nno	nattklubb
+	diskotek[n][nt]	nob	nattklubb
+	distrikt[n][nt]	nno	distrikt
+	djurfoder[n][nt]	nno	fôr
+	djurfoder[n][nt]	nob	grovfôr
+	djurförsök[n][nt]	nob	dyreforsøk
+	dödsfall[n][nt]	nno	død
+	dödsfall[n][nt]	nno	døden
+	dödsfall[n][nt]	nob	død
+	dödsstraff[n][nt]	nno	dødsstraff
+	dödsstraff[n][nt]	nob	dødsstraff
+	dokument[n][nt]	nno	dokument
+	dokument[n][nt]	nob	dokument
+	dollar[n][ut]	nno	dollar
+	dollar[n][ut]	nob	dollar
+	domännamn[n][nt]	nob	domenenavn
+	domare[n][ut]	nno	dommar i retten
+	domare[n][ut]	nob	dommer
+	don[n][nt]	nob	don (andre betydninger)
+	dop[n][nt]	nno	dåp
+	dop[n][nt]	nob	dåp
+	dotterbolag[n][nt]	nob	datterselskap
+	drag[n][nt]	nob	drag (andre betydninger)
+	dragspel[n][nt]	nno	trekkspel
+	dragspel[n][nt]	nob	trekkspill
+	dricksvatten[n][nt]	nno	drikkevatn
+	dricksvatten[n][nt]	nob	drikkevann
+	drogproblem[n][nt]	nno	avhengnad
+	drogproblem[n][nt]	nob	avhengighet
+	dubbelmoral[n][ut]	nob	dobbeltmoral
+	dun[n][nt]	nno	dun
+	dun[n][nt]	nob	dun
+	dussin[n][nt]	nno	tylft
+	dussin[n][nt]	nob	dusin
+	dygn[n][nt]	nno	dag
+	dygn[n][nt]	nno	dagar
+	dygn[n][nt]	nob	dag
+	e-brev[n][nt]	nno	e-post
+	e-brev[n][nt]	nob	e-post
+	edikt[n][nt]	nno	edikt
+	edikt[n][nt]	nob	edikt
+	efterfrågan[n][ut]	nob	tilbud og etterspørsel
+	egenföretagare[n][ut]	nob	selvstendig næringsdrivende
+	egennamn[n][nt]	nno	namn
+	egennamn[n][nt]	nob	navn
+	egnahemshus[n][nt]	nob	enebolig
+	ekfat[n][nt]	nob	eikefat
+	ekollon[n][nt]	nno	eikeslekta
+	ekollon[n][nt]	nob	eikeslekten
+	ekosystem[n][nt]	nno	økosystem
+	ekosystem[n][nt]	nob	økosystem
+	elnät[n][nt]	nno	elektrisk leidning
+	elnät[n][nt]	nob	elektrisk ledning
+	emblem[n][nt]	nob	emblem
+	enbär[n][nt]	nob	einerslekten
+	enfamiljshus[n][nt]	nno	rekkjehus
+	enfamiljshus[n][nt]	nob	rekkehus
+	enzym[n][nt]	nno	enzym
+	enzym[n][nt]	nob	enzym
+	epigram[n][nt]	nob	epigram
+	epitet[n][nt]	nno	epitet
+	epitet[n][nt]	nob	epitet
+	epos[n][nt]	nno	episk dikt
+	epos[n][nt]	nob	epos
+	erfarenhet[n][ut]	nob	erfaring
+	ess[n][nt]	nob	ess
+	ess[n][ut]	nob	ess
+	euro[n][ut]	nno	euro
+	euro[n][ut]	nob	euro
+	existens[n][ut]	nob	eksistens
+	experiment[n][nt]	nno	eksperiment
+	experiment[n][nt]	nob	eksperiment
+	fackföreningsrörelse[n][ut]	nno	fagorganisasjon
+	fackföreningsrörelse[n][ut]	nob	fagforening
+	fågelskådare[n][ut]	nno	ornitologi
+	fågelskådare[n][ut]	nob	ornitologi
+	faktum[n][nt]	nob	faktum
+	fältslag[n][nt]	nob	feltslag
+	fälttåg[n][nt]	nno	felttog
+	fälttåg[n][nt]	nob	felttog
+	färdighet[n][ut]	nob	ferdighet
+	fars[n][ut]	nob	farse (teater)
+	fas[n][ut]	nob	fas
+	fat[n][nt]	nno	fat
+	fat[n][nt]	nob	fat
+	fel[n][nt]	nno	feil
+	fel[n][nt]	nno	feil i matematikk
+	fenomen[n][nt]	nno	fenomen
+	fenomen[n][nt]	nob	fenomen
+	fik[n][nt]	nno	kafé
+	fik[n][nt]	nob	kafé
+	filmbolag[n][nt]	nob	filmselskap
+	filmmanus[n][nt]	nno	filmmanus
+	filmmanus[n][nt]	nob	filmmanus
+	filnamn[n][nt]	nob	filnavn
+	finansinstitut[n][nt]	nob	finansinstitusjon
+	finanskris[n][ut]	nob	finanskrise
+	finans[n][ut]	nno	finans
+	finans[n][ut]	nob	finans
+	fingeravtryck[n][nt]	nob	fingeravtrykk
+	finländare[n][ut]	nno	finnar
+	finländare[n][ut]	nob	finner
+	fiskare[n][ut]	nno	fiske
+	fiskare[n][ut]	nob	fiske
+	fiskefartyg[n][nt]	nno	fiskefartøy
+	fiskefartyg[n][nt]	nob	fiskebåt
+	fiskeredskap[n][nt]	nno	fiskereiskapar
+	fiskeredskap[n][nt]	nob	fiskeredskap
+	fjäll[n][nt]	nno	snaufjell
+	fjäll[n][nt]	nob	snaufjell
+	fjärilsim[n][nt]	nob	butterfly
+	flagg[n][nt]	nno	flagg
+	flagg[n][nt]	nob	flagg
+	flaggskepp[n][nt]	nno	flaggskip
+	flaggskepp[n][nt]	nob	flaggskip
+	flak[n][nt]	nob	flak
+	flerspråkighet[n][ut]	nno	fleirspråkleg
+	flerspråkighet[n][ut]	nob	flerspråklighet
+	flicknamn[n][nt]	nno	oppvekstnamn
+	flipperspel[n][nt]	nob	flipperspill
+	flygblad[n][nt]	nob	flyveblad
+	flygbolag[n][nt]	nno	flyselskap
+	flygbolag[n][nt]	nob	flyselskap
+	flygfält[n][nt]	nno	lufthamn
+	flygfält[n][nt]	nob	flyplass
+	flyg[n][nt]	nob	kategori:luftfart
+	flyg[n][nt]	nob	luftfart
+	flygplan[n][nt]	nno	fly
+	flygplan[n][nt]	nob	fly
+	flygplats[n][ut]	nno	lufthamn
+	flygplats[n][ut]	nob	flyplass
+	flygtrafik[n][ut]	nno	passasjerfly
+	flygtrafik[n][ut]	nob	passasjerfly
+	flyktingstatus[n][ut]	nno	flyktning
+	flyktingstatus[n][ut]	nob	flyktning
+	fokus[n][nt]	nno	fokus
+	fokus[n][nt]	nob	fokus
+	folkdans[n][ut]	nno	folkedans
+	folkdans[n][ut]	nob	folkedans
+	folkmord[n][nt]	nno	folkemord
+	folkmord[n][nt]	nob	folkemord
+	föl[n][nt]	nno	føl
+	föl[n][nt]	nob	føll
+	fonem[n][nt]	nno	fonem
+	fonem[n][nt]	nob	fonem
+	fordon[n][nt]	nno	fargreie
+	fördrag[n][nt]	nno	traktat
+	fördrag[n][nt]	nob	traktat
+	föredrag[n][nt]	nob	forelesning
+	föremål[n][nt]	nob	legeme (fysikk)
+	företag[n][nt]	nno	næringsliv
+	företag[n][nt]	nob	næringsliv
+	författare[n][ut]	nno	forfattar
+	författare[n][ut]	nob	forfatter
+	förföljelse[n][ut]	nob	forfølgelse
+	förhör[n][nt]	nob	forhør
+	förmak[n][nt]	nno	framkammer
+	formulär[n][nt]	nob	skjema
+	förnamn[n][nt]	nno	personnamn
+	fornfynd[n][nt]	nno	fornminne
+	fornfynd[n][nt]	nob	fornminne
+	förnuft[n][nt]	nob	fornuft
+	förpliktelse[n][ut]	nob	plikt
+	forskare[n][ut]	nob	forsker
+	forskningsprogram[n][nt]	nob	imre lakatos
+	förstörelse[n][ut]	nno	hærverk
+	förstörelse[n][ut]	nob	hærverk
+	fort[n][nt]	nob	fort
+	förtryck[n][nt]	nob	undertrykkelse
+	fossil[n][nt]	nno	fossil
+	fossil[n][nt]	nob	fossil
+	foster[n][nt]	nno	foster
+	foster[n][nt]	nob	foster
+	frågetecken[n][nt]	nno	spørsmålsteikn
+	frågetecken[n][nt]	nob	spørsmålstegn
+	främlingsfientlighet[n][ut]	nno	xenofobi
+	främlingsfientlighet[n][ut]	nob	xenofobi
+	fredsavtal[n][nt]	nob	fredsavtale
+	fredsfördrag[n][nt]	nob	fredsavtale
+	frekvens[n][ut]	nno	frekvens
+	frekvens[n][ut]	nob	frekvens
+	frimurare[n][ut]	nno	frimureri
+	frimurare[n][ut]	nob	frimureri
+	fris[n][ut]	nob	frise
+	fundament[n][nt]	nno	bygningsfundament
+	funktionshinder[n][nt]	nno	funksjonshemming
+	funktionshinder[n][nt]	nob	funksjonshemning
+	galax[n][ut]	nno	galakse
+	galax[n][ut]	nob	galakse
+	gap[n][nt]	nno	gap
+	gap[n][nt]	nob	gap (hautes-alpes)
+	garage[n][nt]	nob	garasje
+	garn[n][nt]	nno	garn
+	garn[n][nt]	nob	garn
+	gas[n][ut]	nno	gass
+	gas[n][ut]	nob	gass
+	gäsp[n][nt]	nob	gjesping
+	gatukök[n][nt]	nob	snackbar
+	gehör[n][nt]	nob	gehør
+	genomsnitt[n][nt]	nno	gjennomsnitt
+	gerillakrig[n][nt]	nno	gerilja
+	gerillakrig[n][nt]	nob	geriljakrig
+	gevär[n][nt]	nno	rifle
+	gevär[n][nt]	nob	gevær
+	gips[n][nt]	nno	gips
+	gips[n][nt]	nob	gips
+	givare[n][ut]	nob	sensor (instrument)
+	glas[n][nt]	nno	glas
+	glas[n][nt]	nob	glass (materiale)
+	glasögon[n][ut]	nno	briller
+	glasögon[n][ut]	nob	briller
+	glass[n][ut]	nno	iskrem
+	glass[n][ut]	nob	iskrem
+	godis[n][nt]	nno	godteri
+	godis[n][nt]	nob	godteri
+	godståg[n][nt]	nob	godstog
+	golv[n][nt]	nno	golv
+	golv[n][nt]	nob	gulv
+	gram[n][nt]	nno	gram
+	gram[n][nt]	nob	gram
+	gräns[n][ut]	nno	grense
+	gräns[n][ut]	nno	grenser
+	gräns[n][ut]	nob	grense (geografisk)
+	gränssnitt[n][nt]	nob	grensesnitt
+	gräs[n][nt]	nno	grasfamilien
+	gräs[n][nt]	nob	grasfamilien
+	gravfält[n][nt]	nno	gravfelt
+	gravfält[n][nt]	nob	gravfelt
+	gris[n][ut]	nno	gris
+	gris[n][ut]	nob	gris
+	grundvatten[n][nt]	nno	grunnvatn
+	grundvatten[n][nt]	nob	grunnvann
+	grus[n][nt]	nno	grus
+	grus[n][nt]	nob	grus
+	gull[n][nt]	nob	gull (andre betydninger)
+	hack[n][nt]	nno	fôrhaustar
+	hack[n][nt]	nob	fôrhøster
+	hagelgevär[n][nt]	nno	hagle
+	hagelgevär[n][nt]	nob	haglgevær
+	hallon[n][nt]	nno	bringebær
+	hallon[n][nt]	nob	bringebær
+	hals[n][ut]	nno	hals
+	hals[n][ut]	nob	hals
+	hamburgare[n][ut]	nob	hamburger
+	handelsfartyg[n][nt]	nno	handelsskip
+	handelsfartyg[n][nt]	nob	handelsskip
+	handelsunderskott[n][nt]	nob	handelsbalanse
+	handikapp[n][nt]	nob	handicap
+	hangarfartyg[n][nt]	nno	hangarskip
+	hangarfartyg[n][nt]	nob	hangarskip
+	hantverk[n][nt]	nno	handverk
+	hantverk[n][nt]	nob	håndverk
+	harem[n][nt]	nob	harem
+	hår[n][nt]	nno	hår
+	hår[n][nt]	nob	hår
+	hästskötare[n][ut]	nno	hest
+	hästskötare[n][ut]	nno	hestar
+	hästskötare[n][ut]	nob	hest
+	heat[n][nt]	nob	heat (film)
+	helgon[n][nt]	nno	helgen
+	helgon[n][nt]	nob	helgen
+	heltal[n][nt]	nno	heiltal
+	heltal[n][nt]	nob	heltall
+	himmel[n][ut]	nno	himmel
+	hiss[n][ut]	nob	heis
+	hjärtslag[n][nt]	nno	hjartelyd
+	höghus[n][nt]	nno	bustadblokk
+	höghus[n][nt]	nob	høyhus
+	högkvarter[n][nt]	nob	hovedkvarter
+	hov[n][nt]	nob	hov
+	humör[n][nt]	nob	humør
+	hungersnöd[n][nt]	nno	hungersnaud
+	hungersnöd[n][nt]	nob	hungersnød
+	husdjur[n][nt]	nno	husdyr
+	husdjur[n][nt]	nob	husdyr
+	husgeråd[n][nt]	nob	husgeråd
+	hustru[n][ut]	nno	hustru
+	hustru[n][ut]	nob	hustru
+	huvudvärk[n][nt]	nno	hovudverk
+	huvudvärk[n][nt]	nob	hodepine
+	hypotes[n][ut]	nno	hypotese
+	hypotes[n][ut]	nob	hypotese
+	iakttagelse[n][ut]	nno	observasjon
+	iakttagelse[n][ut]	nob	observasjon
+	ideal[n][nt]	nob	ideal
+	impedans[n][ut]	nno	elektrisk impedans
+	impedans[n][ut]	nob	impedans
+	implantat[n][nt]	nno	implantat
+	implantat[n][nt]	nob	implantat
+	impuls[n][ut]	nob	impuls
+	inbrott[n][nt]	nob	innbrudd
+	incitament[n][nt]	nob	incitament
+	industriföretag[n][nt]	nob	industriteknikk
+	informationssystem[n][nt]	nob	informasjonssystem
+	ingrepp[n][nt]	nno	kirurgi
+	ingrepp[n][nt]	nob	kirurgi
+	inköp[n][nt]	nob	innkjøp
+	institut[n][nt]	nno	institutt
+	institut[n][nt]	nob	institutt
+	instrument[n][nt]	nno	instrument
+	instrument[n][nt]	nob	instrument
+	intellekt[n][nt]	nob	intelligens
+	intelligens[n][ut]	nob	intelligens
+	internat[n][nt]	nob	kostskole
+	intervall[n][nt]	nno	intervall
+	intervall[n][nt]	nob	intervall
+	investerare[n][ut]	nno	investering
+	investerare[n][ut]	nob	investering
+	iris[n][ut]	nno	iris (fleirtyding)
+	iris[n][ut]	nob	iris
+	isberg[n][nt]	nno	isfjell
+	isberg[n][nt]	nob	isfjell
+	ishockeylag[n][nt]	nno	ishockey
+	ishockeylag[n][nt]	nob	ishockey
+	is[n][ut]	nno	is
+	is[n][ut]	nob	is
+	isterband[n][nt]	nob	isterband
+	jack[n][nt]	nob	jack (roman)
+	jaktflygplan[n][nt]	nno	jagarfly
+	jaktflygplan[n][nt]	nob	jagerfly
+	jämförelse[n][ut]	nob	progymnasmata
+	järnverk[n][nt]	nno	jernverk
+	järnverk[n][nt]	nob	jernverk
+	jeep[n][nt]	nob	jeep
+	jetplan[n][nt]	nno	jetfly
+	jetplan[n][nt]	nob	jetfly
+	jordbrukare[n][ut]	nno	landbruk
+	jordbrukare[n][ut]	nob	landbruk
+	jordskalv[n][nt]	nno	jordskjelv
+	jordskalv[n][nt]	nob	jordskjelv
+	jordskalv[n][nt]	nob	kategori:jordskjelv
+	jordskred[n][nt]	nno	jordras
+	jordskred[n][nt]	nob	jordskred
+	jude[n][ut]	nno	jødar
+	jude[n][ut]	nob	jøder
+	jungfru[n][ut]	nno	jomfrudom
+	jungfru[n][ut]	nob	jomfrudom
+	justitieråd[n][nt]	nob	justisråd
+	kabinett[n][nt]	nno	kabinett (fleirtyding)
+	kafé[n][nt]	nno	kafé
+	kafé[n][nt]	nob	kafé
+	kaffebryggare[n][ut]	nno	kaffitraktar
+	kaffebryggare[n][ut]	nob	kaffetrakter
+	kalas[n][nt]	nno	fest
+	kalas[n][nt]	nob	fest
+	kalenderår[n][nt]	nob	kalenderår
+	kändis[n][ut]	nno	kjendis
+	kändis[n][ut]	nob	kjendis
+	kaos[n][nt]	nob	kaos
+	kapital[n][nt]	nno	kapital
+	kapital[n][nt]	nob	kapital
+	kapitel[n][nt]	nob	kapittel
+	kardinaltal[n][nt]	nno	kardinaltal
+	kärnkraftverk[n][nt]	nno	kjernekraftverk
+	kärnkraftverk[n][nt]	nob	atomkraftverk
+	kärnvapenkrig[n][nt]	nob	atomkrig
+	kärnvapen[n][nt]	nno	atomvåpen
+	kärnvapen[n][nt]	nob	kjernefysiske våpen
+	kärr[n][nt]	nno	jordvassmyr
+	kassaskåp[n][nt]	nob	safe
+	kassettband[n][nt]	nno	kassettband
+	kassettband[n][nt]	nob	musikkassett
+	kast[n][nt]	nno	kaste
+	kast[n][nt]	nob	kaste
+	kemikalie[n][ut]	nno	kjemikalie
+	kemikalie[n][ut]	nob	kjemisk substans
+	kid[n][nt]	nno	rådyr
+	kid[n][nt]	nob	rådyr
+	kilometer[n][ut]	nno	kilometer
+	kilometer[n][ut]	nob	kilometer
+	klarspråk[n][nt]	nno	klarspråk
+	klarspråk[n][nt]	nob	klarspråk
+	klausul[n][nt]	nob	klausul
+	klimat[n][nt]	nno	klima
+	klimat[n][nt]	nob	klima
+	klockspel[n][nt]	nno	carillon
+	klo[n][ut]	nno	klo
+	klo[n][ut]	nob	klo
+	kloster[n][nt]	nno	kloster
+	kloster[n][nt]	nob	kloster
+	knäckebröd[n][nt]	nno	knekkebrød
+	knäckebröd[n][nt]	nob	knekkebrød
+	kollektiv[n][nt]	nob	kollektiv
+	kol[n][nt]	nno	karbon
+	kol[n][nt]	nob	karbon
+	kommunikationsteknik[n][ut]	nno	ikt
+	kommunikationsteknik[n][ut]	nob	informasjons- og kommunikasjonsteknologi
+	komplex[n][nt]	nob	kompleks
+	kongress[n][ut]	nob	kongress
+	konkurs[n][ut]	nno	konkurs
+	konkurs[n][ut]	nob	konkurs
+	könsorgan[n][nt]	nno	kjønnsorgan
+	könsorgan[n][nt]	nob	kjønnsorgan
+	konstverk[n][nt]	nob	disegno
+	kontrollsystem[n][nt]	nno	reguleringsteknikk
+	kontrollsystem[n][nt]	nob	reguleringsteknikk
+	konvergens[n][ut]	nno	konvergens
+	koordinatsystem[n][nt]	nno	koordinatsystem
+	koordinatsystem[n][nt]	nob	koordinatsystem
+	korallrev[n][nt]	nno	korallrev
+	korallrev[n][nt]	nob	korallrev
+	kort[n][nt]	nob	kort
+	kortspel[n][nt]	nno	kortspel
+	kortspel[n][nt]	nob	kortspill
+	köttfärs[n][ut]	nob	kjøttdeig
+	kräftdjur[n][nt]	nno	krepsdyr
+	kräftdjur[n][nt]	nob	krepsdyr
+	kraftverk[n][nt]	nno	kraftverk
+	kraftverk[n][nt]	nob	kraftverk
+	kreativitet[n][ut]	nob	kreativitet
+	kreatur[n][nt]	nno	husdyr
+	kreatur[n][nt]	nob	husdyr
+	kreditkort[n][nt]	nno	betalingskort
+	kreditkort[n][nt]	nob	kredittkort
+	kretskort[n][nt]	nno	kretskort
+	kretskort[n][nt]	nob	kretskort
+	krigsförbrytelse[n][ut]	nno	krigsforbrytar
+	krigsförbrytelse[n][ut]	nob	krigsforbrytelse
+	kriminalitet[n][ut]	nno	kriminalitet
+	kronblad[n][nt]	nno	blomar
+	kronblad[n][nt]	nno	blome
+	kronblad[n][nt]	nob	blomst
+	kryss[n][nt]	nob	kryss
+	kubikmeter[n][ut]	nno	kubikkmeter
+	kubikmeter[n][ut]	nob	kubikkmeter
+	kugghjul[n][nt]	nno	tannhjul
+	kugghjul[n][nt]	nob	tannhjul
+	kulturarv[n][ut]	nno	kulturminne
+	kulturarv[n][ut]	nob	kulturarv
+	kvadratmeter[n][ut]	nno	kvadratmeter
+	kvadratmeter[n][ut]	nob	kvadratmeter
+	kvartal[n][nt]	nno	kvartal
+	kvartal[n][nt]	nob	kvartal (tid)
+	kvarter[n][nt]	nob	kvartal (bebyggelse)
+	kypare[n][ut]	nob	servitør
+	labb[n][nt]	nno	tjuvjo
+	labb[n][nt]	nob	tyvjo
+	lagerblad[n][nt]	nno	laurbær
+	lagerblad[n][nt]	nob	laurbær
+	lager[n][nt]	nob	lager
+	lågtryck[n][nt]	nno	lågtrykk
+	lågtryck[n][nt]	nob	lavtrykk
+	lakrits[n][ut]	nob	lakris
+	läktare[n][ut]	nob	tribune
+	landsbygd[n][ut]	nno	bygd
+	landsbygd[n][ut]	nob	bygd
+	landskap[n][nt]	nob	landskap (landsdel)
+	landsting[n][nt]	nob	landsting
+	lans[n][ut]	nno	lanse
+	lans[n][ut]	nob	lanse
+	lantbrukare[n][ut]	nno	landbruk
+	lantbrukare[n][ut]	nob	landbruk
+	lantbruk[n][nt]	nno	landbruk
+	lantbruk[n][nt]	nob	landbruk
+	läppstift[n][nt]	nob	leppestift
+	lår[n][nt]	nob	lår
+	läsare[n][ut]	nno	haugianarane
+	läsare[n][ut]	nob	haugianisme
+	lasarett[n][nt]	nno	sjukehus
+	lasarett[n][nt]	nob	sykehus
+	lås[n][nt]	nno	lås
+	lås[n][nt]	nob	lås
+	levnadsstandard[n][ut]	nob	levestandard
+	licens[n][ut]	nno	konsesjon
+	licens[n][ut]	nob	konsesjon
+	linje[n][ut]	nno	linje
+	linje[n][ut]	nob	linje
+	lins[n][ut]	nno	optisk linse
+	lins[n][ut]	nob	optisk linse
+	liter[n][ut]	nno	liter
+	liter[n][ut]	nob	liter
+	ljusår[n][nt]	nno	lysår
+	ljusår[n][nt]	nob	lysår
+	lobbyverksamhet[n][ut]	nno	lobbyverksemd
+	lobbyverksamhet[n][ut]	nob	korridorpolitikk
+	lokomotiv[n][nt]	nno	lokomotiv
+	lokomotiv[n][nt]	nob	lokomotiv
+	lösenord[n][nt]	nno	passord
+	lösenord[n][nt]	nob	passord
+	luftfart[n][ut]	nob	kategori:luftfart
+	luftfart[n][ut]	nob	luftfart
+	luftvärn[n][nt]	nob	luftvern
+	lusthus[n][nt]	nob	lysthus
+	lysrör[n][nt]	nno	lysrøyr
+	lysrör[n][nt]	nob	lysrør
+	magasin[n][nt]	nob	magasin
+	magnetfält[n][nt]	nno	magnetfelt
+	magnetfält[n][nt]	nob	magnetfelt
+	mål[n][nt]	nno	mål
+	mål[n][nt]	nob	mål
+	mandat[n][nt]	nno	mandat
+	mandat[n][nt]	nob	mandat
+	manifest[n][nt]	nob	manifest
+	mantal[n][nt]	nob	mantal
+	marknadsplats[n][ut]	nob	torg
+	massförstörelsevapen[n][nt]	nno	masseøydeleggingsvåpen
+	mätare[n][ut]	nob	målere
+	material[n][nt]	nno	materiale
+	material[n][nt]	nob	materiale
+	mätinstrument[n][nt]	nno	måleinstrument
+	matris[n][ut]	nno	matrise
+	matris[n][ut]	nob	matrise
+	medborgarrätt[n][ut]	nno	borgarrettar
+	medborgarrätt[n][ut]	nob	borgerrettigheter
+	medborgarskap[n][nt]	nno	statsborgar
+	medborgarskap[n][nt]	nob	statsborgerskap
+	medeltal[n][nt]	nno	gjennomsnitt
+	medium[n][nt]	nob	medium
+	medlare[n][ut]	nob	mekling
+	medvetenhet[n][ut]	nob	oppmerksomhet
+	mejl[n][nt]	nno	e-post
+	mejl[n][nt]	nob	e-post
+	memorandum[n][nt]	nob	promemoria
+	mentalsjukhus[n][nt]	nno	psykiatrisk sjukehus
+	mentalsjukhus[n][nt]	nob	psykiatrisk sykehus
+	meter[n][ut]	nno	meter
+	meter[n][ut]	nob	meter
+	mikroskop[n][nt]	nno	mikroskop
+	mikroskop[n][nt]	nob	mikroskop
+	miljöproblem[n][nt]	nno	miljø
+	miljöproblem[n][nt]	nob	miljø
+	millimeter[n][ut]	nno	millimeter
+	millimeter[n][ut]	nob	millimeter
+	mil[n][nt]	nno	mil
+	mil[n][nt]	nob	mil
+	mil[n][ut]	nno	mil
+	mil[n][ut]	nob	mil
+	minus[n][nt]	nno	minus
+	modem[n][nt]	nno	modem
+	modem[n][nt]	nob	modem
+	moderkort[n][nt]	nno	hovudkort
+	moderkort[n][nt]	nob	hovedkort
+	moll[n][ut]	nno	moll
+	moll[n][ut]	nob	moll
+	monopol[n][nt]	nno	monopol
+	monopol[n][nt]	nob	monopol
+	monument[n][nt]	nno	monument
+	monument[n][nt]	nob	monument
+	mord[n][nt]	nno	drap
+	mord[n][nt]	nob	drap
+	morfem[n][nt]	nno	morfem
+	morfem[n][nt]	nob	morfem
+	motorfordon[n][nt]	nob	motorvogn (kjøretøy)
+	motsats[n][ut]	nno	antonym
+	motsats[n][ut]	nob	antonym
+	motstånd[n][nt]	nno	motstand
+	motstånd[n][nt]	nob	motstand
+	mott[n][ut]	nob	mott (andre betydninger)
+	munspel[n][nt]	nno	munnspel
+	munspel[n][nt]	nob	munnspill
+	musikalbum[n][nt]	nno	musikkalbum
+	musikalbum[n][nt]	nob	musikkalbum
+	musiker[n][ut]	nno	musikar
+	musiker[n][ut]	nob	musiker
+	myndighet[n][ut]	nno	etat
+	myndighet[n][ut]	nob	etat
+	narkotikamissbruk[n][nt]	nob	narkomani
+	näs[n][nt]	nno	landforma eid
+	näs[n][nt]	nob	eid (landform)
+	naturgas[n][ut]	nno	naturgass
+	naturgas[n][ut]	nob	naturgass
+	nätverk[n][nt]	nno	nettverk
+	nätverk[n][nt]	nob	nettverk
+	nav[n][nt]	nob	nav
+	nervsystem[n][nt]	nno	nervesystemet
+	nervsystem[n][nt]	nob	nervesystem
+	nos[n][ut]	nno	nase
+	nos[n][ut]	nob	nese
+	nötkött[n][nt]	nob	storfekjøtt
+	nötkreatur[n][nt]	nno	storfe
+	nötkreatur[n][nt]	nob	storfe
+	objektiv[n][nt]	nno	objektiv
+	objektiv[n][nt]	nob	objektiv
+	odds[n][nt]	nob	odds
+	offentlighet[n][ut]	nob	offentlighet
+	ögonvrå[n][ut]	nno	auga
+	ögonvrå[n][ut]	nno	auge
+	ögonvrå[n][ut]	nob	øye
+	olikhet[n][ut]	nno	ulikskap i matematikk
+	olikhet[n][ut]	nob	ulikhet (matematikk)
+	oljud[n][nt]	nob	støyforurensning
+	omlopp[n][nt]	nno	bane
+	omlopp[n][nt]	nob	bane
+	operativsystem[n][nt]	nno	operativsystem
+	operativsystem[n][nt]	nob	operativsystem
+	opus[n][nt]	nob	opus (andre betydninger)
+	organ[n][nt]	nno	organ
+	organ[n][nt]	nob	organ
+	original[n][nt]	nob	original
+	örlogsfartyg[n][nt]	nno	orlogsfartøy
+	ornament[n][nt]	nob	ornament
+	ortnamn[n][nt]	nno	stadnamn
+	ortnamn[n][nt]	nob	toponymi
+	överdrag[n][nt]	nob	cover
+	överenskommelse[n][ut]	nob	avtale
+	papp[n][nt]	nob	papp
+	paradigm[n][nt]	nob	paradigme
+	paradis[n][nt]	nno	paradis
+	paradis[n][nt]	nob	paradis
+	parentes[n][ut]	nno	parentes
+	parentes[n][ut]	nob	parentes
+	parlament[n][nt]	nno	parlament
+	parlament[n][nt]	nob	parlament
+	parlamentsval[n][nt]	nno	val
+	parlamentsval[n][nt]	nob	valg
+	par[n][nt]	nob	par
+	partnerskap[n][nt]	nob	registrert partnerskap
+	påslakan[n][nt]	nob	laken (sengetøy)
+	passagerarfartyg[n][nt]	nno	passasjerskip
+	passagerarfartyg[n][nt]	nob	passasjerskip
+	pass[n][nt]	nno	pass
+	pass[n][nt]	nob	pass
+	patent[n][nt]	nno	patent
+	patent[n][nt]	nob	patent
+	pelare[n][ut]	nob	pilar
+	pendeltåg[n][nt]	nno	forstadsbane
+	pendeltåg[n][nt]	nob	forstadsbane
+	penis[n][ut]	nno	penis
+	penis[n][ut]	nob	penis
+	pergament[n][nt]	nno	pergament
+	pergament[n][nt]	nob	pergament
+	personnummer[n][nt]	nno	fødselsnummer
+	personnummer[n][nt]	nob	fødselsnummer
+	perspektiv[n][nt]	nob	perspektiv
+	pigment[n][nt]	nno	pigment
+	piller[n][nt]	nno	tablett
+	piller[n][nt]	nob	tabletter
+	plagg[n][nt]	nno	klede
+	plagg[n][nt]	nob	klær
+	plagiat[n][nt]	nno	plagiat
+	plagiat[n][nt]	nob	plagiat
+	plus[n][nt]	nno	pluss
+	poem[n][nt]	nno	dikt
+	poem[n][nt]	nob	poesi
+	polynom[n][nt]	nno	polynom
+	polynom[n][nt]	nob	polynom
+	pors[n][ut]	nob	pors
+	predikat[n][nt]	nno	predikat
+	predikat[n][nt]	nob	predikat
+	prejudikat[n][nt]	nob	prejudikat
+	primärval[n][nt]	nob	primærvalg i usa
+	prins[n][ut]	nno	prins
+	prins[n][ut]	nob	prins
+	problem[n][nt]	nno	vanskar
+	problem[n][nt]	nob	problem
+	process[n][ut]	nno	prosess
+	process[n][ut]	nob	prosess
+	programmerare[n][ut]	nob	programmerer
+	program[n][nt]	nob	program
+	protokoll[n][nt]	nob	protokoll
+	pund[n][nt]	nob	pund
+	punkband[n][nt]	nno	pønkrock
+	punkband[n][nt]	nob	pønkrock
+	radhus[n][nt]	nno	rekkjehus
+	radhus[n][nt]	nob	rekkehus
+	radio[n][ut]	nno	radio
+	radio[n][ut]	nob	kategori:radio
+	radio[n][ut]	nob	radio
+	rådjur[n][nt]	nno	rådyr
+	rådjur[n][nt]	nob	rådyr
+	rand[n][ut]	nob	rand
+	rån[n][nt]	nno	ran
+	rån[n][nt]	nob	ran
+	raseri[n][nt]	nno	sinne
+	raseri[n][nt]	nob	sinne
+	ras[n][nt]	nno	rase
+	ras[n][nt]	nob	rase
+	ras[n][ut]	nno	rase
+	ras[n][ut]	nob	rase
+	realitet[n][ut]	nno	røyndom
+	realitet[n][ut]	nob	virkelighet
+	redare[n][ut]	nno	reiar
+	redare[n][ut]	nob	skipsreder
+	rederi[n][nt]	nno	reiarlag
+	rederi[n][nt]	nob	rederi
+	register[n][nt]	nno	register
+	register[n][nt]	nob	register
+	rek[n][nt]	nob	rekommandert post
+	rekord[n][nt]	nob	rekord
+	relativpronomen[n][nt]	nob	relativt pronomen
+	reningsverk[n][nt]	nob	kloakkanlegg
+	rep[n][nt]	nno	tau
+	rep[n][nt]	nob	tau
+	reservat[n][nt]	nob	reservat
+	residens[n][nt]	nob	residens
+	resistans[n][ut]	nno	elektrisk motstand
+	resistans[n][ut]	nob	motstand (resistans)
+	resurs[n][ut]	nob	ressurs
+	revir[n][nt]	nno	revir
+	revir[n][nt]	nob	revir
+	rev[n][nt]	nno	rev i sjø
+	rev[n][nt]	nob	rev (maritimt)
+	rim[n][nt]	nob	rim
+	ris[n][nt]	nno	ris
+	ris[n][nt]	nob	ris
+	rockband[n][nt]	nno	rock
+	rockband[n][nt]	nob	rock
+	rödvin[n][nt]	nno	raudvin
+	rödvin[n][nt]	nob	rødvin
+	rollspel[n][nt]	nno	rpg-rollespel
+	rollspel[n][nt]	nob	rollespill
+	rov[n][nt]	nno	fjernstyrte undervassfartøy
+	rov[n][nt]	nob	fjernstyrt undervannsfarkost
+	rymdskepp[n][nt]	nno	romskip
+	rymdskepp[n][nt]	nob	romskip
+	ryss[n][ut]	nno	russarar
+	ryss[n][ut]	nob	russere
+	sädesslag[n][nt]	nno	korn
+	sädesslag[n][nt]	nob	korn
+	sågverk[n][nt]	nno	sagbruk
+	sågverk[n][nt]	nob	sagbruk
+	sakrament[n][nt]	nno	sakrament
+	sakrament[n][nt]	nob	sakrament
+	sällskap[n][nt]	nob	forening
+	sällskapsdjur[n][nt]	nno	kjæledyr
+	sällskapsdjur[n][nt]	nob	kjæledyr
+	sambo[n][ut]	nno	sambuarskap
+	sambo[n][ut]	nob	samboerskap
+	samfund[n][nt]	nno	kyrkjesamfunn
+	samfund[n][nt]	nob	kirkesamfunn
+	samlag[n][nt]	nno	samleie
+	samlag[n][nt]	nob	samleie
+	sammanhang[n][nt]	nob	kontekst
+	sändare[n][ut]	nob	radiosender
+	sångare[n][ut]	nob	vokalist
+	särdrag[n][nt]	nob	fonologiske særtrekk
+	sats[n][ut]	nno	sats
+	sats[n][ut]	nob	sats
+	sax[n][ut]	nob	saks
+	segelfartyg[n][nt]	nno	seglskip
+	segelfartyg[n][nt]	nob	seilskip
+	sekretariat[n][nt]	nno	kanselli
+	sekretariat[n][nt]	nob	kanselli
+	sekreterare[n][ut]	nno	sekretær som yrke
+	sekreterare[n][ut]	nob	sekretær
+	sekret[n][nt]	nob	sekresjon
+	sigill[n][nt]	nno	sigill
+	sigill[n][nt]	nob	segl
+	simhopp[n][nt]	nno	stuping
+	simhopp[n][nt]	nob	stuping
+	sinnesintryck[n][nt]	nno	persepsjon
+	sinnesintryck[n][nt]	nob	persepsjon
+	sinnessjukhus[n][nt]	nno	psykiatrisk sjukehus
+	sinnessjukhus[n][nt]	nob	psykiatrisk sykehus
+	självmål[n][nt]	nob	selvmål
+	självmordsförsök[n][nt]	nno	sjølvmord
+	självmordsförsök[n][nt]	nob	selvmord
+	självporträtt[n][nt]	nob	selvportrett
+	självständighet[n][ut]	nno	sjølvstende
+	självständighet[n][ut]	nob	uavhengighet
+	sjöjungfru[n][ut]	nob	havfrue
+	sjökort[n][nt]	nno	sjøkart
+	sjökort[n][nt]	nob	sjøkart
+	skadestånd[n][nt]	nno	erstatning
+	skadestånd[n][nt]	nob	erstatning
+	skaft[n][nt]	nob	skaft
+	skaldjur[n][nt]	nno	skaldyr
+	skaldjur[n][nt]	nob	skalldyr
+	skämt[n][nt]	nno	vits
+	skämt[n][nt]	nob	vits
+	skär[n][nt]	nob	skjær (andre betydninger)
+	skattmästare[n][ut]	nob	kasserer
+	skeppare[n][ut]	nob	skipper
+	skeppsbrott[n][nt]	nob	forlis
+	skeppsvarv[n][nt]	nno	verft
+	skeppsvarv[n][nt]	nob	skipsverft
+	skivbolag[n][nt]	nno	plateselskap
+	skivbolag[n][nt]	nob	plateselskap
+	skjul[n][nt]	nob	skur
+	skogsbruk[n][nt]	nno	skogbruk
+	skogsbruk[n][nt]	nob	skogbruk
+	skräddare[n][ut]	nob	skredder
+	skriftspråk[n][nt]	nno	skriftsystem
+	skriftspråk[n][nt]	nob	skriftsystem
+	skrik[n][nt]	nno	røyst
+	skrik[n][nt]	nob	stemme
+	skrin[n][nt]	nno	skrin
+	skript[n][nt]	nob	skriptspråk
+	skrivare[n][ut]	nob	skriver
+	skrov[n][nt]	nob	skrog (skip)
+	skum[n][nt]	nno	skum
+	skum[n][nt]	nob	skum
+	slagfält[n][nt]	nob	feltslag
+	slagsmål[n][nt]	nob	kamp
+	slagverk[n][nt]	nno	perkusjon
+	slagverk[n][nt]	nob	slagverkinstrument
+	slaktare[n][ut]	nob	gårdsslakting
+	slips[n][ut]	nob	slips
+	slutsats[n][ut]	nob	konklusjon
+	småbarn[n][nt]	nno	barn
+	småbarn[n][nt]	nob	barn
+	småföretag[n][nt]	nob	små og mellomstore bedrifter
+	småhus[n][nt]	nno	rekkjehus
+	småhus[n][nt]	nob	rekkehus
+	smeknamn[n][nt]	nno	kallenamn
+	smeknamn[n][nt]	nob	kallenavn
+	smul[n][nt]	nno	sjøgang
+	smul[n][nt]	nob	sjøgang
+	smultron[n][nt]	nno	markjordbær
+	smultron[n][nt]	nob	markjordbær
+	snedstreck[n][nt]	nob	skråstrek
+	snickare[n][ut]	nno	snikkar
+	snickare[n][ut]	nob	snekker
+	snitt[n][nt]	nno	snitt i matematikk
+	snitt[n][nt]	nob	snitt (mengdelære)
+	sökare[n][ut]	nob	søker
+	solljus[n][nt]	nno	solstråling
+	solljus[n][nt]	nob	solstråling
+	spädbarn[n][nt]	nno	spedbarn
+	spädbarn[n][nt]	nob	spedbarn
+	spannmål[n][nt]	nno	korn
+	spannmål[n][nt]	nob	korn
+	spänn[n][ut]	nno	svensk krona
+	spänn[n][ut]	nob	svensk krone
+	spårbarhet[n][ut]	nno	sporbarheit
+	spelare[n][ut]	nno	spel
+	spelare[n][ut]	nob	spill
+	spelkort[n][nt]	nob	spillkort
+	spel[n][nt]	nno	spel
+	spel[n][nt]	nob	spill
+	spjut[n][nt]	nno	spyd
+	spjut[n][nt]	nob	spyd
+	sportevenemang[n][nt]	nno	idrett
+	sportevenemang[n][nt]	nob	sport
+	spratt[n][nt]	nno	gapstrek
+	spratt[n][nt]	nob	narrestrek
+	städ[n][nt]	nno	ambolt
+	städ[n][nt]	nob	ambolt (verktøy)
+	stall[n][nt]	nno	stall
+	stall[n][nt]	nob	stall
+	stål[n][nt]	nno	stål
+	stål[n][nt]	nob	stål
+	stålverk[n][nt]	nno	jernverk
+	stålverk[n][nt]	nob	jernverk
+	statsbesök[n][nt]	nob	statsbesøk
+	status[n][ut]	nno	status
+	stavfel[n][nt]	nno	stava
+	stavhopp[n][nt]	nob	stavsprang
+	stearinljus[n][nt]	nno	levande lys
+	stearinljus[n][nt]	nob	levende lys
+	stenbrott[n][nt]	nno	steinbrot
+	stenbrott[n][nt]	nob	pukkverk
+	stenkast[n][nt]	nob	steinkast
+	stift[n][nt]	nob	stift (andre betydninger)
+	stillestånd[n][nt]	nno	våpenkvile
+	stillestånd[n][nt]	nob	våpenhvile
+	storband[n][nt]	nno	storband
+	storband[n][nt]	nob	storband
+	styrelse[n][ut]	nob	styre
+	styrsystem[n][nt]	nno	reguleringsteknikk
+	styrsystem[n][nt]	nob	reguleringsteknikk
+	subjekt[n][nt]	nob	subjekt
+	substrat[n][nt]	nob	substrat
+	suffix[n][nt]	nob	suffiks
+	svans[n][ut]	nno	hale
+	svans[n][ut]	nob	hale
+	symptom[n][nt]	nno	symptom
+	symptom[n][nt]	nob	symptom
+	symtom[n][nt]	nno	symptom
+	symtom[n][nt]	nob	symptom
+	syntes[n][ut]	nno	syntese
+	syntes[n][ut]	nob	syntese
+	tacksamhet[n][ut]	nno	takksemd
+	tacksamhet[n][ut]	nob	takknemlighet
+	tag[n][nt]	nob	tag
+	talare[n][ut]	nno	retorikk
+	talare[n][ut]	nob	retorikk
+	tal[n][nt]	nno	tal
+	tal[n][nt]	nob	tall
+	team[n][nt]	nno	lag
+	team[n][nt]	nob	lag
+	tecknare[n][ut]	nob	tegning
+	telefonnummer[n][nt]	nno	telefonnummer
+	telefonnummer[n][nt]	nob	telefonnummer
+	telegram[n][nt]	nob	telegram
+	teleskop[n][nt]	nno	teleskop
+	teleskop[n][nt]	nob	teleskop
+	tempel[n][nt]	nno	tempel
+	tempel[n][nt]	nob	tempel
+	teorem[n][nt]	nno	teorem
+	teorem[n][nt]	nob	teorem
+	terrass[n][ut]	nno	terrasse
+	terrass[n][ut]	nob	terrasse
+	territorialvatten[n][nt]	nob	territorialfarvann
+	terrordåd[n][nt]	nno	terrorisme
+	terrordåd[n][nt]	nob	terrorisme
+	terrorism[n][ut]	nno	terrorisme
+	terrorism[n][ut]	nob	terrorisme
+	test[n][nt]	nob	test
+	textil[n][ut]	nno	tekstil
+	textil[n][ut]	nob	tekstil
+	tillverkare[n][ut]	nob	industriteknikk
+	ting[n][nt]	nob	ting
+	tingshus[n][nt]	nob	tinghus
+	titan[n][nt]	nno	grunnstoffet titan
+	titan[n][nt]	nob	titan (grunnstoff)
+	trafikljus[n][nt]	nob	trafikklys
+	tråg[n][nt]	nob	trau
+	trålare[n][ut]	nno	trålar
+	trålare[n][ut]	nob	tråler
+	träsk[n][nt]	nno	sump
+	träsk[n][nt]	nob	sump
+	träsko[n][ut]	nno	tresko
+	träsko[n][ut]	nob	tresko
+	troll[n][nt]	nno	troll
+	troll[n][nt]	nob	troll
+	tvärsnitt[n][nt]	nno	tverrsnitt
+	tvärsnitt[n][nt]	nob	tverrsnitt
+	typsnitt[n][nt]	nob	skrifttype
+	undantagstillstånd[n][nt]	nno	unntakstilstand
+	undantagstillstånd[n][nt]	nob	unntakstilstand
+	underbarn[n][nt]	nno	vidunderbarn
+	underbarn[n][nt]	nob	vidunderbarn
+	undertryck[n][nt]	nno	trykk
+	undertryck[n][nt]	nob	trykk
+	underverk[n][nt]	nno	mirakel
+	underverk[n][nt]	nob	mirakel
+	ungrare[n][ut]	nob	madjarer
+	universitet[n][nt]	nno	universitet
+	universitet[n][nt]	nob	universitet
+	universum[n][nt]	nno	universet
+	universum[n][nt]	nob	universet
+	uppsåt[n][nt]	nob	forsett
+	uppslagsverk[n][nt]	nno	leksikon
+	uppslagsverk[n][nt]	nob	encyklopedi
+	urmakare[n][ut]	nob	urmaker
+	ur[n][nt]	nno	klokke
+	ur[n][nt]	nno	klokker
+	ur[n][nt]	nob	klokke (ur)
+	utbud[n][nt]	nob	tilbud og etterspørsel
+	uthus[n][nt]	nob	uthus
+	utkast[n][nt]	nno	formgjeving
+	utkast[n][nt]	nob	design
+	utskott[n][nt]	nob	komité
+	utvecklingsbistånd[n][nt]	nno	utviklingshjelp
+	utvecklingsbistånd[n][nt]	nob	bistand
+	väderstreck[n][nt]	nno	himmelretning
+	väderstreck[n][nt]	nob	himmelretning
+	väktare[n][ut]	nob	vekter
+	vaktmästare[n][ut]	nob	vaktmester
+	valförbund[n][nt]	nob	valgallianse
+	valv[n][nt]	nno	kvelv i arkitekturen
+	valv[n][nt]	nob	hvelv (arkitektur)
+	vant[n][nt]	nno	vant
+	vant[n][nt]	nob	vant
+	värdepapper[n][nt]	nob	verdipapir
+	värdshus[n][nt]	nob	kro
+	vass[n][nt]	nno	takrøyr
+	vass[n][nt]	nob	takrør
+	vattenkraftverk[n][nt]	nno	vassenergi
+	vattenkraftverk[n][nt]	nob	vannkraft
+	vattenpass[n][nt]	nob	vaterpass
+	vattenverk[n][nt]	nob	vannverk
+	växthus[n][nt]	nno	veksthus
+	växthus[n][nt]	nob	drivhus
+	vektorfält[n][nt]	nno	vektorfelt
+	vektorfält[n][nt]	nob	vektorfelt
+	verb[n][nt]	nno	verb
+	verb[n][nt]	nob	verb
+	verk[n][nt]	nno	verk
+	versmått[n][nt]	nno	metrikk
+	versmått[n][nt]	nob	metrikk
+	vietnames[n][ut]	nno	vietnam
+	vietnames[n][ut]	nob	vietnam
+	vilt[n][nt]	nob	småvilt
+	vindkraftverk[n][nt]	nno	vindturbin
+	vindkraftverk[n][nt]	nob	vindkraftverk
+	vindskydd[n][nt]	nno	gapahuk
+	vindskydd[n][nt]	nob	gapahuk
+	virus[n][nt]	nno	virus
+	virus[n][nt]	nob	virus
+	visum[n][nt]	nno	visum
+	visum[n][nt]	nob	visum
+	vrak[n][nt]	nob	vrak
+	vulkanutbrott[n][nt]	nno	vulkan
+	vulkanutbrott[n][nt]	nob	vulkan
+	vykort[n][nt]	nno	postkort
+	vykort[n][nt]	nob	postkort
+	webbläsare[n][ut]	nno	nettlesar
+	webbläsare[n][ut]	nob	nettleser
+	yen[n][ut]	nno	japansk yen
+	yen[n][ut]	nob	japansk yen
+	yttertak[n][nt]	nno	tak
+	yttertak[n][nt]	nob	tak (arkitektur)
+	zigenare[n][ut]	nno	sigøynarar
+	zigenare[n][ut]	nob	romanifolket
