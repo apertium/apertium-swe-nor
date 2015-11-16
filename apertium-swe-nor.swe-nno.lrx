@@ -1,8 +1,5 @@
 <rules>
   <rule weight="1.0">
-    <match lemma="äta" tags="vblex.*"><select lemma="spisse" tags="vblex.*"/></match>
-  </rule>
-  <rule weight="1.0">
     <match lemma="leka" tags="vblex.*"><select lemma="leke" tags="vblex.*"/></match>
   </rule>
   <rule weight="2.0">

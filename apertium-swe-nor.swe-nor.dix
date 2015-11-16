@@ -263,6 +263,9 @@
     <e><p><l>skog<s n="n"/><s n="ut"/></l><r>skog<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>gnista<s n="n"/><s n="ut"/></l><r>gnist<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>rök<s n="n"/><s n="ut"/></l><r>røyk<s n="n"/><s n="m"/></r></p></e>
+    <e vr="nob"><p><l>hand<s n="n"/><s n="ut"/></l><r>hånd<s n="n"/><s n="m"/></r></p></e>
+    <e vr="nno"><p><l>hand<s n="n"/><s n="ut"/></l><r>hand<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>fågel<s n="n"/><s n="ut"/></l><r>fugl<s n="n"/><s n="m"/></r></p></e>
 
 
 
@@ -514,6 +517,10 @@
     <e><p><l>vit<s n="adj"/></l><r>hvit<s n="adj"/></r></p></e>
     <e><p><l>vuxen<s n="adj"/></l><r>voksen<s n="adj"/></r></p></e>
     <e><p><l>fortfarande<s n="adj"/></l><r>stadig<s n="adj"/></r></p></e>
+    <e><p><l>snabb<s n="adj"/></l><r>fort<s n="adj"/></r></p></e>
+    <e><p><l>snabb<s n="adj"/></l><r>rask<s n="adj"/></r></p></e>
+    <e><p><l>snabb<s n="adj"/></l><r>hurtig<s n="adj"/></r></p></e>
+
 
     <!-- SECTION: Adverbs -->
 
@@ -576,8 +583,7 @@
 
     <e><p><l>älska<s n="vblex"/></l><r>elske<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>äta<s n="vblex"/></l><r>spise<s n="vblex"/></r></p></e>
-    <e vr="nno"><p><l>äta<s n="vblex"/></l><r>spisse<s n="vblex"/></r></p></e>
-    <e><p><l>äta<s n="vblex"/></l><r>ete<s n="vblex"/></r></p></e>
+    <e vr="nno"><p><l>äta<s n="vblex"/></l><r>ete<s n="vblex"/></r></p></e>
     <e><p><l>attackera<s n="vblex"/></l><r>attakkere<s n="vblex"/></r></p></e>
     <e><p><l>avskaffa<s n="vblex"/></l><r>avskaffe<s n="vblex"/></r></p></e>
     <e><p><l>avveckla<s n="vblex"/></l><r>avvikle<s n="vblex"/></r></p></e>
@@ -741,6 +747,15 @@
     <e vr="nob"><p><l>följa<s n="vblex"/></l><r>følge<s n="vblex"/></r></p></e>
     <e vr="nno"><p><l>följa<s n="vblex"/></l><r>følgje<s n="vblex"/></r></p></e>
 
+    <e><p><l>måsta<s n="vaux"/></l><r>må<s n="vaux"/></r></p></e>
+    <e vr="nob"><p><l>höra<s n="vblex"/></l><r>høre<s n="vblex"/></r></p></e>
+    <e vr="nno"><p><l>höra<s n="vblex"/></l><r>høyre<s n="vblex"/></r></p></e>
+    <e vr="nob"><p><l>leka<s n="vblex"/></l><r>leke<s n="vblex"/></r></p></e>
+    <e vr="nno"><p><l>leka<s n="vblex"/></l><r>leike<s n="vblex"/></r></p></e>
+    <e><p><l>springa<s n="vblex"/></l><r>løpe<s n="vblex"/></r></p></e>
+    <e><p><l>springa<s n="vblex"/></l><r>springe<s n="vblex"/></r></p></e>
+    <e><p><l>skriva<s n="vblex"/></l><r>skrive<s n="vblex"/></r></p></e>
+
     <!-- SECTION: Interjections -->
 
     <e><p><l>nej<s n="ij"/></l><r>nei<s n="ij"/></r></p></e>
@@ -756,11 +771,6 @@
 
   </section>
   <section id="pending" type="standard">
-    <e vr="nob"><p><l>hand<s n="n"/><s n="ut"/></l><r>hånd<s n="n"/><s n="m"/></r></p></e>
-    <e vr="nno"><p><l>hand<s n="n"/><s n="ut"/></l><r>hand<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>fågel<s n="n"/><s n="ut"/></l><r>fugl<s n="n"/><s n="m"/></r></p></e>
-
-
     <e><p><l>abbedissa<s n="n"/><s n="ut"/></l><r>abbedisse<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>abborre<s n="n"/><s n="ut"/></l><r>abbor<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>abdikation<s n="n"/><s n="ut"/></l><r>abdikasjon<s n="n"/><s n="m"/></r></p></e>
@@ -2925,17 +2935,6 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e><p><l>yta<s n="n"/><s n="ut"/></l><r>yte<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>yxa<s n="n"/><s n="ut"/></l><r>øks<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>zink<s n="n"/><s n="nt"/></l><r>sink<s n="n"/><s n="GD"/></r></p></e>
-
-    <e><p><l>snabbt<s n="adv"/></l><r>rask<s n="adv"/></r></p></e>
-    <e><p><l>snabbt<s n="adv"/></l><r>fort<s n="adv"/></r></p></e>
-
-    <e><p><l>måsta<s n="vaux"/></l><r>må<s n="vaux"/></r></p></e>
-    <e vr="nob"><p><l>höra<s n="vblex"/></l><r>høre<s n="vblex"/></r></p></e>
-    <e vr="nno"><p><l>höra<s n="vblex"/></l><r>høyre<s n="vblex"/></r></p></e>
-    <e><p><l>leka<s n="vblex"/></l><r>leke<s n="vblex"/></r></p></e>
-    <e><p><l>springa<s n="vblex"/></l><r>lope<s n="vblex"/></r></p></e>
-    <e><p><l>skriva<s n="vblex"/></l><r>skrive<s n="vblex"/></r></p></e>
-    <e><p><l>springa<s n="vblex"/></l><r>springe<s n="vblex"/></r></p></e>
 
     <e><p><l>åberopa<s n="vblex"/></l><r>henvise<g><b/>til</g><s n="vblex"/></r></p></e>
     <e><p><l>acceptera<s n="vblex"/></l><r>akseptere<s n="vblex"/></r></p></e>
