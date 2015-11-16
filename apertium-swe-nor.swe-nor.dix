@@ -153,8 +153,8 @@
     <e vr="nob"><p><l>var<s n="prn"/></l><r>hvor<s n="prn"/></r></p></e>
     <e><p><l>vart<s n="prn"/></l><r>hvorhen<s n="prn"/></r></p></e>
 
-    <e vr="nno"><p><l>vem<s n="prn"/><s n="itg"/><s n="ut"/></l><r>kven<s n="prn"/><s n="itg"/></r></p></e>
-    <e vr="nno"><p><l>vem<s n="prn"/><s n="itg"/><s n="n"/></l><r>kva<s n="prn"/><s n="itg"/></r></p></e>
+    <e vr="nob"><p><l>vem<s n="prn"/><s n="itg"/></l><r>hvem<s n="prn"/><s n="itg"/></r></p></e>
+    <e vr="nno"><p><l>vem<s n="prn"/><s n="itg"/></l><r>kven<s n="prn"/><s n="itg"/></r></p></e>
     <e vr="nno"><p><l>var<s n="prn"/></l><r>kor<s n="prn"/></r></p></e>
 
     <e><p><l>någonting<s n="prn"/></l><r>ingenting<s n="prn"/></r></p></e>
@@ -3389,3 +3389,9 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e><p><l>hålla<s n="vblex"/></l><r>holde<s n="vblex"/></r></p></e>
   </section>
 </dictionary>
+<!--
+Local Variables:
+dix-vr-langs: ("nno" "nob")
+dix-rb-align-column: 55
+End:
+-->
