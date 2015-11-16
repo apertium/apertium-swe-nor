@@ -44,7 +44,7 @@
     <sdef n="vbmod"   c="Verb"/>
 
     <sdef n="pstv"    c="-st verb (Nynorsk)"/>
-    <sdef n="pass"    c="Passive (Bokmål) or -st form (Nynorsk)"/>
+    <sdef n="pasv"    c="Passive (Bokmål) or -st form (Nynorsk)"/>
     <sdef n="inf"     c="Infinitive"/>
     <sdef n="pres"    c="Present"/>
     <sdef n="imp"     c="Imperative"/>

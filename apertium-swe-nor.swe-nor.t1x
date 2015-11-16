@@ -55,8 +55,8 @@
       <attr-item tags="pp"/>
     </def-attr>
     <def-attr n="a_pass">
-      <attr-item tags="pass"/>
       <attr-item tags="pasv"/>
+      <attr-item tags="actv"/>
     </def-attr>
     <def-attr n="a_case_nom">
       <attr-item tags="nom"/>
@@ -91,12 +91,6 @@
             </when>
             <when><test><equal><clip pos="1" side="sl" part="a_temps"/><lit-tag v="supn"/></equal></test>
                   <let><clip pos="1" side="tl" part="a_temps"/><lit-tag v="pp"/></let>
-            </when>
-          </choose>
-
-          <choose>
-            <when><test><equal><clip pos="1" side="sl" part="a_pass"/><lit-tag v="pasv"/></equal></test>
-                  <let><clip pos="1" side="tl" part="a_pass"/><lit-tag v="pass"/></let>
             </when>
           </choose>
     </def-macro>
