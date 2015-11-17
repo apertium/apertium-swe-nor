@@ -785,7 +785,7 @@
     <e vr="nob"><p><l>följa<s n="vblex"/></l><r>følge<s n="vblex"/></r></p></e>
     <e vr="nno"><p><l>följa<s n="vblex"/></l><r>følgje<s n="vblex"/></r></p></e>
 
-    <e><p><l>måsta<s n="vaux"/></l><r>må<s n="vaux"/></r></p></e>
+    <e><p><l>måsta<s n="vaux"/></l><r>må<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>höra<s n="vblex"/></l><r>høre<s n="vblex"/></r></p></e>
     <e vr="nno"><p><l>höra<s n="vblex"/></l><r>høyre<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>leka<s n="vblex"/></l><r>leke<s n="vblex"/></r></p></e>
@@ -5605,6 +5605,8 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e><p><l>yrkesutbildning<s n="n"/><s n="ut"/></l><r>yrkesutdanning<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>zon<s n="n"/><s n="ut"/></l><r>sone<s n="n"/><s n="m"/></r></p></e>
 
+    <e><p><l>förälder<s n="n"/><s n="ut"/></l><r>forelder<s n="n"/><s n="m"/></r></p></e>
+
     <!-- SECTION: Proper nouns -->
 
     <e><p><l>Olofsson<s n="np"/><s n="cog"/><s n="mf"/></l><r>Olofsson<s n="np"/></r></p></e>
@@ -7630,8 +7632,8 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e><p><l>invänta<s n="vblex"/></l><r>avvente<s n="vblex"/></r></p></e>
     <e><p><l>investera<s n="vblex"/></l><r>investere<s n="vblex"/></r></p></e>
     <e><p><l>jaga<s n="vblex"/></l><r>gå<g><b/>på<b/>jakt</g><s n="vblex"/></r></p></e>
-    <e><p><l>jämföra<s n="vblex"/></l><r><g><b/>jamføre</g><s n="vblex"/></r></p></e>
-    <e><p><l>jämföra<s n="vblex"/></l><r><g><b/>jevnføre</g><s n="vblex"/></r></p></e>
+    <e><p><l>jämföra<s n="vblex"/></l><r>jamføre<s n="vblex"/></r></p></e>
+    <e><p><l>jämföra<s n="vblex"/></l><r>jevnføre<s n="vblex"/></r></p></e>
     <e><p><l>jämföra<s n="vblex"/></l><r>sammenligne<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>jobba<s n="vblex"/></l><r>jobbe<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>jobba<s n="vblex"/></l><r>slite<s n="vblex"/></r></p></e>
@@ -7881,6 +7883,7 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nob"><p><l>besluta<s n="vblex"/></l><r>beslutte<s n="vblex"/></r></p></e>
     <e><p><l>ansluta<s n="vblex"/></l><r>anslutte<s n="vblex"/></r></p></e>
     <e><p><l>stå<s n="vblex"/></l><r>stå<s n="vblex"/></r></p></e>
+    <e><p><l>öppna<s n="vblex"/></l><r>opne<s n="vblex"/></r></p></e>
 
 
     <!-- SECTION: Abbreviations -->
