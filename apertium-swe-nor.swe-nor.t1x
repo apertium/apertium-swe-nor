@@ -5,6 +5,9 @@
     <def-cat n="top">
       <cat-item tags="np.top.*"/>
     </def-cat>
+    <def-cat n="pron-interr">
+      <cat-item tags="prn.itg.*"/>
+    </def-cat>
     <def-cat n="prop">
       <cat-item tags="np.*"/>
     </def-cat>
@@ -117,6 +120,25 @@
       </action>
     </rule>
 
+
+   <rule comment="REGLA: PRON-INTERR">
+      <pattern>
+        <pattern-item n="pron-interr"/>
+      </pattern>
+      <action>
+        <let><clip pos="1" side="tl" part="a_case_nom"/><lit v=""/></let>
+        <out>
+          <chunk name="itg" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
 
    <rule comment="REGLA: PROP">
       <pattern>
