@@ -25,7 +25,9 @@ EOF
     exit 1
 fi
 
-analysis-expansion () {
+analysis_expansion () 
+{
+    echo $1
     lt-expand "$1" \
         | awk -v clb="$2" -F':|:[<>]:' '
           /:<:/ {next}
@@ -39,13 +41,9 @@ analysis-expansion () {
           }'
 }
 
-split-ambig () {
-    if command -V pypy3 &>/dev/null; then
-        python=pypy3
-    else
-        python=python3
-    fi
-    PYTHONPATH="$(dirname "$0"):${PYTHONPATH}" pypy3 -c '
+split_ambig () {
+    python=python3
+    PYTHONPATH="$(dirname "$0"):${PYTHONPATH}" ${python} -c '
 from streamparser import parse_file, readingToString
 import sys
 for blank, lu in parse_file(sys.stdin, withText=True):
@@ -55,15 +53,15 @@ for blank, lu in parse_file(sys.stdin, withText=True):
 
 }
 
-mode-after-analysis ()
+mode_after_analysis ()
 {
     eval $(grep '|' "$1" |\
                   sed 's/[^|]*|//' |\
-                  sed 's/autobil.bin *|/& split-ambig |/' |\
+                  sed 's/autobil.bin *|/& split_ambig |/' |\
                   sed 's/\$1/-d/g;s/\$2//g')
 }
 
-only-errs () {
+only_errs () {
     grep '][^<]*[#/]'
 }
 
@@ -74,12 +72,13 @@ if [[ ${dix} = guess ]]; then
     lang1dir=$(grep -m1 "^AP_SRC.*apertium-${lang1}" config.log | sed "s/^[^=]*='//;s/'$//")
     dix=${lang1dir}/apertium-${lang1}.${lang1}.dix
 fi
+#echo "${dix}"
 
 clb=""
 case ${lang1} in
     nno|nob) clb="<clb>" ;;
 esac
 
-analysis-expansion "${dix}" "${clb}" \
-    | mode-after-analysis modes/"${mode}".mode \
-    | only-errs
+analysis_expansion "${dix}" "${clb}" \
+    | mode_after_analysis modes/"${mode}".mode \
+    | only_errs
