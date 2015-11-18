@@ -5118,7 +5118,8 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e><p><l>grannland<s n="n"/><s n="nt"/></l><r>naboland<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>granskning<s n="n"/><s n="ut"/></l><r>gransking<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>granskning<s n="n"/><s n="ut"/></l><r>granskning<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>gräns<s n="n"/><s n="ut"/></l><r>grense<s n="n"/><s n="m"/></r></p></e>
+    <e vr="nob"><p><l>gräns<s n="n"/><s n="ut"/></l><r>grense<s n="n"/><s n="m"/></r></p></e>
+    <e vr="nno"><p><l>gräns<s n="n"/><s n="ut"/></l><r>grense<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>grävling<s n="n"/><s n="ut"/></l><r>grevling<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>grej<s n="n"/><s n="ut"/></l><r>greie<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>grek<s n="n"/><s n="ut"/></l><r>grekar<s n="n"/><s n="m"/></r></p></e>

@@ -31,8 +31,8 @@
     <def-cat n="DetIndef">
       <cat-item tags="det.ind.*"/>
     </def-cat>
-    <def-cat n="AdjIndef">
-      <cat-item tags="adj.*.*.ind"/>
+    <def-cat n="adjec">
+      <cat-item tags="adj.*"/>
     </def-cat>
     <def-cat n="NounIndef">
       <cat-item tags="n.*.*.ind"/>
@@ -72,11 +72,13 @@
     <def-attr n="a_case_nom">
       <attr-item tags="nom"/>
     </def-attr>
-    <def-attr n="gender">
+    <def-attr n="a_gen">
       <attr-item tags="m"/>
       <attr-item tags="f"/>
       <attr-item tags="ut"/>
       <attr-item tags="nt"/>
+      <attr-item tags="un"/>
+      <attr-item tags="mf"/>
     </def-attr>
 
   </section-def-attrs>
@@ -85,6 +87,17 @@
     <def-var n="current_verb"/>
   </section-def-vars>
   <section-def-macros>
+
+    <def-macro n="f_adjec1" npar="1">
+          <choose>
+            <when><test><equal><clip pos="1" side="sl" part="a_gen"/><lit-tag v="un"/></equal></test>
+                  <let><clip pos="1" side="tl" part="a_gen"/><lit-tag v="mf"/></let>
+            </when>
+            <when><test><equal><clip pos="1" side="sl" part="a_gen"/><lit-tag v="ut"/></equal></test>
+                  <let><clip pos="1" side="tl" part="a_gen"/><lit-tag v="mf"/></let>
+            </when>
+          </choose>
+    </def-macro>
 
     <def-macro n="f_noun1" npar="1">
           <choose>
@@ -202,6 +215,28 @@
               <tag><lit-tag v="SV"/></tag>
             </tags>
             <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="tags"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+
+    <rule comment="REGLA: ADJEC">
+      <pattern>
+        <pattern-item n="adjec"/>
+      </pattern>
+      <action>
+        <call-macro n="f_adjec1"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="a" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SA"/></tag>
+            </tags>
+            <lu>
               <clip pos="1" side="tl" part="whole"/>
             </lu>
           </chunk>
@@ -221,7 +256,9 @@
               <tag><lit-tag v="SV"/></tag>
             </tags>
             <lu>
-              <clip pos="1" side="tl" part="whole"/>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="tags"/>
+              <clip pos="1" side="tl" part="lemq"/>
             </lu>
           </chunk>
         </out>
