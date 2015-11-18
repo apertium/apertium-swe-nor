@@ -122,6 +122,7 @@
     <!-- SECTION: Prepositions -->
 
     <e><p><l>att<s n="pr"/></l><r>å<s n="pr"/></r></p></e>
+    <e><p><l>hos<s n="pr"/></l><r>hos<s n="pr"/></r></p></e>
     <e><p><l>vid<s n="pr"/></l><r>ved<s n="pr"/></r></p></e>
     <e><p><l>mot<s n="pr"/></l><r>mot<s n="pr"/></r></p></e>
     <e><p><l>av<s n="pr"/></l><r>av<s n="pr"/></r></p></e>
@@ -234,6 +235,9 @@
     <e vr="nob"><p><l>första<s n="det"/><s n="ord"/></l><r>første<s n="adj"/><s n="ord"/></r></p></e>
     <e vr="nno"><p><l>första<s n="det"/><s n="ord"/></l><r>fyrste<s n="adj"/><s n="ord"/></r></p></e>
     <e><p><l>andra<s n="det"/><s n="ord"/></l><r>andre<s n="adj"/><s n="ord"/></r></p></e>
+
+    <e vr="nob"><p><l>vilken<s n="det"/></l><r>hvilken<s n="det"/></r></p></e>
+    <e vr="nno"><p><l>vilken<s n="det"/></l><r>kva<s n="det"/></r></p></e>
 
     <!-- SECTION: Numerals -->
 
@@ -570,6 +574,9 @@
     <e><p><l>på<s n="adv"/></l><r>på<s n="adv"/></r></p></e>
     <e><p><l>in<s n="adv"/></l><r>i<s n="adv"/></r></p></e>
 
+    <e><p><l>idag<s n="adv"/></l><r>i<b/>dag<s n="adv"/></r></p></e>
+    <e><p><l>än<s n="adv"/></l><r>enn<s n="adv"/></r></p></e>
+    <e><p><l>hit<s n="adv"/></l><r>hit<s n="adv"/></r></p></e>
     <e><p><l>aldrig<s n="adv"/></l><r>aldri<s n="adv"/></r></p></e>
     <e><p><l>alltid<s n="adv"/></l><r>alltid<s n="adv"/></r></p></e>
     <e><p><l>bra<s n="adv"/></l><r>bra<s n="adv"/></r></p></e>
@@ -2123,10 +2130,12 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e><p><l>plastpåse<s n="n"/><s n="ut"/></l><r>plastpose<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>platina<s n="n"/><s n="ut"/></l><r>platina<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>platina<s n="n"/><s n="ut"/></l><r>platina<s n="n"/><s n="nt"/></r></p></e>
+
     <e vr="nob"><p><l>plats<s n="n"/><s n="ut"/></l><r>plass<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>plats<s n="n"/><s n="ut"/></l><r>sted<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>plats<s n="n"/><s n="ut"/></l><r>plass<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>plats<s n="n"/><s n="ut"/></l><r>stad<s n="n"/><s n="nt"/></r></p></e>
+
     <e vr="nob"><p><l>plommon<s n="n"/><s n="nt"/></l><r>plomme<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>plommon<s n="n"/><s n="nt"/></l><r>plomme<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>pojke<s n="n"/><s n="ut"/></l><r>gutt<s n="n"/><s n="m"/></r></p></e>
@@ -4747,6 +4756,12 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nob"><p><l>möjlighet<s n="n"/><s n="ut"/></l><r>mulighet<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>möjlighet<s n="n"/><s n="ut"/></l><r>moglegheit<s n="n"/><s n="f"/></r></p></e>
 
+    <e vr="nob"><p><l>valmöjlighet<s n="n"/><s n="ut"/></l><r>valmulighet<s n="n"/><s n="m"/></r></p></e>
+    <e vr="nno"><p><l>valmöjlighet<s n="n"/><s n="ut"/></l><r>valmoglegheit<s n="n"/><s n="f"/></r></p></e>
+    <e vr="nno"><p><l>valmöjlighet<s n="n"/><s n="ut"/></l><r>valfridom<s n="n"/><s n="m"/></r></p></e>
+
+    <e vr="nob"><p><l>omöjlighet<s n="n"/><s n="ut"/></l><r>umulighet<s n="n"/><s n="m"/></r></p></e>
+    <e vr="nno"><p><l>omöjlighet<s n="n"/><s n="ut"/></l><r>umoglegheit<s n="n"/><s n="f"/></r></p></e>
 
     <e><p><l>administration<s n="n"/><s n="ut"/></l><r>administrasjon<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>ägande<s n="n"/><s n="nt"/></l><r>eign<s n="n"/><s n="f"/></r></p></e>
@@ -4981,7 +4996,10 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e><p><l>flygbolag<s n="n"/><s n="nt"/></l><r>flyselskap<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>flyg<s n="n"/><s n="nt"/></l><r>fly<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>flyt<s n="n"/><s n="ut"/></l><r>flyt<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>flyttning<s n="n"/><s n="ut"/></l><r>flytting<s n="n"/><s n="m"/></r></p></e>
+    <e vr="nob"><p><l>flyttning<s n="n"/><s n="ut"/></l><r>flytting<s n="n"/><s n="m"/></r></p></e>
+    <e vr="nno"><p><l>flyttning<s n="n"/><s n="ut"/></l><r>flytting<s n="n"/><s n="f"/></r></p></e>
+    <e vr="nob"><p><l>inflyttning<s n="n"/><s n="ut"/></l><r>inflytting<s n="n"/><s n="m"/></r></p></e>
+    <e vr="nno"><p><l>inflyttning<s n="n"/><s n="ut"/></l><r>inflytting<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>flytt<s n="n"/><s n="ut"/></l><r>flytting<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>föda<s n="n"/><s n="ut"/></l><r>føde<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>födelsedag<s n="n"/><s n="ut"/></l><r>fødselsdag<s n="n"/><s n="m"/></r></p></e>
@@ -5283,8 +5301,6 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nno"><p><l>misär<s n="n"/><s n="ut"/></l><r>elende<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>misär<s n="n"/><s n="ut"/></l><r>elendighet<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>misstag<s n="n"/><s n="nt"/></l><r>feil<s n="n"/><s n="m"/></r></p></e>
-    <e vr="nno"><p><l>möjlighet<s n="n"/><s n="ut"/></l><r>moglegheit<s n="n"/><s n="f"/></r></p></e>
-    <e vr="nob"><p><l>möjlighet<s n="n"/><s n="ut"/></l><r>mulighet<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>mönster<s n="n"/><s n="nt"/></l><r>mønster<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>mörker<s n="n"/><s n="ut"/></l><r>mørker<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>möte<s n="n"/><s n="nt"/></l><r>møte<s n="n"/><s n="nt"/></r></p></e>
@@ -7403,13 +7419,20 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e><p><l>Wien<s n="np"/><s n="top"/></l><r>Wien<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Wikimedia<s n="np"/><s n="al"/></l><r>Wikimedia<s n="np"/></r></p></e>
     <e><p><l>Wiktionary<s n="np"/><s n="al"/></l><r>Wiktionary<s n="np"/></r></p></e>
-    <e><p><l>Wundt<s n="np"/><s n="cog"/><s n="mf"/></l><r>Wilhelm Wundt<s n="np"/></r></p></e>
+    <e><p><l>Wundt<s n="np"/><s n="cog"/><s n="mf"/></l><r>Wundt<s n="np"/></r></p></e>
     <e><p><l>Wynn<s n="np"/><s n="cog"/><s n="mf"/></l><r>Wynn<s n="np"/></r></p></e>
     <e><p><l>Yngve<s n="np"/><s n="ant"/><s n="m"/></l><r>Yngve<s n="np"/><s n="m"/></r></p></e>
     <e><p><l>York<s n="np"/><s n="top"/></l><r>York<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Zambia<s n="np"/><s n="top"/></l><r>Zambia<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Zeeland<s n="np"/><s n="top"/><s n="nt"/></l><r>Zeeland<s n="np"/><s n="top"/></r></p></e>
     <e><p><l>Zimbabwe<s n="np"/><s n="top"/></l><r>Zimbabwe<s n="np"/><s n="top"/></r></p></e>
+
+    <!-- SECTION: Adverbs -->
+
+    <e vr="nob"><p><l>möjlig<s n="adj"/></l><r>mulig<s n="adj"/></r></p></e>
+    <e vr="nno"><p><l>möjlig<s n="adj"/></l><r>mogleg<s n="adj"/></r></p></e>
+
+    <e><p><l>säker<s n="adj"/></l><r>sikker<s n="adj"/></r></p></e>
 
     <!-- SECTION: Adverbs -->
 
@@ -7882,12 +7905,15 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e><p><l>stå<s n="vblex"/></l><r>stå<s n="vblex"/></r></p></e>
     <e><p><l>öppna<s n="vblex"/></l><r>opne<s n="vblex"/></r></p></e>
     <e><p><l>mena<s n="vblex"/></l><r>mene<s n="vblex"/></r></p></e>
+    <e><p><l>rationalisera<s n="vblex"/></l><r>rasjonalisere<s n="vblex"/></r></p></e>
 
 
     <!-- SECTION: Abbreviations -->
 
     <e vr="nob"><p><l>t.ex.<s n="abbr"/></l><r>f.eks.<s n="abbr"/></r></p></e>
     <e vr="nno"><p><l>t.ex.<s n="abbr"/></l><r>t.d.<s n="adv"/></r></p></e>
+    <e><p><l>ca<s n="abbr"/></l><r>ca<s n="n"/><s n="acr"/></r></p></e>
+    <e><p><l>osv<s n="abbr"/></l><r>osv<s n="n"/><s n="acr"/></r></p></e>
 
   </section>
 </dictionary>
