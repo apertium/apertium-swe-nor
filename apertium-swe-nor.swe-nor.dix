@@ -122,6 +122,7 @@
     <!-- SECTION: Prepositions -->
 
     <e><p><l>att<s n="pr"/></l><r>å<s n="pr"/></r></p></e>
+    <e><p><l>kring<s n="pr"/></l><r>kring<s n="pr"/></r></p></e>
     <e><p><l>hos<s n="pr"/></l><r>hos<s n="pr"/></r></p></e>
     <e><p><l>vid<s n="pr"/></l><r>ved<s n="pr"/></r></p></e>
     <e><p><l>mot<s n="pr"/></l><r>mot<s n="pr"/></r></p></e>
@@ -236,8 +237,12 @@
     <e vr="nno"><p><l>första<s n="det"/><s n="ord"/></l><r>fyrste<s n="adj"/><s n="ord"/></r></p></e>
     <e><p><l>andra<s n="det"/><s n="ord"/></l><r>andre<s n="adj"/><s n="ord"/></r></p></e>
 
-    <e vr="nob"><p><l>vilken<s n="det"/></l><r>hvilken<s n="det"/></r></p></e>
-    <e vr="nno"><p><l>vilken<s n="det"/></l><r>kva<s n="det"/></r></p></e>
+    <!-- HIC·SUNT·DRACONES. -->
+
+    <e vr="nob"><p><l>vilken<s n="prn"/></l><r>hvilken<s n="det"/></r></p></e>
+    <e vr="nno"><p><l>vilken<s n="prn"/></l><r>kva<s n="det"/></r></p></e>
+
+    <e><p><l>samma<s n="prn"/></l><r>same<s n="det"/></r></p></e>
 
     <!-- SECTION: Numerals -->
 
@@ -574,6 +579,8 @@
     <e><p><l>på<s n="adv"/></l><r>på<s n="adv"/></r></p></e>
     <e><p><l>in<s n="adv"/></l><r>i<s n="adv"/></r></p></e>
 
+    <e vr="nno"><p><l>hemma<s n="adv"/></l><r>heime<s n="adv"/></r></p></e>
+    <e vr="nob"><p><l>hemma<s n="adv"/></l><r>heim<s n="adv"/></r></p></e>
     <e><p><l>idag<s n="adv"/></l><r>i<b/>dag<s n="adv"/></r></p></e>
     <e><p><l>än<s n="adv"/></l><r>enn<s n="adv"/></r></p></e>
     <e><p><l>hit<s n="adv"/></l><r>hit<s n="adv"/></r></p></e>
@@ -7536,7 +7543,8 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nob"><p><l>få<s n="vblex"/></l><r>få<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>få<s n="vblex"/></l><r>måtte<s n="vblex"/></r></p></e>
     <e><p><l>färga<s n="vblex"/></l><r>farge<s n="vblex"/></r></p></e>
-    <e><p><l>finna<s n="vblex"/></l><r>finne<s n="vblex"/></r></p></e>
+    <e vr="nob"><p><l>finna<s n="vblex"/></l><r>finne<s n="vblex"/></r></p></e>
+    <e vr="nno"><p><l>finna<s n="vblex"/></l><r>finne<s n="vblex"/><s n="pstv"/></r></p></e>
     <e vr="nno"><p><l>finna<s n="vblex"/></l><r>synast<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>finna<s n="vblex"/></l><r>synes<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>fira<s n="vblex"/></l><r>feire<s n="vblex"/></r></p></e>
