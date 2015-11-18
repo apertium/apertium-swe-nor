@@ -8,6 +8,10 @@
     <def-cat n="pron-interr">
       <cat-item tags="prn.itg.*"/>
     </def-cat>
+    <def-cat n="pp-pprs">
+      <cat-item tags="vblex.pp.*"/>
+      <cat-item tags="vblex.pprs"/>
+    </def-cat>
     <def-cat n="prop">
       <cat-item tags="np.*"/>
     </def-cat>
@@ -35,6 +39,10 @@
     </def-cat>
   </section-def-cats>
   <section-def-attrs>
+    <def-attr n="a_prcp">
+      <attr-item tags="adj"/>
+      <attr-item tags="vblex"/>
+    </def-attr>
     <def-attr n="a_voice_actv">
       <attr-item tags="actv"/>
     </def-attr>
@@ -172,6 +180,26 @@
           <chunk name="n" case="caseFirstWord">
             <tags>
               <tag><lit-tag v="SN"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="REGLA: PP-PPRS">
+      <pattern>
+        <pattern-item n="pp-pprs"/>
+      </pattern>
+      <action>
+        <call-macro n="f_verb1"><with-param pos="1"/></call-macro>
+        <let><clip pos="1" side="tl" part="a_prcp"/><lit-tag v="adj"/></let>
+        <out>
+          <chunk name="v" case="caseFirstWord">
+            <tags>
+              <tag><lit-tag v="SV"/></tag>
             </tags>
             <lu>
               <clip pos="1" side="tl" part="whole"/>

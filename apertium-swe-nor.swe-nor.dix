@@ -104,7 +104,7 @@
     <!-- SECTION: Conjunctions -->
 
     <e><p><l>att<s n="cnjsub"/></l><r>at<s n="cnjsub"/></r></p></e>
-    <e><p><l>till<b/>att<s n="cnjsub"/></l><r>til<b/>at<s n="cnjsub"/></r></p></e>
+    <!--<e><p><l>till<b/>att<s n="cnjsub"/></l><r>til<b/>at<s n="cnjsub"/></r></p></e>-->
     <!--<e><p><l>så<b/>att<s n="cnjsub"/></l><r>så<b/>at<s n="cnjsub"/></r></p></e>-->
     <e><p><l>som<s n="cnjsub"/></l><r>som<s n="cnjsub"/></r></p></e>
     <e><p><l>eller<s n="cnjcoo"/></l><r>eller<s n="cnjcoo"/></r></p></e>
@@ -203,9 +203,9 @@
     <e vr="nno"><p><l>annan<s n="det"/></l><r>annen<s n="det"/></r></p></e>
     <e vr="nno"><p><l>annan<s n="det"/></l><r>annan<s n="det"/></r></p></e>
 
-    <e><p><l>all<s n="det"/><s n="qnt"/><s n="un"/><s n="pl"/></l><r>all<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
-    <e><p><l>all<s n="det"/><s n="qnt"/><s n="ut"/></l><r>all<s n="det"/><s n="qnt"/><s n="m"/></r></p></e>
-    <e><p><l>all<s n="det"/><s n="qnt"/><s n="nt"/></l><r>all<s n="det"/><s n="qnt"/><s n="nt"/></r></p></e>
+    <e><p><l>all<s n="predet"/><s n="un"/><s n="pl"/></l><r>all<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
+    <e><p><l>all<s n="predet"/><s n="ut"/></l><r>all<s n="det"/><s n="qnt"/><s n="m"/></r></p></e>
+    <e><p><l>all<s n="predet"/><s n="nt"/></l><r>all<s n="det"/><s n="qnt"/><s n="nt"/></r></p></e>
 
     <e><p><l>min<s n="det"/></l><r>min<s n="det"/></r></p></e>
     <e><p><l>din<s n="det"/></l><r>din<s n="det"/></r></p></e>
@@ -225,7 +225,6 @@
     <e><p><l>sin<s n="det"/><s n="pos"/><s n="nt"/></l><r>seg<s n="det"/><s n="pos"/><s n="nt"/></r></p></e>
     <e><p><l>sin<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l><r>seg<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
 
-    <e><p><l>all<s n="predet"/></l><r>all<s n="det"/><s n="qnt"/></r></p></e>
     <e><p><l>många<s n="det"/><s n="qnt"/><s n="un"/></l><r>mange<s n="det"/><s n="qnt"/></r></p></e>
 
     <e vr="nob"><p><l>varje<s n="det"/></l><r>hver<s n="det"/></r></p></e>
@@ -242,13 +241,13 @@
     <e vr="nno"><p><l>en<s n="num"/></l><r>ein<s n="det"/><s n="qnt"/></r></p></e>
     <e><p><l>två<s n="num"/><s n="un"/></l><r>to<s n="det"/><s n="qnt"/></r></p></e>
     <e><p><l>tre<s n="num"/><s n="un"/></l><r>tre<s n="det"/><s n="qnt"/></r></p></e>
-    <e><p><l>fyra<s n="num"/></l><r>fire<s n="det"/><s n="qnt"/></r></p></e>
-    <e><p><l>fem<s n="num"/></l><r>fem<s n="det"/><s n="qnt"/></r></p></e>
-    <e><p><l>sex<s n="num"/></l><r>seks<s n="det"/><s n="qnt"/></r></p></e>
-    <e><p><l>sju<s n="num"/></l><r>sju<s n="det"/><s n="qnt"/></r></p></e>
-    <e><p><l>åtta<s n="num"/></l><r>åtte<s n="det"/><s n="qnt"/></r></p></e>
-    <e><p><l>nio<s n="num"/></l><r>ni<s n="det"/><s n="qnt"/></r></p></e>
-    <e><p><l>tio<s n="num"/></l><r>ti<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>fyra<s n="num"/><s n="un"/></l><r>fire<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>fem<s n="num"/><s n="un"/></l><r>fem<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>sex<s n="num"/><s n="un"/></l><r>seks<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>sju<s n="num"/><s n="un"/></l><r>sju<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>åtta<s n="num"/><s n="un"/></l><r>åtte<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>nio<s n="num"/><s n="un"/></l><r>ni<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>tio<s n="num"/><s n="un"/></l><r>ti<s n="det"/><s n="qnt"/></r></p></e>
 
     <e><p><l>tusen<s n="num"/></l><r>tusen<s n="num"/></r></p></e>
     <e><p><l>mil<s n="num"/></l><r>mil<s n="num"/></r></p></e>
@@ -569,6 +568,7 @@
     <e vr="nno"><p><l>var<s n="adv"/><s n="itg"/></l><r>kor<s n="adv"/></r></p></e>
 
     <e><p><l>på<s n="adv"/></l><r>på<s n="adv"/></r></p></e>
+    <e><p><l>in<s n="adv"/></l><r>i<s n="adv"/></r></p></e>
 
     <e><p><l>aldrig<s n="adv"/></l><r>aldri<s n="adv"/></r></p></e>
     <e><p><l>alltid<s n="adv"/></l><r>alltid<s n="adv"/></r></p></e>
@@ -576,6 +576,8 @@
     <e><p><l>så<s n="adv"/></l><r>så<s n="adv"/></r></p></e>
     <e><p><l>väl<s n="adv"/></l><r>vel<s n="adv"/></r></p></e>
     <e><p><l>kanske<s n="adv"/></l><r>kanskje<s n="adv"/></r></p></e>
+    <e vr="nno"><p><l>bara<s n="adv"/></l><r>berre<s n="adv"/></r></p></e>
+    <e vr="nob"><p><l>bara<s n="adv"/></l><r>bare<s n="adv"/></r></p></e>
     <e vr="nno"><p><l>därför<s n="adv"/></l><r>difor<s n="adv"/></r></p></e>
     <e vr="nob"><p><l>därför<s n="adv"/></l><r>derfor<s n="adv"/></r></p></e>
     <e vr="nno"><p><l>ändå<s n="adv"/></l><r>enno<s n="adv"/></r></p></e>
@@ -585,6 +587,7 @@
     <e vr="nob"><p><l>även<s n="adv"/></l><r>selv<s n="adv"/></r></p></e>
     <e vr="nno"><p><l>även<s n="adv"/></l><r>sjølv<s n="adv"/></r></p></e>
     <e><p><l>där<s n="adv"/></l><r>der<s n="adv"/></r></p></e>
+    <e><p><l>här<s n="adv"/></l><r>her<s n="adv"/></r></p></e>
     <e vr="nob"><p><l>mer<s n="adv"/></l><r>mer<s n="adv"/></r></p></e>
     <e vr="nno"><p><l>mer<s n="adv"/></l><r>meir<s n="adv"/></r></p></e>
     <e><p><l>då<s n="adv"/></l><r>da<s n="adv"/></r></p></e>
@@ -656,7 +659,8 @@
     <e><p><l>kolla<s n="vblex"/></l><r>undersøke<s n="vblex"/></r></p></e>
     <e><p><l>koncentrera<s n="vblex"/></l><r>konsentrere<s n="vblex"/></r></p></e>
     <e><p><l>kontakta<s n="vblex"/></l><r>kontakte<s n="vblex"/></r></p></e>
-    <e><p><l>koppla<s n="vblex"/></l><r>koble<s n="vblex"/></r></p></e>
+    <e vr="nob"><p><l>koppla<s n="vblex"/></l><r>koble<s n="vblex"/></r></p></e>
+    <e vr="nno"><p><l>koppla<s n="vblex"/></l><r>kople<s n="vblex"/></r></p></e>
     <e><p><l>kritisera<s n="vblex"/></l><r>kritisere<s n="vblex"/></r></p></e>
     <e><p><l>ladda<s n="vblex"/></l><r>lade opp<s n="vblex"/></r></p></e>
     <e><p><l>laga<s n="vblex"/></l><r>lage<s n="vblex"/></r></p></e>
@@ -843,7 +847,7 @@
     <e vr="nob"><p><l>ackord<s n="n"/><s n="nt"/></l><r>akkord<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>ackord<s n="n"/><s n="nt"/></l><r>akkord<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>addition<s n="n"/><s n="ut"/></l><r>addisjon<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>administratör<s n="n"/><s n="ut"/></l><r>administrator<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>administratör<s n="n"/><s n="ut"/></l><r>administrator<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>adoption<s n="n"/><s n="ut"/></l><r>adopsjon<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>adoption<s n="n"/><s n="ut"/></l><r>adopsjon<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>adress<s n="n"/><s n="ut"/></l><r>adresse<s n="n"/><s n="mf"/></r></p></e>
@@ -909,11 +913,11 @@
     <e vr="nob"><p><l>ändring<s n="n"/><s n="ut"/></l><r>endring<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>ändring<s n="n"/><s n="ut"/></l><r>endring<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>anfall<s n="n"/><s n="nt"/></l><r>angrep<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>anfall<s n="n"/><s n="nt"/></l><r>åtak<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nno"><p><l>anfall<s n="n"/><s n="nt"/></l><r>åtak<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>äng<s n="n"/><s n="ut"/></l><r>eng<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>ångest<s n="n"/><s n="ut"/></l><r>angst<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>angrepp<s n="n"/><s n="nt"/></l><r>angrep<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>angrepp<s n="n"/><s n="nt"/></l><r>åtak<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nno"><p><l>angrepp<s n="n"/><s n="nt"/></l><r>åtak<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>anhängare<s n="n"/><s n="ut"/></l><r>tilhenger<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>anhängare<s n="n"/><s n="ut"/></l><r>tilhengjer<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>anhörig<s n="n"/><s n="ut"/></l><r>pårørende<s n="n"/><s n="GD"/></r></p></e>
@@ -943,7 +947,7 @@
     <e vr="nno"><p><l>apotek<s n="n"/><s n="nt"/></l><r>apotek<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>äpple<s n="n"/><s n="nt"/></l><r>eple<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>äpple<s n="n"/><s n="nt"/></l><r>eple<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>april<s n="n"/><s n="ut"/></l><r>april<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>april<s n="n"/><s n="ut"/></l><r>april<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>år<s n="n"/><s n="nt"/></l><r>år<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>år<s n="n"/><s n="nt"/></l><r>år<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>arabiska<s n="n"/><s n="ut"/></l><r>arabisk<s n="n"/><s n="GD"/></r></p></e>
@@ -951,7 +955,7 @@
     <e vr="nno"><p><l>arbetare<s n="n"/><s n="ut"/></l><r>arbeidar<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>arbetslöshet<s n="n"/><s n="ut"/></l><r>arbeidsledighet<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>arbetslöshet<s n="n"/><s n="ut"/></l><r>arbeidsløshet<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>århundrade<s n="n"/><s n="nt"/></l><r>århundre<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>århundrade<s n="n"/><s n="nt"/></l><r>århundre<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>arkiv<s n="n"/><s n="nt"/></l><r>arkiv<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>arkiv<s n="n"/><s n="nt"/></l><r>arkiv<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>arm<s n="n"/><s n="ut"/></l><r>arm<s n="n"/><s n="m"/></r></p></e>
@@ -969,9 +973,9 @@
     <e vr="nno"><p><l>årtionde<s n="n"/><s n="nt"/></l><r>tiår<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>årtionde<s n="n"/><s n="nt"/></l><r>decennium<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>åsikt<s n="n"/><s n="ut"/></l><r>mening<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nob"><p><l>ask<s n="n"/><s n="ut"/></l><r>ask<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nob"><p><l>ask<s n="n"/><s n="ut"/></l><r>ask<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>ask<s n="n"/><s n="ut"/></l><r>eske<s n="n"/><s n="mf"/></r></p></e>
-    <e vr="nno"><p><l>ask<s n="n"/><s n="ut"/></l><r>ask<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nno"><p><l>ask<s n="n"/><s n="ut"/></l><r>ask<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>ask<s n="n"/><s n="ut"/></l><r>eske<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>aska<s n="n"/><s n="ut"/></l><r>aske<s n="n"/><s n="f"/></r></p></e>
     <e vr="nno"><p><l>aska<s n="n"/><s n="ut"/></l><r>oske<s n="n"/><s n="f"/></r></p></e>
@@ -986,10 +990,10 @@
     <e><p><l>återvinning<s n="n"/><s n="ut"/></l><r>gjenvinning<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>återvinning<s n="n"/><s n="ut"/></l><r>resirkulering<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>åtgärd<s n="n"/><s n="ut"/></l><r>handling<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>åtgärd<s n="n"/><s n="ut"/></l><r>tiltak<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nob"><p><l>åtta<s n="n"/><s n="ut"/></l><r>åtte<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>åtta<s n="n"/><s n="ut"/></l><r>åtte<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>augusti<s n="n"/><s n="ut"/></l><r>august<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>åtgärd<s n="n"/><s n="ut"/></l><r>tiltak<s n="n"/><s n="nt"/></r></p></e>
+    <e vr="nob"><p><l>åtta<s n="n"/><s n="ut"/></l><r>åtte<s n="n"/><s n="f"/></r></p></e>
+    <e vr="nno"><p><l>åtta<s n="n"/><s n="ut"/></l><r>åtte<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>augusti<s n="n"/><s n="ut"/></l><r>august<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>autonomi<s n="n"/><s n="ut"/></l><r>autonomi<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>autonomi<s n="n"/><s n="ut"/></l><r>autonomi<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>autonomi<s n="n"/><s n="ut"/></l><r>sjølvstende<s n="n"/><s n="GD"/></r></p></e>
@@ -997,7 +1001,7 @@
     <e vr="nno"><p><l>äventyr<s n="n"/><s n="nt"/></l><r>eventyr<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>avföring<s n="n"/><s n="ut"/></l><r>avføring<s n="n"/><s n="mf"/></r></p></e>
     <e vr="nno"><p><l>avföring<s n="n"/><s n="ut"/></l><r>avføring<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>avgift<s n="n"/><s n="ut"/></l><r>gebyr<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>avgift<s n="n"/><s n="ut"/></l><r>gebyr<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>avsändare<s n="n"/><s n="ut"/></l><r>avsender<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>avsked<s n="n"/><s n="nt"/></l><r>avskjed<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>avsked<s n="n"/><s n="nt"/></l><r>oppsigelse<s n="n"/><s n="m"/></r></p></e>
@@ -1007,7 +1011,7 @@
     <e vr="nno"><p><l>avsked<s n="n"/><s n="nt"/></l><r>oppseiing<s n="n"/><s n="f"/></r></p></e>
     <e vr="nno"><p><l>avsked<s n="n"/><s n="nt"/></l><r>avskil<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>avsked<s n="n"/><s n="nt"/></l><r>avskjed<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>axiom<s n="n"/><s n="nt"/></l><r>aksiom<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>axiom<s n="n"/><s n="nt"/></l><r>aksiom<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>bäck<s n="n"/><s n="ut"/></l><r>bekk<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>bäck<s n="n"/><s n="ut"/></l><r>bekk<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>bäcken<s n="n"/><s n="nt"/></l><r>bekken<s n="n"/><s n="GD"/></r></p></e>
@@ -1015,7 +1019,7 @@
     <e vr="nob"><p><l>bagare<s n="n"/><s n="ut"/></l><r>baker<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>bagare<s n="n"/><s n="ut"/></l><r>bakar<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>båge<s n="n"/><s n="ut"/></l><r>bue<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>baksida<s n="n"/><s n="ut"/></l><r>bakside<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>baksida<s n="n"/><s n="ut"/></l><r>bakside<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>bakverk<s n="n"/><s n="nt"/></l><r>bakverk<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>balett<s n="n"/><s n="ut"/></l><r>ballett<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>balk<s n="n"/><s n="ut"/></l><r>bjelke<s n="n"/><s n="m"/></r></p></e>
@@ -1063,7 +1067,7 @@
     <e><p><l>begär<s n="n"/><s n="nt"/></l><r>begjær<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>begravning<s n="n"/><s n="ut"/></l><r>begravelse<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>benägenhet<s n="n"/><s n="ut"/></l><r>Tilbøyelighet<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>bensin<s n="n"/><s n="ut"/></l><r>bensin<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>bensin<s n="n"/><s n="ut"/></l><r>bensin<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>berättelse<s n="n"/><s n="ut"/></l><r>fortelling<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>berättelse<s n="n"/><s n="ut"/></l><r>beretning<s n="n"/><s n="mf"/></r></p></e>
     <e vr="nno"><p><l>berättelse<s n="n"/><s n="ut"/></l><r>forteljing<s n="n"/><s n="f"/></r></p></e>
@@ -1073,7 +1077,7 @@
     <e><p><l>beslut<s n="n"/><s n="nt"/></l><r>beslutning<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>beslut<s n="n"/><s n="nt"/></l><r>avgjørelse<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>besök<s n="n"/><s n="nt"/></l><r>besøk<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>besök<s n="n"/><s n="nt"/></l><r>gjesting<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nno"><p><l>besök<s n="n"/><s n="nt"/></l><r>gjesting<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>besökare<s n="n"/><s n="ut"/></l><r>besøkere<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>besvär<s n="n"/><s n="nt"/></l><r>besvær<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>besvikelse<s n="n"/><s n="ut"/></l><r>skuffelse<s n="n"/><s n="m"/></r></p></e>
@@ -1084,35 +1088,35 @@
     <e vr="nno"><p><l>betalning<s n="n"/><s n="ut"/></l><r>betaling<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>beteckning<s n="n"/><s n="ut"/></l><r>betegnelse<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>beteende<s n="n"/><s n="ut"/></l><r>atferd<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nob"><p><l>beteende<s n="n"/><s n="ut"/></l><r>åtferd<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>beteende<s n="n"/><s n="ut"/></l><r>åtferd<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nob"><p><l>beteende<s n="n"/><s n="ut"/></l><r>åtferd<s n="n"/><s n="f"/></r></p></e>
+    <e vr="nno"><p><l>beteende<s n="n"/><s n="ut"/></l><r>åtferd<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>betong<s n="n"/><s n="ut"/></l><r>betong<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>betong<s n="n"/><s n="ut"/></l><r>betong<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>betydelse<s n="n"/><s n="ut"/></l><r>betydning<s n="n"/><s n="m"/></r></p></e>
-    <e vr="nob"><p><l>betyg<s n="n"/><s n="nt"/></l><r>karakter<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>betyg<s n="n"/><s n="nt"/></l><r>karakter<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nob"><p><l>betyg<s n="n"/><s n="nt"/></l><r>karakter<s n="n"/><s n="m"/></r></p></e>
+    <e vr="nno"><p><l>betyg<s n="n"/><s n="nt"/></l><r>karakter<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>bi<s n="n"/><s n="nt"/></l><r>bie<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>bi<s n="n"/><s n="nt"/></l><r>bie<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>bibel<s n="n"/><s n="ut"/></l><r>bibel<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>bibel<s n="n"/><s n="ut"/></l><r>bibel<s n="n"/><s n="m"/></r></p></e>
-    <e vr="nob"><p><l>bil<s n="n"/><s n="ut"/></l><r>bil<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>bil<s n="n"/><s n="ut"/></l><r>bil<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nob"><p><l>bil<s n="n"/><s n="ut"/></l><r>bil<s n="n"/><s n="m"/></r></p></e>
+    <e vr="nno"><p><l>bil<s n="n"/><s n="ut"/></l><r>bil<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>biljett<s n="n"/><s n="ut"/></l><r>billett<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>bio<s n="n"/><s n="ut"/></l><r>kino<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>bio<s n="n"/><s n="ut"/></l><r>kino<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>biograf<s n="n"/><s n="ut"/></l><r>kino<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>biograf<s n="n"/><s n="ut"/></l><r>kino<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>björk<s n="n"/><s n="ut"/></l><r>bjørk<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>björk<s n="n"/><s n="ut"/></l><r>bjerk<s n="n"/><s n="f"/></r></p></e>
     <e vr="nno"><p><l>björk<s n="n"/><s n="ut"/></l><r>bjørk<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>björn<s n="n"/><s n="ut"/></l><r>bjørn<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>björn<s n="n"/><s n="ut"/></l><r>bjørn<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>blåbär<s n="n"/><s n="nt"/></l><r>blåbær<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>bläckfisk<s n="n"/><s n="ut"/></l><r>blekksprut<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>bläckfisk<s n="n"/><s n="ut"/></l><r>akkar<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>bläckfisk<s n="n"/><s n="ut"/></l><r>blekksprut<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>bläckfisk<s n="n"/><s n="ut"/></l><r>blekksprute<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>blåsa<s n="n"/><s n="ut"/></l><r>blære<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nob"><p><l>blåsa<s n="n"/><s n="ut"/></l><r>blåse<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>blåsa<s n="n"/><s n="ut"/></l><r>blåse<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nob"><p><l>blåsa<s n="n"/><s n="ut"/></l><r>blåse<s n="n"/><s n="f"/></r></p></e>
+    <e vr="nno"><p><l>blåsa<s n="n"/><s n="ut"/></l><r>blåse<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>blåval<s n="n"/><s n="ut"/></l><r>blåhval<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>blixt<s n="n"/><s n="ut"/></l><r>blits<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>blixt<s n="n"/><s n="ut"/></l><r>lyn<s n="n"/><s n="nt"/></r></p></e>
@@ -1153,8 +1157,8 @@
     <e vr="nno"><p><l>böna<s n="n"/><s n="ut"/></l><r>baune<s n="n"/><s n="f"/></r></p></e>
     <e vr="nno"><p><l>böna<s n="n"/><s n="ut"/></l><r>bønne<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>bor<s n="n"/><s n="nt"/></l><r>bor<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>börda<s n="n"/><s n="ut"/></l><r>byrde<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>början<s n="n"/><s n="ut"/></l><r>byrjing<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>börda<s n="n"/><s n="ut"/></l><r>byrde<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>början<s n="n"/><s n="ut"/></l><r>byrjing<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>bostad<s n="n"/><s n="ut"/></l><r>bolig<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>botten<s n="n"/><s n="ut"/></l><r>bunn<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>bowling<s n="n"/><s n="ut"/></l><r>bowling<s n="n"/><s n="GD"/></r></p></e>
@@ -1167,7 +1171,7 @@
     <e vr="nob"><p><l>bredd<s n="n"/><s n="ut"/></l><r>bredde<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>bredd<s n="n"/><s n="ut"/></l><r>breid<s n="n"/><s n="f"/></r></p></e>
     <e vr="nno"><p><l>bredd<s n="n"/><s n="ut"/></l><r>breidde<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>brev<s n="n"/><s n="nt"/></l><r>brev<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>brev<s n="n"/><s n="nt"/></l><r>brev<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>bro<s n="n"/><s n="ut"/></l><r>bro<s n="n"/><s n="mf"/></r></p></e>
     <e vr="nob"><p><l>bro<s n="n"/><s n="ut"/></l><r>bru<s n="n"/><s n="mf"/></r></p></e>
     <e vr="nno"><p><l>bro<s n="n"/><s n="ut"/></l><r>bru<s n="n"/><s n="f"/></r></p></e>
@@ -1239,15 +1243,15 @@
     <e><p><l>handske<s n="n"/><s n="ut"/></l><r>hanske<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>handtag<s n="n"/><s n="nt"/></l><r>håndtak<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>hänsyn<s n="n"/><s n="nt"/></l><r>hensyn<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>hänsyn<s n="n"/><s n="nt"/></l><r>omsyn<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nno"><p><l>hänsyn<s n="n"/><s n="nt"/></l><r>omsyn<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>hänsyn<s n="n"/><s n="nt"/></l><r>hensyn<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>hänsyn<s n="n"/><s n="nt"/></l><r>omsyn<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nno"><p><l>hänsyn<s n="n"/><s n="nt"/></l><r>omsyn<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>hårddisk<s n="n"/><s n="ut"/></l><r>platelager<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>häst<s n="n"/><s n="ut"/></l><r>hest<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>häst<s n="n"/><s n="ut"/></l><r>hest<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hastighetsbegränsning<s n="n"/><s n="ut"/></l><r>fartsbegrensning<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>hat<s n="n"/><s n="nt"/></l><r>hat<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>hatt<s n="n"/><s n="ut"/></l><r>hatt<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>hatt<s n="n"/><s n="ut"/></l><r>hatt<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hav<s n="n"/><s n="nt"/></l><r>hav<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>havskatt<s n="n"/><s n="ut"/></l><r>gråsteinbit<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>havsörn<s n="n"/><s n="ut"/></l><r>havørn<s n="n"/><s n="GD"/></r></p></e>
@@ -1259,8 +1263,8 @@
     <e vr="nob"><p><l>helvete<s n="n"/><s n="nt"/></l><r>helvete<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>helvete<s n="n"/><s n="nt"/></l><r>helvete<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>hem<s n="n"/><s n="nt"/></l><r>hjem<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nob"><p><l>hem<s n="n"/><s n="nt"/></l><r>heim<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>hem<s n="n"/><s n="nt"/></l><r>heim<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nob"><p><l>hem<s n="n"/><s n="nt"/></l><r>heim<s n="n"/><s n="m"/></r></p></e>
+    <e vr="nno"><p><l>hem<s n="n"/><s n="nt"/></l><r>heim<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>herre<s n="n"/><s n="ut"/></l><r>herre<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>herre<s n="n"/><s n="ut"/></l><r>herr<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>himlakropp<s n="n"/><s n="ut"/></l><r>himmellegeme<s n="n"/><s n="nt"/></r></p></e>
@@ -1270,7 +1274,7 @@
     <e vr="nno"><p><l>hjälp<s n="n"/><s n="ut"/></l><r>hjelp<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>hjärna<s n="n"/><s n="ut"/></l><r>hjerne<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>hjärna<s n="n"/><s n="ut"/></l><r>hjerne<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>hjärta<s n="n"/><s n="nt"/></l><r>hjerte<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>hjärta<s n="n"/><s n="nt"/></l><r>hjerte<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>hjul<s n="n"/><s n="nt"/></l><r>hjul<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>hjul<s n="n"/><s n="nt"/></l><r>hjul<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>hö<s n="n"/><s n="nt"/></l><r>høy<s n="n"/><s n="nt"/></r></p></e>
@@ -1314,7 +1318,7 @@
     <e vr="nno"><p><l>hot<s n="n"/><s n="nt"/></l><r>trussel<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>hot<s n="n"/><s n="nt"/></l><r>trugsel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hotell<s n="n"/><s n="nt"/></l><r>hotell<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>hud<s n="n"/><s n="ut"/></l><r>hud<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>hud<s n="n"/><s n="ut"/></l><r>hud<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>hugg<s n="n"/><s n="nt"/></l><r>hugg<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>hugg<s n="n"/><s n="nt"/></l><r>hogg<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>hugg<s n="n"/><s n="nt"/></l><r>hogg<s n="n"/><s n="nt"/></r></p></e>
@@ -1337,8 +1341,8 @@
     <e><p><l>hylla<s n="n"/><s n="ut"/></l><r>hylle<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>hyreshus<s n="n"/><s n="nt"/></l><r>leiegård<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>hyreshus<s n="n"/><s n="nt"/></l><r>leigegard<s n="n"/><s n="m"/></r></p></e>
-    <e vr="nob"><p><l>idrott<s n="n"/><s n="ut"/></l><r>idrett<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>idrott<s n="n"/><s n="ut"/></l><r>idrett<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nob"><p><l>idrott<s n="n"/><s n="ut"/></l><r>idrett<s n="n"/><s n="m"/></r></p></e>
+    <e vr="nno"><p><l>idrott<s n="n"/><s n="ut"/></l><r>idrett<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>igelkott<s n="n"/><s n="ut"/></l><r>pinnsvin<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>inbördeskrig<s n="n"/><s n="nt"/></l><r>borgerkrig<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>inbördeskrig<s n="n"/><s n="nt"/></l><r>borgarkrig<s n="n"/><s n="m"/></r></p></e>
@@ -1349,14 +1353,14 @@
     <e vr="nob"><p><l>inflytande<s n="n"/><s n="nt"/></l><r>påvirkning<s n="n"/><s n="mf"/></r></p></e>
     <e vr="nno"><p><l>inflytande<s n="n"/><s n="nt"/></l><r>innverkad<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>inflytande<s n="n"/><s n="nt"/></l><r>påverknad<s n="n"/><s n="m"/></r></p></e>
-    <e vr="nob"><p><l>information<s n="n"/><s n="ut"/></l><r>informasjon<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>information<s n="n"/><s n="ut"/></l><r>informasjon<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nob"><p><l>information<s n="n"/><s n="ut"/></l><r>informasjon<s n="n"/><s n="m"/></r></p></e>
+    <e vr="nno"><p><l>information<s n="n"/><s n="ut"/></l><r>informasjon<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ingefära<s n="n"/><s n="ut"/></l><r>ingefær<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>initiativ<s n="n"/><s n="nt"/></l><r>initiativ<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>initiativ<s n="n"/><s n="nt"/></l><r>initiativ<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>innehållsförteckning<s n="n"/><s n="ut"/></l><r>innholdsfortegnelse<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>innovation<s n="n"/><s n="ut"/></l><r>innovasjon<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>insekt<s n="n"/><s n="ut"/></l><r>insekt<s n="n"/><s n="nt"/></r></p></e>
-    <e vr="nno"><p><l>insekt<s n="n"/><s n="ut"/></l><r>insekt<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nno"><p><l>insekt<s n="n"/><s n="ut"/></l><r>insekt<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>insikt<s n="n"/><s n="ut"/></l><r>innsikt<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>insikt<s n="n"/><s n="ut"/></l><r>innsikt<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>intervention<s n="n"/><s n="ut"/></l><r>intervensjon<s n="n"/><s n="GD"/></r></p></e>
@@ -1388,7 +1392,7 @@
     <e vr="nno"><p><l>jämställdhet<s n="n"/><s n="ut"/></l><r>likestilling<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>januari<s n="n"/><s n="ut"/></l><r>januar<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>japanska<s n="n"/><s n="ut"/></l><r>japansk<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>järn<s n="n"/><s n="nt"/></l><r>jern<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>järn<s n="n"/><s n="nt"/></l><r>jern<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>järnväg<s n="n"/><s n="ut"/></l><r>jernbane<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>jätte<s n="n"/><s n="ut"/></l><r>kjempe<s n="n"/><s n="mf"/></r></p></e>
     <e vr="nno"><p><l>jätte<s n="n"/><s n="ut"/></l><r>kjempe<s n="n"/><s n="f"/></r></p></e>
@@ -1407,7 +1411,7 @@
     <e vr="nob"><p><l>julklapp<s n="n"/><s n="ut"/></l><r>julepresang<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>julklapp<s n="n"/><s n="ut"/></l><r>julepresang<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>julklapp<s n="n"/><s n="ut"/></l><r>julegåve<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>juni<s n="n"/><s n="ut"/></l><r>juni<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>juni<s n="n"/><s n="ut"/></l><r>juni<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>kaffe<s n="n"/><s n="nt"/></l><r>kaffe<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>kaffe<s n="n"/><s n="nt"/></l><r>kaffi<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>kaffekopp<s n="n"/><s n="ut"/></l><r>kaffekopp<s n="n"/><s n="m"/></r></p></e>
@@ -1419,7 +1423,7 @@
     <e vr="nno"><p><l>kakao<s n="n"/><s n="ut"/></l><r>kakao<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>kakel<s n="n"/><s n="nt"/></l><r>kakkel<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>kakel<s n="n"/><s n="nt"/></l><r>kakkel<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>kalkon<s n="n"/><s n="ut"/></l><r>kalkun<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>kalkon<s n="n"/><s n="ut"/></l><r>kalkun<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>kall<s n="n"/><s n="nt"/></l><r>kald<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>källare<s n="n"/><s n="ut"/></l><r>kjeller<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>kalv<s n="n"/><s n="ut"/></l><r>kalv<s n="n"/><s n="m"/></r></p></e>
@@ -1428,7 +1432,7 @@
     <e vr="nno"><p><l>kamera<s n="n"/><s n="ut"/></l><r>kamera<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>kamp<s n="n"/><s n="ut"/></l><r>kamp<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>kamp<s n="n"/><s n="ut"/></l><r>kamp<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>kampanj<s n="n"/><s n="ut"/></l><r>kampanje<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>kampanj<s n="n"/><s n="ut"/></l><r>kampanje<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>kandidat<s n="n"/><s n="ut"/></l><r>kandidat<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>kandidat<s n="n"/><s n="ut"/></l><r>kandidat<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>kännetecken<s n="n"/><s n="nt"/></l><r>kjennetegn<s n="n"/><s n="nt"/></r></p></e>
@@ -1441,13 +1445,13 @@
     <e vr="nob"><p><l>känsla<s n="n"/><s n="ut"/></l><r>følelse<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>känsla<s n="n"/><s n="ut"/></l><r>kjensle<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>känsla<s n="n"/><s n="ut"/></l><r>kjensle<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>känsla<s n="n"/><s n="ut"/></l><r>aning<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nno"><p><l>känsla<s n="n"/><s n="ut"/></l><r>aning<s n="n"/><s n="f"/></r></p></e>
     <e vr="nno"><p><l>känsla<s n="n"/><s n="ut"/></l><r>kjensle<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>känsla<s n="n"/><s n="ut"/></l><r>følelse<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>kant<s n="n"/><s n="ut"/></l><r>kant<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>kant<s n="n"/><s n="ut"/></l><r>kant<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>kap<s n="n"/><s n="nt"/></l><r>kapp<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>kapacitet<s n="n"/><s n="ut"/></l><r>kapasitet<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>kapacitet<s n="n"/><s n="ut"/></l><r>kapasitet<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>kapell<s n="n"/><s n="nt"/></l><r>kapell<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>käpp<s n="n"/><s n="ut"/></l><r>kjepp<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>käpp<s n="n"/><s n="ut"/></l><r>kjepp<s n="n"/><s n="m"/></r></p></e>
@@ -1458,14 +1462,14 @@
     <e vr="nob"><p><l>karta<s n="n"/><s n="ut"/></l><r>kart<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>karta<s n="n"/><s n="ut"/></l><r>kart<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>kastrull<s n="n"/><s n="ut"/></l><r>kasserolle<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>kastrull<s n="n"/><s n="ut"/></l><r>gryte<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>kastrull<s n="n"/><s n="ut"/></l><r>gryte<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>kasus<s n="n"/><s n="nt"/></l><r>kasus<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>katalysator<s n="n"/><s n="ut"/></l><r>katalysator<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>katalysator<s n="n"/><s n="ut"/></l><r>katalysator<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>katt<s n="n"/><s n="ut"/></l><r>katt<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>katt<s n="n"/><s n="ut"/></l><r>katt<s n="n"/><s n="m"/></r></p></e>
-    <e vr="nob"><p><l>kedja<s n="n"/><s n="ut"/></l><r>kjede<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>kedja<s n="n"/><s n="ut"/></l><r>kjede<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nob"><p><l>kedja<s n="n"/><s n="ut"/></l><r>kjede<s n="n"/><s n="f"/></r></p></e>
+    <e vr="nno"><p><l>kedja<s n="n"/><s n="ut"/></l><r>kjede<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>kejsare<s n="n"/><s n="ut"/></l><r>keiser<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>kejsare<s n="n"/><s n="ut"/></l><r>keisar<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>kemist<s n="n"/><s n="ut"/></l><r>kjemiker<s n="n"/><s n="GD"/></r></p></e>
@@ -1509,14 +1513,14 @@
     <e vr="nob"><p><l>komedi<s n="n"/><s n="ut"/></l><r>komedie<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>komedi<s n="n"/><s n="ut"/></l><r>komedie<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>kommitté<s n="n"/><s n="ut"/></l><r>komité<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>kommun<s n="n"/><s n="ut"/></l><r>kommune<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>kommun<s n="n"/><s n="ut"/></l><r>kommune<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>kompass<s n="n"/><s n="ut"/></l><r>kompass<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>kompetens<s n="n"/><s n="ut"/></l><r>kompetanse<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>kompetens<s n="n"/><s n="ut"/></l><r>kompetanse<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>kompromiss<s n="n"/><s n="ut"/></l><r>kompromiss<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>kompromiss<s n="n"/><s n="ut"/></l><r>kompromiss<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>kön<s n="n"/><s n="nt"/></l><r>kjønn<s n="n"/><s n="nt"/></r></p></e>
-    <e vr="nob"><p><l>kontor<s n="n"/><s n="nt"/></l><r>kontor<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>kontor<s n="n"/><s n="nt"/></l><r>kontor<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nob"><p><l>kontor<s n="n"/><s n="nt"/></l><r>kontor<s n="n"/><s n="nt"/></r></p></e>
+    <e vr="nno"><p><l>kontor<s n="n"/><s n="nt"/></l><r>kontor<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>köp<s n="n"/><s n="nt"/></l><r>kjøp<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>köp<s n="n"/><s n="nt"/></l><r>kjøp<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>koppar<s n="n"/><s n="ut"/></l><r>kobber<s n="n"/><s n="nt"/></r></p></e>
@@ -1546,7 +1550,7 @@
     <e><p><l>korståg<s n="n"/><s n="nt"/></l><r>korstog<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>korv<s n="n"/><s n="ut"/></l><r>pølse<s n="n"/><s n="f"/></r></p></e>
     <e vr="nno"><p><l>korv<s n="n"/><s n="ut"/></l><r>pølse<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>kött<s n="n"/><s n="nt"/></l><r>kjøtt<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>kött<s n="n"/><s n="nt"/></l><r>kjøtt<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>kräldjur<s n="n"/><s n="nt"/></l><r>reptil<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>kräldjur<s n="n"/><s n="nt"/></l><r>krypdyr<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>kräldjur<s n="n"/><s n="nt"/></l><r>krypdyr<s n="n"/><s n="nt"/></r></p></e>
@@ -1561,11 +1565,11 @@
     <e vr="nno"><p><l>krig<s n="n"/><s n="nt"/></l><r>krig<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>krigare<s n="n"/><s n="ut"/></l><r>kriger<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>krigare<s n="n"/><s n="ut"/></l><r>krigar<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>kristendom<s n="n"/><s n="ut"/></l><r>kristendom<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>kristendom<s n="n"/><s n="ut"/></l><r>kristendom<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>krokodil<s n="n"/><s n="ut"/></l><r>krokodille<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>kronprins<s n="n"/><s n="ut"/></l><r>kronprins<s n="n"/><s n="m"/></r></p></e>
-    <e vr="nob"><p><l>kudde<s n="n"/><s n="ut"/></l><r>pute<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>kudde<s n="n"/><s n="ut"/></l><r>pute<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nob"><p><l>kudde<s n="n"/><s n="ut"/></l><r>pute<s n="n"/><s n="f"/></r></p></e>
+    <e vr="nno"><p><l>kudde<s n="n"/><s n="ut"/></l><r>pute<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>kul<s n="n"/><s n="nt"/></l><r>morsom<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>kul<s n="n"/><s n="nt"/></l><r>gøy<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>kultur<s n="n"/><s n="ut"/></l><r>kultur<s n="n"/><s n="m"/></r></p></e>
@@ -1589,9 +1593,9 @@
     <e vr="nno"><p><l>kvalitet<s n="n"/><s n="ut"/></l><r>kvalitet<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>kväll<s n="n"/><s n="ut"/></l><r>kveld<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>kväll<s n="n"/><s n="ut"/></l><r>kveld<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>kvarn<s n="n"/><s n="ut"/></l><r>mølle<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>kvarn<s n="n"/><s n="ut"/></l><r>mølle<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>kväve<s n="n"/><s n="ut"/></l><r>nitrogen<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>kvicksilver<s n="n"/><s n="ut"/></l><r>kvikksølv<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>kvicksilver<s n="n"/><s n="ut"/></l><r>kvikksølv<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>kvinna<s n="n"/><s n="ut"/></l><r>kvinne<s n="n"/><s n="f"/></r></p></e>
     <e vr="nno"><p><l>kvinna<s n="n"/><s n="ut"/></l><r>kvinne<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>kvist<s n="n"/><s n="ut"/></l><r>kvist<s n="n"/><s n="m"/></r></p></e>
@@ -1612,7 +1616,7 @@
     <e vr="nno"><p><l>kymriska<s n="n"/><s n="ut"/></l><r>kymrisk<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>kymriska<s n="n"/><s n="ut"/></l><r>velsk<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>kyrka<s n="n"/><s n="ut"/></l><r>kirke<s n="n"/><s n="f"/></r></p></e>
-    <e vr="nno"><p><l>kyrka<s n="n"/><s n="ut"/></l><r>kyrkje<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nno"><p><l>kyrka<s n="n"/><s n="ut"/></l><r>kyrkje<s n="n"/><s n="f"/></r></p></e>
     <e vr="nno"><p><l>kyrka<s n="n"/><s n="ut"/></l><r>kyrkja<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>kyrkogård<s n="n"/><s n="ut"/></l><r>kirkegård<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>kyrkogård<s n="n"/><s n="ut"/></l><r>kyrkjegard<s n="n"/><s n="m"/></r></p></e>
@@ -1640,23 +1644,23 @@
     <e vr="nno"><p><l>läkare<s n="n"/><s n="ut"/></l><r>lækjar<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>läkemedel<s n="n"/><s n="nt"/></l><r>legemiddel<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>läkemedel<s n="n"/><s n="nt"/></l><r>medikament<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>läkemedel<s n="n"/><s n="nt"/></l><r>medisin<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>läkemedel<s n="n"/><s n="nt"/></l><r>medisin<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>laktos<s n="n"/><s n="ut"/></l><r>laktose<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>lamm<s n="n"/><s n="nt"/></l><r>lam<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>lampa<s n="n"/><s n="ut"/></l><r>lampe<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>lampa<s n="n"/><s n="ut"/></l><r>lampe<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>lån<s n="n"/><s n="nt"/></l><r>lån<s n="n"/><s n="m"/></r></p></e>
-    <e vr="nob"><p><l>län<s n="n"/><s n="nt"/></l><r>len<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nob"><p><l>län<s n="n"/><s n="nt"/></l><r>len<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>län<s n="n"/><s n="nt"/></l><r>fylke<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>län<s n="n"/><s n="nt"/></l><r>len<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nno"><p><l>län<s n="n"/><s n="nt"/></l><r>len<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>län<s n="n"/><s n="nt"/></l><r>fylke<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>land<s n="n"/><s n="nt"/></l><r>land<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>land<s n="n"/><s n="nt"/></l><r>land<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>land<s n="n"/><s n="nt"/></l><r>land<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>land<s n="n"/><s n="nt"/></l><r>land<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>landslag<s n="n"/><s n="nt"/></l><r>landslag<s n="n"/><s n="nt"/></r></p></e>
-    <e vr="nob"><p><l>långa<s n="n"/><s n="ut"/></l><r>lange<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>långa<s n="n"/><s n="ut"/></l><r>lange<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nob"><p><l>långa<s n="n"/><s n="ut"/></l><r>lange<s n="n"/><s n="f"/></r></p></e>
+    <e vr="nno"><p><l>långa<s n="n"/><s n="ut"/></l><r>lange<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>längd<s n="n"/><s n="ut"/></l><r>lengde<s n="n"/><s n="mf"/></r></p></e>
     <e vr="nno"><p><l>längd<s n="n"/><s n="ut"/></l><r>lengd<s n="n"/><s n="f"/></r></p></e>
     <e vr="nno"><p><l>längd<s n="n"/><s n="ut"/></l><r>lengde<s n="n"/><s n="GD"/></r></p></e>
@@ -1686,7 +1690,7 @@
     <e vr="nno"><p><l>lejon<s n="n"/><s n="nt"/></l><r>løve<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>lekplats<s n="n"/><s n="ut"/></l><r>lekeplass<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>leksak<s n="n"/><s n="ut"/></l><r>leketøy<s n="n"/><s n="nt"/></r></p></e>
-    <e vr="nno"><p><l>leksak<s n="n"/><s n="ut"/></l><r>leikety<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nno"><p><l>leksak<s n="n"/><s n="ut"/></l><r>leikety<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>leksak<s n="n"/><s n="ut"/></l><r>leiketøy<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>lever<s n="n"/><s n="ut"/></l><r>lever<s n="n"/><s n="mf"/></r></p></e>
     <e vr="nno"><p><l>lever<s n="n"/><s n="ut"/></l><r>lever<s n="n"/><s n="f"/></r></p></e>
@@ -1698,13 +1702,13 @@
     <e vr="nno"><p><l>lingon<s n="n"/><s n="nt"/></l><r>tyting<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>lingvistik<s n="n"/><s n="ut"/></l><r>lingvistikk<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>lingvistik<s n="n"/><s n="ut"/></l><r>lingvistikk<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>list<s n="n"/><s n="ut"/></l><r>list<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>lista<s n="n"/><s n="ut"/></l><r>liste<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>list<s n="n"/><s n="ut"/></l><r>list<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>lista<s n="n"/><s n="ut"/></l><r>liste<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>litauiska<s n="n"/><s n="ut"/></l><r>litauisk<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>litauiska<s n="n"/><s n="ut"/></l><r>litauisk<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>litium<s n="n"/><s n="ut"/></l><r>litium<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nob"><p><l>litteratur<s n="n"/><s n="ut"/></l><r>litteratur<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>litteratur<s n="n"/><s n="ut"/></l><r>litteratur<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nob"><p><l>litteratur<s n="n"/><s n="ut"/></l><r>litteratur<s n="n"/><s n="m"/></r></p></e>
+    <e vr="nno"><p><l>litteratur<s n="n"/><s n="ut"/></l><r>litteratur<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>liv<s n="n"/><s n="nt"/></l><r>liv<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>liv<s n="n"/><s n="nt"/></l><r>liv<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>ljud<s n="n"/><s n="nt"/></l><r>lyd<s n="n"/><s n="GD"/></r></p></e>
@@ -1735,7 +1739,7 @@
     <e vr="nno"><p><l>lönsamhet<s n="n"/><s n="ut"/></l><r>lønsemd<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>löpare<s n="n"/><s n="ut"/></l><r>løper<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>lördag<s n="n"/><s n="ut"/></l><r>lørdag<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>lördag<s n="n"/><s n="ut"/></l><r>laurdag<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nno"><p><l>lördag<s n="n"/><s n="ut"/></l><r>laurdag<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>löv<s n="n"/><s n="nt"/></l><r>løv<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>löv<s n="n"/><s n="nt"/></l><r>lauv<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>löv<s n="n"/><s n="nt"/></l><r>lauv<s n="n"/><s n="nt"/></r></p></e>
@@ -1754,10 +1758,10 @@
     <e vr="nno"><p><l>lycka<s n="n"/><s n="ut"/></l><r>hell<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>lycka<s n="n"/><s n="ut"/></l><r>lykke<s n="n"/><s n="f"/></r></p></e>
     <e vr="nno"><p><l>lycka<s n="n"/><s n="ut"/></l><r>lukke<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>mage<s n="n"/><s n="ut"/></l><r>mage<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>mage<s n="n"/><s n="ut"/></l><r>mage<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>magnesium<s n="n"/><s n="ut"/></l><r>magnesium<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>magnesium<s n="n"/><s n="ut"/></l><r>magnesium<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>maj<s n="n"/><s n="ut"/></l><r>mai<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>maj<s n="n"/><s n="ut"/></l><r>mai<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>make<s n="n"/><s n="ut"/></l><r>ektemann<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>make<s n="n"/><s n="ut"/></l><r>ektemann<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>makrill<s n="n"/><s n="ut"/></l><r>makrell<s n="n"/><s n="GD"/></r></p></e>
@@ -1778,7 +1782,7 @@
     <e><p><l>man<s n="n"/><s n="ut"/></l><r>husbond<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>måndag<s n="n"/><s n="ut"/></l><r>mandag<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>måndag<s n="n"/><s n="ut"/></l><r>måndag<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>måne<s n="n"/><s n="ut"/></l><r>måne<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>måne<s n="n"/><s n="ut"/></l><r>måne<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>mängd<s n="n"/><s n="ut"/></l><r>mengde<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>mängd<s n="n"/><s n="ut"/></l><r>mengde<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>mängd<s n="n"/><s n="ut"/></l><r>mengd<s n="n"/><s n="f"/></r></p></e>
@@ -1787,10 +1791,10 @@
     <e><p><l>människa<s n="n"/><s n="ut"/></l><r>menneske<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>mänsklighet<s n="n"/><s n="ut"/></l><r>menneskehet<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>mardröm<s n="n"/><s n="ut"/></l><r>mareritt<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>margarin<s n="n"/><s n="nt"/></l><r>margarin<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>margarin<s n="n"/><s n="nt"/></l><r>margarin<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>märke<s n="n"/><s n="nt"/></l><r>merke<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>märke<s n="n"/><s n="nt"/></l><r>merke<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>mars<s n="n"/><s n="ut"/></l><r>mars<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>mars<s n="n"/><s n="ut"/></l><r>mars<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>martyr<s n="n"/><s n="ut"/></l><r>martyr<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>maskin<s n="n"/><s n="ut"/></l><r>maskin<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>maskin<s n="n"/><s n="ut"/></l><r>maskin<s n="n"/><s n="f"/></r></p></e>
@@ -1799,19 +1803,19 @@
     <e vr="nob"><p><l>matta<s n="n"/><s n="ut"/></l><r>teppe<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>matta<s n="n"/><s n="ut"/></l><r>teppe<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>medborgare<s n="n"/><s n="ut"/></l><r>statsborger<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>medborgare<s n="n"/><s n="ut"/></l><r>statsborgar<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nno"><p><l>medborgare<s n="n"/><s n="ut"/></l><r>statsborgar<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>medel<s n="n"/><s n="nt"/></l><r>middel<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nob"><p><l>medel<s n="n"/><s n="nt"/></l><r>medisin<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nob"><p><l>medel<s n="n"/><s n="nt"/></l><r>medisin<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>medel<s n="n"/><s n="nt"/></l><r>middel<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>medel<s n="n"/><s n="nt"/></l><r>middelverdi<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>medel<s n="n"/><s n="nt"/></l><r>middel<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>medel<s n="n"/><s n="nt"/></l><r>middel<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>medel<s n="n"/><s n="nt"/></l><r>medisin<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nno"><p><l>medel<s n="n"/><s n="nt"/></l><r>medisin<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>medel<s n="n"/><s n="nt"/></l><r>middel<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>medel<s n="n"/><s n="nt"/></l><r>middelverdi<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>medeltid<s n="n"/><s n="ut"/></l><r>middelalder<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nob"><p><l>medlem<s n="n"/><s n="ut"/></l><r>medlem<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>medlem<s n="n"/><s n="ut"/></l><r>medlem<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nob"><p><l>medlem<s n="n"/><s n="ut"/></l><r>medlem<s n="n"/><s n="m"/></r></p></e>
+    <e vr="nno"><p><l>medlem<s n="n"/><s n="ut"/></l><r>medlem<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>medlemskap<s n="n"/><s n="nt"/></l><r>medlemskap<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>medlemskap<s n="n"/><s n="nt"/></l><r>medlemskap<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>medvetande<s n="n"/><s n="nt"/></l><r>bevissthet<s n="n"/><s n="GD"/></r></p></e>
@@ -1823,21 +1827,21 @@
     <e vr="nob"><p><l>mening<s n="n"/><s n="ut"/></l><r>mening<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>mening<s n="n"/><s n="ut"/></l><r>setning<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>mening<s n="n"/><s n="ut"/></l><r>setning<s n="n"/><s n="f"/></r></p></e>
-    <e vr="nno"><p><l>mening<s n="n"/><s n="ut"/></l><r>ytring<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nno"><p><l>mening<s n="n"/><s n="ut"/></l><r>ytring<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>merpart<s n="n"/><s n="ut"/></l><r>brorpart<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>merpart<s n="n"/><s n="ut"/></l><r>brorpart<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>metafor<s n="n"/><s n="ut"/></l><r>metafor<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>metafor<s n="n"/><s n="ut"/></l><r>metafor<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>metall<s n="n"/><s n="ut"/></l><r>metall<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>metall<s n="n"/><s n="ut"/></l><r>metall<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>metod<s n="n"/><s n="ut"/></l><r>metode<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>metod<s n="n"/><s n="ut"/></l><r>metode<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>middag<s n="n"/><s n="ut"/></l><r>middag<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>miljö<s n="n"/><s n="ut"/></l><r>miljø<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>miljö<s n="n"/><s n="ut"/></l><r>miljø<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>minne<s n="n"/><s n="nt"/></l><r>hukommelse<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>minne<s n="n"/><s n="nt"/></l><r>minne<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>minne<s n="n"/><s n="nt"/></l><r>minne<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>minne<s n="n"/><s n="nt"/></l><r>hukommelse<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>minne<s n="n"/><s n="nt"/></l><r>minne<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>minne<s n="n"/><s n="nt"/></l><r>minne<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>minoritetsspråk<s n="n"/><s n="nt"/></l><r>minoritetsspråk<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>minoritetsspråk<s n="n"/><s n="nt"/></l><r>minoritetsspråk<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>minoritetsspråk<s n="n"/><s n="nt"/></l><r>minoritetsmål<s n="n"/><s n="nt"/></r></p></e>
@@ -1858,18 +1862,18 @@
     <e vr="nob"><p><l>mjöl<s n="n"/><s n="nt"/></l><r>mjøl<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>mjöl<s n="n"/><s n="nt"/></l><r>mjøl<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>mjölk<s n="n"/><s n="ut"/></l><r>melk<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nob"><p><l>mjölk<s n="n"/><s n="ut"/></l><r>mjølk<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>mjölk<s n="n"/><s n="ut"/></l><r>mjølk<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nob"><p><l>mjölk<s n="n"/><s n="ut"/></l><r>mjølk<s n="n"/><s n="f"/></r></p></e>
+    <e vr="nno"><p><l>mjölk<s n="n"/><s n="ut"/></l><r>mjølk<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>möbel<s n="n"/><s n="ut"/></l><r>møbel<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>möbel<s n="n"/><s n="ut"/></l><r>møbel<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>mobiltelefon<s n="n"/><s n="ut"/></l><r>mobiltelefon<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>mobiltelefon<s n="n"/><s n="ut"/></l><r>mobiltelefon<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>mod<s n="n"/><s n="ut"/></l><r>mot<s n="n"/><s n="nt"/></r></p></e>
-    <e vr="nno"><p><l>mod<s n="n"/><s n="ut"/></l><r>mot<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nno"><p><l>mod<s n="n"/><s n="ut"/></l><r>mot<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>mode<s n="n"/><s n="nt"/></l><r>mote<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>mode<s n="n"/><s n="nt"/></l><r>mote<s n="n"/><s n="m"/></r></p></e>
-    <e vr="nob"><p><l>modersmål<s n="n"/><s n="nt"/></l><r>morsmål<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>modersmål<s n="n"/><s n="nt"/></l><r>morsmål<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nob"><p><l>modersmål<s n="n"/><s n="nt"/></l><r>morsmål<s n="n"/><s n="nt"/></r></p></e>
+    <e vr="nno"><p><l>modersmål<s n="n"/><s n="nt"/></l><r>morsmål<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>mögel<s n="n"/><s n="nt"/></l><r>mugg<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>mögel<s n="n"/><s n="nt"/></l><r>mugg<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>moln<s n="n"/><s n="nt"/></l><r>sky<s n="n"/><s n="m"/></r></p></e>
@@ -1895,7 +1899,7 @@
     <e vr="nno"><p><l>moster<s n="n"/><s n="ut"/></l><r>tante<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>motiv<s n="n"/><s n="nt"/></l><r>motiv<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>motiv<s n="n"/><s n="nt"/></l><r>motiv<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>motivation<s n="n"/><s n="ut"/></l><r>motivasjon<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>motivation<s n="n"/><s n="ut"/></l><r>motivasjon<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>motor<s n="n"/><s n="ut"/></l><r>motor<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>motor<s n="n"/><s n="ut"/></l><r>motor<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>motorcykel<s n="n"/><s n="ut"/></l><r>motorsykkel<s n="n"/><s n="m"/></r></p></e>
@@ -1933,8 +1937,8 @@
     <e vr="nob"><p><l>nämnare<s n="n"/><s n="ut"/></l><r>nevner<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>nämnare<s n="n"/><s n="ut"/></l><r>nemnar<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>närhet<s n="n"/><s n="ut"/></l><r>nærhet<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>närhet<s n="n"/><s n="ut"/></l><r>nærleik<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>näringsliv<s n="n"/><s n="nt"/></l><r>næringsliv<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nno"><p><l>närhet<s n="n"/><s n="ut"/></l><r>nærleik<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>näringsliv<s n="n"/><s n="nt"/></l><r>næringsliv<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>näsa<s n="n"/><s n="ut"/></l><r>nese<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>näsborre<s n="n"/><s n="ut"/></l><r>nesebor<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>nät<s n="n"/><s n="nt"/></l><r>nett<s n="n"/><s n="nt"/></r></p></e>
@@ -1944,8 +1948,8 @@
     <e vr="nno"><p><l>natt<s n="n"/><s n="ut"/></l><r>natt<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>nattklubb<s n="n"/><s n="ut"/></l><r>nattklubb<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>nattklubb<s n="n"/><s n="ut"/></l><r>diskotek<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nob"><p><l>natur<s n="n"/><s n="ut"/></l><r>natur<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>natur<s n="n"/><s n="ut"/></l><r>natur<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nob"><p><l>natur<s n="n"/><s n="ut"/></l><r>natur<s n="n"/><s n="m"/></r></p></e>
+    <e vr="nno"><p><l>natur<s n="n"/><s n="ut"/></l><r>natur<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>naturtillgång<s n="n"/><s n="ut"/></l><r>naturressurs<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>naturvetenskap<s n="n"/><s n="ut"/></l><r>naturvitenskap<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>nederbörd<s n="n"/><s n="ut"/></l><r>nedbør<s n="n"/><s n="m"/></r></p></e>
@@ -1963,7 +1967,7 @@
     <e vr="nno"><p><l>njure<s n="n"/><s n="ut"/></l><r>nyre<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>nödvändighet<s n="n"/><s n="ut"/></l><r>nødvendighet<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>nonsens<s n="n"/><s n="nt"/></l><r>nonsens<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>norm<s n="n"/><s n="ut"/></l><r>norm<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>norm<s n="n"/><s n="ut"/></l><r>norm<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>norrman<s n="n"/><s n="ut"/></l><r>nordmann<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>norrman<s n="n"/><s n="ut"/></l><r>nordmann<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>norrsken<s n="n"/><s n="nt"/></l><r>nordlys<s n="n"/><s n="nt"/></r></p></e>
@@ -2001,7 +2005,7 @@
     <e vr="nno"><p><l>ogräs<s n="n"/><s n="nt"/></l><r>ugras<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>ok<s n="n"/><s n="nt"/></l><r>åk<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>ok<s n="n"/><s n="nt"/></l><r>åk<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>oktober<s n="n"/><s n="ut"/></l><r>oktober<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>oktober<s n="n"/><s n="ut"/></l><r>oktober<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>öl<s n="n"/><s n="nt"/></l><r>øl<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>öl<s n="n"/><s n="nt"/></l><r>øl<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>öl<s n="n"/><s n="nt"/></l><r>øl<s n="n"/><s n="m"/></r></p></e>
@@ -2014,28 +2018,28 @@
     <e><p><l>olivolja<s n="n"/><s n="ut"/></l><r>olivenolje<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>olja<s n="n"/><s n="ut"/></l><r>olje<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>olycka<s n="n"/><s n="ut"/></l><r>ulykke<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>olycka<s n="n"/><s n="ut"/></l><r>ulukke<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nno"><p><l>olycka<s n="n"/><s n="ut"/></l><r>ulukke<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>ombud<s n="n"/><s n="nt"/></l><r>ombud<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>ombud<s n="n"/><s n="nt"/></l><r>ombod<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>omdöme<s n="n"/><s n="nt"/></l><r>dømmekraft<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>omsättning<s n="n"/><s n="ut"/></l><r>omsetning<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>onsdag<s n="n"/><s n="ut"/></l><r>onsdag<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>onsdag<s n="n"/><s n="ut"/></l><r>onsdag<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>öppnande<s n="n"/><s n="nt"/></l><r>åpning<s n="n"/><s n="mf"/></r></p></e>
     <e vr="nob"><p><l>öra<s n="n"/><s n="nt"/></l><r>øre<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>öra<s n="n"/><s n="nt"/></l><r>øyre<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>öra<s n="n"/><s n="nt"/></l><r>øyra<s n="n"/><s n="nt"/></r></p></e>
-    <e vr="nob"><p><l>ord<s n="n"/><s n="nt"/></l><r>ord<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>ord<s n="n"/><s n="nt"/></l><r>ord<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nob"><p><l>ord<s n="n"/><s n="nt"/></l><r>ord<s n="n"/><s n="nt"/></r></p></e>
+    <e vr="nno"><p><l>ord<s n="n"/><s n="nt"/></l><r>ord<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>ordbok<s n="n"/><s n="ut"/></l><r>ordbok<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>ordbok<s n="n"/><s n="ut"/></l><r>ordbok<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>ordförande<s n="n"/><s n="ut"/></l><r>ordfører<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>ordförande<s n="n"/><s n="ut"/></l><r>formann<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>ordförande<s n="n"/><s n="ut"/></l><r>ordførar<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ordförråd<s n="n"/><s n="nt"/></l><r>ordforråd<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>ordning<s n="n"/><s n="ut"/></l><r>orden<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>ordning<s n="n"/><s n="ut"/></l><r>orden<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>öre<s n="n"/><s n="nt"/></l><r>øre<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nob"><p><l>organisation<s n="n"/><s n="ut"/></l><r>organisasjon<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>organisation<s n="n"/><s n="ut"/></l><r>organisasjon<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nob"><p><l>organisation<s n="n"/><s n="ut"/></l><r>organisasjon<s n="n"/><s n="m"/></r></p></e>
+    <e vr="nno"><p><l>organisation<s n="n"/><s n="ut"/></l><r>organisasjon<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>orgasm<s n="n"/><s n="ut"/></l><r>orgasme<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>orgasm<s n="n"/><s n="ut"/></l><r>orgasme<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>orgel<s n="n"/><s n="ut"/></l><r>orgel<s n="n"/><s n="GD"/></r></p></e>
@@ -2057,7 +2061,7 @@
     <e vr="nob"><p><l>översättare<s n="n"/><s n="ut"/></l><r>oversetter<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>översättare<s n="n"/><s n="ut"/></l><r>omsetjar<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>översättning<s n="n"/><s n="ut"/></l><r>oversettelse<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>översättning<s n="n"/><s n="ut"/></l><r>omsetjing<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nno"><p><l>översättning<s n="n"/><s n="ut"/></l><r>omsetjing<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>översvämning<s n="n"/><s n="ut"/></l><r>flom<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>översvämning<s n="n"/><s n="ut"/></l><r>flom<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>överträdelse<s n="n"/><s n="ut"/></l><r>overtredelse<s n="n"/><s n="m"/></r></p></e>
@@ -2066,12 +2070,12 @@
     <e><p><l>övning<s n="n"/><s n="ut"/></l><r>øvelse<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>påhitt<s n="n"/><s n="nt"/></l><r>påfunn<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>påhitt<s n="n"/><s n="nt"/></l><r>påfunn<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>palats<s n="n"/><s n="nt"/></l><r>palass<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>palats<s n="n"/><s n="nt"/></l><r>palass<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>panik<s n="n"/><s n="ut"/></l><r>panikk<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>panik<s n="n"/><s n="ut"/></l><r>panikk<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>panna<s n="n"/><s n="ut"/></l><r>panne<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>papper<s n="n"/><s n="nt"/></l><r>papir<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>papper<s n="n"/><s n="nt"/></l><r>papir<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>papper<s n="n"/><s n="nt"/></l><r>papir<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>papper<s n="n"/><s n="nt"/></l><r>papir<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>paprika<s n="n"/><s n="ut"/></l><r>paprika<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>paprika<s n="n"/><s n="ut"/></l><r>paprika<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>paraply<s n="n"/><s n="nt"/></l><r>paraply<s n="n"/><s n="GD"/></r></p></e>
@@ -2084,7 +2088,7 @@
     <e vr="nno"><p><l>påsk<s n="n"/><s n="ut"/></l><r>påske<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>passagerare<s n="n"/><s n="ut"/></l><r>passasjer<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>pasta<s n="n"/><s n="ut"/></l><r>pasta<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>patient<s n="n"/><s n="ut"/></l><r>pasient<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>patient<s n="n"/><s n="ut"/></l><r>pasient<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>paus<s n="n"/><s n="ut"/></l><r>pause<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>paus<s n="n"/><s n="ut"/></l><r>pause<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>påve<s n="n"/><s n="ut"/></l><r>pave<s n="n"/><s n="GD"/></r></p></e>
@@ -2113,8 +2117,8 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e><p><l>pizza<s n="n"/><s n="ut"/></l><r>pizza<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>plan<s n="n"/><s n="nt"/></l><r>etasje<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>plan<s n="n"/><s n="nt"/></l><r>fly<s n="n"/><s n="nt"/></r></p></e>
-    <e vr="nob"><p><l>plånbok<s n="n"/><s n="ut"/></l><r>lommebok<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>plånbok<s n="n"/><s n="ut"/></l><r>lommebok<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nob"><p><l>plånbok<s n="n"/><s n="ut"/></l><r>lommebok<s n="n"/><s n="f"/></r></p></e>
+    <e vr="nno"><p><l>plånbok<s n="n"/><s n="ut"/></l><r>lommebok<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>planet<s n="n"/><s n="ut"/></l><r>planet<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>plastpåse<s n="n"/><s n="ut"/></l><r>plastpose<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>platina<s n="n"/><s n="ut"/></l><r>platina<s n="n"/><s n="nt"/></r></p></e>
@@ -2186,7 +2190,7 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nno"><p><l>rädsla<s n="n"/><s n="ut"/></l><r>redsle<s n="n"/><s n="f"/></r></p></e>
     <e vr="nno"><p><l>rädsla<s n="n"/><s n="ut"/></l><r>redsel<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>rågmjöl<s n="n"/><s n="ut"/></l><r>rugmel<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>råka<s n="n"/><s n="ut"/></l><r>kornkråke<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>råka<s n="n"/><s n="ut"/></l><r>kornkråke<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>raket<s n="n"/><s n="ut"/></l><r>rakett<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>räkneord<s n="n"/><s n="nt"/></l><r>tallord<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>räkneord<s n="n"/><s n="nt"/></l><r>talord<s n="n"/><s n="nt"/></r></p></e>
@@ -2197,7 +2201,7 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nno"><p><l>råtta<s n="n"/><s n="ut"/></l><r>rotte<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>rättighet<s n="n"/><s n="ut"/></l><r>rettighet<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>räv<s n="n"/><s n="ut"/></l><r>rev<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>råvara<s n="n"/><s n="ut"/></l><r>råvare<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>råvara<s n="n"/><s n="ut"/></l><r>råvare<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>råvara<s n="n"/><s n="ut"/></l><r>råstoff<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>reaktion<s n="n"/><s n="ut"/></l><r>reaksjon<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>reaktion<s n="n"/><s n="ut"/></l><r>reaksjon<s n="n"/><s n="m"/></r></p></e>
@@ -2228,7 +2232,7 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nno"><p><l>repa<s n="n"/><s n="ut"/></l><r>ripe<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>republik<s n="n"/><s n="ut"/></l><r>republikk<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>republik<s n="n"/><s n="ut"/></l><r>republikk<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>resa<s n="n"/><s n="ut"/></l><r>reise<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>resa<s n="n"/><s n="ut"/></l><r>reise<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>restaurang<s n="n"/><s n="ut"/></l><r>restaurant<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>restaurang<s n="n"/><s n="ut"/></l><r>restaurant<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>resultat<s n="n"/><s n="nt"/></l><r>resultat<s n="n"/><s n="nt"/></r></p></e>
@@ -2263,10 +2267,10 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nob"><p><l>rost<s n="n"/><s n="ut"/></l><r>rust<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>rost<s n="n"/><s n="ut"/></l><r>rust<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>röst<s n="n"/><s n="ut"/></l><r>stemme<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>röst<s n="n"/><s n="ut"/></l><r>røyst<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nno"><p><l>röst<s n="n"/><s n="ut"/></l><r>røyst<s n="n"/><s n="f"/></r></p></e>
     <e vr="nno"><p><l>röst<s n="n"/><s n="ut"/></l><r>stemme<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>rovdjur<s n="n"/><s n="nt"/></l><r>rovpattedyr<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>rovdjur<s n="n"/><s n="nt"/></l><r>rovdyr<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>rovdjur<s n="n"/><s n="nt"/></l><r>rovdyr<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>rubrik<s n="n"/><s n="ut"/></l><r>overskrift<s n="n"/><s n="mf"/></r></p></e>
     <e vr="nno"><p><l>rubrik<s n="n"/><s n="ut"/></l><r>overskrift<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>rumpa<s n="n"/><s n="ut"/></l><r>rumpe<s n="n"/><s n="mf"/></r></p></e>
@@ -2275,8 +2279,8 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nob"><p><l>runsten<s n="n"/><s n="ut"/></l><r>runesten<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>runsten<s n="n"/><s n="ut"/></l><r>runestein<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>runsten<s n="n"/><s n="ut"/></l><r>runestein<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>russin<s n="n"/><s n="nt"/></l><r>rosin<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>rygg<s n="n"/><s n="ut"/></l><r>rygg<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>russin<s n="n"/><s n="nt"/></l><r>rosin<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>rygg<s n="n"/><s n="ut"/></l><r>rygg<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ryggrad<s n="n"/><s n="ut"/></l><r>ryggsøyle<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>ryggradsdjur<s n="n"/><s n="nt"/></l><r>virveldyr<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>ryggradsdjur<s n="n"/><s n="nt"/></l><r>virveldyr<s n="n"/><s n="nt"/></r></p></e>
@@ -2288,23 +2292,23 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nno"><p><l>rytm<s n="n"/><s n="ut"/></l><r>rytme<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>säck<s n="n"/><s n="ut"/></l><r>sekk<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>säck<s n="n"/><s n="ut"/></l><r>sekk<s n="n"/><s n="m"/></r></p></e>
-    <e vr="nob"><p><l>såg<s n="n"/><s n="ut"/></l><r>sag<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>såg<s n="n"/><s n="ut"/></l><r>sag<s n="n"/><s n="GD"/></r></p></e>
+    <!--<e vr="nob"><p><l>såg<s n="n"/><s n="ut"/></l><r>sag<s n="n"/><s n="GD"/></r></p></e>-->
+    <!--<e vr="nno"><p><l>såg<s n="n"/><s n="ut"/></l><r>sag<s n="n"/><s n="GD"/></r></p></e>-->
     <e vr="nob"><p><l>saga<s n="n"/><s n="ut"/></l><r>eventyr<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>saga<s n="n"/><s n="ut"/></l><r>eventyr<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>sak<s n="n"/><s n="ut"/></l><r>sak<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>sak<s n="n"/><s n="ut"/></l><r>sak<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sak<s n="n"/><s n="ut"/></l><r>ting<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>sak<s n="n"/><s n="ut"/></l><r>sak<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>salt<s n="n"/><s n="nt"/></l><r>salt<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>salt<s n="n"/><s n="nt"/></l><r>salt<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>sak<s n="n"/><s n="ut"/></l><r>sak<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>salt<s n="n"/><s n="nt"/></l><r>salt<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>salt<s n="n"/><s n="nt"/></l><r>salt<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>salt<s n="n"/><s n="nt"/></l><r>salt-<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>salt<s n="n"/><s n="nt"/></l><r>bitter<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>samarbete<s n="n"/><s n="nt"/></l><r>samarbeid<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>samarbete<s n="n"/><s n="nt"/></l><r>samarbeid<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>samlare<s n="n"/><s n="ut"/></l><r>samler<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>sammansättning<s n="n"/><s n="ut"/></l><r>samansetjing<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>sammansättning<s n="n"/><s n="ut"/></l><r>samansetjing<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>samtal<s n="n"/><s n="nt"/></l><r>prat<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>samtal<s n="n"/><s n="nt"/></l><r>samtale<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>sand<s n="n"/><s n="ut"/></l><r>sand<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>sand<s n="n"/><s n="ut"/></l><r>sand<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>sång<s n="n"/><s n="ut"/></l><r>sang<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>sång<s n="n"/><s n="ut"/></l><r>song<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>säng<s n="n"/><s n="ut"/></l><r>seng<s n="n"/><s n="mf"/></r></p></e>
@@ -2333,14 +2337,14 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e><p><l>segel<s n="n"/><s n="nt"/></l><r>seil<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>sej<s n="n"/><s n="ut"/></l><r>sei<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>sej<s n="n"/><s n="ut"/></l><r>sei<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>sekel<s n="n"/><s n="nt"/></l><r>århundre<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>sekel<s n="n"/><s n="nt"/></l><r>sekel<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>sekel<s n="n"/><s n="nt"/></l><r>århundre<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>sekel<s n="n"/><s n="nt"/></l><r>sekel<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>sekund<s n="n"/><s n="ut"/></l><r>sekund<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>seminarium<s n="n"/><s n="nt"/></l><r>seminar<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>seminarium<s n="n"/><s n="nt"/></l><r>seminar<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>seminarium<s n="n"/><s n="nt"/></l><r>seminar<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>september<s n="n"/><s n="ut"/></l><r>september<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>signatur<s n="n"/><s n="ut"/></l><r>signatur<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>september<s n="n"/><s n="ut"/></l><r>september<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>signatur<s n="n"/><s n="ut"/></l><r>signatur<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>sill<s n="n"/><s n="ut"/></l><r>sild<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>sill<s n="n"/><s n="ut"/></l><r>sild<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>silver<s n="n"/><s n="nt"/></l><r>sølv<s n="n"/><s n="nt"/></r></p></e>
@@ -2349,15 +2353,15 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nob"><p><l>simhall<s n="n"/><s n="ut"/></l><r>svømmehall<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>simhall<s n="n"/><s n="ut"/></l><r>svømmehall<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>simhall<s n="n"/><s n="ut"/></l><r>symjehall<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nob"><p><l>situation<s n="n"/><s n="ut"/></l><r>situasjon<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>situation<s n="n"/><s n="ut"/></l><r>situasjon<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nob"><p><l>situation<s n="n"/><s n="ut"/></l><r>situasjon<s n="n"/><s n="m"/></r></p></e>
+    <e vr="nno"><p><l>situation<s n="n"/><s n="ut"/></l><r>situasjon<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>själ<s n="n"/><s n="ut"/></l><r>sjel<s n="n"/><s n="mf"/></r></p></e>
     <e vr="nno"><p><l>själ<s n="n"/><s n="ut"/></l><r>sjel<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>självmord<s n="n"/><s n="nt"/></l><r>selvmord<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>självmord<s n="n"/><s n="nt"/></l><r>sjølvmord<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>sjö<s n="n"/><s n="ut"/></l><r>innsjø<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>sjö<s n="n"/><s n="ut"/></l><r>innsjø<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>sjöfart<s n="n"/><s n="ut"/></l><r>sjøfart<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>sjöfart<s n="n"/><s n="ut"/></l><r>sjøfart<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>sjukdom<s n="n"/><s n="ut"/></l><r>sykdom<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>sjukdom<s n="n"/><s n="ut"/></l><r>sjukdom<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>sjukhus<s n="n"/><s n="nt"/></l><r>sykehus<s n="n"/><s n="GD"/></r></p></e>
@@ -2367,17 +2371,17 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e><p><l>skådespelare<s n="n"/><s n="ut"/></l><r>skuespiller<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>skägg<s n="n"/><s n="nt"/></l><r>skjegg<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>skägg<s n="n"/><s n="nt"/></l><r>skjegg<s n="n"/><s n="nt"/></r></p></e>
-    <e vr="nob"><p><l>skål<s n="n"/><s n="ut"/></l><r>skål<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>skål<s n="n"/><s n="ut"/></l><r>skål<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nob"><p><l>skala<s n="n"/><s n="ut"/></l><r>skrelle<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>skala<s n="n"/><s n="ut"/></l><r>skrelle<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nob"><p><l>skål<s n="n"/><s n="ut"/></l><r>skål<s n="n"/><s n="f"/></r></p></e>
+    <e vr="nno"><p><l>skål<s n="n"/><s n="ut"/></l><r>skål<s n="n"/><s n="f"/></r></p></e>
+    <e vr="nob"><p><l>skala<s n="n"/><s n="ut"/></l><r>skrelle<s n="n"/><s n="f"/></r></p></e>
+    <e vr="nno"><p><l>skala<s n="n"/><s n="ut"/></l><r>skrelle<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>skalle<s n="n"/><s n="ut"/></l><r>(hode)skalle<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>skåp<s n="n"/><s n="nt"/></l><r>skap<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>skåp<s n="n"/><s n="nt"/></l><r>skap<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>skärgård<s n="n"/><s n="ut"/></l><r>skjærgård<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nob"><p><l>skatt<s n="n"/><s n="ut"/></l><r>skatt<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>skatt<s n="n"/><s n="ut"/></l><r>skatt<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>sked<s n="n"/><s n="ut"/></l><r>skei<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nob"><p><l>skatt<s n="n"/><s n="ut"/></l><r>skatt<s n="n"/><s n="m"/></r></p></e>
+    <e vr="nno"><p><l>skatt<s n="n"/><s n="ut"/></l><r>skatt<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>sked<s n="n"/><s n="ut"/></l><r>skei<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>sked<s n="n"/><s n="ut"/></l><r>skje<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>skelett<s n="n"/><s n="nt"/></l><r>skjelett<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>skepp<s n="n"/><s n="nt"/></l><r>skip<s n="n"/><s n="nt"/></r></p></e>
@@ -2386,7 +2390,7 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nno"><p><l>skida<s n="n"/><s n="ut"/></l><r>ski<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>skillnad<s n="n"/><s n="ut"/></l><r>forskjell<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>skillnad<s n="n"/><s n="ut"/></l><r>skilnad<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>skilsmässa<s n="n"/><s n="ut"/></l><r>skilsmisse<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>skilsmässa<s n="n"/><s n="ut"/></l><r>skilsmisse<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>skinn<s n="n"/><s n="nt"/></l><r>skinn<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>skinn<s n="n"/><s n="nt"/></l><r>skinn<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>skjorta<s n="n"/><s n="ut"/></l><r>skjorte<s n="n"/><s n="mf"/></r></p></e>
@@ -2431,7 +2435,7 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nob"><p><l>slav<s n="n"/><s n="ut"/></l><r>slaver<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>slav<s n="n"/><s n="ut"/></l><r>slavar<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>slav<s n="n"/><s n="ut"/></l><r>slave<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>slott<s n="n"/><s n="nt"/></l><r>slott<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>slott<s n="n"/><s n="nt"/></l><r>slott<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>slump<s n="n"/><s n="ut"/></l><r>tilfeldighet<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>smärta<s n="n"/><s n="ut"/></l><r>smerte<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>smärta<s n="n"/><s n="ut"/></l><r>smerte<s n="n"/><s n="f"/></r></p></e>
@@ -2439,14 +2443,14 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nno"><p><l>smedja<s n="n"/><s n="ut"/></l><r>smie<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>smet<s n="n"/><s n="ut"/></l><r>røre<s n="n"/><s n="mf"/></r></p></e>
     <e vr="nno"><p><l>smet<s n="n"/><s n="ut"/></l><r>røre<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>smör<s n="n"/><s n="nt"/></l><r>smør<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>smör<s n="n"/><s n="nt"/></l><r>smør<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>smörja<s n="n"/><s n="ut"/></l><r>salve<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>smörja<s n="n"/><s n="ut"/></l><r>smøre<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>smörja<s n="n"/><s n="ut"/></l><r>smøre<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>smuts<s n="n"/><s n="nt"/></l><r>smuss<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>smuts<s n="n"/><s n="nt"/></l><r>skitt<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>smuts<s n="n"/><s n="nt"/></l><r>skit<s n="n"/><s n="m"/></r></p></e>
-    <e vr="nno"><p><l>smuts<s n="n"/><s n="nt"/></l><r>smuss<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nno"><p><l>smuts<s n="n"/><s n="nt"/></l><r>smuss<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>snår<s n="n"/><s n="nt"/></l><r>snar<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>snår<s n="n"/><s n="nt"/></l><r>snar<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>snö<s n="n"/><s n="ut"/></l><r>snø<s n="n"/><s n="m"/></r></p></e>
@@ -2454,7 +2458,7 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e><p><l>snöstorm<s n="n"/><s n="ut"/></l><r>snøstorm<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>snut<s n="n"/><s n="ut"/></l><r>purk<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>snut<s n="n"/><s n="ut"/></l><r>snut<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>socker<s n="n"/><s n="ut"/></l><r>sukker<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>socker<s n="n"/><s n="ut"/></l><r>sukker<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>soffa<s n="n"/><s n="ut"/></l><r>sofa<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>soffa<s n="n"/><s n="ut"/></l><r>sofa<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>soldat<s n="n"/><s n="ut"/></l><r>soldat<s n="n"/><s n="m"/></r></p></e>
@@ -2467,9 +2471,9 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nno"><p><l>sömn<s n="n"/><s n="ut"/></l><r>svevn<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>sömn<s n="n"/><s n="ut"/></l><r>søvn<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>son<s n="n"/><s n="ut"/></l><r>sønn<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>son<s n="n"/><s n="ut"/></l><r>son<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nno"><p><l>son<s n="n"/><s n="ut"/></l><r>son<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>söndag<s n="n"/><s n="ut"/></l><r>søndag<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>söndag<s n="n"/><s n="ut"/></l><r>sundag<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nno"><p><l>söndag<s n="n"/><s n="ut"/></l><r>sundag<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>sorg<s n="n"/><s n="ut"/></l><r>sorg<s n="n"/><s n="f"/></r></p></e>
     <e vr="nno"><p><l>sorg<s n="n"/><s n="ut"/></l><r>sorg<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>sovrum<s n="n"/><s n="nt"/></l><r>soverom<s n="n"/><s n="nt"/></r></p></e>
@@ -2504,7 +2508,7 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nno"><p><l>spårvagn<s n="n"/><s n="ut"/></l><r>trikk<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>spårvagn<s n="n"/><s n="ut"/></l><r>sporvogn<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>spegel<s n="n"/><s n="ut"/></l><r>speil<s n="n"/><s n="nt"/></r></p></e>
-    <e vr="nno"><p><l>spegel<s n="n"/><s n="ut"/></l><r>spegel<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nno"><p><l>spegel<s n="n"/><s n="ut"/></l><r>spegel<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>spets<s n="n"/><s n="ut"/></l><r>knipling<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>spets<s n="n"/><s n="ut"/></l><r>spiss<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>spets<s n="n"/><s n="ut"/></l><r>knipling<s n="n"/><s n="m"/></r></p></e>
@@ -2520,23 +2524,23 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nob"><p><l>språk<s n="n"/><s n="nt"/></l><r>språk<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>språk<s n="n"/><s n="nt"/></l><r>språk<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>sprit<s n="n"/><s n="ut"/></l><r>brennevin<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>sprit<s n="n"/><s n="ut"/></l><r>sprit<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nob"><p><l>stad<s n="n"/><s n="ut"/></l><r>by<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>stad<s n="n"/><s n="ut"/></l><r>by<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>sprit<s n="n"/><s n="ut"/></l><r>sprit<s n="n"/><s n="m"/></r></p></e>
+    <e vr="nob"><p><l>stad<s n="n"/><s n="ut"/></l><r>by<s n="n"/><s n="m"/></r></p></e>
+    <e vr="nno"><p><l>stad<s n="n"/><s n="ut"/></l><r>by<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ställe<s n="n"/><s n="nt"/></l><r>sted<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>stamcell<s n="n"/><s n="ut"/></l><r>stamcelle<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nob"><p><l>standard<s n="n"/><s n="ut"/></l><r>standard<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>standard<s n="n"/><s n="ut"/></l><r>standard<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nob"><p><l>standard<s n="n"/><s n="ut"/></l><r>standard<s n="n"/><s n="m"/></r></p></e>
+    <e vr="nno"><p><l>standard<s n="n"/><s n="ut"/></l><r>standard<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>station<s n="n"/><s n="ut"/></l><r>stasjon<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>statistik<s n="n"/><s n="ut"/></l><r>statistikk<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>statistik<s n="n"/><s n="ut"/></l><r>statistikk<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>statsminister<s n="n"/><s n="ut"/></l><r>statsminister<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>statsminister<s n="n"/><s n="ut"/></l><r>statsminister<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>stekpanna<s n="n"/><s n="ut"/></l><r>stekepanne<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>stenmur<s n="n"/><s n="ut"/></l><r>steinmur<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>stick<s n="n"/><s n="nt"/></l><r>stikk<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>stick<s n="n"/><s n="nt"/></l><r>stikk<s n="n"/><s n="nt"/></r></p></e>
-    <e vr="nob"><p><l>sticka<s n="n"/><s n="ut"/></l><r>strikke<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>sticka<s n="n"/><s n="ut"/></l><r>strikke<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nob"><p><l>sticka<s n="n"/><s n="ut"/></l><r>strikke<s n="n"/><s n="f"/></r></p></e>
+    <e vr="nno"><p><l>sticka<s n="n"/><s n="ut"/></l><r>strikke<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>stjärna<s n="n"/><s n="ut"/></l><r>stjerne<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>stol<s n="n"/><s n="ut"/></l><r>stol<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>stolthet<s n="n"/><s n="ut"/></l><r>stolthet<s n="n"/><s n="GD"/></r></p></e>
@@ -2551,7 +2555,7 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nno"><p><l>straff<s n="n"/><s n="nt"/></l><r>straffe<s n="n"/><s n="f"/></r></p></e>
     <e vr="nno"><p><l>straff<s n="n"/><s n="nt"/></l><r>straffespark<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>straff<s n="n"/><s n="nt"/></l><r>straff<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>strand<s n="n"/><s n="ut"/></l><r>strand<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>strand<s n="n"/><s n="ut"/></l><r>strand<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>sträng<s n="n"/><s n="ut"/></l><r>streng<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>sträng<s n="n"/><s n="ut"/></l><r>streng<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>sträng<s n="n"/><s n="ut"/></l><r>streng<s n="n"/><s n="GD"/></r></p></e>
@@ -2575,7 +2579,7 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e><p><l>svägerska<s n="n"/><s n="ut"/></l><r>svigerinne<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>svalg<s n="n"/><s n="nt"/></l><r>svelg<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>svalg<s n="n"/><s n="nt"/></l><r>farynks<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>svärd<s n="n"/><s n="nt"/></l><r>sverd<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>svärd<s n="n"/><s n="nt"/></l><r>sverd<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>svärson<s n="n"/><s n="ut"/></l><r>svigersønn<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>svärta<s n="n"/><s n="ut"/></l><r>sjøorre<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>svenska<s n="n"/><s n="ut"/></l><r>svensk<s n="n"/><s n="GD"/></r></p></e>
@@ -2585,7 +2589,7 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nno"><p><l>svenska<s n="n"/><s n="ut"/></l><r>svensk<b/>kvinne<s n="n"/><s n="f"/></r></p></e>
     <e vr="nno"><p><l>svenska<s n="n"/><s n="ut"/></l><r>svensk<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>svin<s n="n"/><s n="nt"/></l><r>gris<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>svin<s n="n"/><s n="nt"/></l><r>svin<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>svin<s n="n"/><s n="nt"/></l><r>svin<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>svit<s n="n"/><s n="ut"/></l><r>farge<s n="n"/><s n="mf"/></r></p></e>
     <e vr="nob"><p><l>svit<s n="n"/><s n="ut"/></l><r>følge<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>svit<s n="n"/><s n="ut"/></l><r>følge<s n="n"/><s n="nt"/></r></p></e>
@@ -2609,9 +2613,9 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nob"><p><l>syre<s n="n"/><s n="ut"/></l><r>oksygen<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>syre<s n="n"/><s n="ut"/></l><r>surstoff<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>syre<s n="n"/><s n="ut"/></l><r>oksygen<s n="n"/><s n="nt"/></r></p></e>
-    <e vr="nob"><p><l>syskon<s n="n"/><s n="nt"/></l><r>søsken<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nob"><p><l>syskon<s n="n"/><s n="nt"/></l><r>søsken<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>syskon<s n="n"/><s n="nt"/></l><r>sysken<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>syskon<s n="n"/><s n="nt"/></l><r>søsken<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nno"><p><l>syskon<s n="n"/><s n="nt"/></l><r>søsken<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>system<s n="n"/><s n="nt"/></l><r>system<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>system<s n="n"/><s n="nt"/></l><r>system<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>syster<s n="n"/><s n="ut"/></l><r>søster<s n="n"/><s n="f"/></r></p></e>
@@ -2646,8 +2650,8 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e><p><l>tång<s n="n"/><s n="ut"/></l><r>tang<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>tangentbord<s n="n"/><s n="nt"/></l><r>tastatur<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>tangentbord<s n="n"/><s n="nt"/></l><r>tastatur<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>tank<s n="n"/><s n="ut"/></l><r>stridsvogn<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>tanke<s n="n"/><s n="ut"/></l><r>tanke<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>tank<s n="n"/><s n="ut"/></l><r>stridsvogn<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>tanke<s n="n"/><s n="ut"/></l><r>tanke<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>tår<s n="n"/><s n="ut"/></l><r>tåre<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>tår<s n="n"/><s n="ut"/></l><r>tår<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>tår<s n="n"/><s n="ut"/></l><r>tåre<s n="n"/><s n="f"/></r></p></e>
@@ -2661,32 +2665,32 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nno"><p><l>tårta<s n="n"/><s n="ut"/></l><r>terte<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>tatuering<s n="n"/><s n="ut"/></l><r>tatovering<s n="n"/><s n="mf"/></r></p></e>
     <e vr="nno"><p><l>tatuering<s n="n"/><s n="ut"/></l><r>tatovering<s n="n"/><s n="f"/></r></p></e>
-    <e vr="nob"><p><l>teater<s n="n"/><s n="ut"/></l><r>teater<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>teater<s n="n"/><s n="ut"/></l><r>teater<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nob"><p><l>teater<s n="n"/><s n="ut"/></l><r>teater<s n="n"/><s n="nt"/></r></p></e>
+    <e vr="nno"><p><l>teater<s n="n"/><s n="ut"/></l><r>teater<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>teater<s n="n"/><s n="ut"/></l><r>teater<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>tecken<s n="n"/><s n="nt"/></l><r>tegn<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>tecken<s n="n"/><s n="nt"/></l><r>teikn<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>teckenspråk<s n="n"/><s n="nt"/></l><r>tegnspråk<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>teckenspråk<s n="n"/><s n="nt"/></l><r>teiknspråk<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>teckning<s n="n"/><s n="ut"/></l><r>tegning<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>teckning<s n="n"/><s n="ut"/></l><r>teikning<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nob"><p><l>telefon<s n="n"/><s n="ut"/></l><r>telefon<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>telefon<s n="n"/><s n="ut"/></l><r>telefon<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nno"><p><l>teckning<s n="n"/><s n="ut"/></l><r>teikning<s n="n"/><s n="f"/></r></p></e>
+    <e vr="nob"><p><l>telefon<s n="n"/><s n="ut"/></l><r>telefon<s n="n"/><s n="m"/></r></p></e>
+    <e vr="nno"><p><l>telefon<s n="n"/><s n="ut"/></l><r>telefon<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>telefonsamtal<s n="n"/><s n="nt"/></l><r>telefonsamtale<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>television<s n="n"/><s n="ut"/></l><r>fjernsyn<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>temperatur<s n="n"/><s n="ut"/></l><r>temperatur<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>television<s n="n"/><s n="ut"/></l><r>fjernsyn<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>temperatur<s n="n"/><s n="ut"/></l><r>temperatur<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>tenn<s n="n"/><s n="nt"/></l><r>sink<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>tenn<s n="n"/><s n="nt"/></l><r>sink<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>termometer<s n="n"/><s n="ut"/></l><r>termometer<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>termometer<s n="n"/><s n="ut"/></l><r>termometer<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>testamente<s n="n"/><s n="nt"/></l><r>testament<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>testamente<s n="n"/><s n="nt"/></l><r>testament<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>text<s n="n"/><s n="ut"/></l><r>tekst<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>tibetanska<s n="n"/><s n="ut"/></l><r>tibetansk<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>tibetanska<s n="n"/><s n="ut"/></l><r>tibetansk<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>tidpunkt<s n="n"/><s n="ut"/></l><r>tidspunkt<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>tidpunkt<s n="n"/><s n="ut"/></l><r>tidspunkt<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>tidskrift<s n="n"/><s n="ut"/></l><r>tidsskrift<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>tik<s n="n"/><s n="ut"/></l><r>tispe<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>tik<s n="n"/><s n="ut"/></l><r>tispe<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>tillåtelse<s n="n"/><s n="ut"/></l><r>tillatelse<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>tillåtelse<s n="n"/><s n="ut"/></l><r>løyve<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>tillåtelse<s n="n"/><s n="ut"/></l><r>løyve<s n="n"/><s n="nt"/></r></p></e>
@@ -2718,15 +2722,15 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nob"><p><l>tjärn<s n="n"/><s n="ut"/></l><r>tjern<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>tjärn<s n="n"/><s n="ut"/></l><r>tjern<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>tjeckiska<s n="n"/><s n="ut"/></l><r>tsjekkisk<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>tjur<s n="n"/><s n="ut"/></l><r>okse<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>tjur<s n="n"/><s n="ut"/></l><r>okse<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>tjuv<s n="n"/><s n="ut"/></l><r>tyv<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>tjuv<s n="n"/><s n="ut"/></l><r>tjuv<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>toalett<s n="n"/><s n="ut"/></l><r>toalett<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>toalett<s n="n"/><s n="ut"/></l><r>toalett<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>tolerans<s n="n"/><s n="ut"/></l><r>toleranse<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>tolerans<s n="n"/><s n="ut"/></l><r>toleranse<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>tolk<s n="n"/><s n="ut"/></l><r>tolk<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>tolk<s n="n"/><s n="ut"/></l><r>tolk<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>tomat<s n="n"/><s n="ut"/></l><r>tomat<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>tomat<s n="n"/><s n="ut"/></l><r>tomat<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>tomrum<s n="n"/><s n="nt"/></l><r>tomrom<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>tomrum<s n="n"/><s n="nt"/></l><r>tomrom<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>tonåring<s n="n"/><s n="ut"/></l><r>tenåring<s n="n"/><s n="m"/></r></p></e>
@@ -2737,8 +2741,8 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nno"><p><l>tonfisk<s n="n"/><s n="ut"/></l><r>størje<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>tonfisk<s n="n"/><s n="ut"/></l><r>tunfisk<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>torg<s n="n"/><s n="nt"/></l><r>markedsplass<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>torg<s n="n"/><s n="nt"/></l><r>torg<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>torg<s n="n"/><s n="nt"/></l><r>torg<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>torg<s n="n"/><s n="nt"/></l><r>torg<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>torg<s n="n"/><s n="nt"/></l><r>torg<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>torg<s n="n"/><s n="nt"/></l><r>plass<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>torg<s n="n"/><s n="nt"/></l><r>torv<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>torka<s n="n"/><s n="ut"/></l><r>tørke<s n="n"/><s n="GD"/></r></p></e>
@@ -2746,7 +2750,7 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nob"><p><l>torn<s n="n"/><s n="nt"/></l><r>torn<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>torn<s n="n"/><s n="nt"/></l><r>tårn<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>torn<s n="n"/><s n="nt"/></l><r>torn<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>torsdag<s n="n"/><s n="ut"/></l><r>torsdag<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>torsdag<s n="n"/><s n="ut"/></l><r>torsdag<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>torsk<s n="n"/><s n="ut"/></l><r>torsk<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>törst<s n="n"/><s n="ut"/></l><r>tørst<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>tortyr<s n="n"/><s n="ut"/></l><r>tortur<s n="n"/><s n="m"/></r></p></e>
@@ -2775,7 +2779,7 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nno"><p><l>tröja<s n="n"/><s n="ut"/></l><r>trøye<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>tröskel<s n="n"/><s n="ut"/></l><r>terskel<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>tröskel<s n="n"/><s n="ut"/></l><r>terskel<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>trottoar<s n="n"/><s n="ut"/></l><r>fortau<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>trottoar<s n="n"/><s n="ut"/></l><r>fortau<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>trummis<s n="n"/><s n="ut"/></l><r>trommis<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>trumpet<s n="n"/><s n="ut"/></l><r>trompet<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>trumpet<s n="n"/><s n="ut"/></l><r>trompet<s n="n"/><s n="GD"/></r></p></e>
@@ -2813,7 +2817,7 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nno"><p><l>ultraljud<s n="n"/><s n="nt"/></l><r>ultralyd<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>underhåll<s n="n"/><s n="nt"/></l><r>vedlikehold<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>undersökning<s n="n"/><s n="ut"/></l><r>undersøkelse<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>uppfattning<s n="n"/><s n="ut"/></l><r>oppfatning<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>uppfattning<s n="n"/><s n="ut"/></l><r>oppfatning<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>uppfinning<s n="n"/><s n="ut"/></l><r>oppfinnelse<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>uppgift<s n="n"/><s n="ut"/></l><r>oppgave<s n="n"/><s n="mf"/></r></p></e>
     <e vr="nno"><p><l>uppgift<s n="n"/><s n="ut"/></l><r>oppgåve<s n="n"/><s n="f"/></r></p></e>
@@ -2822,7 +2826,7 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nob"><p><l>upphovsrätt<s n="n"/><s n="ut"/></l><r>opphavsrett<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>upphovsrätt<s n="n"/><s n="ut"/></l><r>opphavsrett<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>uppmärksamhet<s n="n"/><s n="ut"/></l><r>oppmerksomhet<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>uppmärksamhet<s n="n"/><s n="ut"/></l><r>merksemd<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nno"><p><l>uppmärksamhet<s n="n"/><s n="ut"/></l><r>merksemd<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>uppror<s n="n"/><s n="nt"/></l><r>opprør<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>uppror<s n="n"/><s n="nt"/></l><r>opprør<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>urval<s n="n"/><s n="nt"/></l><r>utvalg<s n="n"/><s n="GD"/></r></p></e>
@@ -2839,13 +2843,13 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nno"><p><l>utrustning<s n="n"/><s n="ut"/></l><r>utstyr<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>utslag<s n="n"/><s n="nt"/></l><r>utslag<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>utslag<s n="n"/><s n="nt"/></l><r>utslett<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>utställning<s n="n"/><s n="ut"/></l><r>utstilling<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>utställning<s n="n"/><s n="ut"/></l><r>utstilling<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>uttal<s n="n"/><s n="nt"/></l><r>uttale<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>uttalande<s n="n"/><s n="nt"/></l><r>utsegn<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>väderkvarn<s n="n"/><s n="ut"/></l><r>vindmølle<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>våg<s n="n"/><s n="ut"/></l><r>vekt<s n="n"/><s n="mf"/></r></p></e>
     <e vr="nno"><p><l>våg<s n="n"/><s n="ut"/></l><r>vekt<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>väg<s n="n"/><s n="ut"/></l><r>reise<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>väg<s n="n"/><s n="ut"/></l><r>reise<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>väg<s n="n"/><s n="ut"/></l><r>ferd<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>väg<s n="n"/><s n="ut"/></l><r>vei<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>väg<s n="n"/><s n="ut"/></l><r>veg<s n="n"/><s n="GD"/></r></p></e>
@@ -2869,7 +2873,7 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nob"><p><l>vampyr<s n="n"/><s n="ut"/></l><r>vampyr<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>vampyr<s n="n"/><s n="ut"/></l><r>vampyr<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>vän<s n="n"/><s n="ut"/></l><r>venn<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>vän<s n="n"/><s n="ut"/></l><r>ven<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nno"><p><l>vän<s n="n"/><s n="ut"/></l><r>ven<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>väninna<s n="n"/><s n="ut"/></l><r>venninne<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>vänskap<s n="n"/><s n="ut"/></l><r>vennskap<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>vänskap<s n="n"/><s n="ut"/></l><r>venskap<s n="n"/><s n="GD"/></r></p></e>
@@ -2892,20 +2896,20 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e><p><l>vardagsrum<s n="n"/><s n="nt"/></l><r>stue<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>vardagsrum<s n="n"/><s n="nt"/></l><r>dagligstue<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>varelse<s n="n"/><s n="ut"/></l><r>vesen<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>varg<s n="n"/><s n="ut"/></l><r>ulv<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>varg<s n="n"/><s n="ut"/></l><r>ulv<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>variant<s n="n"/><s n="ut"/></l><r>variant<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>värld<s n="n"/><s n="ut"/></l><r>verden<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>värld<s n="n"/><s n="ut"/></l><r>verd<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>världsdel<s n="n"/><s n="ut"/></l><r>verdensdel<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>världsdel<s n="n"/><s n="ut"/></l><r>verdsdel<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>världskrig<s n="n"/><s n="nt"/></l><r>verdenskrig<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>världskrig<s n="n"/><s n="nt"/></l><r>verdskrig<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nno"><p><l>världskrig<s n="n"/><s n="nt"/></l><r>verdskrig<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>varning<s n="n"/><s n="ut"/></l><r>advarsel<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>varning<s n="n"/><s n="ut"/></l><r>åtvaring<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nno"><p><l>varning<s n="n"/><s n="ut"/></l><r>åtvaring<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>varsel<s n="n"/><s n="nt"/></l><r>varsel<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>varuhus<s n="n"/><s n="nt"/></l><r>varemagasin<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>varuhus<s n="n"/><s n="nt"/></l><r>varehus<s n="n"/><s n="nt"/></r></p></e>
-    <e vr="nob"><p><l>varulv<s n="n"/><s n="ut"/></l><r>varulv<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nob"><p><l>varulv<s n="n"/><s n="ut"/></l><r>varulv<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>varulv<s n="n"/><s n="ut"/></l><r>varulv<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>varv<s n="n"/><s n="nt"/></l><r>runde<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>varv<s n="n"/><s n="nt"/></l><r>verft<s n="n"/><s n="nt"/></r></p></e>
@@ -2933,7 +2937,7 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nno"><p><l>vecka<s n="n"/><s n="ut"/></l><r>veke<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>veckodag<s n="n"/><s n="ut"/></l><r>ukedag<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>veckodag<s n="n"/><s n="ut"/></l><r>vekedag<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>ved<s n="n"/><s n="ut"/></l><r>ved<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>ved<s n="n"/><s n="ut"/></l><r>ved<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>vegetarian<s n="n"/><s n="ut"/></l><r>vegetarianer<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>verklighet<s n="n"/><s n="ut"/></l><r>virkelighet<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>verklighet<s n="n"/><s n="ut"/></l><r>realitet<s n="n"/><s n="GD"/></r></p></e>
@@ -2941,7 +2945,7 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nno"><p><l>verklighet<s n="n"/><s n="ut"/></l><r>røyndom<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>verksamhet<s n="n"/><s n="ut"/></l><r>virksomhet<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>verksamhet<s n="n"/><s n="ut"/></l><r>verksemd<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>verktyg<s n="n"/><s n="nt"/></l><r>verktøy<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>verktyg<s n="n"/><s n="nt"/></l><r>verktøy<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nob"><p><l>vete<s n="n"/><s n="nt"/></l><r>hvete<s n="n"/><s n="m"/></r></p></e>
     <e vr="nno"><p><l>vete<s n="n"/><s n="nt"/></l><r>kveite<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>vetemjöl<s n="n"/><s n="ut"/></l><r>hvetemel<s n="n"/><s n="nt"/></r></p></e>
@@ -2953,7 +2957,7 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nob"><p><l>vilja<s n="n"/><s n="ut"/></l><r>ville<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>vilja<s n="n"/><s n="ut"/></l><r>vilja<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>vilja<s n="n"/><s n="ut"/></l><r>vilje<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>villkor<s n="n"/><s n="nt"/></l><r>vilkår<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>villkor<s n="n"/><s n="nt"/></l><r>vilkår<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>vin<s n="n"/><s n="nt"/></l><r>vin<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>vind<s n="n"/><s n="ut"/></l><r>skjev<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>vind<s n="n"/><s n="ut"/></l><r>forvridd<s n="n"/><s n="GD"/></r></p></e>
@@ -2962,11 +2966,11 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e><p><l>vinst<s n="n"/><s n="ut"/></l><r>gevinst<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>vinst<s n="n"/><s n="ut"/></l><r>profitt<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>vinst<s n="n"/><s n="ut"/></l><r>premie<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>vinst<s n="n"/><s n="ut"/></l><r>pris<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>vinst<s n="n"/><s n="ut"/></l><r>pris<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>vinst<s n="n"/><s n="ut"/></l><r>utmerkelse<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>vinst<s n="n"/><s n="ut"/></l><r>seier<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nob"><p><l>vinter<s n="n"/><s n="ut"/></l><r>vinter<s n="n"/><s n="GD"/></r></p></e>
-    <e vr="nno"><p><l>vinter<s n="n"/><s n="ut"/></l><r>vinter<s n="n"/><s n="GD"/></r></p></e>
+    <e vr="nob"><p><l>vinter<s n="n"/><s n="ut"/></l><r>vinter<s n="n"/><s n="m"/></r></p></e>
+    <e vr="nno"><p><l>vinter<s n="n"/><s n="ut"/></l><r>vinter<s n="n"/><s n="m"/></r></p></e>
     <e vr="nob"><p><l>vis<s n="n"/><s n="nt"/></l><r>vis<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>vis<s n="n"/><s n="nt"/></l><r>vis<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>visa<s n="n"/><s n="ut"/></l><r>vise<s n="n"/><s n="GD"/></r></p></e>
@@ -2988,8 +2992,8 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e><p><l>webbplats<s n="n"/><s n="ut"/></l><r>nettsted<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>xenon<s n="n"/><s n="nt"/></l><r>xenon<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>yta<s n="n"/><s n="ut"/></l><r>overflate<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>yta<s n="n"/><s n="ut"/></l><r>yte<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>yxa<s n="n"/><s n="ut"/></l><r>øks<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>yta<s n="n"/><s n="ut"/></l><r>yte<s n="n"/><s n="f"/></r></p></e>
+    <e><p><l>yxa<s n="n"/><s n="ut"/></l><r>øks<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>zink<s n="n"/><s n="nt"/></l><r>sink<s n="n"/><s n="GD"/></r></p></e>
 
     <e><p><l>prokurator<s n="n"/><s n="ut"/></l><r>prokurator<s n="n"/><s n="m"/></r></p></e>
@@ -7442,7 +7446,6 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e><p><l>åtgärda<s n="vblex"/></l><r>reparere<s n="vblex"/></r></p></e>
     <e><p><l>åtgärda<s n="vblex"/></l><r>rette<s n="vblex"/></r></p></e>
     <e><p><l>avancera<s n="vblex"/></l><r>avansere<s n="vblex"/></r></p></e>
-    <e vr="nno"><p><l>avbryta<s n="vblex"/></l><r>avbryta<s n="vblex"/></r></p></e>
     <e vr="nno"><p><l>avbryta<s n="vblex"/></l><r>avbryte<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>avbryta<s n="vblex"/></l><r>avbryte<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>avbryta<s n="vblex"/></l><r>stoppe<s n="vblex"/></r></p></e>
@@ -7511,6 +7514,7 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nob"><p><l>få<s n="vblex"/></l><r>måtte<s n="vblex"/></r></p></e>
     <e><p><l>färga<s n="vblex"/></l><r>farge<s n="vblex"/></r></p></e>
     <e><p><l>finna<s n="vblex"/></l><r>finne<s n="vblex"/></r></p></e>
+    <e vr="nno"><p><l>finna<s n="vblex"/></l><r>synast<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>finna<s n="vblex"/></l><r>synes<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>fira<s n="vblex"/></l><r>feire<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>fira<s n="vblex"/></l><r>fire<s n="vblex"/></r></p></e>
@@ -7518,7 +7522,6 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e><p><l>flicka<s n="vblex"/></l><r>jente<s n="vblex"/></r></p></e>
     <e><p><l>flicka<s n="vblex"/></l><r>pike<s n="vblex"/></r></p></e>
     <e><p><l>förändra<s n="vblex"/></l><r>forandre<s n="vblex"/></r></p></e>
-    <e vr="nno"><p><l>föra<s n="vblex"/></l><r>føra<s n="vblex"/></r></p></e>
     <e vr="nno"><p><l>föra<s n="vblex"/></l><r>føre<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>föra<s n="vblex"/></l><r>føre<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>förbanna<s n="vblex"/></l><r>banne<s n="vblex"/></r></p></e>
@@ -7526,7 +7529,6 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nno"><p><l>förbereda<s n="vblex"/></l><r>førebu<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>förbereda<s n="vblex"/></l><r>forberede<s n="vblex"/></r></p></e>
     <e><p><l>förbjuda<s n="vblex"/></l><r>forby<s n="vblex"/></r></p></e>
-    <e vr="nno"><p><l>fördärva<s n="vblex"/></l><r>forderva<s n="vblex"/></r></p></e>
     <e vr="nno"><p><l>fördärva<s n="vblex"/></l><r>forderve<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>fördärva<s n="vblex"/></l><r>forderve<s n="vblex"/></r></p></e>
     <e><p><l>fördöma<s n="vblex"/></l><r>fordømme<s n="vblex"/></r></p></e>
@@ -7559,11 +7561,8 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e><p><l>försvinna<s n="vblex"/></l><r>forsvinne<s n="vblex"/></r></p></e>
     <e><p><l>förvandla<s n="vblex"/></l><r>forvandle<s n="vblex"/></r></p></e>
     <e><p><l>förvänta<s n="vblex"/></l><r>forvente<s n="vblex"/></r></p></e>
-    <e vr="nno"><p><l>fråga<s n="vblex"/></l><r>spørja<s n="vblex"/></r></p></e>
     <e vr="nno"><p><l>fråga<s n="vblex"/></l><r>spørje<s n="vblex"/></r></p></e>
-    <e vr="nno"><p><l>fråga<s n="vblex"/></l><r>spørsmål|n<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>fråga<s n="vblex"/></l><r>spørre<s n="vblex"/></r></p></e>
-    <e vr="nob"><p><l>fråga<s n="vblex"/></l><r>spørsmål|n<s n="vblex"/></r></p></e>
     <e vr="nno"><p><l>fresta<s n="vblex"/></l><r>freiste<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>fresta<s n="vblex"/></l><r>friste<s n="vblex"/></r></p></e>
     <e><p><l>fria<s n="vblex"/></l><r>fri<s n="vblex"/></r></p></e>
@@ -7584,7 +7583,6 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nno"><p><l>göra<s n="vblex"/></l><r>lage<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>göra<s n="vblex"/></l><r>gjøre<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>göra<s n="vblex"/></l><r>lage<s n="vblex"/></r></p></e>
-    <e vr="nno"><p><l>granska<s n="vblex"/></l><r>granska<s n="vblex"/></r></p></e>
     <e vr="nno"><p><l>granska<s n="vblex"/></l><r>granske<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>granska<s n="vblex"/></l><r>granske<s n="vblex"/></r></p></e>
     <e><p><l>gråta<s n="vblex"/></l><r>gråte<s n="vblex"/></r></p></e>
@@ -7596,9 +7594,7 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e><p><l>hända<s n="vblex"/></l><r>hende<s n="vblex"/></r></p></e>
     <e><p><l>hända<s n="vblex"/></l><r>skje<s n="vblex"/></r></p></e>
     <e><p><l>handla<s n="vblex"/></l><r>handle<s n="vblex"/></r></p></e>
-    <e vr="nno"><p><l>hänga<s n="vblex"/></l><r>hanga<s n="vblex"/></r></p></e>
     <e vr="nno"><p><l>hänga<s n="vblex"/></l><r>hange<s n="vblex"/></r></p></e>
-    <e vr="nno"><p><l>hänga<s n="vblex"/></l><r>hengja<s n="vblex"/></r></p></e>
     <e vr="nno"><p><l>hänga<s n="vblex"/></l><r>hengje<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>hänga<s n="vblex"/></l><r>henge<s n="vblex"/></r></p></e>
     <e vr="nno"><p><l>hantera<s n="vblex"/></l><r>handtere<s n="vblex"/></r></p></e>
@@ -7610,7 +7606,6 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e><p><l>hata<s n="vblex"/></l><r>hate<s n="vblex"/></r></p></e>
     <e vr="nno"><p><l>hedra<s n="vblex"/></l><r>heidre<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>hedra<s n="vblex"/></l><r>hedre<s n="vblex"/></r></p></e>
-    <e vr="nno"><p><l>heta<s n="vblex"/></l><r>heita<s n="vblex"/></r></p></e>
     <e vr="nno"><p><l>heta<s n="vblex"/></l><r>heite<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>heta<s n="vblex"/></l><r>hete<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>hinna<s n="vblex"/></l><r>hinne<s n="vblex"/></r></p></e>
@@ -7620,8 +7615,7 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nob"><p><l>höja<s n="vblex"/></l><r>heve<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>höja<s n="vblex"/></l><r>høyne<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>höja<s n="vblex"/></l><r>øke<s n="vblex"/></r></p></e>
-    <e vr="nno"><p><l>hoppa<s n="vblex"/></l><r>hoppa<s n="vblex"/></r></p></e>
-    <e vr="nob"><p><l>hoppa<s n="vblex"/></l><r>hoppe<s n="vblex"/></r></p></e>
+    <e><p><l>hoppa<s n="vblex"/></l><r>hoppe<s n="vblex"/></r></p></e>
     <e><p><l>hoppas<s n="vblex"/></l><r>forhåpe<s n="vblex"/></r></p></e>
     <e><p><l>hoppas<s n="vblex"/></l><r>håpe<s n="vblex"/></r></p></e>
     <e vr="nno"><p><l>hota<s n="vblex"/></l><r>true<s n="vblex"/></r></p></e>
@@ -7679,7 +7673,8 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e><p><l>läsa<s n="vblex"/></l><r>lese<s n="vblex"/></r></p></e>
     <e><p><l>le<s n="vblex"/></l><r>smile<s n="vblex"/></r></p></e>
     <e><p><l>leta<s n="vblex"/></l><r>lete<s n="vblex"/></r></p></e>
-    <e><p><l>leta<s n="vblex"/></l><r>søke<s n="vblex"/></r></p></e>
+    <e vr="nob"><p><l>leta<s n="vblex"/></l><r>søke<s n="vblex"/></r></p></e>
+    <e vr="nno"><p><l>leta<s n="vblex"/></l><r>søkje<s n="vblex"/></r></p></e>
     <e><p><l>leva<s n="vblex"/></l><r>leve<s n="vblex"/></r></p></e>
     <e><p><l>lindra<s n="vblex"/></l><r>lindre<s n="vblex"/></r></p></e>
     <e><p><l>lindra<s n="vblex"/></l><r>mildne<s n="vblex"/></r></p></e>
@@ -7751,7 +7746,7 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nob"><p><l>säga<s n="vblex"/></l><r>si<s n="vblex"/></r></p></e>
     <e><p><l>sakna<s n="vblex"/></l><r>mangle<s n="vblex"/></r></p></e>
     <e><p><l>säkra<s n="vblex"/></l><r>sikre<s n="vblex"/></r></p></e>
-    <e vr="nno"><p><l>sälja<s n="vblex"/></l><r>selja<s n="vblex"/></r></p></e>
+    <e vr="nno"><p><l>sälja<s n="vblex"/></l><r>selje<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>sälja<s n="vblex"/></l><r>selge<s n="vblex"/></r></p></e>
     <e><p><l>samarbeta<s n="vblex"/></l><r>samarbeide<s n="vblex"/></r></p></e>
     <e><p><l>sammanfatta<s n="vblex"/></l><r>sammenfatte<s n="vblex"/></r></p></e>
@@ -7759,7 +7754,6 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e><p><l>sända<s n="vblex"/></l><r>sende<s n="vblex"/></r></p></e>
     <e><p><l>satsa<s n="vblex"/></l><r>satse<s n="vblex"/></r></p></e>
     <e vr="nno"><p><l>sätta<s n="vblex"/></l><r>setje<s n="vblex"/></r></p></e>
-    <e vr="nno"><p><l>sätta<s n="vblex"/></l><r>sette<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>sätta<s n="vblex"/></l><r>sette<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>sätta<s n="vblex"/></l><r>stille<s n="vblex"/></r></p></e>
     <e><p><l>segla<s n="vblex"/></l><r>seile<s n="vblex"/></r></p></e>
@@ -7778,7 +7772,6 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e vr="nob"><p><l>skjuta<s n="vblex"/></l><r>skyve<s n="vblex"/></r></p></e>
     <e><p><l>skrämma<s n="vblex"/></l><r>skremme<s n="vblex"/></r></p></e>
     <e><p><l>skratta<s n="vblex"/></l><r>le<s n="vblex"/></r></p></e>
-    <e vr="nno"><p><l>skynda<s n="vblex"/></l><r>skunda<s n="vblex"/></r></p></e>
     <e vr="nno"><p><l>skynda<s n="vblex"/></l><r>skunde<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>skynda<s n="vblex"/></l><r>skynde<s n="vblex"/></r></p></e>
     <e vr="nno"><p><l>slåss<s n="vblex"/></l><r>slåss<s n="vblex"/></r></p></e>
@@ -7791,13 +7784,11 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e><p><l>smitta<s n="vblex"/></l><r>smitte<s n="vblex"/></r></p></e>
     <e vr="nno"><p><l>snickra<s n="vblex"/></l><r>snikre<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>snickra<s n="vblex"/></l><r>snekre<s n="vblex"/></r></p></e>
-    <e vr="nno"><p><l>söka<s n="vblex"/></l><r>søka<s n="vblex"/></r></p></e>
-    <e vr="nno"><p><l>söka<s n="vblex"/></l><r>søke<s n="vblex"/></r></p></e>
-    <e vr="nno"><p><l>söka<s n="vblex"/></l><r>søkja<s n="vblex"/></r></p></e>
+    <e vr="nno"><p><l>söka<s n="vblex"/></l><r>søkje<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>söka<s n="vblex"/></l><r>søke<s n="vblex"/></r></p></e>
     <e><p><l>sova<s n="vblex"/></l><r>sove<s n="vblex"/></r></p></e>
-    <e vr="nno"><p><l>spisa<s n="vblex"/></l><r>eta<s n="vblex"/></r></p></e>
-    <e vr="nno"><p><l>spisa<s n="vblex"/></l><r>spisa<s n="vblex"/></r></p></e>
+    <e vr="nno"><p><l>spisa<s n="vblex"/></l><r>ete<s n="vblex"/></r></p></e>
+    <e vr="nno"><p><l>spisa<s n="vblex"/></l><r>spisse<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>spisa<s n="vblex"/></l><r>ete<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>spisa<s n="vblex"/></l><r>spise<s n="vblex"/></r></p></e>
     <e><p><l>spotta<s n="vblex"/></l><r>spytte<s n="vblex"/></r></p></e>
@@ -7831,7 +7822,6 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e><p><l>traska<s n="vblex"/></l><r>traske<s n="vblex"/></r></p></e>
     <e><p><l>tvivla<s n="vblex"/></l><r>tvile<s n="vblex"/></r></p></e>
     <e vr="nno"><p><l>tycka<s n="vblex"/></l><r>synast<s n="vblex"/></r></p></e>
-    <e vr="nno"><p><l>tycka<s n="vblex"/></l><r>synest<s n="vblex"/></r></p></e>
     <e vr="nob"><p><l>tycka<s n="vblex"/></l><r>synes<s n="vblex"/></r></p></e>
     <e><p><l>understryka<s n="vblex"/></l><r>understreke<s n="vblex"/></r></p></e>
     <e><p><l>undervisa<s n="vblex"/></l><r>undervise<s n="vblex"/></r></p></e>
@@ -7891,6 +7881,7 @@ cat: /tmp/odsd0: El fitxer o directori no existeix
     <e><p><l>ansluta<s n="vblex"/></l><r>anslutte<s n="vblex"/></r></p></e>
     <e><p><l>stå<s n="vblex"/></l><r>stå<s n="vblex"/></r></p></e>
     <e><p><l>öppna<s n="vblex"/></l><r>opne<s n="vblex"/></r></p></e>
+    <e><p><l>mena<s n="vblex"/></l><r>mene<s n="vblex"/></r></p></e>
 
 
     <!-- SECTION: Abbreviations -->
