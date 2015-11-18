@@ -21,16 +21,16 @@
         <file name="swe-nob.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-swe-nor.swe-nor.t1x"/>
-        <file name="swe-nor.t1x.bin"/>
+        <file name="apertium-swe-nor.swe-nob.t1x"/>
+        <file name="swe-nob.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-swe-nor.swe-nor.t2x"/>
-        <file name="swe-nor.t2x.bin"/>
+        <file name="apertium-swe-nor.swe-nob.t2x"/>
+        <file name="swe-nob.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-swe-nor.swe-nor.t3x"/>
-        <file name="swe-nor.t3x.bin"/>
+        <file name="apertium-swe-nor.swe-nob.t3x"/>
+        <file name="swe-nob.t3x.bin"/>
       </program>
       <program name="lt-proc $1">
         <file name="swe-nob.autogen.bin"/>
@@ -57,16 +57,16 @@
         <file name="swe-nno.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-swe-nor.swe-nor.t1x"/>
-        <file name="swe-nor.t1x.bin"/>
+        <file name="apertium-swe-nor.swe-nno.t1x"/>
+        <file name="swe-nno.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-swe-nor.swe-nor.t2x"/>
-        <file name="swe-nor.t2x.bin"/>
+        <file name="apertium-swe-nor.swe-nno.t2x"/>
+        <file name="swe-nno.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-swe-nor.swe-nor.t3x"/>
-        <file name="swe-nor.t3x.bin"/>
+        <file name="apertium-swe-nor.swe-nno.t3x"/>
+        <file name="swe-nno.t3x.bin"/>
       </program>
       <program name="lt-proc $1">
         <file name="swe-nno.autogen.bin"/>
@@ -121,16 +121,16 @@
         <file name="swe-nno.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-swe-nor.swe-nor.t1x"/>
-        <file name="swe-nor.t1x.bin"/>
+        <file name="apertium-swe-nor.swe-nno.t1x"/>
+        <file name="swe-nno.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-swe-nor.swe-nor.t2x"/>
-        <file name="swe-nor.t2x.bin"/>
+        <file name="apertium-swe-nor.swe-nno.t2x"/>
+        <file name="swe-nno.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-swe-nor.swe-nor.t3x"/>
-        <file name="swe-nor.t3x.bin"/>
+        <file name="apertium-swe-nor.swe-nno.t3x"/>
+        <file name="swe-nno.t3x.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -154,16 +154,16 @@
         <file name="swe-nno.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-swe-nor.swe-nor.t1x"/>
-        <file name="swe-nor.t1x.bin"/>
+        <file name="apertium-swe-nor.swe-nno.t1x"/>
+        <file name="swe-nno.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-swe-nor.swe-nor.t2x"/>
-        <file name="swe-nor.t2x.bin"/>
+        <file name="apertium-swe-nor.swe-nno.t2x"/>
+        <file name="swe-nno.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-swe-nor.swe-nor.t3x"/>
-        <file name="swe-nor.t3x.bin"/>
+        <file name="apertium-swe-nor.swe-nno.t3x"/>
+        <file name="swe-nno.t3x.bin"/>
       </program>
       <program name="lt-proc -d">
         <file name="swe-nno.autogen.bin"/>

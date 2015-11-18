@@ -32,10 +32,9 @@ TARGETS_COMMON = \
       $(PREFIX1n).autobil.bin \
       $(PREFIX1b).autolex.bin \
       $(PREFIX1n).autolex.bin \
+      $(PREFIX1b).t1x.bin $(PREFIX1b).t2x.bin $(PREFIX1b).t3x.bin \
+      $(PREFIX1n).t1x.bin $(PREFIX1n).t2x.bin $(PREFIX1n).t3x.bin \
       $(PREFIX1b).autogen.bin \
-      $(PREFIX1).t1x.bin \
-      $(PREFIX1).t2x.bin \
-      $(PREFIX1).t3x.bin \
       $(PREFIX1n).autogen.bin \
       $(PREFIX2n).prob \
       $(PREFIX2b).prob \
@@ -101,11 +100,11 @@ $(PREFIX2n).prob: $(AP_SRC2n)/$(LANG2n).prob
 	cp $< $@
 
 ###############################################################################
-## Disambiguation rules 
+## Disambiguation rules
 ###############################################################################
 
 $(PREFIX1).rlx.bin: $(AP_SRC1)/apertium-$(LANG1).$(LANG1).rlx
-	cg-comp $< $@ 
+	cg-comp $< $@
 
 $(PREFIX2b).rlx.bin: $(AP_SRC2b)/apertium-$(LANG2b).$(LANG2b).rlx
 	cg-comp $< $@
@@ -132,12 +131,15 @@ $(PREFIX2).autolex.bin: $(BASENAME).$(PREFIX2).lrx
 ###############################################################################
 
 $(PREFIX1b).autobil.bin: $(BASENAME).$(PREFIX1).dix
+	apertium-validate-dictionary $<
 	lt-comp --var-right=nob lr $< $@
 
 $(PREFIX1n).autobil.bin: $(BASENAME).$(PREFIX1).dix
+	apertium-validate-dictionary $<
 	lt-comp --var-right=nno lr $< $@
 
 $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
+	apertium-validate-dictionary $<
 	lt-comp rl $< $@
 
 
@@ -145,17 +147,32 @@ $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 ## Structural transfer rules
 ###############################################################################
 
-$(PREFIX1).t1x.bin: $(BASENAME).$(PREFIX1).t1x
+$(PREFIX1b).t1x.bin: $(BASENAME).$(PREFIX1b).t1x
 	apertium-validate-transfer $<
 	apertium-preprocess-transfer $< $@
 
-$(PREFIX1).t2x.bin: $(BASENAME).$(PREFIX1).t2x
+$(PREFIX1b).t2x.bin: $(BASENAME).$(PREFIX1b).t2x
 	apertium-validate-interchunk $<
 	apertium-preprocess-transfer $< $@
 
-$(PREFIX1).t3x.bin: $(BASENAME).$(PREFIX1).t3x
+$(PREFIX1b).t3x.bin: $(BASENAME).$(PREFIX1b).t3x
 	apertium-validate-postchunk $<
 	apertium-preprocess-transfer $< $@
+
+
+$(PREFIX1n).t1x.bin: $(BASENAME).$(PREFIX1n).t1x
+	apertium-validate-transfer $<
+	apertium-preprocess-transfer $< $@
+
+$(PREFIX1n).t2x.bin: $(BASENAME).$(PREFIX1n).t2x
+	apertium-validate-interchunk $<
+	apertium-preprocess-transfer $< $@
+
+$(PREFIX1n).t3x.bin: $(BASENAME).$(PREFIX1n).t3x
+	apertium-validate-postchunk $<
+	apertium-preprocess-transfer $< $@
+
+
 
 $(PREFIX2).t1x.bin: $(BASENAME).$(PREFIX2).t1x
 	apertium-validate-transfer $<
@@ -174,18 +191,17 @@ $(PREFIX2).t3x.bin: $(BASENAME).$(PREFIX2).t3x
 ## Distribution
 ###############################################################################
 
-EXTRA_DIST=$(BASENAME).$(LANG1).dix \
-	   $(BASENAME).$(PREFIX1).dix \
-	   $(BASENAME).$(LANG1).rlx \
-	   $(BASENAME).$(LANG2b).rlx $(BASENAME).$(LANG2n).rlx \
+EXTRA_DIST=$(BASENAME).$(PREFIX1).dix \
 	   $(BASENAME).$(PREFIX1b).lrx \
 	   $(BASENAME).$(PREFIX1n).lrx \
 	   $(BASENAME).$(PREFIX2b).lrx \
 	   $(BASENAME).$(PREFIX2n).lrx \
-           $(PREFIX1).prob \
-	   $(BASENAME).$(PREFIX1).t1x \
-	   $(BASENAME).$(PREFIX1).t2x \
-	   $(BASENAME).$(PREFIX1).t3x \
+	   $(BASENAME).$(PREFIX1n).t1x \
+	   $(BASENAME).$(PREFIX1b).t1x \
+	   $(BASENAME).$(PREFIX1n).t2x \
+	   $(BASENAME).$(PREFIX1b).t2x \
+	   $(BASENAME).$(PREFIX1n).t3x \
+	   $(BASENAME).$(PREFIX1b).t3x \
 	   $(BASENAME).$(PREFIX2).t1x \
 	   $(BASENAME).$(PREFIX2).t2x \
 	   $(BASENAME).$(PREFIX2).t3x \
@@ -200,13 +216,16 @@ EXTRA_DIST=$(BASENAME).$(LANG1).dix \
 apertium_swe_nordir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
 
 apertium_swe_nor_DATA=$(TARGETS_COMMON) \
-	   $(BASENAME).$(PREFIX1).t1x \
-	   $(BASENAME).$(PREFIX1).t2x \
-	   $(BASENAME).$(PREFIX1).t3x \
-	   $(BASENAME).$(PREFIX2).t1x \
-	   $(BASENAME).$(PREFIX2).t2x \
-	   $(BASENAME).$(PREFIX2).t3x \
-    $(PREFIX1).prob
+	$(BASENAME).$(PREFIX1n).t1x \
+	$(BASENAME).$(PREFIX1b).t1x \
+	$(BASENAME).$(PREFIX1n).t2x \
+	$(BASENAME).$(PREFIX1b).t2x \
+	$(BASENAME).$(PREFIX1n).t3x \
+	$(BASENAME).$(PREFIX1b).t3x \
+	$(BASENAME).$(PREFIX2).t1x \
+	$(BASENAME).$(PREFIX2).t2x \
+	$(BASENAME).$(PREFIX2).t3x \
+	$(PREFIX1).prob
 
 # All modes are created by the same goal, listing several will just give problems with make -j2
 noinst_DATA=modes/$(PREFIX1b).mode
@@ -218,7 +237,19 @@ install-data-local: install-modes
 ## Cleanup
 ###############################################################################
 
-CLEANFILES = $(TARGETS_COMMON) 
-clean-local: 
+CLEANFILES = $(TARGETS_COMMON)
+clean-local:
 	-rm -rf .deps modes
 
+###############################################################################
+## Test
+###############################################################################
+
+test: all
+	echo "Såg hon inte orden?" | apertium -d . swe-nno | tee .test-mt
+	@echo "Såg ho ikkje orda?" > .test-ref
+	@diff .test-ref .test-mt
+	echo "Jag har ålar i min svävare" | apertium -d . swe-nob | tee .test-mt
+	@echo "Jeg har åler i min luftputebåt" > .test-ref
+	@diff .test-ref .test-mt
+	@rm .test-ref .test-mt

@@ -10,11 +10,14 @@
 /apertium-swe-nor.nor-swe.t2x -text
 /apertium-swe-nor.nor-swe.t3x -text
 /apertium-swe-nor.swe-nno.lrx -text
+/apertium-swe-nor.swe-nno.t1x -text
+/apertium-swe-nor.swe-nno.t2x -text
+/apertium-swe-nor.swe-nno.t3x -text
 /apertium-swe-nor.swe-nob.lrx -text
+/apertium-swe-nor.swe-nob.t1x -text
+/apertium-swe-nor.swe-nob.t2x -text
+/apertium-swe-nor.swe-nob.t3x -text
 /apertium-swe-nor.swe-nor.dix -text
-/apertium-swe-nor.swe-nor.t1x -text
-/apertium-swe-nor.swe-nor.t2x -text
-/apertium-swe-nor.swe-nor.t3x -text
 /autogen.sh -text
 /configure.ac -text
 dev/precommit-testvoc.sh -text
