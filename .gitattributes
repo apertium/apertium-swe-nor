@@ -20,6 +20,7 @@
 /apertium-swe-nor.swe-nor.dix -text
 /autogen.sh -text
 /configure.ac -text
+dev/analyse-all-stages.sh -text
 dev/precommit-testvoc.sh -text
 dev/testvoc/bidix-unknowns.sh -text
 dev/testvoc/generation.sh -text
