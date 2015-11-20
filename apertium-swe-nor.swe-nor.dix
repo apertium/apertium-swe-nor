@@ -64,6 +64,7 @@
     <sdef n="adv"     c="Adverb"/>
     <sdef n="adj"     c="Adjective"/>
     <sdef n="sint"    c="Synthetic (of adjectives)"/>
+    <sdef n="part"    c="Infinitive mark (nno/nob)"/>
     <sdef n="cnjsub"  c="Subordinating conjunction"/>
     <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
     <sdef n="cnjadv"  c="Adverbial conjunction"/>
@@ -281,6 +282,7 @@
     <!-- SECTION: Conjunctions -->
 
     <e><p><l>att<s n="cnjsub"/></l><r>at<s n="cnjsub"/></r></p></e>
+    <e><p><l>att<s n="cnjsub"/></l><r>å<s n="part"/></r></p></e> <!-- TODO! -->
     <e><p><l>ty<s n="cnjsub"/></l><r>fordi<s n="cnjsub"/></r></p></e>
     <!--<e><p><l>till<b/>att<s n="cnjsub"/></l><r>til<b/>at<s n="cnjsub"/></r></p></e>-->
     <!--<e><p><l>så<b/>att<s n="cnjsub"/></l><r>så<b/>at<s n="cnjsub"/></r></p></e>-->
@@ -301,8 +303,7 @@
 
     <!-- SECTION: Prepositions -->
 
-    <e><p><l>att<s n="pr"/></l><r>å<s n="pr"/></r></p></e>
-    <e><p><l>utom<s n="pr"/></l><r>utom<s n="pr"/></r></p></e>
+    <e><p><l>utom<s n="pr"/></l><r>utanom<s n="pr"/></r></p></e>
     <e><p><l>via<s n="pr"/></l><r>via<s n="pr"/></r></p></e>
     <e><p><l>enligt<s n="pr"/></l><r>ifølge<s n="pr"/></r></p></e>
     <e vr="nob"><p><l>ur<s n="pr"/></l><r>fra<s n="pr"/></r></p></e>
