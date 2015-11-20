@@ -51,6 +51,7 @@
     <sdef n="actv"    c="Active (Swedish)"/>
     <sdef n="inf"     c="Infinitive"/>
     <sdef n="pres"    c="Present"/>
+    <sdef n="pis"     c="Past subjunctive"/>
     <sdef n="imp"     c="Imperative"/>
     <sdef n="past"     c="Past tense (Danish)"/>
     <sdef n="pret"     c="Past tense (Bokmål)"/>
@@ -200,6 +201,7 @@
   <e>       <p><l><s n="vbser"/><s n="inf"/><s n="pasv"/></l><r><s n="vblex"/><s n="inf"/><s n="pasv"/></r></p></e>
   <e>       <p><l><s n="vbser"/><s n="past"/><s n="actv"/></l><r><s n="vblex"/><s n="pret"/></r></p></e>
   <e>       <p><l><s n="vbser"/><s n="pres"/><s n="actv"/></l><r><s n="vblex"/><s n="pres"/></r></p></e>
+  <e>       <p><l><s n="vbser"/><s n="pis"/><s n="actv"/></l><r><s n="vblex"/><s n="pres"/></r></p></e>
   <e>       <p><l><s n="vbser"/><s n="inf"/><s n="actv"/></l><r><s n="vblex"/><s n="inf"/></r></p></e>
   <e>       <p><l><s n="vbser"/><s n="imp"/></l><r><s n="vblex"/><s n="imp"/></r></p></e>
   <e>       <p><l><s n="adj"/><s n="pprs"/></l><r><s n="adj"/><s n="pprs"/></r></p></e>
@@ -7805,11 +7807,25 @@
     <e vr="nno"><p><l>möjlig<s n="adj"/></l><r>mogleg<s n="adj"/></r></p></e>
 
     <e><p><l>lätt<s n="adj"/></l><r>lett<s n="adj"/><s n="sint"/></r></p></e>
+    <e vr="nob"><p><l>ansvarig<s n="adj"/></l><r>ansvarlig<s n="adj"/></r></p></e>
+    <e vr="nob"><p><l>oansvarig<s n="adj"/></l><r>uansvarlig<s n="adj"/></r></p></e>
+    <e vr="nno"><p><l>ansvarig<s n="adj"/></l><r>ansvarleg<s n="adj"/></r></p></e>
+    <e vr="nno"><p><l>oansvarig<s n="adj"/></l><r>uansvarleg<s n="adj"/></r></p></e>
     <e><p><l>säker<s n="adj"/></l><r>sikker<s n="adj"/></r></p></e>
+    <e><p><l>osäker<s n="adj"/></l><r>usikker<s n="adj"/></r></p></e>
+    <e><p><l>solidarisk<s n="adj"/></l><r>solidarisk<s n="adj"/></r></p></e>
+    <e><p><l>osolidarisk<s n="adj"/></l><r>usolidarisk<s n="adj"/></r></p></e>
+    <e><p><l>ordinär<s n="adj"/></l><r>ordinær<s n="adj"/></r></p></e>
     <e><p><l>religiös<s n="adj"/></l><r>religiøs<s n="adj"/></r></p></e>
+    <e><p><l>rimlig<s n="adj"/></l><r>rettferdig<s n="adj"/></r></p></e>
+    <e><p><l>orimlig<s n="adj"/></l><r>urettferdig<s n="adj"/></r></p></e>
     <e><p><l>särskild<s n="adj"/></l><r>særskild<s n="adj"/></r></p></e>
+    <e vr="nob"><p><l>ond<s n="adj"/></l><r>ond<s n="adj"/><s n="sint"/></r></p></e>
+    <e vr="nno"><p><l>ond<s n="adj"/></l><r>vond<s n="adj"/><s n="sint"/></r></p></e>
     <e vr="nob"><p><l>trött<s n="adj"/></l><r>trøtt<s n="adj"/><s n="sint"/></r></p></e>
     <e vr="nno"><p><l>trött<s n="adj"/></l><r>trøytt<s n="adj"/><s n="sint"/></r></p></e>
+    <e vr="nob"><p><l>onaturlig<s n="adj"/></l><r>unaturlig<s n="adj"/></r></p></e>
+    <e vr="nno"><p><l>onaturlig<s n="adj"/></l><r>unaturleg<s n="adj"/></r></p></e>
     <e><p><l>nödvändig<s n="adj"/></l><r>nødvendig<s n="adj"/></r></p></e>
     <e><p><l>ledig<s n="adj"/></l><r>ledig<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>allmän<s n="adj"/></l><r>allmenn<s n="adj"/><s n="sint"/></r></p></e>
@@ -7910,6 +7926,7 @@
     <e><p><l>nordlig<s n="adj"/></l><r>nordleg<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>billig<s n="adj"/></l><r>billeg<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>vanlig<s n="adj"/></l><r>vanleg<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>ovanlig<s n="adj"/></l><r>uvanleg<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>rolig<s n="adj"/></l><r>roleg<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>farlig<s n="adj"/></l><r>farleg<s n="adj"/><s n="sint"/></r></p></e>
     <e><p><l>kraftig<s n="adj"/></l><r>kraftig<s n="adj"/><s n="sint"/></r></p></e>
@@ -8725,6 +8742,7 @@
     <e><p><l>röka<s n="vblex"/></l><r>røyke<s n="vblex"/></r></p></e>
     <e><p><l>kommentera<s n="vblex"/></l><r>kommentere<s n="vblex"/></r></p></e>
     <e><p><l>förhandla<s n="vblex"/></l><r>forhandle<s n="vblex"/></r></p></e>
+    <e><p><l>sköta<s n="vblex"/></l><r>skote<s n="vblex"/></r></p></e>
 
 
 
