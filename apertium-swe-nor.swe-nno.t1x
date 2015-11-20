@@ -1017,7 +1017,7 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
       <action>
         <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
         <call-macro n="out_gen-prep"><with-param pos="1"/></call-macro>
-
+        <let><clip pos="1" side="tl" part="nbr"/><lit v=""/></let> <!-- Sverige -->
         <call-macro n="stash_case_in_ntags"><with-param pos="1"/></call-macro>
         <out>
           <chunk name="np" case="caseFirstWord">
