@@ -143,7 +143,7 @@ Värnpliktiga kategori E får uppgifter som det tar särskilt lång tid att lär
 En del av dessa värnpliktiga skall t.ex. handha särskilt komplicerad och dyrbar materiel . 
 De har därför lika lång grundutbildning som värnpliktiga uttagna till underbefälsutbildning . 
 De flesta värnpliktiga tillhör kategori F , som har 300 dagars grundutbildning . 
-F-värnpliktiga skall bl_a lära sig strida i förband . 
+F-värnpliktiga skall bl.a. lära sig strida i förband . 
 Värnpliktiga som tillhör kategori G har den kortaste grundutbildningen - 255 dagar . 
 De utbildas främst för andra uppgifter än strid . 
 Om du tagits ut till längre tjänstgöring än många andra beror det på att man vid uttagningen funnit att just du har förutsättningar att klara de uppgifter och ta det ansvar som krävs av befäl och E-värnpliktiga . 
@@ -510,7 +510,7 @@ Eleverna kommer alltså att i större utsträckning få arbeta med konkret mater
 I ämnet musik förändras såväl innehåll som arbetssätt . 
 Man skall mer än tidigare knyta an till elevernas spontana musikintresse . 
 Förstärkning av vissa ämnesinslag 
-Undervisningen blir utökad i bl_a * miljöfrågor * sexual- och samlevnadsfrågor * könsrollsfrågor * internationella frågor och problem * trafik * alkohol , narkotika och tobak 
+Undervisningen blir utökad i bl.a. * miljöfrågor * sexual- och samlevnadsfrågor * könsrollsfrågor * internationella frågor och problem * trafik * alkohol , narkotika och tobak 
 Undervisning i dessa moment ingår i flera av skolans ämnen . 
 En samordning av undervisningen i dessa ämnen blir därför nödvändig . 
 Förändringar i skolans inre arbete 
@@ -688,7 +688,7 @@ Hur mycket dyrare ?
 Statistiska centralbyrån beräknar varje månad de genomsnittliga prisförändringarna för de varor och tjänster vi konsumerar . 
 Prisförändringarna uttrycks i konsumentprisindex ( KPI ) . 
 För att kunna upprätthålla oförändrad standard vill vi ha kompensation för prisstegringarna . 
-I avtalstider när våra löner skall justeras tas bl_a hänsyn till kronans minskade köpkraft . 
+I avtalstider när våra löner skall justeras tas bl.a. hänsyn till kronans minskade köpkraft . 
 Då används KPI . 
 Många andra i samhället än löntagarna är också beroende av att deras levnadsstandard är värdeskyddad . 
 Omkring en miljon äldre får sina pensioner höjda indirekt genom KPI . 
@@ -864,7 +864,7 @@ Men även de bilar som blir godkända har stora brister .
 Fakta om fordon 
 Bilköpet är en stor utgift för hushållet . 
 Bilköparen har rätt att veta vad han / hon lägger ner pengar på . 
-Den statliga konsumentutredningen skall bl_a jämföra olika bilmärken med varandra . 
+Den statliga konsumentutredningen skall bl.a. jämföra olika bilmärken med varandra . 
 En del bilmodeller kommer att visa sig bättre än andra från säkerhetssynpunkt . 
 Men konsumenten bör också kunna få besked om vilka grundläggande brister alla bilar har - även de som är relativt säkrare än andra . 
 Sverige - bilsamhället 
@@ -903,7 +903,7 @@ Fler resor görs kollektivt .
 Antalet skadade var ca 14000 . 
 Till detta kommer de dödade och skadade som inte själva åkte bil - fotgängare och cyklister . 
 Man kan öka säkerheten genom att ändra på miljön . 
-Bilolyckorna kostar oss varje år enligt vissa beräkningar mellan fem och tio miljarder kronor i bl_a sjukvård , produktionsbortfall och materiella skador . 
+Bilolyckorna kostar oss varje år enligt vissa beräkningar mellan fem och tio miljarder kronor i bl.a. sjukvård , produktionsbortfall och materiella skador . 
 För stora krav 
 I trafiksystemet använder bilister , cyklister och fotgängare ofta samma utrymme . 
 Trafikmiljön är fylld av inslag som tar bilistens uppmärksamhet från själva körningen - bilar , stolpar , trafikskyltar , andra trafikslag , reklamskyltar . 
@@ -1032,7 +1032,7 @@ Parlamentarism har däremot inte varit bestämd i lagen , men har i praktiken ti
 I början av 1950-talet aktualiserades frågan om en grundlagsreform . 
 Efter omfattande utredningar och överläggningar mellan de fyra stora riksdagspartierna beslutade riksdagen om vissa delreformer som ska träda i kraft den 1 januari 1971 . 
 De innebär att * tvåkammarriksdagen ersätts med en enkammarriksdag med 350 ledamöter , * ett nytt valsystem med direkta val till hela riksdagen och 3-åriga mandatperioder införs . Valsystemet tillämpas redan vid höstens val , * parlamentarismen skrivs delvis in i grundlagen , * val till riksdag , landsting och kommunfullmäktige sker samtidigt . 
-Parlamentarismen kommer till uttryck bl_a på följande sätt : 
+Parlamentarismen kommer till uttryck bl.a. på följande sätt : 
 Riksdagen får rätt att besluta om misstroendeförklaring mot regeringen eller mot ett enskilt statsråd . 
 Ett sådant förslag ska tas upp till behandling om minst 10 % av riksdagens ledamöter begär det . 
 För beslut om misstroendeförklaring krävs minst 176 röster , dvs mer än hälften av riksdagens ledamöter . 
@@ -1047,7 +1047,7 @@ Man får nu rösträtt det år man fyller 20 år .
 Valbarhetsåldern sänks och blir lika med myndighetsåldern . 
 Man är valbar om man fyller 20 år senast på valdagen . 
 Grundlagberedningen fortsätter sitt arbete . 
-Den ska bl_a utreda riksdagens arbetsformer och statschefens ställning i en modern demokrati . 
+Den ska bl.a. utreda riksdagens arbetsformer och statschefens ställning i en modern demokrati . 
 Den nya enkammarriksdagen kommer att inrymmas i detta hus vid Sergels torg i Stockholm . 
 Det behöver byggas många lägenheter under den närmaste 15-årsperioden . 
 I regionplaneförslaget räknar man så här : 
@@ -1085,7 +1085,7 @@ Så här föreslås lägenheterna bli fördelade
 Se på kartan : varje ljusröd kvadrat innebär 1000 lägenheter idag , varje mörkröd kvadrat ett nytillskott av 1000 lägenheter till 1985 . 
 En del kommer till i stora utbyggnadsområden som Järva eller Norra Botkyrka , det mesta byggs i mindre områden i olika delar av Storstockholm . 
 Under den första 5-årsperioden är bostadsbyggandet mer eller mindre låst på grund av redan fattade beslut eller färdiga planer . 
-I vissa fall anses utbyggnaden låst ända fram till 1985 , bl_a för norra Järvafältet . 
+I vissa fall anses utbyggnaden låst ända fram till 1985 , bl.a. för norra Järvafältet . 
 I Stockholms innerstad beräknas bostadsbeståndet minska med ca 14000 lägenheter . 
 Många smålägenheter försvinner och större kommer istället . 
 I nya stadskärnor och bland bostadsområden finns plats för 225000 nya arbeten 
@@ -1099,7 +1099,7 @@ Varje kvadrat och prick motsvarar 1000 arbetsplatser .
 Antalet sysselsatta i Stockholms innerstad , den stora blå stapeln mitt i kartan , skall enligt förslaget hållas oförändrat vid omkring 290000 under 15-årsperioden . 
 Nya arbetsplatsområden , längre från city , planeras främst vid Järva och i Huddinge , där nya stadskärnor bildas . 
 Södra Järvafältet anges i regionplanen med 30000 arbetsplatser till 1985 , Norra Järvafältet ( Hansta regioncentrum , Veddesta , del av Sollentuna ) med 32500 arbetsplatser och Västra Huddinge ( Flemingsberg och Kolartorp ) med 27000 arbetsplatser . 
-Under samma tid tänks bl_a Ullnaområdet öka med 9000 , Märsta industriområde ( inklusive Arlanda ) med 7000 , Jordbro med 4000 , Triangeln ( Nacka - Tyresö ) med 5000 och Botkyrka med 12000 . 
+Under samma tid tänks bl.a. Ullnaområdet öka med 9000 , Märsta industriområde ( inklusive Arlanda ) med 7000 , Jordbro med 4000 , Triangeln ( Nacka - Tyresö ) med 5000 och Botkyrka med 12000 . 
 För övrigt förutsätts att ca en tredjedel av alla arbetsplatser är spridda i bostadsområdena . 
 Kärnkraftens ABC 
 Ett enda i naturen förekommande ämne har den unika egenskap , att dess minsta byggstenar , atomerna , lätt kan gå i stycken eller , enligt fackspråket , klyvas utan att man behöver tillgripa bombardemang med partiklar med hög energi . 
@@ -1137,7 +1137,7 @@ Sötvatten krävs också för stationens drift .
 En särskild utredning sysslar med var detta lämpligen bör tas . 
 Det blir många transporter av stora och tunga anläggningsdelar . 
 Detta behandlas av en särskild utredning . 
-Kommunikationsförhållandena utreds av bl_a Vägförvaltningen . 
+Kommunikationsförhållandena utreds av bl.a. Vägförvaltningen . 
 Sjökarteverket undersöker den bästa farleden och var lämplig hamnplats kan anläggas . 
 För kylning av turbinkondensorerna används havsvatten . 
 Varje reaktoraggregat erfordrar en vattenmängd av ca 40 m3/sek . 
@@ -1149,7 +1149,7 @@ Drygt 200 man krävs år 1971-1972 för forsmarksbygget .
 För drift av det första aggregatet erfordras ca 80 man . 
 För stationen utbyggd med 4 aggregat ca 220 man . 
 En stor del av byggnadspersonalen - främst montörer och specialister - arbetar endast ett eller annat år vid anläggningen . 
-För bl_a denna personal kommer provisoriska bostadsbaracker intill byggnadsområdet att uppföras . 
+För bl.a. denna personal kommer provisoriska bostadsbaracker intill byggnadsområdet att uppföras . 
 Den personal , som blir sysselsatt under hela byggnadstiden , söker sig troligen familjebostäder i bygden . 
 Speciella tjänstebostäder för driftpersonalen kommer icke att uppföras . 
 Driftpersonalen kommer att söka bostäder ute på allmänna marknaden . 
@@ -1334,7 +1334,7 @@ Börja nu
 Det är klokt att i god tid börja se sig om på arbetsmarknaden . 
 Tag kontakt med arbetsförmedlingen om du är osäker på vad du skall göra efter skolan . 
 Väntar du minskar dina möjligheter att noga tänka igenom olika förslag , och du tvingas kanske göra ett mindre övervägt val . 
-Arbetsförmedlingen ger dig information om lediga platser bl_a i veckotidningen Arbetsmarknaden och i lokala platslistor . Den tillhandahåller också en omfattande information om läget på arbetsmarknaden inom olika branscher och inom olika delar av landet erbjuder dig yrkesvägledning vid valet av yrke och utbildningsväg och hjälper dig att kartlägga dina förutsättningar för olika arbetsuppgifter hjälper dig genom arbetsvård att minska eller undanröja det hinder som ett handikapp kan vara för dig på arbetsmarknaden och försöker finna ett lämpligt arbete på öppna marknaden eller erbjuda andra arbetsmöjligheter . 
+Arbetsförmedlingen ger dig information om lediga platser bl.a. i veckotidningen Arbetsmarknaden och i lokala platslistor . Den tillhandahåller också en omfattande information om läget på arbetsmarknaden inom olika branscher och inom olika delar av landet erbjuder dig yrkesvägledning vid valet av yrke och utbildningsväg och hjälper dig att kartlägga dina förutsättningar för olika arbetsuppgifter hjälper dig genom arbetsvård att minska eller undanröja det hinder som ett handikapp kan vara för dig på arbetsmarknaden och försöker finna ett lämpligt arbete på öppna marknaden eller erbjuda andra arbetsmöjligheter . 
 AF har för ditt yrkes- och arbetsval 
 Kunskaper om arbete och utbildning 
 Flyttningshjälp 
@@ -1345,7 +1345,7 @@ Vad är viktigt att ta reda på när man söker arbete ?
 Platslistorna är en god hjälp men ibland behöver man någon att tala med om planerna på yrkes- och utbildningsval . 
 EEC är ingen rikemansklubb . 
 Det är förlorarnas gäng som efter andra världskriget gick på kryckor : 1 Västtyskland 2 Frankrike 3 Italien 4 Belgien 5 Holland 6 Luxemburg 
-Olyckan får inte hända igen , sa De Sex och slog sig ihop med stora framtidsplaner , bl_a för att slippa sargas av flera krig . 
+Olyckan får inte hända igen , sa De Sex och slog sig ihop med stora framtidsplaner , bl.a. för att slippa sargas av flera krig . 
 I dag har kryckorna kastats . 
 Nu handlar det om pengar , makt , utveckling , välfärd . 
 18 afrikanska stater och Madagaskar plus Grekland och Turkiet är nu knutna till EEC genom s.k. associationsavtal . 
@@ -1373,7 +1373,7 @@ Detta är maktens spjutspets i EEC .
 Rådet fattar beslut i alla viktiga frågor . 
 Ministerrådets sekreteriat : 
 Består av 400-500 högt kvalificerade tjänstemän . 
-En betydande maktfaktor , som bl_a håller ett fast grepp om kommissionen ( se nedan ) . 
+En betydande maktfaktor , som bl.a. håller ett fast grepp om kommissionen ( se nedan ) . 
 Ständiga representanternas kommitte : 
 Denna sammanslutning består av mycket framstående och välmeriterade ambassadörer , en från vart och ett av EEC-länderna . 
 Varje ambassadör har i sin tur bakom sig en delegation på 10-40 man . 
@@ -1456,7 +1456,7 @@ Efta : European Free Trade Association ( Den europeiska frihandelssammanslutning
 Nato : North Atlantic Treaty Organization ( Atlantpakten ) . 
 En jättemarknad för Sverige 
 I de sex EEC-länderna bor 185 miljoner människor . 
-En jättemarknad med stor betydelse bl_a för Sveriges utrikeshandel . 
+En jättemarknad med stor betydelse bl.a. för Sveriges utrikeshandel . 
 I de EEC-associerade länderna Grekland och Turkiet bor nära 40 milj människor . 
 I de 18 afrikanska staterna plus Madagaskar bor 65 miljoner . 
 Kommer Storbritannien , Irland , Sverige , Norge och Danmark med så växer EEC med ytterligare cirka 75 milj människor . 
@@ -1665,7 +1665,7 @@ Det skall Bayless hålla reda på .
 Borrningarna till havs kommer troligen inte i gång förrän i början av 1972 . 
 - Ett borrtorn , värt ca 50 milj kr , bogseras ut och förankras på botten . 
 Det får en besättning på kanske 30-40 man som jobbar i skift : två veckors arbete på plattformen med 10-12 timmars arbetsdag följs av en veckas ledighet i land . 
-Bakgrunden till beslutet att satsa pengar på oljeletning i Skåne och Östersjön är bl_a att Sverige importerar petroleum för 3-4 miljarder kronor årligen . 
+Bakgrunden till beslutet att satsa pengar på oljeletning i Skåne och Östersjön är bl.a. att Sverige importerar petroleum för 3-4 miljarder kronor årligen . 
 Det är en tung post i utrikeshandeln som en egen produktion skulle kunna göra lättare - i bästa fall t_o_m eliminera . 
 Men varken Jerome Bayless eller någon annan vet alltså om hasarden kommer att ge någon utdelning . 
 Jerome Bayless leder oljeborrningarna i Skåne . 
@@ -2016,7 +2016,7 @@ Fick de andra arbetstider skulle de trivas bättre och fungera bättre och därf
 Kostnaderna blir små i förhållande till de vinster som kan göras , säger lektor Öqvist . 
 Hög temperatur 
 - Kvällsmänniskor som nu tvingas upp tidigt kan inte heller utnyttja sin fritid meningsfullt . 
-Mot sin egen rytm tvingas de tidigt i säng och går bl_a miste om väsentlig information , exempelvis TV-program . 
+Mot sin egen rytm tvingas de tidigt i säng och går bl.a. miste om väsentlig information , exempelvis TV-program . 
 På lördagar och söndagar då de är lediga behöver de sova för att kompensera sin ' sömnskuld ' och inte heller då kan de som ' morgonmänniskor ' utnyttja ledigheten . 
 Medicinska undersökningar visar att de som är pigga på morgonen har en hög adrenalinproduktion då , medan de som har kvällsarbete och en sen dygnsrytm , exempelvis inom serviceyrken , har maximal adrenalinproduktion på kvällen . 
 Prestationsförmågan är som högst när den normala kroppstemperaturen är som högst på dygnet , visar Öqvists undersökning . 
@@ -2071,7 +2071,7 @@ Från 110000 till 179000
 Arbetskraftsundersökningarna en gång i kvartalet - från 1970 en gång i månaden - visar en långsiktig ökning av antalet sjukfrånvarande . 
 Årsmedeltalet har stigit från 110000 vid de fyra mätningarna 1962 till 170000 vid motsvarande tidpunkt 1969 . 
 Hittills under 1970 är siffrorna bättre än de två föregående åren . 
-Månadsstatistiken över sysselsättning och löner för arbetare inom industrin redovisar bl_a frånvaro ' av personliga skäl ' . 
+Månadsstatistiken över sysselsättning och löner för arbetare inom industrin redovisar bl.a. frånvaro ' av personliga skäl ' . 
 Studerar man siffrorna för februari , april , september och november finner man en kontinuerlig ökning i årsmedeltal på sammanlagt ca 18 procent 1965-1969 . 
 Normalt är numera drygt var tionde industriarbetare borta från arbetet . 
 Sjuktalet upp 26 proc sen 1966 
@@ -2181,7 +2181,7 @@ En del försök att beräkna väntade hyreshöjningar ingår i det material som 
 I förslaget diskuteras också de ändringar som kan behövas i hyreslagen för att stoppa alltför kraftiga hyreshöjningar på platser där det är ont om lägenheter . 
 Minst en miljon i 500000 hyresreglerade lägenheter i landet berörs av förslaget , som regeringen skall fundera på ett par månader innan de bestämmer sig . 
 Regeringen var på vippen att slopa hyresregleringen 1967 men ångrade sig när de borgerliga partierna inte helt utan opposition gick med på förslaget från regeringen . 
-De borgerliga ville bl_a ha en längre övergångstid . 
+De borgerliga ville bl.a. ha en längre övergångstid . 
 Värderingskontor 
 Vad har då hänt i ett par länder , där man avskaffat hyresregleringen ? 
 I Danmark avskaffades hyresregleringen så sent som 1967 . 
@@ -2507,7 +2507,7 @@ För ser man till undervisningsmetoderna så bygger det nya i dem i hög grad p�
 Ett annat viktigt namn bakom de nya metoderna är Jean Piaget , en världsberömd schweizisk forskare och psykolog , som har studerat begreppsbildningen hos barn - till exempel av matematiska begrepp som antal , kvantitet , mängd , rum , tid och hastighet . 
 Han visar att upp till tolvårsåldern är barnens tänkande beroende av konkreta situationer . 
 Det innebär att matematikundervisningen ofta varit alltför abstrakt för att barn skulle kunna begripa vad de höll på med . 
-Vad sen innehållet beträffar så innebär förnyelsen bl_a att man tagit med viktiga delar av de senaste århundradenas matematiska utveckling , som hittills inte rymts i kursplanerna . 
+Vad sen innehållet beträffar så innebär förnyelsen bl.a. att man tagit med viktiga delar av de senaste århundradenas matematiska utveckling , som hittills inte rymts i kursplanerna . 
 Till exempel mängdläran , som på allvar utarbetats för ca 100 år sen , när det blivit nödvändigt för matematikens olika grenar att ha en sammanhållande ram . 
 Den nya mattens påstådda amerikanska härkomst då ? 
 Jo , det stämmer visserligen att amerikanarna tidigt ( = under femtiotalet ) gjorde omfattande undervisningsexperiment . 
@@ -2919,7 +2919,7 @@ Som sådana åtnjuter de enligt borgerlig och kyrklig lag bestämda rättigheter
 Men samhället bestämmer inte bara i frågan om sättet för äktenskapets ingående . 
 Samhällets äktenskapslagar innehåller också bestämmelser om engifte och flergifte , giftermål med anhöriga , skilsmässa osv . 
 Samhället regleras också genom lag om faderskap , familjemedlemmarnas egendom och arvsrätt . 
-På senare tid har krav på andra legaliserade samlevnadsformer än äktenskapet rests av bl_a författarinnan Frances Westin t_v på bilden . 
+På senare tid har krav på andra legaliserade samlevnadsformer än äktenskapet rests av bl.a. författarinnan Frances Westin t_v på bilden . 
 Hon lever själv i en s.k. storfamilj . 
 storfamilj en grupp människor som bor tillsammans och har gemensamt hushåll , dock utan att ha sexuell gemenskap ( jfr s.k. gruppäktenskap ) . 
 I storfamiljen kan ingå en eller flera kärnfamiljer ( far , mor och ev barn ) . 
@@ -2986,7 +2986,7 @@ Barnalstring och uppfostran skulle alltså enligt den ursprungliga protestantisk
 I denna uppgift betraktas föräldrarna ibland som Guds medarbetare och medskapare . 
 Efterhand har emellertid det protestantiska skapelseargumentet kompletterats under trycket från profan västerländsk äktenskapsuppfattning . 
 Det är nog inte många protestanter idag som vill stå för åsikten , att äktenskapet och den sexuella lustupplevelsen inte skulle ha något annat berättigande än barnalstringen . 
-Protestanter använder numera ofta ett värderesonemang : äktenskapet har vi fått för att vi genom det bl_a ska få uppleva sådana värden som personlig gemenskap och den sexuella lusten . 
+Protestanter använder numera ofta ett värderesonemang : äktenskapet har vi fått för att vi genom det bl.a. ska få uppleva sådana värden som personlig gemenskap och den sexuella lusten . 
 Protestanternas andra argument är ursprungligen negativt : äktenskapet är till för att kanalisera sexuell drift och därmed hindra människan från syndiga användningar av denna drift . 
 Idag försöker man i regel ge det här argumentet en positiv formulering : det är bara inom äktenskapets ram som det sexuella samlivet blir fullödigt . 
 Endast där , menar man , kan sexuallivet fullgöra sin dubbla roll att skapa en innerlig gemenskap och att ge upphov till nytt liv . 
@@ -3187,7 +3187,7 @@ Till de största i världen hör verket vid Frimmersdorf i ett brunkolsdistrikt 
 Från detta verk levereras elkraft inte bara till hela Västtyskland utan också till Beneluxländerna och Frankrike . 
 Eftersom priserna på kol och olja är relativt fasta , bestäms avvägningen mellan vatten- och ånggenererad kraftproduktion främst av anläggningskostnaderna för vattenkraftverk . 
 Dessa stiger kraftigt vid utbyggnad av mindre gynnsamma vattendrag . 
-I många länder , bl_a USA och Sovjetunionen , tenderar kostnaderna för nya vattenkraftverk att bli så höga , att anläggningarna ej blir ekonomiska om de inte kan användas även för andra ändamål . 
+I många länder , bl.a. USA och Sovjetunionen , tenderar kostnaderna för nya vattenkraftverk att bli så höga , att anläggningarna ej blir ekonomiska om de inte kan användas även för andra ändamål . 
 I de fall både olja , kol och naturgas med fördel kan användas för kraftproduktionen , har transportkostnadsfaktorn en avgörande betydelse för avvägningen dem emellan . 
 Så är t.ex. transportkostnaderna för oljan , vare sig den går i rörledningar , s.k. pipelines , eller med tankfartyg , väsentligt lägre än för det skrymmande kolet . 
 Kolet har dessutom höga lastnings- och lossningskostnader . 
