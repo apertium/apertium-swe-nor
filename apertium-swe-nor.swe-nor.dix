@@ -501,7 +501,8 @@
     <e><p><l>ljud<s n="n"/><s n="nt"/></l><r>lyd<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>mamma<s n="n"/></l><r>mor<s n="n"/></r></p><par n="ut:mf"/></e>
     <e><p><l>mamma<s n="n"/></l><r>mamma<s n="n"/></r></p><par n="ut:mf"/></e>
-    <e><p><l>hemmamamma<s n="n"/></l><r>heimmamma<s n="n"/></r></p><par n="ut:mf"/></e>
+    <e vr="nno"><p><l>hemmamamma<s n="n"/></l><r>heimemamma<s n="n"/></r></p><par n="ut:mf"/></e>
+    <e vr="nob"><p><l>hemmamamma<s n="n"/></l><r>hjemmemamma<s n="n"/></r></p><par n="ut:mf"/></e>
     <e><p><l>pojke<s n="n"/><s n="ut"/></l><r>gutt<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>stol<s n="n"/><s n="ut"/></l><r>stol<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>svar<s n="n"/><s n="nt"/></l><r>svar<s n="n"/><s n="nt"/></r></p></e>
@@ -816,7 +817,7 @@
     <e><p><l>helst<s n="adv"/></l><r>helst<s n="adv"/></r></p></e>
     <e><p><l>förr<s n="adv"/></l><r>før<s n="adv"/></r></p></e>
     <e><p><l>desto<s n="adv"/></l><r>desto<s n="adv"/></r></p></e>
-    <e><p><l>borta<s n="adv"/></l><r>bort<s n="adv"/></r></p></e>
+    <e><p><l>borta<s n="adv"/></l><r>borte<s n="adv"/></r></p></e>
     <e><p><l>endast<s n="adv"/></l><r>kun<s n="adv"/></r></p></e>
     <e><p><l>strax<s n="adv"/></l><r>straks<s n="adv"/></r></p></e>
     <e><p><l>därav<s n="adv"/></l><r>derav<s n="adv"/></r></p></e>
@@ -1093,14 +1094,9 @@
 
     <!-- SECTION: Suspicious -->
 
-    <e><p><l>media<s n="n"/><s n="ut"/><s n="sg"/></l><r>medium<s n="n"/><s n="nt"/><s n="pl"/></r></p></e> <!-- !!! -->
-    <e><p><l>massmedia<s n="n"/><s n="ut"/></l><r>massmedia<s n="n"/><s n="nt"/></r></p></e> <!-- !!! -->
     <e><p><l>just<s n="cnjadv"/></l><r>nettopp<s n="adv"/></r></p></e> <!-- !!! -->
-    <e><p><l>mycket<s n="adv"/></l><r>mykje<s n="adv"/></r></p></e> <!-- !!! -->
     <e><p><l>fram<s n="adv"/></l><r>fram<s n="pr"/></r></p></e> <!-- !!! -->
     <e><p><l>nedan<s n="abbr"/></l><r>nedan<s n="pr"/></r></p></e> <!-- !!! -->
-    <e vr="nno"><p><l>utifrån<s n="adv"/></l><r>utifrå<s n="pr"/></r></p></e> <!-- !!! -->
-    <e vr="nob"><p><l>utifrån<s n="adv"/></l><r>utifra<s n="pr"/></r></p></e> <!-- !!! -->
 
     <!-- SECTION: Conjunctions -->
 
@@ -1212,6 +1208,8 @@
     <e vr="nno"><p><l>hand<s n="n"/><s n="ut"/></l><r>hand<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>fågel<s n="n"/><s n="ut"/></l><r>fugl<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>krig<s n="n"/><s n="nt"/></l><r>krig<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>media<s n="n"/><s n="ut"/></l><r>media<s n="n"/><s n="nt"/></r></p></e>
+    <e><p><l>massmedia<s n="n"/><s n="ut"/></l><r>massemedia<s n="n"/><s n="nt"/></r></p><par n="sgpl:sp"/></e>
 
     <e><p><l>abbedissa<s n="n"/><s n="ut"/></l><r>abbedisse<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>abborre<s n="n"/><s n="ut"/></l><r>abbor<s n="n"/><s n="GD"/></r></p></e>
@@ -7871,6 +7869,7 @@
     <e vr="nno"><p><l>möjlig<s n="adj"/></l><r>mogleg<s n="adj"/></r></p></e>
 
     <e><p><l>lätt<s n="adj"/></l><r>lett<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>enstak<s n="adj"/></l><r>enkel<s n="adj"/><s n="sint"/></r></p></e>
     <e vr="nob"><p><l>ansvarig<s n="adj"/></l><r>ansvarlig<s n="adj"/></r></p></e>
     <e vr="nob"><p><l>oansvarig<s n="adj"/></l><r>uansvarlig<s n="adj"/></r></p></e>
     <e vr="nno"><p><l>ansvarig<s n="adj"/></l><r>ansvarleg<s n="adj"/></r></p></e>
@@ -8181,6 +8180,9 @@
     <!-- SECTION: Adverbs -->
 
 
+    <e><p><l>mycket<s n="adv"/></l><r>veldig<s n="adv"/></r></p></e>
+    <e r="LR" vr="nno"><p><l>utifrån<s n="adv"/></l><r>ut<b/>frå<s n="adv"/></r></p></e>
+    <e r="LR" vr="nob"><p><l>utifrån<s n="adv"/></l><r>ut<b/>fra<s n="adv"/></r></p></e>
     <e><p><l>snabbt<s n="adv"/></l><r>rask<s n="adv"/></r></p></e>
     <e><p><l>snabbt<s n="adv"/></l><r>fort<s n="adv"/></r></p></e>
     <e><p><l>därefter<s n="adv"/></l><r>deretter<s n="adv"/></r></p></e>
