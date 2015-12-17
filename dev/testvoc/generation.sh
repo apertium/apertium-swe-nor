@@ -25,9 +25,7 @@ EOF
     exit 1
 fi
 
-analysis_expansion () 
-{
-    echo $1
+analysis_expansion () {
     lt-expand "$1" \
         | awk -v clb="$2" -F':|:[<>]:' '
           /:<:/ {next}
@@ -42,8 +40,12 @@ analysis_expansion ()
 }
 
 split_ambig () {
-    python=python3
-    PYTHONPATH="$(dirname "$0"):${PYTHONPATH}" ${python} -c '
+    if command -V pypy3 &>/dev/null; then
+        python=pypy3
+    else
+        python=python3
+    fi
+    PYTHONPATH="$(dirname "$0"):${PYTHONPATH}" "${python}" -c '
 from streamparser import parse_file, readingToString
 import sys
 for blank, lu in parse_file(sys.stdin, withText=True):
@@ -72,7 +74,6 @@ if [[ ${dix} = guess ]]; then
     lang1dir=$(grep -m1 "^AP_SRC.*apertium-${lang1}" config.log | sed "s/^[^=]*='//;s/'$//")
     dix=${lang1dir}/apertium-${lang1}.${lang1}.dix
 fi
-#echo "${dix}"
 
 clb=""
 case ${lang1} in
