@@ -2,7 +2,7 @@
 ## Makefile for Swedish--Norwegian
 ###############################################################################
 
-VERSION=1.0.0
+VERSION=0.1.0
 LANG1=swe
 LANG2=nor
 LANG2n=nno
