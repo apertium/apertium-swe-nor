@@ -28,8 +28,8 @@ AS_IF([test x$LRXCOMP = xfalse], [AC_MSG_ERROR([You don't have lrx-comp installe
 AC_PATH_PROG([LRXPROC], [lrx-proc], [false], [$PATH$PATH_SEPARATOR$with_lrx_proc/bin])
 AS_IF([test x$LRXPROC = xfalse], [AC_MSG_ERROR([You don't have lrx-proc installed])])
 
-AC_PATH_PROG([XSLTPROC], [xslt-proc], [false], [$PATH$PATH_SEPARATOR$with_xslt_proc/bin])
-AS_IF([test x$XSLTPROC = xfalse], [AC_MSG_ERROR([You don't have xslt-proc installed])])
+AC_PATH_PROG([XSLTPROC], [xsltproc], [false], [$PATH$PATH_SEPARATOR$with_xslt_proc/bin])
+AS_IF([test x$XSLTPROC = xfalse], [AC_MSG_ERROR([You don't have xsltproc installed])])
 
 
 
