@@ -276,9 +276,9 @@
     <!--
         A colon (:) in pardef names separate the left from the right
     -->
-    <pardef n=":/leg__adj">
-      <e vr="nno"><p><l></l><r>leg<s n="adj"/></r></p></e>
-      <e vr="nob"><p><l></l><r>lig<s n="adj"/></r></p></e>
+    <pardef n="adj_sint:/leg__adj">
+      <e vr="nno"><p><l><s n="adj"/><s n="sint"/></l><r>leg<s n="adj"/></r></p></e>
+      <e vr="nob"><p><l><s n="adj"/><s n="sint"/></l><r>lig<s n="adj"/></r></p></e>
     </pardef>
 
     </pardefs>
@@ -437,7 +437,7 @@
     <e><p><l>sin<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l><r>seg<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
 
     <e><p><l>många<s n="det"/><s n="qnt"/><s n="un"/></l><r>mange<s n="det"/><s n="qnt"/></r></p></e>
-    <e><p><l>många<s n="adj"/></l><r>mange<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>många</l><r>mange</r></p><par n="adj_sint"/></e>
 
     <e vr="nob"><p><l>varje<s n="det"/></l><r>hver<s n="det"/></r></p></e>
     <e vr="nno"><p><l>varje<s n="det"/><s n="ind"/><s n="un"/></l><r>kvar<s n="det"/><s n="qnt"/><s n="f"/></r></p></e>
@@ -538,261 +538,261 @@
 
     <!-- SECTION: Adjectives -->
 
-    <e><p><l>död<s n="adj"/></l><r>død<s n="adj"/></r></p></e>
-    <e><p><l>absolut<s n="adj"/></l><r>absolutt<s n="adj"/></r></p></e>
-    <e><p><l>afrikansk<s n="adj"/></l><r>afrikansk<s n="adj"/></r></p></e>
-    <e><p><l>akademisk<s n="adj"/></l><r>akademisk<s n="adj"/></r></p></e>
-    <e><p><l>psykologisk<s n="adj"/></l><r>psykologisk<s n="adj"/></r></p></e>
-    <e><p><l>sociologisk<s n="adj"/></l><r>sosiologisk<s n="adj"/></r></p></e>
-    <e><p><l>aktiv<s n="adj"/></l><r>aktiv<s n="adj"/></r></p></e>
-    <e><p><l>alldaglig<s n="adj"/></l><r>dagligdags<s n="adj"/></r></p></e>
-    <e><p><l>allvarlig<s n="adj"/></l><r>alvor</r></p><par n=":/leg__adj"/></e>
-    <e><p><l>allvarlig<s n="adj"/></l><r>seriøs<s n="adj"/></r></p></e>
-    <e><p><l>amerikansk<s n="adj"/></l><r>amerikansk<s n="adj"/></r></p></e>
-    <e><p><l>anonym<s n="adj"/></l><r>anonym<s n="adj"/></r></p></e>
-    <e><p><l>svår<s n="adj"/></l><r>vanske</r></p><par n=":/leg__adj"/></e>
-    <e><p><l>arbetsam<s n="adj"/></l><r>anstrengende<s n="adj"/></r></p></e>
-    <e><p><l>klar<s n="adj"/></l><r>klar<s n="adj"/></r></p></e>
-    <e><p><l>arbetsam<s n="adj"/></l><r>arbeidsom<s n="adj"/></r></p></e>
-    <e><p><l>asiatisk<s n="adj"/></l><r>asiatisk<s n="adj"/></r></p></e>
-    <e><p><l>australisk<s n="adj"/></l><r>australsk<s n="adj"/></r></p></e>
-    <e><p><l>bar<s n="adj"/></l><r>bar<s n="adj"/></r></p></e>
-    <e><p><l>baskisk<s n="adj"/></l><r>baskisk<s n="adj"/></r></p></e>
-    <e><p><l>belgisk<s n="adj"/></l><r>belgisk<s n="adj"/></r></p></e>
-    <e><p><l>blind<s n="adj"/></l><r>blind<s n="adj"/></r></p></e>
-    <e><p><l>blygsam<s n="adj"/></l><r>beskjeden<s n="adj"/></r></p></e>
-    <e><p><l>brittisk<s n="adj"/></l><r>britisk<s n="adj"/></r></p></e>
-    <e><p><l>brun<s n="adj"/></l><r>brun<s n="adj"/></r></p></e>
-    <e><p><l>central<s n="adj"/></l><r>sentral<s n="adj"/></r></p></e>
-    <e><p><l>cynisk<s n="adj"/></l><r>kynisk<s n="adj"/></r></p></e>
-    <e><p><l>dansk<s n="adj"/></l><r>danske<s n="adj"/></r></p></e>
-    <e><p><l>dansk<s n="adj"/></l><r>dansk<s n="adj"/></r></p></e>
-    <e><p><l>demokratisk<s n="adj"/></l><r>demokratisk<s n="adj"/></r></p></e>
-    <e><p><l>byråkratisk<s n="adj"/></l><r>byråkratisk<s n="adj"/></r></p></e>
-    <e><p><l>direkt<s n="adj"/></l><r>direkte<s n="adj"/></r></p></e>
-    <e><p><l>diskret<s n="adj"/></l><r>diskré<s n="adj"/></r></p></e>
-    <e><p><l>djup<s n="adj"/></l><r>dybde<s n="adj"/></r></p></e>
-    <e><p><l>dramatisk<s n="adj"/></l><r>dramatisk<s n="adj"/></r></p></e>
-    <e><p><l>dubbel<s n="adj"/></l><r>dobbel<s n="adj"/></r></p></e>
-    <e><p><l>dum<s n="adj"/></l><r>dum<s n="adj"/></r></p></e>
-    <e><p><l>dyrbar<s n="adj"/></l><r>kostbar<s n="adj"/></r></p></e>
-    <e><p><l>egen<s n="adj"/></l><r>egendefinert<s n="adj"/></r></p></e>
-    <e><p><l>egen<s n="adj"/></l><r>egen<s n="adj"/></r></p></e>
-    <e><p><l>ekonomisk<s n="adj"/></l><r>økonomisk<s n="adj"/></r></p></e>
-    <e><p><l>elastisk<s n="adj"/></l><r>elastisk<s n="adj"/></r></p></e>
-    <e><p><l>elektrisk<s n="adj"/></l><r>elektrisk<s n="adj"/></r></p></e>
-    <e><p><l>elektronisk<s n="adj"/></l><r>elektronisk<s n="adj"/></r></p></e>
-    <e><p><l>engelsk<s n="adj"/></l><r>engelsk<s n="adj"/></r></p></e>
-    <e><p><l>ensam<s n="adj"/></l><r>ensom<s n="adj"/></r></p></e>
-    <e><p><l>enskild<s n="adj"/></l><r>enkelt<s n="adj"/></r></p></e>
-    <e><p><l>etnisk<s n="adj"/></l><r>etnisk<s n="adj"/></r></p></e>
-    <e><p><l>europeisk<s n="adj"/></l><r>europeisk<s n="adj"/></r></p></e>
-    <e><p><l>extra<s n="adj"/></l><r>ekstra<s n="adj"/></r></p></e>
-    <e><p><l>extra<s n="adj"/></l><r>ekstra<s n="adj"/></r></p></e>
-    <e><p><l>faktisk<s n="adj"/></l><r>faktisk<s n="adj"/></r></p></e>
-    <e><p><l>falsk<s n="adj"/></l><r>falsk<s n="adj"/></r></p></e>
-    <e><p><l>falsk<s n="adj"/></l><r>usann<s n="adj"/></r></p></e>
-    <e><p><l>fattig<s n="adj"/></l><r>fattig<s n="adj"/></r></p></e>
-    <e><p><l>finsk<s n="adj"/></l><r>finsk<s n="adj"/></r></p></e>
-    <e><p><l>fransk<s n="adj"/></l><r>fransk<s n="adj"/></r></p></e>
-    <e><p><l>fri<s n="adj"/></l><r>free<s n="adj"/></r></p></e>
-    <e><p><l>fri<s n="adj"/></l><r>fri<s n="adj"/></r></p></e>
-    <e><p><l>fuktig<s n="adj"/></l><r>fuktig<s n="adj"/></r></p></e>
-    <e><p><l>full<s n="adj"/></l><r>full<s n="adj"/></r></p></e>
-    <e><p><l>ful<s n="adj"/></l><r>stygg<s n="adj"/></r></p></e>
-    <e><p><l>gammal<s n="adj"/></l><r>gammel<s n="adj"/></r></p></e>
-    <e><p><l>gen<s n="adj"/></l><r>gen<s n="adj"/></r></p></e>
-    <e><p><l>giftig<s n="adj"/></l><r>giftig<s n="adj"/></r></p></e>
-    <e><p><l>gift<s n="adj"/></l><r>gift<s n="adj"/></r></p></e>
-    <e><p><l>glad<s n="adj"/></l><r>glad<s n="adj"/></r></p></e>
-    <e><p><l>godmodig<s n="adj"/></l><r>godmodig<s n="adj"/></r></p></e>
-    <e><p><l>god<s n="adj"/></l><r>god<s n="adj"/></r></p></e>
-    <e><p><l>grekisk<s n="adj"/></l><r>gresk<s n="adj"/></r></p></e>
-    <e><p><l>grund<s n="adj"/></l><r>grunnet<s n="adj"/></r></p></e>
-    <e><p><l>grund<s n="adj"/></l><r>grunn<s n="adj"/></r></p></e>
-    <e><p><l>grym<s n="adj"/></l><r>grusom<s n="adj"/></r></p></e>
-    <e><p><l>gudomlig<s n="adj"/></l><r>guddomme</r></p><par n=":/leg__adj"/></e>
-    <e><p><l>gul<s n="adj"/></l><r>gul<s n="adj"/></r></p></e>
-    <e><p><l>gynnsam<s n="adj"/></l><r>gunstig<s n="adj"/></r></p></e>
-    <e><p><l>havande<s n="adj"/></l><r>gravid<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>hel<s n="adj"/></l><r>hel<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>hel<s n="adj"/></l><r>heil<s n="adj"/></r></p></e>
-    <e><p><l>hemsk<s n="adj"/></l><r>forferde</r></p><par n=":/leg__adj"/></e>
-    <e><p><l>hemsk<s n="adj"/></l><r>uhygge</r></p><par n=":/leg__adj"/></e>
-    <e><p><l>het<s n="adj"/></l><r>het<s n="adj"/></r></p></e>
-    <e><p><l>historisk<s n="adj"/></l><r>historisk<s n="adj"/></r></p></e>
-    <e><p><l>hungrig<s n="adj"/></l><r>sulten<s n="adj"/></r></p></e>
-    <e><p><l>hydraulisk<s n="adj"/></l><r>hydraulisk<s n="adj"/></r></p></e>
-    <e><p><l>hygienisk<s n="adj"/></l><r>hygienisk<s n="adj"/></r></p></e>
-    <e><p><l>mentalhygienisk<s n="adj"/></l><r>mentalhygienisk<s n="adj"/></r></p></e>
-    <e><p><l>hysterisk<s n="adj"/></l><r>hysterisk<s n="adj"/></r></p></e>
-    <e><p><l>ideal<s n="adj"/></l><r>ideal<s n="adj"/></r></p></e>
-    <e><p><l>identisk<s n="adj"/></l><r>identisk<s n="adj"/></r></p></e>
-    <e><p><l>erotisk<s n="adj"/></l><r>erotisk<s n="adj"/></r></p></e>
-    <e><p><l>romantisk<s n="adj"/></l><r>romantisk<s n="adj"/></r></p></e>
-    <e><p><l>indisk<s n="adj"/></l><r>indisk<s n="adj"/></r></p></e>
-    <e><p><l>internationell<s n="adj"/></l><r>internasjonal<s n="adj"/></r></p></e>
-    <e><p><l>intressant<s n="adj"/></l><r>interessant<s n="adj"/></r></p></e>
-    <e><p><l>judisk<s n="adj"/></l><r>jødisk<s n="adj"/></r></p></e>
-    <e><p><l>juridisk<s n="adj"/></l><r>juridisk<s n="adj"/></r></p></e>
-    <e><p><l>kall<s n="adj"/></l><r>kald<s n="adj"/></r></p></e>
-    <e><p><l>kall<s n="adj"/></l><r>kald<s n="adj"/></r></p></e>
-    <e><p><l>kall<s n="adj"/></l><r>kall<s n="adj"/></r></p></e>
-    <e><p><l>kemisk<s n="adj"/></l><r>kjemisk<s n="adj"/></r></p></e>
-    <e><p><l>kinesisk<s n="adj"/></l><r>kinesisk<s n="adj"/></r></p></e>
-    <e><p><l>klassisk<s n="adj"/></l><r>klassisk<s n="adj"/></r></p></e>
-    <e><p><l>klentrogen<s n="adj"/></l><r>skeptisk<s n="adj"/></r></p></e>
-    <e><p><l>komisk<s n="adj"/></l><r>komisk<s n="adj"/></r></p></e>
-    <e><p><l>komplett<s n="adj"/></l><r>komplett<s n="adj"/></r></p></e>
-    <e><p><l>komplett<s n="adj"/></l><r>tidsplanlegger<s n="adj"/></r></p></e>
-    <e><p><l>konstgjord<s n="adj"/></l><r>kunstig<s n="adj"/></r></p></e>
-    <e><p><l>kritisk<s n="adj"/></l><r>batteri<s n="adj"/></r></p></e>
-    <e><p><l>kritisk<s n="adj"/></l><r>kritisk<s n="adj"/></r></p></e>
-    <e><p><l>krokig<s n="adj"/></l><r>krokete<s n="adj"/></r></p></e>
-    <e><p><l>kvinnlig<s n="adj"/></l><r>kvinne</r></p><par n=":/leg__adj"/></e>
-    <e><p><l>lat<s n="adj"/></l><r>lat<s n="adj"/></r></p></e>
-    <e><p><l>ledsen<s n="adj"/></l><r>lei<s n="adj"/></r></p></e>
-    <e><p><l>liberal<s n="adj"/></l><r>liberal<s n="adj"/></r></p></e>
-    <e><p><l>liknande<s n="adj"/></l><r>lignende<s n="adj"/></r></p></e>
-    <e><p><l>lik<s n="adj"/></l><r>lik<s n="adj"/></r></p></e>
-    <e><p><l>liten<s n="adj"/></l><r>liten<s n="adj"/></r></p></e>
-    <e><p><l>livlig<s n="adj"/></l><r>liv</r></p><par n=":/leg__adj"/></e>
-    <e><p><l>ljum<s n="adj"/></l><r>lunken<s n="adj"/></r></p></e>
-    <e><p><l>ljus<s n="adj"/></l><r>lys<s n="adj"/></r></p></e>
-    <e><p><l>ljus<s n="adj"/></l><r>lys<s n="adj"/></r></p></e>
-    <e><p><l>lojal<s n="adj"/></l><r>lojal<s n="adj"/></r></p></e>
-    <e><p><l>lycklig<s n="adj"/></l><r>lykke</r></p><par n=":/leg__adj"/></e>
-    <e><p><l>lydig<s n="adj"/></l><r>lydig<s n="adj"/></r></p></e>
-    <e><p><l>manlig<s n="adj"/></l><r>mann</r></p><par n=":/leg__adj"/></e>
-    <e><p><l>matematisk<s n="adj"/></l><r>matematisk<s n="adj"/></r></p></e>
-    <e><p><l>matematisk<s n="adj"/></l><r>tegner<s n="adj"/></r></p></e>
-    <e><p><l>materiell<s n="adj"/></l><r>materiell<s n="adj"/></r></p></e>
-    <e><p><l>mekanisk<s n="adj"/></l><r>mekanisk<s n="adj"/></r></p></e>
-    <e><p><l>mild<s n="adj"/></l><r>mild<s n="adj"/></r></p></e>
-    <e><p><l>modern<s n="adj"/></l><r>moderne<s n="adj"/></r></p></e>
-    <e><p><l>mogen<s n="adj"/></l><r>moden<s n="adj"/></r></p></e>
-    <e><p><l>musikalisk<s n="adj"/></l><r>musikalsk<s n="adj"/></r></p></e>
-    <e><p><l>myndig<s n="adj"/></l><r>myndig<s n="adj"/></r></p></e>
-    <e><p><l>mystisk<s n="adj"/></l><r>mystisk<s n="adj"/></r></p></e>
-    <e><p><l>naiv<s n="adj"/></l><r>naiv<s n="adj"/></r></p></e>
-    <e><p><l>naken<s n="adj"/></l><r>naken<s n="adj"/></r></p></e>
-    <e><p><l>nationell<s n="adj"/></l><r>nasjonal<s n="adj"/></r></p></e>
-    <e><p><l>naturlig<s n="adj"/></l><r>natur</r></p><par n=":/leg__adj"/></e>
-    <e><p><l>neutral<s n="adj"/></l><r>nøytral<s n="adj"/></r></p></e>
-    <e><p><l>nordisk<s n="adj"/></l><r>nordisk<s n="adj"/></r></p></e>
-    <e><p><l>normal<s n="adj"/></l><r>normal<s n="adj"/></r></p></e>
-    <e><p><l>norsk<s n="adj"/></l><r>norsk<s n="adj"/></r></p></e>
-    <e><p><l>nyfiken<s n="adj"/></l><r>nysgjerrig<s n="adj"/></r></p></e>
-    <e><p><l>ny<s n="adj"/></l><r>ny<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>nyttig<s n="adj"/></l><r>nyttig<s n="adj"/></r></p></e>
-    <e><p><l>oduglig<s n="adj"/></l><r>uduge</r></p><par n=":/leg__adj"/></e>
-    <e><p><l>officiell<s n="adj"/></l><r>offisiell<s n="adj"/></r></p></e>
-    <e><p><l>ogift<s n="adj"/></l><r>ugift<s n="adj"/></r></p></e>
-    <e><p><l>oklar<s n="adj"/></l><r>uklar<s n="adj"/></r></p></e>
-    <e><p><l>olik<s n="adj"/></l><r>forskjel</r></p><par n=":/leg__adj"/></e>
-    <e><p><l>olik<s n="adj"/></l><r>ulik<s n="adj"/></r></p></e>
-    <e><p><l>olycklig<s n="adj"/></l><r>uheldig<s n="adj"/></r></p></e>
-    <e><p><l>olycklig<s n="adj"/></l><r>ulykke</r></p><par n=":/leg__adj"/></e>
-    <e><p><l>oregelbunden<s n="adj"/></l><r>uregelmessig<s n="adj"/></r></p></e>
-    <e><p><l>osann<s n="adj"/></l><r>usann<s n="adj"/></r></p></e>
-    <e><p><l>oskyldig<s n="adj"/></l><r>uskyldig<s n="adj"/></r></p></e>
-    <e><p><l>otacksam<s n="adj"/></l><r>utakknem</r></p><par n=":/leg__adj"/></e>
-    <e><p><l>passiv<s n="adj"/></l><r>passiv<s n="adj"/></r></p></e>
-    <e><p><l>personlig<s n="adj"/></l><r>person</r></p><par n=":/leg__adj"/></e>
-    <e><p><l>politisk<s n="adj"/></l><r>politisk<s n="adj"/></r></p></e>
-    <e><p><l>praktisk<s n="adj"/></l><r>praktisk<s n="adj"/></r></p></e>
-    <e><p><l>psykisk<s n="adj"/></l><r>psykisk<s n="adj"/></r></p></e>
-    <e><p><l>reell<s n="adj"/></l><r>reell<s n="adj"/></r></p></e>
-    <e><p><l>ren<s n="adj"/></l><r>rein<s n="adj"/></r></p></e>
-    <e><p><l>ren<s n="adj"/></l><r>ren<s n="adj"/></r></p></e>
-    <e><p><l>ren<s n="adj"/></l><r>ren<s n="adj"/></r></p></e>
-    <e><p><l>rik<s n="adj"/></l><r>rik<s n="adj"/></r></p></e>
-    <e><p><l>riktig<s n="adj"/></l><r>riktig<s n="adj"/></r></p></e>
-    <e><p><l>romersk<s n="adj"/></l><r>romersk<s n="adj"/></r></p></e>
-    <e><p><l>rostig<s n="adj"/></l><r>rusten<s n="adj"/></r></p></e>
-    <e><p><l>rund<s n="adj"/></l><r>rund<s n="adj"/></r></p></e>
-    <e><p><l>rusig<s n="adj"/></l><r>ruset<s n="adj"/></r></p></e>
-    <e><p><l>rysk<s n="adj"/></l><r>russisk<s n="adj"/></r></p></e>
-    <e><p><l>samtidig<s n="adj"/></l><r>samtidig<s n="adj"/></r></p></e>
-    <e><p><l>sandig<s n="adj"/></l><r>sandete<s n="adj"/></r></p></e>
-    <e><p><l>sann<s n="adj"/></l><r>sann<s n="adj"/></r></p></e>
-    <e><p><l>sen<s n="adj"/></l><r>sen<s n="adj"/></r></p></e>
-    <e><p><l>sexuell<s n="adj"/></l><r>seksuell<s n="adj"/></r></p></e>
-    <e><p><l>sjuk<s n="adj"/></l><r>syk<s n="adj"/></r></p></e>
-    <e><p><l>skarp<s n="adj"/></l><r>skarp<s n="adj"/></r></p></e>
-    <e><p><l>skyldig<s n="adj"/></l><r>forpliktet<s n="adj"/></r></p></e>
-    <e><p><l>skyldig<s n="adj"/></l><r>skyldig<s n="adj"/></r></p></e>
-    <e><p><l>smutsig<s n="adj"/></l><r>skitten<s n="adj"/></r></p></e>
-    <e><p><l>social<s n="adj"/></l><r>sosial<s n="adj"/></r></p></e>
-    <e><p><l>sorgsen<s n="adj"/></l><r>sørgmodig<s n="adj"/></r></p></e>
-    <e><p><l>sovjetisk<s n="adj"/></l><r>sovjetisk<s n="adj"/></r></p></e>
-    <e><p><l>speciell<s n="adj"/></l><r>spesiell<s n="adj"/></r></p></e>
-    <e><p><l>speciell<s n="adj"/></l><r>spesiell<s n="adj"/></r></p></e>
-    <e><p><l>stadig<s n="adj"/></l><r>stødig<s n="adj"/></r></p></e>
-    <e><p><l>stark<s n="adj"/></l><r>sterk<s n="adj"/></r></p></e>
-    <e><p><l>stenig<s n="adj"/></l><r>steinete<s n="adj"/></r></p></e>
-    <e><p><l>stilig<s n="adj"/></l><r>sti</r></p><par n=":/leg__adj"/></e>
-    <e><p><l>stor<s n="adj"/></l><r>stor<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>stum<s n="adj"/></l><r>stum<s n="adj"/></r></p></e>
-    <e><p><l>stygg<s n="adj"/></l><r>stygg<s n="adj"/></r></p></e>
-    <e><p><l>sund<s n="adj"/></l><r>sund<s n="adj"/></r></p></e>
-    <e><p><l>sund<s n="adj"/></l><r>sunn<s n="adj"/></r></p></e>
-    <e><p><l>sur<s n="adj"/></l><r>sur<s n="adj"/></r></p></e>
-    <e><p><l>svag<s n="adj"/></l><r>svak<s n="adj"/></r></p></e>
-    <e><p><l>sval<s n="adj"/></l><r>sval<s n="adj"/></r></p></e>
-    <e><p><l>svart<s n="adj"/></l><r>svart<s n="adj"/></r></p></e>
-    <e><p><l>svart<s n="adj"/></l><r>svart<s n="adj"/></r></p></e>
-    <e><p><l>svensk<s n="adj"/></l><r>svenske<s n="adj"/></r></p></e>
-    <e><p><l>svensk<s n="adj"/></l><r>svensk<s n="adj"/></r></p></e>
-    <e><p><l>sympatisk<s n="adj"/></l><r>sympatisk<s n="adj"/></r></p></e>
-    <e><p><l>systematisk<s n="adj"/></l><r>systematisk<s n="adj"/></r></p></e>
-    <e><p><l>tacksam<s n="adj"/></l><r>takknem</r></p><par n=":/leg__adj"/></e>
-    <e><p><l>tapper<s n="adj"/></l><r>tapper<s n="adj"/></r></p></e>
-    <e><p><l>teknisk<s n="adj"/></l><r>teknisk<s n="adj"/></r></p></e>
-    <e><p><l>teoretisk<s n="adj"/></l><r>teoretisk<s n="adj"/></r></p></e>
-    <e><p><l>tidig<s n="adj"/></l><r>tid</r></p><par n=":/leg__adj"/></e>
-    <e><p><l>tjock<s n="adj"/></l><r>bred<s n="adj"/></r></p></e>
-    <e><p><l>tjock<s n="adj"/></l><r>tykk<s n="adj"/></r></p></e>
-    <e><p><l>tolerant<s n="adj"/></l><r>tolerant<s n="adj"/></r></p></e>
-    <e><p><l>tom<s n="adj"/></l><r>tom<s n="adj"/></r></p></e>
-    <e><p><l>torr<s n="adj"/></l><r>tørr<s n="adj"/></r></p></e>
-    <e><p><l>trevlig<s n="adj"/></l><r>trive</r></p><par n=":/leg__adj"/></e>
-    <e><p><l>tropisk<s n="adj"/></l><r>tropisk<s n="adj"/></r></p></e>
-    <e><p><l>trygg<s n="adj"/></l><r>trygg<s n="adj"/></r></p></e>
-    <e><p><l>tunn<s n="adj"/></l><r>tynn<s n="adj"/></r></p></e>
-    <e><p><l>tunn<s n="adj"/></l><r>tynn<s n="adj"/></r></p></e>
-    <e><p><l>tvetydig<s n="adj"/></l><r>tvetydig<s n="adj"/></r></p></e>
-    <e><p><l>tydlig<s n="adj"/></l><r>tyde</r></p><par n=":/leg__adj"/></e>
-    <e><p><l>typisk<s n="adj"/></l><r>typisk<s n="adj"/></r></p></e>
-    <e><p><l>tysk<s n="adj"/></l><r>tysker<s n="adj"/></r></p></e>
-    <e><p><l>tysk<s n="adj"/></l><r>tysk<s n="adj"/></r></p></e>
-    <e><p><l>ungdomlig<s n="adj"/></l><r>ungdomme</r></p><par n=":/leg__adj"/></e>
-    <e><p><l>ung<s n="adj"/></l><r>ung<s n="adj"/></r></p></e>
-    <e><p><l>ung<s n="adj"/></l><r>young<s n="adj"/></r></p></e>
-    <e><p><l>unik<s n="adj"/></l><r>unik<s n="adj"/></r></p></e>
-    <e><p><l>ursinnig<s n="adj"/></l><r>rasende<s n="adj"/></r></p></e>
-    <e><p><l>vacker<s n="adj"/></l><r>pen<s n="adj"/></r></p></e>
-    <e><p><l>vacker<s n="adj"/></l><r>vakker<s n="adj"/></r></p></e>
-    <e><p><l>väldig<s n="adj"/></l><r>veldig<s n="adj"/></r></p></e>
-    <e><p><l>varm<s n="adj"/></l><r>varm<s n="adj"/></r></p></e>
-    <e><p><l>varsam<s n="adj"/></l><r>varsom<s n="adj"/></r></p></e>
-    <e><p><l>vek<s n="adj"/></l><r>sart<s n="adj"/></r></p></e>
-    <e><p><l>vetenskaplig<s n="adj"/></l><r>vitenskape</r></p><par n=":/leg__adj"/></e>
-    <e><p><l>vettig<s n="adj"/></l><r>vettig<s n="adj"/></r></p></e>
-    <e><p><l>vidskeplig<s n="adj"/></l><r>overtroisk<s n="adj"/></r></p></e>
-    <e><p><l>vid<s n="adj"/></l><r>ved<s n="adj"/></r></p></e>
-    <e><p><l>vid<s n="adj"/></l><r>vid<s n="adj"/></r></p></e>
-    <e><p><l>viktig<s n="adj"/></l><r>viktig<s n="adj"/></r></p></e>
-    <e><p><l>viss<s n="adj"/></l><r>viss<s n="adj"/></r></p></e>
-    <e><p><l>vit<s n="adj"/></l><r>hvit<s n="adj"/></r></p></e>
-    <e><p><l>vuxen<s n="adj"/></l><r>voksen<s n="adj"/></r></p></e>
-    <e><p><l>fortfarande<s n="adj"/></l><r>stadig<s n="adj"/></r></p></e>
-    <e><p><l>snabb<s n="adj"/></l><r>fort<s n="adj"/></r></p></e>
-    <e><p><l>snabb<s n="adj"/></l><r>rask<s n="adj"/></r></p></e>
-    <e><p><l>snabb<s n="adj"/></l><r>hurtig<s n="adj"/></r></p></e>
-    <e><p><l>lång<s n="adj"/></l><r>lang<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>hög<s n="adj"/></l><r>høg<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>hög<s n="adj"/></l><r>høy<s n="adj"/></r></p></e>
+    <e><p><l>död</l><r>død</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>absolut</l><r>absolutt</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>afrikansk</l><r>afrikansk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>akademisk</l><r>akademisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>psykologisk</l><r>psykologisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>sociologisk</l><r>sosiologisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>aktiv</l><r>aktiv</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>alldaglig</l><r>dagligdags</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>allvarlig</l><r>alvor</r></p><par n="adj_sint:/leg__adj"/></e>
+    <e><p><l>allvarlig</l><r>seriøs</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>amerikansk</l><r>amerikansk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>anonym</l><r>anonym</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>svår</l><r>vanske</r></p><par n="adj_sint:/leg__adj"/></e>
+    <e><p><l>arbetsam</l><r>anstrengende</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>klar</l><r>klar</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>arbetsam</l><r>arbeidsom</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>asiatisk</l><r>asiatisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>australisk</l><r>australsk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>bar</l><r>bar</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>baskisk</l><r>baskisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>belgisk</l><r>belgisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>blind</l><r>blind</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>blygsam</l><r>beskjeden</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>brittisk</l><r>britisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>brun</l><r>brun</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>central</l><r>sentral</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>cynisk</l><r>kynisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>dansk</l><r>danske</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>dansk</l><r>dansk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>demokratisk</l><r>demokratisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>byråkratisk</l><r>byråkratisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>direkt</l><r>direkte</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>diskret</l><r>diskré</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>djup</l><r>dybde</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>dramatisk</l><r>dramatisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>dubbel</l><r>dobbel</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>dum</l><r>dum</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>dyrbar</l><r>kostbar</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>egen</l><r>egendefinert</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>egen</l><r>egen</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>ekonomisk</l><r>økonomisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>elastisk</l><r>elastisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>elektrisk</l><r>elektrisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>elektronisk</l><r>elektronisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>engelsk</l><r>engelsk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>ensam</l><r>ensom</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>enskild</l><r>enkelt</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>etnisk</l><r>etnisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>europeisk</l><r>europeisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>extra</l><r>ekstra</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>extra</l><r>ekstra</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>faktisk</l><r>faktisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>falsk</l><r>falsk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>falsk</l><r>usann</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>fattig</l><r>fattig</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>finsk</l><r>finsk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>fransk</l><r>fransk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>fri</l><r>free</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>fri</l><r>fri</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>fuktig</l><r>fuktig</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>full</l><r>full</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>ful</l><r>stygg</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>gammal</l><r>gammel</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>gen</l><r>gen</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>giftig</l><r>giftig</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>gift</l><r>gift</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>glad</l><r>glad</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>godmodig</l><r>godmodig</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>god</l><r>god</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>grekisk</l><r>gresk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>grund</l><r>grunnet</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>grund</l><r>grunn</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>grym</l><r>grusom</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>gudomlig</l><r>guddomme</r></p><par n="adj_sint:/leg__adj"/></e>
+    <e><p><l>gul</l><r>gul</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>gynnsam</l><r>gunstig</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>havande</l><r>gravid</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>hel</l><r>hel</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>hel</l><r>heil</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>hemsk</l><r>forferde</r></p><par n="adj_sint:/leg__adj"/></e>
+    <e><p><l>hemsk</l><r>uhygge</r></p><par n="adj_sint:/leg__adj"/></e>
+    <e><p><l>het</l><r>het</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>historisk</l><r>historisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>hungrig</l><r>sulten</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>hydraulisk</l><r>hydraulisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>hygienisk</l><r>hygienisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>mentalhygienisk</l><r>mentalhygienisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>hysterisk</l><r>hysterisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>ideal</l><r>ideal</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>identisk</l><r>identisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>erotisk</l><r>erotisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>romantisk</l><r>romantisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>indisk</l><r>indisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>internationell</l><r>internasjonal</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>intressant</l><r>interessant</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>judisk</l><r>jødisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>juridisk</l><r>juridisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>kall</l><r>kald</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>kall</l><r>kald</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>kall</l><r>kall</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>kemisk</l><r>kjemisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>kinesisk</l><r>kinesisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>klassisk</l><r>klassisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>klentrogen</l><r>skeptisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>komisk</l><r>komisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>komplett</l><r>komplett</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>komplett</l><r>tidsplanlegger</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>konstgjord</l><r>kunstig</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>kritisk</l><r>batteri</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>kritisk</l><r>kritisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>krokig</l><r>krokete</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>kvinnlig</l><r>kvinne</r></p><par n="adj_sint:/leg__adj"/></e>
+    <e><p><l>lat</l><r>lat</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>ledsen</l><r>lei</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>liberal</l><r>liberal</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>liknande</l><r>lignende</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>lik</l><r>lik</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>liten</l><r>liten</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>livlig</l><r>liv</r></p><par n="adj_sint:/leg__adj"/></e>
+    <e><p><l>ljum</l><r>lunken</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>ljus</l><r>lys</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>ljus</l><r>lys</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>lojal</l><r>lojal</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>lycklig</l><r>lykke</r></p><par n="adj_sint:/leg__adj"/></e>
+    <e><p><l>lydig</l><r>lydig</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>manlig</l><r>mann</r></p><par n="adj_sint:/leg__adj"/></e>
+    <e><p><l>matematisk</l><r>matematisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>matematisk</l><r>tegner</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>materiell</l><r>materiell</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>mekanisk</l><r>mekanisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>mild</l><r>mild</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>modern</l><r>moderne</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>mogen</l><r>moden</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>musikalisk</l><r>musikalsk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>myndig</l><r>myndig</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>mystisk</l><r>mystisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>naiv</l><r>naiv</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>naken</l><r>naken</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>nationell</l><r>nasjonal</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>naturlig</l><r>natur</r></p><par n="adj_sint:/leg__adj"/></e>
+    <e><p><l>neutral</l><r>nøytral</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>nordisk</l><r>nordisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>normal</l><r>normal</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>norsk</l><r>norsk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>nyfiken</l><r>nysgjerrig</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>ny</l><r>ny</r></p><par n="adj_sint"/></e>
+    <e><p><l>nyttig</l><r>nyttig</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>oduglig</l><r>uduge</r></p><par n="adj_sint:/leg__adj"/></e>
+    <e><p><l>officiell</l><r>offisiell</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>ogift</l><r>ugift</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>oklar</l><r>uklar</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>olik</l><r>forskjel</r></p><par n="adj_sint:/leg__adj"/></e>
+    <e><p><l>olik</l><r>ulik</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>olycklig</l><r>uheldig</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>olycklig</l><r>ulykke</r></p><par n="adj_sint:/leg__adj"/></e>
+    <e><p><l>oregelbunden</l><r>uregelmessig</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>osann</l><r>usann</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>oskyldig</l><r>uskyldig</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>otacksam</l><r>utakknem</r></p><par n="adj_sint:/leg__adj"/></e>
+    <e><p><l>passiv</l><r>passiv</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>personlig</l><r>person</r></p><par n="adj_sint:/leg__adj"/></e>
+    <e><p><l>politisk</l><r>politisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>praktisk</l><r>praktisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>psykisk</l><r>psykisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>reell</l><r>reell</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>ren</l><r>rein</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>ren</l><r>ren</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>ren</l><r>ren</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>rik</l><r>rik</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>riktig</l><r>riktig</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>romersk</l><r>romersk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>rostig</l><r>rusten</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>rund</l><r>rund</r></p><par n="adj_sint"/></e>
+    <e><p><l>rusig</l><r>ruset</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>rysk</l><r>russisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>samtidig</l><r>samtidig</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>sandig</l><r>sandete</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>sann</l><r>sann</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>sen</l><r>sen</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>sexuell</l><r>seksuell</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>sjuk</l><r>syk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>skarp</l><r>skarp</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>skyldig</l><r>forpliktet</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>skyldig</l><r>skyldig</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>smutsig</l><r>skitten</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>social</l><r>sosial</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>sorgsen</l><r>sørgmodig</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>sovjetisk</l><r>sovjetisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>speciell</l><r>spesiell</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>speciell</l><r>spesiell</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>stadig</l><r>stødig</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>stark</l><r>sterk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>stenig</l><r>steinete</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>stilig</l><r>sti</r></p><par n="adj_sint:/leg__adj"/></e>
+    <e><p><l>stor</l><r>stor</r></p><par n="adj_sint"/></e>
+    <e><p><l>stum</l><r>stum</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>stygg</l><r>stygg</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>sund</l><r>sund</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>sund</l><r>sunn</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>sur</l><r>sur</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>svag</l><r>svak</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>sval</l><r>sval</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>svart</l><r>svart</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>svart</l><r>svart</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>svensk</l><r>svenske</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>svensk</l><r>svensk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>sympatisk</l><r>sympatisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>systematisk</l><r>systematisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>tacksam</l><r>takknem</r></p><par n="adj_sint:/leg__adj"/></e>
+    <e><p><l>tapper</l><r>tapper</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>teknisk</l><r>teknisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>teoretisk</l><r>teoretisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>tidig</l><r>tid</r></p><par n="adj_sint:/leg__adj"/></e>
+    <e><p><l>tjock</l><r>bred</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>tjock</l><r>tykk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>tolerant</l><r>tolerant</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>tom</l><r>tom</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>torr</l><r>tørr</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>trevlig</l><r>trive</r></p><par n="adj_sint:/leg__adj"/></e>
+    <e><p><l>tropisk</l><r>tropisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>trygg</l><r>trygg</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>tunn</l><r>tynn</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>tunn</l><r>tynn</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>tvetydig</l><r>tvetydig</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>tydlig</l><r>tyde</r></p><par n="adj_sint:/leg__adj"/></e>
+    <e><p><l>typisk</l><r>typisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>tysk</l><r>tysker</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>tysk</l><r>tysk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>ungdomlig</l><r>ungdomme</r></p><par n="adj_sint:/leg__adj"/></e>
+    <e><p><l>ung</l><r>ung</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>ung</l><r>young</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>unik</l><r>unik</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>ursinnig</l><r>rasende</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>vacker</l><r>pen</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>vacker</l><r>vakker</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>väldig</l><r>veldig</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>varm</l><r>varm</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>varsam</l><r>varsom</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>vek</l><r>sart</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>vetenskaplig</l><r>vitenskape</r></p><par n="adj_sint:/leg__adj"/></e>
+    <e><p><l>vettig</l><r>vettig</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>vidskeplig</l><r>overtroisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>vid</l><r>ved</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>vid</l><r>vid</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>viktig</l><r>viktig</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>viss</l><r>viss</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>vit</l><r>hvit</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>vuxen</l><r>voksen</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>fortfarande</l><r>stadig</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>snabb</l><r>fort</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>snabb</l><r>rask</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>snabb</l><r>hurtig</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>lång</l><r>lang</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>hög</l><r>høg</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>hög</l><r>høy</r></p><par n="adj_sint:adj"/></e>
 
 
     <!-- SECTION: Adverbs -->
@@ -3671,6 +3671,8 @@
     <e><p><l>havre<s n="n"/><s n="ut"/></l><r>havre<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>heat<s n="n"/><s n="nt"/></l><r>heat<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>hektar<s n="n"/><s n="nt"/></l><r>hektar<s n="n"/><s n="nt"/></r></p></e>
+    <e vr="nno"><p><l>isbrytare<s n="n"/><s n="ut"/></l><r>isbrytar<s n="n"/><s n="m"/></r></p></e>
+    <e vr="nob"><p><l>isbrytare<s n="n"/><s n="ut"/></l><r>isbryter<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>herr<s n="n"/><s n="ut"/></l><r>herr<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>hets<s n="n"/><s n="ut"/></l><r>hets<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>himmel<s n="n"/><s n="ut"/></l><r>himmel<s n="n"/><s n="m"/></r></p></e>
@@ -7864,101 +7866,101 @@
 
     <!-- SECTION: Adjectives -->
 
-    <e vr="nob"><p><l>omöjlig<s n="adj"/></l><r>umulig<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>omöjlig<s n="adj"/></l><r>umogleg<s n="adj"/></r></p></e>
+    <e vr="nob"><p><l>omöjlig</l><r>umulig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>omöjlig</l><r>umogleg</r></p><par n="adj_sint:adj"/></e>
 
-    <e vr="nob"><p><l>möjlig<s n="adj"/></l><r>mulig<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>möjlig<s n="adj"/></l><r>mogleg<s n="adj"/></r></p></e>
+    <e vr="nob"><p><l>möjlig</l><r>mulig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>möjlig</l><r>mogleg</r></p><par n="adj_sint:adj"/></e>
 
-    <e><p><l>lätt<s n="adj"/></l><r>lett<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>enstak<s n="adj"/></l><r>enkel<s n="adj"/><s n="sint"/></r></p></e>
-    <e vr="nob"><p><l>ansvarig<s n="adj"/></l><r>ansvarlig<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>oansvarig<s n="adj"/></l><r>uansvarlig<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>ansvarig<s n="adj"/></l><r>ansvarleg<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>oansvarig<s n="adj"/></l><r>uansvarleg<s n="adj"/></r></p></e>
-    <e><p><l>säker<s n="adj"/></l><r>sikker<s n="adj"/></r></p></e>
-    <e><p><l>osäker<s n="adj"/></l><r>usikker<s n="adj"/></r></p></e>
-    <e><p><l>solidarisk<s n="adj"/></l><r>solidarisk<s n="adj"/></r></p></e>
-    <e><p><l>osolidarisk<s n="adj"/></l><r>usolidarisk<s n="adj"/></r></p></e>
-    <e><p><l>ordinär<s n="adj"/></l><r>ordinær<s n="adj"/></r></p></e>
-    <e><p><l>religiös<s n="adj"/></l><r>religiøs<s n="adj"/></r></p></e>
-    <e><p><l>rimlig<s n="adj"/></l><r>rettferdig<s n="adj"/></r></p></e>
-    <e><p><l>orimlig<s n="adj"/></l><r>urettferdig<s n="adj"/></r></p></e>
-    <e><p><l>särskild<s n="adj"/></l><r>særskild<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>ond<s n="adj"/></l><r>ond<s n="adj"/><s n="sint"/></r></p></e>
-    <e vr="nno"><p><l>ond<s n="adj"/></l><r>vond<s n="adj"/><s n="sint"/></r></p></e>
-    <e vr="nob"><p><l>trött<s n="adj"/></l><r>trøtt<s n="adj"/><s n="sint"/></r></p></e>
-    <e vr="nno"><p><l>trött<s n="adj"/></l><r>trøytt<s n="adj"/><s n="sint"/></r></p></e>
-    <e vr="nob"><p><l>onaturlig<s n="adj"/></l><r>unaturlig<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>onaturlig<s n="adj"/></l><r>unaturleg<s n="adj"/></r></p></e>
-    <e><p><l>nödvändig<s n="adj"/></l><r>nødvendig<s n="adj"/></r></p></e>
-    <e><p><l>ledig<s n="adj"/></l><r>ledig<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>allmän<s n="adj"/></l><r>allmenn<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>förnuftig<s n="adj"/></l><r>fornuftig<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>lätt</l><r>lett</r></p><par n="adj_sint"/></e>
+    <e><p><l>enstak</l><r>enkel</r></p><par n="adj_sint"/></e>
+    <e vr="nob"><p><l>ansvarig</l><r>ansvarlig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>oansvarig</l><r>uansvarlig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>ansvarig</l><r>ansvarleg</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>oansvarig</l><r>uansvarleg</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>säker</l><r>sikker</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>osäker</l><r>usikker</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>solidarisk</l><r>solidarisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>osolidarisk</l><r>usolidarisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>ordinär</l><r>ordinær</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>religiös</l><r>religiøs</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>rimlig</l><r>rettferdig</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>orimlig</l><r>urettferdig</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>särskild</l><r>særskild</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>ond</l><r>ond</r></p><par n="adj_sint"/></e>
+    <e vr="nno"><p><l>ond</l><r>vond</r></p><par n="adj_sint"/></e>
+    <e vr="nob"><p><l>trött</l><r>trøtt</r></p><par n="adj_sint"/></e>
+    <e vr="nno"><p><l>trött</l><r>trøytt</r></p><par n="adj_sint"/></e>
+    <e vr="nob"><p><l>onaturlig</l><r>unaturlig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>onaturlig</l><r>unaturleg</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>nödvändig</l><r>nødvendig</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>ledig</l><r>ledig</r></p><par n="adj_sint"/></e>
+    <e><p><l>allmän</l><r>allmenn</r></p><par n="adj_sint"/></e>
+    <e><p><l>förnuftig</l><r>fornuftig</r></p><par n="adj_sint"/></e>
 
-    <e vr="nob"><p><l>enig<s n="adj"/></l><r>enig<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>enig<s n="adj"/></l><r>samd<s n="adj"/></r></p></e>
+    <e vr="nob"><p><l>enig</l><r>enig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>enig</l><r>samd</r></p><par n="adj_sint:adj"/></e>
 
-    <e><p><l>positiv<s n="adj"/></l><r>positiv<s n="adj"/></r></p></e>
-    <e><p><l>alternativ<s n="adj"/></l><r>alternativ<s n="adj"/></r></p></e>
-    <e><p><l>negativ<s n="adj"/></l><r>negativ<s n="adj"/></r></p></e>
+    <e><p><l>positiv</l><r>positiv</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>alternativ</l><r>alternativ</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>negativ</l><r>negativ</r></p><par n="adj_sint:adj"/></e>
 
-    <e><p><l>vänster<s n="adj"/></l><r>venstre<s n="adj"/></r></p></e>
-    <e v="nob"><p><l>höger<s n="adj"/></l><r>høyre<s n="adj"/></r></p></e>
-    <e v="nno"><p><l>höger<s n="adj"/></l><r>høgre<s n="adj"/></r></p></e>
+    <e><p><l>vänster</l><r>venstre</r></p><par n="adj_sint:adj"/></e>
+    <e v="nob"><p><l>höger</l><r>høyre</r></p><par n="adj_sint:adj"/></e>
+    <e v="nno"><p><l>höger</l><r>høgre</r></p><par n="adj_sint:adj"/></e>
 
-    <e><p><l>gravid<s n="adj"/></l><r>gravid<s n="adj"/></r></p></e>
-    <e><p><l>utvald<s n="adj"/></l><r>utvald<s n="adj"/></r></p></e>
-    <e><p><l>påfallande<s n="adj"/></l><r>påfallande<s n="adj"/></r></p></e>
-    <e><p><l>årlig<s n="adj"/></l><r>årleg<s n="adj"/></r></p></e>
-    <e><p><l>kontinuerlig<s n="adj"/></l><r>kontinuerleg<s n="adj"/></r></p></e>
-    <e><p><l>statlig<s n="adj"/></l><r>statleg<s n="adj"/></r></p></e>
-    <e><p><l>ordentlig<s n="adj"/></l><r>ordentleg<s n="adj"/></r></p></e>
-    <e><p><l>frivillig<s n="adj"/></l><r>frivillig<s n="adj"/></r></p></e>
-    <e><p><l>kapitalistisk<s n="adj"/></l><r>kapitalistisk<s n="adj"/></r></p></e>
-    <e><p><l>biologisk<s n="adj"/></l><r>biologisk<s n="adj"/></r></p></e>
-    <e><p><l>dynamisk<s n="adj"/></l><r>dynamisk<s n="adj"/></r></p></e>
-    <e><p><l>organisk<s n="adj"/></l><r>organisk<s n="adj"/></r></p></e>
-    <e><p><l>obligatorisk<s n="adj"/></l><r>obligatorisk<s n="adj"/></r></p></e>
-    <e><p><l>pragmatisk<s n="adj"/></l><r>pragmatisk<s n="adj"/></r></p></e>
-    <e><p><l>etisk<s n="adj"/></l><r>etisk<s n="adj"/></r></p></e>
-    <e><p><l>realistisk<s n="adj"/></l><r>realistisk<s n="adj"/></r></p></e>
-    <e><p><l>optimistisk<s n="adj"/></l><r>optimistisk<s n="adj"/></r></p></e>
-    <e><p><l>statistisk<s n="adj"/></l><r>statistisk<s n="adj"/></r></p></e>
-    <e><p><l>katolsk<s n="adj"/></l><r>katolsk<s n="adj"/></r></p></e>
-    <e><p><l>global<s n="adj"/></l><r>global<s n="adj"/></r></p></e>
-    <e><p><l>minimal<s n="adj"/></l><r>minimal<s n="adj"/></r></p></e>
-    <e><p><l>brutal<s n="adj"/></l><r>brutal<s n="adj"/></r></p></e>
-    <e><p><l>industriell<s n="adj"/></l><r>industriell<s n="adj"/></r></p></e>
-    <e><p><l>formell<s n="adj"/></l><r>formell<s n="adj"/></r></p></e>
-    <e><p><l>generell<s n="adj"/></l><r>generell<s n="adj"/></r></p></e>
-    <e><p><l>kulturell<s n="adj"/></l><r>kulturell<s n="adj"/></r></p></e>
-    <e><p><l>individuell<s n="adj"/></l><r>individuell<s n="adj"/></r></p></e>
-    <e><p><l>aktuell<s n="adj"/></l><r>aktuell<s n="adj"/></r></p></e>
-    <e><p><l>eventuell<s n="adj"/></l><r>eventuell<s n="adj"/></r></p></e>
-    <e><p><l>verksam<s n="adj"/></l><r>verksam<s n="adj"/></r></p></e>
-    <e><p><l>enorm<s n="adj"/></l><r>enorm<s n="adj"/></r></p></e>
-    <e><p><l>medveten<s n="adj"/></l><r>medveten<s n="adj"/></r></p></e>
-    <e><p><l>kristen<s n="adj"/></l><r>kristen<s n="adj"/></r></p></e>
-    <e><p><l>gratis<s n="adj"/></l><r>gratis<s n="adj"/></r></p></e>
-    <e><p><l>separat<s n="adj"/></l><r>separat<s n="adj"/></r></p></e>
-    <e><p><l>privat<s n="adj"/></l><r>privat<s n="adj"/></r></p></e>
-    <e><p><l>konkret<s n="adj"/></l><r>konkret<s n="adj"/></r></p></e>
-    <e><p><l>perfekt<s n="adj"/></l><r>perfekt<s n="adj"/></r></p></e>
-    <e><p><l>korrekt<s n="adj"/></l><r>korrekt<s n="adj"/></r></p></e>
-    <e><p><l>enker<s n="adj"/></l><r>enkelt<s n="adj"/></r></p></e>
-    <e><p><l>markant<s n="adj"/></l><r>markant<s n="adj"/></r></p></e>
-    <e><p><l>permanent<s n="adj"/></l><r>permanent<s n="adj"/></r></p></e>
-    <e><p><l>kompetent<s n="adj"/></l><r>kompetent<s n="adj"/></r></p></e>
-    <e><p><l>konsekvent<s n="adj"/></l><r>konsekvent<s n="adj"/></r></p></e>
-    <e><p><l>platt<s n="adj"/></l><r>platt<s n="adj"/></r></p></e>
-    <e><p><l>intensiv<s n="adj"/></l><r>intensiv<s n="adj"/></r></p></e>
-    <e><p><l>aggressiv<s n="adj"/></l><r>aggressiv<s n="adj"/></r></p></e>
-    <e><p><l>relativ<s n="adj"/></l><r>relativ<s n="adj"/></r></p></e>
-    <e><p><l>konservativ<s n="adj"/></l><r>konservativ<s n="adj"/></r></p></e>
-    <e><p><l>definitiv<s n="adj"/></l><r>definitiv<s n="adj"/></r></p></e>
-    <e><p><l>effektiv<s n="adj"/></l><r>effektiv<s n="adj"/></r></p></e>
-    <e><p><l>produktiv<s n="adj"/></l><r>produktiv<s n="adj"/></r></p></e>
+    <e><p><l>gravid</l><r>gravid</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>utvald</l><r>utvald</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>påfallande</l><r>påfallande</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>årlig</l><r>årleg</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>kontinuerlig</l><r>kontinuerleg</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>statlig</l><r>statleg</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>ordentlig</l><r>ordentleg</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>frivillig</l><r>frivillig</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>kapitalistisk</l><r>kapitalistisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>biologisk</l><r>biologisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>dynamisk</l><r>dynamisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>organisk</l><r>organisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>obligatorisk</l><r>obligatorisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>pragmatisk</l><r>pragmatisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>etisk</l><r>etisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>realistisk</l><r>realistisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>optimistisk</l><r>optimistisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>statistisk</l><r>statistisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>katolsk</l><r>katolsk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>global</l><r>global</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>minimal</l><r>minimal</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>brutal</l><r>brutal</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>industriell</l><r>industriell</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>formell</l><r>formell</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>generell</l><r>generell</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>kulturell</l><r>kulturell</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>individuell</l><r>individuell</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>aktuell</l><r>aktuell</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>eventuell</l><r>eventuell</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>verksam</l><r>verksam</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>enorm</l><r>enorm</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>medveten</l><r>medveten</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>kristen</l><r>kristen</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>gratis</l><r>gratis</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>separat</l><r>separat</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>privat</l><r>privat</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>konkret</l><r>konkret</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>perfekt</l><r>perfekt</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>korrekt</l><r>korrekt</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>enker</l><r>enkelt</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>markant</l><r>markant</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>permanent</l><r>permanent</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>kompetent</l><r>kompetent</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>konsekvent</l><r>konsekvent</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>platt</l><r>platt</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>intensiv</l><r>intensiv</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>aggressiv</l><r>aggressiv</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>relativ</l><r>relativ</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>konservativ</l><r>konservativ</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>definitiv</l><r>definitiv</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>effektiv</l><r>effektiv</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>produktiv</l><r>produktiv</r></p><par n="adj_sint:adj"/></e>
 
     <e><p><l>bunden<s n="adj"/></l><r>binde<s n="adj"/><s n="pp"/></r></p></e>
     <e><p><l>framlagd<s n="adj"/></l><r>framleggje<s n="adj"/><s n="pp"/></r></p></e>
@@ -7985,198 +7987,198 @@
     <e><p><l>omfattande<s n="adj"/></l><r>omfatte<s n="adj"/><s n="pprs"/></r></p></e>
     <e><p><l>levande<s n="adj"/></l><r>leve<s n="adj"/><s n="pprs"/></r></p></e>
 
-    <e><p><l>blå<s n="adj"/></l><r>blå<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>grå<s n="adj"/></l><r>grå<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>rå<s n="adj"/></l><r>rå<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>låg<s n="adj"/></l><r>låg<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>nordlig<s n="adj"/></l><r>nordleg<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>billig<s n="adj"/></l><r>billeg<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>vanlig<s n="adj"/></l><r>vanleg<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>ovanlig<s n="adj"/></l><r>uvanleg<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>rolig<s n="adj"/></l><r>roleg<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>farlig<s n="adj"/></l><r>farleg<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>kraftig<s n="adj"/></l><r>kraftig<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>riktiger<s n="adj"/></l><r>riktig<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>tung<s n="adj"/></l><r>tung<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>dryg<s n="adj"/></l><r>dryg<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>rak<s n="adj"/></l><r>rak<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>klok<s n="adj"/></l><r>klok<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>frisk<s n="adj"/></l><r>frisk<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>mjuk<s n="adj"/></l><r>mjuk<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>smal<s n="adj"/></l><r>smal<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>legitim<s n="adj"/></l><r>legitim<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>fin<s n="adj"/></l><r>fin<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>snar<s n="adj"/></l><r>snar<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>dyr<s n="adj"/></l><r>dyr<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>kort<s n="adj"/></l><r>kort<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>trist<s n="adj"/></l><r>trist<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>sist<s n="adj"/></l><r>sist<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>halv<s n="adj"/></l><r>halv<s n="adj"/><s n="sint"/></r></p></e>
-    <e><p><l>grov<s n="adj"/></l><r>grov<s n="adj"/><s n="sint"/></r></p></e>
+    <e><p><l>blå</l><r>blå</r></p><par n="adj_sint"/></e>
+    <e><p><l>grå</l><r>grå</r></p><par n="adj_sint"/></e>
+    <e><p><l>rå</l><r>rå</r></p><par n="adj_sint"/></e>
+    <e><p><l>låg</l><r>låg</r></p><par n="adj_sint"/></e>
+    <e><p><l>nordlig</l><r>nordleg</r></p><par n="adj_sint"/></e>
+    <e><p><l>billig</l><r>billeg</r></p><par n="adj_sint"/></e>
+    <e><p><l>vanlig</l><r>vanleg</r></p><par n="adj_sint"/></e>
+    <e><p><l>ovanlig</l><r>uvanleg</r></p><par n="adj_sint"/></e>
+    <e><p><l>rolig</l><r>roleg</r></p><par n="adj_sint"/></e>
+    <e><p><l>farlig</l><r>farleg</r></p><par n="adj_sint"/></e>
+    <e><p><l>kraftig</l><r>kraftig</r></p><par n="adj_sint"/></e>
+    <e><p><l>riktiger</l><r>riktig</r></p><par n="adj_sint"/></e>
+    <e><p><l>tung</l><r>tung</r></p><par n="adj_sint"/></e>
+    <e><p><l>dryg</l><r>dryg</r></p><par n="adj_sint"/></e>
+    <e><p><l>rak</l><r>rak</r></p><par n="adj_sint"/></e>
+    <e><p><l>klok</l><r>klok</r></p><par n="adj_sint"/></e>
+    <e><p><l>frisk</l><r>frisk</r></p><par n="adj_sint"/></e>
+    <e><p><l>mjuk</l><r>mjuk</r></p><par n="adj_sint"/></e>
+    <e><p><l>smal</l><r>smal</r></p><par n="adj_sint"/></e>
+    <e><p><l>legitim</l><r>legitim</r></p><par n="adj_sint"/></e>
+    <e><p><l>fin</l><r>fin</r></p><par n="adj_sint"/></e>
+    <e><p><l>snar</l><r>snar</r></p><par n="adj_sint"/></e>
+    <e><p><l>dyr</l><r>dyr</r></p><par n="adj_sint"/></e>
+    <e><p><l>kort</l><r>kort</r></p><par n="adj_sint"/></e>
+    <e><p><l>trist</l><r>trist</r></p><par n="adj_sint"/></e>
+    <e><p><l>sist</l><r>sist</r></p><par n="adj_sint"/></e>
+    <e><p><l>halv</l><r>halv</r></p><par n="adj_sint"/></e>
+    <e><p><l>grov</l><r>grov</r></p><par n="adj_sint"/></e>
 
-    <e><p><l>acceptabel<s n="adj"/></l><r>akseptabel<s n="adj"/></r></p></e>
-    <e><p><l>akut<s n="adj"/></l><r>akutt<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>annorlunda<s n="adj"/></l><r>annleis<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>annorlunda<s n="adj"/></l><r>annerledes<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>arbetslös<s n="adj"/></l><r>arbeidsløs<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>arbetslös<s n="adj"/></l><r>arbeidslaus<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>arbetslös<s n="adj"/></l><r>arbeidsledig<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>avgörande<s n="adj"/></l><r>avgjørende<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>begriplig<s n="adj"/></l><r>fatteleg<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>begriplig<s n="adj"/></l><r>fattelig<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>begriplig<s n="adj"/></l><r>begripelig<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>begriplig<s n="adj"/></l><r>forståelig<s n="adj"/></r></p></e>
-    <e><p><l>beroende<s n="adj"/></l><r>avhengig<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>besviken<s n="adj"/></l><r>skuffa<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>besviken<s n="adj"/></l><r>skuffet<s n="adj"/></r></p></e>
-    <e><p><l>biblisk<s n="adj"/></l><r>bibelsk<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>daglig<s n="adj"/></l><r>dagleg<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>daglig<s n="adj"/></l><r>daglig<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>dålig<s n="adj"/></l><r>dårleg<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>dålig<s n="adj"/></l><r>dårlig<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>dylik<s n="adj"/></l><r>lyknende<s n="adj"/></r></p></e>
-    <e><p><l>ekologisk<s n="adj"/></l><r>økologisk<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>enastående<s n="adj"/></l><r>framragande<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>enastående<s n="adj"/></l><r>eineståande<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>enastående<s n="adj"/></l><r>fremragende<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>enastående<s n="adj"/></l><r>enestående<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>enhetlig<s n="adj"/></l><r>enhetlig<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>enhetlig<s n="adj"/></l><r>einskapleg<s n="adj"/></r></p></e>
-    <e><p><l>exakt<s n="adj"/></l><r>eksakt<s n="adj"/></r></p></e>
-    <e><p><l>extrem<s n="adj"/></l><r>ekstrem<s n="adj"/></r></p></e>
-    <e><p><l>färdig<s n="adj"/></l><r>ferdig<s n="adj"/></r></p></e>
-    <e><p><l>försiktig<s n="adj"/></l><r>forsiktig<s n="adj"/></r></p></e>
-    <e><p><l>fullkomlig<s n="adj"/></l><r>fullstendig<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>fullkomlig<s n="adj"/></l><r>fullkomen<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>fullkomlig<s n="adj"/></l><r>fullkommen<s n="adj"/></r></p></e>
-    <e><p><l>gemensam<s n="adj"/></l><r>felles<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>grön<s n="adj"/></l><r>grøn<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>grön<s n="adj"/></l><r>grønn<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>grundläggande<s n="adj"/></l><r>grunnleggende<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>grundläggande<s n="adj"/></l><r>grunnleggjende<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>hemlig<s n="adj"/></l><r>hemmeleg<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>hemlig<s n="adj"/></l><r>hemmelig<s n="adj"/></r></p></e>
-    <e><p><l>inrikes<s n="adj"/></l><r>innariks<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>inrikes<s n="adj"/></l><r>innanriks<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>inrikes<s n="adj"/></l><r>innenriks<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>jämförbar<s n="adj"/></l><r>sammenlignbar<s n="adj"/></r></p></e>
-    <e><p><l>japansk<s n="adj"/></l><r>japansk<s n="adj"/></r></p></e>
-    <e><p><l>konventionell<s n="adj"/></l><r>konvensjonell<s n="adj"/></r></p></e>
-    <e><p><l>okonventionell<s n="adj"/></l><r>ukonvensjonell<s n="adj"/></r></p></e>
-    <e><p><l>kriminell<s n="adj"/></l><r>kriminell<s n="adj"/></r></p></e>
-    <e><p><l>lämplig<s n="adj"/></l><r>passende<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>lämplig<s n="adj"/></l><r>hensiktsmessig<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>lämplig<s n="adj"/></l><r>føremålstenleg<s n="adj"/></r></p></e>
-    <e><p><l>likgiltig<s n="adj"/></l><r>likegyldig<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>löjlig<s n="adj"/></l><r>låtteleg<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>löjlig<s n="adj"/></l><r>latterleg<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>löjlig<s n="adj"/></l><r>latterlig<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>lönsam<s n="adj"/></l><r>lønsam<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>lönsam<s n="adj"/></l><r>lønnsom<s n="adj"/></r></p></e>
-    <e><p><l>maximal<s n="adj"/></l><r>maksimal<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>medicinsk<s n="adj"/></l><r>medisinsk<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>meningsfull<s n="adj"/></l><r>meiningsfylt<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>miljövänlig<s n="adj"/></l><r>miljøvennlig<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>missnöjd<s n="adj"/></l><r>misnøgd<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>missnöjd<s n="adj"/></l><r>misnøgd<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>missnöjd<s n="adj"/></l><r>misnøyd<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>nuvarande<s n="adj"/></l><r>nåværende<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>nuvarande<s n="adj"/></l><r>noverende<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>nyfödd<s n="adj"/></l><r>nyfødd<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>nyfödd<s n="adj"/></l><r>nyfødt<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>oändlig<s n="adj"/></l><r>uendeleg<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>oändlig<s n="adj"/></l><r>uendelig<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>ömsesidig<s n="adj"/></l><r>ymsesidig<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>ömsesidig<s n="adj"/></l><r>gjensidig<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>ömsesidig<s n="adj"/></l><r>gjensidig<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>öppen<s n="adj"/></l><r>open<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>öppen<s n="adj"/></l><r>åpen<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>osannolik<s n="adj"/></l><r>usannsynlig<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>osannolik<s n="adj"/></l><r>usannsynleg<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>otillräcklig<s n="adj"/></l><r>utilstrekkelig<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>otillräcklig<s n="adj"/></l><r>utilstrekkeleg<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>överraskande<s n="adj"/></l><r>overraskende<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>överraskande<s n="adj"/></l><r>overraskande<s n="adj"/></r></p></e>
-    <e><p><l>paradoxal<s n="adj"/></l><r>paradoksal<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>populär<s n="adj"/></l><r>populær<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>primär<s n="adj"/></l><r>primær<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>rädd<s n="adj"/></l><r>skremt<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>rädd<s n="adj"/></l><r>redd<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>rätt<s n="adj"/></l><r>ganske<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>rätt<s n="adj"/></l><r>skikkelig<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>rätt<s n="adj"/></l><r>ordenlig<s n="adj"/></r></p></e>
-    <e><p><l>rätt<s n="adj"/></l><r>riktig<s n="adj"/></r></p></e>
-    <e><p><l>rätt<s n="adj"/></l><r>rett<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>röd<s n="adj"/></l><r>raud<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>röd<s n="adj"/></l><r>rød<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>sannolik<s n="adj"/></l><r>sannsynlig<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>sannolik<s n="adj"/></l><r>sannsynleg<s n="adj"/></r></p></e>
-    <e><p><l>schweizisk<s n="adj"/></l><r>sveitsisk<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>självständig<s n="adj"/></l><r>sjølstendig<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>självständig<s n="adj"/></l><r>selvstendig<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>självständig<s n="adj"/></l><r>sjølvstendig<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>sorglig<s n="adj"/></l><r>sørgelig<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>sorglig<s n="adj"/></l><r>sørgeleg<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>synlig<s n="adj"/></l><r>synleg<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>synlig<s n="adj"/></l><r>synlig<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>tillfällig<s n="adj"/></l><r>tilfeldig<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>tillfällig<s n="adj"/></l><r>tilfelleleg<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>tillfällig<s n="adj"/></l><r>tilfeldig<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>tillfredsställande<s n="adj"/></l><r>tilfredsstillende<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>tillfredsställande<s n="adj"/></l><r>tilfredsstillande<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>tillgänglig<s n="adj"/></l><r>tilgjengelig<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>tillgänglig<s n="adj"/></l><r>tilgjengeleg<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>tillräcklig<s n="adj"/></l><r>tilstrekkelig<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>tillräcklig<s n="adj"/></l><r>tilstrekkeleg<s n="adj"/></r></p></e>
-    <e><p><l>traditionell<s n="adj"/></l><r>tradisjonell<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>trovärdig<s n="adj"/></l><r>truverdig<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>trovärdig<s n="adj"/></l><r>truverdig<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>trovärdig<s n="adj"/></l><r>troverdig<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>tveksam<s n="adj"/></l><r>tvilende<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>tveksam<s n="adj"/></l><r>tvilande<s n="adj"/></r></p></e>
-    <e><p><l>tveksam<s n="adj"/></l><r>tvilsom<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>uppenbar<s n="adj"/></l><r>openberr<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>uppenbar<s n="adj"/></l><r>åpenbar<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>uppmärksam<s n="adj"/></l><r>oppmerksam<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>uppmärksam<s n="adj"/></l><r>oppmerksom<s n="adj"/></r></p></e>
-    <e><p><l>utrikes<s n="adj"/></l><r>utariks<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>utrikes<s n="adj"/></l><r>utanriks<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>utrikes<s n="adj"/></l><r>utenriks<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>vänlig<s n="adj"/></l><r>vennskapeleg<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>vänlig<s n="adj"/></l><r>vennskapelig<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>vänlig<s n="adj"/></l><r>vennligsinnet<s n="adj"/></r></p></e>
-    <e vr="nob"><p><l>verklig<s n="adj"/></l><r>virkelig<s n="adj"/></r></p></e>
-    <e vr="nno"><p><l>verklig<s n="adj"/></l><r>virkeleg<s n="adj"/></r></p></e>
+    <e><p><l>acceptabel</l><r>akseptabel</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>akut</l><r>akutt</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>annorlunda</l><r>annleis</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>annorlunda</l><r>annerledes</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>arbetslös</l><r>arbeidsløs</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>arbetslös</l><r>arbeidslaus</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>arbetslös</l><r>arbeidsledig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>avgörande</l><r>avgjørende</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>begriplig</l><r>fatteleg</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>begriplig</l><r>fattelig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>begriplig</l><r>begripelig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>begriplig</l><r>forståelig</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>beroende</l><r>avhengig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>besviken</l><r>skuffa</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>besviken</l><r>skuffet</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>biblisk</l><r>bibelsk</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>daglig</l><r>dagleg</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>daglig</l><r>daglig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>dålig</l><r>dårleg</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>dålig</l><r>dårlig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>dylik</l><r>lyknende</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>ekologisk</l><r>økologisk</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>enastående</l><r>framragande</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>enastående</l><r>eineståande</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>enastående</l><r>fremragende</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>enastående</l><r>enestående</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>enhetlig</l><r>enhetlig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>enhetlig</l><r>einskapleg</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>exakt</l><r>eksakt</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>extrem</l><r>ekstrem</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>färdig</l><r>ferdig</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>försiktig</l><r>forsiktig</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>fullkomlig</l><r>fullstendig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>fullkomlig</l><r>fullkomen</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>fullkomlig</l><r>fullkommen</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>gemensam</l><r>felles</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>grön</l><r>grøn</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>grön</l><r>grønn</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>grundläggande</l><r>grunnleggende</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>grundläggande</l><r>grunnleggjende</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>hemlig</l><r>hemmeleg</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>hemlig</l><r>hemmelig</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>inrikes</l><r>innariks</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>inrikes</l><r>innanriks</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>inrikes</l><r>innenriks</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>jämförbar</l><r>sammenlignbar</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>japansk</l><r>japansk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>konventionell</l><r>konvensjonell</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>okonventionell</l><r>ukonvensjonell</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>kriminell</l><r>kriminell</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>lämplig</l><r>passende</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>lämplig</l><r>hensiktsmessig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>lämplig</l><r>føremålstenleg</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>likgiltig</l><r>likegyldig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>löjlig</l><r>låtteleg</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>löjlig</l><r>latterleg</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>löjlig</l><r>latterlig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>lönsam</l><r>lønsam</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>lönsam</l><r>lønnsom</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>maximal</l><r>maksimal</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>medicinsk</l><r>medisinsk</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>meningsfull</l><r>meiningsfylt</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>miljövänlig</l><r>miljøvennlig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>missnöjd</l><r>misnøgd</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>missnöjd</l><r>misnøgd</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>missnöjd</l><r>misnøyd</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>nuvarande</l><r>nåværende</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>nuvarande</l><r>noverende</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>nyfödd</l><r>nyfødd</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>nyfödd</l><r>nyfødt</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>oändlig</l><r>uendeleg</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>oändlig</l><r>uendelig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>ömsesidig</l><r>ymsesidig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>ömsesidig</l><r>gjensidig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>ömsesidig</l><r>gjensidig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>öppen</l><r>open</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>öppen</l><r>åpen</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>osannolik</l><r>usannsynlig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>osannolik</l><r>usannsynleg</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>otillräcklig</l><r>utilstrekkelig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>otillräcklig</l><r>utilstrekkeleg</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>överraskande</l><r>overraskende</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>överraskande</l><r>overraskande</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>paradoxal</l><r>paradoksal</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>populär</l><r>populær</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>primär</l><r>primær</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>rädd</l><r>skremt</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>rädd</l><r>redd</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>rätt</l><r>ganske</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>rätt</l><r>skikkelig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>rätt</l><r>ordenlig</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>rätt</l><r>riktig</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>rätt</l><r>rett</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>röd</l><r>raud</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>röd</l><r>rød</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>sannolik</l><r>sannsynlig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>sannolik</l><r>sannsynleg</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>schweizisk</l><r>sveitsisk</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>självständig</l><r>sjølstendig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>självständig</l><r>selvstendig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>självständig</l><r>sjølvstendig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>sorglig</l><r>sørgelig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>sorglig</l><r>sørgeleg</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>synlig</l><r>synleg</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>synlig</l><r>synlig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>tillfällig</l><r>tilfeldig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>tillfällig</l><r>tilfelleleg</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>tillfällig</l><r>tilfeldig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>tillfredsställande</l><r>tilfredsstillende</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>tillfredsställande</l><r>tilfredsstillande</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>tillgänglig</l><r>tilgjengelig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>tillgänglig</l><r>tilgjengeleg</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>tillräcklig</l><r>tilstrekkelig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>tillräcklig</l><r>tilstrekkeleg</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>traditionell</l><r>tradisjonell</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>trovärdig</l><r>truverdig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>trovärdig</l><r>truverdig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>trovärdig</l><r>troverdig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>tveksam</l><r>tvilende</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>tveksam</l><r>tvilande</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>tveksam</l><r>tvilsom</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>uppenbar</l><r>openberr</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>uppenbar</l><r>åpenbar</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>uppmärksam</l><r>oppmerksam</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>uppmärksam</l><r>oppmerksom</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>utrikes</l><r>utariks</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>utrikes</l><r>utanriks</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>utrikes</l><r>utenriks</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>vänlig</l><r>vennskapeleg</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>vänlig</l><r>vennskapelig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>vänlig</l><r>vennligsinnet</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>verklig</l><r>virkelig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>verklig</l><r>virkeleg</r></p><par n="adj_sint:adj"/></e>
 
-    <e><p><l>terminologisk<s n="adj"/></l><r>terminologisk<s n="adj"/></r></p></e>
-    <e><p><l>akustisk<s n="adj"/></l><r>akustisk<s n="adj"/></r></p></e>
-    <e><p><l>automatisk<s n="adj"/></l><r>automatisk<s n="adj"/></r></p></e>
-    <e><p><l>egoistisk<s n="adj"/></l><r>egoistisk<s n="adj"/></r></p></e>
-    <e><p><l>fantastisk<s n="adj"/></l><r>fantastisk<s n="adj"/></r></p></e>
-    <e><p><l>fysiologisk<s n="adj"/></l><r>fysiologisk<s n="adj"/></r></p></e>
-    <e><p><l>fysisk<s n="adj"/></l><r>fysisk<s n="adj"/></r></p></e>
-    <e><p><l>genetisk<s n="adj"/></l><r>genetisk<s n="adj"/></r></p></e>
-    <e><p><l>geografisk<s n="adj"/></l><r>geografisk<s n="adj"/></r></p></e>
-    <e><p><l>harmonisk<s n="adj"/></l><r>harmonisk<s n="adj"/></r></p></e>
-    <e><p><l>humanistisk<s n="adj"/></l><r>humanistisk<s n="adj"/></r></p></e>
-    <e><p><l>karakteristisk<s n="adj"/></l><r>karakteristisk<s n="adj"/></r></p></e>
-    <e><p><l>kirurgisk<s n="adj"/></l><r>kirurgisk<s n="adj"/></r></p></e>
-    <e><p><l>kommunistisk<s n="adj"/></l><r>kommunistisk<s n="adj"/></r></p></e>
-    <e><p><l>kriminalpolitisk<s n="adj"/></l><r>kriminalpolitisk<s n="adj"/></r></p></e>
-    <e><p><l>liturgisk<s n="adj"/></l><r>liturgisk<s n="adj"/></r></p></e>
-    <e><p><l>metafysisk<s n="adj"/></l><r>metafysisk<s n="adj"/></r></p></e>
-    <e><p><l>meteorologisk<s n="adj"/></l><r>meteorologisk<s n="adj"/></r></p></e>
-    <e><p><l>motorisk<s n="adj"/></l><r>motorisk<s n="adj"/></r></p></e>
-    <e><p><l>optisk<s n="adj"/></l><r>optisk<s n="adj"/></r></p></e>
-    <e><p><l>parlamentarisk<s n="adj"/></l><r>parlamentarisk<s n="adj"/></r></p></e>
-    <e><p><l>pedagogisk<s n="adj"/></l><r>pedagogisk<s n="adj"/></r></p></e>
-    <e><p><l>periodisk<s n="adj"/></l><r>periodisk<s n="adj"/></r></p></e>
-    <e><p><l>pessimistisk<s n="adj"/></l><r>pessimistisk<s n="adj"/></r></p></e>
-    <e><p><l>protestantisk<s n="adj"/></l><r>protestantisk<s n="adj"/></r></p></e>
-    <e><p><l>provisorisk<s n="adj"/></l><r>provisorisk<s n="adj"/></r></p></e>
-    <e><p><l>rytmisk<s n="adj"/></l><r>rytmisk<s n="adj"/></r></p></e>
-    <e><p><l>taktisk<s n="adj"/></l><r>taktisk<s n="adj"/></r></p></e>
-    <e><p><l>teknologisk<s n="adj"/></l><r>teknologisk<s n="adj"/></r></p></e>
+    <e><p><l>terminologisk</l><r>terminologisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>akustisk</l><r>akustisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>automatisk</l><r>automatisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>egoistisk</l><r>egoistisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>fantastisk</l><r>fantastisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>fysiologisk</l><r>fysiologisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>fysisk</l><r>fysisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>genetisk</l><r>genetisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>geografisk</l><r>geografisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>harmonisk</l><r>harmonisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>humanistisk</l><r>humanistisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>karakteristisk</l><r>karakteristisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>kirurgisk</l><r>kirurgisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>kommunistisk</l><r>kommunistisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>kriminalpolitisk</l><r>kriminalpolitisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>liturgisk</l><r>liturgisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>metafysisk</l><r>metafysisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>meteorologisk</l><r>meteorologisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>motorisk</l><r>motorisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>optisk</l><r>optisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>parlamentarisk</l><r>parlamentarisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>pedagogisk</l><r>pedagogisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>periodisk</l><r>periodisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>pessimistisk</l><r>pessimistisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>protestantisk</l><r>protestantisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>provisorisk</l><r>provisorisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>rytmisk</l><r>rytmisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>taktisk</l><r>taktisk</r></p><par n="adj_sint:adj"/></e>
+    <e><p><l>teknologisk</l><r>teknologisk</r></p><par n="adj_sint:adj"/></e>
 
 
     <!-- SECTION: Adverbs -->
