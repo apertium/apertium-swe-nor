@@ -416,13 +416,13 @@
     <e><p><l>min<s n="det"/></l><r>min<s n="det"/></r></p></e>
     <e><p><l>din<s n="det"/></l><r>din<s n="det"/></r></p></e>
 
-    <e v="nob"><p><l>min<s n="det"/><s n="pos"/><s n="ut"/></l><r>jeg<s n="det"/><s n="pos"/><s n="m"/></r></p></e>
-    <e v="nob"><p><l>min<s n="det"/><s n="pos"/><s n="nt"/></l><r>jeg<s n="det"/><s n="pos"/><s n="nt"/></r></p></e>
-    <e v="nob"><p><l>min<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l><r>jeg<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
+    <e vr="nob"><p><l>min<s n="det"/><s n="pos"/><s n="ut"/></l><r>jeg<s n="det"/><s n="pos"/><s n="m"/></r></p></e>
+    <e vr="nob"><p><l>min<s n="det"/><s n="pos"/><s n="nt"/></l><r>jeg<s n="det"/><s n="pos"/><s n="nt"/></r></p></e>
+    <e vr="nob"><p><l>min<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l><r>jeg<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
 
-    <e v="nno"><p><l>min<s n="det"/><s n="pos"/><s n="ut"/></l><r>eg<s n="det"/><s n="pos"/><s n="m"/></r></p></e>
-    <e v="nno"><p><l>min<s n="det"/><s n="pos"/><s n="nt"/></l><r>eg<s n="det"/><s n="pos"/><s n="nt"/></r></p></e>
-    <e v="nno"><p><l>min<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l><r>eg<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
+    <e vr="nno"><p><l>min<s n="det"/><s n="pos"/><s n="ut"/></l><r>eg<s n="det"/><s n="pos"/><s n="m"/></r></p></e>
+    <e vr="nno"><p><l>min<s n="det"/><s n="pos"/><s n="nt"/></l><r>eg<s n="det"/><s n="pos"/><s n="nt"/></r></p></e>
+    <e vr="nno"><p><l>min<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l><r>eg<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
 
     <e><p><l>din<s n="det"/><s n="pos"/><s n="ut"/></l><r>du<s n="det"/><s n="pos"/><s n="m"/></r></p></e>
     <e><p><l>din<s n="det"/><s n="pos"/><s n="nt"/></l><r>du<s n="det"/><s n="pos"/><s n="nt"/></r></p></e>
@@ -7906,8 +7906,8 @@
     <e><p><l>negativ</l><r>negativ</r></p><par n="adj_sint:adj"/></e>
 
     <e><p><l>vänster</l><r>venstre</r></p><par n="adj_sint:adj"/></e>
-    <e v="nob"><p><l>höger</l><r>høyre</r></p><par n="adj_sint:adj"/></e>
-    <e v="nno"><p><l>höger</l><r>høgre</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nob"><p><l>höger</l><r>høyre</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>höger</l><r>høgre</r></p><par n="adj_sint:adj"/></e>
 
     <e><p><l>gravid</l><r>gravid</r></p><par n="adj_sint:adj"/></e>
     <e><p><l>utvald</l><r>utvald</r></p><par n="adj_sint:adj"/></e>
