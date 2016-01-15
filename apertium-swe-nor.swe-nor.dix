@@ -101,6 +101,10 @@
 
 
 <!-- generate f for nno, m for nob; analyse both for both langs: -->
+<pardef n=":mf">
+  <e vr="nob">        <p><l></l><r><s n="m"/></r></p></e>
+  <e vr="nno">        <p><l></l><r><s n="f"/></r></p></e>
+</pardef>
 <pardef n="ut:mf">
   <e vr="nob">        <p><l><s n="ut"/></l><r><s n="m"/></r></p></e>
   <e vr="nno">        <p><l><s n="ut"/></l><r><s n="f"/></r></p></e>
@@ -531,11 +535,6 @@
 
 
 
-
-    <!-- SECTION: Proper nouns -->
-
-    <e><p><l>James<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>James<s n="np"/><s n="m"/></r></p></e>
-    <e><p><l>Mary<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Mary<s n="np"/><s n="f"/></r></p></e>
 
     <!-- SECTION: Adjectives -->
 
@@ -3732,7 +3731,7 @@
     <e><p><l>jaktkort<s n="n"/><s n="nt"/></l><r>jaktkort<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>jan<s n="n"/><s n="ut"/></l><r>jan<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>ja<s n="n"/><s n="nt"/></l><r>ja<s n="n"/><s n="nt"/></r></p></e>
-    <e><p><l>jeans<s n="n"/><s n="np"/></l><r>jeans<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>jeans<s n="n"/><s n="ut"/></l><r>jeans<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>jeep<s n="n"/><s n="ut"/></l><r>jeep<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>jolle<s n="n"/><s n="ut"/></l><r>jolle<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>jolle<s n="n"/><s n="ut"/></l><r>jolle<s n="n"/><s n="m"/></r></p></e>
@@ -4299,7 +4298,7 @@
     <e><p><l>psykologi<s n="n"/><s n="ut"/></l><r>psykologi<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>psykolog<s n="n"/><s n="ut"/></l><r>psykolog<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>pubertet<s n="n"/><s n="ut"/></l><r>pubertet<s n="n"/><s n="m"/></r></p></e>
-    <e><p><l>pumps<s n="n"/><s n="np"/></l><r>pumps<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pumps<s n="n"/><s n="ut"/></l><r>pumps<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>pund<s n="n"/><s n="nt"/></l><r>pund<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>punkt<s n="n"/><s n="ut"/></l><r>punkt<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>punktur<s n="n"/><s n="ut"/></l><r>punktur<s n="n"/><s n="m"/></r></p></e>
@@ -4825,6 +4824,7 @@
     <e><p><l>anda<s n="n"/><s n="ut"/></l><r>ånd<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>anförande<s n="n"/><s n="nt"/></l><r>innlegg<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>ånga<s n="n"/><s n="ut"/></l><r>damp<s n="n"/><s n="m"/></r></p></e>
+    <e>   <p><l>isbrytning<s n="n"/><s n="ut"/></l><r>isbryting<s n="n"/></r></p><par n=":mf"/></e>
     <e vr="nno"><p><l>anknytning<s n="n"/><s n="ut"/></l><r>tilknyting<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>anknytning<s n="n"/><s n="ut"/></l><r>tilknytning<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>anläggning<s n="n"/><s n="ut"/></l><r>anlegg<s n="n"/><s n="nt"/></r></p></e>
@@ -5949,6 +5949,8 @@
 
     <!-- SECTION: Proper nouns -->
 
+    <e><p><l>James<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/></l><r>James<s n="np"/><s n="m"/></r></p></e>
+    <e><p><l>Mary<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/></l><r>Mary<s n="np"/><s n="f"/></r></p></e>
     <e><p><l>Olofsson<s n="np"/><s n="cog"/><s n="mf"/></l><r>Olofsson<s n="np"/></r></p></e>
     <e><p><l>Eriksson<s n="np"/><s n="cog"/><s n="mf"/></l><r>Eriksson<s n="np"/></r></p></e>
     <e><p><l>Persson<s n="np"/><s n="cog"/><s n="mf"/></l><r>Persson<s n="np"/></r></p></e>
