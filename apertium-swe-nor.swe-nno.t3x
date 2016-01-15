@@ -106,6 +106,12 @@
       <attr-item tags="sp"/>
       <attr-item tags="ND"/>
     </def-attr>
+    <def-attr n="cas">
+      <attr-item tags="nom"/>
+      <attr-item tags="gen"/>
+      <attr-item tags="acc"/>
+      <attr-item tags="CD"/>
+    </def-attr>
   </section-def-attrs>
 
   <section-def-vars>
@@ -120,12 +126,15 @@
                   which should be output before the adj, with no intervening space.">
       <choose><when>
         <test><and>
+          <equal><clip pos="1" part="temps"/><lit-tag v="pp"/></equal>
           <equal><clip pos="1" part="nbr"/><lit-tag v="sg"/></equal>
           <equal><clip pos="1" part="art"/><lit v=""/></equal>
         </and></test>
         <let><clip pos="1" part="nbr"/><concat><clip pos="1" part="nbr"/><lit-tag v="def"/></concat></let>
         <let><clip pos="1" part="gen"/><concat><lit v=""/></concat></let>
       </when></choose>
+
+      <let><clip pos="1" part="cas"/><lit v=""/></let>
 
       <out><lu><clip pos="1" part="whole"/></lu></out>
       <!-- This needs much more extensive testing: -->
