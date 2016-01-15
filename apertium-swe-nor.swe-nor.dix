@@ -2160,10 +2160,10 @@
     <e><p><l>norska<s n="n"/><s n="ut"/></l><r>nordmann<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>norska<s n="n"/><s n="ut"/></l><r>norsk<b/>kvinne<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>norska<s n="n"/><s n="ut"/></l><r>norsk<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>noshörning<s n="n"/><s n="ut"/></l><r>neshorn<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>noshörning<s n="n"/><s n="ut"/></l><r>neshorn<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>novell<s n="n"/><s n="ut"/></l><r>novelle<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>november<s n="n"/><s n="ut"/></l><r>november<s n="n"/><s n="GD"/></r></p></e>
-    <e><p><l>nyår<s n="n"/><s n="nt"/></l><r>nyår<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>november<s n="n"/><s n="ut"/></l><r>november<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>nyår<s n="n"/><s n="nt"/></l><r>nyttår<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>nyårsafton<s n="n"/><s n="ut"/></l><r>nyttårsaften<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nob"><p><l>nyckel<s n="n"/><s n="ut"/></l><r>nøkkel<s n="n"/><s n="GD"/></r></p></e>
     <e vr="nno"><p><l>nyckel<s n="n"/><s n="ut"/></l><r>nykel<s n="n"/><s n="m"/></r></p></e>
@@ -2506,7 +2506,7 @@
     <e><p><l>skägg<s n="n"/><s n="nt"/></l><r>skjegg<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>skål<s n="n"/><s n="ut"/></l><r>skål<s n="n"/><s n="f"/></r></p></e>
     <e><p><l>skala<s n="n"/><s n="ut"/></l><r>skrelle<s n="n"/><s n="f"/></r></p></e>
-    <e><p><l>skalle<s n="n"/><s n="ut"/></l><r>(hode)skalle<s n="n"/><s n="GD"/></r></p></e>
+    <e><p><l>skalle<s n="n"/><s n="ut"/></l><r>skalle<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>skåp<s n="n"/><s n="nt"/></l><r>skap<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>skärgård<s n="n"/><s n="ut"/></l><r>skjærgård<s n="n"/><s n="GD"/></r></p></e>
     <e><p><l>skatt<s n="n"/><s n="ut"/></l><r>skatt<s n="n"/><s n="m"/></r></p></e>
