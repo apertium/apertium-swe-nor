@@ -5260,6 +5260,8 @@
     <e><p><l>invandring<s n="n"/></l><r>innvandring<s n="n"/></r></p><par n="ut:mf"/></e>
     <e><p><l>is<s n="n"/><s n="ut"/></l><r>is<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>jag<s n="n"/><s n="nt"/></l><r>jag<s n="n"/><s n="nt"/></r></p></e>
+    <e vr="nno"><p><l>jag<s n="n"/><s n="nt"/></l><r>eg<s n="n"/><s n="nt"/></r></p></e>
+    <e vr="nob"><p><l>jag<s n="n"/><s n="nt"/></l><r>jeg<s n="n"/><s n="nt"/></r></p></e>
     <e vr="nno"><p><l>jämförelse<s n="n"/><s n="ut"/></l><r>samanlikning<s n="n"/><s n="f"/></r></p></e>
     <e vr="nob"><p><l>jämförelse<s n="n"/><s n="ut"/></l><r>sammenligning<s n="n"/><s n="m"/></r></p></e>
     <e><p><l>jämlikhet<s n="n"/><s n="ut"/></l><r>likeverd<s n="n"/><s n="nt"/></r></p></e>
