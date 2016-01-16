@@ -114,6 +114,9 @@
     <def-cat n="det">
       <cat-item tags="det.*"/>
     </def-cat>
+    <def-cat n="num">
+      <cat-item tags="num.*"/>
+    </def-cat>
     <def-cat n="prn">
       <cat-item tags="prn.*"/>
     </def-cat>
@@ -1600,6 +1603,27 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
           <chunk namefrom="c_name" case="caseFirstWord">
             <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
             <lu><clip pos="1" side="tl" part="whole"/></lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="NUM">
+      <pattern>
+        <pattern-item n="num"/>
+      </pattern>
+      <action>
+        <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk namefrom="c_name" case="caseFirstWord">
+            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_det"/>
+              <clip pos="1" side="tl" part="gen"/>
+              <clip pos="1" side="tl" part="nbr"/>
+              <clip pos="1" side="tl" part="lemq"/>
+            </lu>
           </chunk>
         </out>
       </action>
