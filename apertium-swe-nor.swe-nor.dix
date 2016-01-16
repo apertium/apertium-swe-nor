@@ -472,15 +472,15 @@
 
     <e vr="nob"><p><l>en<s n="num"/></l><r>en<s n="det"/><s n="qnt"/></r></p></e>
     <e vr="nno"><p><l>en<s n="num"/></l><r>ein<s n="det"/><s n="qnt"/></r></p></e>
-    <e><p><l>två<s n="num"/><s n="un"/></l><r>to<s n="det"/><s n="qnt"/></r></p></e>
-    <e><p><l>tre<s n="num"/><s n="un"/></l><r>tre<s n="det"/><s n="qnt"/></r></p></e>
-    <e><p><l>fyra<s n="num"/><s n="un"/></l><r>fire<s n="det"/><s n="qnt"/></r></p></e>
-    <e><p><l>fem<s n="num"/><s n="un"/></l><r>fem<s n="det"/><s n="qnt"/></r></p></e>
-    <e><p><l>sex<s n="num"/><s n="un"/></l><r>seks<s n="det"/><s n="qnt"/></r></p></e>
-    <e><p><l>sju<s n="num"/><s n="un"/></l><r>sju<s n="det"/><s n="qnt"/></r></p></e>
-    <e><p><l>åtta<s n="num"/><s n="un"/></l><r>åtte<s n="det"/><s n="qnt"/></r></p></e>
-    <e><p><l>nio<s n="num"/><s n="un"/></l><r>ni<s n="det"/><s n="qnt"/></r></p></e>
-    <e><p><l>tio<s n="num"/><s n="un"/></l><r>ti<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>två<s n="num"/></l><r>to<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>tre<s n="num"/></l><r>tre<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>fyra<s n="num"/></l><r>fire<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>fem<s n="num"/></l><r>fem<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>sex<s n="num"/></l><r>seks<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>sju<s n="num"/></l><r>sju<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>åtta<s n="num"/></l><r>åtte<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>nio<s n="num"/></l><r>ni<s n="det"/><s n="qnt"/></r></p></e>
+    <e><p><l>tio<s n="num"/></l><r>ti<s n="det"/><s n="qnt"/></r></p></e>
 
     <e><p><l>tusen<s n="num"/></l><r>tusen<s n="num"/></r></p></e>
     <e><p><l>mil<s n="num"/></l><r>mil<s n="num"/></r></p></e>
