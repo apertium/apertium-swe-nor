@@ -352,13 +352,13 @@
 
     <!-- SECTION: Pronouns -->
 
-    <e vr="nob"><p><l>jag<s n="prn"/><s n="pers"/><s n="p1"/><s n="un"/></l><r>jeg<s n="prn"/><s n="p1"/><s n="mf"/></r></p></e>
-    <e vr="nno"><p><l>jag<s n="prn"/><s n="pers"/><s n="p1"/><s n="un"/></l><r>eg<s n="prn"/><s n="p1"/><s n="mf"/></r></p></e>
-    <e><p><l>du<s n="prn"/><s n="pers"/><s n="p2"/><s n="un"/></l><r>du<s n="prn"/><s n="p2"/><s n="mf"/></r></p></e>
+    <e vr="nob"><p><l>jag<s n="prn"/><s n="pers"/><s n="p1"/><s n="ut"/></l><r>jeg<s n="prn"/><s n="p1"/><s n="mf"/></r></p></e>
+    <e vr="nno"><p><l>jag<s n="prn"/><s n="pers"/><s n="p1"/><s n="ut"/></l><r>eg<s n="prn"/><s n="p1"/><s n="mf"/></r></p></e>
+    <e><p><l>du<s n="prn"/><s n="pers"/><s n="p2"/><s n="ut"/></l><r>du<s n="prn"/><s n="p2"/><s n="mf"/></r></p></e>
     <e><p><l>han<s n="prn"/><s n="pers"/></l><r>han<s n="prn"/></r></p></e>
     <e vr="nob"><p><l>hon<s n="prn"/><s n="pers"/></l><r>hun<s n="prn"/></r></p></e>
     <e vr="nno"><p><l>hon<s n="prn"/><s n="pers"/></l><r>ho<s n="prn"/></r></p></e>
-    <e><p><l>vi<s n="prn"/><s n="pers"/><s n="p1"/><s n="un"/></l><r>vi<s n="prn"/><s n="p1"/><s n="mf"/></r></p></e>
+    <e><p><l>vi<s n="prn"/><s n="pers"/><s n="p1"/><s n="ut"/></l><r>vi<s n="prn"/><s n="p1"/><s n="mf"/></r></p></e>
 
     <e><p><l>ni<s n="prn"/><s n="pers"/></l><r>dere<s n="prn"/></r></p></e>
     <e><p><l>man<s n="prn"/><s n="pers"/></l><r>man<s n="prn"/></r></p></e>
@@ -900,8 +900,11 @@
     <e vr="nob"><p><l>vilja</l><r>ville</r></p><par n="vaux:vblex"/></e>
     <e vr="nno"><p><l>vilja</l><r>vilje</r></p><par n="vaux:vblex"/></e>
 
-    <e><p><l>kunna</l><r>kunne</r></p><par n="vbmod:vblex"/></e>
-    <e><p><l>skola</l><r>skulle</r></p><par n="vbmod:vblex"/></e>
+    <!--<e><p><l>kunna</l><r>kunne</r></p><par n="vbmod:vblex"/></e>-->
+    <!--<e><p><l>skola</l><r>skulle</r></p><par n="vbmod:vblex"/></e>-->
+
+    <e><p><l>kunna</l><r>kunne</r></p><par n="vblex"/></e>
+    <e><p><l>skola</l><r>skulle</r></p><par n="vblex"/></e>
 
     <e><p><l>älska</l><r>elske</r></p><par n="vblex"/></e>
     <e vr="nob"><p><l>äta</l><r>spise</r></p><par n="vblex"/></e>
@@ -1070,7 +1073,8 @@
     <e vr="nob"><p><l>följa</l><r>følge</r></p><par n="vblex"/></e>
     <e vr="nno"><p><l>följa</l><r>følgje</r></p><par n="vblex"/></e>
 
-    <e><p><l>måsta</l><r>må</r></p><par n="vaux:vblex"/></e>
+    <!--<e><p><l>måsta</l><r>må</r></p><par n="vaux:vblex"/></e>-->
+    <e><p><l>måsta</l><r>må</r></p><par n="vblex"/></e>
     <e vr="nob"><p><l>höra</l><r>høre</r></p><par n="vblex"/></e>
     <e vr="nno"><p><l>höra</l><r>høyre</r></p><par n="vblex"/></e>
     <e vr="nob"><p><l>leka</l><r>leke</r></p><par n="vblex"/></e>
