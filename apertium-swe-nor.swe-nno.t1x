@@ -228,12 +228,18 @@
       <attr-item tags="inf"/>
       <attr-item tags="imp"/>
       <attr-item tags="pres"/>
+      <attr-item tags="past"/>
       <attr-item tags="pret"/>
       <attr-item tags="pp"/>
     </def-attr>
     <def-attr n="voice">
       <attr-item tags="pasv"/>
       <attr-item tags="actv"/>
+    </def-attr>
+    <def-attr n="a_prn">
+      <attr-item tags="prn"/>
+      <attr-item tags="prn.itg"/>
+      <attr-item tags="prn.pers"/>
     </def-attr>
     <def-attr n="a_det">
       <attr-item tags="det"/>
@@ -1635,6 +1641,8 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
       </pattern>
       <action>
         <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <choose><when><test><equal><clip pos="1" side="tl" part="a_prn"/><lit-tag v="prn.itg"/></equal></test>
+                      <let><clip pos="1" side="tl" part="cas"/><lit v=""/></let></when></choose>
         <out>
           <chunk name="prn" case="caseFirstWord">
             <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>

@@ -358,7 +358,7 @@
     <e><p><l>han<s n="prn"/><s n="pers"/></l><r>han<s n="prn"/></r></p></e>
     <e vr="nob"><p><l>hon<s n="prn"/><s n="pers"/></l><r>hun<s n="prn"/></r></p></e>
     <e vr="nno"><p><l>hon<s n="prn"/><s n="pers"/></l><r>ho<s n="prn"/></r></p></e>
-    <e><p><l>vi<s n="prn"/><s n="pers"/><s n="p1"/><s n="ut"/></l><r>vi<s n="prn"/><s n="p1"/><s n="mf"/></r></p></e>
+    <e><p><l>vi<s n="prn"/><s n="pers"/><s n="p1"/></l><r>vi<s n="prn"/><s n="p1"/><s n="mf"/></r></p></e>
 
     <e><p><l>ni<s n="prn"/><s n="pers"/></l><r>dere<s n="prn"/></r></p></e>
     <e><p><l>man<s n="prn"/><s n="pers"/></l><r>man<s n="prn"/></r></p></e>
@@ -367,8 +367,8 @@
     <e vr="nno"><p><l>de<s n="prn"/><s n="pers"/><s n="p3"/><s n="un"/></l><r>dei<s n="prn"/><s n="p3"/><s n="mf"/></r></p></e>
 
     <e><p><l>det<s n="prn"/><s n="pers"/></l><r>det<s n="prn"/></r></p></e>
-    <e vr="nno"><p><l>vad<s n="prn"/></l><r>kva<s n="prn"/></r></p></e>
-    <e vr="nob"><p><l>vad<s n="prn"/></l><r>hva<s n="prn"/></r></p></e>
+    <e vr="nno"><p><l>vad<s n="prn"/></l><r>kva<s n="prn"/><s n="itg"/></r></p></e>
+    <e vr="nob"><p><l>vad<s n="prn"/></l><r>hva<s n="prn"/><s n="itg"/></r></p></e>
     <e vr="nob"><p><l>var<s n="prn"/></l><r>hvor<s n="prn"/></r></p></e>
     <e><p><l>vart<s n="prn"/></l><r>hvorhen<s n="prn"/></r></p></e>
 
@@ -379,6 +379,7 @@
     <e><p><l>någonting<s n="prn"/></l><r>ingenting<s n="prn"/></r></p></e>
     <e><p><l>ingenting<s n="prn"/></l><r>ingenting<s n="prn"/></r></p></e>
     <e><p><l>någon<s n="prn"/></l><r>noko<s n="prn"/></r></p></e>
+    <e><p><l>nånting<s n="prn"/></l><r>noko<s n="prn"/></r></p></e>
     <e><p><l>ingen<s n="prn"/></l><r>ingen<s n="prn"/></r></p></e>
     <e vr="nob"><p><l>annan<s n="prn"/></l><r>annen<s n="prn"/></r></p></e>
     <e vr="nno"><p><l>annan<s n="prn"/></l><r>annan<s n="prn"/></r></p></e>
@@ -414,9 +415,7 @@
     <e vr="nno"><p><l>annan<s n="det"/></l><r>annen<s n="det"/></r></p></e>
     <e vr="nno"><p><l>annan<s n="det"/></l><r>annan<s n="det"/></r></p></e>
 
-    <e><p><l>all<s n="predet"/><s n="un"/><s n="pl"/></l><r>all<s n="det"/><s n="qnt"/><s n="pl"/></r></p></e>
-    <e><p><l>all<s n="predet"/><s n="ut"/></l><r>all<s n="det"/><s n="qnt"/><s n="m"/></r></p></e>
-    <e><p><l>all<s n="predet"/><s n="nt"/></l><r>all<s n="det"/><s n="qnt"/><s n="nt"/></r></p></e>
+    <e><p><l>all<s n="prn"/></l><r>all<s n="det"/><s n="qnt"/></r></p></e>
 
     <e><p><l>min<s n="det"/></l><r>min<s n="det"/></r></p></e>
     <e><p><l>din<s n="det"/></l><r>din<s n="det"/></r></p></e>
@@ -489,6 +488,8 @@
 
     <e><p><l>tusen<s n="num"/></l><r>tusen<s n="num"/></r></p><par n="gen:"/></e>
     <e><p><l>mil<s n="num"/></l><r>mil<s n="num"/></r></p><par n="gen:"/></e>
+
+    <e><p><l>tusentals<s n="num"/></l><r>tusental<s n="n"/><s n="nt"/></r></p></e> <!-- FIXME -->
 
     <!-- SECTION: Nouns  -->
 
@@ -799,6 +800,9 @@
     <e vr="nno"><p><l>hög</l><r>høg</r></p><par n="adj_sint:adj"/></e>
     <e vr="nob"><p><l>hög</l><r>høy</r></p><par n="adj_sint:adj"/></e>
 
+    <e vr="nob"><p><l>obehaglig</l><r>ubehagelig</r></p><par n="adj_sint:adj"/></e>
+    <e vr="nno"><p><l>obehaglig</l><r>ubehageleg</r></p><par n="adj_sint:adj"/></e>
+
 
     <!-- SECTION: Adverbs -->
 
@@ -817,6 +821,7 @@
     <e vr="nno"><p><l>hemma<s n="adv"/></l><r>heime<s n="adv"/></r></p></e>
     <e vr="nob"><p><l>hemma<s n="adv"/></l><r>heim<s n="adv"/></r></p></e>
     <e><p><l>idag<s n="adv"/></l><r>i<b/>dag<s n="adv"/></r></p></e>
+    <e><p><l>i<b/>förrgår<s n="adv"/></l><r>i<b/>fjor<s n="adv"/></r></p></e>
     <e><p><l>än<s n="adv"/></l><r>enn<s n="adv"/></r></p></e>
     <e><p><l>helst<s n="adv"/></l><r>helst<s n="adv"/></r></p></e>
     <e><p><l>förr<s n="adv"/></l><r>før<s n="adv"/></r></p></e>
@@ -897,8 +902,11 @@
     <e><p><l>ha</l><r>ha</r></p><par n="vbhaver:vblex"/></e>
 
 
-    <e vr="nob"><p><l>vilja</l><r>ville</r></p><par n="vaux:vblex"/></e>
-    <e vr="nno"><p><l>vilja</l><r>vilje</r></p><par n="vaux:vblex"/></e>
+    <!--<e vr="nob"><p><l>vilja</l><r>ville</r></p><par n="vaux:vblex"/></e>-->
+    <!--<e vr="nno"><p><l>vilja</l><r>vilje</r></p><par n="vaux:vblex"/></e>-->
+
+    <e vr="nob"><p><l>vilja</l><r>ville</r></p><par n="vblex"/></e>
+    <e vr="nno"><p><l>vilja</l><r>vilje</r></p><par n="vblex"/></e>
 
     <!--<e><p><l>kunna</l><r>kunne</r></p><par n="vbmod:vblex"/></e>-->
     <!--<e><p><l>skola</l><r>skulle</r></p><par n="vbmod:vblex"/></e>-->
@@ -1075,6 +1083,7 @@
 
     <!--<e><p><l>måsta</l><r>må</r></p><par n="vaux:vblex"/></e>-->
     <e><p><l>måsta</l><r>må</r></p><par n="vblex"/></e>
+    <e><p><l>måste</l><r>må</r></p><par n="vblex"/></e> <!-- FIXME: CHECK -->
     <e vr="nob"><p><l>höra</l><r>høre</r></p><par n="vblex"/></e>
     <e vr="nno"><p><l>höra</l><r>høyre</r></p><par n="vblex"/></e>
     <e vr="nob"><p><l>leka</l><r>leke</r></p><par n="vblex"/></e>
@@ -1208,8 +1217,8 @@
 
     <e vr="nno"><p><l>varandra<s n="prn"/></l><r>kvarandre<s n="prn"/><s n="res"/><s n="pl"/></r></p></e>
     <e vr="nob"><p><l>varandra<s n="prn"/></l><r>hverandre<s n="prn"/><s n="res"/><s n="pl"/></r></p></e>
-    <e vr="nno"><p><l>själv<s n="prn"/><s n="ref"/></l><r>seg<b/>sjølv<s n="prn"/><s n="ref"/></r></p></e>
-    <e vr="nob"><p><l>själv<s n="prn"/><s n="ref"/></l><r>seg<b/>selv<s n="prn"/><s n="ref"/></r></p></e>
+    <e vr="nno"><p><l>själv<s n="prn"/></l><r>seg<b/>sjølv<s n="prn"/><s n="ref"/></r></p></e>
+    <e vr="nob"><p><l>själv<s n="prn"/></l><r>seg<b/>selv<s n="prn"/><s n="ref"/></r></p></e>
     <e><p><l>denna<s n="prn"/></l><r>denne<s n="prn"/><s n="p3"/></r></p></e>
 
 
@@ -5962,6 +5971,8 @@
 
     <e><p><l>hormon<s n="n"/><s n="ut"/></l><r>hormon<s n="n"/><s n="nt"/></r></p></e>
     <e><p><l>klinik<s n="n"/><s n="ut"/></l><r>klinikk<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>pupill<s n="n"/><s n="ut"/></l><r>pupill<s n="n"/><s n="m"/></r></p></e>
+    <e><p><l>fan<s n="n"/><s n="ut"/></l><r>fan<s n="n"/><s n="m"/></r></p></e>
 
 
     <!-- SECTION: Proper nouns -->
@@ -8200,6 +8211,7 @@
 
 
     <e><p><l>mycket<s n="adv"/></l><r>veldig<s n="adv"/></r></p></e>
+    <e><p><l>mycket<s n="adv"/><s n="comp"/></l><r>mykje<s n="adj"/><s n="sint"/><s n="comp"/></r></p></e> <!-- FIXME -->
     <e r="LR" vr="nno"><p><l>utifrån<s n="adv"/></l><r>ut<b/>frå<s n="adv"/></r></p></e>
     <e r="LR" vr="nob"><p><l>utifrån<s n="adv"/></l><r>ut<b/>fra<s n="adv"/></r></p></e>
     <e><p><l>snabbt<s n="adv"/></l><r>rask<s n="adv"/></r></p></e>
@@ -9346,6 +9358,7 @@
     <e><p><l>slippa<s n="vblex"/></l><r>slipe<s n="vblex"/></r></p></e>
     <e><p><l>producera<s n="vblex"/></l><r>produsere<s n="vblex"/></r></p></e>
     <e><p><l>undersöka<s n="vblex"/></l><r>undersøke<s n="vblex"/></r></p></e>
+    <e><p><l>förstora<s n="vblex"/></l><r>forstørre<s n="vblex"/></r></p></e>
 
 
 
