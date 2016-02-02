@@ -1,18 +1,10 @@
 <rules>
-  <rule weight="1.0">
-    <match lemma="behöva" tags="vblex.*"><select lemma="trenge" tags="vblex.*"/></match>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="försöka" tags="vblex.*"><select lemma="freiste" tags="vblex.*"/></match>
-  </rule>
-  <rule weight="1.0">
-    <match lemma="leka" tags="vblex.*"><select lemma="leke" tags="vblex.*"/></match>
-  </rule>
+  <rule weight="1.0"> <match lemma="behöva" tags="vblex.*"><select lemma="trenge" tags="vblex.*"/></match> </rule>
+  <rule weight="1.0"> <match lemma="försöka" tags="vblex.*"><select lemma="freiste" tags="vblex.*"/></match> </rule>
+  <rule weight="1.0"> <match lemma="leka" tags="vblex.*"><select lemma="leke" tags="vblex.*"/></match> </rule>
   <rule weight="2.0">
     <match lemma="fisk" tags="n.*"/>
     <match lemma="leka" tags="vblex.*"><select lemma="gå# opp" tags="vblex.*"/></match>
   </rule>
-  <rule weight="1.0">
-    <match lemma="göra" tags="vblex.*"><select lemma="gjere" tags="vblex.*"/></match>
-  </rule>
+  <rule weight="1.0"> <match lemma="göra" tags="vblex.*"><select lemma="gjere" tags="vblex.*"/></match> </rule>
 </rules>
