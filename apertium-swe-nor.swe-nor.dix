@@ -250,8 +250,8 @@
   <e>       <p><l><s n="vblex"/><s n="inf"/><s n="actv"/></l><r><s n="vblex"/><s n="pstv"/><s n="inf"/></r></p></e>
   <e>       <p><l><s n="vblex"/><s n="pp"/></l><r><s n="vblex"/><s n="pstv"/><s n="pp"/></r></p></e>
   <!-- TODO: pprs/pp etc. -->
-  <e>       <p><l><s n="vblex"/><s n="pres"/><s n="pasv"/></l><r><s n="vblex"/><s n="pstv"/><s n="pres"/></r></p></e> 
-  <e>       <p><l><s n="vblex"/><s n="inf"/><s n="pasv"/></l><r><s n="vblex"/><s n="pstv"/><s n="inf"/></r></p></e> 
+  <e>       <p><l><s n="vblex"/><s n="pres"/><s n="pasv"/></l><r><s n="vblex"/><s n="pstv"/><s n="pres"/></r></p></e>
+  <e>       <p><l><s n="vblex"/><s n="inf"/><s n="pasv"/></l><r><s n="vblex"/><s n="pstv"/><s n="inf"/></r></p></e>
 </pardef>
 
     <pardef n="adjgrad" c="Used by adj pardefs">
@@ -892,8 +892,18 @@
     <e vr="nob"><p><l>utomhus<s n="adv"/></l><r>utendørs<s n="adv"/></r></p></e>
     <e vr="nno"><p><l>då<s n="adv"/></l><r>då<s n="adv"/></r></p></e>
     <e vr="nob"><p><l>då<s n="adv"/></l><r>da<s n="adv"/></r></p></e>
+    <e><p><l>just<s n="adv"/></l><r>nettopp<s n="adv"/></r></p></e>
+    <e r="RL"><p><l>just<s n="adv"/></l><r>just<s n="adv"/></r></p></e>
+    <e><p><l>fram<s n="adv"/></l><r>fram<s n="adv"/></r></p></e>
 
     <!-- SECTION: Verbs -->
+
+
+    <e><p><l>måsta</l><r>må</r></p><par n="vaux:vblex"/></e>
+    <e><p><l>bli</l><r>bli</r></p><par n="vblex"/></e>
+    <e r="RL"><p><l>bli</l><r>blive</r></p><par n="vblex"/></e>
+    <e vr="nno"><p><l>böra</l><r>burde</r></p><par n="vblex"/></e>
+    <e vr="nob"><p><l>böra</l><r>burde</r></p><par n="vblex"/></e>
 
     <e vr="nob"><p><l>vara</l><r>være</r></p><par n="vbser:vblex"/></e>
     <e vr="nno"><p><l>vara</l><r>vere</r></p><par n="vbser:vblex"/></e>
@@ -1099,7 +1109,7 @@
     <e><p><l>jo<s n="ij"/></l><r>jo<s n="ij"/></r></p></e>
 
     <!-- SECTION: Punctuation -->
- 
+
     <e><re>[\(\[]</re><p><l><s n="lpar"/></l><r><s n="lpar"/></r></p></e>
     <e><re>[\)\]]</re><p><l><s n="rpar"/></l><r><s n="rpar"/></r></p></e>
     <e><re>[.\?;:!·…]+</re><p><l><s n="sent"/></l><r><s n="sent"/><s n="clb"/></r></p></e>
@@ -1112,12 +1122,6 @@
 
   </section>
   <section id="pending" type="standard">
-
-    <!-- SECTION: Suspicious -->
-
-    <e><p><l>just<s n="cnjadv"/></l><r>nettopp<s n="adv"/></r></p></e> <!-- !!! -->
-    <e><p><l>fram<s n="adv"/></l><r>fram<s n="pr"/></r></p></e> <!-- !!! -->
-    <e><p><l>nedan<s n="abbr"/></l><r>nedan<s n="pr"/></r></p></e> <!-- !!! -->
 
     <!-- SECTION: Conjunctions -->
 
@@ -5993,7 +5997,7 @@
     <e><p><l>Erik<s n="np"/><s n="ant"/><s n="m"/></l><r>Erik<s n="np"/><s n="m"/></r></p></e>
     <e><p><l>Hans<s n="np"/><s n="ant"/><s n="m"/></l><r>Hans<s n="np"/><s n="m"/></r></p></e>
     <e><p><l>Kristian<s n="np"/><s n="ant"/><s n="m"/></l><r>Kristian<s n="np"/><s n="m"/></r></p></e>
-    
+
 
     <e><p><l>Aanonsen<s n="np"/><s n="cog"/><s n="mf"/></l><r>Aanonsen<s n="np"/></r></p></e>
     <e><p><l>Aanonson<s n="np"/><s n="cog"/><s n="mf"/></l><r>Aanonson<s n="np"/></r></p></e>
@@ -8374,14 +8378,12 @@
 
     <!-- SECTION: Verbs -->
 
-    <e><p><l>måsta</l><r>må</r></p><par n="vaux:vblex"/></e>
     <e vr="nob"><p><l>höra</l><r>høre</r></p><par n="vblex"/></e>
     <e vr="nno"><p><l>höra</l><r>høyre</r></p><par n="vblex"/></e>
     <e><p><l>leka</l><r>leke</r></p><par n="vblex"/></e>
     <e><p><l>springa</l><r>lope</r></p><par n="vblex"/></e>
     <e><p><l>skriva</l><r>skrive</r></p><par n="vblex"/></e>
     <e><p><l>springa</l><r>springe</r></p><par n="vblex"/></e>
-
     <e><p><l>åberopa</l><r>henvise<g><b/>til</g></r></p><par n="vblex"/></e>
     <e><p><l>acceptera</l><r>akseptere</r></p><par n="vblex"/></e>
     <e><p><l>allitterera</l><r>allitterere</r></p><par n="vblex"/></e>
@@ -8439,11 +8441,6 @@
     <e><p><l>bevara</l><r>bevare</r></p><par n="vblex"/></e>
     <e><p><l>bidra</l><r>bidra</r></p><par n="vblex"/></e>
     <e><p><l>bita</l><r>bite</r></p><par n="vblex"/></e>
-    <e><p><l>bli</l><r>bli</r></p><par n="vblex"/></e>
-    <e><p><l>bli</l><r>blive</r></p><par n="vblex"/></e>
-    <e vr="nno"><p><l>böra</l><r>burde</r></p><par n="vblex"/></e>
-    <e vr="nno"><p><l>böra</l><r>byrje</r></p><par n="vblex"/></e>
-    <e vr="nob"><p><l>böra</l><r>burde</r></p><par n="vblex"/></e>
     <e vr="nno"><p><l>börja</l><r>byrje</r></p><par n="vblex"/></e>
     <e vr="nob"><p><l>börja</l><r>begynne</r></p><par n="vblex"/></e>
     <e><p><l>brinna</l><r>brenne</r></p><par n="vblex"/></e>
@@ -8807,7 +8804,6 @@
     <e vr="nob"><p><l>viska</l><r>hviske</r></p><par n="vblex"/></e>
     <e vr="nob"><p><l>viska</l><r>kviskre</r></p><par n="vblex"/></e>
     <e><p><l>yttra</l><r>ytre</r></p><par n="vblex"/></e>
-
     <e><p><l>hålla</l><r>holde</r></p><par n="vblex"/></e>
     <e><p><l>bruka</l><r>bruke</r></p><par n="vblex"/></e>
     <e><p><l>eliminera</l><r>eliminere</r></p><par n="vblex"/></e>
@@ -8817,7 +8813,6 @@
     <e vr="nno"><p><l>kalla</l><r>heite</r></p><par n="vblex"/></e>
     <e vr="nob"><p><l>kalla</l><r>hete</r></p><par n="vblex"/></e>
     <e><p><l>fungera</l><r>fungere</r></p><par n="vblex"/></e>
-
     <e vr="nob"><p><l>tjäna</l><r>tjene</r></p><par n="vblex"/></e>
     <e vr="nno"><p><l>tjäna</l><r>tene</r></p><par n="vblex"/></e>
     <e><p><l>såra</l><r>såre</r></p><par n="vblex"/></e>
@@ -8830,7 +8825,6 @@
     <e><p><l>öppna</l><r>opne</r></p><par n="vblex"/></e>
     <e><p><l>mena</l><r>mene</r></p><par n="vblex"/></e>
     <e><p><l>rationalisera</l><r>rasjonalisere</r></p><par n="vblex"/></e>
-
     <e><p><l>åka<s n="vblex"/></l><r>åke<s n="vblex"/></r></p></e>
     <e><p><l>akta<s n="vblex"/></l><r>akte<s n="vblex"/></r></p></e>
     <e><p><l>ange<s n="vblex"/></l><r>angje<s n="vblex"/></r></p></e>
@@ -8956,9 +8950,7 @@
     <e><p><l>vara<s n="vblex"/></l><r>vare<s n="vblex"/></r></p></e>
     <e><p><l>variera<s n="vblex"/></l><r>variere<s n="vblex"/></r></p></e>
     <e><p><l>vika<s n="vblex"/></l><r>vike<s n="vblex"/></r></p></e>
-
     <e><p><l>stanna<s n="vblex"/></l><r>stå<s n="vblex"/></r></p></e>
-
     <e><p><l>kräva<s n="vblex"/></l><r>kreve<s n="vblex"/></r></p></e>
     <e><p><l>klassificera<s n="vblex"/></l><r>klassifisere<s n="vblex"/></r></p></e>
     <e><p><l>kommunicera<s n="vblex"/></l><r>kommunisere<s n="vblex"/></r></p></e>
@@ -8974,7 +8966,6 @@
     <e><p><l>reducera<s n="vblex"/></l><r>redusere<s n="vblex"/></r></p></e>
     <e><p><l>existera<s n="vblex"/></l><r>eksistere<s n="vblex"/></r></p></e>
     <e><p><l>komma<g><b/>ihåg</g></l><r>huske</r></p><par n="vblex"/></e>
-
     <e><p><l>adressera<s n="vblex"/></l><r>adressere<s n="vblex"/></r></p></e>
     <e><p><l>agera<s n="vblex"/></l><r>agere<s n="vblex"/></r></p></e>
     <e><p><l>analysera<s n="vblex"/></l><r>analysere<s n="vblex"/></r></p></e>
@@ -9322,7 +9313,6 @@
     <e><p><l>vispa<s n="vblex"/></l><r>vispe<s n="vblex"/></r></p></e>
     <e><p><l>vrida<s n="vblex"/></l><r>vride<s n="vblex"/></r></p></e>
     <e><p><l>yrka<s n="vblex"/></l><r>yrke<s n="vblex"/></r></p></e>
-
     <e><p><l>känna<s n="vblex"/></l><r>kjenne<s n="vblex"/></r></p></e>
     <e><p><l>möta<s n="vblex"/></l><r>møte<s n="vblex"/></r></p></e>
     <e><p><l>uppfylla<s n="vblex"/></l><r>oppfylle<s n="vblex"/></r></p></e>
