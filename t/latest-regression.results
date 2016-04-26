@@ -1,0 +1,98 @@
+Revision: 0
+AP_SRC1 Revision: 67254
+AP_SRC2b Revision: 67254
+AP_SRC2n Revision: 67254
+Running Regression-tests with mode "swe-nno" with updated tests ...
+
+swe-nno	  honom.
+	- han.
+	+ #han.
+
+
+0 / 1, 0%
+Revision: 0
+AP_SRC1 Revision: 67254
+AP_SRC2b Revision: 67254
+AP_SRC2n Revision: 67254
+Running Regression-tests with mode "nno-swe" with updated tests ...
+
+nno-swe	  ikkje.
+	- inte.
+	+ lrx-proc: process a bilingual stream with a lexical rule transducer.
+
+
+nno-swe	  
+	- 
+	+ USAGE: lrx-proc -z | -d | -t | -m fst_file input_file output_file.
+
+
+nno-swe	  
+	- 
+	+ -m: run the rules using weights as lambdas.
+
+
+nno-swe	  
+	- 
+	+ -t: trace the rules which have been applied.
+
+
+nno-swe	  
+	- 
+	+ -d: print out information about how the rules are run.
+
+
+nno-swe	  
+	- 
+	+ -z: flush on the null character.
+
+
+0 / 6, 0%
+Revision: 0
+AP_SRC1 Revision: 67254
+AP_SRC2b Revision: 67254
+AP_SRC2n Revision: 67254
+Running Regression-tests with mode "swe-nob" with updated tests ...
+
+swe-nob	  honom.
+	- han.
+	+ #han.
+
+
+0 / 1, 0%
+Revision: 0
+AP_SRC1 Revision: 67254
+AP_SRC2b Revision: 67254
+AP_SRC2n Revision: 67254
+Running Regression-tests with mode "nob-swe" with updated tests ...
+
+nob-swe	  ikke.
+	- inte.
+	+ lrx-proc: process a bilingual stream with a lexical rule transducer.
+
+
+nob-swe	  
+	- 
+	+ USAGE: lrx-proc -z | -d | -t | -m fst_file input_file output_file.
+
+
+nob-swe	  
+	- 
+	+ -m: run the rules using weights as lambdas.
+
+
+nob-swe	  
+	- 
+	+ -t: trace the rules which have been applied.
+
+
+nob-swe	  
+	- 
+	+ -d: print out information about how the rules are run.
+
+
+nob-swe	  
+	- 
+	+ -z: flush on the null character.
+
+
+0 / 6, 0%

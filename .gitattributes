@@ -27,6 +27,14 @@ dev/testvoc/generation.sh -text
 dev/testvoc/streamparser.py -text
 dev/wikipedia.nouns.txt -text
 /modes.xml -text
+t/README.org -text
+t/config.sh -text
+t/latest-pending.results -text
+t/latest-regression.results -text
+t/pending-tests -text
+t/regression-tests -text
+t/update-latest -text
+t/wiki-tests -text
 texts/story.nob.txt -text
 texts/story.swe.txt -text
 texts/trädbank.swe.txt -text
