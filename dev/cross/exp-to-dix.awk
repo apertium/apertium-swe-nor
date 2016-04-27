@@ -1,5 +1,11 @@
 #!/usr/bin/awk -f
-BEGIN{FS=":"}
+BEGIN{
+    FS=":"
+    e="<e>         "
+    if(vr=="nno" || vr=="nob") {
+        e="<e vr=\""vr"\">"
+    }
+}
 
 /__REGEXP?__/ {next}
 
@@ -35,8 +41,8 @@ BEGIN{FS=":"}
   }
   else if(/<s n="n"\/><s n="f"\/>$/){
     par="<par n=\":f/m\"/>"
-    gsub(/<s n="n"\/><s n="f"\/>/,"")
+    gsub(/<s n="f"\/>/,"")
   }
 
-  print "<e><p><l>"$1"</l>	<r>"$2"</r></p>"par"</e>"
+  print e"<p><l>"$1"</l>	<r>"$2"</r></p>"par"</e>"
 }
