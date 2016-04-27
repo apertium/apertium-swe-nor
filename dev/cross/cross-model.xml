@@ -29,5 +29,61 @@
             </action>
         </action-set>
     </cross-action>
+
+    <cross-action id="np-ant" a="kbu">
+        <description>np pattern</description>
+        <pattern>
+            <e>
+                <p>
+                    <l>$lemmaA<s n="np"/><s n="ant"/><v n="X"/><t n="tailA"/></l>
+                    <r>$lemmaB<s n="np"/><s n="ant"/><v n="Y"/><t/></r>
+                </p>
+            </e>
+            <e>
+                <p>
+                    <l>$lemmaB<s n="np"/><t/></l>
+                    <r>$lemmaC<s n="np"/><t n="tailC"/></r>
+                </p>
+            </e>
+        </pattern>
+        <action-set>
+            <action>
+                <e>
+                    <p>
+                        <l>$lemmaA<s n="np"/><s n="ant"/><v n="X"/><t n="tailA"/></l>
+                        <r>$lemmaC<s n="np"/><s n="ant"/><v n="Y"/><t n="tailC"/></r>
+                    </p>
+                </e>
+            </action>
+        </action-set>
+    </cross-action>
+
+    <cross-action id="np" a="kbu">
+        <description>np pattern</description>
+        <pattern>
+            <e>
+                <p>
+                    <l>$lemmaA<s n="np"/><v n="X"/><t n="tailA"/></l>
+                    <r>$lemmaB<s n="np"/><v n="Y"/><t/></r>
+                </p>
+            </e>
+            <e>
+                <p>
+                    <l>$lemmaB<s n="np"/><t/></l>
+                    <r>$lemmaC<s n="np"/><t n="tailC"/></r>
+                </p>
+            </e>
+        </pattern>
+        <action-set>
+            <action>
+                <e>
+                    <p>
+                        <l>$lemmaA<s n="np"/><v n="X"/><t n="tailA"/></l>
+                        <r>$lemmaC<s n="np"/><v n="Y"/><t n="tailC"/></r>
+                    </p>
+                </e>
+            </action>
+        </action-set>
+    </cross-action>
 </cross-model>
 
