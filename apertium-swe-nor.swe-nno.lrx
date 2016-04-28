@@ -7,4 +7,14 @@
     <match lemma="leka" tags="vblex.*"><select lemma="gå# opp" tags="vblex.*"/></match>
   </rule>
   <rule weight="1.0"> <match lemma="göra" tags="vblex.*"><select lemma="gjere" tags="vblex.*"/></match> </rule>
+
+  <!-- TODO: more of a CG thing? -->
+  <rule weight="1.0"> <match lemma="att" tags="cnjsub"><select lemma="at" tags="cnjsub"/></match> </rule>
+  <rule weight="2.0">
+    <match lemma="att" tags="cnjsub"><select lemma="å" tags="part"/></match>
+    <or>
+      <match tags="vblex.inf"/>
+      <match tags="vblex.inf.*"/>
+    </or>
+  </rule>
 </rules>
