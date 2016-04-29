@@ -296,13 +296,36 @@
 
 
     <pardef n="adjgrad" c="Used by adj pardefs">
-      <!-- slik at me kan ha
-           foo<adj><pp> <=> bar<adj><pp>
-           medan
-           foo<adj><posi> <=> bum<adj><posi> -->
-<e>       <p><l><s n="comp"/></l> <r><s n="comp"/></r></p></e>
-<e>       <p><l><s n="pst"/></l> <r><s n="pst"/></r></p></e>
-<e>       <p><l><s n="sup"/></l>  <r><s n="sup"/></r></p></e>
+<e>       <p><l><s n="comp"/><s n="un"/><s n="sp"/></l>            <r><s n="comp"/><s n="un"/><s n="sp"/></r></p></e>
+
+<e>       <p><l><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></l> <r><s n="pst"/><s n="mf"/><s n="sg"/><s n="ind"/></r></p></e>
+<e>       <p><l><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></l> <r><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+<e>       <p><l><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></l> <r><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
+
+<e r="LR"><p><l><s n="pst"/><s n="fn"/><s n="sg"/><s n="def"/></l> <r><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+<e r="LR"><p> <l><s n="pst"/><s n="m"/><s n="sg"/><s n="def"/></l> <r><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+<e r="LR"><p><l><s n="pst"/><s n="un"/><s n="pl"/><s n="def"/></l> <r><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+<e r="RL"><p><l><s n="pst"/><s n="GD"/><s n="ND"/><s n="def"/></l> <r><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+
+<e r="LR"><p><l><s n="sup"/><s n="fn"/><s n="sp"/><s n="def"/></l> <r><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+<e r="LR"><p> <l><s n="sup"/><s n="m"/><s n="sp"/><s n="def"/></l> <r><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+<e r="RL"><p> <l><s n="sup"/><s n="GD"/><s n="sp"/><s n="def"/></l> <r><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+<e>       <p><l><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></l> <r><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/></r></p></e>
+    </pardef>
+
+    <pardef n="adjgrad_ord-1" c="Used by adj_ord-1">
+<e>         <p><l><s n="pst"/><s n="fn"/><s n="sg"/><s n="ind"/></l> <r><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+<e>         <p> <l><s n="pst"/><s n="m"/><s n="sg"/><s n="ind"/></l> <r><s n="pst"/><s n="mf"/><s n="sg"/><s n="ind"/></r></p></e>
+
+<e>       <p><l><s n="pst"/><s n="un"/><s n="pl"/><s n="def"/></l> <r><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+<e>       <p><l><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></l> <r><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
+    </pardef>
+    <pardef n="adjgrad_ord" c="Used by adj_ord">
+<e>         <p><l><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></l> <r><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p></e>
+<e>         <p><l><s n="pst"/><s n="ut"/><s n="sg"/><s n="ind"/></l> <r><s n="pst"/><s n="mf"/><s n="sg"/><s n="ind"/></r></p></e>
+
+<e>       <p><l><s n="pst"/><s n="un"/><s n="pl"/><s n="def"/></l> <r><s n="pst"/><s n="un"/><s n="sp"/><s n="def"/></r></p></e>
+<e>       <p><l><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></l> <r><s n="pst"/><s n="un"/><s n="pl"/><s n="ind"/></r></p></e>
     </pardef>
 
     <pardef n="adj" c="Non-verbal forms of adj">
@@ -312,19 +335,26 @@
     <pardef n="adj_sint" c="synthetic on both sides">
 <e>       <p><l><s n="adj"/><s n="sint"/></l> <r><s n="adj"/><s n="sint"/></r></p><par n="adjgrad"/></e>
     </pardef>
-    <pardef n="adj_sint:adj" c="synthetic on dan side">
+    <pardef n="adj_sint:adj" c="synthetic on swe side">
 <e>       <p><l><s n="adj"/><s n="sint"/></l> <r><s n="adj"/></r></p><par n="adjgrad"/></e>
     </pardef>
-    <pardef n="adj:adj_sint" c="synthetic on nor side">
+    <pardef n="adj:adj_sint" c="synthetic on dan side">
 <e>       <p><l><s n="adj"/></l>              <r><s n="adj"/><s n="sint"/></r></p><par n="adjgrad"/></e>
+    </pardef>
+
+    <pardef n="adj_ord-1" c="ordinals">
+<e>       <p><l><s n="adj"/><s n="ord"/></l> <r><s n="adj"/><s n="ord"/></r></p><par n="adjgrad_ord-1"/></e>
+    </pardef>
+    <pardef n="adj_ord" c="ordinals">
+<e>       <p><l><s n="adj"/><s n="ord"/></l> <r><s n="adj"/><s n="ord"/></r></p><par n="adjgrad_ord"/></e>
     </pardef>
 
     <!--
         A colon (:) in pardef names separate the left from the right
     -->
     <pardef n="adj_sint:/leg__adj">
-<e vr="nno"><p><l><s n="adj"/><s n="sint"/></l><r>leg<s n="adj"/></r></p></e>
-<e vr="nob"><p><l><s n="adj"/><s n="sint"/></l><r>lig<s n="adj"/></r></p></e>
+<e vr="nno"><p><l></l><r>leg</r></p><par n="adj_sint:adj"/></e>
+<e vr="nob"><p><l></l><r>lig</r></p><par n="adj_sint:adj"/></e>
     </pardef>
 
     </pardefs>
@@ -849,8 +879,6 @@
 <e><p><l>judisk</l><r>jødisk</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>juridisk</l><r>juridisk</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>kall</l><r>kald</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>kall</l><r>kald</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>kall</l><r>kall</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>kemisk</l><r>kjemisk</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>kinesisk</l><r>kinesisk</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>klassisk</l><r>klassisk</r></p><par n="adj_sint:adj"/></e>
@@ -945,7 +973,6 @@
 <e><p><l>stark</l><r>sterk</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>stenig</l><r>steinete</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>stilig</l><r>sti</r></p><par n="adj_sint:/leg__adj"/></e>
-<e><p><l>stor</l><r>stor</r></p><par n="adj_sint"/></e>
 <e><p><l>stum</l><r>stum</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>stygg</l><r>stygg</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>sund</l><r>sund</r></p><par n="adj_sint:adj"/></e>
@@ -984,7 +1011,6 @@
 <e><p><l>ung</l><r>young</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>unik</l><r>unik</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>ursinnig</l><r>rasende</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>väldig</l><r>veldig</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>varsam</l><r>varsom</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>vek</l><r>sart</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>vetenskaplig</l><r>vitenskape</r></p><par n="adj_sint:/leg__adj"/></e>
@@ -1936,7 +1962,6 @@
 <e><p><l>kakao<s n="n"/><s n="ut"/></l><r>kakao<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>kakel<s n="n"/><s n="nt"/></l><r>kakkel<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>kalkon<s n="n"/><s n="ut"/></l><r>kalkun<s n="n"/><s n="m"/></r></p></e>
-<e><p><l>kall<s n="n"/><s n="nt"/></l><r>kald<s n="n"/><s n="GD"/></r></p></e>
 <e><p><l>källare<s n="n"/><s n="ut"/></l><r>kjeller<s n="n"/><s n="f"/></r></p></e>
 <e><p><l>kalv<s n="n"/><s n="ut"/></l><r>kalv<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>kamera<s n="n"/><s n="ut"/></l><r>kamera<s n="n"/><s n="nt"/></r></p></e>
@@ -5721,7 +5746,8 @@
 <e vr="nno"><p><l>seger<s n="n"/><s n="ut"/></l><r>siger<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>seger<s n="n"/><s n="ut"/></l><r>seier<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>sekreterare<s n="n"/><s n="ut"/></l><r>sekretær<s n="n"/><s n="m"/></r></p></e>
-<e><p><l>siffra<s n="n"/><s n="ut"/></l><r>tall<s n="n"/><s n="f"/></r></p></e>
+<e vr="nno"><p><l>siffra<s n="n"/><s n="ut"/></l>	<r>tal<s n="n"/><s n="nt"/></r></p></e>
+<e vr="nob"><p><l>siffra<s n="n"/><s n="ut"/></l>	<r>tall<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nno"><p><l>självständighet<s n="n"/><s n="ut"/></l><r>sjølvstende<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nob"><p><l>självständighet<s n="n"/></l><r>selvstendighet<s n="n"/></r></p><par n="ut:f/m"/></e>
 <e><p><l>sjöman<s n="n"/><s n="ut"/></l><r>sjømann<s n="n"/><s n="m"/></r></p></e>
@@ -9893,8 +9919,6 @@
 <e>         <p><l>kärna<s n="n"/><s n="ut"/></l>	<r>dall<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>fall<s n="n"/><s n="nt"/></l>	<r>fall<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>hall<s n="n"/><s n="ut"/></l>	<r>hall<s n="n"/><s n="m"/></r></p></e>
-<e vr="nob"><p><l>kall<s n="n"/><s n="nt"/></l>	<r>kall<s n="n"/><s n="m"/></r></p></e>
-<e vr="nob"><p><l>kallelse<s n="n"/><s n="ut"/></l>	<r>kall<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>lastpall<s n="n"/></l>	<r>pall<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>pall<s n="n"/><s n="un"/></l>	<r>pall<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>overall<s n="n"/><s n="ut"/></l>	<r>overall<s n="n"/><s n="m"/></r></p></e>
@@ -13969,7 +13993,6 @@
 <e>         <p><l>primtal<s n="n"/><s n="nt"/></l>	<r>primtal<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nno"><p><l>ental<s n="n"/><s n="nt"/></l>	<r>eintal<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nno"><p><l>majoritet<s n="n"/><s n="ut"/></l>	<r>fleirtal<s n="n"/><s n="nt"/></r></p></e>
-<e vr="nno"><p><l>siffra<s n="n"/><s n="ut"/></l>	<r>tal<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nno"><p><l>årtal<s n="n"/><s n="nt"/></l>	<r>årstal<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>ritual<s n="n"/><s n="un"/></l>	<r>ritual<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nno"><p><l>val<s n="n"/><s n="nt"/></l>	<r>val<s n="n"/><s n="nt"/></r></p></e>
@@ -14062,8 +14085,8 @@
 <e vr="nno"><p><l>lövfällning<s n="n"/><s n="ut"/></l>	<r>lauvfall<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nob"><p><l>lövfällning<s n="n"/><s n="ut"/></l>	<r>løvfall<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>snöfall<s n="n"/><s n="nt"/></l>	<r>snøfall<s n="n"/><s n="nt"/></r></p></e>
-<e vr="nob"><p><l>kall<s n="n"/><s n="nt"/></l>	<r>kall<s n="n"/><s n="nt"/></r></p></e>
-<e vr="nob"><p><l>kallelse<s n="n"/><s n="ut"/></l>	<r>kall<s n="n"/><s n="nt"/></r></p></e>
+<e>       <p><l>kall<s n="n"/><s n="nt"/></l>	<r>kall<s n="n"/><s n="nt"/></r></p></e>
+<e>       <p><l>kallelse<s n="n"/><s n="ut"/></l>	<r>kall<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nob"><p><l>skal<s n="n"/><s n="nt"/></l>	<r>skall<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>knull<s n="n"/><s n="nt"/></l>	<r>knall<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>skräp<s n="n"/><s n="nt"/></l>	<r>skrall<s n="n"/><s n="nt"/></r></p></e>
@@ -14071,7 +14094,6 @@
 <e vr="nob"><p><l>flertal<s n="n"/><s n="nt"/></l>	<r>antall<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nob"><p><l>ental<s n="n"/><s n="nt"/></l>	<r>entall<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nob"><p><l>majoritet<s n="n"/><s n="ut"/></l>	<r>flertall<s n="n"/><s n="nt"/></r></p></e>
-<e vr="nob"><p><l>siffra<s n="n"/><s n="ut"/></l>	<r>tall<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nob"><p><l>årtal<s n="n"/><s n="nt"/></l>	<r>årstall<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nob"><p><l>kristall<s n="n"/><s n="ut"/></l>	<r>krystall<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nob"><p><l>iskristall<s n="n"/><s n="ut"/></l>	<r>iskrystall<s n="n"/><s n="nt"/></r></p></e>
@@ -18700,10 +18722,6 @@
 <e vr="nob"><p><l>erfaren</l>	<r>erfaren</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>suverän</l>	<r>suveren</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>uppvuxen</l>	<r>oppvaksen</r></p><par n="adj_sint:adj"/></e>
-<e vr="nno"><p><l>maffig</l>	<r>storvaksen</r></p><par n="adj_sint:adj"/></e>
-<e vr="nno"><p><l>mastig</l>	<r>storvaksen</r></p><par n="adj_sint:adj"/></e>
-<e vr="nno"><p><l>storvuxen</l>	<r>storvaksen</r></p><par n="adj_sint:adj"/></e>
-<e vr="nno"><p><l>stor</l>	<r>storvaksen</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>liten</l>	<r>småvaksen</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>liten</l>	<r>småvoksen</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>medveten</l>	<r>medveten</r></p><par n="adj_sint:adj"/></e>
@@ -18894,10 +18912,6 @@
 <e>         <p><l>bortrest</l>	<r>bortreist</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>rank</l>	<r>høyreist</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>uppvuxen</l>	<r>oppvokst</r></p><par n="adj_sint:adj"/></e>
-<e vr="nob"><p><l>maffig</l>	<r>storvokst</r></p><par n="adj_sint:adj"/></e>
-<e vr="nob"><p><l>mastig</l>	<r>storvokst</r></p><par n="adj_sint:adj"/></e>
-<e vr="nob"><p><l>storvuxen</l>	<r>storvokst</r></p><par n="adj_sint:adj"/></e>
-<e vr="nob"><p><l>stor</l>	<r>storvokst</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>liten</l>	<r>småvokst</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>fanatisk</l>	<r>helfrelst</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>fanatisk</l>	<r>heilfrelst</r></p><par n="adj_sint:adj"/></e>
@@ -19117,10 +19131,6 @@
 <e vr="nno"><p><l>underhaltig</l>	<r>dårleg</r></p><par n="adj_sint"/></e>
 <e vr="nno"><p><l>skral</l>	<r>dårleg</r></p><par n="adj_sint"/></e>
 <e vr="nno"><p><l>sportslig</l>	<r>sportsleg</r></p><par n="adj_sint"/></e>
-<e vr="nno"><p><l>maffig</l>	<r>røsleg</r></p><par n="adj_sint"/></e>
-<e vr="nno"><p><l>mastig</l>	<r>røsleg</r></p><par n="adj_sint"/></e>
-<e vr="nno"><p><l>storvuxen</l>	<r>røsleg</r></p><par n="adj_sint"/></e>
-<e vr="nno"><p><l>stor</l>	<r>røsleg</r></p><par n="adj_sint"/></e>
 <e vr="nno"><p><l>egentlig</l>	<r>eigentleg</r></p><par n="adj_sint"/></e>
 <e vr="nno"><p><l>väsentlig</l>	<r>vesentleg</r></p><par n="adj_sint"/></e>
 <e vr="nno"><p><l>festlig</l>	<r>festleg</r></p><par n="adj_sint"/></e>
@@ -19139,6 +19149,7 @@
 <e>         <p><l>oturlig</l>	<r>uheldig</r></p><par n="adj_sint"/></e>
 <e>         <p><l>riktig</l>	<r>veldig</r></p><par n="adj_sint"/></e>
 <e>         <p><l>rätt</l>	<r>veldig</r></p><par n="adj_sint"/></e>
+<e>         <p><l>väldig</l><r>veldig</r></p><par n="adj_sint"/></e>
 <e>         <p><l>skyldig</l>	<r>skyldig</r></p><par n="adj_sint"/></e>
 <e>         <p><l>oskyldig</l>	<r>uskyldig</r></p><par n="adj_sint"/></e>
 <e vr="nno"><p><l>beständig</l>	<r>bestandig</r></p><par n="adj_sint"/></e>
@@ -19254,10 +19265,6 @@
 <e vr="nob"><p><l>underhaltig</l>	<r>dårlig</r></p><par n="adj_sint"/></e>
 <e vr="nob"><p><l>skral</l>	<r>dårlig</r></p><par n="adj_sint"/></e>
 <e vr="nob"><p><l>sportslig</l>	<r>sportslig</r></p><par n="adj_sint"/></e>
-<e vr="nob"><p><l>maffig</l>	<r>røslig</r></p><par n="adj_sint"/></e>
-<e vr="nob"><p><l>mastig</l>	<r>røslig</r></p><par n="adj_sint"/></e>
-<e vr="nob"><p><l>storvuxen</l>	<r>røslig</r></p><par n="adj_sint"/></e>
-<e vr="nob"><p><l>stor</l>	<r>røslig</r></p><par n="adj_sint"/></e>
 <e vr="nob"><p><l>egentlig</l>	<r>egentlig</r></p><par n="adj_sint"/></e>
 <e vr="nob"><p><l>väsentlig</l>	<r>vesentlig</r></p><par n="adj_sint"/></e>
 <e vr="nob"><p><l>festlig</l>	<r>festlig</r></p><par n="adj_sint"/></e>
@@ -19522,10 +19529,16 @@
 <e>         <p><l>bitter</l>	<r>bitter</r></p><par n="adj_sint"/></e>
 <e>         <p><l>kärv</l>	<r>bitter</r></p><par n="adj_sint"/></e>
 <e>         <p><l>snäv</l>	<r>snever</r></p><par n="adj_sint"/></e>
-<e>         <p><l>maffig</l>	<r>stor</r></p><par n="adj_sint"/></e>
-<e>         <p><l>mastig</l>	<r>stor</r></p><par n="adj_sint"/></e>
-<e>         <p><l>storvuxen</l>	<r>stor</r></p><par n="adj_sint"/></e>
+
+<e vr="nob"><p><l>maffig</l>	<r>røslig</r></p><par n="adj_sint"/></e>
+<e vr="nob"><p><l>mastig</l>	<r>røslig</r></p><par n="adj_sint"/></e>
+<e vr="nno"><p><l>maffig</l>	<r>røsleg</r></p><par n="adj_sint"/></e>
+<e vr="nno"><p><l>mastig</l>	<r>røsleg</r></p><par n="adj_sint"/></e>
+<e>         <p><l>stor</l>	<r>svær</r></p><par n="adj_sint"/></e>
 <e>         <p><l>stor</l>	<r>stor</r></p><par n="adj_sint"/></e>
+<e vr="nob"><p><l>storvuxen</l>	<r>storvokst</r></p><par n="adj_sint:adj"/></e>
+<e vr="nno"><p><l>storvuxen</l>	<r>storvaksen</r></p><par n="adj_sint:adj"/></e>
+
 <e vr="nno"><p><l>kal</l>	<r>berr</r></p><par n="adj_sint"/></e>
 <e vr="nno"><p><l>bar</l>	<r>berr</r></p><par n="adj_sint"/></e>
 <e>         <p><l>tvär</l>	<r>tverr</r></p><par n="adj_sint"/></e>
@@ -19541,10 +19554,6 @@
 <e>         <p><l>dyr</l>	<r>dyr</r></p><par n="adj_sint"/></e>
 <e>         <p><l>kär</l>	<r>kjær</r></p><par n="adj_sint"/></e>
 <e>         <p><l>nära</l>	<r>nær</r></p><par n="adj_sint"/></e>
-<e>         <p><l>maffig</l>	<r>svær</r></p><par n="adj_sint"/></e>
-<e>         <p><l>mastig</l>	<r>svær</r></p><par n="adj_sint"/></e>
-<e>         <p><l>storvuxen</l>	<r>svær</r></p><par n="adj_sint"/></e>
-<e>         <p><l>stor</l>	<r>svær</r></p><par n="adj_sint"/></e>
 <e>         <p><l>mör</l>	<r>mør</r></p><par n="adj_sint"/></e>
 <e vr="nno"><p><l>klar</l>	<r>klår</r></p><par n="adj_sint"/></e>
 <e>         <p><l>öm</l>	<r>sår</r></p><par n="adj_sint"/></e>
