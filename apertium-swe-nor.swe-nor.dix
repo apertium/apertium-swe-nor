@@ -789,11 +789,13 @@
 <e><p><l>sociologisk</l><r>sosiologisk</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>aktiv</l><r>aktiv</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>alldaglig</l><r>dagligdags</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>allvarlig</l><r>alvor</r></p><par n="adj_sint:/leg__adj"/></e>
+<e vr="nno"><p><l>allvarlig</l><r>alvorleg</r></p><par n="adj_sint:adj"/></e>
+<e vr="nob"><p><l>allvarlig</l><r>alvorlig</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>allvarlig</l><r>seriøs</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>amerikansk</l><r>amerikansk</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>anonym</l><r>anonym</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>svår</l><r>vanske</r></p><par n="adj_sint:/leg__adj"/></e>
+<e vr="nno"><p><l>svår</l><r>vanskeleg</r></p><par n="adj_sint:adj"/></e>
+<e vr="nob"><p><l>svår</l><r>vanskelig</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>arbetsam</l><r>anstrengende</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>klar</l><r>klar</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>arbetsam</l><r>arbeidsom</r></p><par n="adj_sint:adj"/></e>
@@ -854,14 +856,17 @@
 <e><p><l>grund</l><r>grunnet</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>grund</l><r>grunn</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>grym</l><r>grusom</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>gudomlig</l><r>guddomme</r></p><par n="adj_sint:/leg__adj"/></e>
+<e vr="nno"><p><l>gudomlig</l><r>guddommeleg</r></p><par n="adj_sint:adj"/></e>
+<e vr="nob"><p><l>gudomlig</l><r>guddommelig</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>gul</l><r>gul</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>gynnsam</l><r>gunstig</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>havande</l><r>gravid</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>hel</l><r>hel</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>hel</l><r>heil</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>hemsk</l><r>forferde</r></p><par n="adj_sint:/leg__adj"/></e>
-<e><p><l>hemsk</l><r>uhygge</r></p><par n="adj_sint:/leg__adj"/></e>
+<e vr="nno"><p><l>hemsk</l><r>forferdeleg</r></p><par n="adj_sint:adj"/></e>
+<e vr="nob"><p><l>hemsk</l><r>forferdelig</r></p><par n="adj_sint:adj"/></e>
+<e vr="nno"><p><l>hemsk</l><r>uhyggeleg</r></p><par n="adj_sint:adj"/></e>
+<e vr="nob"><p><l>hemsk</l><r>uhyggelig</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>het</l><r>het</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>historisk</l><r>historisk</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>hungrig</l><r>sulten</r></p><par n="adj_sint:adj"/></e>
@@ -889,21 +894,25 @@
 <e><p><l>kritisk</l><r>batteri</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>kritisk</l><r>kritisk</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>krokig</l><r>krokete</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>kvinnlig</l><r>kvinne</r></p><par n="adj_sint:/leg__adj"/></e>
+<e vr="nno"><p><l>kvinnlig</l><r>kvinneleg</r></p><par n="adj_sint:adj"/></e>
+<e vr="nob"><p><l>kvinnlig</l><r>kvinnelig</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>lat</l><r>lat</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>ledsen</l><r>lei</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>liberal</l><r>liberal</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>liknande</l><r>lignende</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>lik</l><r>lik</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>liten</l><r>liten</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>livlig</l><r>liv</r></p><par n="adj_sint:/leg__adj"/></e>
+<e vr="nno"><p><l>livlig</l><r>livleg</r></p><par n="adj_sint:adj"/></e>
+<e vr="nob"><p><l>livlig</l><r>livlig</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>ljum</l><r>lunken</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>ljus</l><r>lys</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>ljus</l><r>lys</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>lojal</l><r>lojal</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>lycklig</l><r>lykke</r></p><par n="adj_sint:/leg__adj"/></e>
+<e vr="nno"><p><l>lycklig</l><r>lykkeleg</r></p><par n="adj_sint:adj"/></e>
+<e vr="nob"><p><l>lycklig</l><r>lykkelig</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>lydig</l><r>lydig</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>manlig</l><r>mann</r></p><par n="adj_sint:/leg__adj"/></e>
+<e vr="nno"><p><l>manlig</l><r>mannleg</r></p><par n="adj_sint:adj"/></e>
+<e vr="nob"><p><l>manlig</l><r>mannlig</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>matematisk</l><r>matematisk</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>matematisk</l><r>tegner</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>materiell</l><r>materiell</r></p><par n="adj_sint:adj"/></e>
@@ -917,7 +926,8 @@
 <e><p><l>naiv</l><r>naiv</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>naken</l><r>naken</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>nationell</l><r>nasjonal</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>naturlig</l><r>natur</r></p><par n="adj_sint:/leg__adj"/></e>
+<e vr="nno"><p><l>naturlig</l><r>naturleg</r></p><par n="adj_sint:adj"/></e>
+<e vr="nob"><p><l>naturlig</l><r>naturlig</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>neutral</l><r>nøytral</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>nordisk</l><r>nordisk</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>normal</l><r>normal</r></p><par n="adj_sint:adj"/></e>
@@ -925,20 +935,25 @@
 <e><p><l>nyfiken</l><r>nysgjerrig</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>ny</l><r>ny</r></p><par n="adj_sint"/></e>
 <e><p><l>nyttig</l><r>nyttig</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>oduglig</l><r>uduge</r></p><par n="adj_sint:/leg__adj"/></e>
+<e vr="nno"><p><l>oduglig</l><r>udugeleg</r></p><par n="adj_sint:adj"/></e>
+<e vr="nob"><p><l>oduglig</l><r>udugelig</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>officiell</l><r>offisiell</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>ogift</l><r>ugift</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>oklar</l><r>uklar</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>olik</l><r>forskjel</r></p><par n="adj_sint:/leg__adj"/></e>
+<e vr="nno"><p><l>olik</l><r>forskjelleg</r></p><par n="adj_sint:adj"/></e>
+<e vr="nob"><p><l>olik</l><r>forskjellig</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>olik</l><r>ulik</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>olycklig</l><r>uheldig</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>olycklig</l><r>ulykke</r></p><par n="adj_sint:/leg__adj"/></e>
+<e vr="nno"><p><l>olycklig</l><r>ulykkeleg</r></p><par n="adj_sint:adj"/></e>
+<e vr="nob"><p><l>olycklig</l><r>ulykkelig</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>oregelbunden</l><r>uregelmessig</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>osann</l><r>usann</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>oskyldig</l><r>uskyldig</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>otacksam</l><r>utakknem</r></p><par n="adj_sint:/leg__adj"/></e>
+<e vr="nno"><p><l>otacksam</l><r>utakknemleg</r></p><par n="adj_sint:adj"/></e>
+<e vr="nob"><p><l>otacksam</l><r>utakknemlig</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>passiv</l><r>passiv</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>personlig</l><r>person</r></p><par n="adj_sint:/leg__adj"/></e>
+<e vr="nno"><p><l>personlig</l><r>personleg</r></p><par n="adj_sint:adj"/></e>
+<e vr="nob"><p><l>personlig</l><r>personlig</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>politisk</l><r>politisk</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>praktisk</l><r>praktisk</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>psykisk</l><r>psykisk</r></p><par n="adj_sint:adj"/></e>
@@ -971,7 +986,8 @@
 <e><p><l>stadig</l><r>stødig</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>stark</l><r>sterk</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>stenig</l><r>steinete</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>stilig</l><r>sti</r></p><par n="adj_sint:/leg__adj"/></e>
+<e vr="nno"><p><l>stilig</l><r>stileg</r></p><par n="adj_sint:adj"/></e>
+<e vr="nob"><p><l>stilig</l><r>stilig</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>stum</l><r>stum</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>stygg</l><r>stygg</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>sund</l><r>sund</r></p><par n="adj_sint:adj"/></e>
@@ -985,34 +1001,40 @@
 <e><p><l>svensk</l><r>svensk</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>sympatisk</l><r>sympatisk</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>systematisk</l><r>systematisk</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>tacksam</l><r>takknem</r></p><par n="adj_sint:/leg__adj"/></e>
+<e vr="nno"><p><l>tacksam</l><r>takknemleg</r></p><par n="adj_sint:adj"/></e>
+<e vr="nob"><p><l>tacksam</l><r>takknemlig</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>tapper</l><r>tapper</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>teknisk</l><r>teknisk</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>teoretisk</l><r>teoretisk</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>tidig</l><r>tid</r></p><par n="adj_sint:/leg__adj"/></e>
+<e vr="nno"><p><l>tidig</l><r>tidleg</r></p><par n="adj_sint:adj"/></e>
+<e vr="nob"><p><l>tidig</l><r>tidlig</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>tjock</l><r>bred</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>tjock</l><r>tykk</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>tolerant</l><r>tolerant</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>tom</l><r>tom</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>torr</l><r>tørr</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>trevlig</l><r>trive</r></p><par n="adj_sint:/leg__adj"/></e>
+<e vr="nno"><p><l>trevlig</l><r>triveleg</r></p><par n="adj_sint:adj"/></e>
+<e vr="nob"><p><l>trevlig</l><r>trivelig</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>tropisk</l><r>tropisk</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>trygg</l><r>trygg</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>tunn</l><r>tynn</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>tunn</l><r>tynn</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>tvetydig</l><r>tvetydig</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>tydlig</l><r>tyde</r></p><par n="adj_sint:/leg__adj"/></e>
+<e vr="nno"><p><l>tydlig</l><r>tydeleg</r></p><par n="adj_sint:adj"/></e>
+<e vr="nob"><p><l>tydlig</l><r>tydelig</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>typisk</l><r>typisk</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>tysk</l><r>tysker</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>tysk</l><r>tysk</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>ungdomlig</l><r>ungdomme</r></p><par n="adj_sint:/leg__adj"/></e>
+<e vr="nno"><p><l>ungdomlig</l><r>ungdommeleg</r></p><par n="adj_sint:adj"/></e>
+<e vr="nob"><p><l>ungdomlig</l><r>ungdommelig</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>ung</l><r>ung</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>ung</l><r>young</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>unik</l><r>unik</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>ursinnig</l><r>rasende</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>varsam</l><r>varsom</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>vek</l><r>sart</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>vetenskaplig</l><r>vitenskape</r></p><par n="adj_sint:/leg__adj"/></e>
+<e vr="nno"><p><l>vetenskaplig</l><r>vitenskapeleg</r></p><par n="adj_sint:adj"/></e>
+<e vr="nob"><p><l>vetenskaplig</l><r>vitenskapelig</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>vettig</l><r>vettig</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>vidskeplig</l><r>overtroisk</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>vid</l><r>ved</r></p><par n="adj_sint:adj"/></e>
