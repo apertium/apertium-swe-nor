@@ -1081,6 +1081,7 @@
 <e vr="nob"><p><l>icke<s n="adv"/></l><r>ikke<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>inte<s n="adv"/></l><r>ikkje<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>inte<s n="adv"/></l><r>ikke<s n="adv"/></r></p></e>
+<e r="RL"><p><l>inte<s n="adv"/></l>	<r>kje<s n="adv"/></r></p></e>
 
 <e><p><l>när<s n="adv"/></l><r>når<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>naturligtvis<s n="adv"/></l><r>naturligvis<s n="adv"/></r></p></e>
@@ -20147,14 +20148,9 @@
 <e vr="nno"><p><l>redan<s n="adv"/></l>	<r>longe<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>allaredan<s n="adv"/></l>	<r>allereie<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>redan<s n="adv"/></l>	<r>allereie<s n="adv"/></r></p></e>
-<e vr="nno"><p><l>icke<s n="adv"/></l>	<r>ikkje<s n="adv"/></r></p></e>
-<e vr="nno"><p><l>inte<s n="adv"/></l>	<r>ikkje<s n="adv"/></r></p></e>
-<e>         <p><l>inte<s n="adv"/></l>	<r>kje<s n="adv"/></r></p></e>
 <e>         <p><l>kanhända<s n="adv"/></l>	<r>kanskje<s n="adv"/></r></p></e>
 <e>         <p><l>törhända<s n="adv"/></l>	<r>kanskje<s n="adv"/></r></p></e>
 <e>         <p><l>måhända<s n="adv"/></l>	<r>kanskje<s n="adv"/></r></p></e>
-<e vr="nob"><p><l>icke<s n="adv"/></l>	<r>ikke<s n="adv"/></r></p></e>
-<e vr="nob"><p><l>inte<s n="adv"/></l>	<r>ikke<s n="adv"/></r></p></e>
 <e>         <p><l>stört<s n="adv"/></l>	<r>ganske<s n="adv"/></r></p></e>
 <e>         <p><l>relativt<s n="adv"/></l>	<r>ganske<s n="adv"/></r></p></e>
 <e>         <p><l>illa<s n="adv"/><s n="sup"/></l>	<r>ille<s n="adv"/></r></p></e>
