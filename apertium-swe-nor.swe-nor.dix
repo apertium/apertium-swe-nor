@@ -17959,7 +17959,7 @@
 <e>         <p><l>konstlad</l>	<r>kunstig</r></p><par n="adj"/></e>
 <e vr="nno"><p><l>frejdad</l>	<r>vidgjeten</r></p><par n="adj"/></e>
 <e vr="nob"><p><l>konstlad</l>	<r>tilgjort</r></p><par n="adj"/></e>
-<e><p><l>nästa</l><r>neste</r></p><par n="adj"/></e>
+<e>       <p><l>nästa</l><r>neste</r></p><par n="adj"/></e>
 <e vr="nno"><p><l>oskadd</l>	<r>velberga</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>utomordentlig</l>	<r>utmerka</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>utmärkt</l>	<r>utmerka</r></p><par n="adj_sint:adj"/></e>
@@ -29070,5 +29070,6 @@
 Local Variables:
 dix-vr-langs: ("nno" "nob")
 dix-rb-align-column: 55
+dix-pb-align-column: 12
 End:
 -->
