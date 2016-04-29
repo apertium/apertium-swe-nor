@@ -878,7 +878,6 @@
 <e><p><l>intressant</l><r>interessant</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>judisk</l><r>jødisk</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>juridisk</l><r>juridisk</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>kall</l><r>kald</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>kemisk</l><r>kjemisk</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>kinesisk</l><r>kinesisk</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>klassisk</l><r>klassisk</r></p><par n="adj_sint:adj"/></e>
@@ -22711,7 +22710,6 @@
 <e><p><l>uppfordra<s n="vblex"/></l><r>oppfordre<s n="vblex"/></r></p></e>
 <e><p><l>uppenbara<s n="vblex"/></l><r>åpenbare<s n="vblex"/></r></p></e>
 <e><p><l>uppdela<s n="vblex"/></l><r>oppdele<s n="vblex"/></r></p></e>
-<e><p><l>två<s n="vblex"/></l><r>vaske<s n="vblex"/></r></p></e>
 <e><p><l>trivialisera<s n="vblex"/></l><r>trivialisere<s n="vblex"/></r></p></e>
 <e><p><l>transitera<s n="vblex"/></l><r>transittere<s n="vblex"/></r></p></e>
 <e><p><l>torrlägga<s n="vblex"/></l><r>tørrlegge<s n="vblex"/></r></p></e>
@@ -24661,7 +24659,6 @@
 <e>         <p><l>löga</l>	<r>lauge</r></p><par n="vblex"/></e>
 <e>         <p><l>vaska</l>	<r>lauge</r></p><par n="vblex"/></e>
 <e>         <p><l>tvätta</l>	<r>lauge</r></p><par n="vblex"/></e>
-<e>         <p><l>två</l>	<r>lauge</r></p><par n="vblex"/></e>
 <e>         <p><l>smäcka</l>	<r>huge</r></p><par n="vblex"/></e>
 <e>         <p><l>pirka</l>	<r>huge</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>båga</l>	<r>ljuge</r></p><par n="vblex"/></e>
