@@ -641,27 +641,52 @@
 <e><p><l>sin<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l><r>seg<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
 
 <e><p><l>många<s n="det"/><s n="qnt"/><s n="un"/></l><r>mange<s n="det"/><s n="qnt"/></r></p></e>
-<e><p><l>många</l><r>mange</r></p><par n="adj_sint"/></e>
 
 <e vr="nob"><p><l>varje<s n="det"/></l><r>hver<s n="det"/></r></p></e>
 <e vr="nno"><p><l>varje<s n="det"/><s n="ind"/><s n="un"/></l><r>kvar<s n="det"/><s n="qnt"/><s n="f"/></r></p></e>
 <e vr="nno"><p><l>varje<s n="det"/><s n="ind"/><s n="un"/></l><r>kvar<s n="det"/><s n="qnt"/><s n="m"/></r></p></e>
 
-<e vr="nob"><p><l>första<s n="det"/><s n="ord"/></l><r>første<s n="adj"/><s n="ord"/></r></p></e>
-<e vr="nno"><p><l>första<s n="det"/><s n="ord"/></l><r>fyrste<s n="adj"/><s n="ord"/></r></p></e>
-<e><p><l>andra<s n="det"/><s n="ord"/></l><r>andre<s n="adj"/><s n="ord"/></r></p></e>
-<e><p><l>tredje<s n="det"/><s n="ord"/></l><r>tredje<s n="adj"/><s n="ord"/></r></p></e>
-<e><p><l>fjärde<s n="det"/><s n="ord"/></l><r>fjerde<s n="adj"/><s n="ord"/></r></p></e>
-<e><p><l>femte<s n="det"/><s n="ord"/></l><r>femte<s n="adj"/><s n="ord"/></r></p></e>
-<e><p><l>sjätte<s n="det"/><s n="ord"/></l><r>sjette<s n="adj"/><s n="ord"/></r></p></e>
-<e vr="nob"><p><l>sjunde<s n="det"/><s n="ord"/></l><r>syvende<s n="adj"/><s n="ord"/></r></p></e>
-<e vr="nno"><p><l>sjunde<s n="det"/><s n="ord"/></l><r>sjuande<s n="adj"/><s n="ord"/></r></p></e>
-<e vr="nob"><p><l>åttonde<s n="det"/><s n="ord"/></l><r>åttende<s n="adj"/><s n="ord"/></r></p></e>
-<e vr="nno"><p><l>åttonde<s n="det"/><s n="ord"/></l><r>åttande<s n="adj"/><s n="ord"/></r></p></e>
-<e vr="nob"><p><l>nionde<s n="det"/><s n="ord"/></l><r>niende<s n="adj"/><s n="ord"/></r></p></e>
-<e vr="nno"><p><l>nionde<s n="det"/><s n="ord"/></l><r>niande<s n="adj"/><s n="ord"/></r></p></e>
-<e vr="nob"><p><l>tionde<s n="det"/><s n="ord"/></l><r>tiende<s n="adj"/><s n="ord"/></r></p></e>
-<e vr="nno"><p><l>tionde<s n="det"/><s n="ord"/></l><r>tiande<s n="adj"/><s n="ord"/></r></p></e>
+<e>       <p><l>första</l>     <r>første</r></p><par n="adj_ord-1"/></e>
+<e>       <p><l>andra</l>      <r>andre</r></p><par n="adj_ord"/></e>
+<e vr="nno"><p><l>artonde</l>    <r>attande</r></p><par n="adj_ord"/></e>
+<e vr="nob"><p><l>artonde</l>    <r>attende</r></p><par n="adj_ord"/></e>
+<e>       <p><l>femte</l>      <r>femte</r></p><par n="adj_ord"/></e>
+<e vr="nno"><p><l>femtionde</l>  <r>femtiande</r></p><par n="adj_ord"/></e>
+<e vr="nob"><p><l>femtionde</l>  <r>femtiende</r></p><par n="adj_ord"/></e>
+<e vr="nno"><p><l>femtonde</l>   <r>femtande</r></p><par n="adj_ord"/></e>
+<e vr="nob"><p><l>femtonde</l>   <r>femtende</r></p><par n="adj_ord"/></e>
+<e vr="nno"><p><l>fjortonde</l>  <r>fjortande</r></p><par n="adj_ord"/></e>
+<e vr="nob"><p><l>fjortonde</l>  <r>fjortende</r></p><par n="adj_ord"/></e>
+<e>       <p><l>fjärde</l>     <r>fjerde</r></p><par n="adj_ord"/></e>
+<e vr="nno"><p><l>fyrtionde</l>  <r>førtiande</r></p><par n="adj_ord"/></e>
+<e vr="nob"><p><l>fyrtionde</l>  <r>førtiende</r></p><par n="adj_ord"/></e>
+<e>       <p><l>hundrade</l>   <r>hundrede</r></p><par n="adj_ord"/></e>
+<e>       <p><l>miljon</l>     <r>million</r></p><par n="adj_ord"/></e>
+<e>       <p><l>miljonte</l>   <r>millionte</r></p><par n="adj_ord"/></e>
+<e vr="nno"><p><l>nionde</l>     <r>niande</r></p><par n="adj_ord"/></e>
+<e vr="nob"><p><l>nionde</l>     <r>niende</r></p><par n="adj_ord"/></e>
+<e vr="nno"><p><l>nittionde</l>  <r>nittiande</r></p><par n="adj_ord"/></e>
+<e vr="nob"><p><l>nittionde</l>  <r>nittiende</r></p><par n="adj_ord"/></e>
+<e vr="nno"><p><l>nittonde</l>   <r>nittande</r></p><par n="adj_ord"/></e>
+<e vr="nob"><p><l>nittonde</l>   <r>nittende</r></p><par n="adj_ord"/></e>
+<e vr="nno"><p><l>sextionde</l>  <r>sekstiande</r></p><par n="adj_ord"/></e>
+<e vr="nob"><p><l>sextionde</l>  <r>sekstiende</r></p><par n="adj_ord"/></e>
+<e vr="nno"><p><l>sextonde</l>   <r>sekstande</r></p><par n="adj_ord"/></e>
+<e vr="nob"><p><l>sextonde</l>   <r>sekstende</r></p><par n="adj_ord"/></e>
+<e vr="nno"><p><l>sjunde</l>     <r>sjuande</r></p><par n="adj_ord"/></e>
+<e r="RL"><p><l>sjunde</l>     <r>sjuende</r></p><par n="adj_ord"/></e>
+<e vr="nob"><p><l>sjunde</l>     <r>syvende</r></p><par n="adj_ord"/></e>
+<e vr="nno"><p><l>sjuttionde</l> <r>syttiande</r></p><par n="adj_ord"/></e>
+<e vr="nob"><p><l>sjuttionde</l> <r>syttiende</r></p><par n="adj_ord"/></e>
+<e vr="nno"><p><l>sjuttonde</l>  <r>syttiande</r></p><par n="adj_ord"/></e>
+<e vr="nob"><p><l>sjuttonde</l>  <r>syttiende</r></p><par n="adj_ord"/></e>
+<e>       <p><l>sjätte</l>     <r>sjette</r></p><par n="adj_ord"/></e>
+<e>       <p><l>tredje</l>     <r>tredje</r></p><par n="adj_ord"/></e>
+<e>       <p><l>trettonde</l>  <r>tredevte</r></p><par n="adj_ord"/></e>
+<e vr="nno"><p><l>tusende</l>    <r>tusande</r></p><par n="adj_ord"/></e>
+<e vr="nob"><p><l>tusende</l>    <r>tusende</r></p><par n="adj_ord"/></e>
+<e vr="nno"><p><l>åttonde</l>    <r>åttande</r></p><par n="adj_ord"/></e>
+<e vr="nob"><p><l>åttonde</l>    <r>åttende</r></p><par n="adj_ord"/></e>
 
     <!-- HIC·SUNT·DRACONES. -->
 
@@ -669,8 +694,6 @@
 <e vr="nno"><p><l>vilken<s n="prn"/></l><r>kva<s n="det"/></r></p></e>
 
 <e><p><l>samma<s n="prn"/></l><r>same<s n="det"/></r></p></e>
-
-<e><p><l>näst<s n="adj"/></l><r>neste<s n="det"/><s n="dem"/></r></p></e>
 
 
 
@@ -832,8 +855,7 @@
 <e><p><l>enskild</l><r>enkelt</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>etnisk</l><r>etnisk</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>europeisk</l><r>europeisk</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>extra</l><r>ekstra</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>extra</l><r>ekstra</r></p><par n="adj_sint:adj"/></e>
+<e><p><l>extra</l><r>ekstra</r></p><par n="adj"/></e>
 <e><p><l>faktisk</l><r>faktisk</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>falsk</l><r>falsk</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>falsk</l><r>usann</r></p><par n="adj_sint:adj"/></e>
@@ -860,7 +882,7 @@
 <e vr="nob"><p><l>gudomlig</l><r>guddommelig</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>gul</l><r>gul</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>gynnsam</l><r>gunstig</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>havande</l><r>gravid</r></p><par n="adj_sint:adj"/></e>
+<e><p><l>havande</l><r>gravid</r></p><par n="adj"/></e>
 <e vr="nob"><p><l>hel</l><r>hel</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>hel</l><r>heil</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>hemsk</l><r>forferdeleg</r></p><par n="adj_sint:adj"/></e>
@@ -872,7 +894,7 @@
 <e><p><l>hungrig</l><r>sulten</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>hydraulisk</l><r>hydraulisk</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>hygienisk</l><r>hygienisk</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>mentalhygienisk</l><r>mentalhygienisk</r></p><par n="adj_sint:adj"/></e>
+<e><p><l>mentalhygienisk</l><r>mentalhygienisk</r></p><par n="adj"/></e>
 <e><p><l>hysterisk</l><r>hysterisk</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>ideal</l><r>ideal</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>identisk</l><r>identisk</r></p><par n="adj_sint:adj"/></e>
@@ -899,7 +921,7 @@
 <e><p><l>lat</l><r>lat</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>ledsen</l><r>lei</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>liberal</l><r>liberal</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>liknande</l><r>lignende</r></p><par n="adj_sint:adj"/></e>
+<e><p><l>liknande</l><r>lignende</r></p><par n="adj"/></e>
 <e><p><l>lik</l><r>lik</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>liten</l><r>liten</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>livlig</l><r>livleg</r></p><par n="adj_sint:adj"/></e>
@@ -1043,7 +1065,7 @@
 <e><p><l>viss</l><r>viss</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>vit</l><r>hvit</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>vuxen</l><r>voksen</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>fortfarande</l><r>stadig</r></p><par n="adj_sint:adj"/></e>
+<e><p><l>fortfarande</l><r>stadig</r></p><par n="adj"/></e>
 <e><p><l>snabb</l><r>fort</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>snabb</l><r>rask</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>snabb</l><r>hurtig</r></p><par n="adj_sint:adj"/></e>
@@ -17599,7 +17621,7 @@
 <e vr="nno"><p><l>möjlig</l><r>mogleg</r></p><par n="adj_sint:adj"/></e>
 
 <e><p><l>lätt</l><r>lett</r></p><par n="adj_sint"/></e>
-<e><p><l>enstak</l><r>enkel</r></p><par n="adj_sint"/></e>
+<e><p><l>enstak</l><r>enkel</r></p><par n="adj:adj_sint"/></e>
 <e vr="nob"><p><l>ansvarig</l><r>ansvarlig</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>oansvarig</l><r>uansvarlig</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>ansvarig</l><r>ansvarleg</r></p><par n="adj_sint:adj"/></e>
@@ -17631,13 +17653,13 @@
 <e><p><l>alternativ</l><r>alternativ</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>negativ</l><r>negativ</r></p><par n="adj_sint:adj"/></e>
 
-<e><p><l>vänster</l><r>venstre</r></p><par n="adj_sint:adj"/></e>
-<e vr="nob"><p><l>höger</l><r>høyre</r></p><par n="adj_sint:adj"/></e>
-<e vr="nno"><p><l>höger</l><r>høgre</r></p><par n="adj_sint:adj"/></e>
+<e><p><l>vänster</l><r>venstre</r></p><par n="adj"/></e>
+<e vr="nob"><p><l>höger</l><r>høyre</r></p><par n="adj"/></e>
+<e vr="nno"><p><l>höger</l><r>høgre</r></p><par n="adj"/></e>
 
 <e><p><l>gravid</l><r>gravid</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>utvald</l><r>utvald</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>påfallande</l><r>påfallande</r></p><par n="adj_sint:adj"/></e>
+<e><p><l>påfallande</l><r>påfallande</r></p><par n="adj"/></e>
 <e><p><l>årlig</l><r>årleg</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>kontinuerlig</l><r>kontinuerleg</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>statlig</l><r>statleg</r></p><par n="adj_sint:adj"/></e>
@@ -17674,7 +17696,7 @@
 <e><p><l>konkret</l><r>konkret</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>perfekt</l><r>perfekt</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>korrekt</l><r>korrekt</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>enker</l><r>enkelt</r></p><par n="adj_sint:adj"/></e>
+<e><p><l>enker</l><r>enkelt</r></p><par n="adj"/></e>
 <e><p><l>markant</l><r>markant</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>permanent</l><r>permanent</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>kompetent</l><r>kompetent</r></p><par n="adj_sint:adj"/></e>
@@ -17724,7 +17746,7 @@
 <e><p><l>rolig</l><r>roleg</r></p><par n="adj_sint"/></e>
 <e><p><l>farlig</l><r>farleg</r></p><par n="adj_sint"/></e>
 <e><p><l>kraftig</l><r>kraftig</r></p><par n="adj_sint"/></e>
-<e><p><l>riktiger</l><r>riktig</r></p><par n="adj_sint"/></e>
+<e><p><l>riktiger</l><r>riktig</r></p><par n="adj:adj_sint"/></e>
 <e><p><l>tung</l><r>tung</r></p><par n="adj_sint"/></e>
 <e><p><l>dryg</l><r>dryg</r></p><par n="adj_sint"/></e>
 <e><p><l>rak</l><r>rak</r></p><par n="adj_sint"/></e>
@@ -17738,23 +17760,24 @@
 <e><p><l>dyr</l><r>dyr</r></p><par n="adj_sint"/></e>
 <e><p><l>kort</l><r>kort</r></p><par n="adj_sint"/></e>
 <e><p><l>trist</l><r>trist</r></p><par n="adj_sint"/></e>
-<e><p><l>sist</l><r>sist</r></p><par n="adj_sint"/></e>
+<e><p><l>sist</l><r>sist</r></p><par n="adj:adj_sint"/></e>
 <e><p><l>halv</l><r>halv</r></p><par n="adj_sint"/></e>
 <e><p><l>grov</l><r>grov</r></p><par n="adj_sint"/></e>
 
+<e><p><l>mången</l><r>mange</r></p><par n="adj_sint"/></e>
 <e><p><l>acceptabel</l><r>akseptabel</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>akut</l><r>akutt</r></p><par n="adj_sint:adj"/></e>
-<e vr="nno"><p><l>annorlunda</l><r>annleis</r></p><par n="adj_sint:adj"/></e>
-<e vr="nob"><p><l>annorlunda</l><r>annerledes</r></p><par n="adj_sint:adj"/></e>
+<e vr="nno"><p><l>annorlunda</l><r>annleis</r></p><par n="adj"/></e>
+<e vr="nob"><p><l>annorlunda</l><r>annerledes</r></p><par n="adj"/></e>
 <e vr="nob"><p><l>arbetslös</l><r>arbeidsløs</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>arbetslös</l><r>arbeidslaus</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>arbetslös</l><r>arbeidsledig</r></p><par n="adj_sint:adj"/></e>
-<e vr="nob"><p><l>avgörande</l><r>avgjørende</r></p><par n="adj_sint:adj"/></e>
+<e vr="nob"><p><l>avgörande</l><r>avgjørende</r></p><par n="adj"/></e>
 <e vr="nno"><p><l>begriplig</l><r>fatteleg</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>begriplig</l><r>fattelig</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>begriplig</l><r>begripelig</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>begriplig</l><r>forståelig</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>beroende</l><r>avhengig</r></p><par n="adj_sint:adj"/></e>
+<e><p><l>beroende</l><r>avhengig</r></p><par n="adj"/></e>
 <e vr="nno"><p><l>besviken</l><r>skuffa</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>besviken</l><r>skuffet</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>biblisk</l><r>bibelsk</r></p><par n="adj_sint:adj"/></e>
@@ -17762,12 +17785,12 @@
 <e vr="nob"><p><l>daglig</l><r>daglig</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>dålig</l><r>dårleg</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>dålig</l><r>dårlig</r></p><par n="adj_sint:adj"/></e>
-<e vr="nob"><p><l>dylik</l><r>lyknende</r></p><par n="adj_sint:adj"/></e>
+<e vr="nob"><p><l>dylik</l><r>lyknende</r></p><par n="adj"/></e>
 <e><p><l>ekologisk</l><r>økologisk</r></p><par n="adj_sint:adj"/></e>
-<e vr="nno"><p><l>enastående</l><r>framragande</r></p><par n="adj_sint:adj"/></e>
-<e vr="nno"><p><l>enastående</l><r>eineståande</r></p><par n="adj_sint:adj"/></e>
-<e vr="nob"><p><l>enastående</l><r>fremragende</r></p><par n="adj_sint:adj"/></e>
-<e vr="nob"><p><l>enastående</l><r>enestående</r></p><par n="adj_sint:adj"/></e>
+<e vr="nno"><p><l>enastående</l><r>framragande</r></p><par n="adj"/></e>
+<e vr="nno"><p><l>enastående</l><r>eineståande</r></p><par n="adj"/></e>
+<e vr="nob"><p><l>enastående</l><r>fremragende</r></p><par n="adj"/></e>
+<e vr="nob"><p><l>enastående</l><r>enestående</r></p><par n="adj"/></e>
 <e vr="nob"><p><l>enhetlig</l><r>enhetlig</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>enhetlig</l><r>einskapleg</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>exakt</l><r>eksakt</r></p><par n="adj_sint:adj"/></e>
@@ -17780,13 +17803,13 @@
 <e><p><l>gemensam</l><r>felles</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>grön</l><r>grøn</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>grön</l><r>grønn</r></p><par n="adj_sint:adj"/></e>
-<e vr="nob"><p><l>grundläggande</l><r>grunnleggende</r></p><par n="adj_sint:adj"/></e>
-<e vr="nno"><p><l>grundläggande</l><r>grunnleggjende</r></p><par n="adj_sint:adj"/></e>
+<e vr="nob"><p><l>grundläggande</l><r>grunnleggende</r></p><par n="adj"/></e>
+<e vr="nno"><p><l>grundläggande</l><r>grunnleggjende</r></p><par n="adj"/></e>
 <e vr="nno"><p><l>hemlig</l><r>hemmeleg</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>hemlig</l><r>hemmelig</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>inrikes</l><r>innariks</r></p><par n="adj_sint:adj"/></e>
-<e vr="nno"><p><l>inrikes</l><r>innanriks</r></p><par n="adj_sint:adj"/></e>
-<e vr="nob"><p><l>inrikes</l><r>innenriks</r></p><par n="adj_sint:adj"/></e>
+<e><p><l>inrikes</l><r>innariks</r></p><par n="adj"/></e>
+<e vr="nno"><p><l>inrikes</l><r>innanriks</r></p><par n="adj"/></e>
+<e vr="nob"><p><l>inrikes</l><r>innenriks</r></p><par n="adj"/></e>
 <e vr="nob"><p><l>jämförbar</l><r>sammenlignbar</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>japansk</l><r>japansk</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>konventionell</l><r>konvensjonell</r></p><par n="adj_sint:adj"/></e>
@@ -17808,8 +17831,8 @@
 <e vr="nno"><p><l>missnöjd</l><r>misnøgd</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>missnöjd</l><r>misnøgd</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>missnöjd</l><r>misnøyd</r></p><par n="adj_sint:adj"/></e>
-<e vr="nob"><p><l>nuvarande</l><r>nåværende</r></p><par n="adj_sint:adj"/></e>
-<e vr="nno"><p><l>nuvarande</l><r>noverende</r></p><par n="adj_sint:adj"/></e>
+<e vr="nob"><p><l>nuvarande</l><r>nåværende</r></p><par n="adj"/></e>
+<e vr="nno"><p><l>nuvarande</l><r>noverende</r></p><par n="adj"/></e>
 <e vr="nno"><p><l>nyfödd</l><r>nyfødd</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>nyfödd</l><r>nyfødt</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>oändlig</l><r>uendeleg</r></p><par n="adj_sint:adj"/></e>
@@ -17823,8 +17846,8 @@
 <e vr="nno"><p><l>osannolik</l><r>usannsynleg</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>otillräcklig</l><r>utilstrekkelig</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>otillräcklig</l><r>utilstrekkeleg</r></p><par n="adj_sint:adj"/></e>
-<e vr="nob"><p><l>överraskande</l><r>overraskende</r></p><par n="adj_sint:adj"/></e>
-<e vr="nno"><p><l>överraskande</l><r>overraskande</r></p><par n="adj_sint:adj"/></e>
+<e vr="nob"><p><l>överraskande</l><r>overraskende</r></p><par n="adj"/></e>
+<e vr="nno"><p><l>överraskande</l><r>overraskande</r></p><par n="adj"/></e>
 <e><p><l>paradoxal</l><r>paradoksal</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>populär</l><r>populær</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>primär</l><r>primær</r></p><par n="adj_sint:adj"/></e>
@@ -17850,8 +17873,8 @@
 <e vr="nno"><p><l>tillfällig</l><r>tilfeldig</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>tillfällig</l><r>tilfelleleg</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>tillfällig</l><r>tilfeldig</r></p><par n="adj_sint:adj"/></e>
-<e vr="nob"><p><l>tillfredsställande</l><r>tilfredsstillende</r></p><par n="adj_sint:adj"/></e>
-<e vr="nno"><p><l>tillfredsställande</l><r>tilfredsstillande</r></p><par n="adj_sint:adj"/></e>
+<e vr="nob"><p><l>tillfredsställande</l><r>tilfredsstillende</r></p><par n="adj"/></e>
+<e vr="nno"><p><l>tillfredsställande</l><r>tilfredsstillande</r></p><par n="adj"/></e>
 <e vr="nob"><p><l>tillgänglig</l><r>tilgjengelig</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>tillgänglig</l><r>tilgjengeleg</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>tillräcklig</l><r>tilstrekkelig</r></p><par n="adj_sint:adj"/></e>
@@ -17867,9 +17890,9 @@
 <e vr="nob"><p><l>uppenbar</l><r>åpenbar</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>uppmärksam</l><r>oppmerksam</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>uppmärksam</l><r>oppmerksom</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>utrikes</l><r>utariks</r></p><par n="adj_sint:adj"/></e>
-<e vr="nno"><p><l>utrikes</l><r>utanriks</r></p><par n="adj_sint:adj"/></e>
-<e vr="nob"><p><l>utrikes</l><r>utenriks</r></p><par n="adj_sint:adj"/></e>
+<e><p><l>utrikes</l><r>utariks</r></p><par n="adj"/></e>
+<e vr="nno"><p><l>utrikes</l><r>utanriks</r></p><par n="adj"/></e>
+<e vr="nob"><p><l>utrikes</l><r>utenriks</r></p><par n="adj"/></e>
 <e vr="nno"><p><l>vänlig</l><r>vennskapeleg</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>vänlig</l><r>vennskapelig</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>vänlig</l><r>vennligsinnet</r></p><par n="adj_sint:adj"/></e>
@@ -17890,7 +17913,7 @@
 <e><p><l>karakteristisk</l><r>karakteristisk</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>kirurgisk</l><r>kirurgisk</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>kommunistisk</l><r>kommunistisk</r></p><par n="adj_sint:adj"/></e>
-<e><p><l>kriminalpolitisk</l><r>kriminalpolitisk</r></p><par n="adj_sint:adj"/></e>
+<e><p><l>kriminalpolitisk</l><r>kriminalpolitisk</r></p><par n="adj"/></e>
 <e><p><l>liturgisk</l><r>liturgisk</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>metafysisk</l><r>metafysisk</r></p><par n="adj_sint:adj"/></e>
 <e><p><l>meteorologisk</l><r>meteorologisk</r></p><par n="adj_sint:adj"/></e>
@@ -17935,6 +17958,7 @@
 <e>         <p><l>konstlad</l>	<r>kunstig</r></p><par n="adj"/></e>
 <e vr="nno"><p><l>frejdad</l>	<r>vidgjeten</r></p><par n="adj"/></e>
 <e vr="nob"><p><l>konstlad</l>	<r>tilgjort</r></p><par n="adj"/></e>
+<e><p><l>nästa</l><r>neste</r></p><par n="adj_sint"/></e>
 <e vr="nno"><p><l>oskadd</l>	<r>velberga</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>utomordentlig</l>	<r>utmerka</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>utmärkt</l>	<r>utmerka</r></p><par n="adj_sint:adj"/></e>
@@ -18594,7 +18618,7 @@
 <e>         <p><l>flamsk</l>	<r>flamsk</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>islamisk</l>	<r>islamsk</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>muslimsk</l>	<r>muslimsk</r></p><par n="adj_sint:adj"/></e>
-<e>         <p><l>koreansk</l>	<r>koreansk</r></p><par n="adj_sint:adj"/></e>
+<e>         <p><l>koreansk</l>	<r>koreansk</r></p><par n="adj"/></e>
 <e>         <p><l>afghansk</l>	<r>afghansk</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>brasiliansk</l>	<r>brasiliansk</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>amerikansk</l>	<r>amerikansk</r></p><par n="adj_sint:adj"/></e>
@@ -19695,7 +19719,6 @@
 
 
 <e><p><l>mycket<s n="adv"/></l><r>veldig<s n="adv"/></r></p></e>
-<e><p><l>mycket<s n="adv"/><s n="comp"/></l><r>mykje<s n="adj"/><s n="sint"/><s n="comp"/></r></p></e> <!-- FIXME -->
 <e r="LR" vr="nno"><p><l>utifrån<s n="adv"/></l><r>ut<b/>frå<s n="adv"/></r></p></e>
 <e r="LR" vr="nob"><p><l>utifrån<s n="adv"/></l><r>ut<b/>fra<s n="adv"/></r></p></e>
 <e><p><l>snabbt<s n="adv"/></l><r>rask<s n="adv"/></r></p></e>
@@ -19857,9 +19880,8 @@
 
 <!-- Crossed via dan: -->
 <e vr="nob"><p><l>än<s n="adv"/></l>	<r>enda<s n="adv"/></r></p></e>
-<e>         <p><l>mycket<s n="adv"/><s n="pst"/></l>	<r>steika<s n="adv"/></r></p></e>
-<e>         <p><l>mäkta<s n="adv"/></l>	<r>steika<s n="adv"/></r></p></e>
-<e>         <p><l>urbota<s n="adv"/></l>	<r>steika<s n="adv"/></r></p></e>
+<e r="LR"><p><l>mäkta<s n="adv"/></l>	<r>steika<s n="adv"/></r></p></e>
+<e r="LR"><p><l>urbota<s n="adv"/></l>	<r>steika<s n="adv"/></r></p></e>
 <e>         <p><l>splitter<s n="adv"/></l>	<r>spika<s n="adv"/></r></p></e>
 <e>         <p><l>pin<s n="adv"/></l>	<r>pukka<s n="adv"/></r></p></e>
 <e>         <p><l>platt<s n="adv"/></l>	<r>pukka<s n="adv"/></r></p></e>
@@ -28280,7 +28302,6 @@
 <e vr="nob"><p><l>panga</l>	<r>kneste</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>klatscha</l>	<r>kneste</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>smattra</l>	<r>kneste</r></p><par n="vblex"/></e>
-<e>         <p><l>tråckla</l>	<r>neste</r></p><par n="vblex"/></e>
 <e>         <p><l>testa</l>	<r>teste</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>försöka</l>	<r>freiste</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>fresta</l>	<r>freiste</r></p><par n="vblex"/></e>
