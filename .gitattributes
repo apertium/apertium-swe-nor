@@ -29,6 +29,7 @@ dev/precommit-testvoc.sh -text
 dev/testvoc/bidix-unknowns.sh -text
 dev/testvoc/generation.sh -text
 dev/testvoc/streamparser.py -text
+dev/vr-fix-bidix.awk -text
 dev/wikipedia.nouns.txt -text
 /modes.xml -text
 t/README.org -text
