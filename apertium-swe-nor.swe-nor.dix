@@ -6631,7 +6631,7 @@
 <e>         <p><l>lacka</l>	<r>lakkere</r></p><par n="vblex"/></e>
 <e>         <p><l>lackera</l>	<r>lakkere</r></p><par n="vblex"/></e>
 <e>         <p><l>ladda</l>	<r>la</r></p><par n="vblex"/></e>
-<e>         <p><l>ladda</l>	<r>lade opp</r></p><par n="vblex"/></e>
+<e>         <p><l>ladda</l>	<r>lade<g><b/>opp</g></r></p><par n="vblex"/></e>
 <e>         <p><l>ladda</l>	<r>lade</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>ladda</l>	<r>lade<g><b/>opp</g></r></p><par n="vblex"/></e>
 <e>         <p><l>ladda</l>	<r>late</r></p><par n="vblex"/></e>
@@ -7019,8 +7019,7 @@
 <e>         <p><l>minska</l>	<r>minske</r></p><par n="vblex"/></e>
 <e>         <p><l>minska</l>	<r>redusere</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>minska</l>	<r>vesle</r></p><par n="vblex"/></e>
-<e>         <p><l>missa</l>	<r>gå glipp av</r></p><par n="vblex"/></e>
-<e>         <p><l>missa</l>	<r>gå<g><b/>glipp</g><b/>av</r></p><par n="vblex"/></e>
+<e>         <p><l>missa</l>	<r>gå<g><b/>glipp<b/>av</g></r></p><par n="vblex"/></e>
 <e>         <p><l>missa</l>	<r>misse</r></p><par n="vblex"/></e>
 <e>         <p><l>missa</l>	<r>myse</r></p><par n="vblex"/></e>
 <e>         <p><l>missa</l>	<r>plire</r></p><par n="vblex"/></e>
@@ -26799,10 +26798,10 @@
 <e vr="nno"><p><l>Cooköarna<s n="np"/></l><r>Cookøyane<s n="np"/></r></p></e>
 <e vr="nob"><p><l>Cooköarna<s n="np"/></l><r>Cookøyene<s n="np"/></r></p></e>
 <e><p><l>Coreper<s n="np"/></l><r>Coreper<s n="np"/></r></p></e>
-<e><p><l>Costa<b/>Rica<s n="np"/></l><r>Costa Rica<s n="np"/></r></p></e>
+<e><p><l>Costa<b/>Rica<s n="np"/></l><r>Costa<b/>Rica<s n="np"/></r></p></e>
 <e><p><l>Cox<s n="np"/></l><r>Cox<s n="np"/></r></p></e>
 <e><p><l>Cypern<s n="np"/></l><r>Kypros<s n="np"/></r></p></e>
-<e><p><l>Dagens<b/>Nyheter<s n="np"/></l><r>Dagens Nyheter<s n="np"/></r></p></e>
+<e><p><l>Dagens<b/>Nyheter<s n="np"/></l><r>Dagens<b/>Nyheter<s n="np"/></r></p></e>
 <e><p><l>Daniel<s n="np"/></l><r>Daniel<s n="np"/></r></p></e>
 <e><p><l>Danmark<s n="np"/></l><r>Danmark<s n="np"/></r></p></e>
 <e><p><l>Daphne<s n="np"/></l><r>Dafne<s n="np"/></r></p></e>
@@ -26815,8 +26814,8 @@
 <e vr="nob"><p><l>DN<s n="np"/></l><r>DN<s n="np"/></r></p></e>
 <e><p><l>Doha<s n="np"/></l><r>Doha<s n="np"/></r></p></e>
 <e><p><l>Dominica<s n="np"/></l><r>Dominika<s n="np"/></r></p></e>
-<e vr="nno"><p><l>Dominikanska<b/>republiken<s n="np"/></l><r>Den dominikanske republikken<s n="np"/></r></p></e>
-<e vr="nob"><p><l>Dominikanska<b/>republiken<s n="np"/></l><r>Den dominikanske republikk<s n="np"/></r></p></e>
+<e vr="nno"><p><l>Dominikanska<b/>republiken<s n="np"/></l><r>Den<b/>dominikanske<b/>republikken<s n="np"/></r></p></e>
+<e vr="nob"><p><l>Dominikanska<b/>republiken<s n="np"/></l><r>Den<b/>dominikanske<b/>republikk<s n="np"/></r></p></e>
 <e><p><l>Dora<s n="np"/></l><r>Dora<s n="np"/></r></p></e>
 <e><p><l>Doris<s n="np"/></l><r>Doris<s n="np"/></r></p></e>
 <e><p><l>Dublin<s n="np"/></l><r>Dublin<s n="np"/></r></p></e>
@@ -26831,7 +26830,7 @@
 <e vr="nob"><p><l>Elfenbenskusten<s n="np"/></l><r>Elfenbenskysten<s n="np"/></r></p></e>
 <e><p><l>Ellen<s n="np"/></l><r>Ellen<s n="np"/></r></p></e>
 <e><p><l>Elsa<s n="np"/></l><r>Elsa<s n="np"/></r></p></e>
-<e><p><l>El<b/>Salvador<s n="np"/></l><r>El Salvador<s n="np"/></r></p></e>
+<e><p><l>El<b/>Salvador<s n="np"/></l><r>El<b/>Salvador<s n="np"/></r></p></e>
 <e><p><l>Emil<s n="np"/></l><r>Emil<s n="np"/></r></p></e>
 <e><p><l>England<s n="np"/></l><r>England<s n="np"/></r></p></e>
 <e><p><l>Erasmus<s n="np"/></l><r>Erasmus<s n="np"/></r></p></e>
@@ -26858,9 +26857,9 @@
 <e vr="nob"><p><l>Filippinerna<s n="np"/></l><r>Filippinene<s n="np"/></r></p></e>
 <e><p><l>Finland<s n="np"/></l><r>Finland<s n="np"/></r></p></e>
 <e><p><l>Flandern<s n="np"/></l><r>Flandern<s n="np"/></r></p></e>
-<e><p><l>Ford<s n="np"/></l><r>Ford Motor Company<s n="np"/></r></p></e>
-<e vr="nno"><p><l>Förenade<b/>Arabemiraten<s n="np"/></l><r>Dei sameinte arabiske emirata<s n="np"/></r></p></e>
-<e vr="nob"><p><l>Förenade<b/>Arabemiraten<s n="np"/></l><r>De forente arabiske emirater<s n="np"/></r></p></e>
+<e><p><l>Ford<s n="np"/></l><r>Ford<b/>Motor<b/>Company<s n="np"/></r></p></e>
+<e vr="nno"><p><l>Förenade<b/>Arabemiraten<s n="np"/></l><r>Dei<b/>sameinte<b/>arabiske<b/>emirata<s n="np"/></r></p></e>
+<e vr="nob"><p><l>Förenade<b/>Arabemiraten<s n="np"/></l><r>De<b/>forente<b/>arabiske<b/>emirater<s n="np"/></r></p></e>
 <e><p><l>Frank<s n="np"/></l><r>Frank<s n="np"/></r></p></e>
 <e><p><l>Frankrike<s n="np"/></l><r>Frankrike<s n="np"/></r></p></e>
 <e><p><l>Frederik<s n="np"/></l><r>Fredrik<s n="np"/></r></p></e>
@@ -27032,7 +27031,7 @@
 <e><p><l>Richard<s n="np"/></l><r>Rikard<s n="np"/></r></p></e>
 <e><p><l>Richard<s n="np"/></l><r>Richard<s n="np"/></r></p></e>
 <e><p><l>Riksbank<s n="np"/></l><r>Sentralbank<s n="np"/></r></p></e>
-<e><p><l>Rio<s n="np"/></l><r>Rio de Janeiro<s n="np"/></r></p></e>
+<e><p><l>Rio<s n="np"/></l><r>Rio<b/>de<b/>Janeiro<s n="np"/></r></p></e>
 <e><p><l>Robert<s n="np"/></l><r>Robert<s n="np"/></r></p></e>
 <e><p><l>Rom<s n="np"/></l><r>Roma<s n="np"/></r></p></e>
 <e><p><l>Ronja<s n="np"/></l><r>Ronja<s n="np"/></r></p></e>
@@ -27078,7 +27077,7 @@
 <e><p><l>Skottland<s n="np"/></l><r>Skottland<s n="np"/></r></p></e>
 <e><p><l>Slovakien<s n="np"/></l><r>Slovakia<s n="np"/></r></p></e>
 <e><p><l>Slovenien<s n="np"/></l><r>Slovenia<s n="np"/></r></p></e>
-<e><p><l>Snorri<s n="np"/></l><r>Snorre Sturlason<s n="np"/></r></p></e>
+<e><p><l>Snorri<s n="np"/></l><r>Snorre<b/>Sturlason<s n="np"/></r></p></e>
 <e><p><l>Söder<s n="np"/></l><r>Sør<s n="np"/></r></p></e>
 <e><p><l>Somalia<s n="np"/></l><r>Somalia<s n="np"/></r></p></e>
 <e><p><l>Sovjetunionen<s n="np"/></l><r>Sovjetunionen<s n="np"/></r></p></e>
@@ -27097,7 +27096,7 @@
 <e><p><l>Sudan<s n="np"/></l><r>Sudan<s n="np"/></r></p></e>
 <e><p><l>Surinam<s n="np"/></l><r>Surinam<s n="np"/></r></p></e>
 <e><p><l>SvD<s n="np"/></l><r>SvD<s n="np"/></r></p></e>
-<e><p><l>Svenska<b/>Dagbladet<s n="np"/></l><r>Svenska Dagbladet<s n="np"/></r></p></e>
+<e><p><l>Svenska<b/>Dagbladet<s n="np"/></l><r>Svenska<b/>Dagbladet<s n="np"/></r></p></e>
 <e><p><l>Sverige<s n="np"/></l><r>Sverige<s n="np"/></r></p></e>
 <e><p><l>Swaziland<s n="np"/></l><r>Swaziland<s n="np"/></r></p></e>
 <e><p><l>Sydafrika<s n="np"/></l><r>Sør-Afrika<s n="np"/></r></p></e>
@@ -27244,7 +27243,7 @@
 <e><p><l>Backberger<s n="np"/></l><r>Backberger<s n="np"/></r></p></e>
 <e><p><l>Bergman<s n="np"/></l><r>Bergman<s n="np"/></r></p></e>
 <e><p><l>Bryssel<s n="np"/></l><r>Bryssel<s n="np"/></r></p></e>
-<e><p><l>de Gaulle<s n="np"/></l><r>de Gaulle<s n="np"/></r></p></e>
+<e><p><l>de<b/>Gaulle<s n="np"/></l><r>de<b/>Gaulle<s n="np"/></r></p></e>
 <e><p><l>DN<s n="np"/></l><r>DN<s n="np"/></r></p></e>
 <e><p><l>Feldt<s n="np"/></l><r>Feldt<s n="np"/></r></p></e>
 <e><p><l>Folkeson<s n="np"/></l><r>Folkeson<s n="np"/></r></p></e>
