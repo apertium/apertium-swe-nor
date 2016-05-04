@@ -11241,11 +11241,9 @@
 
     <!-- SECTION: Interjections -->
 
-<e><p><l>nej<s n="ij"/></l><r>nei<s n="ij"/></r></p></e>
-<e><p><l>ja<s n="ij"/></l><r>ja<s n="ij"/></r></p></e>
-<e><p><l>jo<s n="ij"/></l><r>jo<s n="ij"/></r></p></e>
-
-<!-- Crossed via dan: -->
+<e>         <p><l>nej<s n="ij"/></l><r>nei<s n="ij"/></r></p></e>
+<e>         <p><l>ja<s n="ij"/></l><r>ja<s n="ij"/></r></p></e>
+<e>         <p><l>jo<s n="ij"/></l><r>jo<s n="ij"/></r></p></e>
 <e>         <p><l>lycka<b/>till<s n="ij"/></l>	<r>gratulerer<s n="ij"/></r></p></e>
 <e>         <p><l>grattis<s n="ij"/></l>	<r>gratulerer<s n="ij"/></r></p></e>
 
@@ -11266,13 +11264,15 @@
 
     <!-- SECTION: Conjunctions -->
 
-<e><p><l>för<b/>att<s n="cnjsub"/></l><r>for<b/>å<s n="cnjsub"/></r></p></e>
+<e>         <p><l>för<b/>att<s n="cnjsub"/></l><r>for<b/>å<s n="cnjsub"/></r></p></e>
+<e vr="nno"><p><l>antingen<s n="cnjadv"/></l><r>anten<s n="cnjcoo"/></r></p></e>
 <e vr="nob"><p><l>antingen<s n="cnjadv"/></l><r>enten<s n="cnjcoo"/></r></p></e>
-<e><p><l>eftersom<s n="cnjsub"/></l><r>ettersom<s n="cnjsub"/></r></p></e>
-<e><p><l>eftersom<s n="cnjsub"/></l><r>fordi<s n="cnjsub"/></r></p></e>
+<e>         <p><l>eftersom<s n="cnjsub"/></l><r>ettersom<s n="cnjsub"/></r></p></e>
+<e>         <p><l>eftersom<s n="cnjsub"/></l><r>fordi<s n="cnjsub"/></r></p></e>
 <e r="LR" vr="nno"><p><l>eftersom<s n="cnjsub"/></l><r>sidan<s n="cnjsub"/></r></p></e>
-<e><p><l>eller<s n="cnjcoo"/></l><r>eller<s n="cnjcoo"/></r></p></e>
-<e><p><l>emedan<s n="cnjsub"/></l><r>fordi<s n="cnjsub"/></r></p></e>
+<e>         <p><l>eller<s n="cnjcoo"/></l><r>eller<s n="cnjcoo"/></r></p></e>
+<e>         <p><l>emedan<s n="cnjsub"/></l><r>fordi<s n="cnjsub"/></r></p></e>
+<e vr="nob"><p><l>fastän<s n="cnjsub"/></l><r>sjølv<b/>om<s n="cnjsub"/></r></p></e>
 <e vr="nob"><p><l>fastän<s n="cnjsub"/></l><r>selv<b/>om<s n="cnjsub"/></r></p></e>
 <e vr="nno"><p><l>samt<s n="cnjcoo"/></l><r>og<b/>dessutan<s n="cnjcoo"/></r></p></e>
 <e vr="nob"><p><l>samt<s n="cnjcoo"/></l><r>samt<s n="cnjcoo"/></r></p></e>
