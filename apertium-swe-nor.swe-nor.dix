@@ -363,39 +363,44 @@
 
     <!-- SECTION: Conjunctions -->
 
-<e><p><l>att<s n="cnjsub"/></l><r>at<s n="cnjsub"/></r></p></e>
-<e><p><l>att<s n="cnjsub"/></l><r>å<s n="part"/></r></p></e> <!-- TODO! -->
-<e><p><l>ty<s n="cnjsub"/></l><r>fordi<s n="cnjsub"/></r></p></e>
-    <!--<e><p><l>till<b/>att<s n="cnjsub"/></l><r>til<b/>at<s n="cnjsub"/></r></p></e>-->
-    <!--<e><p><l>så<b/>att<s n="cnjsub"/></l><r>så<b/>at<s n="cnjsub"/></r></p></e>-->
-<e><p><l>som<s n="cnjsub"/></l><r>som<s n="cnjsub"/></r></p></e>
-<e><p><l>eller<s n="cnjcoo"/></l><r>eller<s n="cnjcoo"/></r></p></e>
-<e><p><l>både<s n="cnjcoo"/></l><r>både<s n="cnjcoo"/></r></p></e>
-<e><p><l>men<s n="cnjcoo"/></l><r>men<s n="cnjcoo"/></r></p></e>
-<e><p><l>och<s n="cnjcoo"/></l><r>og<s n="cnjcoo"/></r></p></e>
-<e><p><l>när<s n="cnjadv"/></l><r>når<s n="cnjsub"/></r></p></e>
-<e><p><l>medan<s n="cnjadv"/></l><r>medan<s n="cnjsub"/></r></p></e>
-<e><p><l>till<s n="cnjadv"/></l><r>til<s n="cnjsub"/></r></p></e>
-<e><p><l>om<s n="cnjadv"/></l><r>om<s n="cnjsub"/></r></p></e>
-<e vr="nob"><p><l>då<s n="cnjadv"/></l><r>da<s n="cnjadv"/></r></p></e>
-<e vr="nno"><p><l>då<s n="cnjadv"/></l><r>då<s n="cnjsub"/></r></p></e>
-<e vr="nob"><p><l>även<b/>om<s n="cnjadv"/></l><r>selv<b/>om<s n="cnjsub"/></r></p></e>
-<e vr="nno"><p><l>även<b/>om<s n="cnjadv"/></l><r>sjølv<b/>om<s n="cnjsub"/></r></p></e>
-
-
-<!-- Crossed via dan: -->
-<e vr="nno"><p><l>varken<s n="cnjcoo"/></l>	<r>korkje<s n="cnjcoo"/></r></p></e>
-<e vr="nno"><p><l>samt<s n="cnjcoo"/></l>	<r>og<b/>dessutan<s n="cnjcoo"/></r></p></e>
-<e vr="nob"><p><l>varken<s n="cnjcoo"/></l>	<r>hverken<s n="cnjcoo"/></r></p></e>
-<e>         <p><l>varken<s n="cnjcoo"/></l>	<r>verken<s n="cnjcoo"/></r></p></e>
-<e vr="nob"><p><l>samt<s n="cnjcoo"/></l>	<r>samt<s n="cnjcoo"/></r></p></e>
-
-<!-- Crossed via dan: -->
-<e vr="nno"><p><l>eftersom<s n="cnjsub"/></l>	<r>sidan<s n="cnjsub"/></r></p></e>
+<e vr="nno"><p><l>antingen<s n="cnjadv"/></l>	<r>anten<s n="cnjcoo"/></r></p></e>
+<e vr="nob"><p><l>antingen<s n="cnjadv"/></l>	<r>enten<s n="cnjcoo"/></r></p></e>
+<e>         <p><l>att<s n="cnjsub"/></l>	<r>at<s n="cnjsub"/></r></p></e>
+<e>         <p><l>att<s n="cnjsub"/></l>	<r>å<s n="part"/></r></p></e> <!-- currently handled in lrx, TODO cg? -->
+<e>         <p><l>både<s n="cnjcoo"/></l>	<r>både<s n="cnjcoo"/></r></p></e>
+<e vr="nno"><p><l>där<s n="cnjsub"/></l>	<r>der<s n="cnjsub"/></r></p></e>
 <e vr="nob"><p><l>där<s n="cnjsub"/></l>	<r>hvor<s n="cnjsub"/></r></p></e>
+<e vr="nob"><p><l>då<s n="cnjadv"/></l>	<r>da<s n="cnjadv"/></r></p></e>
+<e vr="nno"><p><l>då<s n="cnjadv"/></l>	<r>då<s n="cnjsub"/></r></p></e>
+<e>         <p><l>eftersom<s n="cnjsub"/></l>	<r>ettersom<s n="cnjsub"/></r></p></e>
+<e>         <p><l>eftersom<s n="cnjsub"/></l>	<r>fordi<s n="cnjsub"/></r></p></e>
+<e vr="nno"><p><l>eftersom<s n="cnjsub"/></l>	<r>sidan<s n="cnjsub"/></r></p></e>
+<e vr="nob"><p><l>eftersom<s n="cnjsub"/></l>	<r>siden<s n="cnjsub"/></r></p></e>
+<e>         <p><l>eller<s n="cnjcoo"/></l>	<r>eller<s n="cnjcoo"/></r></p></e>
+<e>         <p><l>emedan<s n="cnjsub"/></l>	<r>fordi<s n="cnjsub"/></r></p></e>
+<e>         <p><l>fast<s n="cnjcoo"/></l>	<r>men<s n="cnjcoo"/></r></p></e>
+<e vr="nob"><p><l>fastän<s n="cnjsub"/></l>	<r>selv<b/>om<s n="cnjsub"/></r></p></e>
+<e vr="nob"><p><l>fastän<s n="cnjsub"/></l>	<r>sjølv<b/>om<s n="cnjsub"/></r></p></e>
+<e>         <p><l>för<b/>att<s n="cnjsub"/></l>	<r>for<b/>å<s n="cnjsub"/></r></p></e>
 <e vr="nob"><p><l>ifall<s n="cnjsub"/></l>	<r>hvis<s n="cnjsub"/></r></p></e>
 <e vr="nno"><p><l>ifall<s n="cnjsub"/></l>	<r>viss<s n="cnjsub"/></r></p></e>
+<e vr="nno"><p><l>medan<s n="cnjadv"/></l>	<r>medan<s n="cnjsub"/></r></p></e>
+<e vr="nob"><p><l>medan<s n="cnjadv"/></l>	<r>mens<s n="cnjsub"/></r></p></e>
+<e>         <p><l>men<s n="cnjcoo"/></l>	<r>men<s n="cnjcoo"/></r></p></e>
+<e>         <p><l>när<s n="cnjadv"/></l>	<r>når<s n="cnjsub"/></r></p></e>
+<e>         <p><l>och<s n="cnjcoo"/></l>	<r>og<s n="cnjcoo"/></r></p></e>
+<e>         <p><l>om<s n="cnjadv"/></l>	<r>om<s n="cnjsub"/></r></p></e>
+<e vr="nno"><p><l>samt<s n="cnjcoo"/></l>	<r>og<b/>dessutan<s n="cnjcoo"/></r></p></e>
+<e vr="nob"><p><l>samt<s n="cnjcoo"/></l>	<r>samt<s n="cnjcoo"/></r></p></e>
+<e>         <p><l>som<s n="cnjsub"/></l>	<r>som<s n="cnjsub"/></r></p></e>
 <e>         <p><l>så<s n="cnjsub"/></l>	<r>så<s n="cnjsub"/></r></p></e>
+<e>         <p><l>till<s n="cnjadv"/></l>	<r>til<s n="cnjsub"/></r></p></e>
+<e>         <p><l>ty<s n="cnjsub"/></l>	<r>fordi<s n="cnjsub"/></r></p></e>
+<e vr="nob"><p><l>varken<s n="cnjcoo"/></l>	<r>hverken<s n="cnjcoo"/></r></p></e>
+<e vr="nno"><p><l>varken<s n="cnjcoo"/></l>	<r>korkje<s n="cnjcoo"/></r></p></e>
+<e r="RL">  <p><l>varken<s n="cnjcoo"/></l>	<r>verken<s n="cnjcoo"/></r></p></e>
+<e vr="nob"><p><l>även<b/>om<s n="cnjadv"/></l>	<r>selv<b/>om<s n="cnjsub"/></r></p></e>
+<e vr="nno"><p><l>även<b/>om<s n="cnjadv"/></l>	<r>sjølv<b/>om<s n="cnjsub"/></r></p></e>
 
 
     <!-- SECTION: Prepositions -->
@@ -1145,7 +1150,6 @@
 <e vr="nno"><p><l>farlig</l>                  <r>farleg</r></p><par n="adj_sint"/></e>
 <e vr="nob"><p><l>farlig</l>                  <r>farlig</r></p><par n="adj_sint"/></e>
 <e>         <p><l>fast</l>                    <r>fast</r></p><par n="adj_sint"/></e>
-<e>         <p><l>fast<s n="adj"/></l>        <r>faste<s n="adj"/><s n="pp"/></r></p></e>
 <e>         <p><l>fatal</l>                   <r>fatal</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>fattig</l>                  <r>fattig</r></p><par n="adj_sint"/></e>
 <e>         <p><l>feberfri</l>                <r>feberfri</r></p><par n="adj_sint:adj"/></e>
@@ -2927,7 +2931,6 @@
 
 <e><p><l>fast<s n="adv"/></l><r>bortsett<b/>fra<s n="adv"/></r></p></e>
 <e><p><l>fast<s n="adv"/></l><r>foruten<s n="adv"/></r></p></e>
-<e><p><l>fast<s n="adv"/></l><r>men<s n="cnjcoo"/></r></p></e>
 <e><p><l>fast<s n="adv"/></l><r>selv<b/>om<s n="adv"/></r></p></e>
 
 <e><p><l>i<b/>dag<s n="adv"/></l><r>i<b/>dag<s n="adv"/></r></p></e>
@@ -11261,21 +11264,6 @@
 
   </section>
   <section id="pending" type="standard">
-
-    <!-- SECTION: Conjunctions -->
-
-<e>         <p><l>för<b/>att<s n="cnjsub"/></l><r>for<b/>å<s n="cnjsub"/></r></p></e>
-<e vr="nno"><p><l>antingen<s n="cnjadv"/></l><r>anten<s n="cnjcoo"/></r></p></e>
-<e vr="nob"><p><l>antingen<s n="cnjadv"/></l><r>enten<s n="cnjcoo"/></r></p></e>
-<e>         <p><l>eftersom<s n="cnjsub"/></l><r>ettersom<s n="cnjsub"/></r></p></e>
-<e>         <p><l>eftersom<s n="cnjsub"/></l><r>fordi<s n="cnjsub"/></r></p></e>
-<e r="LR" vr="nno"><p><l>eftersom<s n="cnjsub"/></l><r>sidan<s n="cnjsub"/></r></p></e>
-<e>         <p><l>eller<s n="cnjcoo"/></l><r>eller<s n="cnjcoo"/></r></p></e>
-<e>         <p><l>emedan<s n="cnjsub"/></l><r>fordi<s n="cnjsub"/></r></p></e>
-<e vr="nob"><p><l>fastän<s n="cnjsub"/></l><r>sjølv<b/>om<s n="cnjsub"/></r></p></e>
-<e vr="nob"><p><l>fastän<s n="cnjsub"/></l><r>selv<b/>om<s n="cnjsub"/></r></p></e>
-<e vr="nno"><p><l>samt<s n="cnjcoo"/></l><r>og<b/>dessutan<s n="cnjcoo"/></r></p></e>
-<e vr="nob"><p><l>samt<s n="cnjcoo"/></l><r>samt<s n="cnjcoo"/></r></p></e>
 
     <!-- SECTION: Prepositions -->
 
