@@ -128,8 +128,8 @@
 
 <pardef n="gen:" c="just strip the swe gender">
 <e r="LR">  <p><l><s n="nt"/></l><r></r></p></e>
-<e>         <p><l><s n="ut"/></l><r></r></p></e>
-<e r="LR">  <p><l><s n="un"/></l><r></r></p></e>
+<e r="LR">  <p><l><s n="ut"/></l><r></r></p></e>
+<e>         <p><l><s n="un"/></l><r></r></p></e>
 </pardef>
 
 
@@ -559,6 +559,7 @@
 <e>         <p><l>efter<s n="pr"/></l>	<r>etterpå<s n="pr"/></r></p></e>
 <e>         <p><l>från<s n="pr"/></l>	<r>ifrå<s n="pr"/></r></p></e>
 <e>         <p><l>från<s n="pr"/></l>	<r>frå<s n="pr"/></r></p></e>
+
 
     <!-- SECTION: Pronouns -->
 
@@ -2874,6 +2875,7 @@
 <e>         <p><l>övre</l>                    <r>øvre</r></p><par n="adj_sint"/></e>
 <e>         <p><l>övrig</l>                   <r>øvrig</r></p><par n="adj"/></e>
 <e>         <p><l>nära</l>                    <r>nær</r></p><par n="adj_sint"/></e>
+<e>         <p><l>främre</l>                  <r>fremre</r></p><par n="adj_sint"/></e>
 
 
     <!-- SECTION: Adverbs -->
@@ -2931,7 +2933,6 @@
 <e><p><l>här<s n="adv"/></l><r>her<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>mer<s n="adv"/></l><r>mer<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>mer<s n="adv"/></l><r>meir<s n="adv"/></r></p></e>
-<e><p><l>då<s n="adv"/></l><r>da<s n="adv"/></r></p></e>
 
 <e><p><l>fast<s n="adv"/></l><r>bortsett<b/>fra<s n="adv"/></r></p></e>
 <e><p><l>fast<s n="adv"/></l><r>foruten<s n="adv"/></r></p></e>
@@ -11270,7 +11271,7 @@
 <e><re>,</re><p><l><s n="cm"/></l><r><s n="cm"/></r></p></e>
 <e><re>«</re><p><l><s n="lquot"/></l><r><s n="lquot"/></r></p></e>
 <e><re>»</re><p><l><s n="rquot"/></l><r><s n="rquot"/></r></p></e>
-<e><re>[0-9]+([.,][0-9]+)?</re><p><l><s n="det"/><s n="qnt"/></l><r><s n="det"/><s n="qnt"/></r></p></e>
+<e><re>[0-9]+([., ][0-9]+)?</re><p><l><s n="det"/><s n="qnt"/></l><r><s n="det"/><s n="qnt"/></r></p></e>
 <e><re>[XIVM]+</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
 
   </section>
@@ -27635,6 +27636,8 @@
 <e><p><l>sålunda<s n="adv"/></l><r>såleis<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>sålunda<s n="adv"/></l><r>soleis<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>sålunda<s n="adv"/></l><r>således<s n="adv"/></r></p></e>
+<e>         <p><l>främst<s n="adv"/><s n="sup"/></l><r>fremst<s n="adv"/></r></p></e>
+
 
 <!-- Crossed via dan: -->
 <e vr="nob"><p><l>än<s n="adv"/></l>	<r>enda<s n="adv"/></r></p></e>
@@ -28569,7 +28572,6 @@
 <e vr="nno"><p><l>ändock<s n="adv"/></l>	<r>endå<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>än<s n="adv"/></l>	<r>endå<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>ännu<s n="adv"/></l>	<r>endå<s n="adv"/></r></p></e>
-<e vr="nno"><p><l>då<s n="adv"/></l>	<r>då<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>än<s n="adv"/></l>	<r>ennå<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>nu<s n="adv"/></l>	<r>nå<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>söderöver<s n="adv"/></l>	<r>sydpå<s n="adv"/></r></p></e>
