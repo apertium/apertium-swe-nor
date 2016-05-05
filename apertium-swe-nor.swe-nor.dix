@@ -2303,7 +2303,7 @@
 <e>         <p><l>siamesisk</l>               <r>siamesisk</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>simpel</l>                  <r>einskild</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>simpel</l>                  <r>enkelt</r></p><par n="adj_sint:adj"/></e>
-<e>         <p><l>sist</l>                    <r>sist</r></p><par n="adj:adj_sint"/></e>
+<e>         <p><l>sista</l>                    <r>sist</r></p><par n="adj_sint"/></e>
 <e vr="nno"><p><l>sjuk</l>                    <r>sjuk</r></p><par n="adj_sint"/></e>
 <e>         <p><l>sjuk</l>                    <r>syk</r></p><par n="adj_sint"/></e>
 <e vr="nob"><p><l>sjuk</l>                    <r>syk</r></p><par n="adj_sint"/></e>
@@ -2890,6 +2890,7 @@
 <e><p><l>på<s n="adv"/></l><r>på<s n="adv"/></r></p></e>
 <e><p><l>in<s n="adv"/></l><r>i<s n="adv"/></r></p></e>
 <e><p><l>upp<s n="adv"/></l><r>opp<s n="adv"/></r></p></e>
+<e><p><l>sist<s n="adv"/></l><r>sist<s n="adv"/></r></p></e>
 
 
 <e vr="nno"><p><l>hemma<s n="adv"/></l><r>heime<s n="adv"/></r></p></e>
@@ -2967,9 +2968,17 @@
 <e vr="nob"><p><l>utomhus<s n="adv"/></l><r>utendørs<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>då<s n="adv"/></l><r>då<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>då<s n="adv"/></l><r>da<s n="adv"/></r></p></e>
-<e><p><l>just<s n="adv"/></l><r>nettopp<s n="adv"/></r></p></e>
-<e r="RL"><p><l>just<s n="adv"/></l><r>just<s n="adv"/></r></p></e>
-<e><p><l>fram<s n="adv"/></l><r>fram<s n="adv"/></r></p></e>
+<e>         <p><l>just<s n="adv"/></l><r>nettopp<s n="adv"/></r></p></e>
+<e r="RL">  <p><l>just<s n="adv"/></l><r>just<s n="adv"/></r></p></e>
+<e>         <p><l>fram<s n="adv"/></l><r>fram<s n="adv"/></r></p></e>
+<e vr="nno"><p><l>till<b/>exempel<s n="adv"/></l><r>til<b/>dømes<s n="adv"/></r></p></e>
+<e vr="nob"><p><l>till<b/>exempel<s n="adv"/></l><r>for<b/>eksempel<s n="adv"/></r></p></e>
+<e vr="nno"><p><l>bland<b/>annat<s n="adv"/></l><r>mellom<b/>anna<s n="adv"/></r></p></e>
+<e vr="nob"><p><l>bland<b/>annat<s n="adv"/></l><r>blant<b/>annet<s n="adv"/></r></p></e>
+
+
+
+
 
     <!-- SECTION: Verbs -->
 
@@ -11283,6 +11292,9 @@
 <e><p><l>längs<s n="pr"/></l><r>langsetter<s n="pr"/></r></p></e>
 <e><p><l>längs<s n="pr"/></l><r>langs<s n="pr"/></r></p></e>
 <e vr="nob"><p><l>längs<s n="pr"/></l><r>fremetter<s n="pr"/></r></p></e>
+<e>         <p><l>på<b/>grund<b/>av<s n="pr"/></l><r>på<b/>grunn<b/>av<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>det<b/>vill<b/>säga<s n="adv"/></l><r>det<b/>vil<b/>seie<s n="adv"/></r></p></e>
+<e vr="nob"><p><l>det<b/>vill<b/>säga<s n="adv"/></l><r>det<b/>vil<b/>si<s n="adv"/></r></p></e>
 
 <e vr="nob"><p><l>ner<s n="pr"/></l><r>ner<s n="pr"/></r></p></e>
 <e><p><l>per<s n="pr"/></l><r>per<s n="pr"/></r></p></e>
@@ -26826,7 +26838,7 @@
 <e><p><l>Costa<b/>Rica<s n="np"/></l><r>Costa<b/>Rica<s n="np"/></r></p></e>
 <e><p><l>Cox<s n="np"/></l><r>Cox<s n="np"/></r></p></e>
 <e><p><l>Cypern<s n="np"/></l><r>Kypros<s n="np"/></r></p></e>
-<e><p><l>Dagens<b/>Nyheter<s n="np"/></l><r>Dagens<b/>Nyheter<s n="np"/></r></p></e>
+<e><p><l>Dagens<b/>nyheter<s n="np"/></l><r>Dagens<b/>nyheter<s n="np"/></r></p></e>
 <e><p><l>Daniel<s n="np"/></l><r>Daniel<s n="np"/></r></p></e>
 <e><p><l>Danmark<s n="np"/></l><r>Danmark<s n="np"/></r></p></e>
 <e><p><l>Daphne<s n="np"/></l><r>Dafne<s n="np"/></r></p></e>
@@ -27425,13 +27437,24 @@
 <e>         <p><l>Guyana<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Guyana<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>USA<s n="np"/><s n="top"/><s n="nt"/></l>	<r>USA<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Kenya<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Kenya<s n="np"/><s n="top"/></r></p></e>
+<e>         <p><l>Nya<b/>Zeeland<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Ny-Zealand<s n="np"/><s n="top"/></r></p></e>
+<e>         <p><l>Los<b/>Angeles<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Los<b/>Angeles<s n="np"/><s n="top"/></r></p></e>
+<e>         <p><l>Osmanska<b/>riket<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Det<b/>osmanske<b/>riket<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+<e r="RL">  <p><l>Osmanska<b/>riket<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Det<b/>ottomanske<b/>riket<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
+<e>         <p><l>Stockholms<b/>universitet<s n="np"/><s n="nt"/></l>	<r>Stockholms<b/>universitet<s n="np"/><s n="org"/><s n="nt"/></r></p></e>
+<e>         <p><l>Gustav<b/>Vasa<s n="np"/><s n="ant"/><s n="m"/></l>	<r>Gustav<b/>Vasa<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>         <p><l>De<b/>Geer<s n="np"/><s n="top"/><s n="nt"/></l>	<r>De<b/>Geer<s n="np"/><s n="top"/></r></p></e>
+<e>         <p><l>Svenska<b/>Akademien<s n="np"/><s n="org"/><s n="ut"/></l>	<r>Svenska<b/>Akademien<s n="np"/><s n="org"/><s n="m"/></r></p></e>
+<e>         <p><l>Karl<b/>XII<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Karl<b/>XII<s n="np"/><s n="top"/></r></p></e>
+<e>         <p><l>Gustav<b/>III<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Gustav<b/>III<s n="np"/><s n="top"/></r></p></e>
+<e>         <p><l>Gustav<b/>II<b/>Adolf<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Gustav<b/>II<b/>Adolf<s n="np"/><s n="top"/></r></p></e>
+<e>         <p><l>Buenos<b/>Aires<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Buenos<b/>Aires<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Tchad<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Tchad<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Strömstad<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Strömstad<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Nazityskland<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Nazi-Tyskland<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Grönland<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Grønland<s n="np"/><s n="top"/></r></p></e>
 <e vr="nob"><p><l>Vitryssland<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Hviterussland<s n="np"/><s n="top"/></r></p></e>
 <e vr="nno"><p><l>Vitryssland<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Kviterussland<s n="np"/><s n="top"/></r></p></e>
-<e vr="nob"><p><l>Norge<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Norge<s n="np"/><s n="top"/></r></p></e>
 <e vr="nno"><p><l>Österrike<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Austerrike<s n="np"/><s n="top"/></r></p></e>
 <e vr="nob"><p><l>Österrike<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Østerrike<s n="np"/><s n="top"/></r></p></e>
 <e vr="nno"><p><l>Maldiverna<s n="np"/><s n="top"/><s n="pl"/></l>	<r>Maldivane<s n="np"/><s n="top"/></r></p></e>
@@ -27445,6 +27468,7 @@
 <e>         <p><l>Florens<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Firenze<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>EF<s n="np"/><s n="top"/><s n="nt"/></l>	<r>EF<s n="np"/><s n="top"/></r></p></e>
 <e vr="nno"><p><l>Norge<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Noreg<s n="np"/><s n="top"/></r></p></e>
+<e vr="nob"><p><l>Norge<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Norge<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Kalundborg<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Kalundborg<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Helsingborg<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Helsingborg<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Viborg<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Viborg<s n="np"/><s n="top"/></r></p></e>
@@ -27575,14 +27599,15 @@
 <e vr="nno"><p><l>fortfarande<s n="adv"/></l><r>enno<s n="adv"/></r></p></e>
 <e><p><l>ganska<s n="adv"/></l><r>ganske<s n="adv"/></r></p></e>
 <e><p><l>heller<s n="adv"/></l><r>heller<s n="adv"/></r></p></e>
-<e vr="nno"><p><l>heller<s n="adv"/></l><r>dess<b/>heller<s n="adv"/></r></p></e>
-<e vr="nno"><p><l>heller<s n="adv"/></l><r>di<b/>heller<s n="adv"/></r></p></e>
-<e vr="nno"><p><l>heller<s n="adv"/></l><r>hoste<s n="adv"/></r></p></e>
-<e><p><l>hellre<s n="adv"/></l><r>vonom<s n="adv"/></r></p></e>
-<e><p><l>hellre<s n="adv"/></l><r>vonoms<s n="adv"/></r></p></e>
+<e r="RL" vr="nno"><p><l>heller<s n="adv"/></l><r>dess<b/>heller<s n="adv"/></r></p></e>
+<e r="RL" vr="nno"><p><l>heller<s n="adv"/></l><r>di<b/>heller<s n="adv"/></r></p></e>
+<e><p><l>hellre<s n="adv"/></l><r>heller<s n="adv"/></r></p></e>
+<e r="RL">  <p><l>hellre<s n="adv"/></l><r>vonom<s n="adv"/></r></p></e>
+<e r="RL">  <p><l>hellre<s n="adv"/></l><r>vonoms<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>istället<s n="adv"/></l><r>i<b/>staden<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>istället<s n="adv"/></l><r>istedet<s n="adv"/></r></p></e>
 <e><p><l>ju<s n="adv"/></l><r>jo<s n="adv"/></r></p></e>
+<e><p><l>dess<s n="adv"/></l><r>jo<s n="adv"/></r></p></e>
 <e><p><l>länge<s n="adv"/></l><r>lenge<s n="adv"/></r></p></e>
 <e><p><l>länge<s n="adv"/></l><r>så<b/>lenge<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>länge<s n="adv"/></l><r>ovlenge<s n="adv"/></r></p></e>
