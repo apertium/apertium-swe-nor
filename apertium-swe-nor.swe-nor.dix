@@ -370,8 +370,10 @@
 <e>         <p><l>både<s n="cnjcoo"/></l>	<r>både<s n="cnjcoo"/></r></p></e>
 <e vr="nno"><p><l>där<s n="cnjsub"/></l>	<r>der<s n="cnjsub"/></r></p></e>
 <e vr="nob"><p><l>där<s n="cnjsub"/></l>	<r>hvor<s n="cnjsub"/></r></p></e>
-<e vr="nob"><p><l>då<s n="cnjadv"/></l>	<r>da<s n="cnjadv"/></r></p></e>
-<e vr="nno"><p><l>då<s n="cnjadv"/></l>	<r>då<s n="cnjsub"/></r></p></e>
+<e r="LR" vr="nob"><p><l>då<s n="cnjadv"/></l>	<r>da<s n="cnjsub"/></r></p></e>
+<e r="LR" vr="nno"><p><l>då<s n="cnjadv"/></l>	<r>då<s n="cnjsub"/></r></p></e>
+<e vr="nob"><p><l>då<s n="cnjsub"/></l>	<r>da<s n="cnjsub"/></r></p></e>
+<e vr="nno"><p><l>då<s n="cnjsub"/></l>	<r>då<s n="cnjsub"/></r></p></e>
 <e>         <p><l>eftersom<s n="cnjsub"/></l>	<r>ettersom<s n="cnjsub"/></r></p></e>
 <e>         <p><l>eftersom<s n="cnjsub"/></l>	<r>fordi<s n="cnjsub"/></r></p></e>
 <e vr="nno"><p><l>eftersom<s n="cnjsub"/></l>	<r>sidan<s n="cnjsub"/></r></p></e>
@@ -11261,6 +11263,8 @@
 <e><re>[\(\[]</re><p><l><s n="lpar"/></l><r><s n="lpar"/></r></p></e>
 <e><re>[\)\]]</re><p><l><s n="rpar"/></l><r><s n="rpar"/></r></p></e>
 <e><re>[.\?;:!·…]+</re><p><l><s n="sent"/></l><r><s n="sent"/><s n="clb"/></r></p></e>
+<e><re>-</re><p><l><s n="guio"/></l><r><s n="guio"/></r></p></e>
+<e><re>'</re><p><l><s n="apos"/></l><r><s n="apos"/></r></p></e>
 <e><re>,</re><p><l><s n="cm"/></l><r><s n="cm"/></r></p></e>
 <e><re>«</re><p><l><s n="lquot"/></l><r><s n="lquot"/></r></p></e>
 <e><re>»</re><p><l><s n="rquot"/></l><r><s n="rquot"/></r></p></e>
@@ -16101,6 +16105,18 @@
 <e><p><l>klinik<s n="n"/><s n="ut"/></l><r>klinikk<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>pupill<s n="n"/><s n="ut"/></l><r>pupill<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>fan<s n="n"/><s n="ut"/></l><r>fan<s n="n"/><s n="m"/></r></p></e>
+
+<e vr="nob"><p><l>lås<s n="n"/><s n="GD"/></l><r>lås<s n="n"/><s n="m"/></r></p></e>
+<e vr="nob"><p><l>lås<s n="n"/><s n="GD"/></l><r>lås<s n="n"/><s n="nt"/></r></p></e>
+<e vr="nno"><p><l>ledamot<s n="n"/><s n="GD"/></l><r>medlem<s n="n"/><s n="m"/></r></p></e>
+<e vr="nob"><p><l>ledamot<s n="n"/><s n="GD"/></l><r>medlem<s n="n"/><s n="nt"/></r></p></e>
+<e vr="nno"><p><l>lem<s n="n"/><s n="GD"/></l><r>medlem<s n="n"/><s n="m"/></r></p></e>
+<e vr="nob"><p><l>lem<s n="n"/><s n="GD"/></l><r>medlem<s n="n"/><s n="nt"/></r></p></e>
+<e><p><l>näring<s n="n"/><s n="ut"/></l><r>ernæring<s n="n"/></r></p><par n=":f/m"/></e>
+
+<!-- Acronyms: -->
+<e><p><l>kl.<s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></l><r>kl.<s n="n"/><s n="acr"/></r></p></e>
+
 
 
 <!-- Crossed via dan: -->
@@ -27573,12 +27589,6 @@
 <e><p><l>la<s n="adv"/></l><r>vel<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>la<s n="adv"/></l><r>fulla<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>la<s n="adv"/></l><r>vel<s n="adv"/></r></p></e>
-<e vr="nob"><p><l>lås<s n="n"/><s n="GD"/></l><r>lås<s n="n"/><s n="m"/></r></p></e>
-<e vr="nob"><p><l>lås<s n="n"/><s n="GD"/></l><r>lås<s n="n"/><s n="nt"/></r></p></e>
-<e vr="nno"><p><l>ledamot<s n="n"/><s n="GD"/></l><r>medlem<s n="n"/><s n="m"/></r></p></e>
-<e vr="nob"><p><l>ledamot<s n="n"/><s n="GD"/></l><r>medlem<s n="n"/><s n="nt"/></r></p></e>
-<e vr="nno"><p><l>lem<s n="n"/><s n="GD"/></l><r>medlem<s n="n"/><s n="m"/></r></p></e>
-<e vr="nob"><p><l>lem<s n="n"/><s n="GD"/></l><r>medlem<s n="n"/><s n="nt"/></r></p></e>
 <e><p><l>liksom<s n="adv"/></l><r>liksom<s n="adv"/></r></p></e>
 <e><p><l>liksom<s n="adv"/></l><r>mestsom<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>liksom<s n="adv"/></l><r>læssom<s n="adv"/></r></p></e>
@@ -27602,13 +27612,11 @@
 <e vr="nob"><p><l>någonsin<s n="adv"/></l><r>noen<b/>gang<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>nämligen<s n="adv"/></l><r>nemleg<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>nämligen<s n="adv"/></l><r>nemlig<s n="adv"/></r></p></e>
-<e><p><l>näring<s n="n"/><s n="ut"/></l><r>ernæring<s n="n"/></r></p></e>
 <e vr="nob"><p><l>näring<s n="n"/></l><r>ernæring<s n="n"/></r></p><par n="ut:f/m"/></e>
 <e><p><l>nästan<s n="adv"/></l><r>nesten<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>nästan<s n="adv"/></l><r>mesta<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>nästan<s n="adv"/></l><r>nærom<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>nästan<s n="adv"/></l><r>nestan<s n="adv"/></r></p></e>
-<e><p><l>natur<s n="n"/><s n="GD"/></l><r>natur<s n="n"/><s n="m"/></r></p></e>
 <e><p><l>nere<s n="adv"/></l><r>der<b/>nede<s n="adv"/></r></p></e>
 <e><p><l>ofta<s n="adv"/></l><r>ofte<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>ofta<s n="adv"/></l><r>jamnan<s n="adv"/></r></p></e>
