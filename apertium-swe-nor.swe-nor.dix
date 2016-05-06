@@ -109,14 +109,6 @@
 <e vr="nob">        <p><l></l><r><s n="m"/></r></p></e>
 <e vr="nno">        <p><l></l><r><s n="f"/></r></p></e>
 </pardef>
-<pardef n="ut:f/m">
-<e vr="nob">        <p><l><s n="ut"/></l><r><s n="m"/></r></p></e>
-<e vr="nno">        <p><l><s n="ut"/></l><r><s n="f"/></r></p></e>
-</pardef>
-<pardef n="nt:f/m">
-<e vr="nob">        <p><l><s n="nt"/></l><r><s n="m"/></r></p></e>
-<e vr="nno">        <p><l><s n="nt"/></l><r><s n="f"/></r></p></e>
-</pardef>
 
 <pardef n="sgpl:sp" c="TODO: ND/DD">
 <e>       <p><l><s n="sg"/><s n="ind"/></l><r><s n="sp"/></r></p></e>
@@ -3574,12 +3566,9 @@
 <e vr="nob"><p><l>fiskare<s n="n"/><s n="ut"/></l>	<r>fisker<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>fiskbulle<s n="n"/><s n="ut"/></l>	<r>fiskebolle<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>fiskdöd<s n="n"/><s n="ut"/></l>	<r>fiskedød<s n="n"/><s n="m"/></r></p></e>
-<e r="RL">  <p><l>fiske<s n="n"/></l>	<r>fiskje<s n="n"/></r></p><par n="nt:f/m"/></e>
+<e r="RL">  <p><l>fiske<s n="n"/><s n="nt"/></l>	<r>fiskje<s n="n"/></r></p><par n=":f/m"/></e>
 <e vr="nno"><p><l>fiske<s n="n"/><s n="nt"/></l>	<r>fiske<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>fiske<s n="n"/><s n="nt"/></l>	<r>fiske<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>fiske<s n="n"/><s n="nt"/></l>	<r>fiskeri<s n="n"/><s n="nt"/></r></p></e>
-<e vr="nno"><p><l>fiske<s n="n"/><s n="nt"/></l>	<r>fiskje<s n="n"/></r></p><par n=":f/m"/></e>
-<e>         <p><l>fiske<s n="n"/><s n="ut"/></l>	<r>fiske<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>fiskebank<s n="n"/><s n="ut"/></l>	<r>fiskebank<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>fiskebåt<s n="n"/><s n="ut"/></l>	<r>fiskebåt<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>fiskeflotta<s n="n"/><s n="ut"/></l>	<r>fiskeflåte<s n="n"/><s n="m"/></r></p></e>
@@ -4831,9 +4820,7 @@
 <e>         <p><l>hampa<s n="n"/><s n="ut"/></l>	<r>hamp<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>hamster<s n="n"/><s n="ut"/></l>	<r>hamster<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>hand<s n="n"/><s n="ut"/></l>	<r>hand<s n="n"/></r></p><par n=":f/m"/></e>
-<e vr="nno"><p><l>hand<s n="n"/><s n="ut"/></l>	<r>hand<s n="n"/></r></p><par n="nt:f/m"/></e>
 <e vr="nob"><p><l>hand<s n="n"/><s n="ut"/></l>	<r>hånd<s n="n"/></r></p><par n=":f/m"/></e>
-<e vr="nob"><p><l>hand<s n="n"/><s n="ut"/></l>	<r>hånd<s n="n"/></r></p><par n="nt:f/m"/></e>
 <e>         <p><l>hand<s n="n"/><s n="ut"/></l>	<r>lanke<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>handboll<s n="n"/><s n="ut"/></l>	<r>handball<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>handboll<s n="n"/><s n="ut"/></l>	<r>håndball<s n="n"/><s n="m"/></r></p></e>
@@ -7157,7 +7144,7 @@
 <e>         <p><l>lasting<s n="n"/><s n="ut"/></l>	<r>lasting<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>lastning<s n="n"/><s n="ut"/></l>	<r>lasting<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>lastning<s n="n"/><s n="ut"/></l>	<r>lasting<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>lastpall<s n="n"/></l>	<r>pall<s n="n"/><s n="m"/></r></p></e>
+<e>         <p><l>lastpall<s n="n"/><s n="ut"/></l>	<r>pall<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>lateral<s n="n"/><s n="ut"/></l>	<r>lateral<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>latex<s n="n"/><s n="un"/></l>	<r>lateks<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>latin<s n="n"/><s n="nt"/></l>	<r>latin<s n="n"/><s n="m"/></r></p></e>
@@ -7192,7 +7179,8 @@
 <e vr="nno"><p><l>ledamot<s n="n"/><s n="ut"/></l>	<r>medlem<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>ledamot<s n="n"/><s n="ut"/></l>	<r>medlem<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>ledamot<s n="n"/><s n="ut"/></l>	<r>representant<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>ledare<s n="n"/><s n="ut"/></l>	<r>leder<s n="n"/><s n="m"/></r></p></e>
+<e vr="nno"><p><l>ledare<s n="n"/><s n="ut"/></l>	<r>leiar<s n="n"/><s n="m"/></r></p></e>
+<e vr="nob"><p><l>ledare<s n="n"/><s n="ut"/></l>	<r>leder<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>ledarskap<s n="n"/><s n="nt"/></l>	<r>ledelse<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>ledd<s n="n"/><s n="ut"/></l>	<r>led<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>ledd<s n="n"/><s n="ut"/></l>	<r>led<s n="n"/><s n="nt"/></r></p></e>
@@ -7234,8 +7222,7 @@
 <e>         <p><l>leopard<s n="n"/><s n="ut"/></l>	<r>leopard<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>lera<s n="n"/><s n="ut"/></l>	<r>leir<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>lera<s n="n"/><s n="ut"/></l>	<r>leir<s n="n"/><s n="nt"/></r></p></e>
-<e vr="nob"><p><l>lera<s n="n"/><s n="ut"/></l>	<r>leire<s n="n"/></r></p><par n=":f/m"/></e>
-<e>         <p><l>lera<s n="n"/><s n="ut"/></l>	<r>leire<s n="n"/><s n="m"/></r></p></e>
+<e>         <p><l>lera<s n="n"/><s n="ut"/></l>	<r>leire<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>lett<s n="n"/><s n="ut"/></l>	<r>lett<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>lett<s n="n"/><s n="ut"/></l>	<r>lette<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>leukemi<s n="n"/><s n="ut"/></l>	<r>leukemi<s n="n"/><s n="m"/></r></p></e>
@@ -7708,7 +7695,7 @@
 <e>         <p><l>malm<s n="n"/><s n="ut"/></l>	<r>malm<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>malm<s n="n"/><s n="ut"/></l>	<r>malme<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>malström<s n="n"/><s n="ut"/></l>	<r>malstrøm<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>mamma<s n="n"/></l>	<r>mamma<s n="n"/><s n="m"/></r></p></e>
+<e>         <p><l>mamma<s n="n"/><s n="ut"/></l>	<r>mamma<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>mamma<s n="n"/><s n="ut"/></l>	<r>mor<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>mammografi<s n="n"/><s n="ut"/></l>	<r>mammografi<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>mammut<s n="n"/><s n="ut"/></l>	<r>mammut<s n="n"/><s n="m"/></r></p></e>
@@ -8922,8 +8909,6 @@
 <e>         <p><l>palatsrevolution<s n="n"/><s n="ut"/></l>	<r>palassrevolusjon<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>palaver<s n="n"/><s n="ut"/></l>	<r>palaver<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>paleontologi<s n="n"/><s n="ut"/></l>	<r>paleontologi<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>pall<s n="n"/><s n="nt"/></l>	<r>pall<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>pall<s n="n"/><s n="un"/></l>	<r>pall<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>pall<s n="n"/><s n="ut"/></l>	<r>pall<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>palm<s n="n"/><s n="ut"/></l>	<r>palme<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>palmfett<s n="n"/><s n="nt"/></l>	<r>palmeolje<s n="n"/></r></p><par n=":f/m"/></e>
