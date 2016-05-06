@@ -1040,8 +1040,6 @@
 <e vr="nno"><p><l>anletsdrag<s n="n"/><s n="nt"/></l>	<r>andletstrekk<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>anletsdrag<s n="n"/><s n="nt"/></l>	<r>ansiktsdrag<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>anletsdrag<s n="n"/><s n="nt"/></l>	<r>ansiktstrekk<s n="n"/><s n="nt"/></r></p></e>
-<e vr="nno"><p><l>anlopp<s n="n"/><s n="nt"/></l>	<r>renne<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>anlopp<s n="n"/><s n="nt"/></l>	<r>rennefart<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>anlopp<s n="n"/><s n="nt"/></l>	<r>tilløp<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>anläggning<s n="n"/><s n="ut"/></l>	<r>anlegg<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>anläggning<s n="n"/><s n="ut"/></l>	<r>facilitet<s n="n"/><s n="m"/></r></p></e>
@@ -1057,8 +1055,6 @@
 <e>         <p><l>anorexi<s n="n"/><s n="ut"/></l>	<r>anoreksi<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>anrättning<s n="n"/><s n="ut"/></l>	<r>anretning<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>ansats<s n="n"/><s n="ut"/></l>	<r>ansats<s n="n"/><s n="m"/></r></p></e>
-<e vr="nno"><p><l>ansats<s n="n"/><s n="ut"/></l>	<r>renne<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>ansats<s n="n"/><s n="ut"/></l>	<r>rennefart<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>ansats<s n="n"/><s n="ut"/></l>	<r>tilløp<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nob"><p><l>anseende<s n="n"/><s n="nt"/></l>	<r>anseelse<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>anseende<s n="n"/><s n="nt"/></l>	<r>respekt<s n="n"/><s n="m"/></r></p></e>
@@ -1369,9 +1365,7 @@
 <e>         <p><l>avhandling<s n="n"/><s n="ut"/></l>	<r>avhandling<s n="n"/></r></p><par n=":f/m"/></e>
 <e vr="nob"><p><l>avhandling<s n="n"/><s n="ut"/></l>	<r>avhandling<s n="n"/></r></p><par n=":f/m"/></e>
 <e vr="nob"><p><l>avis<s n="n"/><s n="ut"/></l>	<r>avis<s n="n"/></r></p><par n=":f/m"/></e>
-<e>         <p><l>avkastning<s n="n"/><s n="ut"/></l>	<r>avkast<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>avkastning<s n="n"/><s n="ut"/></l>	<r>inntekt<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>avkastning<s n="n"/><s n="ut"/></l>	<r>utbytte<s n="n"/><s n="nt"/></r></p></e>
+<e>         <p><l>avkastning<s n="n"/><s n="ut"/></l>	<r>avkastning<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>avkomma<s n="n"/><s n="ut"/></l>	<r>avkom<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>avlopp<s n="n"/><s n="nt"/></l>	<r>avløp<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>avmarsch<s n="n"/><s n="ut"/></l>	<r>avmarsj<s n="n"/><s n="m"/></r></p></e>
@@ -5458,7 +5452,8 @@
 <e>         <p><l>indigo<s n="n"/><s n="ut"/></l>	<r>indigo<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>indikation<s n="n"/><s n="ut"/></l>	<r>indikasjon<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>indikator<s n="n"/><s n="ut"/></l>	<r>indikator<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>indikator<s n="n"/><s n="ut"/></l>	<r>viser<s n="n"/></r></p><par n=":f/m"/></e>
+<e vr="nno" r="RL"><p><l>indikator<s n="n"/><s n="ut"/></l>	<r>visar<s n="n"/><s n="m"/></r></p></e>
+<e vr="nob" r="RL"><p><l>indikator<s n="n"/><s n="ut"/></l>	<r>viser<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>individ<s n="n"/><s n="un"/></l>	<r>individ<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>individ<s n="n"/><s n="ut"/></l>	<r>individ<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>individualism<s n="n"/><s n="ut"/></l>	<r>individualisme<s n="n"/><s n="m"/></r></p></e>
@@ -5486,9 +5481,7 @@
 <e vr="nno"><p><l>inflytande<s n="n"/><s n="nt"/></l>	<r>innverknad<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>inflytande<s n="n"/><s n="nt"/></l>	<r>påverknad<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>inflytande<s n="n"/><s n="nt"/></l>	<r>påvirkning<s n="n"/></r></p><par n=":f/m"/></e>
-<e>         <p><l>inflyttning<s n="n"/><s n="ut"/></l>	<r>inflytting<s n="n"/></r></p><par n=":f/m"/></e>
-<e vr="nno"><p><l>inflöde<s n="n"/><s n="nt"/></l>	<r>renne<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>inflöde<s n="n"/><s n="nt"/></l>	<r>rennefart<s n="n"/><s n="m"/></r></p></e>
+<e>         <p><l>inflyttning<s n="n"/><s n="ut"/></l>	<r>innflytting<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>inflöde<s n="n"/><s n="nt"/></l>	<r>tilløp<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>informant<s n="n"/><s n="ut"/></l>	<r>informant<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>information<s n="n"/><s n="ut"/></l>	<r>informasjon<s n="n"/><s n="m"/></r></p></e>
@@ -5519,8 +5512,7 @@
 <e vr="nob"><p><l>inklination<s n="n"/><s n="ut"/></l>	<r>interesse<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>inkompetens<s n="n"/><s n="ut"/></l>	<r>inkompetanse<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>inkomst<s n="n"/><s n="ut"/></l>	<r>innkomst<s n="n"/><s n="m"/></r></p></e>
-<e vr="nob"><p><l>inkomst<s n="n"/><s n="ut"/></l>	<r>inntekt<s n="n"/></r></p><par n=":f/m"/></e>
-<e>         <p><l>inkomst<s n="n"/><s n="ut"/></l>	<r>inntekt<s n="n"/><s n="m"/></r></p></e>
+<e>         <p><l>inkomst<s n="n"/><s n="ut"/></l>	<r>inntekt<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>inkonsekvens<s n="n"/><s n="ut"/></l>	<r>inkonsekvens<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>inkråm<s n="n"/><s n="nt"/></l>	<r>innmat<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>inkråm<s n="n"/><s n="nt"/></l>	<r>morr<s n="n"/><s n="m"/></r></p></e>
@@ -5546,7 +5538,8 @@
 <e vr="nob"><p><l>innehavare<s n="n"/><s n="ut"/></l>	<r>innehaver<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>innehåll<s n="n"/><s n="nt"/></l>	<r>innhald<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nob"><p><l>innehåll<s n="n"/><s n="nt"/></l>	<r>innhold<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>innehållsförteckning<s n="n"/><s n="ut"/></l>	<r>innholdsfortegnelse<s n="n"/><s n="m"/></r></p></e>
+<e vr="nno"><p><l>innehållsförteckning<s n="n"/><s n="ut"/></l>	<r>innholdsliste<s n="n"/></r></p><par n=":f/m"/></e>
+<e vr="nob"><p><l>innehållsförteckning<s n="n"/><s n="ut"/></l>	<r>innholdsfortegnelse<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>innertak<s n="n"/><s n="nt"/></l>	<r>loft<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>innertak<s n="n"/><s n="nt"/></l>	<r>tak<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>innovation<s n="n"/><s n="ut"/></l>	<r>innovasjon<s n="n"/><s n="m"/></r></p></e>
@@ -5646,8 +5639,7 @@
 <e vr="nob"><p><l>intyg<s n="n"/><s n="nt"/></l>	<r>erklæring<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>intyg<s n="n"/><s n="nt"/></l>	<r>fråsegn<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>intyg<s n="n"/><s n="nt"/></l>	<r>sertifikat<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>intäkt<s n="n"/><s n="ut"/></l>	<r>inntekt<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>intäkt<s n="n"/><s n="ut"/></l>	<r>intrade<s n="n"/><s n="m"/></r></p></e>
+<e>         <p><l>intäkt<s n="n"/><s n="ut"/></l>	<r>inntekt<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>intåg<s n="n"/><s n="nt"/></l>	<r>inntog<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>inuit<s n="n"/><s n="ut"/></l>	<r>inuit<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>inuit<s n="n"/><s n="ut"/></l>	<r>inuitt<s n="n"/><s n="m"/></r></p></e>
@@ -7074,6 +7066,8 @@
 <e>         <p><l>lag<s n="n"/><s n="nt"/></l>	<r>lag<s n="n"/><s n="nt"/></r></p></e>
 <e r="RL">  <p><l>lag<s n="n"/><s n="ut"/></l>	<r>lake<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>lag<s n="n"/><s n="ut"/></l>	<r>lov<s n="n"/></r></p><par n=":f/m"/></e>
+<e>         <p><l>lov<s n="n"/><s n="nt"/></l>	<r>fri<s n="n"/></r></p><par n=":f/m"/></e>
+<e r="LR">  <p><l>lov<s n="n"/><s n="ut"/></l>	<r>lov<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>lager<s n="n"/><s n="nt"/></l>	<r>lager<s n="n"/><s n="nt"/></r></p></e>
 <e r="RL">  <p><l>lager<s n="n"/><s n="nt"/></l>	<r>sjikt<s n="n"/><s n="nt"/></r></p></e>
 <e r="RL">  <p><l>lager<s n="n"/><s n="ut"/></l>	<r>laurbær<s n="n"/><s n="nt"/></r></p></e>
@@ -7373,9 +7367,6 @@
 <e>         <p><l>lort<s n="n"/><s n="ut"/></l>	<r>lort<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>lotteri<s n="n"/><s n="nt"/></l>	<r>lotteri<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>lotus<s n="n"/><s n="ut"/></l>	<r>lotus<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>lov<s n="n"/><s n="nt"/></l>	<r>lov<s n="n"/></r></p><par n=":f/m"/></e>
-<e>         <p><l>lov<s n="n"/><s n="nt"/></l>	<r>lov<s n="n"/><s n="m"/></r></p><par n="sgpl:sp"/></e>
-<e>         <p><l>lov<s n="n"/><s n="ut"/></l>	<r>lov<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>love<s n="n"/><s n="ut"/></l>	<r>love<s n="n"/><s n="mf"/></r></p><par n="sgpl:sp"/></e>
 <e vr="nno"><p><l>love<s n="n"/><s n="ut"/></l>	<r>lóve<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>lovord<s n="n"/><s n="nt"/></l>	<r>lovord<s n="n"/><s n="nt"/></r></p></e>
@@ -7385,7 +7376,8 @@
 <e>         <p><l>luftdrag<s n="n"/><s n="nt"/></l>	<r>luftdrag<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>luftfart<s n="n"/><s n="ut"/></l>	<r>luftfart<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>luftfilter<s n="n"/><s n="nt"/></l>	<r>luftfilter<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>luftförorening<s n="n"/><s n="ut"/></l>	<r>luftforurensning<s n="n"/><s n="m"/></r></p></e>
+<e vr="nno"><p><l>luftförorening<s n="n"/><s n="ut"/></l>	<r>luftforureining<s n="n"/></r></p><par n=":f/m"/></e>
+<e vr="nob"><p><l>luftförorening<s n="n"/><s n="ut"/></l>	<r>luftforurensning<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>luftgevär<s n="n"/><s n="nt"/></l>	<r>luftgevær<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>lufthav<s n="n"/><s n="nt"/></l>	<r>atmosfære<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>luftmassa<s n="n"/><s n="ut"/></l>	<r>luftmasse<s n="n"/><s n="m"/></r></p></e>
@@ -7435,7 +7427,6 @@
 <e vr="nob"><p><l>lycka<s n="n"/><s n="ut"/></l>	<r>flaks<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>lycka<s n="n"/><s n="ut"/></l>	<r>hell<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nno"><p><l>lycka<s n="n"/><s n="ut"/></l>	<r>lukke<s n="n"/></r></p><par n=":f/m"/></e>
-<e vr="nno"><p><l>lycka<s n="n"/><s n="ut"/></l>	<r>lykke<s n="n"/></r></p><par n=":f/m"/></e>
 <e vr="nob"><p><l>lycka<s n="n"/><s n="ut"/></l>	<r>lykke<s n="n"/></r></p><par n=":f/m"/></e>
 <e vr="nno"><p><l>lyckohjul<s n="n"/><s n="nt"/></l>	<r>lukkehjul<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nob"><p><l>lyckohjul<s n="n"/><s n="nt"/></l>	<r>lykkehjul<s n="n"/><s n="nt"/></r></p></e>
@@ -7495,14 +7486,8 @@
 <e>         <p><l>län<s n="n"/><s n="nt"/></l>	<r>fylke<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>län<s n="n"/><s n="nt"/></l>	<r>len<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>ländkläde<s n="n"/><s n="nt"/></l>	<r>lendeklede<s n="n"/><s n="nt"/></r></p></e>
-<e vr="nno"><p><l>länga<s n="n"/><s n="ut"/></l>	<r>lenge<s n="n"/></r></p><par n=":f/m"/></e>
-<e vr="nob"><p><l>länga<s n="n"/><s n="ut"/></l>	<r>lenge<s n="n"/><s n="m"/></r></p></e>
-<e vr="nob"><p><l>länga<s n="n"/><s n="ut"/></l>	<r>lån<s n="n"/><s n="m"/></r></p></e>
-<e vr="nno"><p><l>länga<s n="n"/><s n="ut"/></l>	<r>lån<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nno"><p><l>längd<s n="n"/><s n="ut"/></l>	<r>lengd<s n="n"/></r></p><par n=":f/m"/></e>
-<e>         <p><l>längd<s n="n"/><s n="ut"/></l>	<r>lengde<s n="n"/></r></p><par n=":f/m"/></e>
-<e vr="nno"><p><l>längd<s n="n"/><s n="ut"/></l>	<r>lengde<s n="n"/></r></p><par n=":f/m"/></e>
-<e vr="nob"><p><l>längd<s n="n"/><s n="ut"/></l>	<r>lengde<s n="n"/><s n="mf"/></r></p><par n="sgpl:sp"/></e>
+<e vr="nob"><p><l>längd<s n="n"/><s n="ut"/></l>	<r>lengde<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>längdhopp<s n="n"/><s n="nt"/></l>	<r>lengdehopp<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>längdlöpning<s n="n"/><s n="ut"/></l>	<r>langrenn<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>längdmått<s n="n"/><s n="nt"/></l>	<r>lengdemål<s n="n"/><s n="nt"/></r></p></e>
@@ -7551,7 +7536,6 @@
 <e vr="nno"><p><l>låga<s n="n"/><s n="ut"/></l>	<r>flamme<s n="n"/></r></p><par n=":f/m"/></e>
 <e vr="nob"><p><l>låga<s n="n"/><s n="ut"/></l>	<r>flamme<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>lågadel<s n="n"/><s n="ut"/></l>	<r>lågadel<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>lån<s n="n"/><s n="nt"/></l>	<r>lån<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>lån<s n="n"/><s n="nt"/></l>	<r>lån<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>låneansökan<s n="n"/><s n="ut"/></l>	<r>lånesøknad<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>lånegaranti<s n="n"/><s n="ut"/></l>	<r>lånegaranti<s n="n"/><s n="m"/></r></p></e>
@@ -7609,7 +7593,7 @@
 <e>         <p><l>löpa<s n="n"/><s n="ut"/></l>	<r>spor<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nno"><p><l>löpare<s n="n"/><s n="ut"/></l>	<r>laupar<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>löpare<s n="n"/><s n="ut"/></l>	<r>løpar<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>löpare<s n="n"/><s n="ut"/></l>	<r>løper<s n="n"/><s n="m"/></r></p></e>
+<e vr="nob"><p><l>löpare<s n="n"/><s n="ut"/></l>	<r>løper<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>löpning<s n="n"/><s n="ut"/></l>	<r>løp<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nno"><p><l>lördag<s n="n"/><s n="ut"/></l>	<r>laurdag<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>lördag<s n="n"/><s n="ut"/></l>	<r>lørdag<s n="n"/><s n="m"/></r></p></e>
@@ -27378,5 +27362,6 @@ Local Variables:
 dix-vr-langs: ("nno" "nob")
 dix-rb-align-column: 55
 dix-pb-align-column: 12
+dimwiki-wikidomains: ("sv.wiktionary.org")
 End:
 -->
