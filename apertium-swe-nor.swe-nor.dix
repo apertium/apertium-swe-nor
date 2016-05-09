@@ -346,19 +346,34 @@
     <!--
         A colon (:) in pardef names separate the left from the right
     -->
-    <pardef n="adj_sint:/leg__adj">
+  <pardef n="adj_sint:/leg__adj">
 <e vr="nno"><p><l></l><r>leg</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l></l><r>lig</r></p><par n="adj_sint:adj"/></e>
-    </pardef>
+  </pardef>
 
-  <pardef n="det+prn_pos">
-<e>         <p><l><s n="prn"/><s n="pos"/></l>  <r><s n="prn"/><s n="pos"/></r></p></e>
-<e>         <p><l><s n="det"/><s n="pos"/></l>  <r><s n="det"/><s n="pos"/></r></p></e>
+  <pardef n="gen_nbr" c="TODO: GD?">
+<e r="RL">  <p><l><s n="ut"/><s n="sg"/></l>   <r><s n="f"/><s n="sg"/></r></p></e>
+<e vr="nno"><p><l><s n="ut"/><s n="sg"/></l>   <r><s n="m"/><s n="sg"/></r></p></e>
+<e vr="nob"><p><l><s n="ut"/><s n="sg"/></l>   <r><s n="mf"/><s n="sg"/></r></p></e>
+<e>         <p><l><s n="nt"/><s n="sg"/></l>   <r><s n="nt"/><s n="sg"/></r></p></e>
+<e>         <p><l><s n="un"/><s n="pl"/></l>   <r><s n="un"/><s n="pl"/></r></p></e>
   </pardef>
-  <pardef n="prn">
-<e>         <p><l><s n="prn"/></l>  <r><s n="prn"/></r></p></e>
+
+  <pardef n="prn_pers">
+<e>         <p><l><s n="prn"/><s n="pers"/></l>  <r><s n="prn"/><s n="pers"/></r></p><par n="gen_nbr"/></e>
   </pardef>
-    </pardefs>
+
+  <pardef n="det+prn_pos" c="TODO: GD? (nno)">
+<e>         <p><l><s n="prn"/><s n="pos"/></l>            <r><s n="prn"/><s n="pos"/></r></p></e>
+<e vr="nno"><p><l><s n="prn"/><s n="pos"/><s n="ut"/></l> <r><s n="prn"/><s n="pos"/><s n="f"/></r></p></e>
+<e vr="nno"><p><l><s n="prn"/><s n="pos"/><s n="ut"/></l> <r><s n="prn"/><s n="pos"/><s n="m"/></r></p></e>
+<e vr="nob"><p><l><s n="prn"/><s n="pos"/><s n="ut"/></l> <r><s n="prn"/><s n="pos"/><s n="mf"/></r></p></e>
+<e>         <p><l><s n="det"/><s n="pos"/></l>            <r><s n="det"/><s n="pos"/></r></p></e>
+<e vr="nno"><p><l><s n="det"/><s n="pos"/><s n="ut"/></l> <r><s n="det"/><s n="pos"/><s n="f"/></r></p></e>
+<e vr="nno"><p><l><s n="det"/><s n="pos"/><s n="ut"/></l> <r><s n="det"/><s n="pos"/><s n="m"/></r></p></e>
+<e vr="nob"><p><l><s n="det"/><s n="pos"/><s n="ut"/></l> <r><s n="det"/><s n="pos"/><s n="mf"/></r></p></e>
+  </pardef>
+</pardefs>
 
   <section id="main" type="standard">
 
@@ -562,76 +577,83 @@
 
     <!-- SECTION: Pronouns -->
 
-<e vr="nno"><p><l>jag</l>                                                <r>eg</r></p><par n="prn"/></e>
-<e vr="nob"><p><l>jag</l>                                                <r>jeg</r></p><par n="prn"/></e>
+<e vr="nno"><p><l>jag<s n="prn"/><s n="pers"/><s n="p1"/><s n="ut"/></l> <r>eg<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/></r></p></e>
+<e vr="nob"><p><l>jag<s n="prn"/><s n="pers"/><s n="p1"/><s n="ut"/></l> <r>jeg<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/></r></p></e>
 <e>         <p><l>min</l>                                                <r>min</r></p><par n="det+prn_pos"/></e>
-<e>         <p><l>du</l>                                                 <r>du</r></p><par n="prn"/></e>
+<e>         <p><l>du<s n="prn"/><s n="pers"/><s n="p2"/><s n="ut"/></l>  <r>du<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/></r></p></e>
 <e>         <p><l>din</l>                                                <r>din</r></p><par n="det+prn_pos"/></e>
-<e vr="nno"><p><l>hon</l>                                                <r>ho</r></p><par n="prn"/></e>
-<e vr="nob"><p><l>hon</l>                                                <r>hun</r></p><par n="prn"/></e>
+
+<e vr="nno"><p><l>hon<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/></l>  <r>ho<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/></r></p></e>
+<e vr="nob"><p><l>hon<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/></l>  <r>hun<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/></r></p></e>
 <e vr="nno"><p><l>hennes</l>                                             <r>hennar</r></p><par n="det+prn_pos"/></e>
 <e vr="nob"><p><l>hennes</l>                                             <r>hennes</r></p><par n="det+prn_pos"/></e>
-<e>         <p><l>han</l>                                                <r>han</r></p><par n="prn"/></e>
+<e>         <p><l>han<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/></l>  <r>han<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/></r></p></e>
 <e>         <p><l>hans</l>                                               <r>hans</r></p><par n="det+prn_pos"/></e>
 <e vr="nno" r="LR"><p><l>hen<s n="prn"/><s n="pers"/><s n="p3"/><s n="un"/></l> <r>ho<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/></r></p></e>
 <e vr="nob" r="LR"><p><l>hen<s n="prn"/><s n="pers"/><s n="p3"/><s n="un"/></l> <r>hun<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/></r></p></e>
 <e vr="nno" r="LR"><p><l>hens</l>                                               <r>hennar</r></p><par n="det+prn_pos"/></e>
 <e vr="nob" r="LR"><p><l>hens</l>                                               <r>hendes</r></p><par n="det+prn_pos"/></e>
-<e r="LR">  <p><l>hens</l>                                               <r>hans</r></p><par n="det+prn_pos"/></e>
-<e r="LR">  <p><l>hen<s n="prn"/><s n="pers"/><s n="p3"/><s n="un"/></l> <r>han<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/></r></p></e>
-<e>         <p><l>den</l>                                                <r>den</r></p><par n="prn"/></e>
+<!-- TODO: anaphoric ho/han -->
+<e vr="nno"><p><l>den<s n="prn"/><s n="pers"/><s n="p3"/><s n="ut"/></l> <r>han<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/></r></p></e>
+<e vr="nno"><p><l>den<s n="prn"/><s n="pers"/><s n="p3"/><s n="ut"/></l> <r>ho<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/></r></p></e>
+<e vr="nob"><p><l>den<s n="prn"/><s n="pers"/><s n="p3"/><s n="ut"/></l> <r>den<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/></r></p></e>
+<e>         <p><l>den<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/></l> <r>den<s n="prn"/><s n="pers"/><s n="p3"/><s n="nt"/></r></p></e>
 <e>         <p><l>dens</l>                                               <r>dens</r></p><par n="det+prn_pos"/></e>
 <e>         <p><l>dess</l>                                               <r>dets</r></p><par n="det+prn_pos"/></e>
 
-<e>         <p><l>vi</l>                                                 <r>vi</r></p><par n="prn"/></e>
-<e>         <p><l>vår</l>                                                <r>vår</r></p><par n="det+prn_pos"/></e>
-<e vr="nno"><p><l>ni</l>                                                 <r>de</r></p><par n="prn"/></e>
-<e vr="nob"><p><l>ni</l>                                                 <r>dere</r></p><par n="prn"/></e>
-<e vr="nno"><p><l>er</l>                                                 <r>dykkar</r></p><par n="det+prn_pos"/></e>
-<e vr="nob"><p><l>er</l>                                                 <r>deres</r></p><par n="det+prn_pos"/></e>
-<e vr="nno"><p><l>de</l>                                                 <r>dei</r></p><par n="prn"/></e>
-<e vr="nob"><p><l>de</l>                                                 <r>de</r></p><par n="prn"/></e>
+<e>         <p><l>vi<s n="prn"/><s n="pers"/><s n="p1"/></l>             <r>vi<s n="prn"/><s n="pers"/><s n="p1"/></r></p></e>
+<e>         <p><l>vår</l>                                              <r>vår</r></p><par n="det+prn_pos"/></e>
+<e vr="nob"><p><l>ni<s n="prn"/><s n="pers"/><s n="p2"/></l>              <r>dere<s n="prn"/><s n="pers"/><s n="p2"/></r></p></e>
+<e vr="nno"><p><l>ni<s n="prn"/><s n="pers"/><s n="p2"/></l>              <r>de<s n="prn"/><s n="pers"/><s n="p2"/></r></p></e>
+<e vr="nno"><p><l>er</l>                                              <r>dykkar</r></p><par n="det+prn_pos"/></e>
+<e vr="nob"><p><l>er</l>                                              <r>deres</r></p><par n="det+prn_pos"/></e>
+<e vr="nob"><p><l>de<s n="prn"/><s n="pers"/><s n="p3"/></l>             <r>de<s n="prn"/><s n="pers"/><s n="p3"/></r></p></e>
+<e vr="nno"><p><l>de<s n="prn"/><s n="pers"/><s n="p3"/></l>             <r>dei<s n="prn"/><s n="pers"/><s n="p3"/></r></p></e>
 <e vr="nno"><p><l>deras</l>                                              <r>deira</r></p><par n="det+prn_pos"/></e>
 <e vr="nob"><p><l>deras</l>                                              <r>deres</r></p><par n="det+prn_pos"/></e>
+<!-- formal TODO; needs different tags (not just lemma) from informal -->
+<!-- <e>         <p><l>De<s n="prn"/><s n="pers"/><s n="p2"/><s n="ut"/><s n="pl"/></l><r>De<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e> -->
 
-<e>         <p><l>sig</l>                                                <r>seg</r></p><par n="prn"/></e>
-<e>         <p><l>sin</l>                                                <r>sin</r></p><par n="det+prn_pos"/></e>
-<e vr="nob"><p><l>man</l>                                                <r>man</r></p><par n="prn"/></e>
-<e vr="nno"><p><l>man</l>                                                <r>ein</r></p><par n="prn"/></e>
-<e vr="nob"><p><l>ens</l>                                                <r>ens</r></p><par n="det+prn_pos"/></e>
-<e vr="nno"><p><l>ens</l>                                                <r>eins</r></p><par n="det+prn_pos"/></e>
+<e>       <p><l>sig<s n="prn"/><s n="ref"/></l>             <r>seg<s n="prn"/><s n="ref"/></r></p></e>
+<e>       <p><l>sin</l>                                     <r>sin</r></p><par n="det+prn_pos"/></e>
 
-<e vr="nno"><p><l>varandra</l>                                           <r>kvarandre</r></p><par n="prn"/></e>
-<e vr="nno"><p><l>varandras</l>                                          <r>kvarandres</r></p><par n="det+prn_pos"/></e>
-<e vr="nob"><p><l>varandra</l>                                           <r>hverandre</r></p><par n="prn"/></e>
-<e vr="nob"><p><l>varandras</l>                                          <r>hverandres</r></p><par n="det+prn_pos"/></e>
-<e r="LR" vr="nno"><p><l>varann</l>                                      <r>kvarandre</r></p><par n="prn"/></e>
-<e r="LR" vr="nno"><p><l>varanns</l>                                     <r>kvarandres</r></p><par n="det+prn_pos"/></e>
-<e r="LR" vr="nob"><p><l>varann</l>                                      <r>hverandre</r></p><par n="prn"/></e>
-<e r="LR" vr="nob"><p><l>varanns</l>                                     <r>hverandres</r></p><par n="det+prn_pos"/></e>
+<e vr="nob"><p><l>man<s n="prn"/><s n="pers"/></l>          <r>man<s n="prn"/><s n="pers"/></r></p></e>
+<e vr="nno"><p><l>man<s n="prn"/><s n="pers"/></l>          <r>ein<s n="prn"/><s n="pers"/></r></p></e>
+<e vr="nob"><p><l>ens</l>                                   <r>ens</r></p><par n="det+prn_pos"/></e>
+<e vr="nno"><p><l>ens</l>                                   <r>eins</r></p><par n="det+prn_pos"/></e>
 
-<e vr="nno"><p><l>allihop</l>                                            <r>alle<b/>saman</r></p><par n="prn"/></e>
-<e vr="nno"><p><l>allihops</l>                                           <r>alle<b/>samans</r></p><par n="det+prn_pos"/></e>
-<e vr="nno"><p><l>alltihop</l>                                           <r>alt<b/>saman</r></p><par n="prn"/></e>
-<e vr="nno"><p><l>alltihops</l>                                          <r>alt<b/>samans</r></p><par n="det+prn_pos"/></e>
-<e vr="nob"><p><l>allihop</l>                                            <r>alle<b/>sammen</r></p><par n="prn"/></e>
-<e vr="nob"><p><l>allihops</l>                                           <r>alle<b/>sammens</r></p><par n="det+prn_pos"/></e>
-<e vr="nob"><p><l>alltihop</l>                                           <r>alt<b/>sammen</r></p><par n="prn"/></e>
-<e vr="nob"><p><l>alltihops</l>                                          <r>alt<b/>sammens</r></p><par n="det+prn_pos"/></e>
-<e>         <p><l>allting</l>                                            <r>allting</r></p><par n="prn"/></e>
-<e>         <p><l>alltings</l>                                           <r>alltings</r></p><par n="det+prn_pos"/></e>
-<e>         <p><l>båda</l>                                               <r>begge</r></p><par n="prn"/></e>
-<e vr="nno"><p><l>båda</l>                                               <r>båe</r></p><par n="prn"/></e>
-<e>         <p><l>bådas</l>                                              <r>begges</r></p><par n="det+prn_pos"/></e>
-<e vr="nno"><p><l>bådas</l>                                              <r>båes</r></p><par n="det+prn_pos"/></e>
-<e vr="nob"><p><l>envar</l>                                              <r>enhver</r></p><par n="prn"/></e>
-<e vr="nob"><p><l>envars</l>                                             <r>enhvers</r></p><par n="det+prn_pos"/></e>
+<e vr="nno"><p><l>varandra<s n="prn"/><s n="res"/></l>      <r>kvarandre<s n="prn"/><s n="res"/></r></p></e>
+<e vr="nno"><p><l>varandras</l>                             <r>kvarandres</r></p><par n="det+prn_pos"/></e>
+<e vr="nob"><p><l>varandra<s n="prn"/><s n="res"/></l>      <r>hverandre<s n="prn"/><s n="res"/></r></p></e>
+<e vr="nob"><p><l>varandras</l>                             <r>hverandres</r></p><par n="det+prn_pos"/></e>
+<e r="LR" vr="nno"><p><l>varann<s n="prn"/><s n="res"/></l> <r>kvarandre<s n="prn"/><s n="res"/></r></p></e>
+<e r="LR" vr="nno"><p><l>varanns</l>                        <r>kvarandres</r></p><par n="det+prn_pos"/></e>
+<e r="LR" vr="nob"><p><l>varann<s n="prn"/><s n="res"/></l> <r>hverandre<s n="prn"/><s n="res"/></r></p></e>
+<e r="LR" vr="nob"><p><l>varanns</l>                        <r>hverandres</r></p><par n="det+prn_pos"/></e>
+
+<e vr="nno"><p><l>allihop<s n="prn"/><s n="def"/></l>       <r>alle<b/>saman<s n="prn"/><s n="def"/></r></p></e>
+<e vr="nno"><p><l>allihops</l>                              <r>alle<b/>samans</r></p><par n="det+prn_pos"/></e>
+<e vr="nno"><p><l>alltihop<s n="prn"/><s n="def"/></l>      <r>alt<b/>saman<s n="prn"/><s n="def"/></r></p></e>
+<e vr="nno"><p><l>alltihops</l>                             <r>alt<b/>samans</r></p><par n="det+prn_pos"/></e>
+<e vr="nob"><p><l>allihop<s n="prn"/><s n="def"/></l>       <r>alle<b/>sammen<s n="prn"/><s n="def"/></r></p></e>
+<e vr="nob"><p><l>allihops</l>                              <r>alle<b/>sammens</r></p><par n="det+prn_pos"/></e>
+<e vr="nob"><p><l>alltihop<s n="prn"/><s n="def"/></l>      <r>alt<b/>sammen<s n="prn"/><s n="def"/></r></p></e>
+<e vr="nob"><p><l>alltihops</l>                             <r>alt<b/>sammens</r></p><par n="det+prn_pos"/></e>
+<e>         <p><l>allting<s n="prn"/><s n="def"/></l>       <r>allting<s n="prn"/><s n="def"/></r></p></e>
+<e>         <p><l>alltings</l>                              <r>alltings</r></p><par n="det+prn_pos"/></e>
+<e>         <p><l>båda<s n="prn"/><s n="def"/></l>          <r>begge<s n="prn"/><s n="def"/></r></p></e>
+<e vr="nno"><p><l>båda<s n="prn"/><s n="def"/></l>          <r>båe<s n="prn"/><s n="def"/></r></p></e>
+<e>         <p><l>bådas</l>                                 <r>begges</r></p><par n="det+prn_pos"/></e>
+<e vr="nno"><p><l>bådas</l>                                 <r>båes</r></p><par n="det+prn_pos"/></e>
+<e vr="nno"><p><l>envar<s n="prn"/><s n="def"/></l>         <r>kvar<b/>og<b/>ein<s n="prn"/><s n="def"/></r></p></e>
+<e vr="nno"><p><l>envars</l>                                <r>kvar<b/>og<b/>ein<b/>sin</r></p><par n="det+prn_pos"/></e>
+<e vr="nob"><p><l>envar<s n="prn"/><s n="def"/></l>         <r>enhver<s n="prn"/><s n="def"/></r></p></e>
+<e vr="nob"><p><l>envars</l>                                <r>enhvers</r></p><par n="det+prn_pos"/></e>
 
 
-
-<e vr="nno"><p><l>var<s n="prn"/></l><r>kor<s n="prn"/></r></p></e>
-<e vr="nob"><p><l>var<s n="prn"/></l><r>hvor<s n="prn"/></r></p></e>
-<e vr="nob"><p><l>vart<s n="prn"/></l><r>hvorhen<s n="prn"/></r></p></e>
+<!-- <e vr="nno"><p><l>var<s n="prn"/></l><r>kor<s n="prn"/></r></p></e> -->
+<!-- <e vr="nob"><p><l>var<s n="prn"/></l><r>hvor<s n="prn"/></r></p></e> -->
+<!-- <e vr="nob"><p><l>vart<s n="prn"/></l><r>hvorhen<s n="prn"/></r></p></e> -->
 
 <e vr="nno"><p><l>vem<s n="prn"/><s n="itg"/><s n="ut"/></l><r>kven<s n="prn"/><s n="itg"/></r></p></e>
 <e vr="nno"><p><l>vem<s n="prn"/><s n="itg"/><s n="nt"/></l><r>kva<s n="prn"/><s n="itg"/></r></p></e>
@@ -6070,7 +6092,7 @@
 <e vr="nob"><p><l>kille<s n="n"/><s n="ut"/></l>	<r>guttunge<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>kille<s n="n"/><s n="ut"/></l>	<r>gutunge<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>kille<s n="n"/><s n="ut"/></l>	<r>ladd<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>kille<s n="n"/><s n="ut"/></l>	<r>pilt<s n="n"/><s n="m"/></r></p></e>
+<e r="RL">  <p><l>kille<s n="n"/><s n="ut"/></l>	<r>pilt<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>killing<s n="n"/><s n="ut"/></l>	<r>kattunge<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>killing<s n="n"/><s n="ut"/></l>	<r>killing<s n="n"/><s n="m"/></r></p></e>
 <e r="RL">  <p><l>kilo<s n="n"/><s n="nt"/></l>	<r>kilo<s n="n"/><s n="m"/></r></p></e>
@@ -9130,7 +9152,7 @@
 <e vr="nob"><p><l>pojke<s n="n"/><s n="ut"/></l>	<r>gutt<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>pojke<s n="n"/><s n="ut"/></l>	<r>guttunge<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>pojke<s n="n"/><s n="ut"/></l>	<r>gutunge<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>pojke<s n="n"/><s n="ut"/></l>	<r>pilt<s n="n"/><s n="m"/></r></p></e>
+<e r="RL">  <p><l>pojke<s n="n"/><s n="ut"/></l>	<r>pilt<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>pojkvasker<s n="n"/><s n="ut"/></l>	<r>purk<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>pokal<s n="n"/><s n="ut"/></l>	<r>pokal<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>poker<s n="n"/><s n="ut"/></l>	<r>poker<s n="n"/><s n="m"/></r></p></e>
