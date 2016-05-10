@@ -15324,7 +15324,7 @@
 
 <e vr="nno"><p><l>det<b/>vill<b/>säga<s n="adv"/></l><r>det<b/>vil<b/>seie<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>det<b/>vill<b/>säga<s n="adv"/></l><r>det<b/>vil<b/>si<s n="adv"/></r></p></e>
-<e>         <p><l>sakta<s n="adv"/></l><r>sakte<s n="adv"/></r></p></e>
+<e>         <p><l>sakta<s n="adv"/><s n="pst"/></l><r>sakte<s n="adv"/></r></p></e>
 
 <e><p><l>dags<s n="adv"/></l><r>på<b/>tide<s n="adv"/></r></p></e>
 <e><p><l>på<s n="adv"/></l><r>på<s n="adv"/></r></p></e>
@@ -22843,8 +22843,8 @@
 <e>         <p><l>tajma</l>	<r>time</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>tala</l>	<r>prate</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>tala</l>	<r>snakke</r></p><par n="vblex"/></e>
-<e r="LR" vr="nno"><p><l>tala<g><b/>om<b/>for</g></l>	<r>fortelje</r></p><par n="vblex"/></e>
-<e r="LR" vr="nob"><p><l>tala<g><b/>om<b/>for</g></l>	<r>fortelle</r></p><par n="vblex"/></e>
+<e r="LR" vr="nno"><p><l>tala<g><b/>om<b/>för</g></l>	<r>fortelje</r></p><par n="vblex"/></e>
+<e r="LR" vr="nob"><p><l>tala<g><b/>om<b/>för</g></l>	<r>fortelle</r></p><par n="vblex"/></e>
 <e>         <p><l>tampas</l>	<r>slå</r></p><par n="vblex"/></e>
 <e>         <p><l>tangera</l>	<r>tangere</r></p><par n="vblex"/></e>
 <e>         <p><l>tanka</l>	<r>tanke</r></p><par n="vblex"/></e>
