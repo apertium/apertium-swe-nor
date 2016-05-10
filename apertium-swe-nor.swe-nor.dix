@@ -650,31 +650,25 @@
 <e vr="nob"><p><l>envar<s n="prn"/><s n="def"/></l>         <r>enhver<s n="prn"/><s n="def"/></r></p></e>
 <e vr="nob"><p><l>envars</l>                                <r>enhvers</r></p><par n="det+prn_pos"/></e>
 
+<e vr="nob"><p><l>vad<s n="prn"/><s n="itg"/></l>   <r>hva<s n="prn"/><s n="itg"/></r></p></e>
+<e vr="nno"><p><l>vad<s n="prn"/><s n="itg"/></l>   <r>kva<s n="prn"/><s n="itg"/></r></p></e>
+<e vr="nob"><p><l>vem<s n="prn"/><s n="itg"/></l>   <r>hvem<s n="prn"/><s n="itg"/></r></p></e>
+<e vr="nno"><p><l>vem<s n="prn"/><s n="itg"/></l>   <r>kven<s n="prn"/><s n="itg"/></r></p></e>
 
-<!-- <e vr="nno"><p><l>var<s n="prn"/></l><r>kor<s n="prn"/></r></p></e> -->
-<!-- <e vr="nob"><p><l>var<s n="prn"/></l><r>hvor<s n="prn"/></r></p></e> -->
-<!-- <e vr="nob"><p><l>vart<s n="prn"/></l><r>hvorhen<s n="prn"/></r></p></e> -->
+<e><p><l>någonting<s n="prn"/></l>                  <r>ingenting<s n="prn"/></r></p></e>
+<e><p><l>ingenting<s n="prn"/></l>                  <r>ingenting<s n="prn"/></r></p></e>
+<e><p><l>någon<s n="prn"/></l>                      <r>noko<s n="prn"/></r></p></e>
+<e><p><l>nånting<s n="prn"/></l>                    <r>noko<s n="prn"/></r></p></e>
+<e><p><l>ingen<s n="prn"/></l>                      <r>ingen<s n="prn"/></r></p></e>
+<e vr="nob"><p><l>annan<s n="prn"/></l>             <r>annen<s n="prn"/></r></p></e>
+<e vr="nno"><p><l>annan<s n="prn"/></l>             <r>annan<s n="prn"/></r></p></e>
 
-<e vr="nno"><p><l>vem<s n="prn"/><s n="itg"/><s n="ut"/></l><r>kven<s n="prn"/><s n="itg"/></r></p></e>
-<e vr="nno"><p><l>vem<s n="prn"/><s n="itg"/><s n="nt"/></l><r>kva<s n="prn"/><s n="itg"/></r></p></e>
+<e><p><l>som<s n="prn"/></l>                        <r>som<s n="prn"/></r></p></e>
 
-<e><p><l>någonting<s n="prn"/></l><r>ingenting<s n="prn"/></r></p></e>
-<e><p><l>ingenting<s n="prn"/></l><r>ingenting<s n="prn"/></r></p></e>
-<e><p><l>någon<s n="prn"/></l><r>noko<s n="prn"/></r></p></e>
-<e><p><l>nånting<s n="prn"/></l><r>noko<s n="prn"/></r></p></e>
-<e><p><l>ingen<s n="prn"/></l><r>ingen<s n="prn"/></r></p></e>
-<e vr="nob"><p><l>annan<s n="prn"/></l><r>annen<s n="prn"/></r></p></e>
-<e vr="nno"><p><l>annan<s n="prn"/></l><r>annan<s n="prn"/></r></p></e>
-
-<e><p><l>sig<s n="prn"/><s n="ref"/><s n="p3"/><s n="un"/><s n="sp"/></l><r>seg<s n="prn"/><s n="ref"/><s n="p3"/><s n="sg"/></r></p></e>
-<e><p><l>sig<s n="prn"/><s n="ref"/><s n="p3"/><s n="un"/><s n="sp"/></l><r>seg<s n="prn"/><s n="ref"/><s n="p3"/><s n="pl"/></r></p></e>
-
-<e><p><l>som<s n="prn"/></l><r>som<s n="prn"/></r></p></e>
-
-<e vr="nob"><p><l>båda<s n="prn"/><s n="def"/><s n="un"/></l><r>både<s n="prn"/><s n="qnt"/></r></p></e>
-<e vr="nno"><p><l>båda<s n="prn"/><s n="def"/><s n="un"/></l><r>begge<s n="det"/><s n="qnt"/></r></p></e>
-<e vr="nob"><p><l>bägge<s n="prn"/><s n="def"/><s n="un"/></l><r>både<s n="prn"/><s n="qnt"/></r></p></e>
-<e vr="nno"><p><l>bägge<s n="prn"/><s n="def"/><s n="un"/></l><r>begge<s n="det"/><s n="qnt"/></r></p></e>
+<e vr="nob"><p><l>båda<s n="prn"/><s n="def"/></l>  <r>både<s n="prn"/><s n="qnt"/></r></p></e>
+<e vr="nno"><p><l>båda<s n="prn"/><s n="def"/></l>  <r>begge<s n="det"/><s n="qnt"/></r></p></e>
+<e vr="nob"><p><l>bägge<s n="prn"/><s n="def"/></l> <r>både<s n="prn"/><s n="qnt"/></r></p></e>
+<e vr="nno"><p><l>bägge<s n="prn"/><s n="def"/></l> <r>begge<s n="det"/><s n="qnt"/></r></p></e>
 
 
     <!-- HIC·SUNT·DRACONES. -->
@@ -702,80 +696,55 @@
 <e vr="nob"><p><l>hen<s n="prn"/><s n="pers"/><s n="p3"/><s n="un"/></l>	<r>hun<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/></r></p></e>
 <e vr="nno"><p><l>hen<s n="prn"/><s n="pers"/><s n="p3"/><s n="un"/></l>	<r>ho<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/></r></p></e>
 <e vr="nob"><p><l>mandrom<s n="prn"/><s n="pers"/><s n="p3"/></l>	<r>man<s n="prn"/><s n="sg"/></r></p></e>
-<e vr="nob"><p><l>mandrom<s n="prn"/><s n="pers"/><s n="p3"/></l>	<r>en<s n="prn"/><s n="sg"/></r></p></e>
 <e vr="nno"><p><l>mandrom<s n="prn"/><s n="pers"/><s n="p3"/></l>	<r>ein<s n="prn"/><s n="sg"/></r></p></e>
-<e vr="nob"><p><l>vad<s n="prn"/><s n="itg"/></l>	<r>hva<s n="prn"/><s n="itg"/></r></p></e>
-<e vr="nno"><p><l>vad<s n="prn"/><s n="itg"/></l>	<r>kva<s n="prn"/><s n="itg"/></r></p></e>
-<e vr="nob"><p><l>vem<s n="prn"/><s n="itg"/></l>	<r>hvem<s n="prn"/><s n="itg"/></r></p></e>
-<e vr="nno"><p><l>vem<s n="prn"/><s n="itg"/></l>	<r>kven<s n="prn"/><s n="itg"/></r></p></e>
 <e>         <p><l>denna<s n="prn"/><s n="dem"/></l>	<r>denne<s n="prn"/><s n="dem"/></r></p></e>
 <e>         <p><l>detta<s n="prn"/></l>	<r>denne<s n="prn"/><s n="dem"/></r></p></e>
 <e>         <p><l>hen<s n="prn"/><s n="pers"/><s n="p3"/><s n="un"/></l>	<r>han<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/></r></p></e>
 
-<!-- Crossed via dan: -->
-<e>         <p><l>den<s n="det"/><s n="dem"/></l>	<r>den<s n="det"/><s n="dem"/></r></p></e>
-<e>         <p><l>någon<s n="det"/></l>	<r>somme<s n="det"/><s n="qnt"/></r></p></e>
-<e vr="nob"><p><l>någon<s n="det"/></l>	<r>noe<s n="det"/><s n="qnt"/></r></p></e>
-<e>         <p><l>ingen<s n="det"/></l>	<r>ingen<s n="det"/><s n="qnt"/></r></p></e>
-<e vr="nob"><p><l>en<s n="det"/><s n="ind"/></l>	<r>en<s n="det"/><s n="qnt"/></r></p></e>
-<e vr="nob"><p><l>en<s n="det"/><s n="ind"/></l>	<r>én<s n="det"/><s n="qnt"/></r></p></e>
-<e vr="nno"><p><l>en<s n="det"/><s n="ind"/></l>	<r>ein<s n="det"/><s n="qnt"/></r></p></e>
-<e vr="nno"><p><l>en<s n="det"/><s n="ind"/></l>	<r>éin<s n="det"/><s n="qnt"/></r></p></e>
-<e vr="nno"><p><l>någon<s n="det"/></l>	<r>noko<s n="det"/><s n="qnt"/></r></p></e>
-<e vr="nno"><p><l>varje<s n="det"/><s n="ind"/></l>	<r>kvar<s n="det"/><s n="qnt"/></r></p></e>
-<e vr="nob"><p><l>varje<s n="det"/><s n="ind"/></l>	<r>hver<s n="det"/><s n="qnt"/></r></p></e>
-
     <!-- SECTION: Determiners -->
 
-<e><p><l>denna<s n="det"/></l><r>denne<s n="det"/><s n="dem"/></r></p></e>
+<e>         <p><l>den<s n="det"/><s n="dem"/></l>       <r>den<s n="det"/><s n="dem"/></r></p><par n="gen_nbr"/></e>
+<e>         <p><l>denna<s n="det"/></l>                 <r>denne<s n="det"/><s n="dem"/></r></p><par n="gen_nbr"/></e>
+<e>         <p><l>sådan<s n="det"/><s n="dem"/></l>     <r>slik<s n="det"/><s n="dem"/></r></p><par n="gen_nbr"/></e>
 
-<e><p><l>sådan<s n="det"/><s n="dem"/></l><r>slik<s n="det"/><s n="dem"/></r></p></e>
+<e vr="nob"><p><l>en<s n="det"/><s n="ind"/></l>        <r>en<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
+<e r="RL" vr="nob"><p><l>en<s n="det"/><s n="ind"/></l> <r>én<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
+<e vr="nno"><p><l>en<s n="det"/><s n="ind"/></l>        <r>ein<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
+<e r="RL" vr="nno"><p><l>en<s n="det"/><s n="ind"/></l> <r>éin<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
 
-<e><p><l>den<s n="det"/><s n="def"/><s n="ut"/></l><r>den<s n="det"/><s n="dem"/><s n="m"/></r></p></e>
-<e><p><l>den<s n="det"/><s n="def"/><s n="nt"/></l><r>den<s n="det"/><s n="dem"/><s n="nt"/></r></p></e>
+<e>         <p><l>någon<s n="det"/><s n="qnt"/></l>     <r>ingen<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
+<e>         <p><l>någon<s n="det"/></l>                 <r>somme<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
+<e vr="nob"><p><l>någon<s n="det"/></l>                 <r>noe<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
+<e>         <p><l>ingen<s n="det"/></l>                 <r>ingen<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
+<e vr="nno"><p><l>någon<s n="det"/></l>                 <r>noko<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
+<e vr="nno"><p><l>varje<s n="det"/><s n="ind"/></l>     <r>kvar<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
+<e vr="nob"><p><l>varje<s n="det"/><s n="ind"/></l>     <r>hver<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
 
-<e vr="nob"><p><l>en<s n="det"/><s n="ind"/><s n="nt"/></l><r>en<s n="det"/><s n="qnt"/><s n="nt"/></r></p></e>
-<e vr="nob"><p><l>en<s n="det"/><s n="ind"/><s n="ut"/></l><r>en<s n="det"/><s n="qnt"/><s n="m"/></r></p></e>
+<e vr="nno"><p><l>annan<s n="det"/></l>                 <r>annen<s n="det"/></r></p></e>
+<e vr="nno"><p><l>annan<s n="det"/></l>                 <r>annan<s n="det"/></r></p></e>
 
-    <!-- ei, GD -->
-<e vr="nno"><p><l>en<s n="det"/><s n="ind"/><s n="nt"/></l><r>ein<s n="det"/><s n="qnt"/><s n="nt"/></r></p></e>
-<e><p><l>en<s n="det"/><s n="ind"/><s n="ut"/></l><r>ein<s n="det"/><s n="qnt"/><s n="m"/></r></p></e>
+<e>         <p><l>all<s n="det"/><s n="qnt"/></l>       <r>all<s n="det"/><s n="qnt"/></r></p></e>
+<e>         <p><l>många<s n="det"/><s n="qnt"/></l>     <r>mange<s n="det"/><s n="qnt"/></r></p></e>
 
-<e><p><l>någon<s n="det"/><s n="qnt"/><s n="un"/></l><r>ingen<s n="det"/><s n="qnt"/></r></p></e>
+    <!-- SECTION: Numerals and ordinals -->
 
-<e vr="nno"><p><l>annan<s n="det"/></l><r>annen<s n="det"/></r></p></e>
-<e vr="nno"><p><l>annan<s n="det"/></l><r>annan<s n="det"/></r></p></e>
+<e vr="nob"><p><l>en<s n="num"/></l><r>en<s n="det"/><s n="qnt"/></r></p></e>
+<e vr="nno"><p><l>en<s n="num"/></l><r>ein<s n="det"/><s n="qnt"/></r></p></e>
+<e><p><l>två<s n="num"/></l><r>to<s n="det"/><s n="qnt"/></r></p></e>
+<e><p><l>tre<s n="num"/></l><r>tre<s n="det"/><s n="qnt"/></r></p></e>
+<e><p><l>fyra<s n="num"/></l><r>fire<s n="det"/><s n="qnt"/></r></p></e>
+<e><p><l>fem<s n="num"/></l><r>fem<s n="det"/><s n="qnt"/></r></p></e>
+<e><p><l>sex<s n="num"/></l><r>seks<s n="det"/><s n="qnt"/></r></p></e>
+<e><p><l>sju<s n="num"/></l><r>sju<s n="det"/><s n="qnt"/></r></p></e>
+<e><p><l>åtta<s n="num"/></l><r>åtte<s n="det"/><s n="qnt"/></r></p></e>
+<e><p><l>nio<s n="num"/></l><r>ni<s n="det"/><s n="qnt"/></r></p></e>
+<e><p><l>tio<s n="num"/></l><r>ti<s n="det"/><s n="qnt"/></r></p></e>
 
-<e><p><l>all<s n="prn"/></l><r>all<s n="det"/><s n="qnt"/></r></p></e>
+<e><p><l>tusen<s n="num"/></l><r>tusen<s n="num"/></r></p></e>
+<e><p><l>mil<s n="num"/></l><r>mil<s n="num"/></r></p></e>
 
-<e><p><l>min<s n="det"/></l><r>min<s n="det"/></r></p></e>
-<e><p><l>din<s n="det"/></l><r>din<s n="det"/></r></p></e>
-
-<e vr="nob"><p><l>min<s n="det"/><s n="pos"/><s n="ut"/></l><r>jeg<s n="det"/><s n="pos"/><s n="m"/></r></p></e>
-<e vr="nob"><p><l>min<s n="det"/><s n="pos"/><s n="nt"/></l><r>jeg<s n="det"/><s n="pos"/><s n="nt"/></r></p></e>
-<e vr="nob"><p><l>min<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l><r>jeg<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
-
-<e vr="nno"><p><l>min<s n="det"/><s n="pos"/><s n="ut"/></l><r>eg<s n="det"/><s n="pos"/><s n="m"/></r></p></e>
-<e vr="nno"><p><l>min<s n="det"/><s n="pos"/><s n="nt"/></l><r>eg<s n="det"/><s n="pos"/><s n="nt"/></r></p></e>
-<e vr="nno"><p><l>min<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l><r>eg<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
-
-<e><p><l>din<s n="det"/><s n="pos"/><s n="ut"/></l><r>du<s n="det"/><s n="pos"/><s n="m"/></r></p></e>
-<e><p><l>din<s n="det"/><s n="pos"/><s n="nt"/></l><r>du<s n="det"/><s n="pos"/><s n="nt"/></r></p></e>
-<e><p><l>din<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l><r>du<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
-
-<e><p><l>vår<s n="det"/><s n="pos"/><s n="ut"/></l><r>vi<s n="det"/><s n="pos"/><s n="m"/></r></p></e>
-<e><p><l>vår<s n="det"/><s n="pos"/><s n="nt"/></l><r>vi<s n="det"/><s n="pos"/><s n="nt"/></r></p></e>
-<e><p><l>vår<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l><r>vi<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
-
-<e><p><l>sin<s n="det"/><s n="pos"/><s n="ut"/></l><r>seg<s n="det"/><s n="pos"/><s n="m"/></r></p></e>
-<e><p><l>sin<s n="det"/><s n="pos"/><s n="nt"/></l><r>seg<s n="det"/><s n="pos"/><s n="nt"/></r></p></e>
-<e><p><l>sin<s n="det"/><s n="pos"/><s n="un"/><s n="pl"/></l><r>seg<s n="det"/><s n="pos"/><s n="pl"/></r></p></e>
-
-<e><p><l>många<s n="det"/><s n="qnt"/><s n="un"/></l><r>mange<s n="det"/><s n="qnt"/></r></p></e>
-
-<e vr="nob"><p><l>varje<s n="det"/></l><r>hver<s n="det"/></r></p></e>
-<e vr="nno"><p><l>varje<s n="det"/><s n="ind"/><s n="un"/></l><r>kvar<s n="det"/><s n="qnt"/><s n="f"/></r></p></e>
-<e vr="nno"><p><l>varje<s n="det"/><s n="ind"/><s n="un"/></l><r>kvar<s n="det"/><s n="qnt"/><s n="m"/></r></p></e>
+<!-- TODO: add numerals like these in nor? -->
+<!-- <e><p><l>tusentals<s n="num"/></l><r>tusental<s n="n"/><s n="nt"/></r></p></e> -->
 
 <e>         <p><l>första</l>     <r>første</r></p><par n="adj_ord-1"/></e>
 <e>         <p><l>andra</l>      <r>andre</r></p><par n="adj_ord"/></e>
@@ -818,26 +787,6 @@
 <e vr="nob"><p><l>tusende</l>    <r>tusende</r></p><par n="adj_ord"/></e>
 <e vr="nno"><p><l>åttonde</l>    <r>åttande</r></p><par n="adj_ord"/></e>
 <e vr="nob"><p><l>åttonde</l>    <r>åttende</r></p><par n="adj_ord"/></e>
-
-    <!-- SECTION: Numerals -->
-
-<e vr="nob"><p><l>en<s n="num"/></l><r>en<s n="det"/><s n="qnt"/></r></p></e>
-<e vr="nno"><p><l>en<s n="num"/></l><r>ein<s n="det"/><s n="qnt"/></r></p></e>
-<e><p><l>två<s n="num"/></l><r>to<s n="det"/><s n="qnt"/></r></p><par n="gen:"/></e>
-<e><p><l>tre<s n="num"/></l><r>tre<s n="det"/><s n="qnt"/></r></p><par n="gen:"/></e>
-<e><p><l>fyra<s n="num"/></l><r>fire<s n="det"/><s n="qnt"/></r></p><par n="gen:"/></e>
-<e><p><l>fem<s n="num"/></l><r>fem<s n="det"/><s n="qnt"/></r></p><par n="gen:"/></e>
-<e><p><l>sex<s n="num"/></l><r>seks<s n="det"/><s n="qnt"/></r></p><par n="gen:"/></e>
-<e><p><l>sju<s n="num"/></l><r>sju<s n="det"/><s n="qnt"/></r></p><par n="gen:"/></e>
-<e><p><l>åtta<s n="num"/></l><r>åtte<s n="det"/><s n="qnt"/></r></p><par n="gen:"/></e>
-<e><p><l>nio<s n="num"/></l><r>ni<s n="det"/><s n="qnt"/></r></p><par n="gen:"/></e>
-<e><p><l>tio<s n="num"/></l><r>ti<s n="det"/><s n="qnt"/></r></p><par n="gen:"/></e>
-
-<e><p><l>tusen<s n="num"/></l><r>tusen<s n="num"/></r></p><par n="gen:"/></e>
-<e><p><l>mil<s n="num"/></l><r>mil<s n="num"/></r></p><par n="gen:"/></e>
-
-<!-- TODO: add numerals like these in nor? -->
-<!-- <e><p><l>tusentals<s n="num"/></l><r>tusental<s n="n"/><s n="nt"/></r></p></e> -->
 
     <!-- SECTION: Nouns  -->
 
@@ -17763,8 +17712,6 @@
 <e>         <p><l>germanisera</l>	<r>germanisere</r></p><par n="vblex"/></e>
 <e>         <p><l>gestikulera</l>	<r>gestikulere</r></p><par n="vblex"/></e>
 <e>         <p><l>gifta</l>	<r>gifte</r></p><par n="vblex"/></e>
-<e>         <p><l>gilla</l>	<r>li</r></p><par n="vblex"/></e>
-<e>         <p><l>gilla</l>	<r>lide</r></p><par n="vblex"/></e>
 <e>         <p><l>gilla</l>	<r>like</r></p><par n="vblex"/></e>
 <e>         <p><l>gillas</l>	<r>gjelde</r></p><par n="vblex"/></e>
 <e>         <p><l>gipsa</l>	<r>gipse</r></p><par n="vblex"/></e>
@@ -22264,8 +22211,9 @@
 <e vr="nno"><p><l>tycka</l>	<r>synast</r></p><par n="vblex:pstv"/></e>
 <e vr="nob"><p><l>tycka</l>	<r>synes</r></p><par n="vblex:pstv"/></e>
 <e vr="nno"><p><l>tycka</l>	<r>tykkjast</r></p><par n="vblex:pstv"/></e>
-<e>         <p><l>tycka<b/>om</l>	<r>li</r></p><par n="vblex"/></e>
-<e>         <p><l>tycka<b/>om</l>	<r>lide</r></p><par n="vblex"/></e>
+<e>         <p><l>tycka<b/>om</l>	<r>like</r></p><par n="vblex"/></e>
+<e vr="nno"><p><l>tycka<b/>om</l>	<r>vere<g><b/>glad<b/>i</g></r></p><par n="vblex"/></e>
+<e vr="nob"><p><l>tycka<b/>om</l>	<r>være<g><b/>glad<b/>i</g></r></p><par n="vblex"/></e>
 <e>         <p><l>tyda</l>	<r>tyde</r></p><par n="vblex"/></e>
 <e>         <p><l>tyda</l>	<r>tyte</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>tydliggöra</l>	<r>klargjere</r></p><par n="vblex"/></e>
