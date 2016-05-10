@@ -40,6 +40,7 @@ t/pending-tests -text
 t/regression-tests -text
 t/update-latest -text
 t/wiki-tests -text
+texts/story.nno.txt -text
 texts/story.nob.txt -text
 texts/story.swe.txt -text
 texts/trädbank.swe.txt -text
