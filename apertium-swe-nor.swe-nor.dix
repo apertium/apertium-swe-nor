@@ -12105,8 +12105,6 @@
 <e>         <p><l>träsk<s n="n"/><s n="nt"/></l>	<r>marsk<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>tråd<s n="n"/><s n="ut"/></l>	<r>hyssing<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>tråd<s n="n"/><s n="ut"/></l>	<r>tråd<s n="n"/><s n="m"/></r></p></e>
-<e vr="nno"><p><l>tråg<s n="n"/><s n="nt"/></l>	<r>no<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>tråg<s n="n"/><s n="nt"/></l>	<r>nu<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>tröja<s n="n"/><s n="ut"/></l>	<r>genser<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>tröja<s n="n"/><s n="ut"/></l>	<r>trøye<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>tröskel<s n="n"/><s n="ut"/></l>	<r>terskel<s n="n"/><s n="m"/></r></p></e>
@@ -15584,8 +15582,8 @@
 <e vr="nob"><p><l>hemma<s n="adv"/></l>	<r>hjemme<s n="adv"/></r></p></e>
 <e>         <p><l>hit<s n="adv"/></l>	<r>her<s n="adv"/></r></p></e>
 <e>         <p><l>hit<s n="adv"/></l>	<r>hit<s n="adv"/></r></p></e>
-<e vr="nno"><p><l>hittills<s n="adv"/></l>	<r>til<b/>no<s n="adv"/></r></p></e>
-<e vr="nob"><p><l>hittills<s n="adv"/></l>	<r>til<b/>nu<s n="adv"/></r></p></e>
+<e>         <p><l>hittills<s n="adv"/></l>	<r>til<b/>no<s n="adv"/></r></p></e>
+<e r="RL">  <p><l>hittills<s n="adv"/></l>	<r>til<b/>nu<s n="adv"/></r></p></e>
 <e>         <p><l>hoppeligen<s n="adv"/></l>	<r>forhåpentleg<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>hoppeligen<s n="adv"/></l>	<r>forhåpentlig<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>hoppeligen<s n="adv"/></l>	<r>vonleg<s n="adv"/></r></p></e>
@@ -15948,10 +15946,10 @@
 <e>         <p><l>nog<s n="adv"/></l>	<r>nok<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>nog<s n="adv"/></l>	<r>noksom<s n="adv"/></r></p></e>
 <e>         <p><l>nonstop<s n="adv"/></l>	<r>nonstop<s n="adv"/></r></p></e>
-<e>         <p><l>nu<s n="adv"/></l>	<r>dann<s n="adv"/></r></p></e>
-<e vr="nno"><p><l>nu<s n="adv"/></l>	<r>dessa<s n="adv"/></r></p></e>
+<e r="RL">  <p><l>nu<s n="adv"/></l>	<r>dann<s n="adv"/></r></p></e>
+<e r="RL">  <p><l>nu<s n="adv"/></l>	<r>dessa<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>nu<s n="adv"/></l>	<r>no<s n="adv"/></r></p></e>
-<e vr="nob"><p><l>nu<s n="adv"/></l>	<r>nu<s n="adv"/></r></p></e>
+<e r="RL">  <p><l>nu<s n="adv"/></l>	<r>nu<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>nu<s n="adv"/></l>	<r>nå<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>nämligen<s n="adv"/></l>	<r>nemleg<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>nämligen<s n="adv"/></l>	<r>nemlig<s n="adv"/></r></p></e>
@@ -20265,20 +20263,20 @@
 <e>         <p><l>lykta</l>	<r>slutte</r></p><par n="vblex"/></e>
 <e>         <p><l>lykta</l>	<r>tryte</r></p><par n="vblex"/></e>
 <e>         <p><l>lyncha</l>	<r>lynsje</r></p><par n="vblex"/></e>
-<e vr="nno"><p><l>lysa</l>	<r>dæme</r></p><par n="vblex"/></e>
-<e vr="nno"><p><l>lysa</l>	<r>gisle</r></p><par n="vblex"/></e>
-<e>         <p><l>lysa</l>	<r>glise</r></p><par n="vblex"/></e>
+<e r="RL">  <p><l>lysa</l>	<r>dæme</r></p><par n="vblex"/></e>
+<e r="RL">  <p><l>lysa</l>	<r>gisle</r></p><par n="vblex"/></e>
+<e r="RL">  <p><l>lysa</l>	<r>glise</r></p><par n="vblex"/></e>
 <e>         <p><l>lysa</l>	<r>lysne</r></p><par n="vblex"/></e>
-<e>         <p><l>lysa</l>	<r>skeine</r></p><par n="vblex"/></e>
+<e r="RL">  <p><l>lysa</l>	<r>skeine</r></p><par n="vblex"/></e>
 <e>         <p><l>lysa</l>	<r>skinne</r></p><par n="vblex"/></e>
-<e vr="nno"><p><l>lysa</l>	<r>tire</r></p><par n="vblex"/></e>
-<e>         <p><l>lyssna</l>	<r>lye</r></p><par n="vblex"/></e>
+<e r="RL">  <p><l>lysa</l>	<r>tire</r></p><par n="vblex"/></e>
+<e r="RL">  <p><l>lyssna</l>	<r>lye</r></p><par n="vblex"/></e>
 <e>         <p><l>lyssna</l>	<r>lytte</r></p><par n="vblex"/></e>
 <e>         <p><l>lyssna</l>	<r>lytte<g><b/>etter</g></r></p><par n="vblex"/></e>
 <e>         <p><l>lystra</l>	<r>lystre</r></p><par n="vblex"/></e>
 <e>         <p><l>läcka</l>	<r>lekke</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>lägga</l>	<r>legge</r></p><par n="vblex"/></e>
-<e>         <p><l>lägga</l>	<r>leggje</r></p><par n="vblex"/></e>
+<e vr="nno"><p><l>lägga</l>	<r>leggje</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>lägga<g><b/>på</g></l>	<r>auke</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>lägga<g><b/>på</g></l>	<r>forhøgje</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>lägga<g><b/>på</g></l>	<r>forhøye</r></p><par n="vblex"/></e>
@@ -22763,10 +22761,8 @@
 <e vr="nob"><p><l>syssla<g><b/>med</g></l>	<r>holde<g><b/>på<b/>med</g></r></p><par n="vblex"/></e>
 <e>         <p><l>syssla<g><b/>med</g></l>	<r>sysle<g><b/>med</g></r></p><par n="vblex"/></e>
 <e>         <p><l>systematisera</l>	<r>systematisere</r></p><par n="vblex"/></e>
-<e vr="nob"><p><l>säga</l>	<r>se</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>säga</l>	<r>seie</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>säga</l>	<r>si</r></p><par n="vblex"/></e>
-<e>         <p><l>säga</l>	<r>sige</r></p><par n="vblex"/></e>
 <e>         <p><l>säkerställa</l>	<r>forsikre</r></p><par n="vblex"/></e>
 <e>         <p><l>säkerställa</l>	<r>sikre</r></p><par n="vblex"/></e>
 <e>         <p><l>säkra</l>	<r>sikre</r></p><par n="vblex"/></e>
@@ -22909,8 +22905,8 @@
 <e vr="nob"><p><l>tillfalla</l>	<r>tilfalle</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>tillfoga</l>	<r>leggje<g><b/>til</g></r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>tillfoga</l>	<r>legge<g><b/>til</g></r></p><par n="vblex"/></e>
-<e>         <p><l>tillfredsställa</l>	<r>satisfisere</r></p><par n="vblex"/></e>
-<e>         <p><l>tillfredsställa</l>	<r>stette</r></p><par n="vblex"/></e>
+<e r="RL">  <p><l>tillfredsställa</l>	<r>satisfisere</r></p><par n="vblex"/></e>
+<e r="RL">  <p><l>tillfredsställa</l>	<r>stette</r></p><par n="vblex"/></e>
 <e>         <p><l>tillfredsställa</l>	<r>tilfredsstille</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>tillfråga</l>	<r>spørje</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>tillfråga</l>	<r>spørre</r></p><par n="vblex"/></e>
