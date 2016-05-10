@@ -4031,7 +4031,8 @@
 <e>         <p><l>föremål<s n="n"/><s n="nt"/></l>	<r>gjenstand<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>förening<s n="n"/><s n="ut"/></l>	<r>foreining<s n="n"/></r></p><par n=":f/m"/></e>
 <e vr="nob"><p><l>förening<s n="n"/><s n="ut"/></l>	<r>forening<s n="n"/></r></p><par n=":f/m"/></e>
-<e>         <p><l>förespråkare<s n="n"/><s n="ut"/></l>	<r>fortale<s n="n"/><s n="m"/></r></p></e>
+<e vr="nno"><p><l>förespråkare<s n="n"/><s n="ut"/></l>	<r>fortalar<s n="n"/><s n="m"/></r></p></e>
+<e vr="nob"><p><l>förespråkare<s n="n"/><s n="ut"/></l>	<r>fortaler<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>föreställning<s n="n"/><s n="ut"/></l>	<r>forestilling<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>föreståndare<s n="n"/><s n="ut"/></l>	<r>forstand<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>företag<s n="n"/><s n="nt"/></l>	<r>bedrift<s n="n"/><s n="m"/></r></p></e>
@@ -15974,7 +15975,6 @@
 <e vr="nob"><p><l>beräkna</l>	<r>regne</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>beräkna</l>	<r>rekne</r></p><par n="vblex"/></e>
 <e>         <p><l>berätta</l>	<r>argumentere</r></p><par n="vblex"/></e>
-<e>         <p><l>berätta</l>	<r>fortale</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>berätta</l>	<r>fortelje</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>berätta</l>	<r>fortelle</r></p><par n="vblex"/></e>
 <e>         <p><l>berömma</l>	<r>fossro</r></p><par n="vblex"/></e>
