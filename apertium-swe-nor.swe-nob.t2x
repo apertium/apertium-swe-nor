@@ -190,11 +190,13 @@
                c="arg.1: noun, arg.2: determiner">      
       <choose>
         <when>
-          <test><and>
-            <not><equal><clip pos="1" part="gen"/><lit v=""/></equal></not>
-            <not><equal><clip pos="1" part="nbr"/><lit-tag v="pl"/></equal></not>
-            <not><equal><clip pos="2" part="nbr"/><lit-tag v="pl"/></equal></not>
-          </and></test>
+          <test><not><equal><clip pos="1" part="gen"/><lit v=""/></equal></not></test>
+          <let><clip pos="2" part="gen"/><clip pos="1" part="gen"/></let>
+        </when>
+      </choose>
+      <choose>
+        <when>
+          <test><equal><clip pos="2" part="gen"/><lit-tag v="m"/></equal></test>
           <let><clip pos="2" part="gen"/><clip pos="1" part="gen"/></let>
         </when>
       </choose>
