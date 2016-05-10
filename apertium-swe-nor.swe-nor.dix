@@ -7121,9 +7121,8 @@
 <e>         <p><l>lift<s n="n"/><s n="ut"/></l>	<r>lift<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>lift<s n="n"/><s n="ut"/></l>	<r>skyss<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>liga<s n="n"/><s n="ut"/></l>	<r>liga<s n="n"/><s n="m"/></r></p></e>
-<e vr="nob"><p><l>liggplats<s n="n"/><s n="ut"/></l>	<r>leie<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>liggplats<s n="n"/><s n="ut"/></l>	<r>leie<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>liggplats<s n="n"/><s n="ut"/></l>	<r>læger<s n="n"/><s n="nt"/></r></p></e>
+<e vr="nob"><p><l>liggplats<s n="n"/><s n="ut"/></l>	<r>læger<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nno"><p><l>liggplats<s n="n"/><s n="ut"/></l>	<r>lægje<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>lik<s n="n"/><s n="nt"/></l>	<r>lik<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>lik<s n="n"/><s n="nt"/></l>	<r>nåe<s n="n"/><s n="m"/></r></p></e>
@@ -7181,7 +7180,7 @@
 <e>         <p><l>livsverk<s n="n"/><s n="nt"/></l>	<r>livsverk<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nno"><p><l>livsvillkor<s n="n"/><s n="nt"/></l>	<r>levevilkår<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>livsvillkor<s n="n"/><s n="nt"/></l>	<r>livsvilkår<s n="n"/><s n="nt"/></r></p></e>
-<e vr="nno"><p><l>ljud<s n="n"/><s n="nt"/></l>	<r>ljod<s n="n"/><s n="m"/></r></p></e>
+<e r="RL">  <p><l>ljud<s n="n"/><s n="nt"/></l>	<r>ljod<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>ljud<s n="n"/><s n="nt"/></l>	<r>lyd<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>ljudfilm<s n="n"/><s n="ut"/></l>	<r>lydfilm<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>ljudstyrka<s n="n"/><s n="ut"/></l>	<r>lydstyrke<s n="n"/><s n="m"/></r></p></e>
@@ -12250,7 +12249,7 @@
 <e>         <p><l>ull<s n="n"/><s n="ut"/></l>	<r>ull<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>ullgarn<s n="n"/><s n="nt"/></l>	<r>ullgarn<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>ullhår<s n="n"/><s n="nt"/></l>	<r>ullhår<s n="n"/><s n="nt"/></r></p></e>
-<e vr="nno"><p><l>ultraljud<s n="n"/><s n="nt"/></l>	<r>ultraljod<s n="n"/><s n="nt"/></r></p></e>
+<e r="RL">  <p><l>ultraljud<s n="n"/><s n="nt"/></l>	<r>ultraljod<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>ultraljud<s n="n"/><s n="nt"/></l>	<r>ultralyd<s n="n"/><s n="m"/></r></p></e>
 <e r="RL">  <p><l>ultraljud<s n="n"/><s n="nt"/></l>	<r>ultralyd<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>ulv<s n="n"/><s n="ut"/></l>	<r>ulv<s n="n"/><s n="m"/></r></p></e>
@@ -15511,7 +15510,7 @@
 <e vr="nob"><p><l>formligen<s n="adv"/></l>	<r>formelig<s n="adv"/></r></p></e>
 <e>         <p><l>forte<s n="adv"/></l>	<r>forte<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>fortfarande<s n="adv"/></l>	<r>enno<s n="adv"/></r></p></e>
-<e>         <p><l>fortfarande<s n="adv"/></l>	<r>fortsatt<s n="adv"/></r></p></e>
+<e vr="nob"><p><l>fortfarande<s n="adv"/></l>	<r>fortsatt<s n="adv"/></r></p></e>
 <e>         <p><l>fortissimo<s n="adv"/></l>	<r>fortissimo<s n="adv"/></r></p></e>
 <e>         <p><l>fram<s n="adv"/></l>	<r>fram<s n="adv"/></r></p></e>
 <e>         <p><l>framdeles<s n="adv"/></l>	<r>framleis<s n="adv"/></r></p></e>
@@ -16423,14 +16422,15 @@
 <e>         <p><l>ändå<s n="adv"/></l>	<r>altså<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>ändå<s n="adv"/></l>	<r>enno<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>ändå<s n="adv"/></l>	<r>ennå<s n="adv"/></r></p></e>
-<e>         <p><l>ännu<s n="adv"/></l>	<r>enda<s n="adv"/></r></p></e>
+<e vr="nob"><p><l>ännu<s n="adv"/></l>	<r>enda<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>ännu<s n="adv"/></l>	<r>endå<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>ännu<s n="adv"/></l>	<r>enno<s n="adv"/></r></p></e>
-<e>         <p><l>ännu<s n="adv"/></l>	<r>ennu<s n="adv"/></r></p></e>
-<e vr="nob"><p><l>ännu<s n="adv"/></l>	<r>ennu<s n="adv"/></r></p></e>
-<e>         <p><l>ännu<s n="adv"/></l>	<r>ennå<s n="adv"/></r></p></e>
-<e vr="nob"><p><l>även<s n="adv"/></l>	<r>selv<s n="adv"/></r></p></e>
+<e r="RL">  <p><l>ännu<s n="adv"/></l>	<r>ennu<s n="adv"/></r></p></e>
+<e vr="nob"><p><l>ännu<s n="adv"/></l>	<r>ennå<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>även<s n="adv"/></l>	<r>sjølv<s n="adv"/></r></p></e>
+<e vr="nob"><p><l>även<s n="adv"/></l>	<r>selv<s n="adv"/></r></p></e>
+<e vr="nno"><p><l>även<s n="adv"/></l>	<r>òg<s n="adv"/></r></p></e>
+<e vr="nob"><p><l>även<s n="adv"/></l>	<r>også<s n="adv"/></r></p></e>
 <e>         <p><l>ånyo<s n="adv"/></l>	<r>igjen<s n="adv"/></r></p></e>
 <e>         <p><l>åter<s n="adv"/></l>	<r>atter<s n="adv"/></r></p></e>
 <e>         <p><l>åter<s n="adv"/></l>	<r>ender<s n="adv"/></r></p></e>
@@ -18100,12 +18100,10 @@
 <e vr="nob"><p><l>fräsa</l>	<r>hvese</r></p><par n="vblex"/></e>
 <e>         <p><l>fräsa</l>	<r>kvese</r></p><par n="vblex"/></e>
 <e>         <p><l>fräta</l>	<r>etse</r></p><par n="vblex"/></e>
-<e>         <p><l>fråga</l>	<r>frege</r></p><par n="vblex"/></e>
-<e>         <p><l>fråga</l>	<r>frette</r></p><par n="vblex"/></e>
+<e r="RL">  <p><l>fråga</l>	<r>frege</r></p><par n="vblex"/></e>
+<e r="RL">  <p><l>fråga</l>	<r>frette</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>fråga</l>	<r>spørje</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>fråga</l>	<r>spørre</r></p><par n="vblex"/></e>
-<e>         <p><l>fråga<b/>ut</l>	<r>frege</r></p><par n="vblex"/></e>
-<e>         <p><l>fråga<b/>ut</l>	<r>frette</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>fråga<b/>ut</l>	<r>spørje</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>fråga<b/>ut</l>	<r>spørre</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>fråndöma</l>	<r>fradømme</r></p><par n="vblex"/></e>
@@ -20116,8 +20114,6 @@
 <e vr="nno"><p><l>leka</l>	<r>lækje</r></p><par n="vblex"/></e>
 <e>         <p><l>leka</l>	<r>spille</r></p><par n="vblex"/></e>
 <e>         <p><l>lemlästa</l>	<r>lemleste</r></p><par n="vblex"/></e>
-<e vr="nob"><p><l>leta</l>	<r>lede</r></p><par n="vblex"/></e>
-<e vr="nno"><p><l>leta</l>	<r>leie</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>leta</l>	<r>leite</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>leta</l>	<r>lete</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>leta</l>	<r>søke</r></p><par n="vblex"/></e>
@@ -21320,9 +21316,8 @@
 <e>         <p><l>regla</l>	<r>låse</r></p><par n="vblex"/></e>
 <e>         <p><l>reglementera</l>	<r>reglementere</r></p><par n="vblex"/></e>
 <e>         <p><l>reglera</l>	<r>regulere</r></p><par n="vblex"/></e>
-<e>         <p><l>regna</l>	<r>ele</r></p><par n="vblex"/></e>
+<e r="RL">  <p><l>regna</l>	<r>ele</r></p><par n="vblex"/></e>
 <e>         <p><l>regna</l>	<r>regne</r></p><par n="vblex"/></e>
-<e>         <p><l>regna</l>	<r>rekne</r></p><par n="vblex"/></e>
 <e>         <p><l>rehabilitera</l>	<r>rehabilitere</r></p><par n="vblex"/></e>
 <e>         <p><l>reka</l>	<r>rekognosere</r></p><par n="vblex"/></e>
 <e>         <p><l>rekapitulera</l>	<r>rekapitulere</r></p><par n="vblex"/></e>
@@ -21548,9 +21543,8 @@
 <e>         <p><l>räfsa</l>	<r>rafse</r></p><par n="vblex"/></e>
 <e>         <p><l>räfsa</l>	<r>rive</r></p><par n="vblex"/></e>
 <e>         <p><l>räfsa</l>	<r>trase</r></p><par n="vblex"/></e>
-<e>         <p><l>räkna</l>	<r>ele</r></p><par n="vblex"/></e>
-<e>         <p><l>räkna</l>	<r>regne</r></p><par n="vblex"/></e>
-<e>         <p><l>räkna</l>	<r>rekne</r></p><par n="vblex"/></e>
+<e vr="nob"><p><l>räkna</l>	<r>regne</r></p><par n="vblex"/></e>
+<e vr="nno"><p><l>räkna</l>	<r>rekne</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>räkna</l>	<r>telje</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>räkna</l>	<r>telle</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>räkna<b/>upp</l>	<r>nemne</r></p><par n="vblex"/></e>
@@ -22253,7 +22247,6 @@
 <e>         <p><l>snärpa</l>	<r>snerre</r></p><par n="vblex"/></e>
 <e>         <p><l>snäsa</l>	<r>snerre</r></p><par n="vblex"/></e>
 <e>         <p><l>snåla</l>	<r>spare</r></p><par n="vblex"/></e>
-<e>         <p><l>snöa</l>	<r>ele</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>snöa</l>	<r>sne</r></p><par n="vblex"/></e>
 <e>         <p><l>snöa</l>	<r>snø</r></p><par n="vblex"/></e>
 <e>         <p><l>snöra</l>	<r>snøre</r></p><par n="vblex"/></e>
@@ -22374,8 +22367,6 @@
 <e>         <p><l>spöka</l>	<r>gante</r></p><par n="vblex"/></e>
 <e>         <p><l>spöka</l>	<r>skøye</r></p><par n="vblex"/></e>
 <e>         <p><l>spöka</l>	<r>spøke</r></p><par n="vblex"/></e>
-<e>         <p><l>spörja</l>	<r>frege</r></p><par n="vblex"/></e>
-<e>         <p><l>spörja</l>	<r>frette</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>spörja</l>	<r>spørje</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>spörja</l>	<r>spørre</r></p><par n="vblex"/></e>
 <e>         <p><l>stabilisera</l>	<r>stabilisere</r></p><par n="vblex"/></e>
