@@ -712,11 +712,10 @@
 <e vr="nno"><p><l>en<s n="det"/><s n="ind"/></l>        <r>ein<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
 <e r="RL" vr="nno"><p><l>en<s n="det"/><s n="ind"/></l> <r>éin<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
 
-<e>         <p><l>någon<s n="det"/><s n="qnt"/></l>     <r>ingen<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
-<e>         <p><l>någon<s n="det"/></l>                 <r>somme<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
-<e vr="nob"><p><l>någon<s n="det"/></l>                 <r>noe<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
-<e>         <p><l>ingen<s n="det"/></l>                 <r>ingen<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
-<e vr="nno"><p><l>någon<s n="det"/></l>                 <r>noko<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
+<e r="RL">  <p><l>någon<s n="det"/><s n="qnt"/></l>     <r>somme<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
+<e vr="nob"><p><l>någon<s n="det"/><s n="qnt"/></l>     <r>noe<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
+<e vr="nno"><p><l>någon<s n="det"/><s n="qnt"/></l>     <r>noko<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
+<e>         <p><l>ingen<s n="det"/><s n="qnt"/></l>     <r>ingen<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
 <e vr="nno"><p><l>varje<s n="det"/><s n="ind"/></l>     <r>kvar<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
 <e vr="nob"><p><l>varje<s n="det"/><s n="ind"/></l>     <r>hver<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
 
@@ -5071,10 +5070,8 @@
 <e>         <p><l>humorist<s n="n"/><s n="ut"/></l>	<r>humorist<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>humör<s n="n"/><s n="nt"/></l>	<r>humør<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>humör<s n="n"/><s n="nt"/></l>	<r>kynne<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>hund<s n="n"/><s n="ut"/></l>	<r>bikkje<s n="n"/></r></p><par n=":f/m"/></e>
+<e r="RL">  <p><l>hund<s n="n"/><s n="ut"/></l>	<r>bikkje<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>hund<s n="n"/><s n="ut"/></l>	<r>hund<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>hund<s n="n"/><s n="ut"/></l>	<r>rakke<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>hund<s n="n"/><s n="ut"/></l>	<r>tispe<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>hundkoja<s n="n"/><s n="ut"/></l>	<r>hundehus<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>hundradel<s n="n"/><s n="ut"/></l>	<r>hundredel<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>hundralapp<s n="n"/><s n="ut"/></l>	<r>hundrelapp<s n="n"/><s n="m"/></r></p></e>
