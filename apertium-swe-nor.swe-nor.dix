@@ -640,6 +640,7 @@
 <e vr="nob"><p><l>alltihops</l>                             <r>alt<b/>sammens</r></p><par n="det+prn_pos"/></e>
 <e>         <p><l>allting<s n="prn"/><s n="def"/></l>       <r>allting<s n="prn"/><s n="def"/></r></p></e>
 <e>         <p><l>alltings</l>                              <r>alltings</r></p><par n="det+prn_pos"/></e>
+<e r="LR">  <p><l>bägge<s n="prn"/><s n="def"/></l>         <r>begge<s n="prn"/><s n="def"/></r></p></e>
 <e>         <p><l>båda<s n="prn"/><s n="def"/></l>          <r>begge<s n="prn"/><s n="def"/></r></p></e>
 <e vr="nno"><p><l>båda<s n="prn"/><s n="def"/></l>          <r>båe<s n="prn"/><s n="def"/></r></p></e>
 <e>         <p><l>bådas</l>                                 <r>begges</r></p><par n="det+prn_pos"/></e>
@@ -664,11 +665,6 @@
 <e vr="nno"><p><l>annan<s n="prn"/><s n="ind"/></l>   <r>annan<s n="prn"/><s n="ind"/></r></p><par n="gen_nbr"/></e>
 
 <e>         <p><l>som<s n="prn"/></l>                        <r>som<s n="prn"/></r></p></e>
-
-<e vr="nob"><p><l>båda<s n="prn"/><s n="def"/></l>  <r>både<s n="prn"/><s n="qnt"/></r></p></e>
-<e vr="nno"><p><l>båda<s n="prn"/><s n="def"/></l>  <r>begge<s n="det"/><s n="qnt"/></r></p></e>
-<e vr="nob"><p><l>bägge<s n="prn"/><s n="def"/></l> <r>både<s n="prn"/><s n="qnt"/></r></p></e>
-<e vr="nno"><p><l>bägge<s n="prn"/><s n="def"/></l> <r>begge<s n="det"/><s n="qnt"/></r></p></e>
 
 
     <!-- HIC·SUNT·DRACONES. -->
