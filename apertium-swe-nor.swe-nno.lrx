@@ -10,6 +10,9 @@
 
   <rule weight="1.0"> <match lemma="räckna" tags="vblex.*"><select lemma="telje" tags="vblex.*"/></match> </rule>
 
+  <rule weight="1.0"> <match lemma="kolla" tags="vblex.*"><select lemma="sjå" tags="vblex.*"/></match> </rule>
+  <rule weight="1.0"> <match lemma="sluta" tags="vblex.*"><select lemma="slutte" tags="vblex.*"/></match> </rule>
+
   <!-- TODO: more of a CG thing? -->
   <rule weight="1.0"> <match lemma="att" tags="cnjsub"><select lemma="at" tags="cnjsub"/></match> </rule>
   <rule weight="2.0">
