@@ -5,10 +5,7 @@
 
   <rule weight="1.0"> <match lemma="øre" tags="n.*"><select lemma="öra" tags="n.*"/></match> </rule>
   <rule weight="2.0">
-    <or>
-      <match tags="num.*"/>
-      <match tags="det.qnt.*"/>
-    </or>
+    <match tags="det.qnt.*"/>
     <match lemma="øre" tags="n.*"><select lemma="öre" tags="n.*"/></match>
   </rule>
 

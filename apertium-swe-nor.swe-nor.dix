@@ -77,7 +77,6 @@
     <sdef n="comp"    c="Comparative"/>
     <sdef n="sup"     c="Superlative"/>
 
-    <sdef n="num"     c="Numeral"/>
     <sdef n="ord"     c="Ordinal"/>
     <sdef n="acr"     c="Acronym"/>
     <sdef n="sent"    c="Sentence end" />
@@ -728,23 +727,23 @@
 
     <!-- SECTION: Numerals and ordinals -->
 
-<e vr="nob"><p><l>en<s n="num"/></l><r>en<s n="det"/><s n="qnt"/></r></p></e>
-<e vr="nno"><p><l>en<s n="num"/></l><r>ein<s n="det"/><s n="qnt"/></r></p></e>
-<e><p><l>två<s n="num"/></l><r>to<s n="det"/><s n="qnt"/></r></p></e>
-<e><p><l>tre<s n="num"/></l><r>tre<s n="det"/><s n="qnt"/></r></p></e>
-<e><p><l>fyra<s n="num"/></l><r>fire<s n="det"/><s n="qnt"/></r></p></e>
-<e><p><l>fem<s n="num"/></l><r>fem<s n="det"/><s n="qnt"/></r></p></e>
-<e><p><l>sex<s n="num"/></l><r>seks<s n="det"/><s n="qnt"/></r></p></e>
-<e><p><l>sju<s n="num"/></l><r>sju<s n="det"/><s n="qnt"/></r></p></e>
-<e><p><l>åtta<s n="num"/></l><r>åtte<s n="det"/><s n="qnt"/></r></p></e>
-<e><p><l>nio<s n="num"/></l><r>ni<s n="det"/><s n="qnt"/></r></p></e>
-<e><p><l>tio<s n="num"/></l><r>ti<s n="det"/><s n="qnt"/></r></p></e>
+<e vr="nob"><p><l>en<s n="det"/><s n="qnt"/></l><r>en<s n="det"/><s n="qnt"/></r></p></e>
+<e vr="nno"><p><l>en<s n="det"/><s n="qnt"/></l><r>ein<s n="det"/><s n="qnt"/></r></p></e>
+<e><p><l>två<s n="det"/><s n="qnt"/></l><r>to<s n="det"/><s n="qnt"/></r></p></e>
+<e><p><l>tre<s n="det"/><s n="qnt"/></l><r>tre<s n="det"/><s n="qnt"/></r></p></e>
+<e><p><l>fyra<s n="det"/><s n="qnt"/></l><r>fire<s n="det"/><s n="qnt"/></r></p></e>
+<e><p><l>fem<s n="det"/><s n="qnt"/></l><r>fem<s n="det"/><s n="qnt"/></r></p></e>
+<e><p><l>sex<s n="det"/><s n="qnt"/></l><r>seks<s n="det"/><s n="qnt"/></r></p></e>
+<e><p><l>sju<s n="det"/><s n="qnt"/></l><r>sju<s n="det"/><s n="qnt"/></r></p></e>
+<e><p><l>åtta<s n="det"/><s n="qnt"/></l><r>åtte<s n="det"/><s n="qnt"/></r></p></e>
+<e><p><l>nio<s n="det"/><s n="qnt"/></l><r>ni<s n="det"/><s n="qnt"/></r></p></e>
+<e><p><l>tio<s n="det"/><s n="qnt"/></l><r>ti<s n="det"/><s n="qnt"/></r></p></e>
 
-<e><p><l>tusen<s n="num"/></l><r>tusen<s n="num"/></r></p></e>
-<e><p><l>mil<s n="num"/></l><r>mil<s n="num"/></r></p></e>
+<e><p><l>tusen<s n="det"/><s n="qnt"/></l><r>tusen<s n="det"/><s n="qnt"/></r></p></e>
+<e><p><l>mil<s n="det"/><s n="qnt"/></l><r>mil<s n="det"/><s n="qnt"/></r></p></e>
 
 <!-- TODO: add numerals like these in nor? -->
-<!-- <e><p><l>tusentals<s n="num"/></l><r>tusental<s n="n"/><s n="nt"/></r></p></e> -->
+<!-- <e><p><l>tusentals<s n="det"/><s n="qnt"/></l><r>tusental<s n="n"/><s n="nt"/></r></p></e> -->
 
 <e>         <p><l>första</l>     <r>første</r></p><par n="adj_ord-1"/></e>
 <e>         <p><l>andra</l>      <r>andre</r></p><par n="adj_ord"/></e>
@@ -23626,7 +23625,7 @@
 <e><re>«</re><p><l><s n="lquot"/></l><r><s n="lquot"/></r></p></e>
 <e><re>»</re><p><l><s n="rquot"/></l><r><s n="rquot"/></r></p></e>
 <e><re>[0-9]+([., ][0-9]+)?</re><p><l><s n="det"/><s n="qnt"/></l><r><s n="det"/><s n="qnt"/></r></p></e>
-<e><re>[XIVM]+</re><p><l><s n="num"/></l><r><s n="num"/></r></p></e>
+<e><re>[XIVM]+</re><p><l><s n="det"/><s n="qnt"/></l><r><s n="det"/><s n="qnt"/></r></p></e>
 
   </section>
   <section id="pending" type="standard">
