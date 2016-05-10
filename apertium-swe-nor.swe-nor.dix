@@ -654,15 +654,16 @@
 <e vr="nob"><p><l>vem<s n="prn"/><s n="itg"/></l>   <r>hvem<s n="prn"/><s n="itg"/></r></p></e>
 <e vr="nno"><p><l>vem<s n="prn"/><s n="itg"/></l>   <r>kven<s n="prn"/><s n="itg"/></r></p></e>
 
-<e><p><l>någonting<s n="prn"/></l>                  <r>ingenting<s n="prn"/></r></p></e>
-<e><p><l>ingenting<s n="prn"/></l>                  <r>ingenting<s n="prn"/></r></p></e>
-<e><p><l>någon<s n="prn"/></l>                      <r>noko<s n="prn"/></r></p></e>
-<e><p><l>nånting<s n="prn"/></l>                    <r>noko<s n="prn"/></r></p></e>
-<e><p><l>ingen<s n="prn"/></l>                      <r>ingen<s n="prn"/></r></p></e>
-<e vr="nob"><p><l>annan<s n="prn"/></l>             <r>annen<s n="prn"/></r></p></e>
-<e vr="nno"><p><l>annan<s n="prn"/></l>             <r>annan<s n="prn"/></r></p></e>
+<e>         <p><l>någonting<s n="prn"/></l>           <r>ingenting<s n="prn"/></r></p></e>
+<e>         <p><l>ingenting<s n="prn"/></l>           <r>ingenting<s n="prn"/></r></p></e>
+<e>         <p><l>någon<s n="prn"/><s n="ind"/></l>   <r>noko<s n="prn"/><s n="ind"/></r></p><par n="gen_nbr"/></e>
+<e>         <p><l>nånting<s n="prn"/><s n="ind"/></l> <r>noko<s n="prn"/><s n="ind"/></r></p><par n="gen_nbr"/></e>
+<e>         <p><l>ingen<s n="prn"/><s n="ind"/></l>   <r>ingen<s n="prn"/><s n="ind"/></r></p><par n="gen_nbr"/></e>
+<!-- TODO add swe det and nor prn -->
+<e vr="nob"><p><l>annan<s n="prn"/><s n="ind"/></l>   <r>annen<s n="prn"/><s n="ind"/></r></p><par n="gen_nbr"/></e>
+<e vr="nno"><p><l>annan<s n="prn"/><s n="ind"/></l>   <r>annan<s n="prn"/><s n="ind"/></r></p><par n="gen_nbr"/></e>
 
-<e><p><l>som<s n="prn"/></l>                        <r>som<s n="prn"/></r></p></e>
+<e>         <p><l>som<s n="prn"/></l>                        <r>som<s n="prn"/></r></p></e>
 
 <e vr="nob"><p><l>båda<s n="prn"/><s n="def"/></l>  <r>både<s n="prn"/><s n="qnt"/></r></p></e>
 <e vr="nno"><p><l>båda<s n="prn"/><s n="def"/></l>  <r>begge<s n="det"/><s n="qnt"/></r></p></e>
@@ -694,8 +695,6 @@
 <e vr="nno"><p><l>någon<s n="prn"/><s n="ind"/></l>	<r>noko<s n="prn"/><s n="ind"/></r></p></e>
 <e vr="nob"><p><l>hen<s n="prn"/><s n="pers"/><s n="p3"/><s n="un"/></l>	<r>hun<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/></r></p></e>
 <e vr="nno"><p><l>hen<s n="prn"/><s n="pers"/><s n="p3"/><s n="un"/></l>	<r>ho<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/></r></p></e>
-<e vr="nob"><p><l>mandrom<s n="prn"/><s n="pers"/><s n="p3"/></l>	<r>man<s n="prn"/><s n="sg"/></r></p></e>
-<e vr="nno"><p><l>mandrom<s n="prn"/><s n="pers"/><s n="p3"/></l>	<r>ein<s n="prn"/><s n="sg"/></r></p></e>
 <e>         <p><l>denna<s n="prn"/><s n="dem"/></l>	<r>denne<s n="prn"/><s n="dem"/></r></p></e>
 <e>         <p><l>detta<s n="prn"/></l>	<r>denne<s n="prn"/><s n="dem"/></r></p></e>
 <e>         <p><l>hen<s n="prn"/><s n="pers"/><s n="p3"/><s n="un"/></l>	<r>han<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/></r></p></e>
@@ -727,20 +726,20 @@
 
     <!-- SECTION: Numerals and ordinals -->
 
-<e vr="nob"><p><l>en<s n="det"/><s n="qnt"/></l><r>en<s n="det"/><s n="qnt"/></r></p></e>
-<e vr="nno"><p><l>en<s n="det"/><s n="qnt"/></l><r>ein<s n="det"/><s n="qnt"/></r></p></e>
-<e><p><l>två<s n="det"/><s n="qnt"/></l><r>to<s n="det"/><s n="qnt"/></r></p></e>
-<e><p><l>tre<s n="det"/><s n="qnt"/></l><r>tre<s n="det"/><s n="qnt"/></r></p></e>
-<e><p><l>fyra<s n="det"/><s n="qnt"/></l><r>fire<s n="det"/><s n="qnt"/></r></p></e>
-<e><p><l>fem<s n="det"/><s n="qnt"/></l><r>fem<s n="det"/><s n="qnt"/></r></p></e>
-<e><p><l>sex<s n="det"/><s n="qnt"/></l><r>seks<s n="det"/><s n="qnt"/></r></p></e>
-<e><p><l>sju<s n="det"/><s n="qnt"/></l><r>sju<s n="det"/><s n="qnt"/></r></p></e>
-<e><p><l>åtta<s n="det"/><s n="qnt"/></l><r>åtte<s n="det"/><s n="qnt"/></r></p></e>
-<e><p><l>nio<s n="det"/><s n="qnt"/></l><r>ni<s n="det"/><s n="qnt"/></r></p></e>
-<e><p><l>tio<s n="det"/><s n="qnt"/></l><r>ti<s n="det"/><s n="qnt"/></r></p></e>
+<e vr="nob"><p><l>en<s n="det"/><s n="qnt"/></l><r>en<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
+<e vr="nno"><p><l>en<s n="det"/><s n="qnt"/></l><r>ein<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
+<e>         <p><l>två<s n="det"/><s n="qnt"/></l><r>to<s n="det"/><s n="qnt"/></r></p></e>
+<e>         <p><l>tre<s n="det"/><s n="qnt"/></l><r>tre<s n="det"/><s n="qnt"/></r></p></e>
+<e>         <p><l>fyra<s n="det"/><s n="qnt"/></l><r>fire<s n="det"/><s n="qnt"/></r></p></e>
+<e>         <p><l>fem<s n="det"/><s n="qnt"/></l><r>fem<s n="det"/><s n="qnt"/></r></p></e>
+<e>         <p><l>sex<s n="det"/><s n="qnt"/></l><r>seks<s n="det"/><s n="qnt"/></r></p></e>
+<e>         <p><l>sju<s n="det"/><s n="qnt"/></l><r>sju<s n="det"/><s n="qnt"/></r></p></e>
+<e>         <p><l>åtta<s n="det"/><s n="qnt"/></l><r>åtte<s n="det"/><s n="qnt"/></r></p></e>
+<e>         <p><l>nio<s n="det"/><s n="qnt"/></l><r>ni<s n="det"/><s n="qnt"/></r></p></e>
+<e>         <p><l>tio<s n="det"/><s n="qnt"/></l><r>ti<s n="det"/><s n="qnt"/></r></p></e>
 
-<e><p><l>tusen<s n="det"/><s n="qnt"/></l><r>tusen<s n="det"/><s n="qnt"/></r></p></e>
-<e><p><l>mil<s n="det"/><s n="qnt"/></l><r>mil<s n="det"/><s n="qnt"/></r></p></e>
+<e>         <p><l>tusen<s n="det"/><s n="qnt"/></l><r>tusen<s n="det"/><s n="qnt"/></r></p></e>
+<e>         <p><l>mil<s n="det"/><s n="qnt"/></l><r>mil<s n="det"/><s n="qnt"/></r></p></e>
 
 <!-- TODO: add numerals like these in nor? -->
 <!-- <e><p><l>tusentals<s n="det"/><s n="qnt"/></l><r>tusental<s n="n"/><s n="nt"/></r></p></e> -->
@@ -6031,15 +6030,10 @@
 <e vr="nno"><p><l>kikare<s n="n"/><s n="ut"/></l>	<r>kikert<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>kikare<s n="n"/><s n="ut"/></l>	<r>kikkert<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>kikarsikte<s n="n"/><s n="nt"/></l>	<r>kikkertsikte<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>kille<s n="n"/><s n="ut"/></l>	<r>dreng<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>kille<s n="n"/><s n="ut"/></l>	<r>furu<s n="n"/></r></p><par n=":f/m"/></e>
+<e r="RL">  <p><l>kille<s n="n"/><s n="ut"/></l>	<r>dreng<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>kille<s n="n"/><s n="ut"/></l>	<r>fyr<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>kille<s n="n"/><s n="ut"/></l>	<r>fyr<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nno"><p><l>kille<s n="n"/><s n="ut"/></l>	<r>gut<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>kille<s n="n"/><s n="ut"/></l>	<r>gutt<s n="n"/><s n="m"/></r></p></e>
-<e vr="nob"><p><l>kille<s n="n"/><s n="ut"/></l>	<r>guttunge<s n="n"/><s n="m"/></r></p></e>
-<e vr="nno"><p><l>kille<s n="n"/><s n="ut"/></l>	<r>gutunge<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>kille<s n="n"/><s n="ut"/></l>	<r>ladd<s n="n"/><s n="m"/></r></p></e>
 <e r="RL">  <p><l>kille<s n="n"/><s n="ut"/></l>	<r>pilt<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>killing<s n="n"/><s n="ut"/></l>	<r>kattunge<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>killing<s n="n"/><s n="ut"/></l>	<r>killing<s n="n"/><s n="m"/></r></p></e>
@@ -9095,7 +9089,7 @@
 <e>         <p><l>poetik<s n="n"/><s n="ut"/></l>	<r>poetikk<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>pogrom<s n="n"/><s n="ut"/></l>	<r>pogrom<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>pointer<s n="n"/><s n="ut"/></l>	<r>pointer<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>pojke<s n="n"/><s n="ut"/></l>	<r>dreng<s n="n"/><s n="m"/></r></p></e>
+<e r="RL">  <p><l>pojke<s n="n"/><s n="ut"/></l>	<r>dreng<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>pojke<s n="n"/><s n="ut"/></l>	<r>gut<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>pojke<s n="n"/><s n="ut"/></l>	<r>gutt<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>pojke<s n="n"/><s n="ut"/></l>	<r>guttunge<s n="n"/><s n="m"/></r></p></e>
@@ -15329,6 +15323,8 @@
 <e>         <p><l>övrig</l>                   <r>øvrig</r></p><par n="adj"/></e>
 <e>         <p><l>nära</l>                    <r>nær</r></p><par n="adj_sint"/></e>
 <e>         <p><l>främre</l>                  <r>fremre</r></p><par n="adj_sint"/></e>
+<e>         <p><l>noga</l>                  <r>nøye</r></p><par n="adj:adj_sint"/></e>
+
 
 
     <!-- SECTION: Adverbs -->
@@ -15344,6 +15340,7 @@
 <e><p><l>in<s n="adv"/></l><r>i<s n="adv"/></r></p></e>
 <e><p><l>upp<s n="adv"/></l><r>opp<s n="adv"/></r></p></e>
 <e><p><l>sist<s n="adv"/></l><r>sist<s n="adv"/></r></p></e>
+<e><p><l>ut<s n="adv"/></l><r>ut<s n="adv"/></r></p></e>
 
 
 <e vr="nno"><p><l>hemma<s n="adv"/></l><r>heime<s n="adv"/></r></p></e>
@@ -15604,7 +15601,6 @@
 <e>         <p><l>anteckna</l>	<r>notere</r></p><par n="vblex"/></e>
 <e>         <p><l>anträda</l>	<r>starte</r></p><par n="vblex"/></e>
 <e>         <p><l>anträffa</l>	<r>finne</r></p><par n="vblex"/></e>
-<e>         <p><l>anträffa</l>	<r>hitte</r></p><par n="vblex"/></e>
 <e>         <p><l>antyda</l>	<r>antyde</r></p><par n="vblex"/></e>
 <e>         <p><l>antända</l>	<r>antenne</r></p><par n="vblex"/></e>
 <e>         <p><l>anvisa</l>	<r>anvise</r></p><par n="vblex"/></e>
@@ -17261,7 +17257,6 @@
 <e>         <p><l>förekomma</l>	<r>finne</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>förekomma</l>	<r>forekomme</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>förekomma</l>	<r>hende</r></p><par n="vblex"/></e>
-<e>         <p><l>förekomma</l>	<r>hitte</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>förekomma</l>	<r>slå</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>föreligga</l>	<r>foreligge</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>föreligga</l>	<r>gjelde</r></p><par n="vblex"/></e>
@@ -17672,7 +17667,6 @@
 <e>         <p><l>ge</l>	<r>finne</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>ge</l>	<r>gi</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>ge</l>	<r>gje</r></p><par n="vblex"/></e>
-<e>         <p><l>ge</l>	<r>hitte</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>ge<b/>ut</l>	<r>sleppe</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>ge<b/>ut</l>	<r>utgi</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>ge<b/>ut</l>	<r>utgje</r></p><par n="vblex"/></e>
@@ -18046,7 +18040,7 @@
 <e>         <p><l>hissa</l>	<r>heise</r></p><par n="vblex"/></e>
 <e>         <p><l>hissa</l>	<r>løfte</r></p><par n="vblex"/></e>
 <e>         <p><l>hitta</l>	<r>finne</r></p><par n="vblex"/></e>
-<e>         <p><l>hitta</l>	<r>hitte</r></p><par n="vblex"/></e>
+<e r="RL">  <p><l>hitta</l>	<r>hitte</r></p><par n="vblex"/></e>
 <e>         <p><l>hiva</l>	<r>hive</r></p><par n="vblex"/></e>
 <e>         <p><l>hjula</l>	<r>hjule</r></p><par n="vblex"/></e>
 <e>         <p><l>hjälpa</l>	<r>hjelpe</r></p><par n="vblex"/></e>
@@ -20724,7 +20718,6 @@
 <e vr="nno"><p><l>sira</l>	<r>dekorere</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>sira</l>	<r>forsire</r></p><par n="vblex"/></e>
 <e>         <p><l>sitta</l>	<r>finne</r></p><par n="vblex"/></e>
-<e>         <p><l>sitta</l>	<r>hitte</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>sitta</l>	<r>sitje</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>sitta</l>	<r>sitte</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>sjappa</l>	<r>fare</r></p><par n="vblex"/></e>
