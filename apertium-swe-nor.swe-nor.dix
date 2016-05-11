@@ -405,28 +405,30 @@
 <e>         <p><l>eller<s n="cnjcoo"/></l>	<r>eller<s n="cnjcoo"/></r></p></e>
 <e>         <p><l>emedan<s n="cnjsub"/></l>	<r>fordi<s n="cnjsub"/></r></p></e>
 <e>         <p><l>fast<s n="cnjcoo"/></l>	<r>men<s n="cnjcoo"/></r></p></e>
+<e vr="nno"><p><l>fast<s n="cnjsub"/></l>	<r>sjølv<b/>om<s n="cnjsub"/></r></p></e>
+<e vr="nob"><p><l>fast<s n="cnjsub"/></l>	<r>selv<b/>om<s n="cnjsub"/></r></p></e>
+<e vr="nno"><p><l>fastän<s n="cnjsub"/></l>	<r>sjølv<b/>om<s n="cnjsub"/></r></p></e>
 <e vr="nob"><p><l>fastän<s n="cnjsub"/></l>	<r>selv<b/>om<s n="cnjsub"/></r></p></e>
-<e vr="nob"><p><l>fastän<s n="cnjsub"/></l>	<r>sjølv<b/>om<s n="cnjsub"/></r></p></e>
 <e>         <p><l>för<b/>att<s n="cnjsub"/></l>	<r>for<b/>å<s n="cnjsub"/></r></p></e>
-<e vr="nob"><p><l>ifall<s n="cnjsub"/></l>	<r>hvis<s n="cnjsub"/></r></p></e>
 <e vr="nno"><p><l>ifall<s n="cnjsub"/></l>	<r>viss<s n="cnjsub"/></r></p></e>
+<e vr="nob"><p><l>ifall<s n="cnjsub"/></l>	<r>hvis<s n="cnjsub"/></r></p></e>
 <e vr="nno"><p><l>medan<s n="cnjadv"/></l>	<r>medan<s n="cnjsub"/></r></p></e>
 <e vr="nob"><p><l>medan<s n="cnjadv"/></l>	<r>mens<s n="cnjsub"/></r></p></e>
 <e>         <p><l>men<s n="cnjcoo"/></l>	<r>men<s n="cnjcoo"/></r></p></e>
 <e>         <p><l>när<s n="cnjadv"/></l>	<r>når<s n="cnjsub"/></r></p></e>
 <e>         <p><l>och<s n="cnjcoo"/></l>	<r>og<s n="cnjcoo"/></r></p></e>
 <e>         <p><l>om<s n="cnjadv"/></l>	<r>om<s n="cnjsub"/></r></p></e>
-<e vr="nno"><p><l>samt<s n="cnjcoo"/></l>	<r>og<b/>dessutan<s n="cnjcoo"/></r></p></e>
 <e vr="nob"><p><l>samt<s n="cnjcoo"/></l>	<r>samt<s n="cnjcoo"/></r></p></e>
+<e vr="nno"><p><l>samt<s n="cnjcoo"/></l>	<r>og<b/>dessutan<s n="cnjcoo"/></r></p></e>
 <e>         <p><l>som<s n="cnjsub"/></l>	<r>som<s n="cnjsub"/></r></p></e>
 <e>         <p><l>så<s n="cnjsub"/></l>	<r>så<s n="cnjsub"/></r></p></e>
 <e>         <p><l>till<s n="cnjadv"/></l>	<r>til<s n="cnjsub"/></r></p></e>
 <e>         <p><l>ty<s n="cnjsub"/></l>	<r>fordi<s n="cnjsub"/></r></p></e>
-<e vr="nob"><p><l>varken<s n="cnjcoo"/></l>	<r>hverken<s n="cnjcoo"/></r></p></e>
 <e vr="nno"><p><l>varken<s n="cnjcoo"/></l>	<r>korkje<s n="cnjcoo"/></r></p></e>
+<e vr="nob"><p><l>varken<s n="cnjcoo"/></l>	<r>hverken<s n="cnjcoo"/></r></p></e>
 <e r="RL">  <p><l>varken<s n="cnjcoo"/></l>	<r>verken<s n="cnjcoo"/></r></p></e>
-<e vr="nob"><p><l>även<b/>om<s n="cnjadv"/></l>	<r>selv<b/>om<s n="cnjsub"/></r></p></e>
 <e vr="nno"><p><l>även<b/>om<s n="cnjadv"/></l>	<r>sjølv<b/>om<s n="cnjsub"/></r></p></e>
+<e vr="nob"><p><l>även<b/>om<s n="cnjadv"/></l>	<r>selv<b/>om<s n="cnjsub"/></r></p></e>
 
 
     <!-- SECTION: Prepositions -->
@@ -2444,8 +2446,8 @@
 <e>         <p><l>champagne<s n="n"/><s n="ut"/></l>	<r>sjampanje<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>champagnekork<s n="n"/><s n="ut"/></l>	<r>champagnekork<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>champion<s n="n"/><s n="ut"/></l>	<r>champion<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>chans<s n="n"/><s n="ut"/></l>	<r>kjangs<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>chans<s n="n"/><s n="ut"/></l>	<r>nubbesjanse<s n="n"/><s n="m"/></r></p></e>
+<e r="RL">  <p><l>chans<s n="n"/><s n="ut"/></l>	<r>kjangs<s n="n"/><s n="m"/></r></p></e>
+<e r="RL">  <p><l>chans<s n="n"/><s n="ut"/></l>	<r>nubbesjanse<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>chans<s n="n"/><s n="ut"/></l>	<r>sjanse<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>chapeau-claque<s n="n"/><s n="ut"/></l>	<r>sort<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>chapeau-claque<s n="n"/><s n="ut"/></l>	<r>svart<s n="n"/><s n="nt"/></r></p><par n="sgpl:sp"/></e>
@@ -15304,6 +15306,7 @@
 <e vr="nno"><p><l>övlig</l>                   <r>sedvanleg</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>övlig</l>                   <r>sedvanlig</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>övre</l>                    <r>øvre</r></p><par n="adj_sint"/></e>
+<e>         <p><l>sist</l>                    <r>sist</r></p><par n="adj_sint"/></e>
 <e>         <p><l>övrig</l>                   <r>øvrig</r></p><par n="adj"/></e>
 <e>         <p><l>nära</l>                    <r>nær</r></p><par n="adj_sint"/></e>
 <e>         <p><l>främre</l>                  <r>fremre</r></p><par n="adj_sint"/></e>
@@ -15323,6 +15326,13 @@
 <e vr="nno"><p><l>det<b/>vill<b/>säga<s n="adv"/></l><r>det<b/>vil<b/>seie<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>det<b/>vill<b/>säga<s n="adv"/></l><r>det<b/>vil<b/>si<s n="adv"/></r></p></e>
 <e>         <p><l>sakta<s n="adv"/><s n="pst"/></l><r>sakte<s n="adv"/></r></p></e>
+<e vr="nno"><p><l>iväg<s n="adv"/></l><r>i<b/>veg<s n="adv"/></r></p></e>
+<e vr="nob"><p><l>iväg<s n="adv"/></l><r>i<b/>vei<s n="adv"/></r></p></e>
+<e vr="nno"><p><l>utanpå<s n="adv"/></l><r>utanpå<s n="adv"/></r></p></e>
+<e vr="nob"><p><l>utanpå<s n="adv"/></l><r>utenpå<s n="adv"/></r></p></e>
+<e vr="nno"><p><l>innantill<s n="adv"/></l><r>innanpå<s n="adv"/></r></p></e>
+<e vr="nob"><p><l>innantill<s n="adv"/></l><r>innenpå<s n="adv"/></r></p></e>
+
 
 <e><p><l>dags<s n="adv"/></l><r>på<b/>tide<s n="adv"/></r></p></e>
 <e><p><l>på<s n="adv"/></l><r>på<s n="adv"/></r></p></e>
@@ -17888,6 +17898,8 @@
 <e>         <p><l>finkamma</l>	<r>finkjemme</r></p><par n="vblex"/></e>
 <e>         <p><l>finna</l>	<r>eksistere</r></p><par n="vblex"/></e>
 <e>         <p><l>finna</l>	<r>finne</r></p><par n="vblex"/></e>
+<e vr="nno"><p><l>finna</l>	<r>finnast</r></p><par n="vblex:pstv"/></e>
+<e vr="nob"><p><l>finna</l>	<r>finnes</r></p><par n="vblex:pstv"/></e>
 <e vr="nno"><p><l>finna</l>	<r>synast</r></p><par n="vblex:pstv"/></e>
 <e vr="nob"><p><l>finna</l>	<r>synes</r></p><par n="vblex:pstv"/></e>
 <e>         <p><l>finputsa</l>	<r>finpusse</r></p><par n="vblex"/></e>
@@ -21836,7 +21848,6 @@
 <e vr="nob"><p><l>skrinlägga</l>	<r>skrinlegge</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>skrinlägga</l>	<r>skrinleggje</r></p><par n="vblex"/></e>
 <e>         <p><l>skritta</l>	<r>skritte</r></p><par n="vblex"/></e>
-<e>         <p><l>skriva</l>	<r>skreve</r></p><par n="vblex"/></e>
 <e>         <p><l>skriva</l>	<r>skrive</r></p><par n="vblex"/></e>
 <e>         <p><l>skrodera</l>	<r>bramme</r></p><par n="vblex"/></e>
 <e>         <p><l>skrodera</l>	<r>braute</r></p><par n="vblex"/></e>
