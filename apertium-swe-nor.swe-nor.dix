@@ -15811,12 +15811,10 @@
 <e vr="nob"><p><l>likväl<s n="adv"/></l>	<r>allikevel<s n="adv"/></r></p></e>
 <e>         <p><l>likväl<s n="adv"/></l>	<r>lell<s n="adv"/></r></p></e>
 <e>         <p><l>likväl<s n="adv"/></l>	<r>likevel<s n="adv"/></r></p></e>
-<e>         <p><l>lite<s n="adv"/></l>	<r>lite<s n="adv"/></r></p></e>
-<e>         <p><l>lite<s n="adv"/></l>	<r>litt<s n="adv"/></r></p></e>
-<e>         <p><l>lite<s n="adv"/></l>	<r>over<b/>lang<s n="adv"/></r></p></e>
-<e>         <p><l>lite<s n="adv"/></l>	<r>over<b/>langs<s n="adv"/></r></p></e>
-<e>         <p><l>lite<s n="adv"/></l>	<r>småningom<s n="adv"/></r></p></e>
-<e>         <p><l>lite<s n="adv"/><s n="pst"/></l>	<r>lite<s n="adv"/></r></p></e>
+<e r="RL">  <p><l>lite<s n="adv"/><s n="pst"/></l>	<r>over<b/>lang<s n="adv"/></r></p></e>
+<e r="RL">  <p><l>lite<s n="adv"/><s n="pst"/></l>	<r>over<b/>langs<s n="adv"/></r></p></e>
+<e r="RL">  <p><l>lite<s n="adv"/><s n="pst"/></l>	<r>småningom<s n="adv"/></r></p></e>
+<e r="RL">  <p><l>lite<s n="adv"/><s n="pst"/></l>	<r>lite<s n="adv"/></r></p></e>
 <e>         <p><l>lite<s n="adv"/><s n="pst"/></l>	<r>litt<s n="adv"/></r></p></e>
 <e>         <p><l>litervis<s n="adv"/></l>	<r>litervis<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>lyckligen<s n="adv"/></l>	<r>lukkelegvis<s n="adv"/></r></p></e>
