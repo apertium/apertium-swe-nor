@@ -49,7 +49,7 @@
       <program name="lt-proc -e">
         <file name="swe-nno.automorf.bin"/>
       </program>
-      <program name="cg-proc -w">
+      <program name="cg-proc -w -t">
         <file name="swe-nor.rlx.bin"/>
       </program>
     </pipeline>
@@ -113,7 +113,7 @@
       <program name="lt-proc -b">
         <file name="swe-nno.autobil.bin"/>
       </program>
-      <program name="lrx-proc -m">
+      <program name="lrx-proc -m -t">
         <file name="swe-nno.autolex.bin"/>
       </program>
     </pipeline>
@@ -136,7 +136,7 @@
       <program name="lrx-proc -m">
         <file name="swe-nno.autolex.bin"/>
       </program>
-      <program name="apertium-transfer -b">
+      <program name="apertium-transfer -b -t">
         <file name="apertium-swe-nor.swe-nno.t1x"/>
         <file name="swe-nno.t1x.bin"/>
       </program>
@@ -164,7 +164,7 @@
         <file name="apertium-swe-nor.swe-nno.t1x"/>
         <file name="swe-nno.t1x.bin"/>
       </program>
-      <program name="apertium-interchunk">
+      <program name="apertium-interchunk -t">
         <file name="apertium-swe-nor.swe-nno.t2x"/>
         <file name="swe-nno.t2x.bin"/>
       </program>
@@ -286,7 +286,7 @@
       <program name="lt-proc -e">
         <file name="swe-nob.automorf.bin"/>
       </program>
-      <program name="cg-proc -w">
+      <program name="cg-proc -w -t">
         <file name="swe-nor.rlx.bin"/>
       </program>
     </pipeline>
@@ -350,7 +350,7 @@
       <program name="lt-proc -b">
         <file name="swe-nob.autobil.bin"/>
       </program>
-      <program name="lrx-proc -m">
+      <program name="lrx-proc -m -t">
         <file name="swe-nob.autolex.bin"/>
       </program>
     </pipeline>
@@ -373,7 +373,7 @@
       <program name="lrx-proc -m">
         <file name="swe-nob.autolex.bin"/>
       </program>
-      <program name="apertium-transfer -b">
+      <program name="apertium-transfer -b -t">
         <file name="apertium-swe-nor.swe-nob.t1x"/>
         <file name="swe-nob.t1x.bin"/>
       </program>
@@ -401,7 +401,7 @@
         <file name="apertium-swe-nor.swe-nob.t1x"/>
         <file name="swe-nob.t1x.bin"/>
       </program>
-      <program name="apertium-interchunk">
+      <program name="apertium-interchunk -t">
         <file name="apertium-swe-nor.swe-nob.t2x"/>
         <file name="swe-nob.t2x.bin"/>
       </program>
@@ -523,7 +523,7 @@
       <program name="lt-proc -e -w">
         <file name="nno-swe.automorf.bin"/>
       </program>
-      <program name="cg-proc -w">
+      <program name="cg-proc -w -t">
         <file name="nno-swe.rlx.bin"/>
       </program>
     </pipeline>
@@ -587,7 +587,7 @@
       <program name="lt-proc -b">
         <file name="nor-swe.autobil.bin"/>
       </program>
-      <program name="lrx-proc -m">
+      <program name="lrx-proc -m -t">
         <file name="nor-swe.autolex.bin"/>
       </program>
     </pipeline>
@@ -610,7 +610,7 @@
       <program name="lrx-proc -m">
         <file name="nor-swe.autolex.bin"/>
       </program>
-      <program name="apertium-transfer -b">
+      <program name="apertium-transfer -b -t">
         <file name="apertium-swe-nor.nor-swe.t1x"/>
         <file name="nor-swe.t1x.bin"/>
       </program>
@@ -638,7 +638,7 @@
         <file name="apertium-swe-nor.nor-swe.t1x"/>
         <file name="nor-swe.t1x.bin"/>
       </program>
-      <program name="apertium-interchunk">
+      <program name="apertium-interchunk -t">
         <file name="apertium-swe-nor.nor-swe.t2x"/>
         <file name="nor-swe.t2x.bin"/>
       </program>
@@ -760,7 +760,7 @@
       <program name="lt-proc -e -w">
         <file name="nob-swe.automorf.bin"/>
       </program>
-      <program name="cg-proc -w">
+      <program name="cg-proc -w -t">
         <file name="nob-swe.rlx.bin"/>
       </program>
     </pipeline>
@@ -824,7 +824,7 @@
       <program name="lt-proc -b">
         <file name="nor-swe.autobil.bin"/>
       </program>
-      <program name="lrx-proc -m">
+      <program name="lrx-proc -m -t">
         <file name="nor-swe.autolex.bin"/>
       </program>
     </pipeline>
@@ -847,7 +847,7 @@
       <program name="lrx-proc -m">
         <file name="nor-swe.autolex.bin"/>
       </program>
-      <program name="apertium-transfer -b">
+      <program name="apertium-transfer -b -t">
         <file name="apertium-swe-nor.nor-swe.t1x"/>
         <file name="nor-swe.t1x.bin"/>
       </program>
@@ -875,7 +875,7 @@
         <file name="apertium-swe-nor.nor-swe.t1x"/>
         <file name="nor-swe.t1x.bin"/>
       </program>
-      <program name="apertium-interchunk">
+      <program name="apertium-interchunk -t">
         <file name="apertium-swe-nor.nor-swe.t2x"/>
         <file name="nor-swe.t2x.bin"/>
       </program>
