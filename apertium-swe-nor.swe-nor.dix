@@ -14646,8 +14646,8 @@
 <e>         <p><l>rigorös</l>                 <r>rigorøs</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>rik</l>                     <r>rik</r></p><par n="adj_sint"/></e>
 <e>         <p><l>riktig</l>                  <r>riktig</r></p><par n="adj_sint"/></e>
-<e>         <p><l>riktig</l>                  <r>veldig</r></p><par n="adj_sint"/></e>
-<e>         <p><l>riktiger</l>                <r>riktig</r></p><par n="adj:adj_sint"/></e>
+<e r="LR">  <p><l>riktig</l>                  <r>veldig</r></p><par n="adj_sint"/></e>
+<e r="LR">  <p><l>riktiger</l>                <r>riktig</r></p><par n="adj:adj_sint"/></e>
 <e>         <p><l>rimlig</l>                  <r>rettferdig</r></p><par n="adj_sint"/></e>
 <e vr="nno"><p><l>rimlig</l>                  <r>rimeleg</r></p><par n="adj_sint"/></e>
 <e vr="nob"><p><l>rimlig</l>                  <r>rimelig</r></p><par n="adj_sint"/></e>
@@ -15936,8 +15936,6 @@
 <e>         <p><l>mäkta<s n="adv"/></l>	<r>staurande<s n="adv"/></r></p></e>
 <e>         <p><l>mäkta<s n="adv"/></l>	<r>staurende<s n="adv"/></r></p></e>
 <e r="LR">  <p><l>mäkta<s n="adv"/></l>	<r>steika<s n="adv"/></r></p></e>
-<e>         <p><l>mäkta<s n="adv"/></l>	<r>særs<s n="adv"/></r></p></e>
-<e>         <p><l>mäkta<s n="adv"/></l>	<r>veldig<s n="adv"/></r></p></e>
 <e>         <p><l>mäkta<s n="adv"/></l>	<r>ørande<s n="adv"/></r></p></e>
 <e>         <p><l>mäkta<s n="adv"/></l>	<r>ørende<s n="adv"/></r></p></e>
 <e>         <p><l>måhända<s n="adv"/></l>	<r>kan<b/>hende<s n="adv"/></r></p></e>
@@ -16371,8 +16369,6 @@
 <e>         <p><l>urbota<s n="adv"/></l>	<r>staurande<s n="adv"/></r></p></e>
 <e>         <p><l>urbota<s n="adv"/></l>	<r>staurende<s n="adv"/></r></p></e>
 <e r="LR">  <p><l>urbota<s n="adv"/></l>	<r>steika<s n="adv"/></r></p></e>
-<e>         <p><l>urbota<s n="adv"/></l>	<r>særs<s n="adv"/></r></p></e>
-<e>         <p><l>urbota<s n="adv"/></l>	<r>veldig<s n="adv"/></r></p></e>
 <e>         <p><l>urbota<s n="adv"/></l>	<r>ørande<s n="adv"/></r></p></e>
 <e>         <p><l>urbota<s n="adv"/></l>	<r>ørende<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>utanför<s n="adv"/></l>	<r>utanfor<s n="adv"/></r></p></e>
