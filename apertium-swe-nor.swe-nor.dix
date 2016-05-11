@@ -12107,7 +12107,7 @@
 <e>         <p><l>träd<s n="n"/><s n="nt"/></l>	<r>tre<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>träd<s n="n"/><s n="nt"/></l>	<r>trevirke<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>trädgård<s n="n"/><s n="ut"/></l>	<r>hage<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>trädgård<s n="n"/><s n="ut"/></l>	<r>have<s n="n"/><s n="m"/></r></p></e>
+<e r="RL">  <p><l>trädgård<s n="n"/><s n="ut"/></l>	<r>have<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>trädgårdsodling<s n="n"/><s n="ut"/></l>	<r>hagebruk<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>trädgårdsskötsel<s n="n"/><s n="ut"/></l>	<r>hagebruk<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>träff<s n="n"/><s n="ut"/></l>	<r>treff<s n="n"/><s n="nt"/></r></p></e>
@@ -16406,7 +16406,6 @@
 <e vr="nno"><p><l>varav<s n="adv"/></l>	<r>korav<s n="adv"/></r></p></e>
 <e r="RL">  <p><l>varför<s n="adv"/></l>	<r>hvi<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>varför<s n="adv"/></l>	<r>hvorfor<s n="adv"/></r></p></e>
-<e>         <p><l>varför<s n="adv"/></l>	<r>korfor<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>varför<s n="adv"/></l>	<r>korfor<s n="adv"/></r></p></e>
 <e r="RL">  <p><l>varför<s n="adv"/></l>	<r>kvi<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>varför<s n="adv"/></l>	<r>kvifor<s n="adv"/></r></p></e>
