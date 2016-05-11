@@ -134,8 +134,6 @@
         <let><clip pos="1" part="gen"/><concat><lit v=""/></concat></let>
       </when></choose>
 
-      <let><clip pos="1" part="cas"/><lit v=""/></let>
-
       <out><lu><clip pos="1" part="whole"/></lu></out>
       <!-- This needs much more extensive testing: -->
       <!-- <choose> -->

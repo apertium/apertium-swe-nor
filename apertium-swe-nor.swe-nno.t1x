@@ -385,12 +385,14 @@
 
   <section-def-macros>
     <def-macro n="set_ntags" npar="1"
-               c="arg.1: (proper) noun. Puts tags of noun in ntags (for use as chunk tags).
-                  No 'nom' tag used in nno.">
+               c="arg.1: (proper) noun. Puts tags of noun in ntags (for use as chunk tags).">
       <let><var n="ntags"/><clip pos="1" side="tl" part="tags"/></let>
-      <choose><when>
-        <test><equal><clip pos="1" side="tl" part="cas"/><lit-tag v="nom"/></equal></test>
-        <let><clip pos="1" side="tl" part="cas"/><lit v=""/></let>
+      <choose><when c="bidix removed case => use sl case in ntags">
+        <test><and>
+          <equal><clip pos="1" side="tl" part="cas"/><lit v=""/></equal>
+          <not><equal><clip pos="1" side="sl" part="cas"/><lit v=""/></equal></not>
+        </and></test>
+        <append n="ntags"><clip pos="1" side="sl" part="cas"/></append>
       </when></choose>
     </def-macro>
 
@@ -678,9 +680,16 @@
     </def-macro>
 
     <def-macro n="out_gen-prep" npar="1"
-               c="arg.1: noun/adj. Only acts on genitives. Adds a space after.">
-      <choose><when>
-        <test><equal><clip pos="1" side="sl" part="cas"/><lit-tag v="gen"/></equal></test>
+               c="arg.1: noun/adj/det. Only acts on genitives. Adds a space after.">
+      <choose><when c="Translating from genitive,
+                       but not into (bidix-specified) genitive adj">
+        <test><and>
+          <equal><clip pos="1" side="sl" part="cas"/><lit-tag v="gen"/></equal>
+          <not><and>
+            <equal><clip pos="1" side="tl" part="cas"/><lit-tag v="gen"/></equal>
+            <begins-with><clip pos="1" side="tl" part="a_adj"/><lit-tag v="adj"/></begins-with>
+          </and></not>
+        </and></test>
         <choose>
           <when><test><in><clip pos="1" side="tl" part="lemh"/><list n="gen-i"/></in></test>
           <let><var n="gen-prep"/><lit v="i"/></let></when>
@@ -1575,6 +1584,8 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
       </pattern>
       <action>
         <let><var n="c_name"/><lit v="adj"/></let>
+        <call-macro n="out_gen-prep"><with-param pos="1"/></call-macro>
+        <call-macro n="set_ntags"><with-param pos="1"/></call-macro>
         <call-macro n="set_gender1.adj"><with-param pos="1"/></call-macro>
         <call-macro n="set_grau_aux1"><with-param pos="1"/></call-macro>
         <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>

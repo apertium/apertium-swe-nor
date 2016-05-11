@@ -23,6 +23,10 @@
     <def-cat n="prep_gen">
       <cat-item lemma="gen-prep" tags="pr"/>
     </def-cat>
+    <def-cat n="adjngen">
+      <cat-item tags="n.*.gen"/>
+      <cat-item tags="adj.*.gen"/>
+    </def-cat>
     <def-cat n="ngen">
       <cat-item tags="n.*.gen"/>
     </def-cat>
@@ -846,7 +850,7 @@
 
     <!-- The regular possessive noun phrases, with more complex
          transfer operations.-->
-    <rule comment="PREP_GEN NGEN: [til] mannens => mannen sin
+    <rule comment="PREP_GEN ADJNGEN: [til] mannens => mannen sin
                    Very heuristic fallback rule.
                    If we can't match with the below rules, turn the
                    genitive -s into 'sin' garpegenitiv instead.
@@ -859,7 +863,7 @@
                    So let's just hope plurals possess plurals etc...">
       <pattern>
         <pattern-item n="prep_gen"/>
-        <pattern-item n="ngen"/>
+        <pattern-item n="adjngen"/>
       </pattern>
       <action>
         <call-macro n="set_ana"><with-param pos="2"/></call-macro>
