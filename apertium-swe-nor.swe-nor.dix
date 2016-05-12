@@ -9014,10 +9014,8 @@
 <e>         <p><l>plagiat<s n="n"/><s n="nt"/></l>	<r>plagiat<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>plan<s n="n"/><s n="nt"/></l>	<r>etasje<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>plan<s n="n"/><s n="nt"/></l>	<r>fly<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>plan<s n="n"/><s n="nt"/></l>	<r>plan<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>plan<s n="n"/><s n="nt"/></l>	<r>plan<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>plan<s n="n"/><s n="ut"/></l>	<r>plan<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>plan<s n="n"/><s n="ut"/></l>	<r>plan<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>planering<s n="n"/><s n="ut"/></l>	<r>planlegging<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>planet<s n="n"/><s n="ut"/></l>	<r>fly<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>planet<s n="n"/><s n="ut"/></l>	<r>planet<s n="n"/><s n="m"/></r></p></e>
@@ -15199,7 +15197,6 @@
 <e vr="nob"><p><l>vid</l>                     <r>bred</r></p><par n="adj_sint"/></e>
 <e vr="nno"><p><l>vid</l>                     <r>brei</r></p><par n="adj_sint"/></e>
 <e>         <p><l>vid</l>                     <r>rom</r></p><par n="adj_sint"/></e>
-<e>         <p><l>vid</l>                     <r>ved</r></p><par n="adj_sint"/></e>
 <e>         <p><l>vid</l>                     <r>vid</r></p><par n="adj_sint"/></e>
 <e>         <p><l>vidskeplig</l>              <r>overtroisk</r></p><par n="adj_sint"/></e>
 <e vr="nno"><p><l>vidunderlig</l>             <r>vedunderleg</r></p><par n="adj_sint:adj"/></e>
@@ -19490,8 +19487,6 @@
 <e>         <p><l>kalka</l>	<r>kalke</r></p><par n="vblex"/></e>
 <e>         <p><l>kalkera</l>	<r>kalkere</r></p><par n="vblex"/></e>
 <e>         <p><l>kalkylera</l>	<r>kalkulere</r></p><par n="vblex"/></e>
-<e vr="nno"><p><l>kalla</l>	<r>heite</r></p><par n="vblex"/></e>
-<e vr="nob"><p><l>kalla</l>	<r>hete</r></p><par n="vblex"/></e>
 <e>         <p><l>kalla</l>	<r>kalle</r></p><par n="vblex"/></e>
 <e>         <p><l>kalla</l>	<r>ringe</r></p><par n="vblex"/></e>
 <e>         <p><l>kalva</l>	<r>kalve</r></p><par n="vblex"/></e>
@@ -20229,7 +20224,6 @@
 <e>         <p><l>lova</l>	<r>gjøle</r></p><par n="vblex"/></e>
 <e>         <p><l>lova</l>	<r>høle</r></p><par n="vblex"/></e>
 <e>         <p><l>lova</l>	<r>love</r></p><par n="vblex"/></e>
-<e>         <p><l>lova</l>	<r>løfte</r></p><par n="vblex"/></e>
 <e>         <p><l>lova</l>	<r>panegyrere</r></p><par n="vblex"/></e>
 <e>         <p><l>lova</l>	<r>rose</r></p><par n="vblex"/></e>
 <e>         <p><l>lovprisa</l>	<r>lovprise</r></p><par n="vblex"/></e>
@@ -23491,8 +23485,6 @@
 <e vr="nno"><p><l>utfärda</l>	<r>førebu</r></p><par n="vblex"/></e>
 <e>         <p><l>utfärda</l>	<r>utarbeide</r></p><par n="vblex"/></e>
 <e>         <p><l>utfärda</l>	<r>utferde</r></p><par n="vblex"/></e>
-<e>         <p><l>utfästa</l>	<r>love</r></p><par n="vblex"/></e>
-<e>         <p><l>utfästa</l>	<r>løfte</r></p><par n="vblex"/></e>
 <e>         <p><l>utföra</l>	<r>utføre</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>utge</l>	<r>sleppe</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>utge</l>	<r>utgi</r></p><par n="vblex"/></e>
