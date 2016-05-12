@@ -492,7 +492,7 @@
         <file name="nor-swe.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
-        <file name="nor-swe.autolex.bin"/>
+        <file name="nno-swe.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-swe-nor.nor-swe.t1x"/>
@@ -588,7 +588,7 @@
         <file name="nor-swe.autobil.bin"/>
       </program>
       <program name="lrx-proc -m -t">
-        <file name="nor-swe.autolex.bin"/>
+        <file name="nno-swe.autolex.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -608,7 +608,7 @@
         <file name="nor-swe.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
-        <file name="nor-swe.autolex.bin"/>
+        <file name="nno-swe.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b -t">
         <file name="apertium-swe-nor.nor-swe.t1x"/>
@@ -632,7 +632,7 @@
         <file name="nor-swe.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
-        <file name="nor-swe.autolex.bin"/>
+        <file name="nno-swe.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-swe-nor.nor-swe.t1x"/>
@@ -660,7 +660,7 @@
         <file name="nor-swe.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
-        <file name="nor-swe.autolex.bin"/>
+        <file name="nno-swe.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-swe-nor.nor-swe.t1x"/>
@@ -692,7 +692,7 @@
         <file name="nor-swe.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
-        <file name="nor-swe.autolex.bin"/>
+        <file name="nno-swe.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-swe-nor.nor-swe.t1x"/>
@@ -729,7 +729,7 @@
         <file name="nor-swe.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
-        <file name="nor-swe.autolex.bin"/>
+        <file name="nob-swe.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-swe-nor.nor-swe.t1x"/>
@@ -825,7 +825,7 @@
         <file name="nor-swe.autobil.bin"/>
       </program>
       <program name="lrx-proc -m -t">
-        <file name="nor-swe.autolex.bin"/>
+        <file name="nob-swe.autolex.bin"/>
       </program>
     </pipeline>
   </mode>
@@ -845,7 +845,7 @@
         <file name="nor-swe.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
-        <file name="nor-swe.autolex.bin"/>
+        <file name="nob-swe.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b -t">
         <file name="apertium-swe-nor.nor-swe.t1x"/>
@@ -869,7 +869,7 @@
         <file name="nor-swe.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
-        <file name="nor-swe.autolex.bin"/>
+        <file name="nob-swe.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-swe-nor.nor-swe.t1x"/>
@@ -897,7 +897,7 @@
         <file name="nor-swe.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
-        <file name="nor-swe.autolex.bin"/>
+        <file name="nob-swe.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-swe-nor.nor-swe.t1x"/>
@@ -929,7 +929,7 @@
         <file name="nor-swe.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
-        <file name="nor-swe.autolex.bin"/>
+        <file name="nob-swe.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
         <file name="apertium-swe-nor.nor-swe.t1x"/>

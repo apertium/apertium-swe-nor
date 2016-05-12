@@ -1,0 +1,29 @@
+<rules>
+  <rule>
+    <match lemma="hund" tags="n.*"><select lemma="hund" tags="n.*"/></match>
+  </rule>
+
+  <rule weight="1.0"> <match lemma="øre" tags="n.*"><select lemma="öra" tags="n.*"/></match> </rule>
+  <rule weight="2.0">
+    <match tags="det.qnt.*"/>
+    <match lemma="øre" tags="n.*"><select lemma="öre" tags="n.*"/></match>
+  </rule>
+
+  <rule weight="1.0"> <match lemma="skuld" tags="n.*"><select lemma="skuld" tags="n.*"/></match> </rule>
+  <rule weight="1.0"> <match lemma="skyld" tags="n.*"><select lemma="skuld" tags="n.*"/></match> </rule>
+  <rule weight="2.0">
+    <or>
+      <match tags="*.gen"/>
+      <match tags="det.pos.*"/>
+    </or>
+    <match lemma="skuld" tags="n.*"><select lemma="skull" tags="n.*"/></match>
+  </rule>
+  <rule weight="2.0">
+    <or>
+      <match tags="*.gen"/>
+      <match tags="det.pos.*"/>
+    </or>
+    <match lemma="skyld" tags="n.*"><select lemma="skull" tags="n.*"/></match>
+  </rule>
+
+</rules>

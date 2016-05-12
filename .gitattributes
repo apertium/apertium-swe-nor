@@ -5,7 +5,8 @@
 /Makefile.am -text
 /NEWS -text
 /README -text
-/apertium-swe-nor.nor-swe.lrx -text
+/apertium-swe-nor.nno-swe.lrx -text
+/apertium-swe-nor.nob-swe.lrx -text
 /apertium-swe-nor.nor-swe.t1x -text
 /apertium-swe-nor.nor-swe.t2x -text
 /apertium-swe-nor.nor-swe.t3x -text

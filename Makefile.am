@@ -43,7 +43,8 @@ TARGETS_COMMON = \
       $(PREFIX2b).rlx.bin \
       $(PREFIX2n).rlx.bin \
       $(PREFIX2).autobil.bin \
-      $(PREFIX2).autolex.bin \
+      $(PREFIX2b).autolex.bin \
+      $(PREFIX2n).autolex.bin \
       $(PREFIX2).autogen.bin \
       $(PREFIX2).t1x.bin \
       $(PREFIX2).t2x.bin \
@@ -117,13 +118,7 @@ $(PREFIX2n).rlx.bin: $(AP_SRC2n)/apertium-$(LANG2n).$(LANG2n).rlx
 ## Lexical selection rules
 ###############################################################################
 
-$(PREFIX1b).autolex.bin: $(BASENAME).$(PREFIX1b).lrx
-	lrx-comp $< $@
-
-$(PREFIX1n).autolex.bin: $(BASENAME).$(PREFIX1n).lrx
-	lrx-comp $< $@
-
-$(PREFIX2).autolex.bin: $(BASENAME).$(PREFIX2).lrx
+%.autolex.bin: $(BASENAME).%.lrx
 	lrx-comp $< $@
 
 ###############################################################################
