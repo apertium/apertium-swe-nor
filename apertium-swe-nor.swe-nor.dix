@@ -15335,7 +15335,7 @@
 
 <e><p><l>dags<s n="adv"/></l><r>på<b/>tide<s n="adv"/></r></p></e>
 <e><p><l>på<s n="adv"/></l><r>på<s n="adv"/></r></p></e>
-<e><p><l>in<s n="adv"/></l><r>i<s n="adv"/></r></p></e>
+<e><p><l>in<s n="adv"/></l><r>inn<s n="adv"/></r></p></e>
 <e><p><l>upp<s n="adv"/></l><r>opp<s n="adv"/></r></p></e>
 <e><p><l>sist<s n="adv"/></l><r>sist<s n="adv"/></r></p></e>
 <e><p><l>ut<s n="adv"/></l><r>ut<s n="adv"/></r></p></e>
@@ -17151,6 +17151,7 @@
 <e vr="nob"><p><l>bjuda</l>	<r>innby</r></p><par n="vblex"/></e>
 <e>         <p><l>bjuda</l>	<r>invitere</r></p><par n="vblex"/></e>
 <e>         <p><l>bjuda</l>	<r>tilby</r></p><par n="vblex"/></e>
+<e>         <p><l>bjuda</l>	<r>by</r></p><par n="vblex"/></e>
 <e>         <p><l>bjäbba</l>	<r>glafse</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e>         <p><l>bjäbba</l>	<r>plapre</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e>         <p><l>bladdra</l>	<r>glafse</r></p><par n="vblex_no-adjpp-pasv"/></e>
