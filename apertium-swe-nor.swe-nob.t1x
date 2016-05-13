@@ -191,6 +191,14 @@
       <attr-item tags="un"/>
       <attr-item tags="GD"/>
     </def-attr>
+
+    <def-attr n="adj_sg_gen">
+      <attr-item tags="mf"/>
+      <attr-item tags="nt"/>
+      <attr-item tags="GD"/>
+      <!-- only certain adj's can have this, at least in nob: -->
+      <!-- <attr-item tags="f"/> -->
+    </def-attr>
     <def-attr n="nbr">
       <attr-item tags="sg"/>
       <attr-item tags="pl"/>
@@ -291,13 +299,8 @@
     <def-macro n="set_gender1.adj" npar="1"
                c="arg.1: adj">
       <choose><when>
-        <test><or>
-          <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="m"/></equal>
-          <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="f"/></equal>
-          <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="ut"/></equal>
-          <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="GD"/></equal>
-        </or></test>
-        <let><clip pos="1" side="tl" part="gen"/><lit-tag v="mf"/></let>
+        <test><equal><clip pos="1" side="tl" part="adj_sg_gen"/><lit-tag v="GD"/></equal></test>
+        <let><clip pos="1" side="tl" part="adj_sg_gen"/><lit-tag v="mf"/></let>
       </when></choose>
     </def-macro>
 
@@ -309,15 +312,19 @@
                    but o/w make sure adj corresponds: 'helt.nt forfatterskap => heil.mf forfattarskap')">
       <choose><when>
         <test><or>
-          <equal><clip pos="2" side="tl" part="gen"/><lit-tag v="GD"/></equal>
-          <and>
-            <not><equal><clip pos="1" side="sl" part="gen"/><clip pos="1" side="tl" part="gen"/></equal></not>
-            <not><equal><clip pos="1" side="tl" part="gen"/><lit-tag v="f"/></equal></not>
-          </and>
+          <equal><clip pos="2" side="tl" part="adj_sg_gen"/><lit-tag v="GD"/></equal>
+          <not><equal><clip pos="1" side="sl" part="gen"/><clip pos="1" side="tl" part="gen"/></equal></not>
         </or></test>
-        <let><clip pos="2" side="tl" part="gen"/><clip pos="1" side="tl" part="gen"/></let>
+        <choose>
+          <when>
+            <test><equal><clip pos="1" side="tl" part="adj_sg_gen"/><lit-tag v="nt"/></equal></test>
+            <let><clip pos="2" side="tl" part="adj_sg_gen"/><lit-tag v="nt"/></let>
+          </when>
+          <otherwise>
+            <let><clip pos="2" side="tl" part="adj_sg_gen"/><lit-tag v="mf"/></let>
+          </otherwise>
+        </choose>
       </when></choose>
-      <call-macro n="set_gender1.adj"><with-param pos="2"/></call-macro>
     </def-macro>
 
 
