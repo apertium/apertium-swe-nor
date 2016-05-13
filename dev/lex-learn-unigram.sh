@@ -32,7 +32,7 @@ mk () {
 }
 
 TAGGED="${RPAIR}".tagged
-mkcmd () { xzcat "${LANG2}".corp.xz | apertium -d . "${RPAIR}"-tagger | apertium-cleanstream -n; }
+mkcmd () { xzcat "${LANG2}".corp.xz | parallel --pipe apertium -d . "${RPAIR}"-tagger | apertium-cleanstream -n; }
 mk "${TAGGED}"
 
 mkcmd () { sort "${TAGGED}" | uniq -c | sort -nr | sed $'s/^ *//;s/ /\t/'; }
