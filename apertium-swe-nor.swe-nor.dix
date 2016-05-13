@@ -24746,8 +24746,8 @@
 <e>         <p><l>Aten<s n="np"/></l>	<r>Athen<s n="np"/></r></p></e>
 <e>         <p><l>Australien<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Australia<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Azerbajdzjan<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Aserbajdsjan<s n="np"/><s n="top"/></r></p></e>
-<e vr="nno"><p><l>Azorerna<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Asorane<s n="np"/><s n="top"/></r></p></e>
-<e vr="nob"><p><l>Azorerna<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Azorene<s n="np"/><s n="top"/></r></p></e>
+<e vr="nno"><p><l>Azorerna<s n="np"/><s n="top"/><s n="pl"/></l>	<r>Asorane<s n="np"/><s n="top"/></r></p></e>
+<e vr="nob"><p><l>Azorerna<s n="np"/><s n="top"/><s n="pl"/></l>	<r>Azorene<s n="np"/><s n="top"/></r></p></e>
 <e vr="nno"><p><l>Baskien<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Baskarland<s n="np"/><s n="top"/></r></p></e>
 <e vr="nob"><p><l>Baskien<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Baskerland<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Belgien<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Belgia<s n="np"/><s n="top"/></r></p></e>
@@ -24764,8 +24764,8 @@
 <e>         <p><l>Centralamerika<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Mellom-Amerika<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Centralasien<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Sentral-Asia<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Centraleuropa<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Sentral-Europa<s n="np"/><s n="top"/></r></p></e>
-<e vr="nno"><p><l>Cooköarna<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Cookøyane<s n="np"/><s n="top"/></r></p></e>
-<e vr="nob"><p><l>Cooköarna<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Cookøyene<s n="np"/><s n="top"/></r></p></e>
+<e vr="nno"><p><l>Cooköarna<s n="np"/><s n="top"/><s n="pl"/></l>	<r>Cookøyane<s n="np"/><s n="top"/></r></p></e>
+<e vr="nob"><p><l>Cooköarna<s n="np"/><s n="top"/><s n="pl"/></l>	<r>Cookøyene<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Cypern<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Kypros<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Daphne<s n="np"/></l>	<r>Dafne<s n="np"/></r></p></e>
 <e>         <p><l>Dominica<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Dominika<s n="np"/><s n="top"/></r></p></e>
@@ -24859,7 +24859,8 @@
 <e>         <p><l>Riksbank<s n="np"/></l>	<r>Sentralbank<s n="np"/></r></p></e>
 <e>         <p><l>Rio<s n="np"/></l>	<r>Rio<b/>de<b/>Janeiro<s n="np"/></r></p></e>
 <e>         <p><l>Rom<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Roma<s n="np"/><s n="top"/></r></p></e>
-<e>         <p><l>Romerska<b/>kejsardömet<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Romerriket<s n="np"/><s n="top"/></r></p></e>
+<e vr="nno"><p><l>Romerska<b/>kejsardömet<s n="np"/></l>	<r>Romarriket<s n="np"/><s n="top"/></r></p></e>
+<e vr="nob"><p><l>Romerska<b/>kejsardömet<s n="np"/></l>	<r>Romerriket<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Rumänien<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Romania<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Ryssland<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Russland<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Sacharovpriset<s n="np"/><s n="org"/><s n="nt"/></l>	<r>Sakharovprisen<s n="np"/><s n="org"/><s n="m"/></r></p></e>
@@ -24872,8 +24873,8 @@
 <e>         <p><l>Saudiarabien<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Saudi-Arabia<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Schweiz<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Sveits<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Serbien<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Serbia<s n="np"/><s n="top"/></r></p></e>
-<e vr="nno"><p><l>Seychellerna<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Seychellane<s n="np"/><s n="top"/></r></p></e>
-<e vr="nob"><p><l>Seychellerna<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Seychellene<s n="np"/><s n="top"/></r></p></e>
+<e vr="nno"><p><l>Seychellerna<s n="np"/><s n="top"/><s n="pl"/></l>	<r>Seychellane<s n="np"/><s n="top"/></r></p></e>
+<e vr="nob"><p><l>Seychellerna<s n="np"/><s n="top"/><s n="pl"/></l>	<r>Seychellene<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Skagafjördur<s n="np"/></l>	<r>Skagafjörður<s n="np"/></r></p></e>
 <e>         <p><l>Skagerack<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Skagerrak<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Skandinavien<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Skandinavia<s n="np"/><s n="top"/></r></p></e>
@@ -24900,7 +24901,7 @@
 <e>         <p><l>Tjetjenien<s n="np"/></l>	<r>Tsjetsjenia<s n="np"/></r></p></e>
 <e>         <p><l>Transnistrien<s n="np"/></l>	<r>Transnistria<s n="np"/></r></p></e>
 <e>         <p><l>Trinidad<b/>och<b/>Tobago<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Trinidad<b/>og<b/>Tobago<s n="np"/><s n="top"/></r></p></e>
-<e>         <p><l>Tunisien<s n="np"/></l>	<r>Tunisia<s n="np"/></r></p></e>
+<e>         <p><l>Tunisien<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Tunisia<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Turkiet<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Tyrkia<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Ungern<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Ungarn<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Uzbekistan<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Usbekistan<s n="np"/><s n="top"/></r></p></e>
@@ -24909,22 +24910,20 @@
 <e vr="nob"><p><l>Världsbanken<s n="np"/></l>	<r>Verdensbanken<s n="np"/></r></p></e>
 <e vr="nno"><p><l>Världsbanken<s n="np"/></l>	<r>Verdsbanken<s n="np"/></r></p></e>
 <e vr="nob"><p><l>Västbanken<s n="np"/></l>	<r>Vestbredden<s n="np"/></r></p></e>
-<e vr="nno"><p><l>Västbanken<s n="np"/></l>	<r>Vestbreidda<s n="np"/></r></p></e>
-<e>         <p><l>Västeuropa<s n="np"/></l>	<r>Vest-Europa<s n="np"/></r></p></e>
+<e vr="nno"><p><l>Västbanken<s n="np"/><s n="top"/><s n="m"/></l>	<r>Vestbreidda<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e>         <p><l>Västeuropa<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Vest-Europa<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Västsahara<s n="np"/></l>	<r>Vest-Sahara<s n="np"/></r></p></e>
 <e>         <p><l>Werner<s n="np"/></l>	<r>Verner<s n="np"/></r></p></e>
 <e>         <p><l>Ålborg<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Aalborg<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Århus<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Aarhus<s n="np"/><s n="top"/></r></p></e>
-<e vr="nno"><p><l>Örn<s n="np"/></l>	<r>Ørn<s n="np"/></r></p></e>
-<e vr="nob"><p><l>Örn<s n="np"/></l>	<r>Ørner<s n="np"/></r></p></e>
 <e vr="nno"><p><l>Österrike-Ungern<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Austerrike-Ungarn<s n="np"/><s n="top"/></r></p></e>
 <e vr="nob"><p><l>Österrike-Ungern<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Østerrike-Ungarn<s n="np"/><s n="top"/></r></p></e>
 <e vr="nno"><p><l>Österrike<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Austerrike<s n="np"/><s n="top"/></r></p></e>
 <e vr="nob"><p><l>Österrike<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Østerrike<s n="np"/><s n="top"/></r></p></e>
-<e vr="nno"><p><l>Östersjön<s n="np"/><s n="top"/><s n="un"/></l>	<r>Austersjøen<s n="np"/><s n="top"/></r></p></e>
-<e vr="nob"><p><l>Östersjön<s n="np"/><s n="top"/><s n="un"/></l>	<r>Østersjøen<s n="np"/><s n="top"/></r></p></e>
-<e vr="nno"><p><l>Östeuropa<s n="np"/></l>	<r>Aust-Europa<s n="np"/></r></p></e>
-<e vr="nob"><p><l>Östeuropa<s n="np"/></l>	<r>Øst-Europa<s n="np"/></r></p></e>
+<e vr="nno"><p><l>Östersjön<s n="np"/><s n="top"/><s n="m"/></l>	<r>Austersjøen<s n="np"/><s n="top"/></r></p></e>
+<e vr="nob"><p><l>Östersjön<s n="np"/><s n="top"/><s n="m"/></l>	<r>Østersjøen<s n="np"/><s n="top"/></r></p></e>
+<e vr="nno"><p><l>Östeuropa<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Aust-Europa<s n="np"/><s n="top"/></r></p></e>
+<e vr="nob"><p><l>Östeuropa<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Øst-Europa<s n="np"/><s n="top"/></r></p></e>
 <e vr="nno"><p><l>Östra<b/>Grönland<s n="np"/></l>	<r>Austgrønland<s n="np"/></r></p></e>
 <e vr="nob"><p><l>Östra<b/>Grönland<s n="np"/></l>	<r>Østgrønland<s n="np"/></r></p></e>
 <e vr="nno"><p><l>Östtimor<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Aust-Timor<s n="np"/><s n="top"/></r></p></e>
@@ -35849,7 +35848,7 @@
 <e>         <p><l>Randal<s n="np"/></l>	<r>Randal<s n="np"/></r></p></e>
 <e>         <p><l>Paukkonen<s n="np"/></l>	<r>Paukkonen<s n="np"/></r></p></e>
 <e>         <p><l>Maranh<s n="np"/></l>	<r>Maranh<s n="np"/></r></p></e>
-<e>         <p><l>Edward<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="ind"/></l>	<r>Edward<s n="np"/></r></p></e>
+<e>         <p><l>Edward<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="ind"/></l>	<r>Edward<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
 <e>         <p><l>Mikola<s n="np"/></l>	<r>Mikola<s n="np"/></r></p></e>
 <e>         <p><l>Forovitsj<s n="np"/></l>	<r>Forovitsj<s n="np"/></r></p></e>
 <e>         <p><l>Hero<s n="np"/></l>	<r>Hero<s n="np"/></r></p></e>
