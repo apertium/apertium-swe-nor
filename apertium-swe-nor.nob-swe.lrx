@@ -1,7 +1,4 @@
 <rules>
-  <rule>
-    <match lemma="hund" tags="n.*"><select lemma="hund" tags="n.*"/></match>
-  </rule>
 
   <rule weight="1.0"> <match lemma="øre" tags="n.*"><select lemma="öra" tags="n.*"/></match> </rule>
   <rule weight="2.0">

@@ -1,4 +1,6 @@
 <rules>
+  <rule weight="1.0"> <match lemma="fela" tags="vblex.*"><select lemma="mislykkes" tags="vblex.pstv.*"/></match> </rule>
+
   <rule weight="1.0"> <match lemma="leka" tags="vblex.*"><select lemma="leke" tags="vblex.*"/></match> </rule>
   <rule weight="2.0">
     <match lemma="fisk" tags="n.*"/>
