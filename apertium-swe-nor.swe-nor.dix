@@ -15359,10 +15359,10 @@
 <e vr="nno"><p><l>fast<s n="adv"/></l><r>forutan<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>fast<s n="adv"/></l><r>foruten<s n="adv"/></r></p></e>
 
-<e><p><l>i<b/>dag<s n="adv"/></l><r>i<b/>dag<s n="adv"/></r></p></e>
-<e><p><l>i<b/>går<s n="adv"/></l><r>i<b/>går<s n="adv"/></r></p></e>
-<e vr="nob"><p><l>i<b/>morgon<s n="adv"/></l>	<r>i<b/>morgen<s n="adv"/></r></p></e>
-<e vr="nno"><p><l>i<b/>morgon<s n="adv"/></l>	<r>i<b/>morgon<s n="adv"/></r></p></e>
+<e><p><l>idag<s n="adv"/></l><r>i<b/>dag<s n="adv"/></r></p></e>
+<e><p><l>igår<s n="adv"/></l><r>i<b/>går<s n="adv"/></r></p></e>
+<e vr="nob"><p><l>imorgon<s n="adv"/></l>	<r>i<b/>morgen<s n="adv"/></r></p></e>
+<e vr="nno"><p><l>imorgon<s n="adv"/></l>	<r>i<b/>morgon<s n="adv"/></r></p></e>
 
 <e><p><l>igen<s n="adv"/></l><r>igjen<s n="adv"/></r></p></e>
 <e><p><l>kvar<s n="adv"/></l><r>igjen<s n="adv"/></r></p></e>
