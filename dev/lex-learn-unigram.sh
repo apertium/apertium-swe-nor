@@ -27,7 +27,8 @@ mk () {
     if [[ -f ${goal} ]]; then
         echo "${goal} exists, not recreating" >&2
     else
-        mkcmd >"${goal}"
+        mkcmd >"${goal}".tmp
+        mv "${goal}".tmp "${goal}"
     fi
 }
 
