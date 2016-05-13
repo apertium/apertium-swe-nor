@@ -28,6 +28,7 @@ dev/cross/exp-to-dix.awk -text
 dev/cross/preproc.sh -text
 dev/lex-learn-unigram.sh -text
 dev/precommit-testvoc.sh -text
+dev/swe-verb-consistency.awk -text
 dev/testvoc/bidix-unknowns.sh -text
 dev/testvoc/generation.sh -text
 dev/testvoc/streamparser.py -text
