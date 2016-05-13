@@ -24737,8 +24737,8 @@
 <e>         <p><l>Abchazien<s n="np"/></l>	<r>Abkhasia<s n="np"/></r></p></e>
 <e>         <p><l>Albanien<s n="np"/></l>	<r>Albania<s n="np"/></r></p></e>
 <e>         <p><l>Algeriet<s n="np"/></l>	<r>Algerie<s n="np"/></r></p></e>
-<e vr="nno"><p><l>Alperna<s n="np"/></l>	<r>Alpane<s n="np"/></r></p></e>
-<e vr="nob"><p><l>Alperna<s n="np"/></l>	<r>Alpene<s n="np"/></r></p></e>
+<e vr="nno"><p><l>Alperna<s n="np"/><s n="top"/><s n="pl"/></l>	<r>Alpane<s n="np"/><s n="top"/></r></p></e>
+<e vr="nob"><p><l>Alperna<s n="np"/><s n="top"/><s n="pl"/></l>	<r>Alpene<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Amsterdamfördraget<s n="np"/></l>	<r>Amsterdam-traktaten<s n="np"/></r></p></e>
 <e>         <p><l>Anne<s n="np"/></l>	<r>Anna<s n="np"/></r></p></e>
 <e>         <p><l>Armenien<s n="np"/></l>	<r>Armenia<s n="np"/></r></p></e>
@@ -24761,8 +24761,8 @@
 <e>         <p><l>Burma<s n="np"/></l>	<r>Myanmar<s n="np"/></r></p></e>
 <e>         <p><l>Carl<s n="np"/></l>	<r>Karl<s n="np"/></r></p></e>
 <e>         <p><l>Catherine<s n="np"/></l>	<r>Katarina<s n="np"/></r></p></e>
-<e vr="nno"><p><l>Caymanöarna<s n="np"/></l>	<r>Caymanøyane<s n="np"/></r></p></e>
-<e vr="nob"><p><l>Caymanöarna<s n="np"/></l>	<r>Caymanøyene<s n="np"/></r></p></e>
+<e vr="nno"><p><l>Caymanöarna<s n="np"/><s n="top"/><s n="pl"/></l>	<r>Caymanøyane<s n="np"/><s n="top"/></r></p></e>
+<e vr="nob"><p><l>Caymanöarna<s n="np"/><s n="top"/><s n="pl"/></l>	<r>Caymanøyene<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Centralamerika<s n="np"/></l>	<r>Mellom-Amerika<s n="np"/></r></p></e>
 <e>         <p><l>Centralasien<s n="np"/></l>	<r>Sentral-Asia<s n="np"/></r></p></e>
 <e>         <p><l>Centraleuropa<s n="np"/></l>	<r>Sentral-Europa<s n="np"/></r></p></e>
@@ -24778,8 +24778,8 @@
 <e>         <p><l>Edward<s n="np"/></l>	<r>Edvard<s n="np"/></r></p></e>
 <e>         <p><l>Egypten<s n="np"/></l>	<r>Egypt<s n="np"/></r></p></e>
 <e>         <p><l>Ekvatorialguinea<s n="np"/></l>	<r>Ekvatorial-Guinea<s n="np"/></r></p></e>
-<e vr="nno"><p><l>Elfenbenskusten<s n="np"/></l>	<r>Elfenbeinskysten<s n="np"/></r></p></e>
-<e vr="nob"><p><l>Elfenbenskusten<s n="np"/></l>	<r>Elfenbenskysten<s n="np"/></r></p></e>
+<e vr="nno"><p><l>Elfenbenskusten<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Elfenbeinskysten<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e vr="nob"><p><l>Elfenbenskusten<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Elfenbenskysten<s n="np"/><s n="top"/><s n="m"/></r></p></e>
 <e>         <p><l>Etiopien<s n="np"/></l>	<r>Etiopia<s n="np"/></r></p></e>
 <e vr="nob"><p><l>Europeiska<b/>unionen<s n="np"/></l>	<r>Den<b/>europeiske<b/>union<s n="np"/></r></p></e>
 <e vr="nno"><p><l>Europeiska<b/>unionen<s n="np"/></l>	<r>Den<b/>europeiske<b/>unionen<s n="np"/></r></p></e>
@@ -24789,16 +24789,17 @@
 <e vr="nno"><p><l>Filippinerna<s n="np"/></l>	<r>Filippinane<s n="np"/></r></p></e>
 <e vr="nob"><p><l>Filippinerna<s n="np"/></l>	<r>Filippinene<s n="np"/></r></p></e>
 <e>         <p><l>Florens<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Firenze<s n="np"/><s n="top"/></r></p></e>
-<e>         <p><l>Ford<s n="np"/></l>	<r>Ford<b/>Motor<b/>Company<s n="np"/></r></p></e>
+<e>         <p><l>Ford<b/>Motor<b/>Company<s n="np"/></l>	<r>Ford<b/>Motor<b/>Company<s n="np"/></r></p></e>
 <e>         <p><l>Frederik<s n="np"/></l>	<r>Fredrik<s n="np"/></r></p></e>
 <e>         <p><l>Färöarna<s n="np"/><s n="top"/><s n="pl"/></l>	<r>Færøyene<s n="np"/><s n="top"/></r></p></e>
 <e vr="nob"><p><l>Förenade<b/>Arabemiraten<s n="np"/></l>	<r>De<b/>forente<b/>arabiske<b/>emirater<s n="np"/></r></p></e>
 <e vr="nno"><p><l>Förenade<b/>Arabemiraten<s n="np"/></l>	<r>Dei<b/>sameinte<b/>arabiske<b/>emirata<s n="np"/></r></p></e>
 <e>         <p><l>Galicien<s n="np"/></l>	<r>Galicia<s n="np"/></r></p></e>
-<e vr="nno"><p><l>Gazaremsan<s n="np"/></l>	<r>Gazastripa<s n="np"/></r></p></e>
-<e vr="nob"><p><l>Gazaremsan<s n="np"/></l>	<r>Gazastripen<s n="np"/></r></p></e>
+<e vr="nno"><p><l>Gazaremsan<s n="np"/><s n="top"/></l>	<r>Gazastripa<s n="np"/><s n="top"/><s n="f"/></r></p></e>
+<e vr="nob"><p><l>Gazaremsan<s n="np"/><s n="top"/></l>	<r>Gazastripen<s n="np"/><s n="top"/><s n="m"/></r></p></e>
 <e>         <p><l>Genua<s n="np"/></l>	<r>Genova<s n="np"/></r></p></e>
-<e>         <p><l>Genèvekonventionen<s n="np"/></l>	<r>Genèvekonvensjonene<s n="np"/></r></p></e>
+<e vr="nno"><p><l>Genèvekonventionen<s n="np"/></l>	<r>Genèvekonvensjonane<s n="np"/></r></p></e>
+<e vr="nob"><p><l>Genèvekonventionen<s n="np"/></l>	<r>Genèvekonvensjonene<s n="np"/></r></p></e>
 <e>         <p><l>George<s n="np"/></l>	<r>Georg<s n="np"/></r></p></e>
 <e>         <p><l>Georgien<s n="np"/></l>	<r>Georgia<s n="np"/></r></p></e>
 <e>         <p><l>Grekland<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Hellas<s n="np"/><s n="top"/></r></p></e>
@@ -24873,7 +24874,7 @@
 <e>         <p><l>Rumänien<s n="np"/></l>	<r>Romania<s n="np"/></r></p></e>
 <e>         <p><l>Rut<s n="np"/></l>	<r>Ruta<s n="np"/></r></p></e>
 <e>         <p><l>Ryssland<s n="np"/></l>	<r>Russland<s n="np"/></r></p></e>
-<e>         <p><l>Sacharovpriset<s n="np"/></l>	<r>Sakharovprisen<s n="np"/></r></p></e>
+<e>         <p><l>Sacharovpriset<s n="np"/><s n="org"/><s n="nt"/></l>	<r>Sakharovprisen<s n="np"/><s n="org"/><s n="m"/></r></p></e>
 <e>         <p><l>Saint<b/>Helena<s n="np"/></l>	<r>St.<b/>Helena<s n="np"/></r></p></e>
 <e vr="nno"><p><l>Salomonöarna<s n="np"/><s n="top"/><s n="pl"/></l>	<r>Salomonøyane<s n="np"/><s n="top"/></r></p></e>
 <e vr="nob"><p><l>Salomonöarna<s n="np"/><s n="top"/><s n="pl"/></l>	<r>Salomonøyene<s n="np"/><s n="top"/></r></p></e>
