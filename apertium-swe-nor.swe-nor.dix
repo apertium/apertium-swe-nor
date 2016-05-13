@@ -130,6 +130,12 @@
 <e>       <p><l>NON_ANALYSIS</l>          <r>DUE_TO_LT_PROC_HANG</r></p></e>
 </pardef>
 
+<pardef n="nom_cas:" c="nom on swe-side; ignore genitives …">
+<e r="LR">  <p><l><s n="gen"/></l><r></r></p></e>
+<e>         <p><l><s n="nom"/></l><r></r></p></e>
+<e>       <p><l>NON_ANALYSIS</l>          <r>DUE_TO_LT_PROC_HANG</r></p></e>
+</pardef>
+
 
 <pardef n="n_acr" c="optional dot">
 <e>       <re>.?</re><p><l><s n="n"/><s n="nom"/></l><r><s n="n"/><s n="acr"/></r></p></e>
@@ -367,6 +373,12 @@
   <pardef n="adj_sint:/leg__adj">
 <e vr="nno"><p><l></l><r>leg</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l></l><r>lig</r></p><par n="adj_sint:adj"/></e>
+  </pardef>
+
+  <pardef n="gen_nbr:un_sp" c="TODO: GD?">
+<e r="LR">  <p><l><s n="ut"/><s n="sg"/></l>   <r><s n="un"/><s n="sp"/></r></p></e>
+<e r="LR">  <p><l><s n="nt"/><s n="sg"/></l>   <r><s n="un"/><s n="sp"/></r></p></e>
+<e>         <p><l><s n="un"/><s n="pl"/></l>   <r><s n="un"/><s n="sp"/></r></p></e>
   </pardef>
 
   <pardef n="gen_nbr" c="TODO: GD?">
@@ -698,13 +710,10 @@
 <e vr="nno"><p><l>annan<s n="prn"/><s n="ind"/></l>   <r>annan<s n="prn"/><s n="ind"/></r></p><par n="mf-gen_nbr"/></e>
 <e>         <p><l>denna<s n="prn"/><s n="dem"/></l>	<r>denne<s n="prn"/><s n="dem"/></r></p><par n="mf-gen_nbr"/></e>
 
-<e>         <p><l>som<s n="prn"/></l>                        <r>som<s n="prn"/></r></p></e>
+<e>         <p><l>vilken<s n="prn"/><s n="rel"/></l><r>som<s n="prn"/><s n="rel"/></r></p><par n="gen_nbr:un_sp"/></e>
+<e vr="nob"><p><l>vilken<s n="prn"/><s n="rel"/></l><r>hvilken<s n="det"/><s n="itg"/></r></p><par n="gen_nbr"/><par n="nom_cas:"/></e>
 
     <!-- HIC·SUNT·DRACONES. -->
-
-<e vr="nob"><p><l>vilken<s n="prn"/><s n="rel"/></l><r>hvilken<s n="det"/><s n="itg"/></r></p><par n="gen_nbr"/></e>
-<e vr="nno"><p><l>vilken<s n="prn"/><s n="rel"/></l><r>kva<s n="det"/><s n="itg"/></r></p><par n="gen_nbr"/></e>
-
 <e vr="nno"><p><l>samma<s n="prn"/></l><r>same<s n="det"/></r></p></e>
 <e vr="nob"><p><l>samma<s n="prn"/></l><r>samme<s n="det"/></r></p></e>
 
