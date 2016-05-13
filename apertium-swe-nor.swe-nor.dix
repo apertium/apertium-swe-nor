@@ -24734,22 +24734,22 @@
 
 <!-- Differing ones: -->
 
-<e>         <p><l>Abchazien<s n="np"/></l>	<r>Abkhasia<s n="np"/></r></p></e>
-<e>         <p><l>Albanien<s n="np"/></l>	<r>Albania<s n="np"/></r></p></e>
-<e>         <p><l>Algeriet<s n="np"/></l>	<r>Algerie<s n="np"/></r></p></e>
+<e>         <p><l>Abchazien<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Abkhasia<s n="np"/><s n="top"/></r></p></e>
+<e>         <p><l>Albanien<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Albania<s n="np"/><s n="top"/></r></p></e>
+<e>         <p><l>Algeriet<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Algerie<s n="np"/><s n="top"/></r></p></e>
 <e vr="nno"><p><l>Alperna<s n="np"/><s n="top"/><s n="pl"/></l>	<r>Alpane<s n="np"/><s n="top"/></r></p></e>
 <e vr="nob"><p><l>Alperna<s n="np"/><s n="top"/><s n="pl"/></l>	<r>Alpene<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Amsterdamfördraget<s n="np"/></l>	<r>Amsterdam-traktaten<s n="np"/></r></p></e>
 <e>         <p><l>Anne<s n="np"/></l>	<r>Anna<s n="np"/></r></p></e>
 <e>         <p><l>Armenien<s n="np"/></l>	<r>Armenia<s n="np"/></r></p></e>
-<e>         <p><l>Asien<s n="np"/></l>	<r>Asia<s n="np"/></r></p></e>
-<e vr="nob"><p><l>Aten<s n="np"/></l>	<r>Athen<s n="np"/></r></p></e>
+<e>         <p><l>Asien<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Asia<s n="np"/><s n="top"/></r></p></e>
+<e>         <p><l>Aten<s n="np"/></l>	<r>Athen<s n="np"/></r></p></e>
 <e>         <p><l>Australien<s n="np"/></l>	<r>Australia<s n="np"/></r></p></e>
-<e>         <p><l>Azerbajdzjan<s n="np"/></l>	<r>Aserbajdsjan<s n="np"/></r></p></e>
+<e>         <p><l>Azerbajdzjan<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Aserbajdsjan<s n="np"/><s n="top"/></r></p></e>
 <e vr="nno"><p><l>Azorerna<s n="np"/></l>	<r>Asorane<s n="np"/></r></p></e>
 <e vr="nob"><p><l>Azorerna<s n="np"/></l>	<r>Azorene<s n="np"/></r></p></e>
-<e vr="nno"><p><l>Baskien<s n="np"/></l>	<r>Baskarland<s n="np"/></r></p></e>
-<e vr="nob"><p><l>Baskien<s n="np"/></l>	<r>Baskerland<s n="np"/></r></p></e>
+<e vr="nno"><p><l>Baskien<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Baskarland<s n="np"/><s n="top"/></r></p></e>
+<e vr="nob"><p><l>Baskien<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Baskerland<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Belgien<s n="np"/></l>	<r>Belgia<s n="np"/></r></p></e>
 <e>         <p><l>Belgrad<s n="np"/></l>	<r>Beograd<s n="np"/></r></p></e>
 <e>         <p><l>Björn<s n="np"/></l>	<r>Bjørn<s n="np"/></r></p></e>
@@ -24757,10 +24757,9 @@
 <e>         <p><l>Bouvetön<s n="np"/></l>	<r>Bouvetøya<s n="np"/></r></p></e>
 <e>         <p><l>Brasilien<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Brasil<s n="np"/><s n="top"/></r></p></e>
 <e r="RL">  <p><l>Brasilien<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Brasilia<s n="np"/><s n="top"/></r></p></e>
-<e>         <p><l>Bulgarien<s n="np"/></l>	<r>Bulgaria<s n="np"/></r></p></e>
+<e>         <p><l>Bulgarien<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Bulgaria<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Burma<s n="np"/></l>	<r>Myanmar<s n="np"/></r></p></e>
-<e>         <p><l>Carl<s n="np"/></l>	<r>Karl<s n="np"/></r></p></e>
-<e>         <p><l>Catherine<s n="np"/></l>	<r>Katarina<s n="np"/></r></p></e>
+<e r="RL">  <p><l>Burma<s n="np"/></l>	<r>Burma<s n="np"/></r></p></e>
 <e vr="nno"><p><l>Caymanöarna<s n="np"/><s n="top"/><s n="pl"/></l>	<r>Caymanøyane<s n="np"/><s n="top"/></r></p></e>
 <e vr="nob"><p><l>Caymanöarna<s n="np"/><s n="top"/><s n="pl"/></l>	<r>Caymanøyene<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Centralamerika<s n="np"/></l>	<r>Mellom-Amerika<s n="np"/></r></p></e>
@@ -24770,27 +24769,25 @@
 <e>         <p><l>Christian<s n="np"/></l>	<r>Kristian<s n="np"/></r></p></e>
 <e vr="nno"><p><l>Cooköarna<s n="np"/></l>	<r>Cookøyane<s n="np"/></r></p></e>
 <e vr="nob"><p><l>Cooköarna<s n="np"/></l>	<r>Cookøyene<s n="np"/></r></p></e>
-<e>         <p><l>Cypern<s n="np"/></l>	<r>Kypros<s n="np"/></r></p></e>
+<e>         <p><l>Cypern<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Kypros<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Daphne<s n="np"/></l>	<r>Dafne<s n="np"/></r></p></e>
-<e>         <p><l>Dominica<s n="np"/></l>	<r>Dominika<s n="np"/></r></p></e>
-<e vr="nob"><p><l>Dominikanska<b/>republiken<s n="np"/></l>	<r>Den<b/>dominikanske<b/>republikk<s n="np"/></r></p></e>
-<e vr="nno"><p><l>Dominikanska<b/>republiken<s n="np"/></l>	<r>Den<b/>dominikanske<b/>republikken<s n="np"/></r></p></e>
-<e>         <p><l>Edward<s n="np"/></l>	<r>Edvard<s n="np"/></r></p></e>
+<e>         <p><l>Dominica<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Dominika<s n="np"/><s n="top"/></r></p></e>
+<e vr="nob"><p><l>Dominikanska<b/>republiken<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Den<b/>dominikanske<b/>republikk<s n="np"/><s n="top"/></r></p></e>
+<e vr="nno"><p><l>Dominikanska<b/>republiken<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Den<b/>dominikanske<b/>republikken<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Egypten<s n="np"/></l>	<r>Egypt<s n="np"/></r></p></e>
-<e>         <p><l>Ekvatorialguinea<s n="np"/></l>	<r>Ekvatorial-Guinea<s n="np"/></r></p></e>
+<e>         <p><l>Ekvatorialguinea<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Ekvatorial-Guinea<s n="np"/><s n="top"/></r></p></e>
 <e vr="nno"><p><l>Elfenbenskusten<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Elfenbeinskysten<s n="np"/><s n="top"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>Elfenbenskusten<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Elfenbenskysten<s n="np"/><s n="top"/><s n="m"/></r></p></e>
 <e>         <p><l>Etiopien<s n="np"/></l>	<r>Etiopia<s n="np"/></r></p></e>
-<e vr="nob"><p><l>Europeiska<b/>unionen<s n="np"/></l>	<r>Den<b/>europeiske<b/>union<s n="np"/></r></p></e>
-<e vr="nno"><p><l>Europeiska<b/>unionen<s n="np"/></l>	<r>Den<b/>europeiske<b/>unionen<s n="np"/></r></p></e>
-<e vr="nno"><p><l>Falklandsöarna<s n="np"/></l>	<r>Falklandsøyane<s n="np"/></r></p></e>
-<e vr="nob"><p><l>Falklandsöarna<s n="np"/></l>	<r>Falklandsøyene<s n="np"/></r></p></e>
+<e vr="nob"><p><l>Europeiska<b/>unionen<s n="np"/><s n="top"/><s n="ut"/></l>	<r>Den<b/>europeiske<b/>union<s n="np"/><s n="top"/></r></p></e>
+<e vr="nno"><p><l>Europeiska<b/>unionen<s n="np"/><s n="top"/><s n="ut"/></l>	<r>Den<b/>europeiske<b/>unionen<s n="np"/><s n="top"/></r></p></e>
+<e vr="nno"><p><l>Falklandsöarna<s n="np"/><s n="top"/><s n="pl"/></l>	<r>Falklandsøyane<s n="np"/><s n="top"/></r></p></e>
+<e vr="nob"><p><l>Falklandsöarna<s n="np"/><s n="top"/><s n="pl"/></l>	<r>Falklandsøyene<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Faxafloi<s n="np"/></l>	<r>Faxaflói<s n="np"/></r></p></e>
-<e vr="nno"><p><l>Filippinerna<s n="np"/></l>	<r>Filippinane<s n="np"/></r></p></e>
-<e vr="nob"><p><l>Filippinerna<s n="np"/></l>	<r>Filippinene<s n="np"/></r></p></e>
+<e vr="nno"><p><l>Filippinerna<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Filippinane<s n="np"/><s n="top"/></r></p></e>
+<e vr="nob"><p><l>Filippinerna<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Filippinene<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Florens<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Firenze<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Ford<b/>Motor<b/>Company<s n="np"/></l>	<r>Ford<b/>Motor<b/>Company<s n="np"/></r></p></e>
-<e>         <p><l>Frederik<s n="np"/></l>	<r>Fredrik<s n="np"/></r></p></e>
 <e>         <p><l>Färöarna<s n="np"/><s n="top"/><s n="pl"/></l>	<r>Færøyene<s n="np"/><s n="top"/></r></p></e>
 <e vr="nob"><p><l>Förenade<b/>Arabemiraten<s n="np"/></l>	<r>De<b/>forente<b/>arabiske<b/>emirater<s n="np"/></r></p></e>
 <e vr="nno"><p><l>Förenade<b/>Arabemiraten<s n="np"/></l>	<r>Dei<b/>sameinte<b/>arabiske<b/>emirata<s n="np"/></r></p></e>
@@ -24804,7 +24801,7 @@
 <e>         <p><l>Georgien<s n="np"/></l>	<r>Georgia<s n="np"/></r></p></e>
 <e>         <p><l>Grekland<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Hellas<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Grönland<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Grønland<s n="np"/><s n="top"/></r></p></e>
-<e>         <p><l>Göteborg<s n="np"/></l>	<r>Gøteborg<s n="np"/></r></p></e>
+<e>         <p><l>Göteborg<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Gøteborg<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Indien<s n="np"/><s n="top"/><s n="nt"/></l>	<r>India<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Indonesien<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Indonesia<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Italien<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Italia<s n="np"/><s n="top"/></r></p></e>
@@ -24817,10 +24814,10 @@
 <e>         <p><l>Kungariket<b/>Aksum<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Aksum<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Köpenhamn<s n="np"/><s n="top"/><s n="nt"/></l>	<r>København<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Leone<s n="np"/></l>	<r><s n="np"/></r></p></e>
-<e>         <p><l>Lettland<s n="np"/></l>	<r>Latvia<s n="np"/></r></p></e>
+<e>         <p><l>Lettland<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Latvia<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Libyen<s n="np"/></l>	<r>Libya<s n="np"/></r></p></e>
 <e>         <p><l>Lissabon<s n="np"/></l>	<r>Lisboa<s n="np"/></r></p></e>
-<e>         <p><l>Lucia<s n="np"/></l>	<r>Luciadagen<s n="np"/></r></p></e>
+<e>         <p><l>Lucia<s n="np"/><s n="al"/><s n="f"/></l>	<r>Luciadagen<s n="np"/><s n="al"/></r></p></e>
 <e>         <p><l>Luxemburg<s n="np"/></l>	<r>Luxembourg<s n="np"/></r></p></e>
 <e>         <p><l>Macau<s n="np"/></l>	<r>Macao<s n="np"/></r></p></e>
 <e>         <p><l>Makedonien<s n="np"/></l>	<r>Makedonia<s n="np"/></r></p></e>
@@ -24860,7 +24857,7 @@
 <e>         <p><l>Osmanska<b/>riket<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Det<b/>osmanske<b/>riket<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
 <e r="RL">  <p><l>Osmanska<b/>riket<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Det<b/>ottomanske<b/>riket<s n="np"/><s n="top"/><s n="nt"/></r></p></e>
 <e>         <p><l>Peder<s n="np"/></l>	<r>Peter<s n="np"/></r></p></e>
-<e>         <p><l>Peking<s n="np"/></l>	<r>Beijing<s n="np"/></r></p></e>
+<e>         <p><l>Peking<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Beijing<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Persiska<b/>riket<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Persia<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Philip<s n="np"/></l>	<r>Filip<s n="np"/></r></p></e>
 <e>         <p><l>Prag<s n="np"/></l>	<r>Praha<s n="np"/></r></p></e>
@@ -24906,16 +24903,16 @@
 <e vr="nob"><p><l>Sydostasien<s n="np"/></l>	<r>Sørøst-Asia<s n="np"/></r></p></e>
 <e>         <p><l>Syrien<s n="np"/></l>	<r>Syria<s n="np"/></r></p></e>
 <e>         <p><l>Söder<s n="np"/></l>	<r>Sør<s n="np"/></r></p></e>
-<e>         <p><l>Tadzjikistan<s n="np"/></l>	<r>Tadsjikistan<s n="np"/></r></p></e>
-<e>         <p><l>Tchad<s n="np"/></l>	<r>Tsjad<s n="np"/></r></p></e>
-<e vr="nno"><p><l>Thessaloniki<s n="np"/></l>	<r>Thessaloníki<s n="np"/></r></p></e>
+<e>         <p><l>Tadzjikistan<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Tadsjikistan<s n="np"/><s n="top"/></r></p></e>
+<e>         <p><l>Tchad<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Tsjad<s n="np"/><s n="top"/></r></p></e>
+<e>         <p><l>Thessaloniki<s n="np"/></l>	<r>Thessaloníki<s n="np"/></r></p></e>
 <e>         <p><l>Tjeckien<s n="np"/></l>	<r>Tsjekkia<s n="np"/></r></p></e>
-<e>         <p><l>Tjernobyl<s n="np"/></l>	<r>Tsjernobyl<s n="np"/></r></p></e>
+<e>         <p><l>Tjernobyl<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Tsjernobyl<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Tjetjenien<s n="np"/></l>	<r>Tsjetsjenia<s n="np"/></r></p></e>
 <e>         <p><l>Transnistrien<s n="np"/></l>	<r>Transnistria<s n="np"/></r></p></e>
-<e>         <p><l>Trinidad<b/>och<b/>Tobago<s n="np"/></l>	<r>Trinidad<b/>og<b/>Tobago<s n="np"/></r></p></e>
+<e>         <p><l>Trinidad<b/>och<b/>Tobago<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Trinidad<b/>og<b/>Tobago<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Tunisien<s n="np"/></l>	<r>Tunisia<s n="np"/></r></p></e>
-<e>         <p><l>Turkiet<s n="np"/></l>	<r>Tyrkia<s n="np"/></r></p></e>
+<e>         <p><l>Turkiet<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Tyrkia<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Ungern<s n="np"/></l>	<r>Ungarn<s n="np"/></r></p></e>
 <e>         <p><l>Uzbekistan<s n="np"/></l>	<r>Usbekistan<s n="np"/></r></p></e>
 <e vr="nob"><p><l>Vitryssland<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Hviterussland<s n="np"/><s n="top"/></r></p></e>
@@ -24927,8 +24924,8 @@
 <e>         <p><l>Västeuropa<s n="np"/></l>	<r>Vest-Europa<s n="np"/></r></p></e>
 <e>         <p><l>Västsahara<s n="np"/></l>	<r>Vest-Sahara<s n="np"/></r></p></e>
 <e>         <p><l>Werner<s n="np"/></l>	<r>Verner<s n="np"/></r></p></e>
-<e>         <p><l>Ålborg<s n="np"/></l>	<r>Aalborg<s n="np"/></r></p></e>
-<e>         <p><l>Århus<s n="np"/></l>	<r>Aarhus<s n="np"/></r></p></e>
+<e>         <p><l>Ålborg<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Aalborg<s n="np"/><s n="top"/></r></p></e>
+<e>         <p><l>Århus<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Aarhus<s n="np"/><s n="top"/></r></p></e>
 <e vr="nno"><p><l>Örn<s n="np"/></l>	<r>Ørn<s n="np"/></r></p></e>
 <e vr="nob"><p><l>Örn<s n="np"/></l>	<r>Ørner<s n="np"/></r></p></e>
 <e vr="nno"><p><l>Österrike-Ungern<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Austerrike-Ungarn<s n="np"/><s n="top"/></r></p></e>
@@ -24943,6 +24940,13 @@
 <e vr="nob"><p><l>Östra<b/>Grönland<s n="np"/></l>	<r>Østgrønland<s n="np"/></r></p></e>
 <e vr="nno"><p><l>Östtimor<s n="np"/></l>	<r>Aust-Timor<s n="np"/></r></p></e>
 <e vr="nob"><p><l>Östtimor<s n="np"/></l>	<r>Øst-Timor<s n="np"/></r></p></e>
+<e>         <p><l>Sydaustralien<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Sør-Australia<s n="np"/><s n="top"/></r></p></e>
+
+<!-- TODO: probably should differ: -->
+<e>         <p><l>Atlantpakta<s n="np"/></l>	<r>Atlantpakta<s n="np"/></r></p></e>
+<e>         <p><l>Atlanterhavspakta<s n="np"/></l>	<r>Atlanterhavspakta<s n="np"/></r></p></e>
+<e>         <p><l>Warszawapakta<s n="np"/></l>	<r>Warszawapakta<s n="np"/></r></p></e>
+<e>         <p><l>Frøya<s n="np"/></l>	<r>Frøya<s n="np"/></r></p></e>
 
 <!-- Identical, possibly apart from tags: -->
 <e>         <p><l>Søndergield<s n="np"/></l>	<r>Søndergield<s n="np"/></r></p></e>
@@ -25603,7 +25607,6 @@
 <e>         <p><l>Sollid<s n="np"/></l>	<r>Sollid<s n="np"/></r></p></e>
 <e>         <p><l>Shakespeare<s n="np"/></l>	<r>Shakespeare<s n="np"/></r></p></e>
 <e>         <p><l>Babs<s n="np"/></l>	<r>Babs<s n="np"/></r></p></e>
-<e>         <p><l>Atlanterhavspakta<s n="np"/></l>	<r>Atlanterhavspakta<s n="np"/></r></p></e>
 <e>         <p><l>Sollie<s n="np"/></l>	<r>Sollie<s n="np"/></r></p></e>
 <e>         <p><l>Kabelvåg<s n="np"/></l>	<r>Kabelvåg<s n="np"/></r></p></e>
 <e>         <p><l>Tytti<s n="np"/></l>	<r>Tytti<s n="np"/></r></p></e>
@@ -30070,7 +30073,6 @@
 <e>         <p><l>Inkonen<s n="np"/></l>	<r>Inkonen<s n="np"/></r></p></e>
 <e>         <p><l>Tujunen<s n="np"/></l>	<r>Tujunen<s n="np"/></r></p></e>
 <e>         <p><l>Perminov<s n="np"/></l>	<r>Perminov<s n="np"/></r></p></e>
-<e>         <p><l>Atlantpakta<s n="np"/></l>	<r>Atlantpakta<s n="np"/></r></p></e>
 <e>         <p><l>Marvin<s n="np"/></l>	<r>Marvin<s n="np"/></r></p></e>
 <e>         <p><l>Taipei<s n="np"/></l>	<r>Taipei<s n="np"/></r></p></e>
 <e>         <p><l>Grotli<s n="np"/></l>	<r>Grotli<s n="np"/></r></p></e>
@@ -31287,7 +31289,6 @@
 <e>         <p><l>Margaretha<s n="np"/></l>	<r>Margaretha<s n="np"/></r></p></e>
 <e>         <p><l>Schaft<s n="np"/></l>	<r>Schaft<s n="np"/></r></p></e>
 <e>         <p><l>Huuhka<s n="np"/></l>	<r>Huuhka<s n="np"/></r></p></e>
-<e>         <p><l>Warszawapakta<s n="np"/></l>	<r>Warszawapakta<s n="np"/></r></p></e>
 <e>         <p><l>Päivärinne<s n="np"/></l>	<r>Päivärinne<s n="np"/></r></p></e>
 <e>         <p><l>Hindar<s n="np"/></l>	<r>Hindar<s n="np"/></r></p></e>
 <e>         <p><l>Hebbelstrup<s n="np"/></l>	<r>Hebbelstrup<s n="np"/></r></p></e>
@@ -35859,7 +35860,7 @@
 <e>         <p><l>Randal<s n="np"/></l>	<r>Randal<s n="np"/></r></p></e>
 <e>         <p><l>Paukkonen<s n="np"/></l>	<r>Paukkonen<s n="np"/></r></p></e>
 <e>         <p><l>Maranh<s n="np"/></l>	<r>Maranh<s n="np"/></r></p></e>
-<e>         <p><l>Edward<s n="np"/><s n="ant"/><s n="m"/><s n="sg"/><s n="ind"/></l>	<r>Edward<s n="np"/><s n="ant"/><s n="m"/></r></p></e>
+<e>         <p><l>Edward<s n="np"/></l>	<r>Edward<s n="np"/></r></p></e>
 <e>         <p><l>Mikola<s n="np"/></l>	<r>Mikola<s n="np"/></r></p></e>
 <e>         <p><l>Forovitsj<s n="np"/></l>	<r>Forovitsj<s n="np"/></r></p></e>
 <e>         <p><l>Hero<s n="np"/></l>	<r>Hero<s n="np"/></r></p></e>
@@ -43185,7 +43186,6 @@
 <e>         <p><l>Johanna<s n="np"/><s n="ant"/><s n="f"/><s n="sg"/><s n="ind"/></l>	<r>Johanna<s n="np"/><s n="cog"/></r></p></e>
 <e>         <p><l>Bekkevar<s n="np"/></l>	<r>Bekkevar<s n="np"/></r></p></e>
 <e>         <p><l>Tryfos<s n="np"/></l>	<r>Tryfos<s n="np"/></r></p></e>
-<e>         <p><l>Frøya<s n="np"/></l>	<r>Frøya<s n="np"/></r></p></e>
 <e>         <p><l>Ryk<s n="np"/></l>	<r>Ryk<s n="np"/></r></p></e>
 <e>         <p><l>Leirpollen<s n="np"/></l>	<r>Leirpollen<s n="np"/></r></p></e>
 <e>         <p><l>Cauvin<s n="np"/></l>	<r>Cauvin<s n="np"/></r></p></e>
@@ -44431,7 +44431,6 @@
 <e>         <p><l>Bøstad<s n="np"/></l>	<r>Bøstad<s n="np"/></r></p></e>
 <e>         <p><l>Kustaa<s n="np"/></l>	<r>Kustaa<s n="np"/></r></p></e>
 <e>         <p><l>Tytti-Liisu<s n="np"/></l>	<r>Tytti-Liisu<s n="np"/></r></p></e>
-<e>         <p><l>Sør-Australia<s n="np"/></l>	<r>Sør-Australia<s n="np"/></r></p></e>
 <e>         <p><l>Fløtre<s n="np"/></l>	<r>Fløtre<s n="np"/></r></p></e>
 <e>         <p><l>Torvinen<s n="np"/></l>	<r>Torvinen<s n="np"/></r></p></e>
 <e>         <p><l>Mitrunen<s n="np"/></l>	<r>Mitrunen<s n="np"/></r></p></e>
