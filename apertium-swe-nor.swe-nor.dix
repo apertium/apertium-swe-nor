@@ -19958,6 +19958,7 @@
 <e>         <p><l>kränka</l>	<r>krenke</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>kräva</l>	<r>krevje</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>kräva</l>	<r>kreve</r></p><par n="vblex"/></e>
+<e vr="nno"><p><l>kräva</l>	<r>krevjast</r></p><par n="vblex:pstv"/></e>
 <e vr="nno"><p><l>krävas</l>	<r>krevjast</r></p><par n="vblex_pasv:pstv"/></e>
 <e vr="nob"><p><l>krävas</l>	<r>kreves</r></p><par n="vblex_pasv:pstv"/></e>
 <e>         <p><l>krångla</l>	<r>keivle</r></p><par n="vblex"/></e>
@@ -21791,8 +21792,8 @@
 <e>         <p><l>skildra</l>	<r>skildre</r></p><par n="vblex"/></e>
 <e>         <p><l>skilja</l>	<r>skilje</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>skilja</l>	<r>skille</r></p><par n="vblex"/></e>
-<e vr="nno"><p><l>skilja<b/>sig</l>	<r>skilje</r></p><par n="vblex"/></e>
-<e vr="nob"><p><l>skilja<b/>sig</l>	<r>skille</r></p><par n="vblex"/></e>
+<e vr="nno"><p><l>skilja<b/>sig<s n="vblex"/><s n="inf"/></l>	<r>skiljast<s n="vblex"/><s n="pstv"/><s n="inf"/></r></p></e>
+<e vr="nob"><p><l>skilja<b/>sig<s n="vblex"/><s n="inf"/></l>	<r>skilles<s n="vblex"/><s n="pstv"/><s n="inf"/></r></p></e>
 <e>         <p><l>skimra</l>	<r>skimre</r></p><par n="vblex"/></e>
 <e>         <p><l>skina</l>	<r>skine</r></p><par n="vblex"/></e>
 <e>         <p><l>skinna</l>	<r>skinne</r></p><par n="vblex"/></e>
@@ -24208,8 +24209,6 @@
 <e vr="nno"><p><l>föreligga</l>	<r>finnast</r></p><par n="vblex:pstv"/></e>
 <e vr="nno"><p><l>inge</l>	<r>gjevast</r></p><par n="vblex:pstv"/></e>
 <e vr="nno"><p><l>inträffa</l>	<r>finnast</r></p><par n="vblex:pstv"/></e>
-<e vr="nno"><p><l>kräva</l>	<r>krevjast</r></p><par n="vblex:pstv"/></e>
-<e vr="nno"><p><l>kräväs</l>	<r>krevjast</r></p><par n="vblex_pasv:pstv"/></e>
 <e vr="nno"><p><l>passera</l>	<r>finnast</r></p><par n="vblex:pstv"/></e>
 <e vr="nno"><p><l>utkräva</l>	<r>krevjast</r></p><par n="vblex:pstv"/></e>
 
