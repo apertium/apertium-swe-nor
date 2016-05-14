@@ -13954,7 +13954,7 @@
 <e>         <p><l>innovativ</l>               <r>innovativ</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>inofficiell</l>             <r>uoffisiell</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>inrikes</l>                 <r>innanriks</r></p><par n="adj"/></e>
-<e>         <p><l>inrikes</l>                 <r>innariks</r></p><par n="adj:adj_sint"/></e>
+<e r="RL">  <p><l>inrikes</l>                 <r>innariks</r></p><par n="adj"/></e>
 <e vr="nob"><p><l>inrikes</l>                 <r>innenriks</r></p><par n="adj"/></e>
 <e>         <p><l>intakt</l>                  <r>intakt</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>intensiv</l>                <r>intensiv</r></p><par n="adj_sint:adj"/></e>
@@ -14191,7 +14191,7 @@
 <e vr="nno"><p><l>lönnlig</l>                 <r>løynleg</r></p><par n="adj_sint"/></e>
 <e r="RL">  <p><l>lönsam</l>                  <r>lønnsam</r></p><par n="adj_sint"/></e>
 <e vr="nob"><p><l>lönsam</l>                  <r>lønnsom</r></p><par n="adj_sint"/></e>
-<e vr="nno"><p><l>lönsam</l>                  <r>lønsam</r></p><par n="adj_sint"/></e>
+<e vr="nno"><p><l>lönsam</l>                  <r>lønsam</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>lös</l>                     <r>laus</r></p><par n="adj_sint"/></e>
 <e vr="nob"><p><l>lös</l>                     <r>løs</r></p><par n="adj_sint"/></e>
 <e vr="nno"><p><l>maffig</l>                  <r>røsleg</r></p><par n="adj_sint"/></e>
@@ -15827,11 +15827,8 @@
 <e vr="nob"><p><l>lyckligen<s n="adv"/></l>	<r>lykkeligvis<s n="adv"/></r></p></e>
 <e>         <p><l>lyckligtvis<s n="adv"/></l>	<r>heldigvis<s n="adv"/></r></p></e>
 <e>         <p><l>lämpligen<s n="adv"/></l>	<r>lagom<s n="adv"/></r></p></e>
-<e vr="nob"><p><l>länge<s n="adv"/></l>	<r>kjempelenge<s n="adv"/></r></p></e>
-<e>         <p><l>länge<s n="adv"/></l>	<r>lenge<s n="adv"/></r></p></e>
-<e vr="nno"><p><l>länge<s n="adv"/></l>	<r>ovlenge<s n="adv"/></r></p></e>
-<e vr="nno"><p><l>länge<s n="adv"/></l>	<r>so<b/>lenge<s n="adv"/></r></p></e>
-<e>         <p><l>länge<s n="adv"/></l>	<r>så<b/>lenge<s n="adv"/></r></p></e>
+<e r="RL">  <p><l>länge<s n="adv"/><s n="pst"/></l>	<r>kjempelenge<s n="adv"/></r></p></e>
+<e r="RL">  <p><l>länge<s n="adv"/><s n="pst"/></l>	<r>ovlenge<s n="adv"/></r></p></e>
 <e>         <p><l>länge<s n="adv"/><s n="pst"/></l>	<r>lenge<s n="adv"/></r></p></e>
 <e>         <p><l>längst<s n="adv"/></l>	<r>lengst<s n="adv"/></r></p></e>
 <e>         <p><l>massvis<s n="adv"/></l>	<r>drøssevis<s n="adv"/></r></p></e>
@@ -45547,37 +45544,42 @@
 
     <!-- SECTION: Abbreviations -->
 
-<e vr="nob"><p><l>t.ex.<s n="abbr"/></l><r>f.eks.<s n="abbr"/></r></p></e>
-<e vr="nno"><p><l>t.ex.<s n="abbr"/></l><r>t.d.<s n="adv"/></r></p></e>
-<e><p><l>ca<s n="abbr"/></l><r>ca<s n="n"/><s n="acr"/></r></p></e>
-<e><p><l>dvs<s n="abbr"/></l><r>dvs<s n="n"/><s n="acr"/></r></p></e>
-<e><p><l>dvs.<s n="abbr"/></l><r>dvs.<s n="n"/><s n="acr"/></r></p></e>
-<e><p><l>kr<s n="abbr"/></l><r>kr<s n="n"/><s n="acr"/></r></p></e>
-<e><p><l>m.fl.<s n="abbr"/></l><r>et<b/>al<s n="adv"/></r></p></e>
-<e><p><l>bl.a.<s n="abbr"/></l><r>bl.a.<s n="adv"/></r></p></e>
+<e><p><l>tel.<s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></l><r>tel.<s n="n"/><s n="acr"/></r></p></e>
 
+<e><p><l>ca<s n="pr"/></l><r>ca<s n="pr"/></r></p></e>
+<e><p><l>ca.<s n="pr"/></l><r>ca.<s n="pr"/></r></p></e>
+<e><p><l>pga<s n="pr"/></l><r>pga<s n="pr"/></r></p></e>
+<e><p><l>pga.<s n="pr"/></l><r>pga.<s n="pr"/></r></p></e>
+<e><p><l>fig<s n="pr"/></l><r>fig<s n="pr"/></r></p></e>
+<e><p><l>fig.<s n="pr"/></l><r>fig.<s n="pr"/></r></p></e>
+<e><p><l>nr<s n="pr"/></l><r>nr<s n="pr"/></r></p></e>
+<e><p><l>nr.<s n="pr"/></l><r>nr.<s n="pr"/></r></p></e>
+
+<e vr="nno"><p><l>t.ex.<s n="adv"/></l><r>t.d.<s n="adv"/></r></p></e>
+<e vr="nob"><p><l>t.ex.<s n="adv"/></l><r>f.eks.<s n="adv"/></r></p></e>
+<e><p><l>dvs<s n="adv"/></l><r>dvs<s n="adv"/></r></p></e>
+<e><p><l>m.fl.<s n="adv"/></l><r>m.fl.<s n="adv"/></r></p></e>
+<e r="RL">  <p><l>m.fl.<s n="adv"/></l><r>et<b/>al</r></p></e>
+<e><p><l>bl.a.<s n="adv"/></l><r>bl.a.<s n="adv"/></r></p></e>
+<e vr="nno"><p><l>osv<s n="adv"/></l><r>osb<s n="adv"/></r></p></e>
+<e vr="nob"><p><l>osv<s n="adv"/></l><r>osv<s n="adv"/></r></p></e>
+<e>         <p><l>etc<s n="adv"/></l><r>etc<s n="adv"/></r></p></e>
+<e>         <p><l>etc.<s n="adv"/></l><r>etc.<s n="adv"/></r></p></e>
+<e>         <p><l>mm<s n="adv"/></l><r>mm<s n="adv"/></r></p></e>
+<e>         <p><l>mm.<s n="adv"/></l><r>mm.<s n="adv"/></r></p></e>
+<e>         <p><l>mvh<s n="adv"/></l><r>mvh<s n="adv"/></r></p></e>
+<e>         <p><l>mvh.<s n="adv"/></l><r>mvh.<s n="adv"/></r></p></e>
+
+
+    <!-- TODO: these should have real PoS, not abbr -->
+<e><p><l>kr<s n="abbr"/></l><r>kr<s n="n"/><s n="acr"/></r></p></e>
 <e><p><l>cm<s n="abbr"/></l><r>cm<s n="n"/><s n="acr"/></r></p></e>
-<e><p><l>fig.<s n="abbr"/></l><r>fig.<s n="n"/><s n="acr"/></r></p></e>
 <e><p><l>kg<s n="abbr"/></l><r>kg<s n="n"/><s n="acr"/></r></p></e>
 <e><p><l>kl<s n="abbr"/></l><r>kl<s n="n"/><s n="acr"/></r></p></e>
 <e><p><l>kl.<s n="abbr"/></l><r>kl.<s n="n"/><s n="acr"/></r></p></e>
 <e><p><l>km<s n="abbr"/></l><r>km<s n="n"/><s n="acr"/></r></p></e>
 <e><p><l>kr<s n="abbr"/></l><r>kr<s n="n"/><s n="acr"/></r></p></e>
 <e><p><l>m<s n="abbr"/></l><r>m<s n="n"/><s n="acr"/></r></p></e>
-<e><p><l>mm<s n="abbr"/></l><r>mm<s n="n"/><s n="acr"/></r></p></e>
-<e><p><l>mvh.<s n="abbr"/></l><r>mvh.<s n="n"/><s n="acr"/></r></p></e>
-<e><p><l>nr<s n="abbr"/></l><r>nr<s n="n"/><s n="acr"/></r></p></e>
-<e><p><l>nr.<s n="abbr"/></l><r>nr.<s n="n"/><s n="acr"/></r></p></e>
-<e><p><l>proc<s n="abbr"/></l><r>pros<s n="n"/><s n="acr"/></r></p></e>
-<e><p><l>proc.<s n="abbr"/></l><r>pros.<s n="n"/><s n="acr"/></r></p></e>
-<e><p><l>osv<s n="abbr"/></l><r>osv<s n="n"/><s n="acr"/></r></p></e>
-<e><p><l>osv<s n="abbr"/></l><r>osv<s n="n"/><s n="acr"/></r></p></e>
-<e><p><l>osv.<s n="abbr"/></l><r>osv.<s n="n"/><s n="acr"/></r></p></e>
-<e><p><l>tel.<s n="abbr"/></l><r>tel.<s n="n"/><s n="acr"/></r></p></e>
-<e><p><l>etc<s n="abbr"/></l><r>osv<s n="n"/><s n="acr"/></r></p></e>
-<e><p><l>pga<s n="abbr"/></l><r>pga<s n="n"/><s n="acr"/></r></p></e>
-<e><p><l>pga.<s n="abbr"/></l><r>pga.<s n="n"/><s n="acr"/></r></p></e>
-
 
   </section>
 </dictionary>
