@@ -25,6 +25,9 @@
     </or>
   </rule>
 
+  <rule weight="2.0"> <match lemma="låta" tags="vblex.inf.*"><select lemma="la"/></match> </rule>
+  <rule weight="2.0"> <match lemma="låta" tags="vblex.pres.*"><select lemma="høres"/></match> </rule>
+
   <!-- Frequency-based rules: -->
 
 <rule weight="0.9"><match lemma="adelskap" tags="n.nt.*"><select lemma="adelskap" tags="n.nt.*"/></match></rule><!-- 62 -->
