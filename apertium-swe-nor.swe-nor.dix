@@ -15613,13 +15613,13 @@
 <e vr="nob"><p><l>hoppeligen<s n="adv"/></l>	<r>forhåpentlig<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>hoppeligen<s n="adv"/></l>	<r>vonleg<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>hoppeligen<s n="adv"/></l>	<r>vonlig<s n="adv"/></r></p></e>
-<e>         <p><l>hur<s n="adv"/></l>	<r>hoss<s n="adv"/></r></p></e>
-<e>         <p><l>hur<s n="adv"/></l>	<r>hossen<s n="adv"/></r></p></e>
+<e r="RL">  <p><l>hur<s n="adv"/></l>	<r>hoss<s n="adv"/></r></p></e>
+<e r="RL">  <p><l>hur<s n="adv"/></l>	<r>hossen<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>hur<s n="adv"/></l>	<r>hvordan<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>hur<s n="adv"/></l>	<r>korleis<s n="adv"/></r></p></e>
-<e>         <p><l>hur<s n="adv"/></l>	<r>korso<s n="adv"/></r></p></e>
-<e>         <p><l>hur<s n="adv"/></l>	<r>koss<s n="adv"/></r></p></e>
-<e>         <p><l>hur<s n="adv"/></l>	<r>åssen<s n="adv"/></r></p></e>
+<e r="RL">  <p><l>hur<s n="adv"/></l>	<r>korso<s n="adv"/></r></p></e>
+<e r="RL">  <p><l>hur<s n="adv"/></l>	<r>koss<s n="adv"/></r></p></e>
+<e r="RL">  <p><l>hur<s n="adv"/></l>	<r>åssen<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>huvudstupa<s n="adv"/></l>	<r>endestupes<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>huvudstupa<s n="adv"/></l>	<r>endestups<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>huvudstupa<s n="adv"/></l>	<r>hodekulls<s n="adv"/></r></p></e>
@@ -15650,9 +15650,9 @@
 <e vr="nob"><p><l>häromsistens<s n="adv"/></l>	<r>forleden<s n="adv"/></r></p></e>
 <e>         <p><l>härstädes<s n="adv"/></l>	<r>her<s n="adv"/></r></p></e>
 <e>         <p><l>häråt<s n="adv"/></l>	<r>hit<s n="adv"/></r></p></e>
-<e vr="nno"><p><l>högst<s n="adv"/></l>	<r>høgleg<s n="adv"/></r></p></e>
+<e r="RL">  <p><l>högst<s n="adv"/></l>	<r>høgleg<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>högst<s n="adv"/></l>	<r>høgst<s n="adv"/></r></p></e>
-<e vr="nob"><p><l>högst<s n="adv"/></l>	<r>høylig<s n="adv"/></r></p></e>
+<e r="RL">  <p><l>högst<s n="adv"/></l>	<r>høylig<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>högst<s n="adv"/></l>	<r>høyst<s n="adv"/></r></p></e>
 <e>         <p><l>i<b/>fjol<s n="adv"/></l>	<r>i<b/>fjor<s n="adv"/></r></p></e>
 <e>         <p><l>i<b/>fjor<s n="adv"/></l>	<r>i<b/>fjor<s n="adv"/></r></p></e>
