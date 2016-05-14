@@ -13308,6 +13308,7 @@
 
 
     <!-- SECTION: Adjectives -->
+
 <e>         <p><l>absolut</l>                 <r>absolutt</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>acceptabel</l>              <r>akseptabel</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>adlig</l>                   <r>adeleg</r></p><par n="adj_sint"/></e>
@@ -13387,7 +13388,8 @@
 <e vr="nob"><p><l>avsevärd</l>                <r>påtakelig</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>avsiktlig</l>               <r>forsettleg</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>avsiktlig</l>               <r>forsettlig</r></p><par n="adj_sint:adj"/></e>
-<e>         <p><l>avvikande<s n="adj"/></l>   <r>avvike<s n="adj"/><s n="pprs"/></r></p></e>
+<e vr="nno"><p><l>avvikande</l>            <r>avvikande</r></p><par n="adj"/></e>
+<e vr="nob"><p><l>avvikande</l>            <r>avvikende</r></p><par n="adj"/></e>
 <e>         <p><l>bakslug</l>                 <r>lur</r></p><par n="adj_sint"/></e>
 <e>         <p><l>banal</l>                   <r>banal</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>bar</l>                     <r>bar</r></p><par n="adj_sint:adj"/></e>
@@ -13550,8 +13552,8 @@
 <e vr="nno"><p><l>dödlig</l>                  <r>dødeleg</r></p><par n="adj_sint"/></e>
 <e vr="nob"><p><l>dödlig</l>                  <r>dødelig</r></p><par n="adj_sint"/></e>
 <e vr="nno"><p><l>dödlig</l>                  <r>døyeleg</r></p><par n="adj_sint"/></e>
-<e>         <p><l>döv</l>                     <r>døv</r></p><par n="adj_sint"/></e>
 <e r="RL">  <p><l>döv</l>                     <r>dauv</r></p><par n="adj_sint"/></e>
+<e>         <p><l>döv</l>                     <r>døv</r></p><par n="adj_sint"/></e>
 <e>         <p><l>effektiv</l>                <r>effektiv</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>eftertänksam</l>            <r>ettertenksam</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>eftertänksam</l>            <r>ettertenksom</r></p><par n="adj_sint:adj"/></e>
@@ -13704,6 +13706,7 @@
 <e vr="nno"><p><l>främmande</l>               <r>framand</r></p><par n="adj"/></e>
 <e vr="nob"><p><l>främmande</l>               <r>fremmed</r></p><par n="adj"/></e>
 <e vr="nno"><p><l>främmande</l>               <r>fremmend</r></p><par n="adj"/></e>
+<e>         <p><l>främre</l>                  <r>fremre</r></p><par n="adj_sint"/></e>
 <e>         <p><l>fuktig</l>                  <r>fuktig</r></p><par n="adj_sint"/></e>
 <e>         <p><l>ful</l>                     <r>stygg</r></p><par n="adj_sint"/></e>
 <e>         <p><l>full</l>                    <r>full</r></p><par n="adj_sint"/></e>
@@ -13814,8 +13817,8 @@
 <e>         <p><l>grov</l>                    <r>røff</r></p><par n="adj_sint"/></e>
 <e>         <p><l>grund</l>                   <r>grunn</r></p><par n="adj_sint"/></e>
 <e>         <p><l>grundlig</l>                <r>grundig</r></p><par n="adj_sint"/></e>
-<e vr="nno"><p><l>grundläggande</l>           <r>grunnleggjande</r></p><par n="adj"/></e>
 <e vr="nob"><p><l>grundläggande</l>           <r>grunnleggende</r></p><par n="adj"/></e>
+<e vr="nno"><p><l>grundläggande</l>           <r>grunnleggjande</r></p><par n="adj"/></e>
 <e vr="nno"><p><l>grundlös</l>                <r>grunnlaus</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>grundlös</l>                <r>grunnløs</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>gruvlig</l>                 <r>grueleg</r></p><par n="adj_sint"/></e>
@@ -14115,7 +14118,8 @@
 <e vr="nno"><p><l>leklysten</l>               <r>leiken</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>leklysten</l>               <r>leken</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>lettisk</l>                 <r>latvisk</r></p><par n="adj_sint:adj"/></e>
-<e>         <p><l>levande<s n="adj"/></l>     <r>leve<s n="adj"/><s n="pprs"/></r></p></e>
+<e vr="nno"><p><l>levande</l>            <r>levande</r></p><par n="adj"/></e>
+<e vr="nob"><p><l>levande</l>            <r>levende</r></p><par n="adj"/></e>
 <e>         <p><l>libanesisk</l>              <r>libanesisk</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>liberal</l>                 <r>liberal</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>lidelsefull</l>             <r>ildfull</r></p><par n="adj_sint:adj"/></e>
@@ -14168,7 +14172,6 @@
 <e vr="nob"><p><l>lämplig</l>                 <r>hensiktsmessig</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>lämplig</l>                 <r>passande</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>lämplig</l>                 <r>passe</r></p><par n="adj_sint:adj"/></e>
-<e vr="nno"><p><l>lämplig</l>                 <r>passande</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>lämplig</l>                 <r>passende</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>lätt</l>                    <r>lett</r></p><par n="adj_sint"/></e>
 <e vr="nob"><p><l>låg</l>                     <r>lav</r></p><par n="adj_sint"/></e>
@@ -14186,9 +14189,9 @@
 <e vr="nno"><p><l>lönnlig</l>                 <r>hemmeleg</r></p><par n="adj_sint"/></e>
 <e vr="nob"><p><l>lönnlig</l>                 <r>hemmelig</r></p><par n="adj_sint"/></e>
 <e vr="nno"><p><l>lönnlig</l>                 <r>løynleg</r></p><par n="adj_sint"/></e>
+<e r="RL">  <p><l>lönsam</l>                  <r>lønnsam</r></p><par n="adj_sint"/></e>
 <e vr="nob"><p><l>lönsam</l>                  <r>lønnsom</r></p><par n="adj_sint"/></e>
 <e vr="nno"><p><l>lönsam</l>                  <r>lønsam</r></p><par n="adj_sint"/></e>
-<e r="RL">  <p><l>lönsam</l>                  <r>lønnsam</r></p><par n="adj_sint"/></e>
 <e vr="nno"><p><l>lös</l>                     <r>laus</r></p><par n="adj_sint"/></e>
 <e vr="nob"><p><l>lös</l>                     <r>løs</r></p><par n="adj_sint"/></e>
 <e vr="nno"><p><l>maffig</l>                  <r>røsleg</r></p><par n="adj_sint"/></e>
@@ -14237,8 +14240,8 @@
 <e>         <p><l>mild</l>                    <r>ly</r></p><par n="adj_sint"/></e>
 <e>         <p><l>mild</l>                    <r>mild</r></p><par n="adj_sint"/></e>
 <e>         <p><l>militär</l>                 <r>militær</r></p><par n="adj_sint:adj"/></e>
-<e r="RL">  <p><l>miljövänlig</l>             <r>miljøvennleg</r></p><par n="adj_sint"/></e>
 <e vr="nno"><p><l>miljövänlig</l>             <r>miljøvenleg</r></p><par n="adj_sint"/></e>
+<e r="RL">  <p><l>miljövänlig</l>             <r>miljøvennleg</r></p><par n="adj_sint"/></e>
 <e vr="nob"><p><l>miljövänlig</l>             <r>miljøvennlig</r></p><par n="adj_sint"/></e>
 <e>         <p><l>minimal</l>                 <r>minimal</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>mirakulös</l>               <r>mirakuløs</r></p><par n="adj_sint:adj"/></e>
@@ -14247,8 +14250,8 @@
 <e vr="nob"><p><l>misskötsam</l>              <r>forsømmelig</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>misslynt</l>                <r>misfornøyd</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>misslynt</l>                <r>misnøgd</r></p><par n="adj_sint:adj"/></e>
-<e vr="nno"><p><l>missnöjd</l>                <r>misnøgd</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>missnöjd</l>                <r>misfornøyd</r></p><par n="adj_sint"/></e>
+<e vr="nno"><p><l>missnöjd</l>                <r>misnøgd</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>mjuk</l>                    <r>mjuk</r></p><par n="adj_sint"/></e>
 <e>         <p><l>modern</l>                  <r>moderne</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>modig</l>                   <r>modig</r></p><par n="adj_sint"/></e>
@@ -14262,7 +14265,8 @@
 <e>         <p><l>moralisk</l>                <r>moralsk</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>mordisk</l>                 <r>morderisk</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>motorisk</l>                <r>motorisk</r></p><par n="adj_sint:adj"/></e>
-<e>         <p><l>motsvarande<s n="adj"/></l> <r>motsvare<s n="adj"/><s n="pprs"/></r></p></e>
+<e vr="nno"><p><l>motsvarande</l>            <r>motsvarande</r></p><par n="adj"/></e>
+<e vr="nob"><p><l>motsvarande</l>            <r>motsvarende</r></p><par n="adj"/></e>
 <e>         <p><l>motvillig</l>               <r>motvillig</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>multen</l>                  <r>morken</r></p><par n="adj_sint"/></e>
 <e>         <p><l>mumsig</l>                  <r>bra</r></p><par n="adj_sint"/></e>
@@ -14315,6 +14319,7 @@
 <e>         <p><l>negativ</l>                 <r>negativ</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>nervös</l>                  <r>nervøs</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>neutral</l>                 <r>nøytral</r></p><par n="adj_sint:adj"/></e>
+<e>         <p><l>noga</l>                  <r>nøye</r></p><par n="adj:adj_sint"/></e>
 <e>         <p><l>noggrann</l>                <r>nøyaktig</r></p><par n="adj_sint"/></e>
 <e>         <p><l>nordisk</l>                 <r>nordisk</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>nordisk</l>                 <r>norrøn</r></p><par n="adj_sint:adj"/></e>
@@ -14340,6 +14345,7 @@
 <e vr="nno"><p><l>nämnvärd</l>                <r>nemneverdig</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>nämnvärd</l>                <r>nevneverdig</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>näpen</l>                   <r>nett</r></p><par n="adj_sint"/></e>
+<e>         <p><l>nära</l>                    <r>nær</r></p><par n="adj_sint"/></e>
 <e vr="nno"><p><l>närbelägen</l>              <r>nærliggande</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>närbelägen</l>              <r>nærliggende</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>närgången</l>               <r>nærgåande</r></p><par n="adj_sint:adj"/></e>
@@ -14447,7 +14453,8 @@
 <e vr="nno"><p><l>oläslig</l>                 <r>uleseleg</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>oläslig</l>                 <r>uleselig</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>omedelbar</l>               <r>umiddelbar</r></p><par n="adj_sint:adj"/></e>
-<e>         <p><l>omfattande<s n="adj"/></l>  <r>omfatte<s n="adj"/><s n="pprs"/></r></p></e>
+<e vr="nno"><p><l>omfattande</l>            <r>omfattande</r></p><par n="adj"/></e>
+<e vr="nob"><p><l>omfattande</l>            <r>omfattende</r></p><par n="adj"/></e>
 <e vr="nno"><p><l>omisskännlig</l>            <r>umiskjenneleg</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>omisskännlig</l>            <r>umiskjennelig</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>omistlig</l>                <r>umissande</r></p><par n="adj_sint:adj"/></e>
@@ -14711,7 +14718,8 @@
 <e>         <p><l>rättsenlig</l>              <r>rettmessig</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>rättvis</l>                 <r>rettferdig</r></p><par n="adj_sint"/></e>
 <e>         <p><l>rå</l>                      <r>rå</r></p><par n="adj_sint"/></e>
-<e>         <p><l>rådande<s n="adj"/></l>     <r>rå<s n="adj"/><s n="pprs"/></r></p></e>
+<e vr="nno"><p><l>rådande</l>            <r>rådande</r></p><par n="adj"/></e>
+<e vr="nob"><p><l>rådande</l>            <r>rådende</r></p><par n="adj"/></e>
 <e>         <p><l>råddig</l>                  <r>uklar</r></p><par n="adj_sint"/></e>
 <e>         <p><l>rådig</l>                   <r>snarrådig</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>rådlös</l>                  <r>rådlaus</r></p><par n="adj_sint:adj"/></e>
@@ -14762,6 +14770,7 @@
 <e>         <p><l>siamesisk</l>               <r>siamesisk</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>simpel</l>                  <r>einskild</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>simpel</l>                  <r>enkelt</r></p><par n="adj_sint:adj"/></e>
+<e>         <p><l>sist</l>                    <r>sist</r></p><par n="adj_sint"/></e>
 <e>         <p><l>sista</l>                    <r>sist</r></p><par n="adj_sint"/></e>
 <e vr="nno"><p><l>sjuk</l>                    <r>sjuk</r></p><par n="adj_sint"/></e>
 <e vr="nob"><p><l>sjuk</l>                    <r>syk</r></p><par n="adj_sint"/></e>
@@ -14783,7 +14792,8 @@
 <e vr="nno"><p><l>självständig</l>            <r>sjølvstendig</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>självständig</l>            <r>uavhengig</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>skandinavisk</l>            <r>skandinavisk</r></p><par n="adj_sint:adj"/></e>
-<e>         <p><l>skapande<s n="adj"/></l>    <r>skape<s n="adj"/><s n="pprs"/></r></p></e>
+<e vr="nno"><p><l>skapande</l>            <r>skapande</r></p><par n="adj"/></e>
+<e vr="nob"><p><l>skapande</l>            <r>skapende</r></p><par n="adj"/></e>
 <e>         <p><l>skarp</l>                   <r>skarp</r></p><par n="adj:adj_sint"/></e>
 <e>         <p><l>skarp</l>                   <r>skarp</r></p><par n="adj_sint"/></e>
 <e>         <p><l>skarp</l>                   <r>skarpskodd</r></p><par n="adj"/></e>
@@ -14796,7 +14806,8 @@
 <e vr="nob"><p><l>skendöd</l>                 <r>skinndød</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>skeptisk</l>                <r>skeptisk</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>skickelsediger</l>          <r>skjebnesvanger</r></p><par n="adj_sint"/></e>
-<e>         <p><l>skiftande<s n="adj"/></l>   <r>skifte<s n="adj"/><s n="pprs"/></r></p></e>
+<e vr="nno"><p><l>skiftande</l>            <r>skiftande</r></p><par n="adj"/></e>
+<e vr="nob"><p><l>skiftande</l>            <r>skiftende</r></p><par n="adj"/></e>
 <e>         <p><l>skiljaktig</l>              <r>forskjellig</r></p><par n="adj_sint"/></e>
 <e>         <p><l>skiljaktig</l>              <r>ulik</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>skiljaktig</l>              <r>ymis</r></p><par n="adj_sint:adj"/></e>
@@ -14920,7 +14931,8 @@
 <e>         <p><l>strid</l>                   <r>strid</r></p><par n="adj_sint"/></e>
 <e>         <p><l>stroppig</l>                <r>overlegen</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>sträv</l>                   <r>ru</r></p><par n="adj_sint"/></e>
-<e>         <p><l>strålande<s n="adj"/></l>   <r>stråle<s n="adj"/><s n="pprs"/></r></p></e>
+<e vr="nno"><p><l>strålande</l>            <r>strålande</r></p><par n="adj"/></e>
+<e vr="nob"><p><l>strålande</l>            <r>strålende</r></p><par n="adj"/></e>
 <e>         <p><l>stum</l>                    <r>stum</r></p><par n="adj_sint"/></e>
 <e>         <p><l>stygg</l>                   <r>stygg</r></p><par n="adj_sint"/></e>
 <e>         <p><l>styv</l>                    <r>stiv</r></p><par n="adj_sint"/></e>
@@ -15006,8 +15018,8 @@
 <e>         <p><l>timslång</l>                <r>timelang</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>tjatig</l>                  <r>plagsam</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>tjatig</l>                  <r>plagsom</r></p><par n="adj_sint:adj"/></e>
-<e vr="nno"><p><l>tjock</l>                   <r>brei</r></p><par n="adj_sint"/></e>
 <e vr="nob"><p><l>tjock</l>                   <r>bred</r></p><par n="adj_sint"/></e>
+<e vr="nno"><p><l>tjock</l>                   <r>brei</r></p><par n="adj_sint"/></e>
 <e vr="nno"><p><l>tjock</l>                   <r>tjukk</r></p><par n="adj_sint"/></e>
 <e vr="nob"><p><l>tjock</l>                   <r>tykk</r></p><par n="adj_sint"/></e>
 <e>         <p><l>tjusig</l>                  <r>flott</r></p><par n="adj_sint"/></e>
@@ -15314,12 +15326,7 @@
 <e vr="nno"><p><l>övlig</l>                   <r>sedvanleg</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>övlig</l>                   <r>sedvanlig</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>övre</l>                    <r>øvre</r></p><par n="adj_sint"/></e>
-<e>         <p><l>sist</l>                    <r>sist</r></p><par n="adj_sint"/></e>
 <e>         <p><l>övrig</l>                   <r>øvrig</r></p><par n="adj"/></e>
-<e>         <p><l>nära</l>                    <r>nær</r></p><par n="adj_sint"/></e>
-<e>         <p><l>främre</l>                  <r>fremre</r></p><par n="adj_sint"/></e>
-<e>         <p><l>noga</l>                  <r>nøye</r></p><par n="adj:adj_sint"/></e>
-
 
 
     <!-- SECTION: Adverbs -->
@@ -24803,7 +24810,7 @@
 <e>         <p><l>Kuba<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Cuba<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Kungariket<b/>Aksum<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Aksum<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Köpenhamn<s n="np"/><s n="top"/><s n="nt"/></l>	<r>København<s n="np"/><s n="top"/></r></p></e>
-<e>         <p><l>Leone<s n="np"/></l>	<r><s n="np"/></r></p></e>
+<e>         <p><l>Leone<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Leone<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Lettland<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Latvia<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Libyen<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Libya<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Lissabon<s n="np"/></l>	<r>Lisboa<s n="np"/></r></p></e>
