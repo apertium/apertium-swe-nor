@@ -148,6 +148,7 @@
 <e>       <p><l><s n="ut"/><s n="sg"/></l>           <r><s n="m"/><s n="sg"/></r></p></e>
 <e>       <p><l><s n="nt"/><s n="sg"/></l>           <r><s n="nt"/><s n="sg"/></r></p></e>
 <e>       <p><l><s n="pl"/></l>                      <r><s n="pl"/></r></p></e>
+<e>       <p><l><s n="un"/></l>                      <r><s n="un"/></r></p></e>
 </pardef>
 <pardef n="un:__det" c="TODO: GD?">
 <e r="RL"><p><l><s n="ut"/><s n="sg"/></l>             <r><s n="f"/><s n="sg"/></r></p></e>
@@ -561,6 +562,7 @@
 <e vr="nno"><p><l>genom<s n="pr"/></l>	<r>framgjennom<s n="pr"/></r></p></e>
 <e vr="nob"><p><l>genom<s n="pr"/></l>	<r>fremgjennom<s n="pr"/></r></p></e>
 <e vr="nob"><p><l>genom<s n="pr"/></l>	<r>bortgjennom<s n="pr"/></r></p></e>
+<e>         <p><l>som<s n="pr"/></l>	<r>som<s n="pr"/></r></p></e>
 <e>         <p><l>till<s n="pr"/></l>	<r>som<s n="pr"/></r></p></e>
 <e>         <p><l>åt<s n="pr"/></l>	<r>som<s n="pr"/></r></p></e>
 <e vr="nno"><p><l>om<s n="pr"/></l>	<r>um<s n="pr"/></r></p></e>
@@ -712,6 +714,12 @@
 
 <e>         <p><l>vilken<s n="prn"/><s n="rel"/></l><r>som<s n="prn"/><s n="rel"/></r></p><par n="gen_nbr:un_sp"/></e>
 <e vr="nob"><p><l>vilken<s n="prn"/><s n="rel"/></l><r>hvilken<s n="det"/><s n="itg"/></r></p><par n="gen_nbr"/><par n="nom_cas:"/></e>
+
+<e vr="nob"><p><l>egen<s n="det"/><s n="emph"/></l>     <r>egen<s n="det"/><s n="emph"/></r></p><par n="__det"/></e>
+<e vr="nno"><p><l>egen<s n="det"/><s n="emph"/></l>    <r>eigen<s n="det"/><s n="emph"/></r></p><par n="__det"/></e>
+
+<e vr="nob"><p><l>själv<s n="det"/><s n="emph"/></l>     <r>selv<s n="det"/><s n="emph"/></r></p><par n="__det"/></e>
+<e vr="nno"><p><l>själv<s n="det"/><s n="emph"/></l>    <r>sjølv<s n="det"/><s n="emph"/></r></p><par n="__det"/></e>
 
     <!-- HIC·SUNT·DRACONES. -->
 <e vr="nno"><p><l>samma<s n="prn"/></l><r>same<s n="det"/></r></p></e>
