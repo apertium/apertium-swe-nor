@@ -27,7 +27,8 @@ BEGIN{
 }
 
 /<s n="n".*<r>/ {
-	l = gensub(".*<l>(.*)</l>.*","\\1","1")
+	l = gensub(/<s n="[^"]*"\/>/, "", "g",
+		   gensub(".*<l>(.*)</l>.*","\\1","1"))
 	if(!(l in n)) {
 		print l":::no-n"
 		next
@@ -40,12 +41,21 @@ BEGIN{
 	}
 	#
 	if(!(l in un) && $0~/<s n="un".*<r>/) {
-		print l":::no-un"
+		x=""
+		if(l in ut)x=x":ut"
+		if(l in nt)x=x":nt"
+		print l":::no-un"x
 	}
 	if(!(l in ut) && $0~/<s n="ut".*<r>/) {
-		print l":::no-ut"
+		x=""
+		if(l in un)x=x":un"
+		if(l in nt)x=x":nt"
+		print l":::no-ut"x
 	}
 	if(!(l in nt) && $0~/<s n="nt".*<r>/) {
-		print l":::no-nt"
+		x=""
+		if(l in ut)x=x":ut"
+		if(l in un)x=x":un"
+		print l":::no-nt"x
 	}
 }
