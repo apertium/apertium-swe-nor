@@ -762,7 +762,7 @@
     <!-- SECTION: Determiners -->
 
 <e>         <p><l>den<s n="det"/><s n="dem"/></l>       <r>den<s n="det"/><s n="dem"/></r></p><par n="gen_nbr"/></e>
-<e>         <p><l>denna<s n="det"/></l>                 <r>denne<s n="det"/><s n="dem"/></r></p><par n="gen_nbr"/></e>
+<e>         <p><l>denna<s n="det"/><s n="dem"/></l>                 <r>denne<s n="det"/><s n="dem"/></r></p><par n="gen_nbr"/></e>
 <e>         <p><l>sådan<s n="det"/><s n="dem"/></l>     <r>slik<s n="det"/><s n="dem"/></r></p><par n="gen_nbr"/></e>
 
 <e vr="nob"><p><l>en<s n="det"/><s n="ind"/></l>        <r>en<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
@@ -781,7 +781,13 @@
 <e vr="nno"><p><l>annan<s n="det"/></l>                 <r>annan<s n="det"/></r></p></e>
 
 <e>         <p><l>all<s n="det"/><s n="qnt"/></l>       <r>all<s n="det"/><s n="qnt"/></r></p></e>
-<e>         <p><l>många<s n="det"/><s n="qnt"/></l>     <r>mange<s n="det"/><s n="qnt"/></r></p></e>
+
+
+<!-- Just using the adj's (mycken/mången) for now; the det-version
+     might be useful if we have countable<->uncountable translations
+     (or could lrx the adj?)
+     -->
+<!-- <e>         <p><l>många<s n="det"/><s n="qnt"/></l>     <r>mange<s n="det"/><s n="qnt"/></r></p></e> -->
 
     <!-- SECTION: Numerals and ordinals -->
 
@@ -15348,8 +15354,8 @@
 
 <e><p><l>där<s n="adv"/></l><r>der<s n="adv"/></r></p></e>
 <e><p><l>här<s n="adv"/></l><r>her<s n="adv"/></r></p></e>
-<e vr="nob"><p><l>mer<s n="adv"/></l><r>mer<s n="adv"/></r></p></e>
-<e vr="nno"><p><l>mer<s n="adv"/></l><r>meir<s n="adv"/></r></p></e>
+<e vr="nob"><p><l>mer<s n="adv"/><s n="comp"/></l><r>mer<s n="adv"/></r></p></e>
+<e vr="nno"><p><l>mer<s n="adv"/><s n="comp"/></l><r>meir<s n="adv"/></r></p></e>
 <e><p><l>när<s n="adv"/></l><r>når<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>vart<s n="adv"/></l><r>kor<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>vart<s n="adv"/></l><r>hvor<s n="adv"/></r></p></e>
