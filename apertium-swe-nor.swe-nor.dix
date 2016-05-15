@@ -146,6 +146,10 @@
     <pardef n="@pl" c="only allow pl">
 <e>       <p><l><s n="pl"/></l><r><s n="pl"/></r></p></e>
     </pardef>
+    <pardef n="@sgpl" c="only allow sg/pl (disallow sp)">
+<e>       <p><l><s n="sg"/></l><r><s n="sg"/></r></p></e>
+<e>       <p><l><s n="pl"/></l><r><s n="pl"/></r></p></e>
+    </pardef>
     <pardef n="@ind" c="only allow ind">
 <e>       <p><l><s n="sg"/><s n="ind"/></l><r><s n="sg"/><s n="ind"/></r></p></e>
 <e>       <p><l><s n="pl"/><s n="ind"/></l><r><s n="pl"/><s n="ind"/></r></p></e>
@@ -10738,7 +10742,7 @@
 <e vr="nob"><p><l>skådespelare<s n="n"/><s n="ut"/></l>	<r>skuespiller<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>skål<s n="n"/><s n="ut"/></l>	<r>skål<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>skålpund<s n="n"/><s n="nt"/></l>	<r>skålpund<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>skåp<s n="n"/><s n="nt"/></l>	<r>skap<s n="n"/><s n="nt"/></r></p></e>
+<e vr="nob"><p><l>skåp<s n="n"/><s n="nt"/></l>	<r>skap<s n="n"/><s n="nt"/></r></p><par n="@sgpl"/></e>
 <e vr="nno"><p><l>skåp<s n="n"/><s n="nt"/></l>	<r>skåp<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>sköld<s n="n"/><s n="ut"/></l>	<r>skjold<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>sköld<s n="n"/><s n="ut"/></l>	<r>skjold<s n="n"/><s n="nt"/></r></p></e>
@@ -16491,6 +16495,13 @@
 <e r="LR">  <p><l>ned<s n="adv"/></l><r>ned<s n="adv"/></r></p></e>
 <e>         <p><l>ner<s n="adv"/></l><r>ned<s n="adv"/></r></p></e>
 <e r="RL">  <p><l>ner<s n="adv"/></l><r>ner<s n="adv"/></r></p></e>
+<e vr="nno"><p><l>framförallt<s n="adv"/></l><r>hovudsakeleg<s n="adv"/></r></p></e>
+<e vr="nob"><p><l>framförallt<s n="adv"/></l><r>hovedsakelig<s n="adv"/></r></p></e>
+<e r="LR" vr="nno"><p><l>främst<s n="adv"/></l><r>hovudsakeleg<s n="adv"/></r></p></e>
+<e r="LR" vr="nob"><p><l>främst<s n="adv"/></l><r>hovedsakelig<s n="adv"/></r></p></e>
+<e vr="nno"><p><l>i<b/>synnerhet<s n="adv"/></l><r>særleg<s n="adv"/></r></p></e>
+<e vr="nob"><p><l>i<b/>synnerhet<s n="adv"/></l><r>særlig<s n="adv"/></r></p></e>
+
 
 
 
