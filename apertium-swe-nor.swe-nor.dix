@@ -11419,7 +11419,7 @@
 <e>         <p><l>stuv<s n="n"/><s n="ut"/></l>	<r>stuv<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>stycke<s n="n"/><s n="nt"/></l>	<r>bolk<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>stycke<s n="n"/><s n="nt"/></l>	<r>stykke<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>styre<s n="n"/><s n="nt"/></l>	<r>styr<s n="n"/><s n="nt"/></r></p></e>
+<e>         <p><l>styre<s n="n"/><s n="nt"/></l>	<r>styr<s n="n"/><s n="nt"/></r></p><par n="sgpl:sp"/></e>
 <e>         <p><l>styre<s n="n"/><s n="nt"/></l>	<r>styre<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>styrelse<s n="n"/><s n="ut"/></l>	<r>styre<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>styren<s n="n"/><s n="nt"/></l>	<r>styren<s n="n"/><s n="nt"/></r></p></e>
@@ -15354,12 +15354,12 @@
 
     <!-- SECTION: Adverbs -->
 
-<e vr="nob"><p><l>varför<s n="adv"/><s n="itg"/></l><r>hvorfor<s n="adv"/></r></p></e>
-<e vr="nno"><p><l>varför<s n="adv"/><s n="itg"/></l><r>kvifor<s n="adv"/></r></p></e>
-<e vr="nob"><p><l>var<s n="adv"/><s n="itg"/></l><r>hvor<s n="adv"/></r></p></e>
-<e vr="nno"><p><l>var<s n="adv"/><s n="itg"/></l><r>kor<s n="adv"/></r></p></e>
-<e vr="nob"><p><l>hur<s n="adv"/><s n="itg"/></l><r>hvordan<s n="adv"/></r></p></e>
-<e vr="nno"><p><l>hur<s n="adv"/><s n="itg"/></l><r>korleis<s n="adv"/></r></p></e>
+<e vr="nob"><p><l>varför<s n="adv"/></l><r>hvorfor<s n="adv"/></r></p></e>
+<e vr="nno"><p><l>varför<s n="adv"/></l><r>kvifor<s n="adv"/></r></p></e>
+<e vr="nob"><p><l>var<s n="adv"/></l><r>hvor<s n="adv"/></r></p></e>
+<e vr="nno"><p><l>var<s n="adv"/></l><r>kor<s n="adv"/></r></p></e>
+<e vr="nob"><p><l>hur<s n="adv"/></l><r>hvordan<s n="adv"/></r></p></e>
+<e vr="nno"><p><l>hur<s n="adv"/></l><r>korleis<s n="adv"/></r></p></e>
 
 <e vr="nno"><p><l>det<b/>vill<b/>säga<s n="adv"/></l><r>det<b/>vil<b/>seie<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>det<b/>vill<b/>säga<s n="adv"/></l><r>det<b/>vil<b/>si<s n="adv"/></r></p></e>
