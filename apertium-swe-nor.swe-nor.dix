@@ -892,7 +892,7 @@
 <e>         <p><l>administratör<s n="n"/><s n="ut"/></l>	<r>administrator<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>adoption<s n="n"/><s n="ut"/></l>	<r>adopsjon<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>adoptivbarn<s n="n"/><s n="nt"/></l>	<r>adoptivbarn<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>adrenalin<s n="n"/><s n="nt"/></l>	<r>adrenalin<s n="n"/><s n="nt"/></r></p></e>
+<e>         <p><l>adrenalin<s n="n"/><s n="un"/></l>	<r>adrenalin<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>adrenalin<s n="n"/><s n="un"/></l>	<r>adrenalin<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>adress<s n="n"/><s n="ut"/></l>	<r>adresse<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>adressat<s n="n"/><s n="ut"/></l>	<r>adressat<s n="n"/><s n="m"/></r></p></e>
@@ -1231,7 +1231,7 @@
 <e>         <p><l>aprikos<s n="n"/><s n="ut"/></l>	<r>aprikos<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>april<s n="n"/><s n="ut"/></l>	<r>april<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>aptit<s n="n"/><s n="ut"/></l>	<r>appetitt<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>ar<s n="n"/><s n="nt"/></l>	<r>ar<s n="n"/><s n="nt"/></r></p></e>
+<e>         <p><l>ar<s n="n"/><s n="un"/></l>	<r>ar<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>ar<s n="n"/><s n="un"/></l>	<r>ar<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>ar<s n="n"/><s n="un"/></l>	<r>arr<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>arabiska<s n="n"/><s n="ut"/></l>	<r>arabisk<s n="n"/><s n="m"/></r></p></e>
@@ -1982,7 +1982,7 @@
 <e>         <p><l>blockering<s n="n"/><s n="ut"/></l>	<r>blokade<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>blockering<s n="n"/><s n="ut"/></l>	<r>blokkering<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>blockflöjt<s n="n"/><s n="ut"/></l>	<r>blokkfløyte<s n="n"/></r></p><par n=":f/m"/></e>
-<e>         <p><l>blod<s n="n"/><s n="nt"/></l>	<r>blod<s n="n"/><s n="nt"/></r></p><par n="@sg"/></e>
+<e>         <p><l>blod<s n="n"/><s n="un"/></l>	<r>blod<s n="n"/><s n="nt"/></r></p><par n="@sg"/></e>
 <e>         <p><l>blod<s n="n"/><s n="un"/></l>	<r>blod<s n="n"/><s n="nt"/></r></p><par n="@sg"/></e>
 <e>         <p><l>blodapelsin<s n="n"/><s n="ut"/></l>	<r>blodappelsin<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>blodbad<s n="n"/><s n="nt"/></l>	<r>blodbad<s n="n"/><s n="nt"/></r></p></e>
@@ -2480,7 +2480,7 @@
 <e>         <p><l>casanova<s n="n"/><s n="ut"/></l>	<r>casanova<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>cash<s n="n"/><s n="nt"/></l>	<r>kontant<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>catering<s n="n"/><s n="ut"/></l>	<r>catering<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>cd-rom<s n="n"/><s n="nt"/></l>	<r>cd-rom<s n="n"/><s n="m"/></r></p></e>
+<e>         <p><l>cd-rom<s n="n"/><s n="un"/></l>	<r>cd-rom<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>cd<s n="n"/><s n="ut"/></l>	<r>cd<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>cell<s n="n"/><s n="ut"/></l>	<r>celle<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>cell<s n="n"/><s n="ut"/></l>	<r>selle<s n="n"/><s n="m"/></r></p></e>
@@ -2649,7 +2649,7 @@
 <e vr="nob"><p><l>dass<s n="n"/><s n="nt"/></l>	<r>dass<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nno"><p><l>dass<s n="n"/><s n="nt"/></l>	<r>do<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>dass<s n="n"/><s n="nt"/></l>	<r>do<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>data<s n="n"/><s n="nt"/></l>	<r>data<s n="n"/><s n="nt"/></r></p></e>
+<e>         <p><l>data<s n="n"/><s n="un"/></l>	<r>data<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nob"><p><l>data<s n="n"/><s n="un"/></l>	<r>data<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>data<s n="n"/><s n="un"/></l>	<r>data<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nob"><p><l>data<s n="n"/><s n="ut"/></l>	<r>data<s n="n"/><s n="m"/></r></p></e>
@@ -2664,7 +2664,7 @@
 <e>         <p><l>dato<s n="n"/><s n="ut"/></l>	<r>dato<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>dator<s n="n"/><s n="ut"/></l>	<r>datamaskin<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>dator<s n="n"/><s n="ut"/></l>	<r>dator<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>datum<s n="n"/><s n="nt"/></l>	<r>dato<s n="n"/><s n="m"/></r></p></e>
+<e>         <p><l>datum<s n="n"/><s n="un"/></l>	<r>dato<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>datum<s n="n"/><s n="un"/></l>	<r>dato<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>debatt<s n="n"/><s n="ut"/></l>	<r>debatt<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>debut<s n="n"/><s n="ut"/></l>	<r>debut<s n="n"/><s n="m"/></r></p></e>
@@ -3036,7 +3036,7 @@
 <e>         <p><l>dygdemönster<s n="n"/><s n="nt"/></l>	<r>dydsmønster<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>dygn<s n="n"/><s n="nt"/></l>	<r>døgn<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>dygnsrytm<s n="n"/><s n="ut"/></l>	<r>døgnrytme<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>dyn<s n="n"/><s n="nt"/></l>	<r>dyn<s n="n"/><s n="m"/></r></p></e>
+<e>         <p><l>dyn<s n="n"/><s n="un"/></l>	<r>dyn<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>dyn<s n="n"/><s n="ut"/></l>	<r>dyn<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>dynamik<s n="n"/><s n="ut"/></l>	<r>dynamikk<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>dynamit<s n="n"/><s n="ut"/></l>	<r>dynamitt<s n="n"/><s n="m"/></r></p></e>
@@ -3193,7 +3193,7 @@
 <e>         <p><l>elände<s n="n"/><s n="nt"/></l>	<r>lort<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>emalj<s n="n"/><s n="ut"/></l>	<r>emalje<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>emancipation<s n="n"/><s n="ut"/></l>	<r>emansipasjon<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>embargo<s n="n"/><s n="nt"/></l>	<r>embargo<s n="n"/><s n="m"/></r></p><par n="@sg"/></e>
+<e>         <p><l>embargo<s n="n"/><s n="un"/></l>	<r>embargo<s n="n"/><s n="m"/></r></p><par n="@sg"/></e>
 <e>         <p><l>emblem<s n="n"/><s n="nt"/></l>	<r>emblem<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>embryo<s n="n"/><s n="nt"/></l>	<r>embryo<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>embryologi<s n="n"/><s n="ut"/></l>	<r>embryologi<s n="n"/><s n="m"/></r></p></e>
@@ -3570,7 +3570,7 @@
 <e>         <p><l>finansman<s n="n"/><s n="ut"/></l>	<r>finansmann<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>finansminister<s n="n"/><s n="ut"/></l>	<r>finansminister<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>finess<s n="n"/><s n="ut"/></l>	<r>finesse<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>finger<s n="n"/><s n="nt"/></l>	<r>finger<s n="n"/><s n="m"/></r></p></e>
+<e>         <p><l>finger<s n="n"/><s n="un"/></l>	<r>finger<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>finger<s n="n"/><s n="un"/></l>	<r>finger<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>fingeravtryck<s n="n"/><s n="nt"/></l>	<r>fingeravtrykk<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>finish<s n="n"/><s n="ut"/></l>	<r>finis<s n="n"/><s n="m"/></r></p></e>
@@ -4299,7 +4299,7 @@
 <e>         <p><l>garnison<s n="n"/><s n="ut"/></l>	<r>garnison<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>garnityr<s n="n"/><s n="nt"/></l>	<r>garnityr<s n="n"/><s n="nt"/></r></p></e>
     <e>         <p><l>garveri<s n="n"/><s n="nt"/></l>	<r>garveri<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>gas<s n="n"/><s n="nt"/></l>	<r>gas<s n="n"/><s n="m"/></r></p></e>
+<e>         <p><l>gas<s n="n"/><s n="un"/></l>	<r>gas<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>gas<s n="n"/><s n="un"/></l>	<r>gas<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>gas<s n="n"/><s n="un"/></l>	<r>gass<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>gas<s n="n"/><s n="ut"/></l>	<r>gas<s n="n"/><s n="m"/></r></p></e>
@@ -4414,7 +4414,7 @@
 <e>         <p><l>ginseng<s n="n"/><s n="ut"/></l>	<r>ginseng<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>ginstkatt<s n="n"/><s n="ut"/></l>	<r>sort<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>ginstkatt<s n="n"/><s n="ut"/></l>	<r>svart<s n="n"/><s n="nt"/></r></p><par n="sgpl:sp"/></e>
-<e>         <p><l>gips<s n="n"/><s n="nt"/></l>	<r>gips<s n="n"/><s n="m"/></r></p></e>
+<e>         <p><l>gips<s n="n"/><s n="un"/></l>	<r>gips<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>gips<s n="n"/><s n="un"/></l>	<r>gips<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>gir<s n="n"/><s n="ut"/></l>	<r>drei<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>giraff<s n="n"/><s n="ut"/></l>	<r>sjiraff<s n="n"/><s n="m"/></r></p></e>
@@ -4919,7 +4919,7 @@
 <e vr="nno"><p><l>hedning<s n="n"/><s n="ut"/></l>	<r>heidning<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>hedonism<s n="n"/><s n="ut"/></l>	<r>hedonisme<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>hedonist<s n="n"/><s n="ut"/></l>	<r>hedonist<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>hektar<s n="n"/><s n="nt"/></l>	<r>hektar<s n="n"/><s n="nt"/></r></p></e>
+<e>         <p><l>hektar<s n="n"/><s n="un"/></l>	<r>hektar<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>hektar<s n="n"/><s n="un"/></l>	<r>hektar<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>hektar<s n="n"/><s n="ut"/></l>	<r>hektar<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>hektoliter<s n="n"/><s n="ut"/></l>	<r>hektoliter<s n="n"/><s n="m"/></r></p></e>
@@ -5353,7 +5353,7 @@
 <e>         <p><l>ibis<s n="n"/><s n="ut"/></l>	<r>ibis<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>icing<s n="n"/><s n="ut"/></l>	<r>icing<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>id-kort<s n="n"/><s n="nt"/></l>	<r>legitimasjon<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>id<s n="n"/><s n="nt"/></l>	<r>id<s n="n"/></r></p><par n=":f/m"/></e>
+<e>         <p><l>id<s n="n"/><s n="un"/></l>	<r>id<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>ideal<s n="n"/><s n="nt"/></l>	<r>ideal<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>idealist<s n="n"/><s n="ut"/></l>	<r>idealist<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>idealitet<s n="n"/><s n="ut"/></l>	<r>idealitet<s n="n"/><s n="m"/></r></p></e>
@@ -5585,7 +5585,7 @@
 <e>         <p><l>internationalist<s n="n"/><s n="ut"/></l>	<r>internasjonalist<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>interpellant<s n="n"/><s n="ut"/></l>	<r>interpellant<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>interpellation<s n="n"/><s n="ut"/></l>	<r>interpellasjon<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>intervall<s n="n"/><s n="nt"/></l>	<r>intervall<s n="n"/><s n="nt"/></r></p></e>
+<e>         <p><l>intervall<s n="n"/><s n="un"/></l>	<r>intervall<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>intervall<s n="n"/><s n="un"/></l>	<r>intervall<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>intervention<s n="n"/><s n="ut"/></l>	<r>intervensjon<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>intervju<s n="n"/><s n="ut"/></l>	<r>intervju<s n="n"/><s n="nt"/></r></p></e>
@@ -6110,7 +6110,7 @@
 <e>         <p><l>kirurg<s n="n"/><s n="ut"/></l>	<r>kirurg<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>kirurgi<s n="n"/><s n="ut"/></l>	<r>kirurgi<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>kis<s n="n"/><s n="ut"/></l>	<r>kis<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>kisel<s n="n"/><s n="nt"/></l>	<r>kisel<s n="n"/><s n="m"/></r></p><par n="@sg"/></e>
+<e>         <p><l>kisel<s n="n"/><s n="un"/></l>	<r>kisel<s n="n"/><s n="m"/></r></p><par n="@sg"/></e>
 <e>         <p><l>kisel<s n="n"/><s n="un"/></l>	<r>silisium<s n="n"/><s n="nt"/></r></p><par n="@sg"/></e>
 <e>         <p><l>kisse<s n="n"/><s n="ut"/></l>	<r>pusekatt<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>kissekatt<s n="n"/><s n="ut"/></l>	<r>mi<s n="n"/><s n="m"/></r></p></e>
@@ -6289,7 +6289,7 @@
 <e>         <p><l>kokospalm<s n="n"/><s n="ut"/></l>	<r>kokospalme<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>kokpunkt<s n="n"/><s n="ut"/></l>	<r>kokepunkt<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>koks<s n="n"/><s n="ut"/></l>	<r>koks<s n="n"/></r></p><par n=":f/m"/></e>
-<e>         <p><l>kol<s n="n"/><s n="nt"/></l>	<r>kol<s n="n"/><s n="nt"/></r></p></e>
+<e>         <p><l>kol<s n="n"/><s n="un"/></l>	<r>kol<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nno"><p><l>kol<s n="n"/><s n="un"/></l>	<r>kol<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nob"><p><l>kol<s n="n"/><s n="un"/></l>	<r>kull<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>kolbrikett<s n="n"/><s n="ut"/></l>	<r>brikett<s n="n"/><s n="m"/></r></p></e>
@@ -6687,7 +6687,7 @@
 <e vr="nob"><p><l>kroki<s n="n"/><s n="ut"/></l>	<r>kroki<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>krokodil<s n="n"/><s n="ut"/></l>	<r>krokodille<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>krokus<s n="n"/><s n="ut"/></l>	<r>krokus<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>krom<s n="n"/><s n="nt"/></l>	<r>krom<s n="n"/><s n="nt"/></r></p><par n="@sg"/></e>
+<e>         <p><l>krom<s n="n"/><s n="un"/></l>	<r>krom<s n="n"/><s n="nt"/></r></p><par n="@sg"/></e>
 <e>         <p><l>krom<s n="n"/><s n="un"/></l>	<r>krom<s n="n"/><s n="nt"/></r></p><par n="@sg"/></e>
 <e>         <p><l>krona<s n="n"/><s n="ut"/></l>	<r>krone<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>kronblad<s n="n"/><s n="nt"/></l>	<r>kronblad<s n="n"/><s n="nt"/></r></p></e>
@@ -6712,7 +6712,7 @@
 <e>         <p><l>kryptogam<s n="n"/><s n="ut"/></l>	<r>kryptogam<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>kryptografi<s n="n"/><s n="ut"/></l>	<r>kryptografi<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>kryptologi<s n="n"/><s n="ut"/></l>	<r>kryptologi<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>krypton<s n="n"/><s n="nt"/></l>	<r>krypton<s n="n"/><s n="nt"/></r></p><par n="@sg"/></e>
+<e>         <p><l>krypton<s n="n"/><s n="un"/></l>	<r>krypton<s n="n"/><s n="nt"/></r></p><par n="@sg"/></e>
 <e>         <p><l>krysantemum<s n="n"/><s n="ut"/></l>	<r>krysantemum<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>kryss<s n="n"/><s n="nt"/></l>	<r>kryss<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>kryss<s n="n"/><s n="ut"/></l>	<r>kryss<s n="n"/><s n="nt"/></r></p></e>
@@ -7007,7 +7007,7 @@
 <e>         <p><l>laboratorium<s n="n"/><s n="nt"/></l>	<r>laboratorium<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>labrador<s n="n"/><s n="ut"/></l>	<r>labrador<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>labyrint<s n="n"/><s n="ut"/></l>	<r>labyrint<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>lack<s n="n"/><s n="nt"/></l>	<r>lakk<s n="n"/><s n="m"/></r></p></e>
+<e>         <p><l>lack<s n="n"/><s n="un"/></l>	<r>lakk<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>lack<s n="n"/><s n="un"/></l>	<r>lakk<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>lacksko<s n="n"/><s n="ut"/></l>	<r>lakksko<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>laddning<s n="n"/><s n="ut"/></l>	<r>ladning<s n="n"/><s n="m"/></r></p></e>
@@ -7031,7 +7031,7 @@
 <e>         <p><l>lakej<s n="n"/><s n="ut"/></l>	<r>lakei<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>laktation<s n="n"/><s n="ut"/></l>	<r>laktasjon<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>laktos<s n="n"/><s n="ut"/></l>	<r>laktose<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>lama<s n="n"/><s n="nt"/></l>	<r>lama<s n="n"/><s n="m"/></r></p></e>
+<e>         <p><l>lama<s n="n"/><s n="un"/></l>	<r>lama<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>lama<s n="n"/><s n="un"/></l>	<r>lama<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>lama<s n="n"/><s n="ut"/></l>	<r>lama<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>laminat<s n="n"/><s n="nt"/></l>	<r>laminat<s n="n"/><s n="nt"/></r></p></e>
@@ -7667,7 +7667,7 @@
 <e>         <p><l>mapp<s n="n"/><s n="ut"/></l>	<r>kort<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>maratonlopp<s n="n"/><s n="nt"/></l>	<r>maratonløp<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>mardröm<s n="n"/><s n="ut"/></l>	<r>mareritt<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>margarin<s n="n"/><s n="nt"/></l>	<r>margarin<s n="n"/><s n="m"/></r></p></e>
+<e>         <p><l>margarin<s n="n"/><s n="un"/></l>	<r>margarin<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>margarin<s n="n"/><s n="un"/></l>	<r>margarin<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>marihuana<s n="n"/><s n="ut"/></l>	<r>marihuana<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>marimba<s n="n"/><s n="ut"/></l>	<r>marimba<s n="n"/><s n="m"/></r></p></e>
@@ -7871,7 +7871,7 @@
 <e>         <p><l>metallurg<s n="n"/><s n="ut"/></l>	<r>metallurg<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>metallurgi<s n="n"/><s n="ut"/></l>	<r>metallurgi<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>metamorfos<s n="n"/><s n="ut"/></l>	<r>metamorfose<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>metan<s n="n"/><s n="nt"/></l>	<r>metan<s n="n"/><s n="nt"/></r></p></e>
+<e>         <p><l>metan<s n="n"/><s n="un"/></l>	<r>metan<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>metan<s n="n"/><s n="un"/></l>	<r>metan<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>metanol<s n="n"/><s n="ut"/></l>	<r>metanol<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>meteor<s n="n"/><s n="ut"/></l>	<r>meteor<s n="n"/><s n="m"/></r></p></e>
@@ -8136,7 +8136,7 @@
 <e vr="nob"><p><l>motsägelse<s n="n"/><s n="ut"/></l>	<r>motsigelse<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>motsättning<s n="n"/><s n="ut"/></l>	<r>motsetnad<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>motsättning<s n="n"/><s n="ut"/></l>	<r>motsetning<s n="n"/></r></p><par n=":f/m"/></e>
-<e>         <p><l>mott<s n="n"/><s n="nt"/></l>	<r>mott<s n="n"/><s n="m"/></r></p></e>
+<e>         <p><l>mott<s n="n"/><s n="un"/></l>	<r>mott<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>mottagning<s n="n"/><s n="ut"/></l>	<r>mottak<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>motto<s n="n"/><s n="nt"/></l>	<r>motto<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>motvikt<s n="n"/><s n="ut"/></l>	<r>motvekt<s n="n"/></r></p><par n=":f/m"/></e>
@@ -8436,7 +8436,7 @@
 <e>         <p><l>nomenklatur<s n="n"/><s n="ut"/></l>	<r>nomenklatur<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>nominering<s n="n"/><s n="ut"/></l>	<r>nominasjon<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>nonchalans<s n="n"/><s n="ut"/></l>	<r>nonchalanse<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>nonsens<s n="n"/><s n="nt"/></l>	<r>nonsens<s n="n"/><s n="nt"/></r></p><par n="@sg"/></e>
+<e>         <p><l>nonsens<s n="n"/><s n="un"/></l>	<r>nonsens<s n="n"/><s n="nt"/></r></p><par n="@sg"/></e>
 <e>         <p><l>nord<s n="n"/><s n="ut"/></l>	<r>nord<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>nord<s n="n"/><s n="ut"/></l>	<r>nord<s n="n"/><s n="nt"/></r></p><par n="sgpl:sp"/></e>
 <e>         <p><l>nordost<s n="n"/><s n="ut"/></l>	<r>nordaust<s n="n"/><s n="m"/></r></p></e>
@@ -8752,7 +8752,7 @@
 <e>         <p><l>ornitolog<s n="n"/><s n="ut"/></l>	<r>ornitolog<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>oro<s n="n"/><s n="ut"/></l>	<r>uro<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>orsak<s n="n"/><s n="ut"/></l>	<r>årsak<s n="n"/></r></p><par n=":f/m"/></e>
-<e>         <p><l>ort<s n="n"/><s n="nt"/></l>	<r>ort<s n="n"/></r></p><par n=":f/m"/></e>
+<e>         <p><l>ort<s n="n"/><s n="un"/></l>	<r>ort<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>ort<s n="n"/><s n="ut"/></l>	<r>ort<s n="n"/></r></p><par n=":f/m"/></e>
 <e vr="nno"><p><l>ort<s n="n"/><s n="ut"/></l>	<r>stad<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>ort<s n="n"/><s n="ut"/></l>	<r>sted<s n="n"/><s n="nt"/></r></p></e>
@@ -8829,7 +8829,7 @@
 <e>         <p><l>papaya<s n="n"/><s n="ut"/></l>	<r>papaya<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>paper<s n="n"/><s n="nt"/></l>	<r>avhandling<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>paperback<s n="n"/><s n="ut"/></l>	<r>paperback<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>papp<s n="n"/><s n="nt"/></l>	<r>papp<s n="n"/><s n="m"/></r></p><par n="@sg"/></e>
+<e>         <p><l>papp<s n="n"/><s n="un"/></l>	<r>papp<s n="n"/><s n="m"/></r></p><par n="@sg"/></e>
 <e>         <p><l>papp<s n="n"/><s n="un"/></l>	<r>papp<s n="n"/><s n="m"/></r></p><par n="@sg"/></e>
 <e>         <p><l>pappa<s n="n"/><s n="ut"/></l>	<r>far<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>pappa<s n="n"/><s n="ut"/></l>	<r>far<s n="n"/><s n="nt"/></r></p></e>
@@ -8853,7 +8853,7 @@
 <e>         <p><l>paralys<s n="n"/><s n="ut"/></l>	<r>paralyse<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>parameter<s n="n"/><s n="ut"/></l>	<r>parameter<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>paranoia<s n="n"/><s n="ut"/></l>	<r>paranoia<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>paraply<s n="n"/><s n="nt"/></l>	<r>paraply<s n="n"/><s n="m"/></r></p></e>
+<e>         <p><l>paraply<s n="n"/><s n="un"/></l>	<r>paraply<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>paraply<s n="n"/><s n="un"/></l>	<r>paraply<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>paraplyorganisation<s n="n"/><s n="ut"/></l>	<r>paraplyorganisasjon<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>parasit<s n="n"/><s n="ut"/></l>	<r>parasitt<s n="n"/><s n="m"/></r></p></e>
@@ -8951,7 +8951,7 @@
 <e>         <p><l>peng<s n="n"/><s n="ut"/></l>	<r>penge<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>pengar<s n="n"/><s n="ut"/></l>	<r>pengar<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>pengar<s n="n"/><s n="ut"/></l>	<r>penger<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>penicillin<s n="n"/><s n="nt"/></l>	<r>penicillin<s n="n"/><s n="nt"/></r></p></e>
+<e>         <p><l>penicillin<s n="n"/><s n="un"/></l>	<r>penicillin<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>penicillin<s n="n"/><s n="un"/></l>	<r>penicillin<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>penis<s n="n"/><s n="ut"/></l>	<r>penis<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>penna<s n="n"/><s n="ut"/></l>	<r>penn<s n="n"/><s n="m"/></r></p></e>
@@ -9184,7 +9184,7 @@
 <e>         <p><l>polygami<s n="n"/><s n="ut"/></l>	<r>polygami<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>polygon<s n="n"/><s n="ut"/></l>	<r>polygon<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>polymer<s n="n"/><s n="ut"/></l>	<r>polymer<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>polynom<s n="n"/><s n="nt"/></l>	<r>polynom<s n="n"/><s n="nt"/></r></p></e>
+<e>         <p><l>polynom<s n="n"/><s n="un"/></l>	<r>polynom<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>polynom<s n="n"/><s n="un"/></l>	<r>polynom<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>polyp<s n="n"/><s n="ut"/></l>	<r>polypp<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>poncho<s n="n"/><s n="ut"/></l>	<r>poncho<s n="n"/><s n="m"/></r></p></e>
@@ -9193,7 +9193,7 @@
 <e>         <p><l>pool<s n="n"/><s n="ut"/></l>	<r>pool<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>pop<s n="n"/><s n="ut"/></l>	<r>pop<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>pop<s n="n"/><s n="ut"/></l>	<r>popp<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>poplin<s n="n"/><s n="nt"/></l>	<r>poplin<s n="n"/><s n="nt"/></r></p></e>
+<e>         <p><l>poplin<s n="n"/><s n="un"/></l>	<r>poplin<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>poplåt<s n="n"/><s n="ut"/></l>	<r>poplåt<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>popmusik<s n="n"/><s n="ut"/></l>	<r>popmusikk<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>poppel<s n="n"/><s n="ut"/></l>	<r>poppel<s n="n"/><s n="m"/></r></p></e>
@@ -9467,7 +9467,7 @@
 <e>         <p><l>pumps<s n="n"/><s n="ut"/></l>	<r>pumps<s n="n"/><s n="m"/></r></p><par n="@pl"/></e>
 <e>         <p><l>punch<s n="n"/><s n="ut"/></l>	<r>punch<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>punch<s n="n"/><s n="ut"/></l>	<r>punsj<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>pund<s n="n"/><s n="nt"/></l>	<r>pund<s n="n"/><s n="nt"/></r></p></e>
+<e>         <p><l>pund<s n="n"/><s n="un"/></l>	<r>pund<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>pund<s n="n"/><s n="un"/></l>	<r>pund<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>pung<s n="n"/><s n="ut"/></l>	<r>pung<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>punk<s n="n"/><s n="ut"/></l>	<r>punk<s n="n"/><s n="m"/></r></p></e>
@@ -10283,7 +10283,7 @@
 <e>         <p><l>sele<s n="n"/><s n="ut"/></l>	<r>greie<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>sele<s n="n"/><s n="ut"/></l>	<r>sele<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>selektion<s n="n"/><s n="ut"/></l>	<r>seleksjon<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>selen<s n="n"/><s n="nt"/></l>	<r>selen<s n="n"/><s n="nt"/></r></p><par n="@sg"/></e>
+<e>         <p><l>selen<s n="n"/><s n="un"/></l>	<r>selen<s n="n"/><s n="nt"/></r></p><par n="@sg"/></e>
 <e>         <p><l>selleri<s n="n"/><s n="ut"/></l>	<r>selleri<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>seltyg<s n="n"/><s n="nt"/></l>	<r>seletøy<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>semantik<s n="n"/><s n="ut"/></l>	<r>semantikk<s n="n"/><s n="m"/></r></p></e>
@@ -10548,7 +10548,7 @@
 <e>         <p><l>skinka<s n="n"/><s n="ut"/></l>	<r>balle<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>skinn<s n="n"/><s n="nt"/></l>	<r>skinn<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>skinnfäll<s n="n"/><s n="ut"/></l>	<r>skinnfell<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>skit<s n="n"/><s n="nt"/></l>	<r>skit<s n="n"/><s n="m"/></r></p></e>
+<e>         <p><l>skit<s n="n"/><s n="un"/></l>	<r>skit<s n="n"/><s n="m"/></r></p></e>
 <e r="RL">  <p><l>skit<s n="n"/><s n="un"/></l>	<r>bæsj<s n="n"/><s n="m"/></r></p></e>
 <e r="RL">  <p><l>skit<s n="n"/><s n="un"/></l>	<r>lort<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>skit<s n="n"/><s n="un"/></l>	<r>skit<s n="n"/><s n="m"/></r></p></e>
@@ -11254,7 +11254,7 @@
 <e>         <p><l>statsråd<s n="n"/><s n="nt"/></l>	<r>statsråd<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>statsvälvning<s n="n"/><s n="ut"/></l>	<r>statskupp<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>statur<s n="n"/><s n="ut"/></l>	<r>statur<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>status<s n="n"/><s n="nt"/></l>	<r>status<s n="n"/><s n="m"/></r></p><par n="@sg"/></e>
+<e>         <p><l>status<s n="n"/><s n="un"/></l>	<r>status<s n="n"/><s n="m"/></r></p><par n="@sg"/></e>
 <e>         <p><l>status<s n="n"/><s n="un"/></l>	<r>status<s n="n"/><s n="m"/></r></p><par n="@sg"/></e>
 <e>         <p><l>status<s n="n"/><s n="ut"/></l>	<r>status<s n="n"/><s n="m"/></r></p><par n="@sg"/></e>
 <e>         <p><l>staty<s n="n"/><s n="ut"/></l>	<r>statue<s n="n"/><s n="m"/></r></p></e>
@@ -11692,7 +11692,7 @@
 <e>         <p><l>tablett<s n="n"/><s n="ut"/></l>	<r>tablett<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>tablå<s n="n"/><s n="ut"/></l>	<r>skjema<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>tabu<s n="n"/><s n="nt"/></l>	<r>tabu<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>tack<s n="n"/><s n="nt"/></l>	<r>takk<s n="n"/></r></p><par n=":f/m"/></e>
+<e>         <p><l>tack<s n="n"/><s n="un"/></l>	<r>takk<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>tacka<s n="n"/><s n="ut"/></l>	<r>søye<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>tacka<s n="n"/><s n="ut"/></l>	<r>tikke<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>tag<s n="n"/><s n="nt"/></l>	<r>tak<s n="n"/><s n="nt"/></r></p></e>
@@ -11744,7 +11744,7 @@
 <e>         <p><l>tankegång<s n="n"/><s n="ut"/></l>	<r>tankegang<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>tanker<s n="n"/><s n="ut"/></l>	<r>tankar<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>tanker<s n="n"/><s n="ut"/></l>	<r>tanker<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>tantal<s n="n"/><s n="nt"/></l>	<r>tantal<s n="n"/><s n="nt"/></r></p><par n="@sg"/></e>
+<e>         <p><l>tantal<s n="n"/><s n="un"/></l>	<r>tantal<s n="n"/><s n="nt"/></r></p><par n="@sg"/></e>
 <e>         <p><l>tape<s n="n"/><s n="ut"/></l>	<r>limband<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>tape<s n="n"/><s n="ut"/></l>	<r>tape<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>tapet<s n="n"/><s n="ut"/></l>	<r>tapet<s n="n"/><s n="nt"/></r></p></e>
@@ -11842,7 +11842,7 @@
 <e>         <p><l>terrorist<s n="n"/><s n="ut"/></l>	<r>terrorist<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>terränglöpning<s n="n"/><s n="ut"/></l>	<r>terrengløp<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>tesla<s n="n"/><s n="ut"/></l>	<r>tesla<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>test<s n="n"/><s n="nt"/></l>	<r>test<s n="n"/><s n="m"/></r></p></e>
+<e>         <p><l>test<s n="n"/><s n="un"/></l>	<r>test<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>test<s n="n"/><s n="un"/></l>	<r>test<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>test<s n="n"/><s n="ut"/></l>	<r>test<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>testamente<s n="n"/><s n="nt"/></l>	<r>testament<s n="n"/><s n="nt"/></r></p></e>
@@ -11866,7 +11866,7 @@
 <e>         <p><l>tidpunkt<s n="n"/><s n="ut"/></l>	<r>tidspunkt<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>tidsfaktor<s n="n"/><s n="ut"/></l>	<r>tidsfaktor<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>tidsfrist<s n="n"/><s n="ut"/></l>	<r>tidsfrist<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>tidsintervall<s n="n"/><s n="nt"/></l>	<r>tidsintervall<s n="n"/><s n="nt"/></r></p></e>
+<e>         <p><l>tidsintervall<s n="n"/><s n="un"/></l>	<r>tidsintervall<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>tidskrift<s n="n"/><s n="ut"/></l>	<r>tidsskrift<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>tidsmått<s n="n"/><s n="nt"/></l>	<r>tidsrom<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>tidsperspektiv<s n="n"/><s n="nt"/></l>	<r>tidsperspektiv<s n="n"/><s n="nt"/></r></p></e>
@@ -11968,8 +11968,8 @@
 <e vr="nob"><p><l>tisdag<s n="n"/><s n="ut"/></l>	<r>tirsdag<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>tisdag<s n="n"/><s n="ut"/></l>	<r>tysdag<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>tistel<s n="n"/><s n="ut"/></l>	<r>tistel<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>titan<s n="n"/><s n="nt"/></l>	<r>titan<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>titan<s n="n"/><s n="nt"/></l>	<r>titan<s n="n"/><s n="nt"/></r></p></e>
+<e>         <p><l>titan<s n="n"/><s n="un"/></l>	<r>titan<s n="n"/><s n="m"/></r></p></e>
+<e>         <p><l>titan<s n="n"/><s n="un"/></l>	<r>titan<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>titan<s n="n"/><s n="un"/></l>	<r>titan<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>titan<s n="n"/><s n="un"/></l>	<r>titan<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>titan<s n="n"/><s n="ut"/></l>	<r>titan<s n="n"/><s n="m"/></r></p></e>
@@ -12100,7 +12100,7 @@
 <e>         <p><l>trasa<s n="n"/><s n="ut"/></l>	<r>fille<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>trasa<s n="n"/><s n="ut"/></l>	<r>klut<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>tratt<s n="n"/><s n="ut"/></l>	<r>trakt<s n="n"/></r></p><par n=":f/m"/></e>
-<e>         <p><l>trav<s n="n"/><s n="nt"/></l>	<r>trav<s n="n"/><s n="nt"/></r></p></e>
+<e>         <p><l>trav<s n="n"/><s n="un"/></l>	<r>trav<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>trav<s n="n"/><s n="ut"/></l>	<r>trav<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>travsport<s n="n"/><s n="ut"/></l>	<r>travsport<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>tredjedel<s n="n"/><s n="ut"/></l>	<r>tredel<s n="n"/><s n="m"/></r></p></e>
@@ -12459,7 +12459,7 @@
 <e vr="nno"><p><l>uppväxt<s n="n"/><s n="ut"/></l>	<r>oppseding<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>ur<s n="n"/><s n="nt"/></l>	<r>klokke<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>ur<s n="n"/><s n="nt"/></l>	<r>ur<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>uran<s n="n"/><s n="nt"/></l>	<r>uran<s n="n"/><s n="nt"/></r></p><par n="@sg"/></e>
+<e>         <p><l>uran<s n="n"/><s n="un"/></l>	<r>uran<s n="n"/><s n="nt"/></r></p><par n="@sg"/></e>
 <e>         <p><l>uran<s n="n"/><s n="un"/></l>	<r>uran<s n="n"/><s n="nt"/></r></p><par n="@sg"/></e>
 <e>         <p><l>urin<s n="n"/><s n="ut"/></l>	<r>urin<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>urinprov<s n="n"/><s n="nt"/></l>	<r>urinprøve<s n="n"/></r></p><par n=":f/m"/></e>
@@ -12878,7 +12878,7 @@
 <e vr="nob"><p><l>vita<s n="n"/><s n="ut"/></l>	<r>hvite<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>vita<s n="n"/><s n="ut"/></l>	<r>kvite<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>vitalitet<s n="n"/><s n="ut"/></l>	<r>vitalitet<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>vitamin<s n="n"/><s n="nt"/></l>	<r>vitamin<s n="n"/><s n="nt"/></r></p></e>
+<e>         <p><l>vitamin<s n="n"/><s n="un"/></l>	<r>vitamin<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>vitamin<s n="n"/><s n="un"/></l>	<r>vitamin<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>vitamin<s n="n"/><s n="ut"/></l>	<r>vitamin<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>vitlök<s n="n"/><s n="ut"/></l>	<r>hvitlauk<s n="n"/><s n="m"/></r></p></e>
