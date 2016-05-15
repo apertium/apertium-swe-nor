@@ -312,49 +312,19 @@
          lengden på dokumentet, ryktet til styret, lukta av/etter
          kua... (although this could be coded in all the dictionaries,
          or added by CG, it's probably simpler and more compact to do
-         it with def-list and macros) -->
+         it with def-list and macros)
+
+         TODO: find real examples for nob→swe; and let t2x revert to
+         genitive (not sin/garpe) if there is no following possessed
+    -->
     <def-list n="gen-i">
-      <list-item v="verd"/>
-      <list-item v="tid"/>
-      <list-item v="framtid"/>
-      <list-item v="fortid"/>
-      <list-item v="fritid"/>
-      <list-item v="istid"/>
-      <list-item v="ettertid"/>
-      <list-item v="vintertid"/>
-      <list-item v="regjeringstid"/>
-      <list-item v="mørketid"/>
-      <list-item v="by"/>
-      <list-item v="dal"/>
-      <list-item v="luft"/>
-      <list-item v="radio"/>
-      <list-item v="hav"/>
-      <list-item v="ryggmarg"/>
-      <list-item v="styre"/>
-      <list-item v="fylke"/>
-      <list-item v="hus"/>
-      <list-item v="land"/>
-      <list-item v="ferie"/>
-      <list-item v="sak"/>
-      <list-item v="århundre"/>
-      <list-item v="dokument"/>
+      <list-item v="TODO"/>
     </def-list>
     <def-list n="gen-på">
-      <list-item v="måndag"/>
-      <list-item v="tysdag"/>
-      <list-item v="onsdag"/>
-      <list-item v="torsdag"/>
-      <list-item v="fredag"/>
-      <list-item v="laurdag"/>
-      <list-item v="søndag"/>
-      <list-item v="dag"/>
-      <list-item v="øy"/>
-      <list-item v="topp"/>
-      <list-item v="kjøkken"/>
-      <list-item v="skip"/>
+      <list-item v="TODO"/>
     </def-list>
     <def-list n="gen-av">
-      <list-item v="bok"/>
+      <list-item v="TODO"/>
     </def-list>
 
     <def-list n="det_indef">
@@ -715,7 +685,7 @@
             </chunk>
             <b/>
           </out>
-          <let><clip pos="1" side="tl" part="cas"/><lit-tag v="nom"/></let>
+          <let><clip pos="1" side="tl" part="cas"/><lit v=""/></let>
         </when></choose>
       </when></choose>
     </def-macro>
@@ -939,8 +909,7 @@
     </rule>
 
     <!-- N+ -->
-    <rule comment="N
-                   Remove cas from lu, but put it in chunk">
+    <rule comment="N">
       <pattern>
         <pattern-item n="n"/>
       </pattern>
