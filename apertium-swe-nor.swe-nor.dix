@@ -501,157 +501,196 @@
 
     <!-- SECTION: Prepositions -->
 
-<e><p><l>att<s n="pr"/></l><r>å<s n="pr"/></r></p></e>
-<e><p><l>utöver<s n="pr"/></l><r>utover<s n="pr"/></r></p></e>
-<e><p><l>trots<s n="pr"/></l><r>etter<s n="pr"/></r></p></e>
-<e><p><l>utom<s n="pr"/></l><r>utom<s n="pr"/></r></p></e>
-<e><p><l>via<s n="pr"/></l><r>via<s n="pr"/></r></p></e>
-<e><p><l>enligt<s n="pr"/></l><r>ifølge<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>ur<s n="pr"/></l><r>fra<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>ur<s n="pr"/></l><r>frå<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>inom<s n="pr"/></l><r>innenfor<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>inom<s n="pr"/></l><r>innanfor<s n="pr"/></r></p></e>
-<e><p><l>mellan<s n="pr"/></l><r>mellom<s n="pr"/></r></p></e>
-<e><p><l>kring<s n="pr"/></l><r>kring<s n="pr"/></r></p></e>
-<e><p><l>hos<s n="pr"/></l><r>hos<s n="pr"/></r></p></e>
-<e><p><l>vid<s n="pr"/></l><r>ved<s n="pr"/></r></p></e>
-<e><p><l>mot<s n="pr"/></l><r>mot<s n="pr"/></r></p></e>
-<e><p><l>av<s n="pr"/></l><r>av<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>bakom<s n="pr"/></l><r>bakenfor<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>bakom<s n="pr"/></l><r>bakfor<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>utan<s n="pr"/></l><r>uten<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>utan<s n="pr"/></l><r>utan<s n="pr"/></r></p></e>
-<e><p><l>efter<s n="pr"/></l><r>etter<s n="pr"/></r></p></e>
-<e><p><l>för<s n="pr"/></l><r>for<s n="pr"/></r></p></e>
-<e><p><l>framför<s n="pr"/></l><r>foran<s n="pr"/></r></p></e>
-<e><p><l>framför<s n="pr"/></l><r>framfor<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>från<s n="pr"/></l><r>fra<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>från<s n="pr"/></l><r>frå<s n="pr"/></r></p></e>
-<e><p><l>genom<s n="pr"/></l><r>gjennom<s n="pr"/></r></p></e>
-<e><p><l>inuti<s n="pr"/></l><r>inne<b/>i<s n="pr"/></r></p></e>
-<e><p><l>i<s n="pr"/></l><r>i<s n="pr"/></r></p></e>
-<e><p><l>med<s n="pr"/></l><r>med<s n="pr"/></r></p></e>
-<e><p><l>om<s n="pr"/></l><r>om<s n="pr"/></r></p></e>
-<e><p><l>över<s n="pr"/></l><r>over<s n="pr"/></r></p></e>
-<e><p><l>på<s n="pr"/></l><r>på<s n="pr"/></r></p></e>
-<e><p><l>till<s n="pr"/></l><r>til<s n="pr"/></r></p></e>
-<e><p><l>under<s n="pr"/></l><r>under<s n="pr"/></r></p></e>
-<e><p><l>ut<s n="pr"/></l><r>ut<s n="pr"/></r></p></e>
-
-
-<!-- Crossed via dan: -->
-<e>         <p><l>från<s n="pr"/></l>	<r>unna<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>ifrån<s n="pr"/></l>	<r>ifra<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>från<s n="pr"/></l>	<r>ifra<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>ifrån<s n="pr"/></l>	<r>fra<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>från<s n="pr"/></l>	<r>fra<s n="pr"/></r></p></e>
-<e>         <p><l>vid<s n="pr"/></l>	<r>frammed<s n="pr"/></r></p></e>
-<e>         <p><l>vid<s n="pr"/></l>	<r>innmed<s n="pr"/></r></p></e>
-<e>         <p><l>vid<s n="pr"/></l>	<r>bortmed<s n="pr"/></r></p></e>
-<e>         <p><l>vid<s n="pr"/></l>	<r>attmed<s n="pr"/></r></p></e>
-<e>         <p><l>vid<s n="pr"/></l>	<r>framved<s n="pr"/></r></p></e>
-<e>         <p><l>vid<s n="pr"/></l>	<r>fremved<s n="pr"/></r></p></e>
-<e>         <p><l>vid<s n="pr"/></l>	<r>bortved<s n="pr"/></r></p></e>
-<e>         <p><l>vid<s n="pr"/></l>	<r>attved<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>angående<s n="pr"/></l>	<r>andsynes<s n="pr"/></r></p></e>
 <e vr="nob"><p><l>angående<s n="pr"/></l>	<r>angående<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>enligt<s n="pr"/></l>	<r>ifylgje<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>enligt<s n="pr"/></l>	<r>ifølgje<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>förutom<s n="pr"/></l>	<r>unnateke<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>nära<s n="pr"/></l>	<r>nærme<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>nära<s n="pr"/></l>	<r>næme<s n="pr"/></r></p></e>
-<e>         <p><l>vid<s n="pr"/></l>	<r>næme<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>inför<s n="pr"/></l>	<r>framføre<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>kring<s n="pr"/></l>	<r>utakring<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>omkring<s n="pr"/></l>	<r>utakring<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>kring<s n="pr"/></l>	<r>utanikring<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>omkring<s n="pr"/></l>	<r>utanikring<s n="pr"/></r></p></e>
-<e>         <p><l>kring<s n="pr"/></l>	<r>ikring<s n="pr"/></r></p></e>
-<e>         <p><l>omkring<s n="pr"/></l>	<r>ikring<s n="pr"/></r></p></e>
-<e>         <p><l>kring<s n="pr"/></l>	<r>omkring<s n="pr"/></r></p></e>
-<e>         <p><l>omkring<s n="pr"/></l>	<r>omkring<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>kring<s n="pr"/></l>	<r>utankring<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>omkring<s n="pr"/></l>	<r>utankring<s n="pr"/></r></p></e>
-<e>         <p><l>omkring<s n="pr"/></l>	<r>kring<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>utanför<s n="pr"/></l>	<r>utkring<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>förutom<s n="pr"/></l>	<r>unnateki<s n="pr"/></r></p></e>
-<e>         <p><l>i<s n="pr"/></l>	<r>borti<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>till<s n="pr"/></l>	<r>framatil<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>åt<s n="pr"/></l>	<r>framatil<s n="pr"/></r></p></e>
+<e>         <p><l>att<s n="pr"/></l>	<r>å<s n="pr"/></r></p></e>
+<e>         <p><l>av<s n="pr"/></l>	<r>av<s n="pr"/></r></p></e>
+<e vr="nob"><p><l>bakom<s n="pr"/></l>	<r>bakenfor<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>bakom<s n="pr"/></l>	<r>bakfor<s n="pr"/></r></p></e>
+<e>         <p><l>bland<s n="pr"/></l>	<r>blant<s n="pr"/></r></p></e>
+<e>         <p><l>bland<s n="pr"/></l>	<r>deriblant<s n="pr"/></r></p></e>
+<e>         <p><l>bland<s n="pr"/></l>	<r>iblant<s n="pr"/></r></p></e>
+<e>         <p><l>bland<s n="pr"/></l>	<r>inniblant<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>bland<s n="pr"/></l>	<r>mellom<b/>dei<s n="pr"/></r></p></e>
+<e>         <p><l>ca.<s n="pr"/></l>	<r>ca.<s n="pr"/></r></p></e>
+<e>         <p><l>ca<s n="pr"/></l>	<r>ca<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>efter<s n="pr"/></l>	<r>bortanfor<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>efter<s n="pr"/></l>	<r>bortanpå<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>efter<s n="pr"/></l>	<r>bortapå<s n="pr"/></r></p></e>
 <e vr="nno"><p><l>efter<s n="pr"/></l>	<r>bortatil<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>upp<b/>till<s n="pr"/></l>	<r>opp<b/>til<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>till<s n="pr"/></l>	<r>framtil<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>åt<s n="pr"/></l>	<r>framtil<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>till<s n="pr"/></l>	<r>fremtil<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>åt<s n="pr"/></l>	<r>fremtil<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>till<s n="pr"/></l>	<r>framantil<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>åt<s n="pr"/></l>	<r>framantil<s n="pr"/></r></p></e>
-<e>         <p><l>upp<b/>till<s n="pr"/></l>	<r>opptil<s n="pr"/></r></p></e>
-<e>         <p><l>åt<s n="pr"/></l>	<r>til<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>till<s n="pr"/></l>	<r>attil<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>åt<s n="pr"/></l>	<r>attil<s n="pr"/></r></p></e>
-<e>         <p><l>vid<s n="pr"/></l>	<r>borttil<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>till<s n="pr"/></l>	<r>att-til<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>åt<s n="pr"/></l>	<r>att-til<s n="pr"/></r></p></e>
-<e>         <p><l>utan<s n="pr"/></l>	<r>omfram<s n="pr"/></r></p></e>
-<e>         <p><l>kring<s n="pr"/></l>	<r>kringom<s n="pr"/></r></p></e>
-<e>         <p><l>omkring<s n="pr"/></l>	<r>kringom<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>inför<s n="pr"/></l>	<r>fremom<s n="pr"/></r></p></e>
+<e vr="nob"><p><l>efter<s n="pr"/></l>	<r>bortenfor<s n="pr"/></r></p></e>
+<e>         <p><l>efter<s n="pr"/></l>	<r>bortetter<s n="pr"/></r></p></e>
+<e>         <p><l>efter<s n="pr"/></l>	<r>efter<s n="pr"/></r></p></e>
+<e vr="nob"><p><l>efter<s n="pr"/></l>	<r>efterpå<s n="pr"/></r></p></e>
+<e>         <p><l>efter<s n="pr"/></l>	<r>etter<s n="pr"/></r></p></e>
+<e>         <p><l>efter<s n="pr"/></l>	<r>etterpå<s n="pr"/></r></p></e>
+<e>         <p><l>emellan<s n="pr"/></l>	<r>imellom<s n="pr"/></r></p></e>
+<e>         <p><l>emot<s n="pr"/></l>	<r>bortimot<s n="pr"/></r></p></e>
+<e>         <p><l>emot<s n="pr"/></l>	<r>imot<s n="pr"/></r></p></e>
+<e>         <p><l>emot<s n="pr"/></l>	<r>opp<b/>imot<s n="pr"/></r></p></e>
+<e>         <p><l>emot<s n="pr"/></l>	<r>oppimot<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>enligt<s n="pr"/></l>	<r>ifylgje<s n="pr"/></r></p></e>
+<e>         <p><l>enligt<s n="pr"/></l>	<r>ifølge<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>enligt<s n="pr"/></l>	<r>ifølgje<s n="pr"/></r></p></e>
+<e>         <p><l>fig.<s n="pr"/></l>	<r>fig.<s n="pr"/></r></p></e>
+<e>         <p><l>fig<s n="pr"/></l>	<r>fig<s n="pr"/></r></p></e>
+<e>         <p><l>framför<s n="pr"/></l>	<r>foran<s n="pr"/></r></p></e>
+<e>         <p><l>framför<s n="pr"/></l>	<r>framfor<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>från<s n="pr"/></l>	<r>dør<s n="pr"/></r></p></e>
+<e vr="nob"><p><l>från<s n="pr"/></l>	<r>fra<s n="pr"/></r></p></e>
+<e>         <p><l>från<s n="pr"/></l>	<r>frå<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>från<s n="pr"/></l>	<r>frå<s n="pr"/></r></p></e>
+<e vr="nob"><p><l>från<s n="pr"/></l>	<r>ifra<s n="pr"/></r></p></e>
+<e>         <p><l>från<s n="pr"/></l>	<r>ifrå<s n="pr"/></r></p></e>
+<e>         <p><l>från<s n="pr"/></l>	<r>unna<s n="pr"/></r></p></e>
+<e>         <p><l>för<s n="pr"/></l>	<r>for<s n="pr"/></r></p></e>
+<e>         <p><l>före<s n="pr"/></l>	<r>før<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>förutom<s n="pr"/></l>	<r>unnateke<s n="pr"/></r></p></e>
+<e r="RL" vr="nno"><p><l>förutom<s n="pr"/></l>	<r>unnateki<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>förutom<s n="pr"/></l>	<r>unnateki<s n="pr"/></r></p></e>
+<e vr="nob"><p><l>förutom<s n="pr"/></l>	<r>unntagen<s n="pr"/></r></p></e>
+<e>         <p><l>förutom<s n="pr"/></l>	<r>unntatt<s n="pr"/></r></p></e>
+<e vr="nob"><p><l>genom<s n="pr"/></l>	<r>bortgjennom<s n="pr"/></r></p></e>
 <e vr="nno"><p><l>genom<s n="pr"/></l>	<r>framgjennom<s n="pr"/></r></p></e>
 <e vr="nob"><p><l>genom<s n="pr"/></l>	<r>fremgjennom<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>genom<s n="pr"/></l>	<r>bortgjennom<s n="pr"/></r></p></e>
-<e>         <p><l>som<s n="pr"/></l>	<r>som<s n="pr"/></r></p></e>
-<e>         <p><l>till<s n="pr"/></l>	<r>som<s n="pr"/></r></p></e>
-<e>         <p><l>åt<s n="pr"/></l>	<r>som<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>om<s n="pr"/></l>	<r>um<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>innan<s n="pr"/></l>	<r>innan<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>under<s n="pr"/></l>	<r>underan<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>inför<s n="pr"/></l>	<r>foran<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>utan<s n="pr"/></l>	<r>utan<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>förutom<s n="pr"/></l>	<r>unntagen<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>innan<s n="pr"/></l>	<r>innen<s n="pr"/></r></p></e>
-<e>         <p><l>utan<s n="pr"/></l>	<r>uten<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>under<s n="pr"/></l>	<r>framunder<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>under<s n="pr"/></l>	<r>fremunder<s n="pr"/></r></p></e>
-<e>         <p><l>under<s n="pr"/></l>	<r>bortunder<s n="pr"/></r></p></e>
-<e>         <p><l>efter<s n="pr"/></l>	<r>efter<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>längs<s n="pr"/></l>	<r>fremetter<s n="pr"/></r></p></e>
-<e>         <p><l>efter<s n="pr"/></l>	<r>bortetter<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>inför<s n="pr"/></l>	<r>framfor<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>inför<s n="pr"/></l>	<r>framanfor<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>efter<s n="pr"/></l>	<r>bortanfor<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>utanför<s n="pr"/></l>	<r>utanfor<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>inför<s n="pr"/></l>	<r>frammenfor<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>inför<s n="pr"/></l>	<r>fremmenfor<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>efter<s n="pr"/></l>	<r>bortenfor<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>utanför<s n="pr"/></l>	<r>utenfor<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>ur<s n="pr"/></l>	<r>or<s n="pr"/></r></p></e>
-<e>         <p><l>nära<s n="pr"/></l>	<r>nær<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>ifrån<s n="pr"/></l>	<r>dør<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>från<s n="pr"/></l>	<r>dør<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>nära<s n="pr"/></l>	<r>nærhendes<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>angående<s n="pr"/></l>	<r>andsynes<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>ovanför<s n="pr"/></l>	<r>andsynes<s n="pr"/></r></p></e>
-<e>         <p><l>utan<s n="pr"/></l>	<r>omframt<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>till<s n="pr"/></l>	<r>framåt<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>åt<s n="pr"/></l>	<r>framåt<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>till<s n="pr"/></l>	<r>åt<s n="pr"/></r></p></e>
-<e>         <p><l>mot<s n="pr"/></l>	<r>åt<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>åt<s n="pr"/></l>	<r>åt<s n="pr"/></r></p></e>
-<e>         <p><l>vid<s n="pr"/></l>	<r>bortåt<s n="pr"/></r></p></e>
-<e>         <p><l>ur<s n="pr"/></l>	<r>ut<b/>av<s n="pr"/></r></p></e>
-<e>         <p><l>ur<s n="pr"/></l>	<r>utav<s n="pr"/></r></p></e>
+<e>         <p><l>genom<s n="pr"/></l>	<r>gjennom<s n="pr"/></r></p></e>
 <e>         <p><l>hos<s n="pr"/></l>	<r>hjå<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>efter<s n="pr"/></l>	<r>bortapå<s n="pr"/></r></p></e>
-<e>         <p><l>uppe<b/>i<s n="pr"/></l>	<r>oppe<b/>på<s n="pr"/></r></p></e>
+<e>         <p><l>hos<s n="pr"/></l>	<r>hos<s n="pr"/></r></p></e>
+<e>         <p><l>i<s n="pr"/></l>	<r>borti<s n="pr"/></r></p></e>
+<e>         <p><l>i<s n="pr"/></l>	<r>i<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>ifrån<s n="pr"/></l>	<r>dør<s n="pr"/></r></p></e>
+<e vr="nob"><p><l>ifrån<s n="pr"/></l>	<r>fra<s n="pr"/></r></p></e>
+<e>         <p><l>ifrån<s n="pr"/></l>	<r>frå<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>ifrån<s n="pr"/></l>	<r>frå<s n="pr"/></r></p></e>
+<e vr="nob"><p><l>ifrån<s n="pr"/></l>	<r>ifra<s n="pr"/></r></p></e>
+<e>         <p><l>ifrån<s n="pr"/></l>	<r>ifrå<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>ifrån<s n="pr"/></l>	<r>ifrå<s n="pr"/></r></p></e>
+<e>         <p><l>ifrån<s n="pr"/></l>	<r>unna<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>igenom<s n="pr"/></l>	<r>attigjennom<s n="pr"/></r></p></e>
+<e>         <p><l>igenom<s n="pr"/></l>	<r>bortigjennom<s n="pr"/></r></p></e>
+<e>         <p><l>igenom<s n="pr"/></l>	<r>gjennom<s n="pr"/></r></p></e>
+<e>         <p><l>igenom<s n="pr"/></l>	<r>oppigjennom<s n="pr"/></r></p></e>
+<e vr="nob"><p><l>inför<s n="pr"/></l>	<r>foran<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>inför<s n="pr"/></l>	<r>framanfor<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>inför<s n="pr"/></l>	<r>framfor<s n="pr"/></r></p></e>
+<e vr="nob"><p><l>inför<s n="pr"/></l>	<r>framføre<s n="pr"/></r></p></e>
+<e vr="nob"><p><l>inför<s n="pr"/></l>	<r>frammenfor<s n="pr"/></r></p></e>
+<e>         <p><l>inför<s n="pr"/></l>	<r>framom<s n="pr"/></r></p></e>
+<e vr="nob"><p><l>inför<s n="pr"/></l>	<r>fremmenfor<s n="pr"/></r></p></e>
+<e vr="nob"><p><l>inför<s n="pr"/></l>	<r>fremom<s n="pr"/></r></p></e>
+<e>         <p><l>inför<s n="pr"/></l>	<r>føre<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>innan<s n="pr"/></l>	<r>innan<s n="pr"/></r></p></e>
+<e vr="nob"><p><l>innan<s n="pr"/></l>	<r>innen<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>inom<s n="pr"/></l>	<r>innanfor<s n="pr"/></r></p></e>
+<e vr="nob"><p><l>inom<s n="pr"/></l>	<r>innenfor<s n="pr"/></r></p></e>
+<e>         <p><l>inuti<s n="pr"/></l>	<r>inne<b/>i<s n="pr"/></r></p></e>
+<e>         <p><l>kring<s n="pr"/></l>	<r>ikring<s n="pr"/></r></p></e>
+<e>         <p><l>kring<s n="pr"/></l>	<r>kring<s n="pr"/></r></p></e>
+<e>         <p><l>kring<s n="pr"/></l>	<r>kringom<s n="pr"/></r></p></e>
+<e>         <p><l>kring<s n="pr"/></l>	<r>omkring<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>kring<s n="pr"/></l>	<r>utakring<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>kring<s n="pr"/></l>	<r>utanikring<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>kring<s n="pr"/></l>	<r>utankring<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>längs<s n="pr"/></l>	<r>frametter<s n="pr"/></r></p></e>
+<e vr="nob"><p><l>längs<s n="pr"/></l>	<r>fremetter<s n="pr"/></r></p></e>
+<e>         <p><l>längs<s n="pr"/></l>	<r>langs<s n="pr"/></r></p></e>
+<e>         <p><l>längs<s n="pr"/></l>	<r>langsetter<s n="pr"/></r></p></e>
+<e>         <p><l>med<s n="pr"/></l>	<r>med<s n="pr"/></r></p></e>
+<e>         <p><l>mellan<s n="pr"/></l>	<r>mellom<s n="pr"/></r></p></e>
+<e>         <p><l>mot<s n="pr"/></l>	<r>mot<s n="pr"/></r></p></e>
+<e>         <p><l>mot<s n="pr"/></l>	<r>åt<s n="pr"/></r></p></e>
+<e>         <p><l>nr.<s n="pr"/></l>	<r>nr.<s n="pr"/></r></p></e>
+<e>         <p><l>nr<s n="pr"/></l>	<r>nr<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>nära<s n="pr"/></l>	<r>næme<s n="pr"/></r></p></e>
+<e>         <p><l>nära<s n="pr"/></l>	<r>nær<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>nära<s n="pr"/></l>	<r>nærhendes<s n="pr"/></r></p></e>
+<e vr="nob"><p><l>nära<s n="pr"/></l>	<r>nærme<s n="pr"/></r></p></e>
+<e>         <p><l>om<s n="pr"/></l>	<r>om<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>om<s n="pr"/></l>	<r>um<s n="pr"/></r></p></e>
+<e>         <p><l>omkring<s n="pr"/></l>	<r>ikring<s n="pr"/></r></p></e>
+<e>         <p><l>omkring<s n="pr"/></l>	<r>kring<s n="pr"/></r></p></e>
+<e>         <p><l>omkring<s n="pr"/></l>	<r>kringom<s n="pr"/></r></p></e>
+<e>         <p><l>omkring<s n="pr"/></l>	<r>omkring<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>omkring<s n="pr"/></l>	<r>utakring<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>omkring<s n="pr"/></l>	<r>utanikring<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>omkring<s n="pr"/></l>	<r>utankring<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>ovanför<s n="pr"/></l>	<r>andsynes<s n="pr"/></r></p></e>
+<e>         <p><l>ovanför<s n="pr"/></l>	<r>overfor<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>ovanpå<s n="pr"/></l>	<r>ovanpå<s n="pr"/></r></p></e>
+<e>         <p><l>ovanpå<s n="pr"/></l>	<r>ovapå<s n="pr"/></r></p></e>
+<e vr="nob"><p><l>ovanpå<s n="pr"/></l>	<r>ovenpå<s n="pr"/></r></p></e>
+<e>         <p><l>per<s n="pr"/></l>	<r>per<s n="pr"/></r></p></e>
+<e>         <p><l>pga.<s n="pr"/></l>	<r>pga.<s n="pr"/></r></p></e>
+<e>         <p><l>pga<s n="pr"/></l>	<r>pga<s n="pr"/></r></p></e>
+<e>         <p><l>på<b/>grund<b/>av<s n="pr"/></l>	<r>på<b/>grunn<b/>av<s n="pr"/></r></p></e>
 <e vr="nno"><p><l>på<s n="pr"/></l>	<r>frampå<s n="pr"/></r></p></e>
 <e vr="nob"><p><l>på<s n="pr"/></l>	<r>frempå<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>efter<s n="pr"/></l>	<r>bortanpå<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>ovanpå<s n="pr"/></l>	<r>ovanpå<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>ovanpå<s n="pr"/></l>	<r>ovenpå<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>efter<s n="pr"/></l>	<r>efterpå<s n="pr"/></r></p></e>
-<e>         <p><l>efter<s n="pr"/></l>	<r>etterpå<s n="pr"/></r></p></e>
-<e>         <p><l>från<s n="pr"/></l>	<r>ifrå<s n="pr"/></r></p></e>
-<e>         <p><l>från<s n="pr"/></l>	<r>frå<s n="pr"/></r></p></e>
+<e>         <p><l>på<s n="pr"/></l>	<r>på<s n="pr"/></r></p></e>
+<e>         <p><l>som<s n="pr"/></l>	<r>som<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>till<s n="pr"/></l>	<r>att-til<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>till<s n="pr"/></l>	<r>attil<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>till<s n="pr"/></l>	<r>framantil<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>till<s n="pr"/></l>	<r>framatil<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>till<s n="pr"/></l>	<r>framtil<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>till<s n="pr"/></l>	<r>framåt<s n="pr"/></r></p></e>
+<e vr="nob"><p><l>till<s n="pr"/></l>	<r>fremtil<s n="pr"/></r></p></e>
+<e>         <p><l>till<s n="pr"/></l>	<r>som<s n="pr"/></r></p></e>
+<e>         <p><l>till<s n="pr"/></l>	<r>til<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>till<s n="pr"/></l>	<r>åt<s n="pr"/></r></p></e>
+<e>         <p><l>tills<s n="pr"/></l>	<r>inntil<s n="pr"/></r></p></e>
+<e>         <p><l>trots<s n="pr"/></l>	<r>etter<s n="pr"/></r></p></e>
+<e>         <p><l>under<s n="pr"/></l>	<r>bortunder<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>under<s n="pr"/></l>	<r>framunder<s n="pr"/></r></p></e>
+<e vr="nob"><p><l>under<s n="pr"/></l>	<r>fremunder<s n="pr"/></r></p></e>
+<e>         <p><l>under<s n="pr"/></l>	<r>under<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>under<s n="pr"/></l>	<r>underan<s n="pr"/></r></p></e>
+<e vr="nob"><p><l>upp<b/>till<s n="pr"/></l>	<r>opp<b/>til<s n="pr"/></r></p></e>
+<e>         <p><l>upp<b/>till<s n="pr"/></l>	<r>opptil<s n="pr"/></r></p></e>
+<e>         <p><l>uppe<b/>i<s n="pr"/></l>	<r>oppe<b/>på<s n="pr"/></r></p></e>
+<e vr="nob"><p><l>ur<s n="pr"/></l>	<r>fra<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>ur<s n="pr"/></l>	<r>frå<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>ur<s n="pr"/></l>	<r>or<s n="pr"/></r></p></e>
+<e>         <p><l>ur<s n="pr"/></l>	<r>ut<b/>av<s n="pr"/></r></p></e>
+<e>         <p><l>ur<s n="pr"/></l>	<r>utav<s n="pr"/></r></p></e>
+<e>         <p><l>ut<s n="pr"/></l>	<r>ut<s n="pr"/></r></p></e>
+<e>         <p><l>utan<s n="pr"/></l>	<r>omfram<s n="pr"/></r></p></e>
+<e>         <p><l>utan<s n="pr"/></l>	<r>omframt<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>utan<s n="pr"/></l>	<r>utan<s n="pr"/></r></p></e>
+<e>         <p><l>utan<s n="pr"/></l>	<r>uten<s n="pr"/></r></p></e>
+<e vr="nob"><p><l>utan<s n="pr"/></l>	<r>uten<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>utanför<s n="pr"/></l>	<r>utanfor<s n="pr"/></r></p></e>
+<e vr="nob"><p><l>utanför<s n="pr"/></l>	<r>utenfor<s n="pr"/></r></p></e>
+<e r="RL" vr="nno"><p><l>utanför<s n="pr"/></l>	<r>utkring<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>utanför<s n="pr"/></l>	<r>utkring<s n="pr"/></r></p></e>
+<e>         <p><l>utanför<s n="pr"/></l>	<r>utom<s n="pr"/></r></p></e>
+<e>         <p><l>utanför<s n="pr"/></l>	<r>utomhus<s n="pr"/></r></p></e>
+<e>         <p><l>utom<s n="pr"/></l>	<r>utom<s n="pr"/></r></p></e>
+<e>         <p><l>utöver<s n="pr"/></l>	<r>utover<s n="pr"/></r></p></e>
+<e>         <p><l>via<s n="pr"/></l>	<r>via<s n="pr"/></r></p></e>
+<e>         <p><l>vid<s n="pr"/></l>	<r>attmed<s n="pr"/></r></p></e>
+<e>         <p><l>vid<s n="pr"/></l>	<r>attved<s n="pr"/></r></p></e>
+<e>         <p><l>vid<s n="pr"/></l>	<r>bortmed<s n="pr"/></r></p></e>
+<e>         <p><l>vid<s n="pr"/></l>	<r>borttil<s n="pr"/></r></p></e>
+<e>         <p><l>vid<s n="pr"/></l>	<r>bortved<s n="pr"/></r></p></e>
+<e>         <p><l>vid<s n="pr"/></l>	<r>bortåt<s n="pr"/></r></p></e>
+<e>         <p><l>vid<s n="pr"/></l>	<r>frammed<s n="pr"/></r></p></e>
+<e>         <p><l>vid<s n="pr"/></l>	<r>framved<s n="pr"/></r></p></e>
+<e>         <p><l>vid<s n="pr"/></l>	<r>fremved<s n="pr"/></r></p></e>
+<e>         <p><l>vid<s n="pr"/></l>	<r>innmed<s n="pr"/></r></p></e>
+<e>         <p><l>vid<s n="pr"/></l>	<r>næme<s n="pr"/></r></p></e>
+<e>         <p><l>vid<s n="pr"/></l>	<r>ved<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>åt<s n="pr"/></l>	<r>att-til<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>åt<s n="pr"/></l>	<r>attil<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>åt<s n="pr"/></l>	<r>framantil<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>åt<s n="pr"/></l>	<r>framatil<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>åt<s n="pr"/></l>	<r>framtil<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>åt<s n="pr"/></l>	<r>framåt<s n="pr"/></r></p></e>
+<e vr="nob"><p><l>åt<s n="pr"/></l>	<r>fremtil<s n="pr"/></r></p></e>
+<e>         <p><l>åt<s n="pr"/></l>	<r>som<s n="pr"/></r></p></e>
+<e>         <p><l>åt<s n="pr"/></l>	<r>til<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>åt<s n="pr"/></l>	<r>åt<s n="pr"/></r></p></e>
+<e>         <p><l>över<s n="pr"/></l>	<r>over<s n="pr"/></r></p></e>
+
 
 
     <!-- SECTION: Pronouns -->
@@ -768,7 +807,7 @@
 
 <e>         <p><l>den<s n="det"/><s n="dem"/></l>       <r>den<s n="det"/><s n="dem"/></r></p><par n="gen_nbr"/></e>
 <e>         <p><l>denna<s n="det"/><s n="dem"/></l>                 <r>denne<s n="det"/><s n="dem"/></r></p><par n="gen_nbr"/></e>
-<e>         <p><l>sådan<s n="det"/><s n="dem"/></l>     <r>slik<s n="det"/><s n="dem"/></r></p><par n="gen_nbr"/></e>
+<e>         <p><l>sån<s n="det"/><s n="dem"/></l>     <r>slik<s n="det"/><s n="dem"/></r></p><par n="gen_nbr"/></e>
 
 <e vr="nob"><p><l>en<s n="det"/><s n="ind"/></l>        <r>en<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
 <e r="RL" vr="nob"><p><l>en<s n="det"/><s n="ind"/></l> <r>én<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
@@ -782,8 +821,8 @@
 <e vr="nno"><p><l>varje<s n="det"/><s n="ind"/></l>     <r>kvar<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
 <e vr="nob"><p><l>varje<s n="det"/><s n="ind"/></l>     <r>hver<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
 
-<e vr="nno"><p><l>annan<s n="det"/></l>                 <r>annen<s n="det"/></r></p></e>
-<e vr="nno"><p><l>annan<s n="det"/></l>                 <r>annan<s n="det"/></r></p></e>
+<e vr="nob"><p><l>annan<s n="det"/></l>                 <r>annen<s n="det"/></r></p><par n="gen_nbr"/></e>
+<e vr="nno"><p><l>annan<s n="det"/></l>                 <r>annan<s n="det"/></r></p><par n="gen_nbr"/></e>
 
 <e>         <p><l>all<s n="det"/><s n="qnt"/></l>       <r>all<s n="det"/><s n="qnt"/></r></p></e>
 
@@ -808,6 +847,7 @@
 <e>         <p><l>nio<s n="det"/><s n="qnt"/></l><r>ni<s n="det"/><s n="qnt"/></r></p></e>
 <e>         <p><l>tio<s n="det"/><s n="qnt"/></l><r>ti<s n="det"/><s n="qnt"/></r></p></e>
 
+<e>         <p><l>hundra<s n="det"/><s n="qnt"/></l><r>hundre<s n="det"/><s n="qnt"/></r></p></e>
 <e>         <p><l>tusen<s n="det"/><s n="qnt"/></l><r>tusen<s n="det"/><s n="qnt"/></r></p></e>
 <e>         <p><l>mil<s n="det"/><s n="qnt"/></l><r>mil<s n="det"/><s n="qnt"/></r></p></e>
 
@@ -24642,93 +24682,6 @@
   <section id="pending" type="standard">
 
     <!-- SECTION: Prepositions -->
-
-<e><p><l>längs<s n="pr"/></l><r>frametter<s n="pr"/></r></p></e>
-<e><p><l>längs<s n="pr"/></l><r>langsetter<s n="pr"/></r></p></e>
-<e><p><l>längs<s n="pr"/></l><r>langs<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>längs<s n="pr"/></l><r>fremetter<s n="pr"/></r></p></e>
-<e>         <p><l>på<b/>grund<b/>av<s n="pr"/></l><r>på<b/>grunn<b/>av<s n="pr"/></r></p></e>
-
-
-<e vr="nob"><p><l>ner<s n="pr"/></l><r>ner<s n="pr"/></r></p></e>
-<e><p><l>per<s n="pr"/></l><r>per<s n="pr"/></r></p></e>
-<e><p><l>tills<s n="pr"/></l><r>inntil<s n="pr"/></r></p></e>
-<e><p><l>utanför<s n="pr"/></l><r>utomhus<s n="pr"/></r></p></e>
-<e><p><l>utanför<s n="pr"/></l><r>utom<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>utanför<s n="pr"/></l><r>utanfor<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>utanför<s n="pr"/></l><r>utkring<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>utanför<s n="pr"/></l><r>utenfor<s n="pr"/></r></p></e>
-<e><p><l>ovanför<s n="pr"/></l><r>overfor<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>ovanför<s n="pr"/></l><r>andsynes<s n="pr"/></r></p></e>
-<e><p><l>ovanpå<s n="pr"/></l><r>ovapå<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>ovanpå<s n="pr"/></l><r>ovanpå<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>ovanpå<s n="pr"/></l><r>ovenpå<s n="pr"/></r></p></e>
-
-<e vr="nno"><p><l>angående<s n="pr"/></l><r>andsynes<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>angående<s n="pr"/></l><r>angående<s n="pr"/></r></p></e>
-<e><p><l>bland<s n="pr"/></l><r>blant<s n="pr"/></r></p></e>
-<e><p><l>bland<s n="pr"/></l><r>deriblant<s n="pr"/></r></p></e>
-<e><p><l>bland<s n="pr"/></l><r>iblant<s n="pr"/></r></p></e>
-<e><p><l>bland<s n="pr"/></l><r>inniblant<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>bland<s n="pr"/></l><r>mellom<b/>dei<s n="pr"/></r></p></e>
-<e><p><l>emellan<s n="pr"/></l><r>imellom<s n="pr"/></r></p></e>
-
-<e><p><l>emot<s n="pr"/></l><r>bortimot<s n="pr"/></r></p></e>
-<e><p><l>emot<s n="pr"/></l><r>imot<s n="pr"/></r></p></e>
-<e><p><l>emot<s n="pr"/></l><r>opp<b/>imot<s n="pr"/></r></p></e>
-<e><p><l>emot<s n="pr"/></l><r>oppimot<s n="pr"/></r></p></e>
-
-<e><p><l>före<s n="pr"/></l><r>før<s n="pr"/></r></p></e>
-<e><p><l>for<s n="pr"/></l><r>for<s n="pr"/></r></p></e>
-<e><p><l>for<s n="pr"/></l><r>innfor<s n="pr"/></r></p></e>
-<e><p><l>for<s n="pr"/></l><r>trass<b/>i<s n="pr"/></r></p></e>
-<e><p><l>for<s n="pr"/></l><r>utfor<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>for<s n="pr"/></l><r>austafor<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>for<s n="pr"/></l><r>austom<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>for<s n="pr"/></l><r>i<b/>staden<b/>for<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>for<s n="pr"/></l><r>nordafor<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>for<s n="pr"/></l><r>nordani<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>for<s n="pr"/></l><r>austenfor<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>for<s n="pr"/></l><r>istedenfor<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>for<s n="pr"/></l><r>nordenfor<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>for<s n="pr"/></l><r>øst<b/>for<s n="pr"/></r></p></e>
-<e><p><l>förutom<s n="pr"/></l><r>unntatt<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>förutom<s n="pr"/></l><r>unnateke<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>förutom<s n="pr"/></l><r>unnateki<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>förutom<s n="pr"/></l><r>unntagen<s n="pr"/></r></p></e>
-
-<e><p><l>ifrån<s n="pr"/></l><r>frå<s n="pr"/></r></p></e>
-<e><p><l>ifrån<s n="pr"/></l><r>ifrå<s n="pr"/></r></p></e>
-<e><p><l>ifrån<s n="pr"/></l><r>unna<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>ifrån<s n="pr"/></l><r>frå<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>ifrån<s n="pr"/></l><r>ifrå<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>ifrån<s n="pr"/></l><r>fra<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>ifrån<s n="pr"/></l><r>ifra<s n="pr"/></r></p></e>
-<e><p><l>igenom<s n="pr"/></l><r>bortigjennom<s n="pr"/></r></p></e>
-<e><p><l>igenom<s n="pr"/></l><r>gjennom<s n="pr"/></r></p></e>
-<e><p><l>igenom<s n="pr"/></l><r>oppigjennom<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>igenom<s n="pr"/></l><r>attigjennom<s n="pr"/></r></p></e>
-<e><p><l>inför<s n="pr"/></l><r>føre<s n="pr"/></r></p></e>
-<e><p><l>inför<s n="pr"/></l><r>framom<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>inför<s n="pr"/></l><r>framanfor<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>inför<s n="pr"/></l><r>framfor<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>inför<s n="pr"/></l><r>foran<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>inför<s n="pr"/></l><r>framføre<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>inför<s n="pr"/></l><r>frammenfor<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>inför<s n="pr"/></l><r>fremmenfor<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>inför<s n="pr"/></l><r>fremom<s n="pr"/></r></p></e>
-<e vr="nno"><p><l>innan<s n="pr"/></l><r>innan<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>innan<s n="pr"/></l><r>innen<s n="pr"/></r></p></e>
-
-<e><p><l>ca<s n="pr"/></l><r>ca<s n="pr"/></r></p></e>
-<e><p><l>ca.<s n="pr"/></l><r>ca.<s n="pr"/></r></p></e>
-<e><p><l>pga<s n="pr"/></l><r>pga<s n="pr"/></r></p></e>
-<e><p><l>pga.<s n="pr"/></l><r>pga.<s n="pr"/></r></p></e>
-<e><p><l>fig<s n="pr"/></l><r>fig<s n="pr"/></r></p></e>
-<e><p><l>fig.<s n="pr"/></l><r>fig.<s n="pr"/></r></p></e>
-<e><p><l>nr<s n="pr"/></l><r>nr<s n="pr"/></r></p></e>
-<e><p><l>nr.<s n="pr"/></l><r>nr.<s n="pr"/></r></p></e>
-
 
     <!-- SECTION: Proper nouns -->
 
