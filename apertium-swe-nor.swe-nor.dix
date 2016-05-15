@@ -1104,7 +1104,8 @@
 <e vr="nno"><p><l>anhängare<s n="n"/><s n="ut"/></l>	<r>tilhengjar<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>anhållan<s n="n"/><s n="ut"/></l>	<r>anmodning<s n="n"/></r></p><par n=":f/m"/></e>
 <e vr="nno"><p><l>anhållan<s n="n"/><s n="ut"/></l>	<r>oppfordring<s n="n"/></r></p><par n=":f/m"/></e>
-<e>         <p><l>anhörig<s n="n"/><s n="ut"/></l>	<r>pårørende<s n="n"/><s n="m"/></r></p><par n="sgpl:sp"/></e>
+<e vr="nno"><p><l>anhörig<s n="n"/><s n="ut"/></l>	<r>pårørande<s n="n"/><s n="m"/></r></p><par n="sgpl:sp"/></e>
+<e vr="nob"><p><l>anhörig<s n="n"/><s n="ut"/></l>	<r>pårørende<s n="n"/><s n="m"/></r></p><par n="sgpl:sp"/></e>
 <e>         <p><l>animation<s n="n"/><s n="ut"/></l>	<r>animasjon<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>anis<s n="n"/><s n="ut"/></l>	<r>anis<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>anisett<s n="n"/><s n="ut"/></l>	<r>anisette<s n="n"/><s n="m"/></r></p></e>
@@ -5174,7 +5175,6 @@
 <e>         <p><l>hyacint<s n="n"/><s n="ut"/></l>	<r>hyasint<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>hybrid<s n="n"/><s n="ut"/></l>	<r>hybrid<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>hyckleri<s n="n"/><s n="nt"/></l>	<r>hykleri<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>hyckleri<s n="n"/><s n="nt"/></l>	<r>hykleri<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>hydra<s n="n"/><s n="ut"/></l>	<r>hydra<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>hydrat<s n="n"/><s n="nt"/></l>	<r>hydrat<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>hydraulik<s n="n"/><s n="ut"/></l>	<r>hydraulikk<s n="n"/><s n="m"/></r></p></e>
@@ -13335,7 +13335,8 @@
 <e vr="nno"><p><l>övertygelse<s n="n"/><s n="ut"/></l>	<r>overtyding<s n="n"/></r></p><par n=":f/m"/></e>
 <e vr="nob"><p><l>övning<s n="n"/><s n="ut"/></l>	<r>øvelse<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>övning<s n="n"/><s n="ut"/></l>	<r>øving<s n="n"/></r></p><par n=":f/m"/></e>
-<e>         <p><l>låt<s n="n"/><s n="ut"/></l>	<r>låt<s n="n"/></r></p><par n=":f/m"/></e>
+<e>         <p><l>låt<s n="n"/><s n="ut"/></l>	<r>låt<s n="n"/><s n="m"/></r></p></e>
+<e r="RL">  <p><l>låt<s n="n"/><s n="ut"/></l>	<r>låt<s n="n"/><s n="f"/></r></p></e>
 
 
 <!-- Acronyms: -->
