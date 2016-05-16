@@ -10361,8 +10361,8 @@
 <e vr="nob"><p><l>siare<s n="n"/><s n="ut"/></l>	<r>seer<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>siare<s n="n"/><s n="ut"/></l>	<r>sjåar<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>sida<s n="n"/><s n="ut"/></l>	<r>perm<s n="n"/><s n="m"/></r></p><par n="sgpl:sp"/></e>
-<e>         <p><l>sida<s n="n"/><s n="ut"/></l>	<r>sida<s n="n"/><s n="m"/></r></p></e>
-<e vr="nob"><p><l>sida<s n="n"/><s n="ut"/></l>	<r>side<s n="n"/></r></p><par n=":f/m"/></e>
+<e r="RL">  <p><l>sida<s n="n"/><s n="ut"/></l>	<r>sida<s n="n"/><s n="m"/></r></p></e>
+<e>         <p><l>sida<s n="n"/><s n="ut"/></l>	<r>side<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>sidensvans<s n="n"/><s n="ut"/></l>	<r>sidensvans<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>sidospår<s n="n"/><s n="nt"/></l>	<r>sidespor<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>siemens<s n="n"/><s n="ut"/></l>	<r>siemens<s n="n"/><s n="m"/></r></p></e>
@@ -24824,8 +24824,8 @@
 <e>         <p><l>Riksbank<s n="np"/></l>	<r>Sentralbank<s n="np"/></r></p></e>
 <e>         <p><l>Rio<s n="np"/></l>	<r>Rio<b/>de<b/>Janeiro<s n="np"/></r></p></e>
 <e>         <p><l>Rom<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Roma<s n="np"/><s n="top"/></r></p></e>
-<e vr="nno"><p><l>Romerska<b/>kejsardömet<s n="np"/></l>	<r>Romarriket<s n="np"/><s n="top"/></r></p></e>
-<e vr="nob"><p><l>Romerska<b/>kejsardömet<s n="np"/></l>	<r>Romerriket<s n="np"/><s n="top"/></r></p></e>
+<e vr="nno"><p><l>Romerska<b/>kejsardömet<s n="np"/><s n="top"/></l>	<r>Romarriket<s n="np"/><s n="top"/></r></p></e>
+<e vr="nob"><p><l>Romerska<b/>kejsardömet<s n="np"/><s n="top"/></l>	<r>Romerriket<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Rumänien<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Romania<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Ryssland<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Russland<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Sacharovpriset<s n="np"/><s n="org"/><s n="nt"/></l>	<r>Sakharovprisen<s n="np"/><s n="org"/><s n="m"/></r></p></e>
