@@ -766,9 +766,9 @@
 <e vr="nno"><p><l>båda<s n="prn"/><s n="def"/></l>          <r>båe<s n="prn"/><s n="def"/></r></p></e>
 <e>         <p><l>bådas</l>                                 <r>begges</r></p><par n="det+prn_pos"/></e>
 <e vr="nno"><p><l>bådas</l>                                 <r>båes</r></p><par n="det+prn_pos"/></e>
-<e vr="nno"><p><l>envar<s n="prn"/><s n="def"/></l>         <r>kvar<b/>og<b/>ein<s n="prn"/><s n="def"/></r></p></e>
+<e vr="nno"><p><l>envar<s n="prn"/><s n="def"/></l>         <r>kvar<b/>og<b/>ein<s n="prn"/><s n="def"/></r></p><par n="mf-gen_nbr"/></e>
 <e vr="nno"><p><l>envars</l>                                <r>kvar<b/>og<b/>ein<b/>sin</r></p><par n="det+prn_pos"/></e>
-<e vr="nob"><p><l>envar<s n="prn"/><s n="def"/></l>         <r>enhver<s n="prn"/><s n="def"/></r></p></e>
+<e vr="nob"><p><l>envar<s n="prn"/><s n="def"/></l>         <r>enhver<s n="prn"/><s n="def"/></r></p><par n="mf-gen_nbr"/></e>
 <e vr="nob"><p><l>envars</l>                                <r>enhvers</r></p><par n="det+prn_pos"/></e>
 
 <e vr="nob"><p><l>vad<s n="prn"/><s n="itg"/></l>   <r>hva<s n="prn"/><s n="itg"/></r></p></e>
@@ -16480,7 +16480,7 @@
 <e vr="nob"><p><l>t.ex.<s n="adv"/></l><r>f.eks.<s n="adv"/></r></p></e>
 <e><p><l>dvs<s n="adv"/></l><r>dvs<s n="adv"/></r></p></e>
 <e><p><l>m.fl.<s n="adv"/></l><r>m.fl.<s n="adv"/></r></p></e>
-<e r="RL">  <p><l>m.fl.<s n="adv"/></l><r>et<b/>al</r></p></e>
+<e r="RL">  <p><l>m.fl.<s n="adv"/></l><r>et<b/>al<s n="adv"/></r></p></e>
 <e><p><l>bl.a.<s n="adv"/></l><r>bl.a.<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>osv<s n="adv"/></l><r>osb<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>osv<s n="adv"/></l><r>osv<s n="adv"/></r></p></e>
@@ -20546,10 +20546,11 @@
 <e>         <p><l>missunna</l>	<r>misunne</r></p><par n="vblex"/></e>
 <e>         <p><l>missuppfatta</l>	<r>misforstå</r></p><par n="vblex"/></e>
 <e>         <p><l>missuppfatta</l>	<r>misoppfatte</r></p><par n="vblex"/></e>
-<e>         <p><l>mista</l>	<r>feile</r></p><par n="vblex"/></e>
+<e>         <p><l>mista</l>	<r>feile</r></p><par n="vblex_no-adjpp"/></e>
+<e vr="nno"><p><l>mista</l>	<r>mislukkast</r></p><par n="vblex:pstv"/></e>
 <e vr="nob"><p><l>mista</l>	<r>mislykkes</r></p><par n="vblex:pstv"/></e>
-<e>         <p><l>mista</l>	<r>miste</r></p><par n="vblex"/></e>
-<e>         <p><l>mista</l>	<r>tape</r></p><par n="vblex"/></e>
+<e>         <p><l>mista</l>	<r>miste</r></p><par n="vblex_no-adjpp"/></e>
+<e>         <p><l>mista</l>	<r>tape</r></p><par n="vblex_no-adjpp"/></e>
 <e>         <p><l>mixtra</l>	<r>samle</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e>         <p><l>mixtra</l>	<r>sanke</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e>         <p><l>mjuka</l>	<r>mjuke</r></p><par n="vblex"/></e>
