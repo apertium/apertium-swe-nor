@@ -530,7 +530,7 @@
 
           <let>
             <clip pos="1" side="tl" part="tags"/>
-            <lit-tag v="adj.pst.un.pl.ind.nom"/>
+            <lit-tag v="adj.pst.un.pl.ind"/>
           </let>
         </when>
 
