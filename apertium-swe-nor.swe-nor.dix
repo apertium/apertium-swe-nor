@@ -826,7 +826,7 @@
 <e vr="nob"><p><l>annan<s n="det"/></l>                 <r>annen<s n="det"/></r></p><par n="gen_nbr"/></e>
 <e vr="nno"><p><l>annan<s n="det"/></l>                 <r>annan<s n="det"/></r></p><par n="gen_nbr"/></e>
 
-<e>         <p><l>all<s n="det"/><s n="qnt"/></l>       <r>all<s n="det"/><s n="qnt"/></r></p></e>
+<e>         <p><l>all<s n="det"/><s n="qnt"/></l>       <r>all<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
 
 
 <!-- Just using the adj's (mycken/mången) for now; the det-version
@@ -16474,6 +16474,7 @@
 <e>         <p><l>åtminstone<s n="adv"/></l>	<r>minst<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>åtminstone<s n="adv"/></l>	<r>vissa<s n="adv"/></r></p></e>
 <e>         <p><l>överallt<s n="adv"/></l>	<r>overalt<s n="adv"/></r></p></e>
+<e>         <p><l>ihåg<s n="adv"/></l>	<r>i<b/>hug<s n="adv"/></r></p></e>
 
 <e vr="nno"><p><l>t.ex.<s n="adv"/></l><r>t.d.<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>t.ex.<s n="adv"/></l><r>f.eks.<s n="adv"/></r></p></e>
@@ -20490,8 +20491,8 @@
 <e>         <p><l>minna</l>	<r>minne</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>minnas</l>	<r>hugse</r></p><par n="vblex_pasv:vblex_no-adj"/></e>
 <e vr="nob"><p><l>minnas</l>	<r>huske</r></p><par n="vblex_pasv:vblex_no-adj"/></e>
-<e>         <p><l>minnas</l>	<r>komme<g><b/>i<b/>hug</g></r></p><par n="vblex_pasv:vblex_no-adj"/></e>
-<e>         <p><l>minnas</l>	<r>minnes</r></p><par n="vblex_pasv:vblex_no-adj"/></e>
+<e vr="nno"><p><l>minnas</l>	<r>minnast</r></p><par n="vblex_pasv:pstv"/></e>
+<e vr="nob"><p><l>minnas</l>	<r>minnes</r></p><par n="vblex_pasv:pstv"/></e>
 <e>         <p><l>minska</l>	<r>minke</r></p><par n="vblex"/></e>
 <e>         <p><l>minska</l>	<r>minske</r></p><par n="vblex"/></e>
 <e>         <p><l>minska</l>	<r>redusere</r></p><par n="vblex"/></e>
