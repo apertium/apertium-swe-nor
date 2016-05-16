@@ -200,8 +200,6 @@ EXTRA_DIST=$(BASENAME).$(PREFIX1).dix \
 	   $(BASENAME).$(PREFIX2).t1x \
 	   $(BASENAME).$(PREFIX2).t2x \
 	   $(BASENAME).$(PREFIX2).t3x \
-	   $(BASENAME).$(LANG1).acx \
-	   $(BASENAME).$(LANG2).acx \
 	   modes.xml
 
 ###############################################################################
