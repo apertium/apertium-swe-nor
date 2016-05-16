@@ -711,10 +711,8 @@
 <e vr="nob"><p><l>hennes</l>                                             <r>hennes</r></p><par n="det+prn_pos"/></e>
 <e>         <p><l>han<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/></l>  <r>han<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/></r></p></e>
 <e>         <p><l>hans</l>                                               <r>hans</r></p><par n="det+prn_pos"/></e>
-<e vr="nno" r="LR"><p><l>hen<s n="prn"/><s n="pers"/><s n="p3"/><s n="un"/></l> <r>ho<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/></r></p></e>
-<e vr="nob" r="LR"><p><l>hen<s n="prn"/><s n="pers"/><s n="p3"/><s n="un"/></l> <r>hun<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/></r></p></e>
-<e vr="nno" r="LR"><p><l>hens</l>                                               <r>hennar</r></p><par n="det+prn_pos"/></e>
-<e vr="nob" r="LR"><p><l>hens</l>                                               <r>hendes</r></p><par n="det+prn_pos"/></e>
+<e>         <p><l>hen<s n="prn"/><s n="pers"/><s n="p3"/><s n="ut"/></l> <r>hen<s n="prn"/><s n="pers"/><s n="p3"/><s n="mf"/></r></p></e>
+<e>         <p><l>hens</l>                                               <r>hens</r></p><par n="det+prn_pos"/></e>
 <!-- TODO: anaphoric ho/han -->
 <e vr="nno"><p><l>den<s n="prn"/><s n="pers"/><s n="p3"/><s n="ut"/></l> <r>han<s n="prn"/><s n="pers"/><s n="p3"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>den<s n="prn"/><s n="pers"/><s n="p3"/><s n="ut"/></l> <r>ho<s n="prn"/><s n="pers"/><s n="p3"/><s n="f"/></r></p></e>
