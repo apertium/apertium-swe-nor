@@ -2,7 +2,7 @@
 ## Makefile for Swedish--Norwegian
 ###############################################################################
 
-VERSION=0.1.0
+VERSION=0.1.1
 LANG1=swe
 LANG2=nor
 LANG2n=nno
@@ -217,8 +217,7 @@ apertium_swe_nor_DATA=$(TARGETS_COMMON) \
 	$(BASENAME).$(PREFIX1b).t3x \
 	$(BASENAME).$(PREFIX2).t1x \
 	$(BASENAME).$(PREFIX2).t2x \
-	$(BASENAME).$(PREFIX2).t3x \
-	$(PREFIX1).prob
+	$(BASENAME).$(PREFIX2).t3x
 
 # All modes are created by the same goal, listing several will just give problems with make -j2
 noinst_DATA=modes/$(PREFIX1b).mode
