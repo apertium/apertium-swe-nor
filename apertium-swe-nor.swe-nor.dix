@@ -6783,7 +6783,7 @@
 <e>         <p><l>kulle<s n="n"/><s n="ut"/></l>	<r>kneik<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>kulmination<s n="n"/><s n="ut"/></l>	<r>kulminasjon<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>kult<s n="n"/><s n="ut"/></l>	<r>kult<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>kult<s n="n"/><s n="ut"/></l>	<r>kultus<s n="n"/><s n="m"/></r></p></e>
+<e r="RL">  <p><l>kult<s n="n"/><s n="ut"/></l>	<r>kultus<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>kultur<s n="n"/><s n="ut"/></l>	<r>kultur<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>kulturarv<s n="n"/><s n="nt"/></l>	<r>kulturarv<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>kulturdebatt<s n="n"/><s n="ut"/></l>	<r>kulturdebatt<s n="n"/><s n="m"/></r></p></e>
@@ -7536,7 +7536,6 @@
 <e>         <p><l>lönnmord<s n="n"/><s n="nt"/></l>	<r>snikmord<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nob"><p><l>lönsamhet<s n="n"/><s n="ut"/></l>	<r>lønnsomhet<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>lönsamhet<s n="n"/><s n="ut"/></l>	<r>lønsemd<s n="n"/></r></p><par n=":f/m"/></e>
-<e vr="nno"><p><l>löpa<s n="n"/><s n="ut"/></l>	<r>far<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>löpa<s n="n"/><s n="ut"/></l>	<r>far<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>löpa<s n="n"/><s n="ut"/></l>	<r>spor<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nno"><p><l>löpare<s n="n"/><s n="ut"/></l>	<r>laupar<s n="n"/><s n="m"/></r></p></e>
@@ -10910,7 +10909,7 @@
 <e>         <p><l>småsak<s n="n"/><s n="ut"/></l>	<r>småting<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>småstad<s n="n"/><s n="ut"/></l>	<r>provinsby<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>småsten<s n="n"/><s n="ut"/></l>	<r>småstein<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>småtimmarna<s n="n"/><s n="un"/></l>	<r>nattetime<s n="n"/><s n="m"/></r></p><par n="@pl"/></e>
+<e>         <p><l>småtimmarna<s n="n"/><s n="un"/></l>	<r>nattetime<s n="n"/><s n="m"/></r></p><par n="@pl_def"/></e>
 <e>         <p><l>småtteri<s n="n"/><s n="nt"/></l>	<r>bagatell<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>småtteri<s n="n"/><s n="nt"/></l>	<r>filleting<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>småvilt<s n="n"/><s n="nt"/></l>	<r>småvilt<s n="n"/><s n="nt"/></r></p><par n="@sg"/></e>
@@ -14072,7 +14071,7 @@
 <e vr="nno"><p><l>kontinuerlig</l>            <r>kontinuerleg</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>kontinuerlig</l>            <r>kontinuerlig</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>konventionell</l>           <r>konvensjonell</r></p><par n="adj_sint"/></e>
-<e>         <p><l>koreansk</l>                <r>koreansk</r></p><par n="adj"/></e>
+<e>         <p><l>koreansk</l>                <r>koreansk</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>korrekt</l>                 <r>korrekt</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>korrupt</l>                 <r>korrupt</r></p><par n="adj_sint"/></e>
 <e>         <p><l>kort</l>                    <r>kort</r></p><par n="adj_sint"/></e>
@@ -14177,6 +14176,9 @@
 <e vr="nob"><p><l>livsfarlig</l>              <r>livsfarlig</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>ljudlig</l>                 <r>høg</r></p><par n="adj_sint"/></e>
 <e vr="nob"><p><l>ljudlig</l>                 <r>høy</r></p><par n="adj_sint"/></e>
+<e vr="nno"><p><l>ljuvlig</l>                 <r>herleg</r></p><par n="adj_sint"/></e>
+<e vr="nob"><p><l>ljuvlig</l>                 <r>herlig</r></p><par n="adj_sint"/></e>
+<e r="RL">  <p><l>ljuvlig</l>                 <r>ljuv</r></p><par n="adj_sint"/></e>
 <e vr="nno"><p><l>ljum</l>                    <r>flø</r></p><par n="adj_sint"/></e>
 <e vr="nob"><p><l>ljum</l>                    <r>lunken</r></p><par n="adj_sint"/></e>
 <e vr="nno"><p><l>ljus</l>                    <r>ljos</r></p><par n="adj_sint"/></e>
@@ -20120,7 +20122,7 @@
 <e vr="nno"><p><l>köra<b/>in</l>	<r>tilkøyre</r></p><par n="vblex"/></e>
 <e>         <p><l>köra<b/>om</l>	<r>overhale</r></p><par n="vblex"/></e>
 <e>         <p><l>labialisera</l>	<r>labialisere</r></p><par n="vblex"/></e>
-<e>         <p><l>laborera</l>	<r>laborere</r></p><par n="vblex_no-adjpp-pasv"/></e>
+<e r="LR">  <p><l>laborera</l>	<r>streve</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e>         <p><l>lacka</l>	<r>lakkere</r></p><par n="vblex"/></e>
 <e>         <p><l>lackera</l>	<r>lakkere</r></p><par n="vblex"/></e>
 <e>         <p><l>ladda</l>	<r>la</r></p><par n="vblex"/></e>
@@ -20401,12 +20403,10 @@
 <e>         <p><l>löna</l>	<r>gasjere</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>löna</l>	<r>løne</r></p><par n="vblex"/></e>
 <e>         <p><l>löna</l>	<r>lønne</r></p><par n="vblex"/></e>
-<e>         <p><l>löpa</l>	<r>kute</r></p><par n="vblex"/></e>
-<e vr="nno"><p><l>löpa</l>	<r>laupe</r></p><par n="vblex"/></e>
-<e vr="nob"><p><l>löpa</l>	<r>løpe</r></p><par n="vblex"/></e>
-<e>         <p><l>löpa</l>	<r>løype</r></p><par n="vblex"/></e>
-<e>         <p><l>löpa</l>	<r>ploge</r></p><par n="vblex"/></e>
-<e>         <p><l>löpa</l>	<r>spore</r></p><par n="vblex"/></e>
+<e>         <p><l>löpa</l>	<r>kute</r></p><par n="vblex_no-adjpp"/></e>
+<e vr="nno"><p><l>löpa</l>	<r>laupe</r></p><par n="vblex_no-adjppp"/></e>
+<e vr="nob"><p><l>löpa</l>	<r>løpe</r></p><par n="vblex_no-adjppp"/></e>
+<e r="RL">  <p><l>löpa</l>	<r>løype</r></p><par n="vblex_no-adjpp"/></e>
 <e vr="nob"><p><l>lösa</l>	<r>løse</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>lösa</l>	<r>løyse</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>lösa<b/>ut</l>	<r>innløse</r></p><par n="vblex"/></e>
@@ -21510,12 +21510,8 @@
 <e>         <p><l>rispa</l>	<r>risse</r></p><par n="vblex"/></e>
 <e>         <p><l>rispa</l>	<r>skrape</r></p><par n="vblex"/></e>
 <e>         <p><l>rissla</l>	<r>risle</r></p><par n="vblex"/></e>
-<e>         <p><l>rista</l>	<r>grøsse</r></p><par n="vblex"/></e>
-<e>         <p><l>rista</l>	<r>risse</r></p><par n="vblex"/></e>
-<e>         <p><l>rista</l>	<r>riste</r></p><par n="vblex"/></e>
-<e vr="nob"><p><l>rista</l>	<r>ryste</r></p><par n="vblex"/></e>
-<e>         <p><l>rista</l>	<r>skake</r></p><par n="vblex"/></e>
-<e>         <p><l>rista</l>	<r>skumple</r></p><par n="vblex"/></e>
+<e>         <p><l>rista</l>	<r>riste</r></p><par n="vblex_no-adjpp"/></e>
+<e vr="nob"><p><l>rista</l>	<r>ryste</r></p><par n="vblex_no-adjpp"/></e>
 <e>         <p><l>rita</l>	<r>rite</r></p><par n="vblex"/></e>
 <e>         <p><l>ritsa</l>	<r>ripe</r></p><par n="vblex"/></e>
 <e>         <p><l>ritsa</l>	<r>rispe</r></p><par n="vblex"/></e>
@@ -21849,8 +21845,8 @@
 <e>         <p><l>skildra</l>	<r>skildre</r></p><par n="vblex"/></e>
 <e>         <p><l>skilja</l>	<r>skilje</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>skilja</l>	<r>skille</r></p><par n="vblex"/></e>
-<e vr="nno"><p><l>skilja<b/>sig<s n="vblex"/><s n="inf"/></l>	<r>skiljast<s n="vblex"/><s n="pstv"/><s n="inf"/></r></p></e>
-<e vr="nob"><p><l>skilja<b/>sig<s n="vblex"/><s n="inf"/></l>	<r>skilles<s n="vblex"/><s n="pstv"/><s n="inf"/></r></p></e>
+<e vr="nno"><p><l>skilja<b/>sig<s n="vblex"/><s n="inf"/><s n="actv"/></l>	<r>skiljast<s n="vblex"/><s n="pstv"/><s n="inf"/></r></p></e>
+<e vr="nob"><p><l>skilja<b/>sig<s n="vblex"/><s n="inf"/><s n="actv"/></l>	<r>skilles<s n="vblex"/><s n="pstv"/><s n="inf"/></r></p></e>
 <e>         <p><l>skimra</l>	<r>skimre</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e>         <p><l>skina</l>	<r>skine</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e>         <p><l>skinna</l>	<r>skinne</r></p><par n="vblex"/></e>
@@ -23494,8 +23490,8 @@
 <e>         <p><l>uppväga</l>	<r>kompensere</r></p><par n="vblex"/></e>
 <e>         <p><l>uppvärdera</l>	<r>oppgradere</r></p><par n="vblex"/></e>
 <e>         <p><l>uppvärdera</l>	<r>oppvurdere</r></p><par n="vblex"/></e>
-<e vr="nno"><p><l>uppväxa</l>	<r>oppvekse</r></p><par n="vblex_no-adjpp-pastpasv"/></e>
-<e vr="nob"><p><l>uppväxa</l>	<r>oppvokse</r></p><par n="vblex_no-adjpp-pastpasv"/></e>
+<e vr="nno"><p><l>uppväxa</l>	<r>oppvekse</r></p><par n="vblex_no-adjpp-pasv"/></e>
+<e vr="nob"><p><l>uppväxa</l>	<r>oppvokse</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e>         <p><l>urarta</l>	<r>utarte</r></p><par n="vblex"/></e>
 <e>         <p><l>urbanisera</l>	<r>urbanisere</r></p><par n="vblex"/></e>
 <e>         <p><l>urholka</l>	<r>erodere</r></p><par n="vblex"/></e>
