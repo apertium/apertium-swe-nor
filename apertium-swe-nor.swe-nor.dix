@@ -732,7 +732,7 @@
 <e vr="nno"><p><l>deras</l>                                              <r>deira</r></p><par n="det+prn_pos"/></e>
 <e vr="nob"><p><l>deras</l>                                              <r>deres</r></p><par n="det+prn_pos"/></e>
 <!-- formal TODO; needs different tags (not just lemma) from informal -->
-<!-- <e>         <p><l>De<s n="prn"/><s n="pers"/><s n="p2"/><s n="ut"/><s n="pl"/></l><r>De<s n="prn"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e> -->
+<!-- <e>         <p><l>De<s n="prn"/><s n="pers"/><s n="p2"/><s n="ut"/><s n="pl"/></l><r>De<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/></r></p></e> -->
 
 <e>       <p><l>sig<s n="prn"/><s n="ref"/></l>             <r>seg<s n="prn"/><s n="ref"/></r></p></e>
 <e>       <p><l>sin</l>                                     <r>sin</r></p><par n="det+prn_pos"/></e>
