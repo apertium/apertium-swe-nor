@@ -2291,12 +2291,13 @@
 <e>         <p><l>bror<s n="n"/><s n="ut"/></l>	<r>broder<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>bror<s n="n"/><s n="ut"/></l>	<r>bror<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>brorsbarn<s n="n"/><s n="nt"/></l>	<r>søskenbarn<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>brorson<s n="n"/><s n="ut"/></l>	<r>brorson<s n="n"/><s n="m"/></r></p></e>
-<e vr="nob"><p><l>brosch<s n="n"/><s n="ut"/></l>	<r>brosje<s n="n"/><s n="m"/></r></p></e>
+<e vr="nno"><p><l>brorson<s n="n"/><s n="ut"/></l>	<r>brorson<s n="n"/><s n="m"/></r></p></e>
+<e vr="nob"><p><l>brorson<s n="n"/><s n="ut"/></l>	<r>brorsønn<s n="n"/><s n="m"/></r></p></e>
+<e>         <p><l>brosch<s n="n"/><s n="ut"/></l>	<r>brosje<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>broschyr<s n="n"/><s n="ut"/></l>	<r>brosjyre<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>brosk<s n="n"/><s n="nt"/></l>	<r>brusk<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>brott<s n="n"/><s n="nt"/></l>	<r>brot<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>brott<s n="n"/><s n="nt"/></l>	<r>brott<s n="n"/><s n="nt"/></r></p></e>
+<e vr="nno"><p><l>brott<s n="n"/><s n="nt"/></l>	<r>brot<s n="n"/><s n="nt"/></r></p></e>
+<e r="RL">  <p><l>brott<s n="n"/><s n="nt"/></l>	<r>brott<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nob"><p><l>brott<s n="n"/><s n="nt"/></l>	<r>forbrytelse<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>brott<s n="n"/><s n="nt"/></l>	<r>lovbrot<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>brottsbalk<s n="n"/><s n="ut"/></l>	<r>straffelov<s n="n"/><s n="m"/></r></p></e>
@@ -14655,7 +14656,8 @@
 <e>         <p><l>psykologisk</l>             <r>psykologisk</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>putt</l>                    <r>fornærma</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>putt</l>                    <r>fornærmet</r></p><par n="adj_sint:adj"/></e>
-<e>         <p><l>påfallande</l>              <r>påfallande</r></p><par n="adj"/></e>
+<e vr="nno"><p><l>påfallande</l>              <r>påfallande</r></p><par n="adj"/></e>
+<e vr="nob"><p><l>påfallande</l>              <r>påfallende</r></p><par n="adj"/></e>
 <e vr="nno"><p><l>påpasslig</l>               <r>påpasseleg</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>påpasslig</l>               <r>påpasselig</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>påver</l>                   <r>enkel</r></p><par n="adj_sint"/></e>
@@ -15650,7 +15652,8 @@
 <e vr="nno"><p><l>hemma<s n="adv"/></l>	<r>heime<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>hemma<s n="adv"/></l>	<r>hjemme<s n="adv"/></r></p></e>
 <e>         <p><l>hit<s n="adv"/></l>	<r>hit<s n="adv"/></r></p></e>
-<e>         <p><l>hittills<s n="adv"/></l>	<r>til<b/>no<s n="adv"/></r></p></e>
+<e vr="nno"><p><l>hittills<s n="adv"/></l>	<r>til<b/>no<s n="adv"/></r></p></e>
+<e vr="nob"><p><l>hittills<s n="adv"/></l>	<r>til<b/>nå<s n="adv"/></r></p></e>
 <e r="RL">  <p><l>hittills<s n="adv"/></l>	<r>til<b/>nu<s n="adv"/></r></p></e>
 <e>         <p><l>hoppeligen<s n="adv"/></l>	<r>forhåpentleg<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>hoppeligen<s n="adv"/></l>	<r>forhåpentlig<s n="adv"/></r></p></e>
@@ -17428,9 +17431,9 @@
 <e vr="nno"><p><l>bygga</l>	<r>byggje</r></p><par n="vblex"/></e>
 <e>         <p><l>bylta<b/>ihop</l>	<r>bylte</r></p><par n="vblex"/></e>
 <e>         <p><l>byråkratisera</l>	<r>byråkratisere</r></p><par n="vblex"/></e>
-<e>         <p><l>byta</l>	<r>byte</r></p><par n="vblex"/></e>
+<e vr="nno"><p><l>byta</l>	<r>byte</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>byta</l>	<r>bytte</r></p><par n="vblex"/></e>
-<e>         <p><l>byta</l>	<r>kingse</r></p><par n="vblex"/></e>
+<e r="RL">  <p><l>byta</l>	<r>kingse</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>byta</l>	<r>skifte</r></p><par n="vblex"/></e>
 <e>         <p><l>byta<b/>ut</l>	<r>skifte<g><b/>ut</g></r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>bädda</l>	<r>re</r></p><par n="vblex"/></e>
@@ -18301,7 +18304,7 @@
 <e vr="nob"><p><l>förbise</l>	<r>overse</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>förbise</l>	<r>oversjå</r></p><par n="vblex"/></e>
 <e>         <p><l>förbjuda</l>	<r>forby</r></p><par n="vblex"/></e>
-<e>         <p><l>förbjuda</l>	<r>forbyde</r></p><par n="vblex"/></e>
+<e vr="nno"><p><l>förbjuda</l>	<r>forbyde</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>förbli</l>	<r>bli<g><b/>verande</g></r></p><par n="vblex_no-adjpp-pastpasv"/></e>
 <e vr="nob"><p><l>förbli</l>	<r>forbli</r></p><par n="vblex_no-adjpp-pastpasv"/></e>
 <e>         <p><l>förblinda</l>	<r>blinde</r></p><par n="vblex"/></e>
@@ -21279,7 +21282,7 @@
 <e>         <p><l>pytsa</l>	<r>pøse</r></p><par n="vblex"/></e>
 <e>         <p><l>pärla</l>	<r>perle</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e>         <p><l>påbjuda</l>	<r>påby</r></p><par n="vblex"/></e>
-<e>         <p><l>påbjuda</l>	<r>påbyde</r></p><par n="vblex"/></e>
+<e vr="nno"><p><l>påbjuda</l>	<r>påbyde</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>påbörda</l>	<r>byrje<g><b/>med</g></r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>påbörda</l>	<r>påbegynne</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>påbörda</l>	<r>påbyrje</r></p><par n="vblex"/></e>
@@ -24700,7 +24703,7 @@
 <e><re>«</re><p><l><s n="lquot"/></l><r><s n="lquot"/></r></p></e>
 <e><re>»</re><p><l><s n="rquot"/></l><r><s n="rquot"/></r></p></e>
 <e><re>[0-9]+([., ][0-9]+)?</re><p><l><s n="det"/><s n="qnt"/></l><r><s n="det"/><s n="qnt"/></r></p></e>
-<e><re>[XIVM]+</re><p><l><s n="det"/><s n="qnt"/></l><r><s n="det"/><s n="qnt"/></r></p></e>
+<e><re>[IVXLCDM\-]+</re><p><l><s n="det"/><s n="qnt"/></l><r><s n="det"/><s n="qnt"/></r></p></e>
 
   </section>
   <section id="pending" type="standard">
