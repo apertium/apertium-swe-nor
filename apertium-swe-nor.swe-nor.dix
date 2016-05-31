@@ -4605,9 +4605,9 @@
 <e vr="nno"><p><l>gren<s n="n"/><s n="ut"/></l>	<r>grein<s n="n"/></r></p><par n=":f/m"/></e>
 <e vr="nob"><p><l>gren<s n="n"/><s n="ut"/></l>	<r>gren<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>grenadier<s n="n"/><s n="ut"/></l>	<r>grenader<s n="n"/><s n="m"/></r></p></e>
-<e vr="nno"><p><l>grepe<s n="n"/><s n="ut"/></l>	<r>greip<s n="n"/><s n="nt"/></r></p></e>
-<e vr="nob"><p><l>grepe<s n="n"/><s n="ut"/></l>	<r>grep<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>grepe<s n="n"/><s n="ut"/></l>	<r>grev<s n="n"/><s n="nt"/></r></p></e>
+<e r="LR" vr="nno"><p><l>grepe<s n="n"/><s n="ut"/></l>	<r>greip<s n="n"/><s n="nt"/></r></p></e>
+<e r="LR" vr="nob"><p><l>grepe<s n="n"/><s n="ut"/></l>	<r>grep<s n="n"/><s n="nt"/></r></p></e>
+<e r="LR">  <p><l>grepe<s n="n"/><s n="ut"/></l>	<r>grev<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nno"><p><l>grepp<s n="n"/><s n="nt"/></l>	<r>greip<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>grepp<s n="n"/><s n="nt"/></l>	<r>grep<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>grepp<s n="n"/><s n="nt"/></l>	<r>grev<s n="n"/><s n="nt"/></r></p></e>
@@ -5377,7 +5377,7 @@
 <e>         <p><l>ibis<s n="n"/><s n="ut"/></l>	<r>ibis<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>icing<s n="n"/><s n="ut"/></l>	<r>icing<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>id-kort<s n="n"/><s n="nt"/></l>	<r>legitimasjon<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>id<s n="n"/><s n="un"/></l>	<r>id<s n="n"/></r></p><par n=":f/m"/></e>
+<e>         <p><l>id<s n="n"/><s n="un"/></l>	<r>id<s n="n"/></r></p><par n=":f/m"/><par n="@sg"/></e>
 <e>         <p><l>ideal<s n="n"/><s n="nt"/></l>	<r>ideal<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>idealist<s n="n"/><s n="ut"/></l>	<r>idealist<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>idealitet<s n="n"/><s n="ut"/></l>	<r>idealitet<s n="n"/><s n="m"/></r></p></e>
@@ -6763,8 +6763,8 @@
 <e>         <p><l>kujon<s n="n"/><s n="ut"/></l>	<r>feiging<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>kujon<s n="n"/><s n="ut"/></l>	<r>kruk<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>kujon<s n="n"/><s n="ut"/></l>	<r>kujon<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>kul<s n="n"/><s n="nt"/></l>	<r>gøy<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>kul<s n="n"/><s n="nt"/></l>	<r>gøy<s n="n"/><s n="nt"/></r></p></e>
+<e>         <p><l>kul<s n="n"/><s n="nt"/></l>	<r>gøy<s n="n"/><s n="m"/></r></p><par n="@sg_ind"/></e>
+<e>         <p><l>kul<s n="n"/><s n="nt"/></l>	<r>gøy<s n="n"/><s n="nt"/></r></p><par n="@sg_ind"/></e>
 <e>         <p><l>kula<s n="n"/><s n="ut"/></l>	<r>kule<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>kuli<s n="n"/><s n="ut"/></l>	<r>kuli<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>kuling<s n="n"/><s n="ut"/></l>	<r>kuling<s n="n"/><s n="m"/></r></p></e>
@@ -21633,8 +21633,7 @@
 <e vr="nob"><p><l>rättfärdiga</l>	<r>rettferdiggjøre</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>rå</l>	<r>avgjere</r></p><par n="vblex"/></e>
 <e>         <p><l>rå</l>	<r>bestemme</r></p><par n="vblex"/></e>
-<e>         <p><l>rå</l>	<r>grense</r></p><par n="vblex"/></e>
-<e>         <p><l>rå</l>	<r>rå</r></p><par n="vblex"/></e>
+<e r="LR">  <p><l>rå</l>	<r>rå</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>rå<g><b/>om</g></l>	<r>eie</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e vr="nno"><p><l>rå<g><b/>om</g></l>	<r>eige</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e>         <p><l>råda</l>	<r>rå</r></p><par n="vblex"/></e>
@@ -23824,14 +23823,14 @@
 <e>         <p><l>vimla</l>	<r>vrimle</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e>         <p><l>vimsa</l>	<r>vimre</r></p><par n="vblex"/></e>
 <e>         <p><l>vimsa</l>	<r>vimse</r></p><par n="vblex"/></e>
-<e>         <p><l>vina</l>	<r>gnaldre</r></p><par n="vblex"/></e>
-<e>         <p><l>vina</l>	<r>gneldre</r></p><par n="vblex"/></e>
-<e vr="nob"><p><l>vina</l>	<r>gnelle</r></p><par n="vblex"/></e>
-<e>         <p><l>vina</l>	<r>gnisle</r></p><par n="vblex"/></e>
-<e>         <p><l>vina</l>	<r>gniste</r></p><par n="vblex"/></e>
-<e vr="nob"><p><l>vina</l>	<r>hvine</r></p><par n="vblex"/></e>
-<e>         <p><l>vina</l>	<r>kvine</r></p><par n="vblex"/></e>
-<e vr="nob"><p><l>vina</l>	<r>rine</r></p><par n="vblex"/></e>
+<e>         <p><l>vina</l>	<r>gnaldre</r></p><par n="vblex-no-adjpp"/></e>
+<e>         <p><l>vina</l>	<r>gneldre</r></p><par n="vblex-no-adjpp"/></e>
+<e vr="nob"><p><l>vina</l>	<r>gnelle</r></p><par n="vblex-no-adjpp"/></e>
+<e>         <p><l>vina</l>	<r>gnisle</r></p><par n="vblex-no-adjpp"/></e>
+<e>         <p><l>vina</l>	<r>gniste</r></p><par n="vblex-no-adjpp"/></e>
+<e vr="nob"><p><l>vina</l>	<r>hvine</r></p><par n="vblex-no-adjpp"/></e>
+<e>         <p><l>vina</l>	<r>kvine</r></p><par n="vblex-no-adjpp"/></e>
+<e vr="nob"><p><l>vina</l>	<r>rine</r></p><par n="vblex-no-adjpp"/></e>
 <e>         <p><l>vinda</l>	<r>vinne</r></p><par n="vblex"/></e>
 <e>         <p><l>vindsurfa</l>	<r>surfe</r></p><par n="vblex"/></e>
 <e>         <p><l>vingla</l>	<r>dangle</r></p><par n="vblex_no-adjpp-pasv"/></e>
