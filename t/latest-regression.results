@@ -1,98 +1,61 @@
-Revision: 0
-AP_SRC1 Revision: 67254
-AP_SRC2b Revision: 67254
-AP_SRC2n Revision: 67254
+Revision: 68980
+AP_SRC1 Revision: 68980
+AP_SRC2b Revision: 68980
+AP_SRC2n Revision: 68980
 Running Regression-tests with mode "swe-nno" with updated tests ...
 
 swe-nno	  honom.
-	- han.
-	+ #han.
+WORKS	  han.
 
 
-0 / 1, 0%
-Revision: 0
-AP_SRC1 Revision: 67254
-AP_SRC2b Revision: 67254
-AP_SRC2n Revision: 67254
+swe-nno	  de parter vars ansökningar.
+WORKS	  dei partane som har søknader som.
+
+
+swe-nno	  sökande vars förmåga att utnyttja.
+WORKS	  søkjande der evna til å utnytta.
+
+
+3 / 3, 100%
+Revision: 68980
+AP_SRC1 Revision: 68980
+AP_SRC2b Revision: 68980
+AP_SRC2n Revision: 68980
 Running Regression-tests with mode "nno-swe" with updated tests ...
 
 nno-swe	  ikkje.
-	- inte.
-	+ lrx-proc: process a bilingual stream with a lexical rule transducer.
+WORKS	  inte.
 
 
-nno-swe	  
-	- 
-	+ USAGE: lrx-proc -z | -d | -t | -m fst_file input_file output_file.
-
-
-nno-swe	  
-	- 
-	+ -m: run the rules using weights as lambdas.
-
-
-nno-swe	  
-	- 
-	+ -t: trace the rules which have been applied.
-
-
-nno-swe	  
-	- 
-	+ -d: print out information about how the rules are run.
-
-
-nno-swe	  
-	- 
-	+ -z: flush on the null character.
-
-
-0 / 6, 0%
-Revision: 0
-AP_SRC1 Revision: 67254
-AP_SRC2b Revision: 67254
-AP_SRC2n Revision: 67254
+1 / 1, 100%
+Revision: 68980
+AP_SRC1 Revision: 68980
+AP_SRC2b Revision: 68980
+AP_SRC2n Revision: 68980
 Running Regression-tests with mode "swe-nob" with updated tests ...
 
 swe-nob	  honom.
 	- han.
-	+ #han.
+	+ ham.
 
 
-0 / 1, 0%
-Revision: 0
-AP_SRC1 Revision: 67254
-AP_SRC2b Revision: 67254
-AP_SRC2n Revision: 67254
+swe-nob	  de parter vars ansökningar.
+WORKS	  de parter som har søknader som.
+
+
+swe-nob	  sökande vars förmåga att utnyttja.
+WORKS	  søkende der evnen å utnytte.
+
+
+2 / 3, 66.67%
+Revision: 68980
+AP_SRC1 Revision: 68980
+AP_SRC2b Revision: 68980
+AP_SRC2n Revision: 68980
 Running Regression-tests with mode "nob-swe" with updated tests ...
 
 nob-swe	  ikke.
-	- inte.
-	+ lrx-proc: process a bilingual stream with a lexical rule transducer.
+WORKS	  inte.
 
 
-nob-swe	  
-	- 
-	+ USAGE: lrx-proc -z | -d | -t | -m fst_file input_file output_file.
-
-
-nob-swe	  
-	- 
-	+ -m: run the rules using weights as lambdas.
-
-
-nob-swe	  
-	- 
-	+ -t: trace the rules which have been applied.
-
-
-nob-swe	  
-	- 
-	+ -d: print out information about how the rules are run.
-
-
-nob-swe	  
-	- 
-	+ -z: flush on the null character.
-
-
-0 / 6, 0%
+1 / 1, 100%

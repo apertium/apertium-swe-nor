@@ -160,9 +160,15 @@
     </def-cat>
     <def-cat n="adv">
       <cat-item tags="adv"/>
+      <cat-item tags="adv.*"/>
+    </def-cat>
+    <def-cat n="pr">
+      <cat-item tags="pr"/>
+      <cat-item tags="pr.*"/>
     </def-cat>
     <def-cat n="infm">
-      <cat-item lemma="å" tags="part"/>
+      <cat-item lemma="att" tags="cnjsub"/>
+      <cat-item lemma="att" tags="part"/>
     </def-cat>
     <def-cat n="sin">
       <cat-item lemma="sin" tags="det.pos.*"/>
@@ -886,6 +892,24 @@
         <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
         <out>
           <chunk name="adv" case="caseFirstWord">
+            <tags>
+              <tag><clip pos="1" side="tl" part="tags"/></tag>
+            </tags>
+            <lu>
+              <clip pos="1" side="tl" part="whole"/>
+            </lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+    <rule comment="PR">
+      <pattern>
+        <pattern-item n="pr"/>
+      </pattern>
+      <action>
+        <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <out>
+          <chunk name="pr" case="caseFirstWord">
             <tags>
               <tag><clip pos="1" side="tl" part="tags"/></tag>
             </tags>

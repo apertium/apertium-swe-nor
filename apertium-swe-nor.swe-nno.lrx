@@ -26,11 +26,26 @@
       <match tags="vblex.inf.*"/>
     </or>
   </rule>
+  <rule weight="3.0">
+    <or>
+      <match tags="n.*.*.ind"/>
+      <match tags="n.*.sp"/>
+    </or>
+    <match lemma="att" tags="cnjsub"><select lemma="til å" tags="cnjsub"/></match>
+    <or>
+      <match tags="vblex.inf"/>
+      <match tags="vblex.inf.*"/>
+    </or>
+  </rule>
 
   <rule weight="1.0"><match lemma="hända" tags="vblex.*"><select lemma="skje" tags="vblex.*"/></match></rule>
 
   <rule weight="2.0"> <match lemma="låta" tags="vblex.inf.*"><select lemma="la"/></match> </rule>
   <rule weight="2.0"> <match lemma="låta" tags="vblex.pres.*"><select lemma="høyrast"/></match> </rule>
+
+  <rule weight="2.0"> <match lemma="få" tags="vblex.*"><select lemma="få" tags="vblex.*"/></match> </rule>
+
+  <rule weight="2.0"> <match lemma="tillstånd" tags="n.*"><select lemma="løyve" tags="n.*"/></match> </rule>
 
   <!-- Frequency-based rules: -->
 

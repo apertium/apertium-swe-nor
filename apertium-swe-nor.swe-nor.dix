@@ -465,7 +465,8 @@
 <e vr="nno"><p><l>antingen<s n="cnjadv"/></l>	<r>anten<s n="cnjcoo"/></r></p></e>
 <e vr="nob"><p><l>antingen<s n="cnjadv"/></l>	<r>enten<s n="cnjcoo"/></r></p></e>
 <e>         <p><l>att<s n="cnjsub"/></l>	<r>at<s n="cnjsub"/></r></p></e>
-<e>         <p><l>att<s n="cnjsub"/></l>	<r>å<s n="part"/></r></p></e> <!-- currently handled in lrx, TODO cg? -->
+<e>         <p><l>att<s n="cnjsub"/></l>	<r>å<s n="part"/></r></p></e> <!-- cnjsub/part currently handled in lrx, TODO cg? -->
+<e>         <p><l>att<s n="cnjsub"/></l>	<r>til<b/>å<s n="cnjsub"/></r></p></e>
 <e>         <p><l>både<s n="cnjcoo"/></l>	<r>både<s n="cnjcoo"/></r></p></e>
 <e vr="nno"><p><l>där<s n="cnjsub"/></l>	<r>der<s n="cnjsub"/></r></p></e>
 <e vr="nob"><p><l>där<s n="cnjsub"/></l>	<r>hvor<s n="cnjsub"/></r></p></e>
@@ -3333,7 +3334,8 @@
 <e>         <p><l>ester<s n="n"/><s n="ut"/></l>	<r>ester<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>estet<s n="n"/><s n="ut"/></l>	<r>estet<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>estetik<s n="n"/><s n="ut"/></l>	<r>estetikk<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>etablering<s n="n"/><s n="ut"/></l>	<r>etablering<s n="n"/></r></p><par n=":f/m"/></e>
+<e r="LR">  <p><l>etablering<s n="n"/><s n="ut"/></l>	<r>etablering<s n="n"/></r></p><par n=":f/m"/></e>
+<e>         <p><l>etablerande<s n="n"/><s n="nt"/></l>	<r>etablering<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>etablissemang<s n="n"/><s n="nt"/></l>	<r>etablissement<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>etanol<s n="n"/><s n="ut"/></l>	<r>etanol<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>etapp<s n="n"/><s n="ut"/></l>	<r>etappe<s n="n"/><s n="m"/></r></p></e>
@@ -3893,8 +3895,8 @@
 <e vr="nob"><p><l>framtoning<s n="n"/><s n="ut"/></l>	<r>fremtoning<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>framträdande<s n="n"/><s n="nt"/></l>	<r>framferd<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>framträdande<s n="n"/><s n="nt"/></l>	<r>opptreden<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>framväxt<s n="n"/><s n="ut"/></l>	<r>gror<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>framväxt<s n="n"/><s n="ut"/></l>	<r>vekst<s n="n"/><s n="m"/></r></p></e>
+<e vr="nno"><p><l>framväxt<s n="n"/><s n="ut"/></l>	<r>framvokster<s n="n"/><s n="m"/></r></p></e>
+<e vr="nob"><p><l>framväxt<s n="n"/><s n="ut"/></l>	<r>fremvekst<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>franc<s n="n"/><s n="ut"/></l>	<r>franc<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>franska<s n="n"/><s n="ut"/></l>	<r>fransk<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>franska<s n="n"/><s n="ut"/></l>	<r>fransk<s n="n"/><s n="nt"/></r></p><par n="sgpl:sp"/></e>
@@ -11936,8 +11938,7 @@
 <e>         <p><l>tillverkning<s n="n"/><s n="ut"/></l>	<r>produksjon<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>tillvägagångssätt<s n="n"/><s n="nt"/></l>	<r>framgangsmåte<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>tillvägagångssätt<s n="n"/><s n="nt"/></l>	<r>fremgangsmåte<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>tillväxt<s n="n"/><s n="ut"/></l>	<r>gror<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>tillväxt<s n="n"/><s n="ut"/></l>	<r>vekst<s n="n"/><s n="m"/></r></p></e>
+<e>         <p><l>tillväxt<s n="n"/><s n="ut"/></l>	<r>tilvekst<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>tillägg<s n="n"/><s n="nt"/></l>	<r>tillegg<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>tillåtelse<s n="n"/><s n="ut"/></l>	<r>løyve<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nob"><p><l>tillåtelse<s n="n"/><s n="ut"/></l>	<r>tillatelse<s n="n"/><s n="m"/></r></p></e>
@@ -12995,8 +12996,7 @@
 <e>         <p><l>väv<s n="n"/><s n="ut"/></l>	<r>vev<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>växel<s n="n"/><s n="ut"/></l>	<r>veksel<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>växellåda<s n="n"/><s n="ut"/></l>	<r>girkasse<s n="n"/></r></p><par n=":f/m"/></e>
-<e>         <p><l>växt<s n="n"/><s n="ut"/></l>	<r>gror<s n="n"/><s n="m"/></r></p></e>
-<e>   <p><l>växt<s n="n"/><s n="ut"/></l>	<r>plante<s n="n"/></r></p><par n=":f/m"/></e>
+<e>         <p><l>växt<s n="n"/><s n="ut"/></l>	<r>plante<s n="n"/></r></p><par n=":f/m"/></e>
 <e vr="nob"><p><l>växt<s n="n"/><s n="ut"/></l>	<r>vekst<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>växt<s n="n"/><s n="ut"/></l>	<r>vokster<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>växthus<s n="n"/><s n="nt"/></l>	<r>veksthus<s n="n"/><s n="nt"/></r></p></e>
@@ -14773,6 +14773,9 @@
 <e vr="nob"><p><l>sammansatt</l>              <r>sammensatt</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>sammantagen</l>             <r>samanlagt</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>sammantagen</l>             <r>sammenlagt</r></p><par n="adj_sint:adj"/></e>
+<e vr="nno"><p><l>undantagen</l>              <r>unnateken</r></p><par n="adj_sint:adj"/></e>
+<e vr="nob"><p><l>undantagen</l>              <r>unntatt</r></p><par n="adj_sint:adj"/></e>
+
 <e>         <p><l>samtidig</l>                <r>samtidig</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>sandig</l>                  <r>sandete</r></p><par n="adj_sint"/></e>
 <e>         <p><l>sann</l>                    <r>sann</r></p><par n="adj_sint"/></e>
