@@ -428,20 +428,29 @@
 <e>         <p><l><s n="un"/><s n="pl"/></l>   <r><s n="un"/><s n="sp"/></r></p></e>
   </pardef>
 
-  <pardef n="gen_nbr" c="TODO: GD?">
-<e r="RL">  <p><l><s n="ut"/><s n="sg"/></l>   <r><s n="f"/><s n="sg"/></r></p></e>
-<e>         <p><l><s n="ut"/><s n="sg"/></l>   <r><s n="m"/><s n="sg"/></r></p></e>
-<e r="RL">  <p><l><s n="ut"/><s n="sg"/></l>   <r><s n="mf"/><s n="sg"/></r></p></e>
-<e>         <p><l><s n="nt"/><s n="sg"/></l>   <r><s n="nt"/><s n="sg"/></r></p></e>
-<e>         <p><l><s n="un"/><s n="pl"/></l>   <r><s n="un"/><s n="pl"/></r></p></e>
+  <pardef n="gen" c="TODO: GD?">
+<e r="RL">  <p><l><s n="ut"/></l>   <r><s n="f"/></r></p></e>
+<e>         <p><l><s n="ut"/></l>   <r><s n="m"/></r></p></e>
+<e r="RL">  <p><l><s n="ut"/></l>   <r><s n="mf"/></r></p></e>
+<e>         <p><l><s n="nt"/></l>   <r><s n="nt"/></r></p></e>
+<e>         <p><l><s n="un"/></l>   <r><s n="un"/></r></p></e>
   </pardef>
 
-  <pardef n="mf-gen_nbr" c="TODO: GD?">
-<e r="RL">  <p><l><s n="ut"/><s n="sg"/></l>   <r><s n="f"/><s n="sg"/></r></p></e>
-<e vr="nno"><p><l><s n="ut"/><s n="sg"/></l>   <r><s n="m"/><s n="sg"/></r></p></e>
-<e vr="nob"><p><l><s n="ut"/><s n="sg"/></l>   <r><s n="mf"/><s n="sg"/></r></p></e>
-<e>         <p><l><s n="nt"/><s n="sg"/></l>   <r><s n="nt"/><s n="sg"/></r></p></e>
-<e>         <p><l><s n="un"/><s n="pl"/></l>   <r><s n="un"/><s n="pl"/></r></p></e>
+  <pardef n="mf-gen" c="TODO: GD?">
+<e r="RL">  <p><l><s n="ut"/></l>   <r><s n="f"/></r></p></e>
+<e vr="nno"><p><l><s n="ut"/></l>   <r><s n="m"/></r></p></e>
+<e vr="nob"><p><l><s n="ut"/></l>   <r><s n="mf"/></r></p></e>
+<e>         <p><l><s n="nt"/></l>   <r><s n="nt"/></r></p></e>
+<e>         <p><l><s n="un"/></l>   <r><s n="un"/></r></p></e>
+  </pardef>
+
+  <pardef n="gen_nbr">
+<e>         <par n="gen"/><p><l><s n="sg"/></l>   <r><s n="sg"/></r></p></e>
+<e>         <par n="gen"/><p><l><s n="pl"/></l>   <r><s n="pl"/></r></p></e>
+  </pardef>
+  <pardef n="mf-gen_nbr">
+<e>         <par n="mf-gen"/><p><l><s n="sg"/></l>   <r><s n="sg"/></r></p></e>
+<e>         <par n="mf-gen"/><p><l><s n="pl"/></l>   <r><s n="pl"/></r></p></e>
   </pardef>
 
   <pardef n="prn_pers">
@@ -818,10 +827,11 @@
 <e>         <p><l>denna<s n="det"/><s n="dem"/></l>                 <r>denne<s n="det"/><s n="dem"/></r></p><par n="gen_nbr"/></e>
 <e>         <p><l>sån<s n="det"/><s n="dem"/></l>     <r>slik<s n="det"/><s n="dem"/></r></p><par n="gen_nbr"/></e>
 
-<e vr="nob"><p><l>en<s n="det"/><s n="ind"/></l>        <r>en<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
-<e r="RL" vr="nob"><p><l>en<s n="det"/><s n="ind"/></l> <r>én<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
-<e vr="nno"><p><l>en<s n="det"/><s n="ind"/></l>        <r>ein<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
-<e r="RL" vr="nno"><p><l>en<s n="det"/><s n="ind"/></l> <r>éin<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
+<!-- what does the determiner «ena» mean? «nokre»? -->
+<e vr="nob"><p><l>en<s n="det"/><s n="ind"/></l>        <r>en<s n="det"/><s n="qnt"/></r></p><par n="gen"/><par n="@sg"/></e>
+<e r="RL" vr="nob"><p><l>en<s n="det"/><s n="ind"/></l> <r>én<s n="det"/><s n="qnt"/></r></p><par n="gen"/><par n="@sg"/></e>
+<e vr="nno"><p><l>en<s n="det"/><s n="ind"/></l>        <r>ein<s n="det"/><s n="qnt"/></r></p><par n="gen"/><par n="@sg"/></e>
+<e r="RL" vr="nno"><p><l>en<s n="det"/><s n="ind"/></l> <r>éin<s n="det"/><s n="qnt"/></r></p><par n="gen"/><par n="@sg"/></e>
 
 <e r="RL">  <p><l>någon<s n="det"/><s n="qnt"/></l>     <r>somme<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
 <e vr="nob"><p><l>någon<s n="det"/><s n="qnt"/></l>     <r>noe<s n="det"/><s n="qnt"/></r></p><par n="gen_nbr"/></e>
@@ -895,13 +905,13 @@
 <e vr="nob"><p><l>sjunde</l>     <r>syvende</r></p><par n="adj_ord"/></e>
 <e vr="nno"><p><l>sjuttionde</l> <r>syttiande</r></p><par n="adj_ord"/></e>
 <e vr="nob"><p><l>sjuttionde</l> <r>syttiende</r></p><par n="adj_ord"/></e>
-<e vr="nno"><p><l>sjuttonde</l>  <r>syttiande</r></p><par n="adj_ord"/></e>
-<e vr="nob"><p><l>sjuttonde</l>  <r>syttiende</r></p><par n="adj_ord"/></e>
+<e vr="nno"><p><l>sjuttonde</l>  <r>syttande</r></p><par n="adj_ord"/></e>
+<e vr="nob"><p><l>sjuttonde</l>  <r>syttende</r></p><par n="adj_ord"/></e>
 <e>         <p><l>sjätte</l>     <r>sjette</r></p><par n="adj_ord"/></e>
 <e>         <p><l>tredje</l>     <r>tredje</r></p><par n="adj_ord"/></e>
-<e>         <p><l>trettonde</l>  <r>tredevte</r></p><par n="adj_ord"/></e>
-<e vr="nno"><p><l>tusende</l>    <r>tusande</r></p><par n="adj_ord"/></e>
-<e vr="nob"><p><l>tusende</l>    <r>tusende</r></p><par n="adj_ord"/></e>
+<e vr="nno"><p><l>trettionde</l>  <r>trettiande</r></p><par n="adj_ord"/></e>
+<e vr="nob"><p><l>trettionde</l>  <r>trettiende</r></p><par n="adj_ord"/></e>
+<e>         <p><l>tusende</l>    <r>tusende</r></p><par n="adj_ord"/></e>
 <e vr="nno"><p><l>åttonde</l>    <r>åttande</r></p><par n="adj_ord"/></e>
 <e vr="nob"><p><l>åttonde</l>    <r>åttende</r></p><par n="adj_ord"/></e>
 
@@ -15033,7 +15043,7 @@
 <e>         <p><l>teleteknisk</l>             <r>teleteknisk</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>teoretisk</l>               <r>teoretisk</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>terminal</l>                <r>terminal</r></p><par n="adj_sint:adj"/></e>
-<e>         <p><l>terminologisk</l>           <r>terminologisk</r></p><par n="adj_sint"/></e>
+<e>         <p><l>terminologisk</l>           <r>terminologisk</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>termisk</l>                 <r>termisk</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>thailändsk</l>              <r>thailandsk</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>tidig</l>                   <r>tidleg</r></p><par n="adj_sint"/></e>
