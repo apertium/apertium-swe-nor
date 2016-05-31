@@ -129,6 +129,11 @@
 <e>       <p><l>NON_ANALYSIS</l>          <r>DUE_TO_LT_PROC_HANG</r></p></e>
 </pardef>
 
+<pardef n="nom_cas:nom" c="nom/gen→nom (transfer handles swe genitive)">
+<e r="LR">  <p><l><s n="gen"/></l><r><s n="nom"/></r></p></e>
+<e>         <p><l><s n="nom"/></l><r><s n="nom"/></r></p></e>
+<e>       <p><l>NON_ANALYSIS</l>          <r>DUE_TO_LT_PROC_HANG</r></p></e>
+</pardef>
 <pardef n="nom_cas:" c="nom on swe-side; ignore genitives …">
 <e r="LR">  <p><l><s n="gen"/></l><r></r></p></e>
 <e>         <p><l><s n="nom"/></l><r></r></p></e>
@@ -791,7 +796,7 @@
 <e>         <p><l>denna<s n="prn"/><s n="dem"/></l>	<r>denne<s n="prn"/><s n="dem"/></r></p><par n="mf-gen_nbr"/></e>
 
 <!-- genitive "vars" needs transfer rule -->
-<e>         <p><l>vilken<s n="prn"/><s n="rel"/></l><r>som<s n="prn"/><s n="rel"/></r></p><par n="gen_nbr:un_sp"/><par n="nom_cas:"/></e>
+<e>         <p><l>vilken<s n="prn"/><s n="rel"/></l><r>som<s n="prn"/><s n="rel"/></r></p><par n="gen_nbr:un_sp"/><par n="nom_cas:nom"/></e>
 <e vr="nob"><p><l>vilken<s n="prn"/><s n="rel"/></l><r>hvilken<s n="det"/><s n="itg"/></r></p><par n="gen_nbr"/><par n="nom_cas:"/></e>
 
 <e vr="nob"><p><l>egen<s n="det"/><s n="emph"/></l>     <r>egen<s n="det"/><s n="emph"/></r></p><par n="__det"/></e>

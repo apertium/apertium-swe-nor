@@ -394,7 +394,7 @@
 
   <section-def-macros>
     <def-macro n="set_ntags" npar="1"
-               c="arg.1: (proper) noun. Puts tags of noun in ntags (for use as chunk tags).">
+               c="arg.1: proper noun/adj/det. Puts tags of word in ntags (for use as chunk tags).">
       <let><var n="ntags"/><clip pos="1" side="tl" part="tags"/></let>
       <choose><when c="bidix removed case => use sl case in ntags">
         <test><and>
@@ -1690,11 +1690,14 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
       </pattern>
       <action>
         <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
-        <choose><when><test><equal><clip pos="1" side="tl" part="a_prn"/><lit-tag v="prn.itg"/></equal></test>
-                      <let><clip pos="1" side="tl" part="cas"/><lit v=""/></let></when></choose>
+        <choose><when>
+          <test><equal><clip pos="1" side="tl" part="a_prn"/><lit-tag v="prn.itg"/></equal></test>
+          <let><clip pos="1" side="tl" part="cas"/><lit v=""/></let>
+        </when></choose>
+        <let><var n="ntags"/><clip pos="1" side="sl" part="tags"/></let>
         <out>
           <chunk name="prn" case="caseFirstWord">
-            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
+            <tags><tag><var n="ntags"/></tag></tags>
             <lu><clip pos="1" side="tl" part="whole"/></lu>
           </chunk>
         </out>
