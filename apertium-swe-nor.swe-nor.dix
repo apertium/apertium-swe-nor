@@ -790,7 +790,8 @@
 <e vr="nno"><p><l>annan<s n="prn"/><s n="ind"/></l>   <r>annan<s n="prn"/><s n="ind"/></r></p><par n="mf-gen_nbr"/></e>
 <e>         <p><l>denna<s n="prn"/><s n="dem"/></l>	<r>denne<s n="prn"/><s n="dem"/></r></p><par n="mf-gen_nbr"/></e>
 
-<e>         <p><l>vilken<s n="prn"/><s n="rel"/></l><r>som<s n="prn"/><s n="rel"/></r></p><par n="gen_nbr:un_sp"/></e>
+<!-- genitive "vars" needs transfer rule -->
+<e>         <p><l>vilken<s n="prn"/><s n="rel"/></l><r>som<s n="prn"/><s n="rel"/></r></p><par n="gen_nbr:un_sp"/><par n="nom_cas:"/></e>
 <e vr="nob"><p><l>vilken<s n="prn"/><s n="rel"/></l><r>hvilken<s n="det"/><s n="itg"/></r></p><par n="gen_nbr"/><par n="nom_cas:"/></e>
 
 <e vr="nob"><p><l>egen<s n="det"/><s n="emph"/></l>     <r>egen<s n="det"/><s n="emph"/></r></p><par n="__det"/></e>
@@ -7605,7 +7606,7 @@
 <e>         <p><l>make<s n="n"/><s n="ut"/></l>	<r>ektemann<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>make<s n="n"/><s n="ut"/></l>	<r>make<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>makrill<s n="n"/><s n="ut"/></l>	<r>makrell<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>makrokosmos<s n="n"/><s n="nt"/></l>	<r>makrokosmos<s n="n"/><s n="nt"/></r></p><par n="@sg"/></e>
+<e>         <p><l>makrokosmos<s n="n"/><s n="nt"/></l>	<r>makrokosmos<s n="n"/><s n="nt"/></r></p><par n="@sg_ind"/></e>
 <e>         <p><l>makron<s n="n"/><s n="ut"/></l>	<r>makron<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>makt<s n="n"/><s n="ut"/></l>	<r>makt<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>maktblock<s n="n"/><s n="nt"/></l>	<r>maktblokk<s n="n"/></r></p><par n=":f/m"/></e>
@@ -11423,7 +11424,6 @@
 <e>         <p><l>styre<s n="n"/><s n="nt"/></l>	<r>styr<s n="n"/><s n="nt"/></r></p><par n="sgpl:sp"/></e>
 <e>         <p><l>styre<s n="n"/><s n="nt"/></l>	<r>styre<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>styrelse<s n="n"/><s n="ut"/></l>	<r>styre<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>styren<s n="n"/><s n="nt"/></l>	<r>styren<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>styrka<s n="n"/><s n="ut"/></l>	<r>styrke<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>styrning<s n="n"/><s n="ut"/></l>	<r>styring<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>städ<s n="n"/><s n="nt"/></l>	<r>ambolt<s n="n"/><s n="m"/></r></p></e>
@@ -13387,7 +13387,7 @@
 <e vr="nob"><p><l>arbetsam</l>                <r>anstrengende</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>arbetsam</l>                <r>arbeidsom</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>arbetsam</l>                <r>flittig</r></p><par n="adj_sint"/></e>
-<e vr="nno"><p><l>arbetslös</l>               <r>arbeidslaus</r></p><par n="adj_sint"/></e>
+<e vr="nno"><p><l>arbetslös</l>               <r>arbeidslaus</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>arbetslös</l>               <r>arbeidsledig</r></p><par n="adj_sint"/></e>
 <e vr="nob"><p><l>arbetslös</l>               <r>arbeidsløs</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>arkeologisk</l>             <r>arkeologisk</r></p><par n="adj_sint:adj"/></e>
@@ -15239,7 +15239,8 @@
 <e vr="nno"><p><l>vid</l>                     <r>brei</r></p><par n="adj_sint"/></e>
 <e>         <p><l>vid</l>                     <r>rom</r></p><par n="adj_sint"/></e>
 <e>         <p><l>vid</l>                     <r>vid</r></p><par n="adj_sint"/></e>
-<e>         <p><l>vidskeplig</l>              <r>overtroisk</r></p><par n="adj_sint"/></e>
+<e vr="nno"><p><l>vidskeplig</l>              <r>overtruisk</r></p><par n="adj_sint:adj"/></e>
+<e vr="nob"><p><l>vidskeplig</l>              <r>overtroisk</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>vidunderlig</l>             <r>vedunderleg</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>vidunderlig</l>             <r>vidunderlig</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>viktig</l>                  <r>tung</r></p><par n="adj_sint"/></e>
@@ -22980,7 +22981,7 @@
 <e>         <p><l>tillförsäkra</l>	<r>forsikre</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>tillgodose</l>	<r>tilgodese</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>tillgodose</l>	<r>tilgodesjå</r></p><par n="vblex"/></e>
-<e vr="nno"><p><l>tillgängliggöra</l>	<r>gjere<g><b/>tilgjengelig</g></r></p><par n="vblex"/></e>
+<e vr="nno"><p><l>tillgängliggöra</l>	<r>gjere<g><b/>tilgjengeleg</g></r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>tillgängliggöra</l>	<r>gjøre<g><b/>tilgjengelig</g></r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>tillhöra</l>	<r>tilhøre</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>tillhöra</l>	<r>tilhøyre</r></p><par n="vblex"/></e>
@@ -23967,9 +23968,9 @@
 <e>         <p><l>väta</l>	<r>væte</r></p><par n="vblex"/></e>
 <e>         <p><l>vätska</l>	<r>væske</r></p><par n="vblex"/></e>
 <e>         <p><l>väva</l>	<r>veve</r></p><par n="vblex"/></e>
-<e>         <p><l>växa</l>	<r>auke</r></p><par n="vblex_no-adjpp-pastpasv"/></e>
-<e vr="nno"><p><l>växa</l>	<r>vekse</r></p><par n="vblex_no-adjpp-pastpasv"/></e>
-<e vr="nob"><p><l>växa</l>	<r>vokse</r></p><par n="vblex_no-adjpp-pastpasv"/></e>
+<e>         <p><l>växa</l>	<r>auke</r></p><par n="vblex_no-adjpp-pasv"/></e>
+<e vr="nno"><p><l>växa</l>	<r>vekse</r></p><par n="vblex_no-adjpp-pasv"/></e>
+<e vr="nob"><p><l>växa</l>	<r>vokse</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e>         <p><l>växla</l>	<r>skifte</r></p><par n="vblex"/></e>
 <e>         <p><l>växla</l>	<r>veksle</r></p><par n="vblex"/></e>
 <e>         <p><l>våga</l>	<r>sjanse</r></p><par n="vblex"/></e>
@@ -24712,7 +24713,7 @@
 <e>         <p><l>Belgien<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Belgia<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Belgrad<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Beograd<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Bosnien<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Bosnia<s n="np"/><s n="top"/></r></p></e>
-<e>         <p><l>Bouvetön<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Bouvetøya<s n="np"/><s n="top"/></r></p></e>
+<e>         <p><l>Bouvetön<s n="np"/><s n="top"/><s n="m"/></l>	<r>Bouvetøya<s n="np"/><s n="top"/><s n="f"/></r></p></e>
 <e>         <p><l>Brasilien<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Brasil<s n="np"/><s n="top"/></r></p></e>
 <e r="RL">  <p><l>Brasilien<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Brasilia<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Bulgarien<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Bulgaria<s n="np"/><s n="top"/></r></p></e>
@@ -24880,8 +24881,8 @@
 <e vr="nob"><p><l>Österrike-Ungern<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Østerrike-Ungarn<s n="np"/><s n="top"/></r></p></e>
 <e vr="nno"><p><l>Österrike<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Austerrike<s n="np"/><s n="top"/></r></p></e>
 <e vr="nob"><p><l>Österrike<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Østerrike<s n="np"/><s n="top"/></r></p></e>
-<e vr="nno"><p><l>Östersjön<s n="np"/><s n="top"/><s n="m"/></l>	<r>Austersjøen<s n="np"/><s n="top"/></r></p></e>
-<e vr="nob"><p><l>Östersjön<s n="np"/><s n="top"/><s n="m"/></l>	<r>Østersjøen<s n="np"/><s n="top"/></r></p></e>
+<e vr="nno"><p><l>Östersjön<s n="np"/><s n="top"/><s n="m"/></l>	<r>Austersjøen<s n="np"/><s n="top"/><s n="m"/></r></p></e>
+<e vr="nob"><p><l>Östersjön<s n="np"/><s n="top"/><s n="m"/></l>	<r>Østersjøen<s n="np"/><s n="top"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>Östeuropa<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Aust-Europa<s n="np"/><s n="top"/></r></p></e>
 <e vr="nob"><p><l>Östeuropa<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Øst-Europa<s n="np"/><s n="top"/></r></p></e>
 <e vr="nno"><p><l>Östra<b/>Grönland<s n="np"/></l>	<r>Austgrønland<s n="np"/></r></p></e>
