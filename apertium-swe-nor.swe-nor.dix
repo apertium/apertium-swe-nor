@@ -116,6 +116,11 @@
 <e r="LR"><p><l><s n="pl"/><s n="def"/></l><r><s n="sp"/></r></p></e>
 </pardef>
 
+<pardef n="pl:sg" c="mjukvaror = programvare">
+<e>         <p><l><s n="pl"/></l><r><s n="sg"/></r></p></e>
+<e>         <p><l></l><r></r></p></e>
+</pardef>
+
 
 <pardef n="gen:" c="just strip the swe gender">
 <e r="LR">  <p><l><s n="nt"/></l><r></r></p></e>
@@ -2988,8 +2993,8 @@
 <e>         <p><l>dosa<s n="n"/><s n="ut"/></l>	<r>boks<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>dosis<s n="n"/><s n="ut"/></l>	<r>dose<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>dosis<s n="n"/><s n="ut"/></l>	<r>dosis<s n="n"/><s n="m"/></r></p></e>
+<e vr="nno"><p><l>dotter<s n="n"/><s n="ut"/></l>	<r>dotter<s n="n"/></r></p><par n=":f/m"/></e>
 <e vr="nob"><p><l>dotter<s n="n"/><s n="ut"/></l>	<r>datter<s n="n"/></r></p><par n=":f/m"/></e>
-<e>         <p><l>dotter<s n="n"/><s n="ut"/></l>	<r>dotter<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>dovhjort<s n="n"/><s n="ut"/></l>	<r>dådyr<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>drabant<s n="n"/><s n="ut"/></l>	<r>drabant<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>drag<s n="n"/><s n="nt"/></l>	<r>drag<s n="n"/><s n="nt"/></r></p></e>
@@ -3960,10 +3965,9 @@
 <e>         <p><l>frontsoldat<s n="n"/><s n="ut"/></l>	<r>frontsoldat<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>frost<s n="n"/><s n="ut"/></l>	<r>frost<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>frostskada<s n="n"/><s n="ut"/></l>	<r>frostskade<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>fru<s n="n"/><s n="ut"/></l>	<r>fru<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>fru<s n="n"/><s n="ut"/></l>	<r>frue<s n="n"/></r></p><par n=":f/m"/></e>
-<e vr="nob"><p><l>fru<s n="n"/><s n="ut"/></l>	<r>kone<s n="n"/></r></p><par n=":f/m"/></e>
-<e vr="nob"><p><l>fruga<s n="n"/><s n="ut"/></l>	<r>kone<s n="n"/></r></p><par n=":f/m"/></e>
+<e>         <p><l>fru<s n="n"/><s n="ut"/></l>	<r>kone<s n="n"/></r></p><par n=":f/m"/></e>
+<e r="LR">  <p><l>fruga<s n="n"/><s n="ut"/></l>	<r>kone<s n="n"/></r></p><par n=":f/m"/></e>
 <e vr="nno"><p><l>frukost<s n="n"/><s n="ut"/></l>	<r>frukost<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>frukost<s n="n"/><s n="ut"/></l>	<r>frokost<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>frukt<s n="n"/><s n="ut"/></l>	<r>frukt<s n="n"/></r></p><par n=":f/m"/></e>
@@ -5971,7 +5975,8 @@
 <e>         <p><l>kant<s n="n"/><s n="ut"/></l>	<r>kant<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>kantarell<s n="n"/><s n="ut"/></l>	<r>kantarell<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>kantat<s n="n"/><s n="ut"/></l>	<r>kantate<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>kantband<s n="n"/><s n="nt"/></l>	<r>kantband<s n="n"/><s n="nt"/></r></p></e>
+<e vr="nno"><p><l>kantband<s n="n"/><s n="nt"/></l>	<r>kantband<s n="n"/><s n="nt"/></r></p></e>
+<e vr="nob"><p><l>kantband<s n="n"/><s n="nt"/></l>	<r>kantbånd<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>kantin<s n="n"/><s n="ut"/></l>	<r>kantine<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>kanton<s n="n"/><s n="ut"/></l>	<r>kanton<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>kantor<s n="n"/><s n="ut"/></l>	<r>kantor<s n="n"/><s n="m"/></r></p></e>
@@ -6926,7 +6931,8 @@
 <e vr="nno"><p><l>kyrkogård<s n="n"/><s n="ut"/></l>	<r>kyrkjegard<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>kyrkoherde<s n="n"/><s n="ut"/></l>	<r>sogneprest<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>kyrkoherde<s n="n"/><s n="ut"/></l>	<r>sokneprest<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>kyrkoskatt<s n="n"/><s n="ut"/></l>	<r>kyrkjeskatt<s n="n"/><s n="m"/></r></p></e>
+<e vr="nno"><p><l>kyrkoskatt<s n="n"/><s n="ut"/></l>	<r>kyrkjeskatt<s n="n"/><s n="m"/></r></p></e>
+<e vr="nob"><p><l>kyrkoskatt<s n="n"/><s n="ut"/></l>	<r>kirkeskatt<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>kyrksocken<s n="n"/><s n="ut"/></l>	<r>kirkesokn<s n="n"/></r></p><par n=":f/m"/></e>
 <e vr="nob"><p><l>kyrksocken<s n="n"/><s n="ut"/></l>	<r>kirkesokn<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nno"><p><l>kyrksocken<s n="n"/><s n="ut"/></l>	<r>kyrkjesokn<s n="n"/><s n="nt"/></r></p></e>
@@ -8017,14 +8023,13 @@
 <e>         <p><l>mix<s n="n"/><s n="ut"/></l>	<r>mix<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>mixtur<s n="n"/><s n="ut"/></l>	<r>mikstur<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>mjau<s n="n"/><s n="nt"/></l>	<r>mjau<s n="n"/><s n="nt"/></r></p></e>
-<e vr="nob"><p><l>mjukvara<s n="n"/><s n="ut"/></l>	<r>programvare<s n="n"/></r></p><par n=":f/m"/></e>
-<e vr="nob"><p><l>mjukvara<s n="n"/><s n="ut"/><s n="pl"/></l>	<r>programvare<s n="n"/></r></p><par n=":f/m"/></e>
+<e>         <p><l>mjukvara<s n="n"/><s n="ut"/></l>	<r>programvare<s n="n"/></r></p><par n=":f/m"/><par n="pl:sg"/></e>
 <e>         <p><l>mjältbrand<s n="n"/><s n="ut"/></l>	<r>miltbrann<s n="n"/><s n="m"/></r></p></e>
-<e vr="nob"><p><l>mjöl<s n="n"/><s n="nt"/></l>	<r>mel<s n="n"/><s n="m"/></r></p></e>
+<e r="RL"><p><l>mjöl<s n="n"/><s n="nt"/></l>	<r>mel<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>mjöl<s n="n"/><s n="nt"/></l>	<r>mel<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>mjöl<s n="n"/><s n="nt"/></l>	<r>mjøl<s n="n"/><s n="nt"/></r></p></e>
+<e vr="nno"><p><l>mjöl<s n="n"/><s n="nt"/></l>	<r>mjøl<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nob"><p><l>mjölk<s n="n"/><s n="ut"/></l>	<r>melk<s n="n"/></r></p><par n=":f/m"/></e>
-<e>         <p><l>mjölk<s n="n"/><s n="ut"/></l>	<r>mjølk<s n="n"/></r></p><par n=":f/m"/></e>
+<e vr="nno"><p><l>mjölk<s n="n"/><s n="ut"/></l>	<r>mjølk<s n="n"/></r></p><par n=":f/m"/></e>
 <e vr="nob"><p><l>mjölkförpackning<s n="n"/><s n="ut"/></l>	<r>melkekartong<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>mjölkförpackning<s n="n"/><s n="ut"/></l>	<r>mjølkekartong<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>mjölksocker<s n="n"/><s n="nt"/></l>	<r>melkesukker<s n="n"/><s n="nt"/></r></p><par n="@sg"/></e>
@@ -8034,7 +8039,6 @@
 <e>         <p><l>mobil<s n="n"/><s n="ut"/></l>	<r>mobiltelefon<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>mobilitet<s n="n"/><s n="ut"/></l>	<r>mobilitet<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>mobiltelefon<s n="n"/><s n="ut"/></l>	<r>mobiltelefon<s n="n"/><s n="m"/></r></p></e>
-<e vr="nno"><p><l>mod<s n="n"/><s n="nt"/></l>	<r>mod<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>mod<s n="n"/><s n="nt"/></l>	<r>mot<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>modalitet<s n="n"/><s n="ut"/></l>	<r>modalitet<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>mode<s n="n"/><s n="nt"/></l>	<r>mote<s n="n"/><s n="m"/></r></p></e>
@@ -13421,6 +13425,7 @@
 <e>         <p><l>automatisk</l>              <r>automatisk</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>avdöd</l>                   <r>avdød</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>avdöd</l>                   <r>avliden</r></p><par n="adj_sint:adj"/></e>
+<e vr="nno"><p><l>avgörande</l>               <r>avgjerande</r></p><par n="adj"/></e>
 <e vr="nob"><p><l>avgörande</l>               <r>avgjørende</r></p><par n="adj"/></e>
 <e>         <p><l>avlägsen</l>                <r>fjern</r></p><par n="adj_sint"/></e>
 <e>         <p><l>avlång</l>                  <r>avlang</r></p><par n="adj_sint:adj"/></e>
@@ -13873,7 +13878,7 @@
 <e vr="nno"><p><l>grön</l>                    <r>grøn</r></p><par n="adj_sint"/></e>
 <e vr="nob"><p><l>grön</l>                    <r>grønn</r></p><par n="adj_sint"/></e>
 <e vr="nno"><p><l>gudomlig</l>                <r>guddommeleg</r></p><par n="adj_sint"/></e>
-<e vr="nob"><p><l>gudomlig</l>                <r>guddommelig</r></p><par n="adj_sint"/></e>
+<e vr="nob"><p><l>gudomlig</l>                <r>guddommelig</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>gul</l>                     <r>gul</r></p><par n="adj_sint"/></e>
 <e>         <p><l>gunstig</l>                 <r>gunstig</r></p><par n="adj_sint"/></e>
 <e>         <p><l>gynnsam</l>                 <r>gunstig</r></p><par n="adj_sint"/></e>
@@ -14407,7 +14412,7 @@
 <e vr="nno"><p><l>oansenlig</l>               <r>uanseleg</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>oansenlig</l>               <r>uanselig</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>oansvarig</l>               <r>uansvarleg</r></p><par n="adj_sint"/></e>
-<e vr="nob"><p><l>oansvarig</l>               <r>uansvarlig</r></p><par n="adj_sint"/></e>
+<e vr="nob"><p><l>oansvarig</l>               <r>uansvarlig</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>oanvändbar</l>              <r>ubrukande</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>oanvändbar</l>              <r>ubrukbar</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>oavhängig</l>               <r>uavhengig</r></p><par n="adj_sint:adj"/></e>
@@ -15114,8 +15119,8 @@
 <e vr="nno"><p><l>trolig</l>                  <r>truleg</r></p><par n="adj_sint"/></e>
 <e vr="nob"><p><l>trolig</l>                  <r>trulig</r></p><par n="adj_sint"/></e>
 <e>         <p><l>tropisk</l>                 <r>tropisk</r></p><par n="adj_sint:adj"/></e>
-<e vr="nob"><p><l>trovärdig</l>               <r>troverdig</r></p><par n="adj_sint"/></e>
-<e>         <p><l>trovärdig</l>               <r>truverdig</r></p><par n="adj_sint"/></e>
+<e vr="nno"><p><l>trovärdig</l>               <r>truverdig</r></p><par n="adj_sint"/></e>
+<e vr="nob"><p><l>trovärdig</l>               <r>troverdig</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>trygg</l>                   <r>antagelig</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>trygg</l>                   <r>antakeleg</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>trygg</l>                   <r>sikker</r></p><par n="adj_sint"/></e>
@@ -15165,7 +15170,7 @@
 <e>         <p><l>underårig</l>               <r>mindreårig</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>ung</l>                     <r>ung</r></p><par n="adj_sint"/></e>
 <e vr="nno"><p><l>ungdomlig</l>               <r>ungdommeleg</r></p><par n="adj_sint"/></e>
-<e vr="nob"><p><l>ungdomlig</l>               <r>ungdommelig</r></p><par n="adj_sint"/></e>
+<e vr="nob"><p><l>ungdomlig</l>               <r>ungdommelig</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>unik</l>                    <r>unik</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>unison</l>                  <r>einstemmig</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>unison</l>                  <r>enstemmig</r></p><par n="adj_sint:adj"/></e>
@@ -16748,8 +16753,8 @@
 <e>         <p><l>auktorisera</l>	<r>godkjenne</r></p><par n="vblex"/></e>
 <e>         <p><l>automatisera</l>	<r>automatisere</r></p><par n="vblex"/></e>
 <e>         <p><l>avancera</l>	<r>avansere</r></p><par n="vblex"/></e>
-<e vr="nno"><p><l>avancera</l>	<r>fremje</r></p><par n="vblex"/></e>
-<e>         <p><l>avancera</l>	<r>fremme</r></p><par n="vblex"/></e>
+<e vr="nob"><p><l>avancera</l>	<r>fremje</r></p><par n="vblex"/></e>
+<e vr="nno"><p><l>avancera</l>	<r>fremme</r></p><par n="vblex"/></e>
 <e>         <p><l>avbeställa</l>	<r>avbestille</r></p><par n="vblex"/></e>
 <e>         <p><l>avbetala</l>	<r>avbetale</r></p><par n="vblex"/></e>
 <e>         <p><l>avbilda</l>	<r>avbilde</r></p><par n="vblex"/></e>
@@ -16980,7 +16985,7 @@
 <e>         <p><l>befrukta</l>	<r>befrukte</r></p><par n="vblex"/></e>
 <e>         <p><l>befrukta</l>	<r>gjødsle</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>befrämja</l>	<r>fremje</r></p><par n="vblex"/></e>
-<e>         <p><l>befrämja</l>	<r>fremme</r></p><par n="vblex"/></e>
+<e vr="nob"><p><l>befrämja</l>	<r>fremme</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>befästa</l>	<r>befeste</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>befästa</l>	<r>forskanse</r></p><par n="vblex"/></e>
 <e>         <p><l>befästa</l>	<r>konsolidere</r></p><par n="vblex"/></e>
@@ -17754,12 +17759,12 @@
 <e vr="nno"><p><l>döda</l>	<r>daude</r></p><par n="vblex"/></e>
 <e>         <p><l>döda</l>	<r>drepe</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>döda</l>	<r>døde</r></p><par n="vblex"/></e>
-<e>         <p><l>dölja</l>	<r>dølje</r></p><par n="vblex"/></e>
-<e>         <p><l>dölja</l>	<r>skjule</r></p><par n="vblex"/></e>
+<e vr="nno"><p><l>dölja</l>	<r>dølje</r></p><par n="vblex"/></e>
+<e vr="nob"><p><l>dölja</l>	<r>skjule</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>döma</l>	<r>bedøme</r></p><par n="vblex"/></e>
 <e>         <p><l>döma</l>	<r>bedømme</r></p><par n="vblex"/></e>
-<e>         <p><l>döma</l>	<r>døme</r></p><par n="vblex"/></e>
-<e>         <p><l>döma</l>	<r>dømme</r></p><par n="vblex"/></e>
+<e vr="nno"><p><l>döma</l>	<r>døme</r></p><par n="vblex"/></e>
+<e vr="nob"><p><l>döma</l>	<r>dømme</r></p><par n="vblex"/></e>
 <e>         <p><l>döma<b/>ut</l>	<r>kassere</r></p><par n="vblex"/></e>
 <e>         <p><l>döna</l>	<r>rumle</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e vr="nob"><p><l>döpa</l>	<r>døpe</r></p><par n="vblex"/></e>
@@ -18192,8 +18197,8 @@
 <e>         <p><l>frysa</l>	<r>tele</r></p><par n="vblex"/></e>
 <e>         <p><l>frystorka</l>	<r>frysetørke</r></p><par n="vblex"/></e>
 <e>         <p><l>frälsa</l>	<r>frelse</r></p><par n="vblex"/></e>
-<e>         <p><l>främja</l>	<r>fremje</r></p><par n="vblex"/></e>
-<e>         <p><l>främja</l>	<r>fremme</r></p><par n="vblex"/></e>
+<e vr="nno"><p><l>främja</l>	<r>fremje</r></p><par n="vblex"/></e>
+<e vr="nob"><p><l>främja</l>	<r>fremme</r></p><par n="vblex"/></e>
 <e>         <p><l>fräsa</l>	<r>frese</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>fräsa</l>	<r>hvese</r></p><par n="vblex"/></e>
 <e>         <p><l>fräsa</l>	<r>kvese</r></p><par n="vblex"/></e>
@@ -18390,8 +18395,7 @@
 <e>         <p><l>företa</l>	<r>gjennomføre</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>företa</l>	<r>gjere</r></p><par n="vblex"/></e>
 <e>         <p><l>förete</l>	<r>demonstrere</r></p><par n="vblex"/></e>
-<e>         <p><l>förete</l>	<r>forete</r></p><par n="vblex"/></e>
-<e>         <p><l>förete</l>	<r>framvise</r></p><par n="vblex"/></e>
+<e vr="nno"><p><l>förete</l>	<r>framvise</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>förete</l>	<r>fremvise</r></p><par n="vblex"/></e>
 <e>         <p><l>företräda</l>	<r>representere</r></p><par n="vblex"/></e>
 <e>         <p><l>föreviga</l>	<r>forevige</r></p><par n="vblex"/></e>
@@ -18635,7 +18639,6 @@
 <e vr="nob"><p><l>försvåra</l>	<r>gjøre<g><b/>vanskeligere</g></r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>försvåra</l>	<r>vanskeleggjere</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>försvåra</l>	<r>vanskeliggjøre</r></p><par n="vblex"/></e>
-<e vr="nob"><p><l>försvåra</l>	<r>vanskeliggøre</r></p><par n="vblex"/></e>
 <e>         <p><l>försäkra</l>	<r>forsikre</r></p><par n="vblex"/></e>
 <e>         <p><l>försämra</l>	<r>forverre</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>försänka</l>	<r>forsenke</r></p><par n="vblex"/></e>
@@ -19205,7 +19208,7 @@
 <e>         <p><l>hyra</l>	<r>leie</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>hyra</l>	<r>leige</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>hysa</l>	<r>gjemme</r></p><par n="vblex"/></e>
-<e>         <p><l>hysa</l>	<r>gjømme</r></p><par n="vblex"/></e>
+<e r="RL">  <p><l>hysa</l>	<r>gjømme</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>hysa</l>	<r>gøyme</r></p><par n="vblex"/></e>
 <e>         <p><l>hysa</l>	<r>huse</r></p><par n="vblex"/></e>
 <e>         <p><l>hysa</l>	<r>hyse</r></p><par n="vblex"/></e>
@@ -20008,7 +20011,8 @@
 <e>         <p><l>krossa</l>	<r>knuse</r></p><par n="vblex"/></e>
 <e>         <p><l>krossa</l>	<r>knustre</r></p><par n="vblex"/></e>
 <e>         <p><l>krossa</l>	<r>krase</r></p><par n="vblex"/></e>
-<e>         <p><l>krossa</l>	<r>krosse</r></p><par n="vblex"/></e>
+<e vr="nno"><p><l>krossa</l>	<r>krosse</r></p><par n="vblex"/></e>
+<e vr="nob"><p><l>krossa</l>	<r>krysse</r></p><par n="vblex"/></e>
 <e>         <p><l>krossa</l>	<r>pukke</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>krubba</l>	<r>ete</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e vr="nob"><p><l>krubba</l>	<r>spise</r></p><par n="vblex_no-adjpp-pasv"/></e>
@@ -20496,7 +20500,7 @@
 <e>         <p><l>medicinera</l>	<r>medisinere</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>medla</l>	<r>megle</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e>         <p><l>medla</l>	<r>mekle</r></p><par n="vblex_no-adjpp-pasv"/></e>
-<e>         <p><l>medverka</l>	<r>medverke</r></p><par n="vblex_no-adjpp-pasv"/></e>
+<e vr="nno"><p><l>medverka</l>	<r>medverke</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e vr="nob"><p><l>medverka</l>	<r>medvirke</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e>         <p><l>meja</l>	<r>meie</r></p><par n="vblex"/></e>
 <e>         <p><l>meja</l>	<r>slå</r></p><par n="vblex"/></e>
@@ -20637,7 +20641,8 @@
 <e>         <p><l>motstå</l>	<r>motstå</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e>         <p><l>motsvara</l>	<r>motsvare</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e>         <p><l>motta</l>	<r>motta</r></p><par n="vblex"/></e>
-<e>         <p><l>motverka</l>	<r>motverke</r></p><par n="vblex"/></e>
+<e vr="nno"><p><l>motverka</l>	<r>motverke</r></p><par n="vblex"/></e>
+<e vr="nob"><p><l>motverka</l>	<r>motvirke</r></p><par n="vblex"/></e>
 <e>         <p><l>moussera</l>	<r>mussere</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e>         <p><l>mucka</l>	<r>mukke</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e>         <p><l>muddra</l>	<r>mudre</r></p><par n="vblex"/></e>
@@ -20707,7 +20712,7 @@
 <e>         <p><l>mörbulta</l>	<r>mørbanke</r></p><par n="vblex"/></e>
 <e>         <p><l>mörda</l>	<r>myrde</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>mörka</l>	<r>gjemme</r></p><par n="vblex"/></e>
-<e>         <p><l>mörka</l>	<r>gjømme</r></p><par n="vblex"/></e>
+<e r="RL">  <p><l>mörka</l>	<r>gjømme</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>mörka</l>	<r>gøyme</r></p><par n="vblex"/></e>
 <e>         <p><l>mörka</l>	<r>lagre</r></p><par n="vblex"/></e>
 <e>         <p><l>mörka</l>	<r>mørke</r></p><par n="vblex"/></e>
@@ -21214,7 +21219,7 @@
 <e>         <p><l>proklamera</l>	<r>proklamere</r></p><par n="vblex"/></e>
 <e>         <p><l>promenera</l>	<r>promenere</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e vr="nno"><p><l>promovera</l>	<r>fremje</r></p><par n="vblex"/></e>
-<e>         <p><l>promovera</l>	<r>fremme</r></p><par n="vblex"/></e>
+<e vr="nob"><p><l>promovera</l>	<r>fremme</r></p><par n="vblex"/></e>
 <e>         <p><l>promovera</l>	<r>promovere</r></p><par n="vblex"/></e>
 <e>         <p><l>proportionera</l>	<r>proporsjonere</r></p><par n="vblex"/></e>
 <e>         <p><l>proppa</l>	<r>proppe</r></p><par n="vblex"/></e>
@@ -22644,7 +22649,7 @@
 <e>         <p><l>stura</l>	<r>sture</r></p><par n="vblex"/></e>
 <e>         <p><l>stura</l>	<r>surmule</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>stuva</l>	<r>gjemme</r></p><par n="vblex"/></e>
-<e vr="nno"><p><l>stuva</l>	<r>gjømme</r></p><par n="vblex"/></e>
+<e r="RL">  <p><l>stuva</l>	<r>gjømme</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>stuva</l>	<r>gøyme</r></p><par n="vblex"/></e>
 <e>         <p><l>stuva</l>	<r>stue</r></p><par n="vblex"/></e>
 <e>         <p><l>stuva</l>	<r>stuve</r></p><par n="vblex"/></e>
@@ -23064,7 +23069,8 @@
 <e vr="nob"><p><l>tillverka</l>	<r>gjøre</r></p><par n="vblex"/></e>
 <e>         <p><l>tillverka</l>	<r>lage</r></p><par n="vblex"/></e>
 <e>         <p><l>tillverka</l>	<r>lave</r></p><par n="vblex"/></e>
-<e>         <p><l>tillverka</l>	<r>tilverke</r></p><par n="vblex"/></e>
+<e vr="nno"><p><l>tillverka</l>	<r>tilverke</r></p><par n="vblex"/></e>
+<e vr="nob"><p><l>tillverka</l>	<r>tilvirke</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>tillyxa</l>	<r>tilhugge</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>tillägna</l>	<r>tilegne</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>tillägna</l>	<r>tileigne</r></p><par n="vblex"/></e>
@@ -23111,7 +23117,8 @@
 <e vr="nno"><p><l>tjuva</l>	<r>stele</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>tjuva</l>	<r>stjele</r></p><par n="vblex"/></e>
 <e>         <p><l>tjuva</l>	<r>tjuve</r></p><par n="vblex"/></e>
-<e>         <p><l>tjuvfiska</l>	<r>tjuvfiske</r></p><par n="vblex"/></e>
+<e vr="nno"><p><l>tjuvfiska</l>	<r>tjuvfiske</r></p><par n="vblex"/></e>
+<e vr="nob"><p><l>tjuvfiska</l>	<r>tyvfiske</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>tjuvhålla</l>	<r>halde<g><b/>tilbake</g></r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>tjuvhålla</l>	<r>tilbakeholde</r></p><par n="vblex"/></e>
 <e>         <p><l>tjuvstarta</l>	<r>tjuvstarte</r></p><par n="vblex"/></e>
@@ -23547,7 +23554,8 @@
 <e>         <p><l>utbrodera</l>	<r>stase</r></p><par n="vblex"/></e>
 <e>         <p><l>utbryta</l>	<r>utbryte</r></p><par n="vblex"/></e>
 <e>         <p><l>utbyta</l>	<r>skifte<g><b/>ut</g></r></p><par n="vblex"/></e>
-<e>         <p><l>utbyta</l>	<r>utbyte</r></p><par n="vblex"/></e>
+<e vr="nno"><p><l>utbyta</l>	<r>utbyte</r></p><par n="vblex"/></e>
+<e vr="nob"><p><l>utbyta</l>	<r>utbytte</r></p><par n="vblex"/></e>
 <e>         <p><l>utdela</l>	<r>dele<g><b/>ut</g></r></p><par n="vblex"/></e>
 <e>         <p><l>utdela</l>	<r>distribuere</r></p><par n="vblex"/></e>
 <e>         <p><l>utdela</l>	<r>utdele</r></p><par n="vblex"/></e>
@@ -23643,7 +23651,8 @@
 <e>         <p><l>utrota</l>	<r>utrydde</r></p><par n="vblex"/></e>
 <e>         <p><l>utrusta</l>	<r>utruste</r></p><par n="vblex"/></e>
 <e>         <p><l>uträtta</l>	<r>utrette</r></p><par n="vblex"/></e>
-<e>         <p><l>utse</l>	<r>utsjå</r></p><par n="vblex"/></e>
+<e vr="nno"><p><l>utse</l>	<r>utsjå</r></p><par n="vblex"/></e>
+<e vr="nob"><p><l>utse</l>	<r>utse</r></p><par n="vblex"/></e>
 <e>         <p><l>utsira</l>	<r>utsmykke</r></p><par n="vblex"/></e>
 <e>         <p><l>utslunga</l>	<r>slynge<g><b/>ut</g></r></p><par n="vblex"/></e>
 <e>         <p><l>utsläcka</l>	<r>slokne</r></p><par n="vblex"/></e>
@@ -23914,8 +23923,8 @@
 <e>         <p><l>vrida</l>	<r>kinkse</r></p><par n="vblex"/></e>
 <e>         <p><l>vrida</l>	<r>luksere</r></p><par n="vblex"/></e>
 <e>         <p><l>vrida</l>	<r>vri</r></p><par n="vblex"/></e>
-<e>         <p><l>vrida</l>	<r>vride</r></p><par n="vblex"/></e>
-<e>         <p><l>vrida</l>	<r>vringle</r></p><par n="vblex"/></e>
+<e r="RL">  <p><l>vrida</l>	<r>vride</r></p><par n="vblex"/></e>
+<e r="RL">  <p><l>vrida</l>	<r>vringle</r></p><par n="vblex"/></e>
 <e>         <p><l>vräka</l>	<r>vrake</r></p><par n="vblex"/></e>
 <e>         <p><l>vränga</l>	<r>forvrenge</r></p><par n="vblex"/></e>
 <e>         <p><l>vränga</l>	<r>synkverve</r></p><par n="vblex"/></e>
@@ -28495,7 +28504,7 @@
 <e>         <p><l>Dag<s n="np"/></l>	<r>Dag<s n="np"/></r></p></e>
 <e>         <p><l>Pelopponesos<s n="np"/></l>	<r>Pelopponesos<s n="np"/></r></p></e>
 <e>         <p><l>Mallat<s n="np"/></l>	<r>Mallat<s n="np"/></r></p></e>
-<e>         <p><l>d'or<s n="np"/><s n="al"/></l>	<r>d'or<s n="np"/><s n="al"/><s n="sg"/></r></p></e>
+<e>         <p><l>d'or<s n="np"/><s n="al"/></l>	<r>d'or<s n="np"/><s n="al"/></r></p></e>
 <e>         <p><l>Leonthin<s n="np"/></l>	<r>Leonthin<s n="np"/></r></p></e>
 <e>         <p><l>Hafstrøm<s n="np"/></l>	<r>Hafstrøm<s n="np"/></r></p></e>
 <e>         <p><l>Manniche<s n="np"/></l>	<r>Manniche<s n="np"/></r></p></e>
