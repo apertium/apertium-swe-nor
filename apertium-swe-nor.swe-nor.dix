@@ -1546,16 +1546,13 @@
 <e>         <p><l>avsnitt<s n="n"/><s n="nt"/></l>	<r>avsnitt<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>avstamp<s n="n"/><s n="nt"/></l>	<r>sats<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>avsteg<s n="n"/><s n="nt"/></l>	<r>avvik<s n="n"/><s n="nt"/></r></p></e>
-<e vr="nno"><p><l>avsteg<s n="n"/><s n="nt"/></l>	<r>vik<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>avstånd<s n="n"/><s n="nt"/></l>	<r>avstand<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>avsändare<s n="n"/><s n="ut"/></l>	<r>avsendar<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>avsändare<s n="n"/><s n="ut"/></l>	<r>avsender<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>avtal<s n="n"/><s n="nt"/></l>	<r>avtale<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>avtryck<s n="n"/><s n="nt"/></l>	<r>avtrykk<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>avvikande<s n="n"/><s n="nt"/></l>	<r>avvik<s n="n"/><s n="nt"/></r></p></e>
-<e vr="nno"><p><l>avvikande<s n="n"/><s n="nt"/></l>	<r>vik<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>avvikelse<s n="n"/><s n="ut"/></l>	<r>avvik<s n="n"/><s n="nt"/></r></p></e>
-<e vr="nno"><p><l>avvikelse<s n="n"/><s n="ut"/></l>	<r>vik<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>ax<s n="n"/><s n="nt"/></l>	<r>aks<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>axel<s n="n"/><s n="ut"/></l>	<r>akse<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>axelklaff<s n="n"/><s n="ut"/></l>	<r>skulderklapp<s n="n"/><s n="m"/></r></p></e>
@@ -2055,7 +2052,8 @@
 <e>         <p><l>blodbad<s n="n"/><s n="nt"/></l>	<r>blodbad<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>blodbank<s n="n"/><s n="ut"/></l>	<r>blodbank<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>blodbrist<s n="n"/><s n="ut"/></l>	<r>blodmangel<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>blodflöde<s n="n"/><s n="nt"/></l>	<r>blodstrøm<s n="n"/><s n="m"/></r></p></e>
+<e vr="nno"><p><l>blodflöde<s n="n"/><s n="nt"/></l>	<r>blodstraum<s n="n"/><s n="m"/></r></p></e>
+<e vr="nob"><p><l>blodflöde<s n="n"/><s n="nt"/></l>	<r>blodstrøm<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>blodhund<s n="n"/><s n="ut"/></l>	<r>blodhund<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>blodkärl<s n="n"/><s n="nt"/></l>	<r>blodkar<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>blodmat<s n="n"/><s n="ut"/></l>	<r>blodmat<s n="n"/><s n="m"/></r></p></e>
@@ -3146,7 +3144,8 @@
 <e>         <p><l>ed<s n="n"/><s n="nt"/></l>	<r>eid<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>ed<s n="n"/><s n="ut"/></l>	<r>ed<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>ed<s n="n"/><s n="ut"/></l>	<r>eid<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>eda<s n="n"/><s n="ut"/></l>	<r>motstrøm<s n="n"/><s n="m"/></r></p></e>
+<e vr="nno"><p><l>eda<s n="n"/><s n="ut"/></l>	<r>motstraum<s n="n"/><s n="m"/></r></p></e>
+<e vr="nob"><p><l>eda<s n="n"/><s n="ut"/></l>	<r>motstrøm<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>edamerost<s n="n"/><s n="ut"/></l>	<r>edamerost<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>edikt<s n="n"/><s n="nt"/></l>	<r>edikt<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>edition<s n="n"/><s n="ut"/></l>	<r>edisjon<s n="n"/><s n="m"/></r></p></e>
@@ -3839,7 +3838,7 @@
 <e>         <p><l>formulär<s n="n"/><s n="nt"/></l>	<r>formular<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nob"><p><l>forntid<s n="n"/><s n="ut"/></l>	<r>fortid<s n="n"/></r></p><par n=":f/m"/></e>
 <e vr="nno"><p><l>fors<s n="n"/><s n="ut"/></l>	<r>straum<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>fors<s n="n"/><s n="ut"/></l>	<r>strøm<s n="n"/><s n="m"/></r></p></e>
+<e vr="nob"><p><l>fors<s n="n"/><s n="ut"/></l>	<r>strøm<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>forskare<s n="n"/><s n="ut"/></l>	<r>forskar<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>forskare<s n="n"/><s n="ut"/></l>	<r>forsker<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>forskning<s n="n"/><s n="ut"/></l>	<r>forsking<s n="n"/></r></p><par n=":f/m"/></e>
@@ -5704,7 +5703,8 @@
 <e>         <p><l>isbjörn<s n="n"/><s n="ut"/></l>	<r>kvitbjørn<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>isbrytare<s n="n"/><s n="ut"/></l>	<r>isbrytar<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>isbrytare<s n="n"/><s n="ut"/></l>	<r>isbryter<s n="n"/><s n="m"/></r></p></e>
-<e>   <p><l>isbrytning<s n="n"/><s n="ut"/></l>	<r>isbryting<s n="n"/></r></p><par n=":f/m"/></e>
+<e vr="nno"><p><l>isbrytning<s n="n"/><s n="ut"/></l>	<r>isbryting<s n="n"/></r></p><par n=":f/m"/></e>
+<e vr="nob"><p><l>isbrytning<s n="n"/><s n="ut"/></l>	<r>isbrytning<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>isflak<s n="n"/><s n="nt"/></l>	<r>isflak<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>isfront<s n="n"/><s n="ut"/></l>	<r>isfront<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>ishockey<s n="n"/><s n="ut"/></l>	<r>ishockey<s n="n"/><s n="m"/></r></p></e>
@@ -6641,7 +6641,8 @@
 <e>         <p><l>kortfilm<s n="n"/><s n="ut"/></l>	<r>kortfilm<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>korthus<s n="n"/><s n="nt"/></l>	<r>korthus<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>kortison<s n="n"/><s n="un"/></l>	<r>kortison<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>kortlek<s n="n"/><s n="ut"/></l>	<r>kortleik<s n="n"/><s n="m"/></r></p></e>
+<e vr="nno"><p><l>kortlek<s n="n"/><s n="ut"/></l>	<r>kortleik<s n="n"/><s n="m"/></r></p></e>
+<e vr="nob"><p><l>kortlek<s n="n"/><s n="ut"/></l>	<r>kortlek<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>kortregister<s n="n"/><s n="nt"/></l>	<r>kartotek<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nno"><p><l>kortspel<s n="n"/><s n="nt"/></l>	<r>kortleik<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>kortspel<s n="n"/><s n="nt"/></l>	<r>kortlek<s n="n"/><s n="m"/></r></p></e>
@@ -7365,7 +7366,8 @@
 <e>         <p><l>luftpost<s n="n"/><s n="ut"/></l>	<r>luftpost<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>luftrum<s n="n"/><s n="nt"/></l>	<r>luftrom<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>luftslott<s n="n"/><s n="nt"/></l>	<r>luftslott<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>luftström<s n="n"/><s n="ut"/></l>	<r>luftstrøm<s n="n"/><s n="m"/></r></p></e>
+<e vr="nno"><p><l>luftström<s n="n"/><s n="ut"/></l>	<r>luftstraum<s n="n"/><s n="m"/></r></p></e>
+<e vr="nob"><p><l>luftström<s n="n"/><s n="ut"/></l>	<r>luftstrøm<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>lufttryck<s n="n"/><s n="nt"/></l>	<r>lufttrykk<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>luftvärn<s n="n"/><s n="nt"/></l>	<r>luftvern<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>lugg<s n="n"/><s n="ut"/></l>	<r>pannelugg<s n="n"/><s n="m"/></r></p></e>
@@ -7650,7 +7652,8 @@
 <e>         <p><l>mall<s n="n"/><s n="ut"/></l>	<r>mønster<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>malm<s n="n"/><s n="ut"/></l>	<r>malm<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>malm<s n="n"/><s n="ut"/></l>	<r>malme<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>malström<s n="n"/><s n="ut"/></l>	<r>malstrøm<s n="n"/><s n="m"/></r></p></e>
+<e vr="nno"><p><l>malström<s n="n"/><s n="ut"/></l>	<r>malstraum<s n="n"/><s n="m"/></r></p></e>
+<e vr="nob"><p><l>malström<s n="n"/><s n="ut"/></l>	<r>malstrøm<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>mamma<s n="n"/><s n="ut"/></l>	<r>mamma<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>mamma<s n="n"/><s n="ut"/></l>	<r>mor<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>mammografi<s n="n"/><s n="ut"/></l>	<r>mammografi<s n="n"/><s n="m"/></r></p></e>
@@ -12106,7 +12109,6 @@
 <e>         <p><l>transportmedel<s n="n"/><s n="nt"/></l>	<r>transportmiddel<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>transportör<s n="n"/><s n="ut"/></l>	<r>transportør<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>trappa<s n="n"/><s n="ut"/></l>	<r>trapp<s n="n"/></r></p><par n=":f/m"/></e>
-<e>         <p><l>trappa<s n="n"/><s n="ut"/></l>	<r>trappe<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>trappa<s n="n"/><s n="ut"/></l>	<r>tropp<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>trappräcke<s n="n"/><s n="nt"/></l>	<r>gelender<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nno"><p><l>trappsteg<s n="n"/><s n="nt"/></l>	<r>trappesteg<s n="n"/><s n="nt"/></r></p></e>
@@ -12561,7 +12563,7 @@
 <e>         <p><l>utslag<s n="n"/><s n="nt"/></l>	<r>utslag<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>utslag<s n="n"/><s n="nt"/></l>	<r>utslett<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>utsnitt<s n="n"/><s n="nt"/></l>	<r>utsnitt<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>utspel<s n="n"/><s n="nt"/></l>	<r>utspel<s n="n"/><s n="nt"/></r></p></e>
+<e vr="nno"><p><l>utspel<s n="n"/><s n="nt"/></l>	<r>utspel<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nob"><p><l>utspel<s n="n"/><s n="nt"/></l>	<r>utspill<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>utsprång<s n="n"/><s n="nt"/></l>	<r>utspring<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nno"><p><l>utsträckning<s n="n"/><s n="ut"/></l>	<r>utstrekking<s n="n"/></r></p><par n=":f/m"/></e>
@@ -12583,7 +12585,6 @@
 <e vr="nob"><p><l>utvidgning<s n="n"/><s n="ut"/></l>	<r>utvidelse<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>utvidgning<s n="n"/><s n="ut"/></l>	<r>utviding<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>utvikning<s n="n"/><s n="ut"/></l>	<r>avvik<s n="n"/><s n="nt"/></r></p></e>
-<e vr="nno"><p><l>utvikning<s n="n"/><s n="ut"/></l>	<r>vik<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>utväg<s n="n"/><s n="ut"/></l>	<r>utveg<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>utväg<s n="n"/><s n="ut"/></l>	<r>utvei<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>utvärdering<s n="n"/><s n="ut"/></l>	<r>vurdering<s n="n"/></r></p><par n=":f/m"/></e>
@@ -12796,9 +12797,8 @@
 <e vr="nob"><p><l>vigsel<s n="n"/><s n="ut"/></l>	<r>vielse<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>vigsel<s n="n"/><s n="ut"/></l>	<r>vigsel<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>vik<s n="n"/><s n="ut"/></l>	<r>bukt<s n="n"/></r></p><par n=":f/m"/></e>
-<e>         <p><l>vik<s n="n"/><s n="ut"/></l>	<r>kjos<s n="n"/><s n="m"/></r></p></e>
+<e r="RL">  <p><l>vik<s n="n"/><s n="ut"/></l>	<r>kjos<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>vik<s n="n"/><s n="ut"/></l>	<r>vik<s n="n"/></r></p><par n=":f/m"/></e>
-<e>         <p><l>vik<s n="n"/><s n="ut"/></l>	<r>vik<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>vikariat<s n="n"/><s n="nt"/></l>	<r>vikariat<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>vikarie<s n="n"/><s n="ut"/></l>	<r>vikar<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>viking<s n="n"/><s n="ut"/></l>	<r>viking<s n="n"/></r></p><par n=":f/m"/></e>
@@ -12973,7 +12973,6 @@
 <e vr="nob"><p><l>vän<s n="n"/><s n="ut"/></l>	<r>venn<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>vändning<s n="n"/><s n="ut"/></l>	<r>ordelag<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nno"><p><l>vändning<s n="n"/><s n="ut"/></l>	<r>vende<s n="n"/></r></p><par n=":f/m"/></e>
-<e vr="nob"><p><l>vändning<s n="n"/><s n="ut"/></l>	<r>vende<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>vändning<s n="n"/><s n="ut"/></l>	<r>vending<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>väninna<s n="n"/><s n="ut"/></l>	<r>venninne<s n="n"/></r></p><par n=":f/m"/></e>
 <e r="RL">  <p><l>vänskap<s n="n"/><s n="ut"/></l>	<r>vennskap<s n="n"/><s n="m"/></r></p></e>
@@ -13221,7 +13220,6 @@
 <e vr="nno"><p><l>åtskillnad<s n="n"/><s n="ut"/></l>	<r>skil<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>åtskillnad<s n="n"/><s n="ut"/></l>	<r>skil<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>åtskillnad<s n="n"/><s n="ut"/></l>	<r>skilnad<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>åtta<s n="n"/><s n="ut"/></l>	<r>åtte<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>åttondel<s n="n"/><s n="ut"/></l>	<r>åttedel<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>åverkan<s n="n"/><s n="ut"/></l>	<r>brekkasje<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>åverkan<s n="n"/><s n="ut"/></l>	<r>skade<s n="n"/><s n="m"/></r></p></e>
@@ -17756,9 +17754,9 @@
 <e vr="nno"><p><l>dö</l>	<r>døy</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e vr="nob"><p><l>dö<g><b/>ut</g></l>	<r>dø<g><b/>ut</g></r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e vr="nno"><p><l>dö<g><b/>ut</g></l>	<r>døy<g><b/>ut</g></r></p><par n="vblex_no-adjpp-pasv"/></e>
-<e vr="nno"><p><l>döda</l>	<r>daude</r></p><par n="vblex"/></e>
+<e r="RL">  <p><l>döda</l>	<r>daude</r></p><par n="vblex"/></e>
+<e r="RL">  <p><l>döda</l>	<r>døde</r></p><par n="vblex"/></e>
 <e>         <p><l>döda</l>	<r>drepe</r></p><par n="vblex"/></e>
-<e vr="nob"><p><l>döda</l>	<r>døde</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>dölja</l>	<r>dølje</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>dölja</l>	<r>skjule</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>döma</l>	<r>bedøme</r></p><par n="vblex"/></e>
@@ -19211,7 +19209,7 @@
 <e r="RL">  <p><l>hysa</l>	<r>gjømme</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>hysa</l>	<r>gøyme</r></p><par n="vblex"/></e>
 <e>         <p><l>hysa</l>	<r>huse</r></p><par n="vblex"/></e>
-<e>         <p><l>hysa</l>	<r>hyse</r></p><par n="vblex"/></e>
+<e r="RL">  <p><l>hysa</l>	<r>hyse</r></p><par n="vblex"/></e>
 <e>         <p><l>hysa</l>	<r>lagre</r></p><par n="vblex"/></e>
 <e>         <p><l>hyssja</l>	<r>tysse</r></p><par n="vblex"/></e>
 <e>         <p><l>hyvla</l>	<r>høvle</r></p><par n="vblex"/></e>
@@ -19962,7 +19960,7 @@
 <e>         <p><l>krackelera</l>	<r>krakelere</r></p><par n="vblex"/></e>
 <e>         <p><l>krafsa</l>	<r>krafse</r></p><par n="vblex"/></e>
 <e>         <p><l>krafsa</l>	<r>krasse</r></p><par n="vblex"/></e>
-<e>         <p><l>krama</l>	<r>krame</r></p><par n="vblex"/></e>
+<e>         <p><l>krama</l>	<r>klemme</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>krama</l>	<r>omfamne</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>krama</l>	<r>omfavne</r></p><par n="vblex"/></e>
 <e>         <p><l>krasa</l>	<r>knase</r></p><par n="vblex_no-adjpp-pasv"/></e>
@@ -20794,7 +20792,6 @@
 <e>         <p><l>nicka</l>	<r>nikke</r></p><par n="vblex"/></e>
 <e>         <p><l>niga</l>	<r>knikse</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e>         <p><l>niga</l>	<r>neie</r></p><par n="vblex_no-adjpp-pasv"/></e>
-<e>         <p><l>nita</l>	<r>nite</r></p><par n="vblex"/></e>
 <e>         <p><l>nivellera</l>	<r>nivellere</r></p><par n="vblex"/></e>
 <e>         <p><l>njuta</l>	<r>nyte</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>nojsa</l>	<r>lege</r></p><par n="vblex_no-adjpp-pasv"/></e>
@@ -20826,7 +20823,6 @@
 <e vr="nno"><p><l>nubba</l>	<r>søme</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>nubba</l>	<r>sømme</r></p><par n="vblex"/></e>
 <e>         <p><l>nudda</l>	<r>rangle</r></p><par n="vblex"/></e>
-<e>         <p><l>nudda</l>	<r>snære</r></p><par n="vblex"/></e>
 <e>         <p><l>nudda</l>	<r>streife</r></p><par n="vblex"/></e>
 <e>         <p><l>nudda</l>	<r>vandre</r></p><par n="vblex"/></e>
 <e>         <p><l>numrera</l>	<r>nummerere</r></p><par n="vblex"/></e>
@@ -23267,7 +23263,6 @@
 <e>         <p><l>tröttna</l>	<r>trøtte</r></p><par n="vblex"/></e>
 <e>         <p><l>tudela</l>	<r>halvere</r></p><par n="vblex"/></e>
 <e>         <p><l>tuffa</l>	<r>tøffe</r></p><par n="vblex"/></e>
-<e>         <p><l>tugga</l>	<r>tugge</r></p><par n="vblex"/></e>
 <e>         <p><l>tugga</l>	<r>tygge</r></p><par n="vblex"/></e>
 <e>         <p><l>tukta</l>	<r>tukte</r></p><par n="vblex"/></e>
 <e>         <p><l>tumla</l>	<r>base</r></p><par n="vblex"/></e>
@@ -23579,7 +23574,7 @@
 <e vr="nob"><p><l>utfärda</l>	<r>forberede</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>utfärda</l>	<r>førebu</r></p><par n="vblex"/></e>
 <e>         <p><l>utfärda</l>	<r>utarbeide</r></p><par n="vblex"/></e>
-<e>         <p><l>utfärda</l>	<r>utferde</r></p><par n="vblex"/></e>
+<e vr="nno"><p><l>utfärda</l>	<r>utferde</r></p><par n="vblex"/></e>
 <e>         <p><l>utföra</l>	<r>utføre</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>utge</l>	<r>sleppe</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>utge</l>	<r>utgi</r></p><par n="vblex"/></e>
@@ -24371,7 +24366,6 @@
 <e vr="nob"><p><l>bistå</l>	<r>bistå</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e vr="nob"><p><l>bogsera</l>	<r>bogsere</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>bortfalla</l>	<r>bortfalle</r></p><par n="vblex"/></e>
-<e vr="nob"><p><l>dua</l>	<r>due</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>efterapa</l>	<r>etterape</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>efterfråga</l>	<r>etterspørre</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>efterfölja</l>	<r>etterfølge</r></p><par n="vblex"/></e>
