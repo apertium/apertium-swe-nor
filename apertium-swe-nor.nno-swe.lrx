@@ -24,6 +24,14 @@
     </or>
   </rule>
 
+  <rule weight="1.0">
+    <match lemma="måtte" tags="vblex.*"><select lemma="måste" tags="vblex.*"/></match>
+  </rule>
+  <rule weight="2.0">
+    <match lemma="måtte" tags="vblex.*"><select lemma="få" tags="vblex.*"/></match>
+    <match lemma="ikkje"/>
+  </rule>
+
   <rule weight="1.0"> <match lemma="skuld" tags="n.*"><select lemma="skuld" tags="n.*"/></match> </rule>
   <rule weight="1.0"> <match lemma="skyld" tags="n.*"><select lemma="skuld" tags="n.*"/></match> </rule>
   <rule weight="2.0">
