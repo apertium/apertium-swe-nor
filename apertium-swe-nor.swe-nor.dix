@@ -16550,6 +16550,8 @@
 <e vr="nob"><p><l>vilja</l>	<r>ville</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e>         <p><l>böra</l>	<r>burde</r></p><par n="vblex_no-adjpp-pasv"/></e>
 
+<e>         <p><l>må²</l>	<r>måtte</r></p><par n="vblex"/></e>
+<e>         <p><l>må¹</l>	<r>gå</r></p><par n="vblex"/></e>
 <e>         <p><l>måste</l>	<r>måtte</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e>         <p><l>få</l>	<r>måtte</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e>         <p><l>få</l>	<r>få</r></p><par n="vblex_no-adjpp"/></e>
@@ -20694,7 +20696,6 @@
 <e vr="nno"><p><l>mäta<b/>ut</l>	<r>avgjere</r></p><par n="vblex"/></e>
 <e>         <p><l>mäta<b/>ut</l>	<r>bestemme</r></p><par n="vblex"/></e>
 <e>         <p><l>mätta</l>	<r>mette</r></p><par n="vblex"/></e>
-<e>         <p><l>må</l>	<r>må</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>måla</l>	<r>male</r></p><par n="vblex"/></e>
 <e>         <p><l>måla</l>	<r>måle</r></p><par n="vblex"/></e>
 <e>         <p><l>mångdubbla</l>	<r>mangedoble</r></p><par n="vblex"/></e>
