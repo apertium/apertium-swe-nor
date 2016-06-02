@@ -11448,7 +11448,8 @@
 <e>         <p><l>stuv<s n="n"/><s n="ut"/></l>	<r>stuv<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>stycke<s n="n"/><s n="nt"/></l>	<r>bolk<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>stycke<s n="n"/><s n="nt"/></l>	<r>stykke<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>styre<s n="n"/><s n="nt"/></l>	<r>styr<s n="n"/><s n="nt"/></r></p><par n="sgpl:sp"/></e>
+<e vr="nno"><p><l>styre<s n="n"/><s n="nt"/></l>	<r>styr<s n="n"/><s n="nt"/></r></p></e>
+<e vr="nob"><p><l>styre<s n="n"/><s n="nt"/></l>	<r>styr<s n="n"/><s n="nt"/></r></p><par n="sgpl:sp"/></e>
 <e>         <p><l>styre<s n="n"/><s n="nt"/></l>	<r>styre<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>styrelse<s n="n"/><s n="ut"/></l>	<r>styre<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>styrka<s n="n"/><s n="ut"/></l>	<r>styrke<s n="n"/><s n="m"/></r></p></e>
@@ -18118,7 +18119,8 @@
 <e>         <p><l>framföra</l>	<r>framføre</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>framföra</l>	<r>fremføre</r></p><par n="vblex"/></e>
 <e>         <p><l>framförhandla</l>	<r>forhandle</r></p><par n="vblex"/></e>
-<e>         <p><l>framhärda</l>	<r>holde<g><b/>ut</g></r></p><par n="vblex_no-adjpp-pasv"/></e>
+<e vr="nno"><p><l>framhärda</l>	<r>halde<g><b/>ut</g></r></p><par n="vblex_no-adjpp-pasv"/></e>
+<e vr="nob"><p><l>framhärda</l>	<r>holde<g><b/>ut</g></r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e>         <p><l>framhäva</l>	<r>framheve</r></p><par n="vblex"/></e>
 <e>         <p><l>framhålla</l>	<r>framheve</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>framhålla</l>	<r>framholde</r></p><par n="vblex"/></e>
