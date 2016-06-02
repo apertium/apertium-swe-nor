@@ -1807,7 +1807,7 @@
 <e vr="nno"><p><l>benägenhet<s n="n"/><s n="ut"/></l>	<r>tilhug<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>benämning<s n="n"/><s n="ut"/></l>	<r>benevnelse<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>benämning<s n="n"/><s n="ut"/></l>	<r>betegnelse<s n="n"/><s n="m"/></r></p></e>
-<e vr="nno"><p><l>benämning<s n="n"/><s n="ut"/></l>	<r>nemne<s n="n"/><s n="nt"/></r></p></e>
+<e r="RL">  <p><l>benämning<s n="n"/><s n="ut"/></l>	<r>nemne<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nno"><p><l>benämning<s n="n"/><s n="ut"/></l>	<r>nemning<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>beredning<s n="n"/><s n="ut"/></l>	<r>forarbeid<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nob"><p><l>beredning<s n="n"/><s n="ut"/></l>	<r>forberedelse<s n="n"/><s n="m"/></r></p></e>
@@ -13443,6 +13443,8 @@
 <e>         <p><l>barbarisk</l>               <r>barbarisk</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>barsk</l>                   <r>barsk</r></p><par n="adj_sint"/></e>
 <e>         <p><l>baskisk</l>                 <r>baskisk</r></p><par n="adj_sint:adj"/></e>
+<e vr="nno"><p><l>befolkad</l>                 <r>folkesett</r></p><par n="adj"/></e>
+<e vr="nob"><p><l>befolkad</l>                 <r>befolket</r></p><par n="adj"/></e>
 <e vr="nno"><p><l>begriplig</l>               <r>begripeleg</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>begriplig</l>               <r>begripelig</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>begriplig</l>               <r>fatteleg</r></p><par n="adj_sint:adj"/></e>
@@ -15383,6 +15385,8 @@
 <e vr="nob"><p><l>övlig</l>                   <r>sedvanlig</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>övre</l>                    <r>øvre</r></p><par n="adj_sint"/></e>
 <e>         <p><l>övrig</l>                   <r>øvrig</r></p><par n="adj"/></e>
+<e vr="nno"><p><l>tättbefolkad</l>            <r>tett<b/>folkesett</r></p><par n="adj:adj_sint"/></e>
+<e vr="nob"><p><l>tättbefolkad</l>            <r>tettbebygd</r></p><par n="adj"/></e>
 
 
     <!-- SECTION: Adverbs -->
@@ -16973,7 +16977,6 @@
 <e>         <p><l>befolka</l>	<r>folke</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>befolka</l>	<r>folkesetje</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>befolka</l>	<r>folkesette</r></p><par n="vblex"/></e>
-<e>         <p><l>befolka</l>	<r>fylle</r></p><par n="vblex"/></e>
 <e>         <p><l>befordra</l>	<r>forfremme</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>befria</l>	<r>befri</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>befria</l>	<r>frigi</r></p><par n="vblex"/></e>
@@ -20741,8 +20744,8 @@
 <e>         <p><l>naja</l>	<r>surre</r></p><par n="vblex"/></e>
 <e>         <p><l>naja</l>	<r>vire</r></p><par n="vblex"/></e>
 <e>         <p><l>nalla</l>	<r>negle</r></p><par n="vblex"/></e>
-<e vr="nno"><p><l>namnge</l>	<r>nemne</r></p><par n="vblex"/></e>
-<e vr="nob"><p><l>namnge</l>	<r>nevne</r></p><par n="vblex"/></e>
+<e vr="nno"><p><l>namnge</l>	<r>namngje</r></p><par n="vblex"/></e>
+<e vr="nob"><p><l>namnge</l>	<r>navngi</r></p><par n="vblex"/></e>
 <e>         <p><l>nappa</l>	<r>bide</r></p><par n="vblex"/></e>
 <e>         <p><l>nappa</l>	<r>bite</r></p><par n="vblex"/></e>
 <e>         <p><l>nappa</l>	<r>nappe</r></p><par n="vblex"/></e>
