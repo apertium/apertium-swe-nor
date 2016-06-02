@@ -325,6 +325,11 @@
 <e>       <p><l><s n="adj"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></l> <r><s n="adj"/><s n="pp"/><s n="mf"/><s n="sg"/><s n="ind"/></r></p><par n="cas:"/></e>
 <e>       <p><l><s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></l> <r><s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="cas:"/></e>
     </pardef>
+    <pardef n="vblex_må" c="the other forms translate into other lemmas">
+<e>       <p><l><s n="vblex"/><s n="past"/><s n="actv"/></l>   <r><s n="vblex"/><s n="pret"/></r></p></e>
+<e>       <p><l><s n="vblex"/><s n="pres"/><s n="actv"/></l>   <r><s n="vblex"/><s n="pres"/></r></p></e>
+<e>       <p><l><s n="vblex"/><s n="past"/><s n="pasv"/></l>   <r><s n="vblex"/><s n="pret"/><s n="pasv"/></r></p></e>
+    </pardef>
     <pardef n="vblex_pasv:vblex_no-adj" c="The swe passive is the nor active (andas-puste)
                                            Trim the nor passives and adj's
                                            TODO: should we translate 'pustes' in transfer with an AD?
@@ -8181,8 +8186,6 @@
 <e>         <p><l>mudd<s n="n"/><s n="ut"/></l>	<r>mudd<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>mufti<s n="n"/><s n="ut"/></l>	<r>mufti<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>mugg<s n="n"/><s n="ut"/></l>	<r>krus<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>mugg<s n="n"/><s n="ut"/></l>	<r>my<s n="n"/></r></p><par n=":f/m"/></e>
-<e>         <p><l>mugg<s n="n"/><s n="ut"/></l>	<r>my<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>mule<s n="n"/><s n="ut"/></l>	<r>mule<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>mullvad<s n="n"/><s n="ut"/></l>	<r>moldvarp<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>multiplikation<s n="n"/><s n="ut"/></l>	<r>multiplikasjon<s n="n"/><s n="m"/></r></p></e>
@@ -16546,7 +16549,7 @@
 <e vr="nob"><p><l>vilja</l>	<r>ville</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e>         <p><l>böra</l>	<r>burde</r></p><par n="vblex_no-adjpp-pasv"/></e>
 
-<e>         <p><l>må²</l>	<r>måtte</r></p><par n="vblex"/></e>
+<e>         <p><l>må²</l>	<r>måtte</r></p><par n="vblex_må"/></e>
 <e>         <p><l>må¹</l>	<r>gå</r></p><par n="vblex"/></e>
 <e>         <p><l>måste</l>	<r>måtte</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e>         <p><l>få</l>	<r>måtte</r></p><par n="vblex_no-adjpp-pasv"/></e>
@@ -38418,7 +38421,7 @@
 <e>         <p><l>Niemimäki<s n="np"/></l>	<r>Niemimäki<s n="np"/></r></p></e>
 <e>         <p><l>Apollon<s n="np"/><s n="al"/><s n="m"/></l>	<r>Apollon<s n="np"/><s n="cog"/></r></p></e>
 <e>         <p><l>Lake<s n="np"/></l>	<r>Lake<s n="np"/></r></p></e>
-<e>         <p><l>Jr<s n="np"/><s n="ant"/></l>	<r>Jr<s n="np"/><s n="al"/><s n="sg"/></r></p></e>
+<e>         <p><l>Jr<s n="np"/><s n="ant"/></l>	<r>Jr<s n="np"/><s n="ant"/></r></p></e>
 <e>         <p><l>Aasta<s n="np"/></l>	<r>Aasta<s n="np"/></r></p></e>
 <e>         <p><l>Hánssajeaggi<s n="np"/></l>	<r>Hánssajeaggi<s n="np"/></r></p></e>
 <e>         <p><l>Storfjorden<s n="np"/></l>	<r>Storfjorden<s n="np"/></r></p></e>
