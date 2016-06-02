@@ -319,6 +319,7 @@
     <def-var n="c_name"         c="chunk name"/>
     <def-var n="ntags"/>
     <def-var n="aux"/>
+    <def-var n="defnes"/>
     <def-var n="grau_aux"       c="lexical unit containing meir/mest if translating from sint to non-sint"/>
   </section-def-vars>
 
@@ -597,8 +598,10 @@
             <not><begins-with><clip pos="2" side="sl" part="a_adj"/><lit-tag v="adj.sint"/></begins-with></not>
             <begins-with><clip pos="2" side="tl" part="a_adj"/><lit-tag v="adj.sint"/></begins-with>
           </and></test>
-          <!-- The second adj is synthetic, so copy tags from first adj: -->
+          <!-- The second adj is synthetic, so copy tags (except defnes) from first adj: -->
+          <let><var n="defnes"/><clip pos="2" side="tl" part="art"/></let>
           <let><clip pos="2" side="tl" part="tags"/><clip pos="1" side="tl" part="tags"/></let>
+          <let><clip pos="2" side="tl" part="art"/><var n="defnes"/></let>
           <!-- And delete the first (meir/mest) adj: -->
           <let><clip pos="1" side="tl" part="whole"/><lit v=""/></let>
           <let><var n="grau_aux"/><lit v=""/></let>
@@ -1253,6 +1256,7 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
       <action>
         <choose><when>
           <test><and>
+            <not><equal><clip pos="1" side="tl" part="lemh"/><lit v="mykje"/></equal></not>
             <equal><clip pos="1" side="tl" part="art"/><lit-tag v="ind"/></equal>
             <equal><clip pos="2" side="tl" part="art"/><lit-tag v="def"/></equal>
           </and></test>
@@ -1288,6 +1292,7 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
       <action>
         <choose><when>
           <test><and>
+            <not><equal><clip pos="1" side="tl" part="lemh"/><lit v="mykje"/></equal></not>
             <equal><clip pos="1" side="tl" part="art"/><lit-tag v="ind"/></equal>
             <equal><clip pos="3" side="tl" part="art"/><lit-tag v="def"/></equal>
           </and></test>
@@ -1326,6 +1331,7 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
       <action>
         <choose><when>
           <test><and>
+            <not><equal><clip pos="1" side="tl" part="lemh"/><lit v="mykje"/></equal></not>
             <equal><clip pos="1" side="tl" part="art"/><lit-tag v="ind"/></equal>
             <equal><clip pos="4" side="tl" part="art"/><lit-tag v="def"/></equal>
           </and></test>
@@ -1367,6 +1373,7 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
       <action>
         <choose><when>
           <test><and>
+            <not><equal><clip pos="1" side="tl" part="lemh"/><lit v="mykje"/></equal></not>
             <equal><clip pos="1" side="tl" part="art"/><lit-tag v="ind"/></equal>
             <equal><clip pos="5" side="tl" part="art"/><lit-tag v="def"/></equal>
           </and></test>
@@ -1409,6 +1416,7 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
       <action>
         <choose><when>
           <test><and>
+            <not><equal><clip pos="1" side="tl" part="lemh"/><lit v="mykje"/></equal></not>
             <equal><clip pos="1" side="tl" part="art"/><lit-tag v="ind"/></equal>
             <equal><clip pos="3" side="tl" part="art"/><lit-tag v="def"/></equal>
           </and></test>
@@ -1457,6 +1465,7 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
       <action>
         <choose><when>
           <test><and>
+            <not><equal><clip pos="1" side="tl" part="lemh"/><lit v="mykje"/></equal></not>
             <equal><clip pos="1" side="tl" part="art"/><lit-tag v="ind"/></equal>
             <equal><clip pos="4" side="tl" part="art"/><lit-tag v="def"/></equal>
           </and></test>
@@ -1508,6 +1517,7 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
       <action>
         <choose><when>
           <test><and>
+            <not><equal><clip pos="1" side="tl" part="lemh"/><lit v="mykje"/></equal></not>
             <equal><clip pos="1" side="tl" part="art"/><lit-tag v="ind"/></equal>
             <equal><clip pos="5" side="tl" part="art"/><lit-tag v="def"/></equal>
           </and></test>
@@ -1562,6 +1572,7 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
       <action>
         <choose><when>
           <test><and>
+            <not><equal><clip pos="1" side="tl" part="lemh"/><lit v="mykje"/></equal></not>
             <equal><clip pos="1" side="tl" part="art"/><lit-tag v="ind"/></equal>
             <equal><clip pos="6" side="tl" part="art"/><lit-tag v="def"/></equal>
           </and></test>
@@ -1640,6 +1651,7 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
       <action>
         <choose><when>
           <test><and>
+            <not><equal><clip pos="1" side="tl" part="lemh"/><lit v="mykje"/></equal></not>
             <equal><clip pos="1" side="tl" part="art"/><lit-tag v="ind"/></equal>
             <equal><clip pos="2" side="tl" part="art"/><lit-tag v="def"/></equal>
           </and></test>
