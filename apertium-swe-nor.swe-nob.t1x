@@ -235,6 +235,7 @@
     <def-var n="ntags"/>
     <def-var n="aux"/>
     <def-var n="blank"/>
+    <def-var n="defnes"/>
     <def-var n="grau_aux"       c="lexical unit containing meir/mest if translating from sint to non-sint"/>
   </section-def-vars>
 
@@ -397,7 +398,7 @@
     </def-macro>
 
     <def-macro n="set_grau_aux2" npar="2"
-               c="arg.1: adjective arg.2: adjective
+               c="arg.1: adjective arg.2: adjective (in order of appearance)
                   When translating from «meir/mest» non-sint to sint, remove «meir/mest», empty grau_aux-variable.
                   When translating from (first arg) sint to non-sint, put «meir/mest» in grau_aux-variable.
 
@@ -414,7 +415,9 @@
             <begins-with><clip pos="2" side="tl" part="a_adj"/><lit-tag v="adj.sint"/></begins-with>
           </and></test>
           <!-- The second adj is synthetic, so copy tags from first adj: -->
+          <let><var n="defnes"/><clip pos="2" side="tl" part="art"/></let>
           <let><clip pos="2" side="tl" part="tags"/><clip pos="1" side="tl" part="tags"/></let>
+          <let><clip pos="2" side="tl" part="art"/><var n="defnes"/></let>
           <!-- And delete the first (meir/mest) adj: -->
           <let><clip pos="1" side="tl" part="whole"/><lit v=""/></let>
           <let><var n="grau_aux"/><lit v=""/></let>

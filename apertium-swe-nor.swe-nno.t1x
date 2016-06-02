@@ -582,7 +582,7 @@
     </def-macro>
 
     <def-macro n="set_grau_aux2" npar="2"
-               c="arg.1: adjective arg.2: adjective
+               c="arg.1: adjective arg.2: adjective (in order of appearance)
                   When translating from «meir/mest» non-sint to sint, remove «meir/mest», empty grau_aux-variable.
                   When translating from (first arg) sint to non-sint, put «meir/mest» in grau_aux-variable.
 

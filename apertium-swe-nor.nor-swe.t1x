@@ -305,6 +305,8 @@
     <def-var n="c_name"         c="chunk name"/>
     <def-var n="ntags"/>
     <def-var n="aux"/>
+    <def-var n="defnes"/>
+    <def-var n="gender"/>
     <def-var n="grau_aux"       c="lexical unit containing meir/mest if translating from sint to non-sint"/>
   </section-def-vars>
 
@@ -544,7 +546,7 @@
     </def-macro>
 
     <def-macro n="set_grau_aux2" npar="2"
-               c="arg.1: adjective arg.2: adjective
+               c="arg.1: adjective arg.2: adjective (in order of appearance)
                   When translating from «meir/mest» non-sint to sint, remove «meir/mest», empty grau_aux-variable.
                   When translating from (first arg) sint to non-sint, put «meir/mest» in grau_aux-variable.
 
@@ -552,7 +554,7 @@
       <choose>
         <when>
           <test><and>
-            <equal><clip pos="1" side="tl" part="lemh"/><lit v="mycket"/></equal>
+            <equal><clip pos="1" side="tl" part="lemh"/><lit v="mycken"/></equal>
             <or>
               <equal><clip pos="1" side="tl" part="grau"/><lit-tag v="comp"/></equal>
               <equal><clip pos="1" side="tl" part="grau"/><lit-tag v="sup"/></equal>
@@ -560,13 +562,18 @@
             <not><begins-with><clip pos="2" side="sl" part="a_adj"/><lit-tag v="adj.sint"/></begins-with></not>
             <begins-with><clip pos="2" side="tl" part="a_adj"/><lit-tag v="adj.sint"/></begins-with>
           </and></test>
-          <choose c="The second adj is synthetic, so copy tags from first adj">
+          <!-- The second adj is synthetic, so copy tags (except defnes) from first adj: -->
+          <let><var n="defnes"/><clip pos="2" side="tl" part="art"/></let>
+          <let><var n="gender"/><clip pos="2" side="tl" part="gender"/></let>
+          <let><clip pos="2" side="tl" part="tags"/><clip pos="1" side="tl" part="tags"/></let>
+          <let><clip pos="2" side="tl" part="art"/><var n="defnes"/></let>
+          <choose>
             <when>
-              <test><equal><clip pos="1" side="tl" part="grau"/><lit-tag v="comp"/></equal></test>
-              <let><clip pos="2" side="tl" part="tags"/><lit-tag v="adj.sint.comp.un.sp.nom"/></let>
+              <test><equal><var n="gender"/><lit-tag v="m"/></equal></test>
+              <let><clip pos="2" side="tl" part="gen"/><lit-tag v="m"/></let>
             </when>
             <otherwise>
-              <let><clip pos="2" side="tl" part="tags"/><lit-tag v="adj.sint.sup.un.sp.ind.nom"/></let>
+              <let><clip pos="2" side="tl" part="gen"/><lit-tag v="fn"/></let>
             </otherwise>
           </choose>
           <!-- And delete the first (meir/mest) adj: -->
