@@ -47,6 +47,8 @@
 
   <rule weight="2.0"> <match lemma="tillstånd" tags="n.*"><select lemma="løyve" tags="n.*"/></match> </rule>
 
+  <rule weight="1.0"><match lemma="sida" tags="n.ut.*"><select lemma="side" tags="n.f.*"/></match></rule>
+
   <!-- Frequency-based rules: -->
 
 <rule weight="0.9"><match lemma="adelskap" tags="n.nt.*"><select lemma="adelskap" tags="n.m.*"/></match></rule><!-- 9 -->
@@ -1456,7 +1458,6 @@
 <rule weight="0.9"><match lemma="service" tags="n.ut.*"><select lemma="service" tags="n.m.*"/></match></rule><!-- 273 -->
 <rule weight="0.9"><match lemma="se" tags="vblex.*"><select lemma="sage" tags="vblex.*"/></match></rule><!-- 310 -->
 <rule weight="0.9"><match lemma="sickla" tags="vblex.*"><select lemma="kare" tags="vblex.*"/></match></rule><!-- 17 -->
-<rule weight="0.9"><match lemma="sida" tags="n.ut.*"><select lemma="sida" tags="n.m.*"/></match></rule><!-- 1643 -->
 <rule weight="0.9"><match lemma="sigill" tags="n.nt.*"><select lemma="segl" tags="n.nt.*"/></match></rule><!-- 741 -->
 <rule weight="0.9"><match lemma="signalera" tags="vblex.*"><select lemma="signalisere" tags="vblex.*"/></match></rule><!-- 73 -->
 <rule weight="0.9"><match lemma="sik" tags="n.ut.*"><select lemma="helt" tags="n.m.*"/></match></rule><!-- 542 -->

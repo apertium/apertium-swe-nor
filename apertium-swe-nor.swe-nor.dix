@@ -235,6 +235,12 @@
 <e>         <p><l><s n="ut"/><s n="sg"/><s n="nom"/></l>             <r><s n="f"/><s n="sp"/><s n="def"/></r></p></e>
 <e r="LR">  <p><l><s n="un"/><s n="pl"/><s n="nom"/></l>             <r><s n="nt"/><s n="sp"/><s n="def"/></r></p></e>
 </pardef>
+<pardef n="nom__prn:qnt__det" c="all:all">
+<e>         <p><l><s n="nt"/><s n="sg"/><s n="nom"/></l>             <r><s n="nt"/><s n="sg"/></r></p></e>
+<e>         <p><l><s n="ut"/><s n="sg"/><s n="nom"/></l>             <r><s n="m"/><s n="sg"/></r></p></e>
+<e>         <p><l><s n="ut"/><s n="sg"/><s n="nom"/></l>             <r><s n="f"/><s n="sg"/></r></p></e>
+<e>         <p><l><s n="un"/><s n="pl"/><s n="nom"/></l>             <r><s n="un"/><s n="un"/></r></p></e>
+</pardef>
 
 <!-- Verbs -->
     <pardef n="vblex">
@@ -610,6 +616,8 @@
 <e>         <p><l>inför<s n="pr"/></l>	<r>føre<s n="pr"/></r></p></e>
 <e vr="nno"><p><l>innan<s n="pr"/></l>	<r>innan<s n="pr"/></r></p></e>
 <e vr="nob"><p><l>innan<s n="pr"/></l>	<r>innen<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>innanför<s n="pr"/></l>	<r>innanfor<s n="pr"/></r></p></e>
+<e vr="nob"><p><l>innanför<s n="pr"/></l>	<r>innenfor<s n="pr"/></r></p></e>
 <e vr="nno"><p><l>inom<s n="pr"/></l>	<r>innanfor<s n="pr"/></r></p></e>
 <e vr="nob"><p><l>inom<s n="pr"/></l>	<r>innenfor<s n="pr"/></r></p></e>
 <e>         <p><l>inuti<s n="pr"/></l>	<r>inne<b/>i<s n="pr"/></r></p></e>
@@ -827,6 +835,11 @@
 
 <e vr="nno"><p><l>samma<s n="prn"/><s n="def"/></l><r>same<s n="det"/><s n="dem"/></r></p><par n="nom__prn:def__det"/></e>
 <e vr="nob"><p><l>samma<s n="prn"/><s n="def"/></l><r>samme<s n="det"/><s n="dem"/></r></p><par n="nom__prn:def__det"/></e>
+
+<e vr="nob"><p><l>samtlig<s n="prn"/><s n="def"/><s n="un"/><s n="pl"/><s n="nom"/></l><r>samtlige<s n="det"/><s n="qnt"/><s n="un"/><s n="pl"/></r></p></e>
+<e>         <p><l>samtlig<s n="prn"/><s n="def"/></l><r>all<s n="det"/><s n="qnt"/></r></p><par n="nom__prn:qnt__det"/></e>
+<e>         <p><l>all<s n="prn"/><s n="def"/></l><r>all<s n="det"/><s n="qnt"/></r></p><par n="nom__prn:qnt__det"/></e>
+
 
 <!-- <e vr="nno"><p><l>själv<s n="prn"/><s n="ut"/><s n="sg"/></l><r>seg<b/>sjølv<s n="prn"/><s n="ref"/><s n="p3"/><s n="sg"/></r></p></e> -->
 <!-- <e vr="nob"><p><l>själv<s n="prn"/></l><r>seg<b/>selv<s n="prn"/><s n="ref"/><s n="p3"/><s n="sg"/></r></p></e> -->
@@ -10392,6 +10405,8 @@
 <e>         <p><l>sida<s n="n"/><s n="ut"/></l>	<r>perm<s n="n"/><s n="m"/></r></p><par n="sgpl:sp"/></e>
 <e r="RL">  <p><l>sida<s n="n"/><s n="ut"/></l>	<r>sida<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>sida<s n="n"/><s n="ut"/></l>	<r>side<s n="n"/></r></p><par n=":f/m"/></e>
+<e r="LR">  <p><l>sid<s n="n"/><s n="ut"/></l>	<r>side<s n="n"/></r></p><par n=":f/m"/><par n="@sg"/></e>
+<e r="LR">  <p><l>sid.<s n="n"/><s n="ut"/></l>	<r>side<s n="n"/></r></p><par n=":f/m"/><par n="@sg"/></e>
 <e>         <p><l>sidensvans<s n="n"/><s n="ut"/></l>	<r>sidensvans<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>sidospår<s n="n"/><s n="nt"/></l>	<r>sidespor<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>siemens<s n="n"/><s n="ut"/></l>	<r>siemens<s n="n"/><s n="m"/></r></p></e>
@@ -13626,6 +13641,8 @@
 <e vr="nno"><p><l>enastående</l>              <r>framragande</r></p><par n="adj"/></e>
 <e vr="nob"><p><l>enastående</l>              <r>fremragende</r></p><par n="adj"/></e>
 <e>         <p><l>energisk</l>                <r>energisk</r></p><par n="adj_sint:adj"/></e>
+<e vr="nno"><p><l>enda</l>                <r>einaste</r></p><par n="adj"/></e>
+<e vr="nob"><p><l>enda</l>                <r>eneste</r></p><par n="adj"/></e>
 <e>         <p><l>engelsk</l>                 <r>engelsk</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>enhetlig</l>                <r>einskapleg</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>enhetlig</l>                <r>enhetlig</r></p><par n="adj_sint:adj"/></e>
@@ -15385,6 +15402,7 @@
 <e vr="nob"><p><l>övlig</l>                   <r>sedvanlig</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>övre</l>                    <r>øvre</r></p><par n="adj_sint"/></e>
 <e>         <p><l>övrig</l>                   <r>øvrig</r></p><par n="adj"/></e>
+<e>         <p><l>samtlig</l>                   <r>samtlig</r></p><par n="adj"/></e>
 <e vr="nno"><p><l>tättbefolkad</l>            <r>tett<b/>folkesett</r></p><par n="adj:adj_sint"/></e>
 <e vr="nob"><p><l>tättbefolkad</l>            <r>tettbebygd</r></p><par n="adj"/></e>
 
@@ -24925,6 +24943,8 @@
 <e vr="nno"><p><l>Östtimor<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Aust-Timor<s n="np"/><s n="top"/></r></p></e>
 <e vr="nob"><p><l>Östtimor<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Øst-Timor<s n="np"/><s n="top"/></r></p></e>
 <e>         <p><l>Sydaustralien<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Sør-Australia<s n="np"/><s n="top"/></r></p></e>
+<e>         <p><l>Nordamerika<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Nord-Amerika<s n="np"/><s n="top"/></r></p></e>
+<e>         <p><l>Latinamerika<s n="np"/><s n="top"/><s n="nt"/></l>	<r>Latin-Amerika<s n="np"/><s n="top"/></r></p></e>
 
 <!-- TODO: probably should differ: -->
 <e>         <p><l>Atlantpakta<s n="np"/></l>	<r>Atlantpakta<s n="np"/></r></p></e>
