@@ -438,7 +438,7 @@
     <pardef n="adj_sint:adj" c="synthetic on swe side">
 <e>       <p><l><s n="adj"/><s n="sint"/></l> <r><s n="adj"/></r></p><par n="adjgrad"/><par n="cas:"/></e>
     </pardef>
-    <pardef n="adj:adj_sint" c="synthetic on dan side">
+    <pardef n="adj:adj_sint" c="synthetic on nor side">
 <e>       <p><l><s n="adj"/></l>              <r><s n="adj"/><s n="sint"/></r></p><par n="adjgrad"/><par n="cas:"/></e>
     </pardef>
 
