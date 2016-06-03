@@ -6572,6 +6572,7 @@
 <e>         <p><l>kontur<s n="n"/><s n="ut"/></l>	<r>kontur<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>konung<s n="n"/><s n="ut"/></l>	<r>kong<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>konung<s n="n"/><s n="ut"/></l>	<r>konge<s n="n"/><s n="m"/></r></p></e>
+<e>         <p><l>drottning<s n="n"/><s n="ut"/></l>	<r>dronning<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>konvalescent<s n="n"/><s n="ut"/></l>	<r>rekonvalesent<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>konvektion<s n="n"/><s n="ut"/></l>	<r>konveksjon<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>konvent<s n="n"/><s n="nt"/></l>	<r>konvent<s n="n"/><s n="nt"/></r></p></e>
@@ -13949,6 +13950,7 @@
 <e vr="nob"><p><l>hjärtnupen</l>              <r>følsom</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>hjärtnupen</l>              <r>kjenslevar</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>holländsk</l>               <r>hollandsk</r></p><par n="adj_sint:adj"/></e>
+<e>         <p><l>finländsk</l>               <r>finlandsk</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>holländsk</l>               <r>nederlandsk</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>homogen</l>                 <r>homogen</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>hopplös</l>                 <r>håplaus</r></p><par n="adj_sint:adj"/></e>
@@ -15672,8 +15674,9 @@
 <e vr="nno"><p><l>handlöst<s n="adv"/></l>	<r>hovudstup<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>handlöst<s n="adv"/></l>	<r>hovudstupes<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>handlöst<s n="adv"/></l>	<r>hovudstups<s n="adv"/></r></p></e>
-<e r="RL" vr="nno"><p><l>heller<s n="adv"/><s n="comp"/></l>	<r>dess<b/>heller<s n="adv"/></r></p></e>
-<e r="RL" vr="nno"><p><l>heller<s n="adv"/><s n="comp"/></l>	<r>di<b/>heller<s n="adv"/></r></p></e>
+<e>         <p><l>heller<s n="adv"/></l>	<r>heller<s n="adv"/></r></p></e>
+<e r="RL" vr="nno"><p><l>heller<s n="adv"/></l>	<r>dess<b/>heller<s n="adv"/></r></p></e>
+<e r="RL" vr="nno"><p><l>heller<s n="adv"/></l>	<r>di<b/>heller<s n="adv"/></r></p></e>
 <e>         <p><l>gärna<s n="adv"/><s n="comp"/></l>	<r>heller<s n="adv"/></r></p></e>
 <e r="RL">  <p><l>gärna<s n="adv"/><s n="comp"/></l>	<r>vonom<s n="adv"/></r></p></e>
 <e r="RL">  <p><l>gärna<s n="adv"/><s n="comp"/></l>	<r>vonoms<s n="adv"/></r></p></e>
@@ -16542,9 +16545,19 @@
 <e>         <p><l>mm.<s n="adv"/></l><r>mm.<s n="adv"/></r></p></e>
 <e>         <p><l>mvh<s n="adv"/></l><r>mvh<s n="adv"/></r></p></e>
 <e>         <p><l>mvh.<s n="adv"/></l><r>mvh.<s n="adv"/></r></p></e>
+<e vr="nno"><p><l>förmodligen<s n="adv"/></l><r>venteleg<s n="adv"/></r></p></e>
+<e vr="nob"><p><l>förmodligen<s n="adv"/></l><r>formodentlig<s n="adv"/></r></p></e>
+<e>         <p><l>slutligen<s n="adv"/></l><r>til<b/>slutt<s n="adv"/></r></p></e>
+<e vr="nno"><p><l>ursprungligen<s n="adv"/></l><r>opphavleg<s n="adv"/></r></p></e>
+<e vr="nob"><p><l>ursprungligen<s n="adv"/></l><r>opprinnelig<s n="adv"/></r></p></e>
+<e vr="nno"><p><l>egentligen<s n="adv"/></l><r>eigentleg<s n="adv"/></r></p></e>
+<e vr="nob"><p><l>egentligen<s n="adv"/></l><r>egentlig<s n="adv"/></r></p></e>
+
 <e r="LR">  <p><l>ned<s n="adv"/></l><r>ned<s n="adv"/></r></p></e>
 <e>         <p><l>ner<s n="adv"/></l><r>ned<s n="adv"/></r></p></e>
-<e r="RL">  <p><l>ner<s n="adv"/></l><r>ner<s n="adv"/></r></p></e>
+<e r="RL">  <p><l>ner<s n="adv"/></l><r>ner<s n="adv"/></r></p></e>egentligen/
+<e vr="nno"><p><l>huvudsakligen<s n="adv"/></l><r>hovudsakeleg<s n="adv"/></r></p></e>
+<e vr="nob"><p><l>huvudsakligen<s n="adv"/></l><r>hovedsakelig<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>framförallt<s n="adv"/></l><r>hovudsakeleg<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>framförallt<s n="adv"/></l><r>hovedsakelig<s n="adv"/></r></p></e>
 <e r="LR" vr="nno"><p><l>främst<s n="adv"/></l><r>hovudsakeleg<s n="adv"/></r></p></e>
