@@ -246,11 +246,11 @@ test: all
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt
 
-# Slow but near-complete test of dictionary consistency
-test-voc-%: all
+# Slow but near-complete test of dictionary consistency:
+test-gen-%: all
 	! dev/testvoc/generation.sh --hfst $*
 
-test-voc: test-voc-swe-nno \
-          test-voc-swe-nob \
-          test-voc-nno-swe \
-          test-voc-nob-swe
+test-voc: test-gen-swe-nno \
+          test-gen-swe-nob \
+          test-gen-nno-swe \
+          test-gen-nob-swe
