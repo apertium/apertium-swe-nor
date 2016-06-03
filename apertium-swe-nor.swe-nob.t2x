@@ -258,7 +258,7 @@
             <var n="det_gender"/>
             <var n="number_no_sp"/>
             <lit v="{^"/>
-            <get-case-from pos="1"><lit v="ein"/></get-case-from>
+            <get-case-from pos="1"><lit v="en"/></get-case-from>
             <lit-tag v="det.qnt"/>
             <var n="det_gender"/>
             <var n="number_no_sp"/>
