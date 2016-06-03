@@ -245,3 +245,10 @@ test: all
 	@echo "Jeg har åler i min luftputebåt" > .test-ref
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt
+
+# Slow but near-complete test of dictionary consistency
+test-voc: all
+	! dev/testvoc/generation.sh --hfst swe-nno
+	! dev/testvoc/generation.sh --hfst nno-swe
+	! dev/testvoc/generation.sh --hfst swe-nob
+	! dev/testvoc/generation.sh --hfst nob-swe
