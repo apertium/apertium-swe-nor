@@ -9000,7 +9000,7 @@
 <e>         <p><l>pentry<s n="n"/><s n="nt"/></l>	<r>pantry<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nno"><p><l>peppar<s n="n"/><s n="ut"/></l>	<r>pepar<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>peppar<s n="n"/><s n="ut"/></l>	<r>pepper<s n="n"/><s n="m"/></r></p></e>
-<e vr="nno"><p><l>pepparmynt<s n="n"/><s n="ut"/></l>	<r>peparmynte<s n="n"/><s n="m"/></r></p></e>
+<e vr="nno"><p><l>pepparmynt<s n="n"/><s n="ut"/></l>	<r>peparmynte<s n="n"/></r></p><par n=":f/m"/></e>
 <e vr="nob"><p><l>pepparmynt<s n="n"/><s n="ut"/></l>	<r>peppermynte<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>perception<s n="n"/><s n="ut"/></l>	<r>persepsjon<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>perestrojka<s n="n"/><s n="ut"/></l>	<r>perestrojka<s n="n"/><s n="m"/></r></p></e>
@@ -17167,9 +17167,10 @@
 <e vr="nno"><p><l>besöka</l>	<r>besøkje</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>besöka</l>	<r>gjeste</r></p><par n="vblex"/></e>
 <e>         <p><l>besöka</l>	<r>vitje</r></p><par n="vblex"/></e>
-<e>         <p><l>beta</l>	<r>beite</r></p><par n="vblex"/></e>
-<e>         <p><l>beta</l>	<r>fascinere</r></p><par n="vblex"/></e>
-<e>         <p><l>beta</l>	<r>hamne</r></p><par n="vblex"/></e>
+<e>         <p><l>beta¹</l>	<r>beite</r></p><par n="vblex"/></e>
+<e>         <p><l>beta²</l>	<r>fascinere</r></p><par n="vblex"/></e>
+<e vr="nno"><p><l>beta²</l>	<r>hamne</r></p><par n="vblex"/></e>
+<e vr="nob"><p><l>beta²</l>	<r>havne</r></p><par n="vblex"/></e>
 <e>         <p><l>betala</l>	<r>betale</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>betala</l>	<r>erlegge</r></p><par n="vblex"/></e>
 <e>         <p><l>beteckna</l>	<r>beskrive</r></p><par n="vblex"/></e>
