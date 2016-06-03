@@ -247,8 +247,10 @@ test: all
 	@rm .test-ref .test-mt
 
 # Slow but near-complete test of dictionary consistency
-test-voc: all
-	! dev/testvoc/generation.sh --hfst swe-nno
-	! dev/testvoc/generation.sh --hfst nno-swe
-	! dev/testvoc/generation.sh --hfst swe-nob
-	! dev/testvoc/generation.sh --hfst nob-swe
+test-voc-%: all
+	! dev/testvoc/generation.sh --hfst $*
+
+test-voc: test-voc-swe-nno \
+          test-voc-swe-nob \
+          test-voc-nno-swe \
+          test-voc-nob-swe
