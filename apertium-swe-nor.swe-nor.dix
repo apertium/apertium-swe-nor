@@ -239,7 +239,7 @@
 <e>         <p><l><s n="nt"/><s n="sg"/><s n="nom"/></l>             <r><s n="nt"/><s n="sg"/></r></p></e>
 <e>         <p><l><s n="ut"/><s n="sg"/><s n="nom"/></l>             <r><s n="m"/><s n="sg"/></r></p></e>
 <e>         <p><l><s n="ut"/><s n="sg"/><s n="nom"/></l>             <r><s n="f"/><s n="sg"/></r></p></e>
-<e>         <p><l><s n="un"/><s n="pl"/><s n="nom"/></l>             <r><s n="un"/><s n="un"/></r></p></e>
+<e>         <p><l><s n="un"/><s n="pl"/><s n="nom"/></l>             <r><s n="un"/><s n="pl"/></r></p></e>
 </pardef>
 
 <!-- Verbs -->
@@ -15404,7 +15404,6 @@
 <e vr="nob"><p><l>övlig</l>                   <r>sedvanlig</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>övre</l>                    <r>øvre</r></p><par n="adj_sint"/></e>
 <e>         <p><l>övrig</l>                   <r>øvrig</r></p><par n="adj"/></e>
-<e>         <p><l>samtlig</l>                   <r>samtlig</r></p><par n="adj"/></e>
 <e vr="nno"><p><l>tättbefolkad</l>            <r>tett<b/>folkesett</r></p><par n="adj:adj_sint"/></e>
 <e vr="nob"><p><l>tättbefolkad</l>            <r>tettbebygd</r></p><par n="adj"/></e>
 
