@@ -331,13 +331,10 @@
 <e>       <p><l><s n="adj"/><s n="pp"/><s n="ut"/><s n="sg"/><s n="ind"/></l> <r><s n="adj"/><s n="pp"/><s n="mf"/><s n="sg"/><s n="ind"/></r></p><par n="cas:"/></e>
 <e>       <p><l><s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></l> <r><s n="adj"/><s n="pp"/><s n="nt"/><s n="sg"/><s n="ind"/></r></p><par n="cas:"/></e>
     </pardef>
-    <pardef n="vblex_no-pastpasv">
-<e r="LR"><p><l><s n="vblex"/><s n="past"/><s n="pasv"/></l>   <r><s n="vblex"/><s n="pret"/><s n="AD"/></r></p></e>
-<e r="RL"><p><l><s n="vblex"/><s n="past"/><s n="pasv"/></l>   <r><s n="vblex"/><s n="pret"/></r></p></e>
+    <pardef n="vblex_no-past" c="instead does pis←→pret">
 <e>       <p><l><s n="vblex"/><s n="pres"/><s n="pasv"/></l>   <r><s n="vblex"/><s n="pres"/><s n="pasv"/></r></p></e>
 <e>       <p><l><s n="vblex"/><s n="inf"/><s n="pasv"/></l>    <r><s n="vblex"/><s n="inf"/><s n="pasv"/></r></p></e>
-<e>       <p><l><s n="vblex"/><s n="past"/><s n="actv"/></l>   <r><s n="vblex"/><s n="pret"/></r></p></e>
-<e r="LR"><p><l><s n="vblex"/><s n="pis"/><s n="actv"/></l>    <r><s n="vblex"/><s n="pret"/></r></p></e>
+<e>       <p><l><s n="vblex"/><s n="pis"/><s n="actv"/></l>    <r><s n="vblex"/><s n="pret"/></r></p></e>
 <e>       <p><l><s n="vblex"/><s n="pres"/><s n="actv"/></l>   <r><s n="vblex"/><s n="pres"/></r></p></e>
 <e r="LR"><p><l><s n="vblex"/><s n="prs"/><s n="actv"/></l>    <r><s n="vblex"/><s n="pres"/></r></p></e>
 <e>       <p><l><s n="vblex"/><s n="inf"/><s n="actv"/></l>    <r><s n="vblex"/><s n="inf"/></r></p></e>
@@ -22554,10 +22551,8 @@
 <e>         <p><l>stilla</l>	<r>stille</r></p><par n="vblex"/></e>
 <e>         <p><l>stimma</l>	<r>stime</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e>         <p><l>stimulera</l>	<r>stimulere</r></p><par n="vblex"/></e>
-<e vr="nob"><p><l>stinga</l>	<r>begrave</r></p><par n="vblex_no-adjpp-pastpasv"/></e>
-<e vr="nno"><p><l>stinga</l>	<r>gravleggje</r></p><par n="vblex_no-adjpp-pastpasv"/></e>
-<e>         <p><l>stinga</l>	<r>stikke</r></p><par n="vblex_no-adjpp-pastpasv"/></e>
-<e vr="nob"><p><l>stinga</l>	<r>stinge</r></p><par n="vblex_no-adjpp-pastpasv"/></e>
+<e>         <p><l>stinga</l>	<r>stikke</r></p><par n="vblex_no-past"/></e>
+<e vr="nob"><p><l>stinga</l>	<r>stinge</r></p><par n="vblex_no-past"/></e>
 <e>         <p><l>stinka</l>	<r>stinke</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e>         <p><l>stipulera</l>	<r>stipulere</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>stirra</l>	<r>glyre</r></p><par n="vblex"/></e>
