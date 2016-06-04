@@ -7704,7 +7704,7 @@
 <e>         <p><l>manfolk<s n="n"/><s n="nt"/></l>	<r>mannfolk<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>mangan<s n="n"/><s n="un"/></l>	<r>mangan<s n="n"/><s n="nt"/></r></p><par n="@sg"/></e>
 <e>         <p><l>mangel<s n="n"/><s n="ut"/></l>	<r>mangel<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>mangel<s n="n"/><s n="ut"/></l>	<r>vant<s n="n"/><s n="m"/></r></p></e>
+<e r="RL">  <p><l>mangel<s n="n"/><s n="ut"/></l>	<r>vant<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>mango<s n="n"/><s n="ut"/></l>	<r>mango<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>mani<s n="n"/><s n="ut"/></l>	<r>mani<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>manifest<s n="n"/><s n="nt"/></l>	<r>manifest<s n="n"/><s n="nt"/></r></p></e>
@@ -12569,7 +12569,7 @@
 <e vr="nno"><p><l>utsaga<s n="n"/><s n="ut"/></l>	<r>utsegn<s n="n"/></r></p><par n=":f/m"/></e>
 <e r="RL" vr="nno"><p><l>utseende<s n="n"/><s n="nt"/></l>	<r>syne<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nob"><p><l>utseende<s n="n"/><s n="nt"/></l>	<r>utseende<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>utseende<s n="n"/><s n="nt"/></l>	<r>utsjånad<s n="n"/><s n="m"/></r></p></e>
+<e vr="nno"><p><l>utseende<s n="n"/><s n="nt"/></l>	<r>utsjånad<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>utsikt<s n="n"/><s n="ut"/></l>	<r>utsikt<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>utsikt<s n="n"/><s n="ut"/></l>	<r>vy<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>utsiktspunkt<s n="n"/><s n="ut"/></l>	<r>utsiktspunkt<s n="n"/><s n="nt"/></r></p></e>
@@ -12591,8 +12591,8 @@
 <e>         <p><l>uttag<s n="n"/><s n="nt"/></l>	<r>uttak<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>uttagning<s n="n"/><s n="ut"/></l>	<r>uttak<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>uttal<s n="n"/><s n="nt"/></l>	<r>uttale<s n="n"/></r></p><par n=":f/m"/></e>
-<e>         <p><l>uttalande<s n="n"/><s n="nt"/></l>	<r>fråsegn<s n="n"/></r></p><par n=":f/m"/></e>
-<e>         <p><l>uttalande<s n="n"/><s n="nt"/></l>	<r>utsegn<s n="n"/></r></p><par n=":f/m"/></e>
+<e vr="nno"><p><l>uttalande<s n="n"/><s n="nt"/></l>	<r>fråsegn<s n="n"/></r></p><par n=":f/m"/></e>
+<e vr="nno"><p><l>uttalande<s n="n"/><s n="nt"/></l>	<r>utsegn<s n="n"/></r></p><par n=":f/m"/></e>
 <e vr="nob"><p><l>uttalande<s n="n"/><s n="nt"/></l>	<r>uttalelse<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>utter<s n="n"/><s n="ut"/></l>	<r>skag<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>utter<s n="n"/><s n="ut"/></l>	<r>skage<s n="n"/><s n="m"/></r></p></e>
@@ -12675,7 +12675,6 @@
 <e>         <p><l>vanilj<s n="n"/><s n="ut"/></l>	<r>vanilje<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>vansinne<s n="n"/><s n="nt"/></l>	<r>vanvidd<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nno"><p><l>vansinne<s n="n"/><s n="nt"/></l>	<r>vanvit<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>vant<s n="n"/><s n="nt"/></l>	<r>vant<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>vant<s n="n"/><s n="nt"/></l>	<r>vant<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>vante<s n="n"/><s n="ut"/></l>	<r>vott<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>vanvett<s n="n"/><s n="nt"/></l>	<r>vanvidd<s n="n"/><s n="nt"/></r></p></e>
@@ -12763,14 +12762,14 @@
 <e vr="nob"><p><l>verklighet<s n="n"/><s n="ut"/></l>	<r>realitet<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>verklighet<s n="n"/><s n="ut"/></l>	<r>røynd<s n="n"/></r></p><par n=":f/m"/></e>
 <e vr="nno"><p><l>verklighet<s n="n"/><s n="ut"/></l>	<r>røyndom<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>verklighet<s n="n"/><s n="ut"/></l>	<r>verkelegheit<s n="n"/></r></p><par n=":f/m"/></e>
+<e vr="nno"><p><l>verklighet<s n="n"/><s n="ut"/></l>	<r>verkelegheit<s n="n"/></r></p><par n=":f/m"/></e>
 <e vr="nob"><p><l>verklighet<s n="n"/><s n="ut"/></l>	<r>virkelighet<s n="n"/></r></p><par n=":f/m"/></e>
 <e vr="nno"><p><l>verkning<s n="n"/><s n="ut"/></l>	<r>verknad<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>verkning<s n="n"/><s n="ut"/></l>	<r>virkning<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>verksamhet<s n="n"/><s n="ut"/></l>	<r>aktivitet<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>verksamhet<s n="n"/><s n="ut"/></l>	<r>verksemd<s n="n"/></r></p><par n=":f/m"/></e>
 <e vr="nob"><p><l>verksamhet<s n="n"/><s n="ut"/></l>	<r>virksomhet<s n="n"/></r></p><par n=":f/m"/></e>
-<e>         <p><l>verkstad<s n="n"/><s n="ut"/></l>	<r>verkstad<s n="n"/><s n="m"/></r></p></e>
+<e vr="nno"><p><l>verkstad<s n="n"/><s n="ut"/></l>	<r>verkstad<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>verkstad<s n="n"/><s n="ut"/></l>	<r>verksted<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nno"><p><l>verktyg<s n="n"/><s n="nt"/></l>	<r>don<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>verktyg<s n="n"/><s n="nt"/></l>	<r>don<s n="n"/><s n="nt"/></r></p></e>
@@ -13356,11 +13355,6 @@
 <e vr="nob"><p><l>övning<s n="n"/><s n="ut"/></l>	<r>øvelse<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>övning<s n="n"/><s n="ut"/></l>	<r>øving<s n="n"/></r></p><par n=":f/m"/></e>
 
-utsegn
-utsjånad
-vant
-verkelegheit
-verkstad
 
 <!-- Acronyms: -->
 <e>         <p><l>kl.<s n="n"/><s n="ut"/><s n="sg"/><s n="ind"/></l>	<r>kl.<s n="n"/><s n="acr"/></r></p><par n="@sg"/></e>
