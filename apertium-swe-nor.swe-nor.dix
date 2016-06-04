@@ -12240,8 +12240,9 @@
 <e>         <p><l>tunnbröd<s n="n"/><s n="nt"/></l>	<r>kling<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>tunnel<s n="n"/><s n="ut"/></l>	<r>tunnel<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>tunnelbana<s n="n"/><s n="ut"/></l>	<r>metro<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>tur<s n="n"/><s n="ut"/></l>	<r>tur<s n="n"/><s n="m"/></r></p></e>
-<e vr="nno"><p><l>tur<s n="n"/><s n="ut"/></l>	<r>tur<s n="n"/><s n="nt"/></r></p></e>
+<e r="RL" vr="nno"><p><l>tur¹<s n="n"/><s n="ut"/></l>	<r>tur<s n="n"/><s n="nt"/></r></p></e>
+<e>         <p><l>tur¹<s n="n"/><s n="ut"/></l>	<r>flaks<s n="n"/><s n="m"/></r></p></e>
+<e>         <p><l>tur²<s n="n"/><s n="ut"/></l>	<r>tur<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>turbin<s n="n"/><s n="ut"/></l>	<r>turbin<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>turbinmotor<s n="n"/><s n="ut"/></l>	<r>gassturbin<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>turbulens<s n="n"/><s n="ut"/></l>	<r>turbulens<s n="n"/><s n="m"/></r></p></e>

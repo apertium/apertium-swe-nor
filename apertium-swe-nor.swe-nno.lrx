@@ -1,4 +1,5 @@
 <rules>
+
   <rule weight="1.0"> <match lemma="behöva" tags="vblex.*"><select lemma="trenge" tags="vblex.*"/></match> </rule>
   <rule weight="1.0"> <match lemma="försöka" tags="vblex.*"><select lemma="freiste" tags="vblex.*"/></match> </rule>
   <rule weight="1.0"> <match lemma="leka" tags="vblex.*"><select lemma="leke" tags="vblex.*"/></match> </rule>
@@ -1884,7 +1885,6 @@
 <rule weight="0.9"><match lemma="tumla" tags="vblex.*"><select lemma="base" tags="vblex.*"/></match></rule><!-- 76 -->
 <rule weight="0.9"><match lemma="tumme" tags="n.ut.*"><select lemma="tomme" tags="n.m.*"/></match></rule><!-- 292 -->
 <rule weight="0.9"><match lemma="tunnbröd" tags="n.nt.*"><select lemma="flatbrød" tags="n.nt.*"/></match></rule><!-- 42 -->
-<rule weight="0.9"><match lemma="tur" tags="n.ut.*"><select lemma="tur" tags="n.m.*"/></match></rule><!-- 912 -->
 <rule weight="0.9"><match lemma="tuss" tags="n.ut.*"><select lemma="tuss" tags="n.m.*"/></match></rule><!-- 47 -->
 <rule weight="0.9"><match lemma="tutta på" tags="vblex.*"><select lemma="snu" tags="vblex.*"/></match></rule><!-- 734 -->
 <rule weight="0.9"><match lemma="tutte" tags="n.ut.*"><select lemma="bryst" tags="n.nt.*"/></match></rule><!-- 725 -->
