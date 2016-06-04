@@ -1,7 +1,7 @@
-Revision: 68980
-AP_SRC1 Revision: 68980
-AP_SRC2b Revision: 68980
-AP_SRC2n Revision: 68980
+Revision: 69277
+AP_SRC1 Revision: 69277
+AP_SRC2b Revision: 69277
+AP_SRC2n Revision: 69277
 Running Regression-tests with mode "swe-nno" with updated tests ...
 
 swe-nno	  honom.
@@ -17,10 +17,10 @@ WORKS	  søkjande der evna til å utnytta.
 
 
 3 / 3, 100%
-Revision: 68980
-AP_SRC1 Revision: 68980
-AP_SRC2b Revision: 68980
-AP_SRC2n Revision: 68980
+Revision: 69277
+AP_SRC1 Revision: 69277
+AP_SRC2b Revision: 69277
+AP_SRC2n Revision: 69277
 Running Regression-tests with mode "nno-swe" with updated tests ...
 
 nno-swe	  ikkje.
@@ -28,15 +28,14 @@ WORKS	  inte.
 
 
 1 / 1, 100%
-Revision: 68980
-AP_SRC1 Revision: 68980
-AP_SRC2b Revision: 68980
-AP_SRC2n Revision: 68980
+Revision: 69277
+AP_SRC1 Revision: 69277
+AP_SRC2b Revision: 69277
+AP_SRC2n Revision: 69277
 Running Regression-tests with mode "swe-nob" with updated tests ...
 
 swe-nob	  honom.
-	- han.
-	+ ham.
+WORKS	  ham.
 
 
 swe-nob	  de parter vars ansökningar.
@@ -47,11 +46,11 @@ swe-nob	  sökande vars förmåga att utnyttja.
 WORKS	  søkende der evnen å utnytte.
 
 
-2 / 3, 66.67%
-Revision: 68980
-AP_SRC1 Revision: 68980
-AP_SRC2b Revision: 68980
-AP_SRC2n Revision: 68980
+3 / 3, 100%
+Revision: 69277
+AP_SRC1 Revision: 69277
+AP_SRC2b Revision: 69277
+AP_SRC2n Revision: 69277
 Running Regression-tests with mode "nob-swe" with updated tests ...
 
 nob-swe	  ikke.
