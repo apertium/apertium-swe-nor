@@ -494,10 +494,10 @@
 
   <pardef n="det+prn_pos" c="TODO: GD? (nno)">
 <e>         <p><l><s n="prn"/><s n="pos"/></l>            <r><s n="prn"/><s n="pos"/></r></p></e>
-<e>         <p><l><s n="prn"/><s n="pos"/><s n="ut"/></l> <r><s n="prn"/><s n="pos"/><s n="f"/></r></p></e>
+<e vr="nno"><p><l><s n="prn"/><s n="pos"/><s n="ut"/></l> <r><s n="prn"/><s n="pos"/><s n="f"/></r></p></e>
 <e>         <p><l><s n="prn"/><s n="pos"/><s n="ut"/></l> <r><s n="prn"/><s n="pos"/><s n="m"/></r></p></e>
 <e>         <p><l><s n="det"/><s n="pos"/></l>            <r><s n="det"/><s n="pos"/></r></p></e>
-<e>         <p><l><s n="det"/><s n="pos"/><s n="ut"/></l> <r><s n="det"/><s n="pos"/><s n="f"/></r></p></e>
+<e vr="nno"><p><l><s n="det"/><s n="pos"/><s n="ut"/></l> <r><s n="det"/><s n="pos"/><s n="f"/></r></p></e>
 <e>         <p><l><s n="det"/><s n="pos"/><s n="ut"/></l> <r><s n="det"/><s n="pos"/><s n="m"/></r></p></e>
   </pardef>
 </pardefs>
@@ -5333,12 +5333,12 @@
 <e>         <p><l>häxprocess<s n="n"/><s n="ut"/></l>	<r>hekseprosess<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>häxsabbat<s n="n"/><s n="ut"/></l>	<r>heksesabbat<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>håg<s n="n"/><s n="ut"/></l>	<r>tendens<s n="n"/><s n="m"/></r></p></e>
-<e vr="nno"><p><l>hål<s n="n"/><s n="nt"/></l>	<r>hol<s n="n"/><s n="nt"/></r></p></e>
+<e r="RL" vr="nno"><p><l>hål<s n="n"/><s n="nt"/></l>	<r>hol<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nob"><p><l>hål<s n="n"/><s n="nt"/></l>	<r>hull<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>hål<s n="n"/><s n="nt"/></l>	<r>hòl<s n="n"/><s n="nt"/></r></p></e>
+<e vr="nno"><p><l>hål<s n="n"/><s n="nt"/></l>	<r>hòl<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>hål<s n="n"/><s n="nt"/></l>	<r>innsmett<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>håla<s n="n"/><s n="ut"/></l>	<r>gren<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>håla<s n="n"/><s n="ut"/></l>	<r>hole<s n="n"/></r></p><par n=":f/m"/></e>
+<e vr="nno"><p><l>håla<s n="n"/><s n="ut"/></l>	<r>hole<s n="n"/></r></p><par n=":f/m"/></e>
 <e vr="nob"><p><l>håla<s n="n"/><s n="ut"/></l>	<r>hule<s n="n"/></r></p><par n=":f/m"/></e>
 <e vr="nno"><p><l>håll<s n="n"/><s n="nt"/></l>	<r>stad<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>håll<s n="n"/><s n="nt"/></l>	<r>sted<s n="n"/><s n="nt"/></r></p></e>
@@ -14896,7 +14896,7 @@
 <e>         <p><l>skygg</l>                   <r>sky</r></p><par n="adj_sint"/></e>
 <e vr="nno"><p><l>skyhög</l>                  <r>skyhøg</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>skyhög</l>                  <r>skyhøy</r></p><par n="adj_sint:adj"/></e>
-<e>         <p><l>skyldig</l>                 <r>forpliktet</r></p><par n="adj_sint"/></e>
+<e vr="nob"><p><l>skyldig</l>                 <r>forpliktet</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>skyldig</l>                 <r>skyldig</r></p><par n="adj_sint"/></e>
 <e>         <p><l>skäggig</l>                 <r>skjeggete</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>skälig</l>                  <r>rimeleg</r></p><par n="adj_sint"/></e>
@@ -18385,7 +18385,6 @@
 <e vr="nno"><p><l>förebygga</l>	<r>førebygge</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>förebygga</l>	<r>førebyggje</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>föredra</l>	<r>foretrekke</r></p><par n="vblex"/></e>
-<e vr="nob"><p><l>föredra</l>	<r>føretrekka</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>föredra</l>	<r>føretrekke</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>förefinnas</l>	<r>foreligge</r></p><par n="vblex_pasv:vblex_no-adj"/></e>
 <e vr="nno"><p><l>förefinnas</l>	<r>gjelde</r></p><par n="vblex_pasv:vblex_no-adj"/></e>
@@ -19201,9 +19200,9 @@
 <e>         <p><l>hoppa</l>	<r>horse</r></p><par n="vblex"/></e>
 <e>         <p><l>hoppa</l>	<r>hufse</r></p><par n="vblex"/></e>
 <e>         <p><l>hoppa</l>	<r>springe</r></p><par n="vblex"/></e>
-<e>         <p><l>hoppas</l>	<r>forhåpe</r></p><par n="vblex_pasv:vblex_no-adj"/></e>
-<e>         <p><l>hoppas</l>	<r>håpe</r></p><par n="vblex_pasv:vblex_no-adj"/></e>
-<e>         <p><l>hoppas</l>	<r>vone</r></p><par n="vblex_pasv:vblex_no-adj"/></e>
+<e r="RL">  <p><l>hoppas</l>	<r>forhåpe</r></p><par n="vblex_pasv:vblex_no-adj"/></e>
+<e vr="nob"><p><l>hoppas</l>	<r>håpe</r></p><par n="vblex_pasv:vblex_no-adj"/></e>
+<e vr="nno"><p><l>hoppas</l>	<r>vone</r></p><par n="vblex_pasv:vblex_no-adj"/></e>
 <e>         <p><l>hora</l>	<r>hore</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e>         <p><l>hospitalisera</l>	<r>hospitalisere</r></p><par n="vblex"/></e>
 <e>         <p><l>hosta</l>	<r>hoste</r></p><par n="vblex"/></e>
