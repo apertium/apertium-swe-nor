@@ -564,7 +564,7 @@
           </and></test>
           <!-- The second adj is synthetic, so copy tags (except defnes) from first adj: -->
           <let><var n="defnes"/><clip pos="2" side="tl" part="art"/></let>
-          <let><var n="gender"/><clip pos="2" side="tl" part="gender"/></let>
+          <let><var n="gender"/><clip pos="2" side="tl" part="gen"/></let>
           <let><clip pos="2" side="tl" part="tags"/><clip pos="1" side="tl" part="tags"/></let>
           <let><clip pos="2" side="tl" part="art"/><var n="defnes"/></let>
           <choose>
