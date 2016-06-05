@@ -13728,7 +13728,6 @@
 <e>         <p><l>folkskygg</l>               <r>folkesky</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>formell</l>                 <r>formell</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>formidabel</l>              <r>formidabel</r></p><par n="adj_sint:adj"/></e>
-<e>         <p><l>fortfarande</l>             <r>stadig</r></p><par n="adj"/></e>
 <e vr="nno"><p><l>framkomlig</l>              <r>framkomeleg</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>framkomlig</l>              <r>framkommeleg</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>framkomlig</l>              <r>fremkommelig</r></p><par n="adj_sint:adj"/></e>
@@ -15479,8 +15478,6 @@
 <e vr="nno"><p><l>alltid<s n="adv"/></l>	<r>eikorleis<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>alltid<s n="adv"/></l>	<r>eileis<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>alltid<s n="adv"/></l>	<r>einsleis<s n="adv"/></r></p></e>
-<e vr="nno"><p><l>alltjämt<s n="adv"/></l>	<r>fortfarande<s n="adv"/></r></p></e>
-<e vr="nob"><p><l>alltjämt<s n="adv"/></l>	<r>fortfarende<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>alltjämt<s n="adv"/></l>	<r>framleis<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>alltjämt<s n="adv"/></l>	<r>fremdeles<s n="adv"/></r></p></e>
 <e>         <p><l>alltjämt<s n="adv"/></l>	<r>stadig<s n="adv"/></r></p></e>
@@ -15607,6 +15604,9 @@
 <e vr="nno"><p><l>formligen<s n="adv"/></l>	<r>formeleg<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>formligen<s n="adv"/></l>	<r>formelig<s n="adv"/></r></p></e>
 <e>         <p><l>forte<s n="adv"/></l>	<r>forte<s n="adv"/></r></p></e>
+<e>         <p><l>fortfarande<s n="adv"/></l>	<r>stadig<s n="adv"/></r></p></e>
+<e r="RL" vr="nno"><p><l>fortfarande<s n="adv"/></l>	<r>fortfarande<s n="adv"/></r></p></e>
+<e r="RL" vr="nob"><p><l>fortfarande<s n="adv"/></l>	<r>fortfarende<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>fortfarande<s n="adv"/></l>	<r>enno<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>fortfarande<s n="adv"/></l>	<r>fortsatt<s n="adv"/></r></p></e>
 <e>         <p><l>fortissimo<s n="adv"/></l>	<r>fortissimo<s n="adv"/></r></p></e>
