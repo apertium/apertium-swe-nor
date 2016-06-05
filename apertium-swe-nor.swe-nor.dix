@@ -828,8 +828,8 @@
 <e>         <p><l>ingenting<s n="prn"/><s n="ind"/></l>	<r>ingenting<s n="prn"/><s n="ind"/></r></p></e>
 <e vr="nno"><p><l>någon<s n="prn"/><s n="ind"/></l>   <r>noko<s n="prn"/><s n="ind"/></r></p><par n="mf-gen_nbr"/></e>
 <e vr="nob"><p><l>någon<s n="prn"/><s n="ind"/></l>   <r>noe<s n="prn"/><s n="ind"/></r></p><par n="mf-gen_nbr"/></e>
-<e vr="nno"><p><l>någonting<s n="prn"/><s n="ind"/></l> <r>noko<s n="prn"/><s n="ind"/></r></p><par n="mf-gen_nbr"/></e>
-<e vr="nob"><p><l>någonting<s n="prn"/><s n="ind"/></l> <r>noe<s n="prn"/><s n="ind"/></r></p><par n="mf-gen_nbr"/></e>
+<e vr="nno"><p><l>någonting<s n="prn"/><s n="ind"/><s n="un"/><s n="pl"/></l> <r>noko<s n="prn"/><s n="ind"/><s n="un"/><s n="pl"/></r></p></e>
+<e vr="nob"><p><l>någonting<s n="prn"/><s n="ind"/><s n="un"/><s n="pl"/></l> <r>noe<s n="prn"/><s n="ind"/><s n="un"/><s n="pl"/></r></p></e>
 <e r="LR" vr="nno"><p><l>nånting<s n="prn"/><s n="ind"/></l> <r>noko<s n="prn"/><s n="ind"/></r></p><par n="mf-gen_nbr"/></e>
 <e r="LR" vr="nob"><p><l>nånting<s n="prn"/><s n="ind"/></l> <r>noe<s n="prn"/><s n="ind"/></r></p><par n="mf-gen_nbr"/></e>
 <e vr="nno"><p><l>somlig<s n="prn"/><s n="ind"/></l> <r>noko<s n="prn"/><s n="ind"/></r></p><par n="mf-gen_nbr"/></e>
@@ -2974,8 +2974,6 @@
 <e>         <p><l>djävul<s n="n"/><s n="ut"/></l>	<r>puke<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>dna-molekyl<s n="n"/><s n="ut"/></l>	<r>dna-molekyl<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>docent<s n="n"/><s n="ut"/></l>	<r>dosent<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>doft<s n="n"/><s n="un"/></l>	<r>ange<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>doft<s n="n"/><s n="un"/></l>	<r>dåm<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>doft<s n="n"/><s n="ut"/></l>	<r>ange<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>doft<s n="n"/><s n="ut"/></l>	<r>dåm<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>doft<s n="n"/><s n="ut"/></l>	<r>lukt<s n="n"/></r></p><par n=":f/m"/></e>
@@ -7689,7 +7687,6 @@
 <e>         <p><l>man<s n="n"/><s n="ut"/></l>	<r>husbond<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>man<s n="n"/><s n="ut"/></l>	<r>mann<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>manager<s n="n"/><s n="ut"/></l>	<r>manager<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>mandarin<s n="n"/><s n="nt"/></l>	<r>mandarin<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>mandarin<s n="n"/><s n="ut"/></l>	<r>mandarin<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>mandat<s n="n"/><s n="nt"/></l>	<r>mandat<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>mandel<s n="n"/><s n="ut"/></l>	<r>mandel<s n="n"/><s n="m"/></r></p></e>
@@ -12131,7 +12128,7 @@
 <e>         <p><l>trasa<s n="n"/><s n="ut"/></l>	<r>fille<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>trasa<s n="n"/><s n="ut"/></l>	<r>klut<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>tratt<s n="n"/><s n="ut"/></l>	<r>trakt<s n="n"/></r></p><par n=":f/m"/></e>
-<e>         <p><l>trav<s n="n"/><s n="un"/></l>	<r>trav<s n="n"/><s n="nt"/></r></p></e>
+<e>         <p><l>trav<s n="n"/><s n="un"/></l>	<r>trav<s n="n"/><s n="nt"/></r></p><par n="@sg"/></e>
 <e>         <p><l>trav<s n="n"/><s n="ut"/></l>	<r>trav<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>travsport<s n="n"/><s n="ut"/></l>	<r>travsport<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>tredjedel<s n="n"/><s n="ut"/></l>	<r>tredel<s n="n"/><s n="m"/></r></p></e>
@@ -12187,9 +12184,9 @@
 <e vr="nob"><p><l>trygghet<s n="n"/><s n="ut"/></l>	<r>trygghet<s n="n"/></r></p><par n=":f/m"/></e>
 <e vr="nno"><p><l>trygghet<s n="n"/><s n="ut"/></l>	<r>tryggleik<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>tryne<s n="n"/><s n="nt"/></l>	<r>tryne<s n="n"/><s n="nt"/></r></p></e>
+<e>         <p><l>trä<s n="n"/><s n="nt"/></l>	<r>trevirke<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>trä<s n="n"/><s n="nt"/></l>	<r>tre<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>träd<s n="n"/><s n="nt"/></l>	<r>tre<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>träd<s n="n"/><s n="nt"/></l>	<r>trevirke<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>trädgård<s n="n"/><s n="ut"/></l>	<r>hage<s n="n"/><s n="m"/></r></p></e>
 <e r="RL">  <p><l>trädgård<s n="n"/><s n="ut"/></l>	<r>have<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>trädgårdsodling<s n="n"/><s n="ut"/></l>	<r>hagebruk<s n="n"/><s n="nt"/></r></p></e>
@@ -18336,8 +18333,8 @@
 <e vr="nno"><p><l>förbise</l>	<r>oversjå</r></p><par n="vblex"/></e>
 <e>         <p><l>förbjuda</l>	<r>forby</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>förbjuda</l>	<r>forbyde</r></p><par n="vblex"/></e>
-<e vr="nno"><p><l>förbli</l>	<r>bli<g><b/>verande</g></r></p><par n="vblex_no-adjpp-pastpasv"/></e>
-<e vr="nob"><p><l>förbli</l>	<r>forbli</r></p><par n="vblex_no-adjpp-pastpasv"/></e>
+<e vr="nno"><p><l>förbli</l>	<r>bli<g><b/>verande</g></r></p><par n="vblex_no-pasv"/></e>
+<e vr="nob"><p><l>förbli</l>	<r>forbli</r></p><par n="vblex_no-pasv"/></e>
 <e>         <p><l>förblinda</l>	<r>blinde</r></p><par n="vblex"/></e>
 <e>         <p><l>förbluffa</l>	<r>forbløffe</r></p><par n="vblex"/></e>
 <e>         <p><l>förblöda</l>	<r>forblø</r></p><par n="vblex"/></e>
@@ -20301,8 +20298,8 @@
 <e>         <p><l>lita</l>	<r>lite</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e>         <p><l>liva</l>	<r>live</r></p><par n="vblex"/></e>
 <e>         <p><l>livnära</l>	<r>livnære</r></p><par n="vblex"/></e>
-<e>         <p><l>ljuda</l>	<r>artikulere</r></p><par n="vblex"/></e>
-<e>         <p><l>ljuda</l>	<r>lyde</r></p><par n="vblex"/></e>
+<e>         <p><l>ljuda</l>	<r>artikulere</r></p><par n="vblex_no-adjpp"/></e>
+<e>         <p><l>ljuda</l>	<r>lyde</r></p><par n="vblex_no-adjpp"/></e>
 <e>         <p><l>ljudisolera</l>	<r>lydisolere</r></p><par n="vblex"/></e>
 <e>         <p><l>ljuga</l>	<r>juge</r></p><par n="vblex"/></e>
 <e>         <p><l>ljuga</l>	<r>ljuge</r></p><par n="vblex"/></e>
@@ -22175,10 +22172,10 @@
 <e vr="nob"><p><l>slunga</l>	<r>slenge</r></p><par n="vblex"/></e>
 <e>         <p><l>slunga</l>	<r>slynge</r></p><par n="vblex"/></e>
 <e>         <p><l>slussa</l>	<r>sluse</r></p><par n="vblex"/></e>
-<e>         <p><l>sluta</l>	<r>slutte</r></p><par n="vblex"/></e>
-<e vr="nno"><p><l>sluta</l>	<r>stagge</r></p><par n="vblex"/></e>
-<e vr="nob"><p><l>sluta</l>	<r>stenge</r></p><par n="vblex"/></e>
-<e>         <p><l>sluta</l>	<r>stoppe</r></p><par n="vblex"/></e>
+<e>         <p><l>sluta</l>	<r>slutte</r></p><par n="vblex_no-adjpp"/></e>
+<e vr="nno"><p><l>sluta</l>	<r>stagge</r></p><par n="vblex_no-adjpp"/></e>
+<e vr="nob"><p><l>sluta</l>	<r>stenge</r></p><par n="vblex_no-adjpp"/></e>
+<e>         <p><l>sluta</l>	<r>stoppe</r></p><par n="vblex_no-adjpp"/></e>
 <e>         <p><l>slutföra</l>	<r>fullende</r></p><par n="vblex"/></e>
 <e>         <p><l>slutföra</l>	<r>fullføre</r></p><par n="vblex"/></e>
 <e>         <p><l>slutta</l>	<r>halle</r></p><par n="vblex"/></e>
