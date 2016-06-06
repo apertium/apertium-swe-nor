@@ -49,6 +49,8 @@
     <match lemma="skyld" tags="n.*"><select lemma="skull" tags="n.*"/></match>
   </rule>
 
+  <rule weight="1.0"><match lemma="enkel" tags="adj.*"><select lemma="enkel" tags="adj.*"/></match></rule>
+
   <!-- Frequency-based rules: -->
 
 <rule weight="0.9"><match lemma="abbed" tags="n.m.*"><select lemma="abbot" tags="n.ut.*"/></match></rule><!-- 59 -->

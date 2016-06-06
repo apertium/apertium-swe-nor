@@ -1,7 +1,9 @@
 <rules>
+  <rule weight="1.0"> <match lemma="fela" tags="vblex.*"><select lemma="mislukkast" tags="vblex.pstv.*"/></match> </rule>
 
   <rule weight="1.0"> <match lemma="behöva" tags="vblex.*"><select lemma="trenge" tags="vblex.*"/></match> </rule>
   <rule weight="1.0"> <match lemma="försöka" tags="vblex.*"><select lemma="freiste" tags="vblex.*"/></match> </rule>
+
   <rule weight="1.0"> <match lemma="leka" tags="vblex.*"><select lemma="leke" tags="vblex.*"/></match> </rule>
   <rule weight="2.0">
     <match lemma="fisk" tags="n.*"/>
@@ -44,11 +46,14 @@
   <rule weight="2.0"> <match lemma="låta" tags="vblex.inf.*"><select lemma="la"/></match> </rule>
   <rule weight="2.0"> <match lemma="låta" tags="vblex.pres.*"><select lemma="høyrast"/></match> </rule>
 
+  <rule weight="1.0"><match lemma="sida" tags="n.ut.*"><select lemma="side" tags="n.m.*"/></match></rule>
+
+  <rule weight="2.0"> <match lemma="låta" tags="vblex.inf.*"><select lemma="la"/></match> </rule>
+  <rule weight="2.0"> <match lemma="låta" tags="vblex.pres.*"><select lemma="høres"/></match> </rule>
+
   <rule weight="2.0"> <match lemma="få" tags="vblex.*"><select lemma="få" tags="vblex.*"/></match> </rule>
 
   <rule weight="2.0"> <match lemma="tillstånd" tags="n.*"><select lemma="løyve" tags="n.*"/></match> </rule>
-
-  <rule weight="1.0"><match lemma="sida" tags="n.ut.*"><select lemma="side" tags="n.f.*"/></match></rule>
 
   <!-- Frequency-based rules: -->
 
