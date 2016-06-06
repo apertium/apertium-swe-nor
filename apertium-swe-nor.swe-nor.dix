@@ -317,6 +317,17 @@
 <e>       <p><l><s n="vblex"/><s n="supn"/><s n="actv"/></l>   <r><s n="vblex"/><s n="pp"/></r></p></e>
 <e>       <p><l><s n="adj"/><s n="pprs"/></l>                                 <r><s n="adj"/><s n="pprs"/></r></p><par n="cas:"/></e>
     </pardef>
+    <pardef n="vblex_no-adjpp-past-just-inf-pasv" c="TODO: how should we translate 'overvejes', 'vites'?">
+<!-- <e>       <p><l><s n="vblex"/><s n="past"/><s n="actv"/></l>   <r><s n="vblex"/><s n="pret"/></r></p></e> -->
+<!-- <e r="LR"><p><l><s n="vblex"/><s n="pis"/><s n="actv"/></l>    <r><s n="vblex"/><s n="pret"/></r></p></e> -->
+<e>       <p><l><s n="vblex"/><s n="pres"/><s n="actv"/></l>   <r><s n="vblex"/><s n="pres"/></r></p></e>
+<e r="LR"><p><l><s n="vblex"/><s n="prs"/><s n="actv"/></l>    <r><s n="vblex"/><s n="pres"/></r></p></e>
+<e>       <p><l><s n="vblex"/><s n="inf"/><s n="actv"/></l>    <r><s n="vblex"/><s n="inf"/></r></p></e>
+<e>       <p><l><s n="vblex"/><s n="inf"/><s n="pasv"/></l>    <r><s n="vblex"/><s n="inf"/><s n="pasv"/></r></p></e>
+<e>       <p><l><s n="vblex"/><s n="imp"/></l>                 <r><s n="vblex"/><s n="imp"/></r></p></e>
+<!-- <e>       <p><l><s n="vblex"/><s n="supn"/><s n="actv"/></l>   <r><s n="vblex"/><s n="pp"/></r></p></e> -->
+<e>       <p><l><s n="adj"/><s n="pprs"/></l>                                 <r><s n="adj"/><s n="pprs"/></r></p><par n="cas:"/></e>
+    </pardef>
     <pardef n="vblex_no-pasv" c="TODO: an RL aux-to-be-determined-tag and transfer rule for pasv here?">
 <e>       <p><l><s n="vblex"/><s n="past"/><s n="actv"/></l>   <r><s n="vblex"/><s n="pret"/></r></p></e>
 <e r="LR"><p><l><s n="vblex"/><s n="pis"/><s n="actv"/></l>    <r><s n="vblex"/><s n="pret"/></r></p></e>
@@ -585,8 +596,8 @@
 <e vr="nno"><p><l>enligt<s n="pr"/></l>	<r>ifølgje<s n="pr"/></r></p></e>
 <e>         <p><l>fig.<s n="pr"/></l>	<r>fig.<s n="pr"/></r></p></e>
 <e>         <p><l>fig<s n="pr"/></l>	<r>fig<s n="pr"/></r></p></e>
-<e>         <p><l>framför<s n="pr"/></l>	<r>foran<s n="pr"/></r></p></e>
-<e>         <p><l>framför<s n="pr"/></l>	<r>framfor<s n="pr"/></r></p></e>
+<e vr="nob"><p><l>framför<s n="pr"/></l>	<r>foran<s n="pr"/></r></p></e>
+<e vr="nno"><p><l>framför<s n="pr"/></l>	<r>framfor<s n="pr"/></r></p></e>
 <e vr="nno"><p><l>från<s n="pr"/></l>	<r>dør<s n="pr"/></r></p></e>
 <e vr="nob"><p><l>från<s n="pr"/></l>	<r>fra<s n="pr"/></r></p></e>
 <e>         <p><l>från<s n="pr"/></l>	<r>frå<s n="pr"/></r></p></e>
@@ -728,7 +739,7 @@
 <e vr="nno"><p><l>vid<s n="pr"/></l>	<r>bortåt<s n="pr"/></r></p></e>
 <e vr="nno"><p><l>vid<s n="pr"/></l>	<r>frammed<s n="pr"/></r></p></e>
 <e vr="nno"><p><l>vid<s n="pr"/></l>	<r>framved<s n="pr"/></r></p></e>
-<e>         <p><l>vid<s n="pr"/></l>	<r>fremved<s n="pr"/></r></p></e>
+<e vr="nob"><p><l>vid<s n="pr"/></l>	<r>fremved<s n="pr"/></r></p></e>
 <e>         <p><l>vid<s n="pr"/></l>	<r>innmed<s n="pr"/></r></p></e>
 <e vr="nno"><p><l>vid<s n="pr"/></l>	<r>næme<s n="pr"/></r></p></e>
 <e>         <p><l>vid<s n="pr"/></l>	<r>ved<s n="pr"/></r></p></e>
@@ -14832,7 +14843,6 @@
 <e>         <p><l>siamesisk</l>               <r>siamesisk</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>simpel</l>                  <r>einskild</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>simpel</l>                  <r>enkelt</r></p><par n="adj_sint:adj"/></e>
-<e>         <p><l>sist</l>                    <r>sist</r></p><par n="adj_sint"/></e>
 <e>         <p><l>sista</l>                    <r>sist</r></p><par n="adj_sint"/></e>
 <e vr="nno"><p><l>sjuk</l>                    <r>sjuk</r></p><par n="adj_sint"/></e>
 <e vr="nob"><p><l>sjuk</l>                    <r>syk</r></p><par n="adj_sint"/></e>
@@ -16391,9 +16401,9 @@
 <e vr="nob"><p><l>urbota<s n="adv"/></l>	<r>eitrende<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>urbota<s n="adv"/></l>	<r>gandande<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>urbota<s n="adv"/></l>	<r>gorande<s n="adv"/></r></p></e>
-<e>         <p><l>urbota<s n="adv"/></l>	<r>gorr<s n="adv"/></r></p></e>
+<e r="RL">  <p><l>urbota<s n="adv"/></l>	<r>gorr<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>urbota<s n="adv"/></l>	<r>gorrende<s n="adv"/></r></p></e>
-<e>         <p><l>urbota<s n="adv"/></l>	<r>gørr<s n="adv"/></r></p></e>
+<e r="RL">  <p><l>urbota<s n="adv"/></l>	<r>gørr<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>urbota<s n="adv"/></l>	<r>gørrande<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>urbota<s n="adv"/></l>	<r>gørrende<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>urbota<s n="adv"/></l>	<r>hakkande<s n="adv"/></r></p></e>
@@ -23795,8 +23805,8 @@
 <e>         <p><l>vecka</l>	<r>vekke</r></p><par n="vblex"/></e>
 <e>         <p><l>veckla</l>	<r>linde</r></p><par n="vblex"/></e>
 <e>         <p><l>veckla</l>	<r>vikle</r></p><par n="vblex"/></e>
-<e vr="nno"><p><l>vederböra</l>	<r>vedkome</r></p><par n="vblex_no-adjpp-pasv"/></e>
-<e vr="nob"><p><l>vederböra</l>	<r>vedkomme</r></p><par n="vblex_no-adjpp-pasv"/></e>
+<e vr="nno"><p><l>vederböra</l>	<r>vedkome</r></p><par n="vblex_no-adjpp-past-just-inf-pasv"/></e>
+<e vr="nob"><p><l>vederböra</l>	<r>vedkomme</r></p><par n="vblex_no-adjpp-past-just-inf-pasv"/></e>
 <e>         <p><l>vedergälla</l>	<r>gjengjelde</r></p><par n="vblex"/></e>
 <e>         <p><l>vederlägga</l>	<r>tilbakevise</r></p><par n="vblex"/></e>
 <e>         <p><l>vegetera</l>	<r>vegetere</r></p><par n="vblex_no-adjpp-pasv"/></e>

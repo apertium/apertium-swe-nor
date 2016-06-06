@@ -90,13 +90,16 @@ analysis_expansion_hfst () {
     # give the "disambiguated" output, no forms
 }
 
+PYTHONPATH="$(dirname "$0"):${PYTHONPATH:-}"
+export PYTHONPATH
+
 split_ambig () {
     if command -V pypy3 &>/dev/null; then
         python=pypy3
     else
         python=python3
     fi
-    PYTHONPATH="$(dirname "$0"):${PYTHONPATH:-}" "${python}" -c '
+    "${python}" -c '
 from streamparser import parse_file, readingToString
 import sys
 for blank, lu in parse_file(sys.stdin, withText=True):
@@ -139,12 +142,15 @@ case ${lang1} in
     nno|nob) clb="<clb>" ;;
 esac
 
+export -f mode_after_tagger
+export -f split_ambig
+
 if $HFST; then
     if [[ ${dix} = guess ]]; then
         dix=$(xmllint --xpath "string(/modes/mode[@name = '${mode}']/pipeline/program[1]/file[1]/@name)" modes.xml)
     fi
     analysis_expansion_hfst "${dix}" "${clb}" \
-        | mode_after_tagger modes/"${mode}".mode \
+        | parallel -j1 --pipe --block 10M -- bash -c \'mode_after_tagger modes/"${mode}".mode\' \
         | only_errs
 else
     if [[ ${dix} = guess ]]; then
