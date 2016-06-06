@@ -7105,7 +7105,7 @@
 <e>         <p><l>lakej<s n="n"/><s n="ut"/></l>	<r>lakei<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>laktation<s n="n"/><s n="ut"/></l>	<r>laktasjon<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>laktos<s n="n"/><s n="ut"/></l>	<r>laktose<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>lama<s n="n"/><s n="un"/></l>	<r>lama<s n="n"/><s n="m"/></r></p></e>
+<e>         <p><l>lama<s n="n"/><s n="un"/></l>	<r>lama<s n="n"/><s n="m"/></r></p><par n="@sg"/></e>
 <e>         <p><l>lama<s n="n"/><s n="ut"/></l>	<r>lama<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>laminat<s n="n"/><s n="nt"/></l>	<r>laminat<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>lamm<s n="n"/><s n="nt"/></l>	<r>lam<s n="n"/><s n="nt"/></r></p></e>
@@ -13597,8 +13597,6 @@
 <e vr="nob"><p><l>dryg</l>                    <r>drøy</r></p><par n="adj_sint"/></e>
 <e>         <p><l>dubbel</l>                  <r>dobbel</r></p><par n="adj_sint"/></e>
 <e>         <p><l>dum</l>                     <r>dum</r></p><par n="adj_sint"/></e>
-<e vr="nno"><p><l>dylik</l>                   <r>liknande</r></p><par n="adj"/></e>
-<e vr="nob"><p><l>dylik</l>                   <r>liknende</r></p><par n="adj"/></e>
 <e>         <p><l>dynamisk</l>                <r>dynamisk</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>dyr</l>                     <r>dyr</r></p><par n="adj_sint"/></e>
 <e>         <p><l>dyrbar</l>                  <r>kostbar</r></p><par n="adj_sint:adj"/></e>
@@ -13651,17 +13649,21 @@
 <e vr="nno"><p><l>enig</l>                    <r>einig</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>enig</l>                    <r>enig</r></p><par n="adj_sint"/></e>
 <e vr="nno"><p><l>enig</l>                    <r>samd</r></p><par n="adj_sint"/></e>
-<e>         <p><l>enker</l>                   <r>enkelt</r></p><par n="adj"/></e>
 <e>         <p><l>enorm</l>                   <r>enorm</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>ensam</l>                   <r>einsam</r></p><par n="adj_sint"/></e>
 <e vr="nob"><p><l>ensam</l>                   <r>ensom</r></p><par n="adj_sint"/></e>
 <e vr="nno"><p><l>ensidig</l>                 <r>einsidig</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>ensidig</l>                 <r>ensidig</r></p><par n="adj_sint:adj"/></e>
+<e vr="nno"><p><l>simpel</l>                  <r>einskild</r></p><par n="adj_sint:adj"/></e>
+<e>         <p><l>simpel</l>                  <r>enkelt</r></p><par n="adj_sint:adj"/></e>
+<e r="LR">  <p><l>enstak</l>                  <r>enkel</r></p><par n="adj:adj_sint"/></e>
+<e>         <p><l>påver</l>                   <r>enkel</r></p><par n="adj_sint"/></e>
+<e>         <p><l>torftig</l>                 <r>enkel</r></p><par n="adj_sint"/></e>
+<e>         <p><l>enkel</l>                 <r>enkel</r></p><par n="adj_sint"/></e>
 <e>         <p><l>enskild</l>                 <r>enkelt</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>enskild</l>                 <r>personell</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>enskild</l>                 <r>personleg</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>enskild</l>                 <r>personlig</r></p><par n="adj_sint:adj"/></e>
-<e>         <p><l>enstak</l>                  <r>enkel</r></p><par n="adj:adj_sint"/></e>
 <e>         <p><l>entusiastisk</l>            <r>entusiastisk</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>entydig</l>                 <r>eintydig</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>entydig</l>                 <r>entydig</r></p><par n="adj_sint:adj"/></e>
@@ -14687,7 +14689,6 @@
 <e vr="nob"><p><l>påfallande</l>              <r>påfallende</r></p><par n="adj"/></e>
 <e vr="nno"><p><l>påpasslig</l>               <r>påpasseleg</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>påpasslig</l>               <r>påpasselig</r></p><par n="adj_sint:adj"/></e>
-<e>         <p><l>påver</l>                   <r>enkel</r></p><par n="adj_sint"/></e>
 <e>         <p><l>rabiat</l>                  <r>rabiat</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>radikal</l>                 <r>radikal</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>radioaktiv</l>              <r>radioaktiv</r></p><par n="adj_sint:adj"/></e>
@@ -14841,8 +14842,6 @@
 <e vr="nno"><p><l>sevärd</l>                  <r>sjåverdig</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>sexuell</l>                 <r>seksuell</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>siamesisk</l>               <r>siamesisk</r></p><par n="adj_sint:adj"/></e>
-<e vr="nno"><p><l>simpel</l>                  <r>einskild</r></p><par n="adj_sint:adj"/></e>
-<e>         <p><l>simpel</l>                  <r>enkelt</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>sista</l>                    <r>sist</r></p><par n="adj_sint"/></e>
 <e vr="nno"><p><l>sjuk</l>                    <r>sjuk</r></p><par n="adj_sint"/></e>
 <e vr="nob"><p><l>sjuk</l>                    <r>syk</r></p><par n="adj_sint"/></e>
@@ -15108,7 +15107,6 @@
 <e>         <p><l>tolerant</l>                <r>tolerant</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>tom</l>                     <r>tom</r></p><par n="adj_sint"/></e>
 <e>         <p><l>toppig</l>                  <r>spiss</r></p><par n="adj_sint"/></e>
-<e>         <p><l>torftig</l>                 <r>enkel</r></p><par n="adj_sint"/></e>
 <e>         <p><l>torr</l>                    <r>tørr</r></p><par n="adj_sint"/></e>
 <e>         <p><l>total</l>                   <r>total</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>tradig</l>                  <r>kjedeleg</r></p><par n="adj_sint"/></e>
@@ -16539,6 +16537,7 @@
 <e vr="nno"><p><l>förmodligen<s n="adv"/></l><r>venteleg<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>förmodligen<s n="adv"/></l><r>formodentlig<s n="adv"/></r></p></e>
 <e>         <p><l>slutligen<s n="adv"/></l><r>til<b/>slutt<s n="adv"/></r></p></e>
+<e>         <p><l>enkelt<s n="adv"/></l><r>enkelt<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>ursprungligen<s n="adv"/></l><r>opphavleg<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>ursprungligen<s n="adv"/></l><r>opprinnelig<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>egentligen<s n="adv"/></l><r>eigentleg<s n="adv"/></r></p></e>
