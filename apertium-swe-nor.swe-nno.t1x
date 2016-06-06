@@ -117,6 +117,9 @@
     <def-cat n="prn">
       <cat-item tags="prn.*"/>
     </def-cat>
+    <def-cat n="sent">
+      <cat-item tags="sent.*"/>
+    </def-cat>
     <def-cat n="detpos">
       <cat-item tags="det.pos.*"/>
     </def-cat>
@@ -196,6 +199,9 @@
     </def-cat>
     <def-cat n="vblexinfpass">
       <cat-item tags="vblex.inf.pasv"/>
+    </def-cat>
+    <def-cat n="vblexsupnpasv">
+      <cat-item tags="vblex.supn.pasv"/>
     </def-cat>
     <def-cat n="verbpass">
       <cat-item tags="vblex.*.pasv"/>
@@ -320,12 +326,28 @@
     <def-var n="ntags"/>
     <def-var n="aux"/>
     <def-var n="defnes"/>
+    <def-var n="cur_modal" c="ha/bli/…"/>
     <def-var n="grau_aux"       c="lexical unit containing meir/mest if translating from sint to non-sint"/>
   </section-def-vars>
 
   <section-def-lists>
+    <def-list n="swe_modals">
+      <list-item v="ha"/>
+      <list-item v="bli"/>
+      <list-item v="vara¹"/>
+      <list-item v="skola¹"/>
+      <list-item v="vilja"/>
+      <list-item v="böra"/>
+      <list-item v="må²"/>
+      <list-item v="må¹"/>
+      <list-item v="måste"/>
+      <list-item v="få"/>
+      <list-item v="kunna"/>
+    </def-list>
+
     <!-- POSSESSED-DEPENDENT EXCEPTIONS TODO: omkretsen til verda,
          lengden på dokumentet, ryktet til styret, lukta av/etter
+
          kua... (although this could be coded in all the dictionaries,
          or added by CG, it's probably simpler and more compact to do
          it with def-list and macros) -->
@@ -726,12 +748,87 @@
         </out>
       </when></choose>
     </def-macro>
+
+    <def-macro n="set_cur_modal" npar="1"
+               c="arg.1: verb">
+      <let><var n="cur_modal"/><lit v=""/></let>
+      <choose>
+        <when>
+          <test><in><clip pos="1" side="sl" part="lemh"/><list n="swe_modals"/></in></test>
+          <let><var n="cur_modal"/><clip pos="1" side="sl" part="lemh"/></let>
+        </when>
+      </choose>
+    </def-macro>
   </section-def-macros>
 
 
 
   <section-rules>
     <!-- Verbs -->
+    <rule comment="VBLEX.SUPN.PASV: som inte funnits → som ikke har funnes
+                                    har uppförts → som har blitt oppført
+                                    har funnits → har funnes
+                                    som inte uppförts → som ikke har blitt oppført">
+      <pattern>
+        <pattern-item n="vblexsupnpasv"/>
+      </pattern>
+      <action>
+        <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <choose>
+          <when>
+            <test><not><equal><var n="cur_modal"/><lit v="ha"/></equal></not></test>
+            <out>
+              <chunk name="aux" case="caseFirstWord">
+                <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
+                <lu>
+                  <lit v="ha"/>
+                  <lit-tag v="vblex"/>
+                  <lit-tag v="pres"/> <!-- TODO: anaphoric variable -->
+                </lu>
+              </chunk>
+              <b/>
+            </out>
+            <let><var n="cur_modal"/><lit v="ha"/></let>
+          </when>
+        </choose>
+        <choose>
+          <when>
+            <test><and>
+              <equal><var n="cur_modal"/><lit v="ha"/></equal>
+              <not><equal><clip pos="1" side="tl" part="a_verb"/><lit-tag v="vblex.pstv"/></equal></not>
+            </and></test>
+            <call-macro n="set_aux"><with-param pos="1"/></call-macro>
+            <out>
+              <chunk name="aux" case="caseFirstWord">
+                <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
+                <var n="aux"/>
+              </chunk>
+              <b/>
+            </out>
+          </when>
+        </choose>
+        <out>
+          <chunk name="vblex" case="caseFirstWord">
+            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="temps"/>
+            </lu>
+          </chunk>
+        </out>
+        <choose><when>
+          <test><not><equal><clip pos="1" side="tl" part="lemq"/><lit v=""/></equal></not></test>
+          <out>
+            <chunk name="lemq">
+              <tags><tag><lit-tag v="vblex.lemq"/></tag></tags>
+              <lu><clip pos="1" side="tl" part="lemq"/></lu>
+            </chunk>
+          </out>
+        </when></choose>
+        <call-macro n="set_cur_modal"><with-param pos="1"/></call-macro>
+      </action>
+    </rule>
 
     <rule comment="VERB.PASS: leses => vert lest
                    beholdes [ikke] => vert [ikkje] haldt på
@@ -796,6 +893,7 @@
             </chunk>
           </out>
         </when></choose>
+        <call-macro n="set_cur_modal"><with-param pos="1"/></call-macro>
       </action>
     </rule>
 
@@ -827,6 +925,7 @@
             </lu>
           </chunk>
         </out>
+        <call-macro n="set_cur_modal"><with-param pos="1"/></call-macro>
       </action>
     </rule>
 
@@ -866,6 +965,7 @@
             </chunk>
           </out>
         </when></choose>
+        <call-macro n="set_cur_modal"><with-param pos="1"/></call-macro>
       </action>
     </rule>
 
@@ -1737,6 +1837,22 @@ Requires rather ugly RL prn lemmas in nn.dix, see personal_pronouns__prn pardef"
             <lu><clip pos="1" side="tl" part="whole"/></lu>
           </chunk>
         </out>
+      </action>
+    </rule>
+
+    <rule comment="SENT
+                   Reset cur_modal">
+      <pattern>
+        <pattern-item n="sent"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="sent">
+            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
+            <lu><clip pos="1" side="tl" part="whole"/></lu>
+          </chunk>
+        </out>
+        <call-macro n="set_cur_modal"><with-param pos="1"/></call-macro>
       </action>
     </rule>
 
