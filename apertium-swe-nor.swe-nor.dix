@@ -571,8 +571,8 @@
 <e vr="nno"><p><l>efter<s n="pr"/></l>	<r>bortatil<s n="pr"/></r></p></e>
 <e vr="nob"><p><l>efter<s n="pr"/></l>	<r>bortenfor<s n="pr"/></r></p></e>
 <e>         <p><l>efter<s n="pr"/></l>	<r>bortetter<s n="pr"/></r></p></e>
-<e>         <p><l>efter<s n="pr"/></l>	<r>efter<s n="pr"/></r></p></e>
-<e vr="nob"><p><l>efter<s n="pr"/></l>	<r>efterpå<s n="pr"/></r></p></e>
+<e r="RL">  <p><l>efter<s n="pr"/></l>	<r>efter<s n="pr"/></r></p></e>
+<e r="RL">  <p><l>efter<s n="pr"/></l>	<r>efterpå<s n="pr"/></r></p></e>
 <e>         <p><l>efter<s n="pr"/></l>	<r>etter<s n="pr"/></r></p></e>
 <e>         <p><l>efter<s n="pr"/></l>	<r>etterpå<s n="pr"/></r></p></e>
 <e>         <p><l>emellan<s n="pr"/></l>	<r>imellom<s n="pr"/></r></p></e>
@@ -6493,7 +6493,7 @@
 <e>         <p><l>kongregation<s n="n"/><s n="ut"/></l>	<r>kongregasjon<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>kongress<s n="n"/><s n="ut"/></l>	<r>kongress<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>kongruens<s n="n"/><s n="ut"/></l>	<r>kongruens<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>konjak<s n="n"/><s n="ut"/></l>	<r>cognac<s n="n"/><s n="m"/></r></p></e>
+<e r="RL">  <p><l>konjak<s n="n"/><s n="ut"/></l>	<r>cognac<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>konjak<s n="n"/><s n="ut"/></l>	<r>konjakk<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>konjunktur<s n="n"/><s n="ut"/></l>	<r>konjunktur<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>konklusion<s n="n"/><s n="ut"/></l>	<r>konklusjon<s n="n"/><s n="m"/></r></p></e>
@@ -8334,7 +8334,6 @@
 <e vr="nob"><p><l>mördare<s n="n"/><s n="ut"/></l>	<r>morder<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>mörja<s n="n"/><s n="ut"/></l>	<r>gørr<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>mörker<s n="n"/><s n="nt"/></l>	<r>mørke<s n="n"/><s n="nt"/></r></p></e>
-<e vr="nno"><p><l>mörker<s n="n"/><s n="nt"/></l>	<r>mørker<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>mörker<s n="n"/><s n="nt"/></l>	<r>mørker<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>mörkertal<s n="n"/><s n="nt"/></l>	<r>mørketal<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>mörkman<s n="n"/><s n="ut"/></l>	<r>mørkemann<s n="n"/><s n="m"/></r></p></e>
@@ -13411,7 +13410,8 @@
 <e vr="nob"><p><l>antaglig</l>                <r>antakelig</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>antarktisk</l>              <r>antarktisk</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>arbetsam</l>                <r>anstrengende</r></p><par n="adj_sint:adj"/></e>
-<e>         <p><l>arbetsam</l>                <r>arbeidsom</r></p><par n="adj_sint:adj"/></e>
+<e vr="nno"><p><l>arbetsam</l>                <r>arbeidsam</r></p><par n="adj_sint:adj"/></e>
+<e vr="nob"><p><l>arbetsam</l>                <r>arbeidsom</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>arbetsam</l>                <r>flittig</r></p><par n="adj_sint"/></e>
 <e vr="nno"><p><l>arbetslös</l>               <r>arbeidslaus</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>arbetslös</l>               <r>arbeidsledig</r></p><par n="adj_sint:adj"/></e>
@@ -15015,8 +15015,8 @@
 <e vr="nob"><p><l>svag</l>                    <r>vek</r></p><par n="adj_sint"/></e>
 <e>         <p><l>sval</l>                    <r>kjølig</r></p><par n="adj_sint"/></e>
 <e>         <p><l>sval</l>                    <r>sval</r></p><par n="adj_sint"/></e>
-<e>         <p><l>svart</l>                   <r>sort</r></p><par n="adj_sint"/></e>
-<e>         <p><l>svart</l>                   <r>svart</r></p><par n="adj_sint"/></e>
+<e vr="nno"><p><l>svart</l>                   <r>svart</r></p><par n="adj_sint"/></e>
+<e vr="nob"><p><l>svart</l>                   <r>sort</r></p><par n="adj_sint"/></e>
 <e>         <p><l>svensk</l>                  <r>svensk</r></p><par n="adj_sint"/></e>
 <e vr="nno"><p><l>svår</l>                    <r>vanskeleg</r></p><par n="adj_sint"/></e>
 <e vr="nob"><p><l>svår</l>                    <r>vanskelig</r></p><par n="adj_sint"/></e>
@@ -15245,7 +15245,8 @@
 <e>         <p><l>varig</l>                   <r>varig</r></p><par n="adj_sint"/></e>
 <e>         <p><l>varm</l>                    <r>varm</r></p><par n="adj_sint"/></e>
 <e>         <p><l>varsam</l>                  <r>forsiktig</r></p><par n="adj_sint"/></e>
-<e>         <p><l>varsam</l>                  <r>varsom</r></p><par n="adj_sint:adj"/></e>
+<e vr="nno"><p><l>varsam</l>                  <r>varsam</r></p><par n="adj_sint:adj"/></e>
+<e vr="nob"><p><l>varsam</l>                  <r>varsom</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>vattentät</l>               <r>vanntett</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>vattentät</l>               <r>vasstett</r></p><par n="adj_sint:adj"/></e>
 <e vr="nob"><p><l>vattnig</l>                 <r>vandig</r></p><par n="adj_sint"/></e>
@@ -16399,8 +16400,8 @@
 <e vr="nob"><p><l>urbota<s n="adv"/></l>	<r>hakkende<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>urbota<s n="adv"/></l>	<r>hoggande<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>urbota<s n="adv"/></l>	<r>hoggende<s n="adv"/></r></p></e>
-<e>         <p><l>urbota<s n="adv"/></l>	<r>jamt<b/>over<s n="adv"/></r></p></e>
-<e>         <p><l>urbota<s n="adv"/></l>	<r>jevnt<b/>over<s n="adv"/></r></p></e>
+<e vr="nno"><p><l>urbota<s n="adv"/></l>	<r>jamt<b/>over<s n="adv"/></r></p></e>
+<e vr="nob"><p><l>urbota<s n="adv"/></l>	<r>jevnt<b/>over<s n="adv"/></r></p></e>
 <e>         <p><l>urbota<s n="adv"/></l>	<r>kav<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>urbota<s n="adv"/></l>	<r>kavande<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>urbota<s n="adv"/></l>	<r>kavende<s n="adv"/></r></p></e>
@@ -16486,7 +16487,7 @@
 <e vr="nno"><p><l>än<s n="adv"/></l>	<r>endå<s n="adv"/></r></p></e>
 <e>         <p><l>än<s n="adv"/></l>	<r>enn<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>än<s n="adv"/></l>	<r>enno<s n="adv"/></r></p></e>
-<e>         <p><l>än<s n="adv"/></l>	<r>ennu<s n="adv"/></r></p></e>
+<e r="RL">  <p><l>än<s n="adv"/></l>	<r>ennu<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>än<s n="adv"/></l>	<r>ennå<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>ändock<s n="adv"/></l>	<r>dog<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>ändock<s n="adv"/></l>	<r>endå<s n="adv"/></r></p></e>
@@ -22062,7 +22063,8 @@
 <e>         <p><l>skämma</l>	<r>skjemme</r></p><par n="vblex"/></e>
 <e>         <p><l>skämma<b/>bort</l>	<r>forvenne</r></p><par n="vblex"/></e>
 <e>         <p><l>skämmas</l>	<r>krympe</r></p><par n="vblex_pasv:vblex_no-adj"/></e>
-<e>         <p><l>skämmas</l>	<r>kvie<g><b/>seg</g></r></p><par n="vblex_pasv:vblex_no-adj"/></e>
+<e vr="nno"><p><l>skämmas</l>	<r>kvi<g><b/>seg</g></r></p><par n="vblex_pasv:vblex_no-adj"/></e>
+<e vr="nob"><p><l>skämmas</l>	<r>kvie<g><b/>seg</g></r></p><par n="vblex_pasv:vblex_no-adj"/></e>
 <e>         <p><l>skämta</l>	<r>fleipe</r></p><par n="vblex"/></e>
 <e>         <p><l>skämta</l>	<r>gante</r></p><par n="vblex"/></e>
 <e>         <p><l>skämta</l>	<r>skjemte</r></p><par n="vblex"/></e>
@@ -22231,8 +22233,8 @@
 <e>         <p><l>slå<g><b/>till</g></l>	<r>smeise</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e>         <p><l>slå<g><b/>vad</g></l>	<r>satse</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e>         <p><l>slå<g><b/>vad</g></l>	<r>vedde</r></p><par n="vblex_no-adjpp-pasv"/></e>
-<e vr="nob"><p><l>slåss</l>	<r>slåss</r></p><par n="vblex_pasv:vblex_no-adj"/></e>
-<e vr="nno"><p><l>slåss</l>	<r>slåst</r></p><par n="vblex_pasv:vblex_no-adj"/></e>
+<e vr="nob"><p><l>slåss</l>	<r>slåss</r></p><par n="vblex_pasv:pstv"/></e>
+<e vr="nno"><p><l>slåss</l>	<r>slåst</r></p><par n="vblex_pasv:pstv"/></e>
 <e>         <p><l>slöa</l>	<r>sløve</r></p><par n="vblex"/></e>
 <e>         <p><l>slöjda</l>	<r>snitte</r></p><par n="vblex"/></e>
 <e>         <p><l>slöra</l>	<r>dimme</r></p><par n="vblex"/></e>
