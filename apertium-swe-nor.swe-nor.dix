@@ -16714,9 +16714,13 @@
 <e vr="nno"><p><l>anrika</l>	<r>opprike</r></p><par n="vblex"/></e>
 <e>         <p><l>anropa</l>	<r>anrope</r></p><par n="vblex"/></e>
 <e r="LR">  <p><l>anropa</l>	<r>ringe</r></p><par n="vblex"/></e>
-<e vr="nob"><p><l>anrätta</l>	<r>anrette</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>anrätta</l>	<r>gjere</r></p><par n="vblex"/></e>
-<e>         <p><l>anse</l>	<r>anse</r></p><par n="vblex"/></e>
+<e vr="nob"><p><l>anrätta</l>	<r>anrette</r></p><par n="vblex"/></e>
+<e vr="nno"><p><l>anse</l>	<r>sjå<g><b/>på</g></r></p><par n="vblex"/></e>
+<e vr="nno"><p><l>anse</l>	<r>rekne<g><b/>for</g></r></p><par n="vblex"/></e>
+<e vr="nob"><p><l>anse</l>	<r>anse</r></p><par n="vblex"/></e>
+<e vr="nno"><p><l>anse<g><b/>vara</g></l>	<r>rekne<g><b/>som</g></r></p><par n="vblex"/></e>
+<e vr="nob"><p><l>anse<g><b/>vara</g></l>	<r>anse<g>for<b/>å<b/>være</g></r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>anskaffa</l>	<r>anskaffe</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>anskaffa</l>	<r>skaffe</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>ansluta</l>	<r>delta</r></p><par n="vblex"/></e>
