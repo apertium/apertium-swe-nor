@@ -15544,6 +15544,8 @@
 <e>         <p><l>dels<s n="adv"/></l>	<r>dels<s n="adv"/></r></p></e>
 <e>         <p><l>delvis<s n="adv"/></l>	<r>delvis<s n="adv"/></r></p></e>
 <e>         <p><l>dess<s n="adv"/></l>	<r>jo<s n="adv"/></r></p></e>
+<e vr="nno"><p><l>dess<s n="adv"/></l>	<r>då<s n="adv"/></r></p></e>
+<e vr="nob"><p><l>dess<s n="adv"/></l>	<r>da<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>desslikes<s n="adv"/></l>	<r>likeeins<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>desslikes<s n="adv"/></l>	<r>likeledes<s n="adv"/></r></p></e>
 <e>         <p><l>dessutom<s n="adv"/></l>	<r>attpåtil<s n="adv"/></r></p></e>
@@ -16587,6 +16589,7 @@
 <e>         <p><l>bli</l><r>bli</r></p><par n="vblex_no-pasv"/></e>
 <e r="RL">  <p><l>bli</l><r>blive</r></p><par n="vblex_no-pasv"/></e>
 
+<e>         <p><l>återfå</l>                      <r>få<g><b/>tilbake</g></r></p><par n="vblex_no-adjpp"/></e>
 <e>         <p><l>abdikera</l>	<r>abdisere</r></p><par n="vblex"/></e>
 <e>         <p><l>abonnera</l>	<r>abonnere</r></p><par n="vblex"/></e>
 <e>         <p><l>abortera</l>	<r>abortere</r></p><par n="vblex"/></e>

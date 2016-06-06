@@ -55,6 +55,11 @@
 
   <rule weight="2.0"> <match lemma="tillstånd" tags="n.*"><select lemma="løyve" tags="n.*"/></match> </rule>
 
+  <rule weight="2.0">
+    <match lemma="sedan"/>
+    <match lemma="dess" tags="adv.*"><select lemma="då" tags="adv.*"/></match>
+  </rule>
+
   <!-- Frequency-based rules: -->
 
 <rule weight="0.9"><match lemma="adelskap" tags="n.nt.*"><select lemma="adelskap" tags="n.m.*"/></match></rule><!-- 9 -->

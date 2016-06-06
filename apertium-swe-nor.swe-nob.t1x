@@ -39,6 +39,9 @@
     <def-cat n="prn">
       <cat-item tags="prn.*"/>
     </def-cat>
+    <def-cat n="sent">
+      <cat-item tags="sent.*"/>
+    </def-cat>
     <def-cat n="detpos">
       <cat-item tags="det.pos.*"/>
     </def-cat>
@@ -111,7 +114,10 @@
     <def-cat n="vblexinfpass">
       <cat-item tags="vblex.inf.pasv"/>
     </def-cat>
-    <def-cat n="vblexpasspret">
+    <def-cat n="vblexsupnpasv">
+      <cat-item tags="vblex.supn.pasv"/>
+    </def-cat>
+    <def-cat n="vblexpastpasv">
       <cat-item tags="vblex.past.pasv"/>
       <cat-item tags="vblex.pstv.past.actv"/>
     </def-cat>
@@ -236,6 +242,7 @@
     <def-var n="aux"/>
     <def-var n="blank"/>
     <def-var n="defnes"/>
+    <def-var n="cur_modal" c="ha/bli/…"/>
     <def-var n="grau_aux"       c="lexical unit containing meir/mest if translating from sint to non-sint"/>
   </section-def-vars>
 
@@ -245,6 +252,20 @@
               c="Verbs which require være instead of bli.">
       <list-item v="vite"/>
       <list-item v="eie"/>
+    </def-list>
+
+    <def-list n="swe_modals">
+      <list-item v="ha"/>
+      <list-item v="bli"/>
+      <list-item v="vara¹"/>
+      <list-item v="skola¹"/>
+      <list-item v="vilja"/>
+      <list-item v="böra"/>
+      <list-item v="må²"/>
+      <list-item v="må¹"/>
+      <list-item v="måste"/>
+      <list-item v="få"/>
+      <list-item v="kunna"/>
     </def-list>
 
     <def-list n="det_indef">
@@ -523,10 +544,21 @@
         </otherwise>
       </choose>
       <append n="aux">
-        <clip pos="1" side="tl" part="a_verb"/>
+        <lit-tag v="vblex"/>
         <clip pos="1" side="tl" part="temps"/>
         <lit v="$"/>
       </append>
+    </def-macro>
+
+    <def-macro n="set_cur_modal" npar="1"
+               c="arg.1: verb">
+      <let><var n="cur_modal"/><lit v=""/></let>
+      <choose>
+        <when>
+          <test><in><clip pos="1" side="sl" part="lemh"/><list n="swe_modals"/></in></test>
+          <let><var n="cur_modal"/><clip pos="1" side="sl" part="lemh"/></let>
+        </when>
+      </choose>
     </def-macro>
 
   </section-def-macros>
@@ -542,15 +574,13 @@
                    If we don't see an infinitive marker in t2x, the aux gets
                    deleted again.">
       <pattern>
-        <pattern-item n="vblexpasspret"/>
+        <pattern-item n="vblexpastpasv"/>
       </pattern>
       <action>
         <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
         <choose>
           <when>
-            <test><equal>
-              <clip pos="1" side="tl" part="a_verb"/><lit-tag v="vblex.pstv"/>
-            </equal></test>
+            <test><equal><clip pos="1" side="tl" part="a_verb"/><lit-tag v="vblex.pstv"/></equal></test>
             <out>
               <chunk name="vblex" case="caseFirstWord">
                 <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
@@ -592,6 +622,72 @@
             </chunk>
           </out>
         </when></choose>
+        <call-macro n="set_cur_modal"><with-param pos="1"/></call-macro>
+      </action>
+    </rule>
+
+    <rule comment="VBLEX.SUPN.PASV: som inte funnits → som ikke har funnes
+                                    har uppförts → som har blitt oppført
+                                    har funnits → har funnes
+                                    som inte uppförts → som ikke har blitt oppført">
+      <pattern>
+        <pattern-item n="vblexsupnpasv"/>
+      </pattern>
+      <action>
+        <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <choose>
+          <when>
+            <test><not><equal><var n="cur_modal"/><lit v="ha"/></equal></not></test>
+            <out>
+              <chunk name="aux" case="caseFirstWord">
+                <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
+                <lu>
+                  <lit v="ha"/>
+                  <lit-tag v="vblex"/>
+                  <lit-tag v="pres"/> <!-- TODO: anaphoric variable -->
+                </lu>
+              </chunk>
+              <b/>
+            </out>
+            <let><var n="cur_modal"/><lit v="ha"/></let>
+          </when>
+        </choose>
+        <choose>
+          <when>
+            <test><and>
+              <equal><var n="cur_modal"/><lit v="ha"/></equal>
+              <not><equal><clip pos="1" side="tl" part="a_verb"/><lit-tag v="vblex.pstv"/></equal></not>
+            </and></test>
+            <call-macro n="set_aux"><with-param pos="1"/></call-macro>
+            <out>
+              <chunk name="aux" case="caseFirstWord">
+                <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
+                <var n="aux"/>
+              </chunk>
+              <b/>
+            </out>
+          </when>
+        </choose>
+        <out>
+          <chunk name="vblex" case="caseFirstWord">
+            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
+            <lu>
+              <clip pos="1" side="tl" part="lemh"/>
+              <clip pos="1" side="tl" part="a_verb"/>
+              <clip pos="1" side="tl" part="temps"/>
+            </lu>
+          </chunk>
+        </out>
+        <choose><when>
+          <test><not><equal><clip pos="1" side="tl" part="lemq"/><lit v=""/></equal></not></test>
+          <out>
+            <chunk name="lemq">
+              <tags><tag><lit-tag v="vblex.lemq"/></tag></tags>
+              <lu><clip pos="1" side="tl" part="lemq"/></lu>
+            </chunk>
+          </out>
+        </when></choose>
+        <call-macro n="set_cur_modal"><with-param pos="1"/></call-macro>
       </action>
     </rule>
 
@@ -619,6 +715,7 @@
             </lu>
           </chunk>
         </out>
+        <call-macro n="set_cur_modal"><with-param pos="1"/></call-macro>
       </action>
     </rule>
 
@@ -1230,6 +1327,22 @@
             <lu><clip pos="1" side="tl" part="whole"/></lu>
           </chunk>
         </out>
+      </action>
+    </rule>
+
+    <rule comment="SENT
+                   Reset cur_modal">
+      <pattern>
+        <pattern-item n="sent"/>
+      </pattern>
+      <action>
+        <out>
+          <chunk name="sent">
+            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
+            <lu><clip pos="1" side="tl" part="whole"/></lu>
+          </chunk>
+        </out>
+        <call-macro n="set_cur_modal"><with-param pos="1"/></call-macro>
       </action>
     </rule>
 
