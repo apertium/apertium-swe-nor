@@ -1,7 +1,7 @@
-Revision: 69277
-AP_SRC1 Revision: 69277
-AP_SRC2b Revision: 69277
-AP_SRC2n Revision: 69277
+Revision: 69407
+AP_SRC1 Revision: 69407
+AP_SRC2b Revision: 69407
+AP_SRC2n Revision: 69407
 Running Pending-tests with mode "swe-nno" with updated tests ...
 
 swe-nno	  honom.
@@ -9,10 +9,10 @@ WORKS	  han.
 
 
 1 / 1, 100%
-Revision: 69277
-AP_SRC1 Revision: 69277
-AP_SRC2b Revision: 69277
-AP_SRC2n Revision: 69277
+Revision: 69407
+AP_SRC1 Revision: 69407
+AP_SRC2b Revision: 69407
+AP_SRC2n Revision: 69407
 Running Pending-tests with mode "nno-swe" with updated tests ...
 
 nno-swe	  ikkje.
@@ -20,10 +20,10 @@ WORKS	  inte.
 
 
 1 / 1, 100%
-Revision: 69277
-AP_SRC1 Revision: 69277
-AP_SRC2b Revision: 69277
-AP_SRC2n Revision: 69277
+Revision: 69407
+AP_SRC1 Revision: 69407
+AP_SRC2b Revision: 69407
+AP_SRC2n Revision: 69407
 Running Pending-tests with mode "swe-nob" with updated tests ...
 
 swe-nob	  honom.
@@ -32,10 +32,10 @@ swe-nob	  honom.
 
 
 0 / 1, 0%
-Revision: 69277
-AP_SRC1 Revision: 69277
-AP_SRC2b Revision: 69277
-AP_SRC2n Revision: 69277
+Revision: 69407
+AP_SRC1 Revision: 69407
+AP_SRC2b Revision: 69407
+AP_SRC2n Revision: 69407
 Running Pending-tests with mode "nob-swe" with updated tests ...
 
 nob-swe	  ikke.

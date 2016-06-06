@@ -1,7 +1,7 @@
-Revision: 69277
-AP_SRC1 Revision: 69277
-AP_SRC2b Revision: 69277
-AP_SRC2n Revision: 69277
+Revision: 69407
+AP_SRC1 Revision: 69407
+AP_SRC2b Revision: 69407
+AP_SRC2n Revision: 69407
 Running Regression-tests with mode "swe-nno" with updated tests ...
 
 swe-nno	  honom.
@@ -16,11 +16,27 @@ swe-nno	  sökande vars förmåga att utnyttja.
 WORKS	  søkjande der evna til å utnytta.
 
 
-3 / 3, 100%
-Revision: 69277
-AP_SRC1 Revision: 69277
-AP_SRC2b Revision: 69277
-AP_SRC2n Revision: 69277
+swe-nno	  som inte uppförts.
+WORKS	  som ikkje har vorte oppført.
+
+
+swe-nno	  har uppförts.
+WORKS	  har vorte oppført.
+
+
+swe-nno	  har funnits.
+WORKS	  har funnest.
+
+
+swe-nno	  som funnits.
+WORKS	  som har funnest.
+
+
+7 / 7, 100%
+Revision: 69407
+AP_SRC1 Revision: 69407
+AP_SRC2b Revision: 69407
+AP_SRC2n Revision: 69407
 Running Regression-tests with mode "nno-swe" with updated tests ...
 
 nno-swe	  ikkje.
@@ -28,10 +44,10 @@ WORKS	  inte.
 
 
 1 / 1, 100%
-Revision: 69277
-AP_SRC1 Revision: 69277
-AP_SRC2b Revision: 69277
-AP_SRC2n Revision: 69277
+Revision: 69407
+AP_SRC1 Revision: 69407
+AP_SRC2b Revision: 69407
+AP_SRC2n Revision: 69407
 Running Regression-tests with mode "swe-nob" with updated tests ...
 
 swe-nob	  honom.
@@ -43,14 +59,30 @@ WORKS	  de parter som har søknader som.
 
 
 swe-nob	  sökande vars förmåga att utnyttja.
-WORKS	  søkende der evnen å utnytte.
+WORKS	  søkende der evnen til å utnytte.
 
 
-3 / 3, 100%
-Revision: 69277
-AP_SRC1 Revision: 69277
-AP_SRC2b Revision: 69277
-AP_SRC2n Revision: 69277
+swe-nob	  som inte uppförts.
+WORKS	  som ikke har blitt oppført.
+
+
+swe-nob	  har uppförts.
+WORKS	  har blitt oppført.
+
+
+swe-nob	  har funnits.
+WORKS	  har funnes.
+
+
+swe-nob	  som funnits.
+WORKS	  som har funnes.
+
+
+7 / 7, 100%
+Revision: 69407
+AP_SRC1 Revision: 69407
+AP_SRC2b Revision: 69407
+AP_SRC2n Revision: 69407
 Running Regression-tests with mode "nob-swe" with updated tests ...
 
 nob-swe	  ikke.
