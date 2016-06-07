@@ -552,7 +552,7 @@
 
                   Assumes c_name has been set!">
       <choose>
-        <when>
+        <when c="mest moderne→modernaste (removing mest/meir)">
           <test><and>
             <equal><clip pos="1" side="tl" part="lemh"/><lit v="mycken"/></equal>
             <or>
@@ -569,6 +569,12 @@
           <let><clip pos="2" side="tl" part="art"/><var n="defnes"/></let>
           <choose>
             <when>
+              <test><equal><clip pos="2" side="tl" part="art"/><lit-tag v="ind"/></equal></test>
+              <let><clip pos="2" side="tl" part="art"/><lit-tag v="def"/></let>
+            </when>
+          </choose>
+          <choose>
+            <when>
               <test><equal><var n="gender"/><lit-tag v="m"/></equal></test>
               <let><clip pos="2" side="tl" part="gen"/><lit-tag v="m"/></let>
             </when>
@@ -581,8 +587,7 @@
           <let><var n="grau_aux"/><lit v=""/></let>
         </when>
 
-        <otherwise>
-          <!-- Or maybe we want to _add_ meir/mest: -->
+        <otherwise c="betydeligste → mest betydelige (adding mest/meir)">
           <call-macro n="set_grau_aux1"><with-param pos="1"/></call-macro>
           <!-- and fix tags on the second adj (but no new aux if only second adj is non-pst; TODO better) -->
           <choose><when>
