@@ -20,6 +20,15 @@
 
   <rule weight="1.0"> <match lemma="finna" tags="vblex.*.pasv"><select lemma="finnast" tags="vblex.*"/></match> </rule>
 
+<rule weight="1.0">
+   <match lemma="träffa" tags="vblex.*"><select lemma="treffe" tags="vblex.*"/></match>
+   <or><match tags="n.ut.*"/><match tags="det.*.ut.*"/><match tags="prn.*.ut.*"/><match tags="prn.pers.*"/></or></rule>
+
+<rule weight="1.0">
+   <match lemma="bruka" tags="vblex.*"><select lemma="pleie" tags="vblex.*"/></match>
+   <match tags="vblex.inf.*"/></rule>
+
+
   <!-- TODO: more of a CG thing? -->
   <rule weight="1.0"> <match lemma="att" tags="cnjsub"><select lemma="at" tags="cnjsub"/></match> </rule>
   <rule weight="2.0">
