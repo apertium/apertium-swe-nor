@@ -46,6 +46,8 @@
     <sdef n="ind"     c="Indefinite"/>
     <sdef n="def"     c="Definite"/>
 
+    <sdef n="cmp"     c="Compound part"/>
+
     <sdef n="nom"     c="Nominative"/>
     <sdef n="acc"     c="Accusative"/>        <!-- objective case -->
     <sdef n="gen"     c="Genitive"/>
@@ -136,8 +138,10 @@
 </pardef>
 
 <pardef n="pl:sg" c="mjukvaror = programvare">
-<e>         <p><l><s n="pl"/></l><r><s n="sg"/></r></p></e>
-<e>         <p><l></l><r></r></p></e>
+<e>         <p><l><s n="sg"/><s n="ind"/><s n="cmp"/></l> <r><s n="sg"/><s n="ind"/><s n="cmp"/></r></p></e>
+<e>         <p><l><s n="pl"/><s n="ind"/></l>             <r><s n="sg"/><s n="ind"/></r></p></e>
+<e>         <p><l><s n="pl"/></l>                         <r><s n="sg"/></r></p></e>
+<e>         <p><l></l>                                    <r></r></p></e>
 </pardef>
 
 
