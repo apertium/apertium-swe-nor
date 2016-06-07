@@ -119,7 +119,7 @@
     <sdef n="AD"     c="Auxiliary to be done"/>
     <sdef n="GD"     c="Género por determinar" />
     <sdef n="ND"     c="Número por determinar" />
-    <sdef n="VD"     c="Voice por determinar" />
+    <sdef n="VD"     c="Voice por determinar – only used where both pasv and actv can be generated" />
   </sdefs>
 
   <pardefs>
