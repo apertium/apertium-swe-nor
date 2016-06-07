@@ -162,6 +162,10 @@
       <cat-item tags="vbhaver.inf.actv"/>
       <cat-item lemma="ha" tags="vblex.inf.actv"/>
     </def-cat>
+    <def-cat n="vblex_bli">
+      <cat-item lemma="bli" tags="vblex.*"/>
+      <cat-item lemma="verte" tags="vblex.*"/>
+    </def-cat>
     <def-cat n="sin">
       <cat-item lemma="seg" tags="det.pos.*"/>
     </def-cat>
@@ -184,6 +188,9 @@
     </def-cat>
     <def-cat n="vblexinf">
       <cat-item tags="vblex.inf"/>
+    </def-cat>
+    <def-cat n="vblexpp">
+      <cat-item tags="vblex.pp"/>
     </def-cat>
     <def-cat n="vblexinf_or_infpass">
       <cat-item tags="vblex.inf"/>
@@ -237,6 +244,7 @@
     <def-attr n="voice">
       <attr-item tags="pasv"/>
       <attr-item tags="actv"/>
+      <attr-item tags="VD"/>
     </def-attr>
     <def-attr n="a_det">
       <attr-item tags="det"/>
@@ -612,6 +620,14 @@
       </choose>
     </def-macro>
 
+    <def-macro n="set_voice" npar="1"
+               c="arg.1: main/content verb">
+      <choose><when>
+        <test><equal><clip pos="1" side="tl" part="voice"/><lit-tag v="VD"/></equal></test>
+        <let><clip pos="1" side="tl" part="voice"/><lit-tag v="actv"/></let>
+      </when></choose>
+    </def-macro>
+
     <!-- Output macros: -->
     <def-macro n="out_ndef" npar="2">
       <!-- arg.1: possessed noun. arg.2 gives typographic case
@@ -706,6 +722,32 @@
         </when></choose>
       </when></choose>
     </def-macro>
+
+    <def-macro n="out_verb" npar="1"
+               c="arg.1: verb">
+      <call-macro n="set_voice"><with-param pos="1"/></call-macro>
+
+      <let><var n="c_name"/><lit v="verb"/></let>
+      <choose><when>
+        <test><or>
+          <equal><clip pos="1" side="tl" part="lemh"/><lit v="bli"/></equal>
+          <equal><clip pos="1" side="tl" part="lemh"/><lit v="vere"/></equal>
+        </or></test>
+        <let><var n="c_name"/><lit v="aux"/></let>
+      </when></choose>
+      <out>
+        <chunk namefrom="c_name" case="caseFirstWord">
+          <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
+          <lu>
+            <clip pos="1" side="tl" part="lemh"/>
+            <clip pos="1" side="tl" part="a_verb"/>
+            <clip pos="1" side="tl" part="temps"/>
+            <clip pos="1" side="tl" part="voice"/>
+            <clip pos="1" side="tl" part="lemq"/>
+          </lu>
+        </chunk>
+      </out>
+    </def-macro>
   </section-def-macros>
 
 
@@ -719,26 +761,30 @@
       </pattern>
       <action>
         <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
-        <let><var n="c_name"/><lit v="verb"/></let>
-        <choose><when>
-          <test><or>
-            <equal><clip pos="1" side="tl" part="lemh"/><lit v="bli"/></equal>
-            <equal><clip pos="1" side="tl" part="lemh"/><lit v="vere"/></equal>
-          </or></test>
-          <let><var n="c_name"/><lit v="aux"/></let>
-        </when></choose>
-        <out>
-          <chunk namefrom="c_name" case="caseFirstWord">
-            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
-            <lu>
-              <clip pos="1" side="tl" part="lemh"/>
-              <clip pos="1" side="tl" part="a_verb"/>
-              <clip pos="1" side="tl" part="temps"/>
-              <clip pos="1" side="tl" part="voice"/>
-              <clip pos="1" side="tl" part="lemq"/>
-            </lu>
-          </chunk>
-        </out>
+        <call-macro n="out_verb"><with-param pos="1"/></call-macro>
+      </action>
+    </rule>
+
+    <rule comment="BLITT VBLEXPP">
+      <pattern>
+        <pattern-item n="vblex_bli"/>
+        <pattern-item n="vblexpp"/>
+      </pattern>
+      <action>
+        <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <choose>
+          <when>
+            <test><equal><clip pos="2" side="tl" part="voice"/><lit-tag v="VD"/></equal></test>
+            <let><clip pos="2" side="tl" part="voice"/><lit-tag v="pasv"/></let>
+            <call-macro n="out_verb"><with-param pos="2"/></call-macro>
+          </when>
+          <otherwise>
+            <call-macro n="out_verb"><with-param pos="1"/></call-macro>
+            <out><b pos="1"/></out>
+            <call-macro n="set_caseFirstWord"><with-param pos="2"/></call-macro>
+            <call-macro n="out_verb"><with-param pos="2"/></call-macro>
+          </otherwise>
+        </choose>
       </action>
     </rule>
 

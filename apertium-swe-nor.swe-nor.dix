@@ -119,6 +119,7 @@
     <sdef n="AD"     c="Auxiliary to be done"/>
     <sdef n="GD"     c="Género por determinar" />
     <sdef n="ND"     c="Número por determinar" />
+    <sdef n="VD"     c="Voice por determinar" />
   </sdefs>
 
   <pardefs>
@@ -276,7 +277,8 @@
 <e r="LR"><p><l><s n="vblex"/><s n="prs"/><s n="actv"/></l>    <r><s n="vblex"/><s n="pres"/></r></p></e>
 <e>       <p><l><s n="vblex"/><s n="inf"/><s n="actv"/></l>    <r><s n="vblex"/><s n="inf"/></r></p></e>
 <e>       <p><l><s n="vblex"/><s n="imp"/></l>                 <r><s n="vblex"/><s n="imp"/></r></p></e>
-<e>       <p><l><s n="vblex"/><s n="supn"/><s n="actv"/></l>   <r><s n="vblex"/><s n="pp"/></r></p></e>
+<e r="LR"><p><l><s n="vblex"/><s n="supn"/><s n="actv"/></l>   <r><s n="vblex"/><s n="pp"/></r></p></e>
+<e r="RL"><p><l><s n="vblex"/><s n="supn"/><s n="VD"/></l>     <r><s n="vblex"/><s n="pp"/></r></p></e>
 <e r="LR"><p><l><s n="vblex"/><s n="supn"/><s n="pasv"/></l>   <r><s n="vblex"/><s n="pp"/></r></p></e>
 <e>       <p><l><s n="adj"/><s n="pprs"/></l>                                 <r><s n="adj"/><s n="pprs"/></r></p><par n="cas:"/></e>
 <e>       <p><l><s n="adj"/><s n="pp"/><s n="pl"/><s n="ind"/></l>            <r><s n="adj"/><s n="pp"/><s n="pl"/></r></p><par n="cas:"/></e>
@@ -294,7 +296,8 @@
 <e r="LR"><p><l><s n="vblex"/><s n="prs"/><s n="actv"/></l>    <r><s n="vblex"/><s n="pres"/></r></p></e>
 <e>       <p><l><s n="vblex"/><s n="inf"/><s n="actv"/></l>    <r><s n="vblex"/><s n="inf"/></r></p></e>
 <e>       <p><l><s n="vblex"/><s n="imp"/></l>                 <r><s n="vblex"/><s n="imp"/></r></p></e>
-<e>       <p><l><s n="vblex"/><s n="supn"/><s n="actv"/></l>   <r><s n="vblex"/><s n="pp"/></r></p></e>
+<e r="LR"><p><l><s n="vblex"/><s n="supn"/><s n="actv"/></l>   <r><s n="vblex"/><s n="pp"/></r></p></e>
+<e r="RL"><p><l><s n="vblex"/><s n="supn"/><s n="VD"/></l>     <r><s n="vblex"/><s n="pp"/></r></p></e>
 <e r="LR"><p><l><s n="vblex"/><s n="supn"/><s n="pasv"/></l>   <r><s n="vblex"/><s n="pp"/></r></p></e>
 <e>       <p><l><s n="adj"/><s n="pprs"/></l>                                 <r><s n="adj"/><s n="pprs"/></r></p><par n="cas:"/></e>
     </pardef>
@@ -307,7 +310,8 @@
 <e r="LR"><p><l><s n="vblex"/><s n="prs"/><s n="actv"/></l>    <r><s n="vblex"/><s n="pres"/></r></p></e>
 <e>       <p><l><s n="vblex"/><s n="inf"/><s n="actv"/></l>    <r><s n="vblex"/><s n="inf"/></r></p></e>
 <e>       <p><l><s n="vblex"/><s n="imp"/></l>                 <r><s n="vblex"/><s n="imp"/></r></p></e>
-<e>       <p><l><s n="vblex"/><s n="supn"/><s n="actv"/></l>   <r><s n="vblex"/><s n="pp"/></r></p></e>
+<e r="LR"><p><l><s n="vblex"/><s n="supn"/><s n="actv"/></l>   <r><s n="vblex"/><s n="pp"/></r></p></e>
+<e r="RL"><p><l><s n="vblex"/><s n="supn"/><s n="VD"/></l>     <r><s n="vblex"/><s n="pp"/></r></p></e>
 <e r="LR"><p><l><s n="vblex"/><s n="supn"/><s n="pasv"/></l>   <r><s n="vblex"/><s n="pp"/></r></p></e>
 <e>       <p><l><s n="adj"/><s n="pprs"/></l>                                 <r><s n="adj"/><s n="pprs"/></r></p><par n="cas:"/></e>
     </pardef>
@@ -354,7 +358,8 @@
 <e r="LR"><p><l><s n="vblex"/><s n="prs"/><s n="actv"/></l>    <r><s n="vblex"/><s n="pres"/></r></p></e>
 <e>       <p><l><s n="vblex"/><s n="inf"/><s n="actv"/></l>    <r><s n="vblex"/><s n="inf"/></r></p></e>
 <e>       <p><l><s n="vblex"/><s n="imp"/></l>                 <r><s n="vblex"/><s n="imp"/></r></p></e>
-<e>       <p><l><s n="vblex"/><s n="supn"/><s n="actv"/></l>   <r><s n="vblex"/><s n="pp"/></r></p></e>
+<e r="LR"><p><l><s n="vblex"/><s n="supn"/><s n="actv"/></l>   <r><s n="vblex"/><s n="pp"/></r></p></e>
+<e r="RL"><p><l><s n="vblex"/><s n="supn"/><s n="VD"/></l>     <r><s n="vblex"/><s n="pp"/></r></p></e>
 <e r="LR"><p><l><s n="vblex"/><s n="supn"/><s n="pasv"/></l>   <r><s n="vblex"/><s n="pp"/></r></p></e>
 <e>       <p><l><s n="adj"/><s n="pprs"/></l>                                 <r><s n="adj"/><s n="pprs"/></r></p><par n="cas:"/></e>
 <e>       <p><l><s n="adj"/><s n="pp"/><s n="pl"/><s n="ind"/></l>            <r><s n="adj"/><s n="pp"/><s n="pl"/></r></p><par n="cas:"/></e>
@@ -371,6 +376,9 @@
 <e>       <p><l><s n="vblex"/><s n="inf"/><s n="actv"/></l>    <r><s n="vblex"/><s n="inf"/></r></p></e>
 <e>       <p><l><s n="vblex"/><s n="imp"/></l>                 <r><s n="vblex"/><s n="imp"/></r></p></e>
 <e>       <p><l><s n="vblex"/><s n="supn"/><s n="actv"/></l>   <r><s n="vblex"/><s n="pp"/></r></p></e>
+<e>       <p><l><s n="vblex"/><s n="supn"/><s n="actv"/></l>   <r><s n="vblex"/><s n="pp"/></r></p></e>
+<e r="LR"><p><l><s n="vblex"/><s n="supn"/><s n="actv"/></l>   <r><s n="vblex"/><s n="pp"/></r></p></e>
+<e r="RL"><p><l><s n="vblex"/><s n="supn"/><s n="VD"/></l>     <r><s n="vblex"/><s n="pp"/></r></p></e>
 <e r="LR"><p><l><s n="vblex"/><s n="supn"/><s n="pasv"/></l>   <r><s n="vblex"/><s n="pp"/></r></p></e>
 <e>       <p><l><s n="adj"/><s n="pprs"/></l>                                 <r><s n="adj"/><s n="pprs"/></r></p><par n="cas:"/></e>
 <e>       <p><l><s n="adj"/><s n="pp"/><s n="pl"/><s n="ind"/></l>            <r><s n="adj"/><s n="pp"/><s n="pl"/></r></p><par n="cas:"/></e>
@@ -402,8 +410,9 @@
 <e r="RL"><p><l><s n="vblex"/><s n="imp"/></l>                 <r><s n="vblex"/><s n="pstv"/><s n="imp"/></r></p></e>
 <e>       <p><l><s n="vblex"/><s n="inf"/><s n="actv"/></l>    <r><s n="vblex"/><s n="pstv"/><s n="inf"/></r></p></e>
 <e>       <p><l><s n="vblex"/><s n="inf"/><s n="pasv"/></l>    <r><s n="vblex"/><s n="pstv"/><s n="inf"/></r></p></e>
-<e>       <p><l><s n="vblex"/><s n="supn"/><s n="actv"/></l>   <r><s n="vblex"/><s n="pstv"/><s n="pp"/></r></p></e>
-<e>       <p><l><s n="vblex"/><s n="supn"/><s n="pasv"/></l>   <r><s n="vblex"/><s n="pstv"/><s n="pp"/></r></p></e>
+<e r="LR"><p><l><s n="vblex"/><s n="supn"/><s n="actv"/></l>   <r><s n="vblex"/><s n="pstv"/><s n="pp"/></r></p></e>
+<e r="RL"><p><l><s n="vblex"/><s n="supn"/><s n="VD"/></l>     <r><s n="vblex"/><s n="pstv"/><s n="pp"/></r></p></e>
+<e r="LR"><p><l><s n="vblex"/><s n="supn"/><s n="pasv"/></l>   <r><s n="vblex"/><s n="pstv"/><s n="pp"/></r></p></e>
 <e>       <p><l><s n="vblex"/><s n="pres"/><s n="actv"/></l>   <r><s n="vblex"/><s n="pstv"/><s n="pres"/></r></p></e>
 <e r="LR"><p><l><s n="vblex"/><s n="prs"/><s n="actv"/></l>    <r><s n="vblex"/><s n="pstv"/><s n="pres"/></r></p></e>
 <e>       <p><l><s n="vblex"/><s n="pres"/><s n="pasv"/></l>   <r><s n="vblex"/><s n="pstv"/><s n="pres"/></r></p></e>
