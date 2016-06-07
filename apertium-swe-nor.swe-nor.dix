@@ -574,6 +574,8 @@
 <e>         <p><l>så<s n="cnjsub"/></l>	<r>så<s n="cnjsub"/></r></p></e>
 <e>         <p><l>till<s n="cnjadv"/></l>	<r>til<s n="cnjsub"/></r></p></e>
 <e>         <p><l>ty<s n="cnjsub"/></l>	<r>fordi<s n="cnjsub"/></r></p></e>
+<e>         <p><l>förrän<s n="cnjsub"/></l>	<r>før<s n="cnjsub"/></r></p></e>
+<e>         <p><l>förrän<s n="cnjsub"/></l>	<r>til<s n="cnjsub"/></r></p></e>
 <e vr="nno"><p><l>varken<s n="cnjcoo"/></l>	<r>korkje<s n="cnjcoo"/></r></p></e>
 <e vr="nob"><p><l>varken<s n="cnjcoo"/></l>	<r>hverken<s n="cnjcoo"/></r></p></e>
 <e r="RL">  <p><l>varken<s n="cnjcoo"/></l>	<r>verken<s n="cnjcoo"/></r></p></e>
@@ -886,6 +888,7 @@
 <e vr="nob"><p><l>samtlig<s n="prn"/><s n="def"/><s n="un"/><s n="pl"/><s n="nom"/></l><r>samtlige<s n="det"/><s n="qnt"/><s n="un"/><s n="pl"/></r></p></e>
 <e>         <p><l>samtlig<s n="prn"/><s n="def"/></l><r>all<s n="det"/><s n="qnt"/></r></p><par n="nom__prn:qnt__det"/></e>
 <e>         <p><l>all<s n="prn"/><s n="def"/></l><r>all<s n="det"/><s n="qnt"/></r></p><par n="nom__prn:qnt__det"/></e>
+<e r="LR">  <p><l>allesammans<s n="prn"/></l><r>all<s n="det"/><s n="qnt"/><s n="un"/><s n="pl"/></r></p></e>
 
 
 <!-- <e vr="nno"><p><l>själv<s n="prn"/><s n="ut"/><s n="sg"/></l><r>seg<b/>sjølv<s n="prn"/><s n="ref"/><s n="p3"/><s n="sg"/></r></p></e> -->
@@ -15453,6 +15456,10 @@
 <e><p><l>upp<s n="adv"/></l><r>opp<s n="adv"/></r></p></e>
 <e><p><l>sist<s n="adv"/></l><r>sist<s n="adv"/></r></p></e>
 <e><p><l>ut<s n="adv"/></l><r>ut<s n="adv"/></r></p></e>
+
+<!-- TODO: move the frå as lemq? -->
+<e vr="nno"><p><l>varifrån<s n="adv"/></l><r>kor<b/>frå<s n="adv"/></r></p></e>
+<e vr="nob"><p><l>varifrån<s n="adv"/></l><r>hvor<b/>fra<s n="adv"/></r></p></e>
 
 <e>         <p><l>ej<s n="adv"/></l><r>ei<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>icke<s n="adv"/></l><r>ikkje<s n="adv"/></r></p></e>
