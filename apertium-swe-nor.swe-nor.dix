@@ -2199,7 +2199,7 @@
 <e>         <p><l>bohem<s n="n"/><s n="ut"/></l>	<r>bohem<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>boj<s n="n"/><s n="ut"/></l>	<r>bøye<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>bojar<s n="n"/><s n="ut"/></l>	<r>bojar<s n="n"/><s n="m"/></r></p></e>
-<e>         <p><l>bok<s n="n"/><s n="ut"/></l>	<r>bog<s n="n"/><s n="m"/></r></p></e>
+<e r="RL">  <p><l>bok<s n="n"/><s n="ut"/></l>	<r>bog<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>bok<s n="n"/><s n="ut"/></l>	<r>bok<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>bokbuss<s n="n"/><s n="ut"/></l>	<r>bokbuss<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>bokhandel<s n="n"/><s n="ut"/></l>	<r>bokhandel<s n="n"/><s n="m"/></r></p></e>
