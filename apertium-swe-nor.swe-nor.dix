@@ -2454,6 +2454,9 @@
 <e>         <p><l>budget<s n="n"/><s n="ut"/></l>	<r>budsjett<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nno"><p><l>budskap<s n="n"/><s n="nt"/></l>	<r>bodskap<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>budskap<s n="n"/><s n="nt"/></l>	<r>budskap<s n="n"/><s n="nt"/></r></p></e>
+<e vr="nno"><p><l>broderskap<s n="n"/><s n="nt"/></l>	<r>brorskap<s n="n"/><s n="m"/></r></p></e>
+<e vr="nob"><p><l>broderskap<s n="n"/><s n="nt"/></l>	<r>brorskap<s n="n"/><s n="nt"/></r></p></e>
+<e r="RL">  <p><l>broderskap<s n="n"/><s n="nt"/></l>	<r>broderskap<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>buffert<s n="n"/><s n="ut"/></l>	<r>buffer<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>bugg<s n="n"/><s n="ut"/></l>	<r>jitterbug<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>bugning<s n="n"/><s n="ut"/></l>	<r>bukk<s n="n"/><s n="m"/></r></p></e>
