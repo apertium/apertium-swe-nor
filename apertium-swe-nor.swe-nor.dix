@@ -13739,6 +13739,7 @@
 <e>         <p><l>feg</l>                     <r>feig</r></p><par n="adj_sint"/></e>
 <e>         <p><l>felfri</l>                  <r>feilfri</r></p><par n="adj_sint:adj"/></e>
 <e>         <p><l>femårig</l>                 <r>femårig</r></p><par n="adj_sint:adj"/></e>
+<e>         <p><l>feministisk</l>             <r>feministisk</r></p><par n="adj_sint:adj"/></e>
 <e vr="nno"><p><l>festlig</l>                 <r>festleg</r></p><par n="adj_sint"/></e>
 <e vr="nob"><p><l>festlig</l>                 <r>festlig</r></p><par n="adj_sint"/></e>
 <e>         <p><l>fiktiv</l>                  <r>fiktiv</r></p><par n="adj_sint:adj"/></e>
