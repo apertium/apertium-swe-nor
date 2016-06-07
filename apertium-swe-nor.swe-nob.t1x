@@ -431,7 +431,7 @@
       <choose>
         <when>
           <test><and>
-            <equal><clip pos="1" side="tl" part="lemh"/><lit v="mykje"/></equal>
+            <equal caseless="yes"><clip pos="1" side="tl" part="lemh"/><lit v="mye"/></equal>
             <or>
               <equal><clip pos="1" side="tl" part="grau"/><lit-tag v="comp"/></equal>
               <equal><clip pos="1" side="tl" part="grau"/><lit-tag v="sup"/></equal>
