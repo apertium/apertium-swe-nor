@@ -11087,7 +11087,7 @@
 <e vr="nob"><p><l>sommar<s n="n"/><s n="ut"/></l>	<r>høst<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>sommar<s n="n"/><s n="ut"/></l>	<r>sommar<s n="n"/><s n="m"/></r></p></e>
 <e vr="nob"><p><l>sommar<s n="n"/><s n="ut"/></l>	<r>sommer<s n="n"/><s n="m"/></r></p></e>
-<e vr="nno"><p><l>sommar<s n="n"/><s n="ut"/></l>	<r>sumar<s n="n"/><s n="m"/></r></p></e>
+<e r="RL">  <p><l>sommar<s n="n"/><s n="ut"/></l>	<r>sumar<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>sommargäst<s n="n"/><s n="ut"/></l>	<r>feriegjest<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>sommarhalvår<s n="n"/><s n="nt"/></l>	<r>sommarhalvår<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nob"><p><l>sommarhalvår<s n="n"/><s n="nt"/></l>	<r>sommerhalvår<s n="n"/><s n="nt"/></r></p></e>
@@ -15462,8 +15462,16 @@
 <e><p><l>igår<s n="adv"/></l><r>i<b/>går<s n="adv"/></r></p></e>
 <e vr="nob"><p><l>imorgon<s n="adv"/></l>	<r>i<b/>morgen<s n="adv"/></r></p></e>
 <e vr="nno"><p><l>imorgon<s n="adv"/></l>	<r>i<b/>morgon<s n="adv"/></r></p></e>
-<e vr="nob"><p><l>i<b/>höstas<s n="adv"/></l>	<r>i<b/>høst<s n="adv"/></r></p></e>
-<e vr="nno"><p><l>i<b/>höstas<s n="adv"/></l>	<r>i<b/>haust<s n="adv"/></r></p></e>
+
+<e vr="nno"><p><l>i<b/>höstas<s n="adv"/></l>	<r>sist<b/>haust<s n="adv"/></r></p></e>
+<e vr="nob"><p><l>i<b/>höstas<s n="adv"/></l>	<r>sist<b/>høst<s n="adv"/></r></p></e>
+<e>         <p><l>i<b/>våras<s n="adv"/></l>	<r>sist<b/>vår<s n="adv"/></r></p></e>
+<e>         <p><l>i<b/>vintras<s n="adv"/></l>	<r>sist<b/>vinter<s n="adv"/></r></p></e>
+<e vr="nno"><p><l>i<b/>somras<s n="adv"/></l>	<r>sist<b/>sommar<s n="adv"/></r></p></e>
+<e r="RL">  <p><l>i<b/>somras<s n="adv"/></l>	<r>sist<b/>sumar<s n="adv"/></r></p></e>
+<e vr="nob"><p><l>i<b/>somras<s n="adv"/></l>	<r>sist<b/>sommer<s n="adv"/></r></p></e>
+
+
 
 <e><p><l>igen<s n="adv"/></l><r>igjen<s n="adv"/></r></p></e>
 <e><p><l>kvar<s n="adv"/></l><r>igjen<s n="adv"/></r></p></e>
