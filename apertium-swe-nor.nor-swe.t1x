@@ -578,6 +578,10 @@
               <test><equal><var n="gender"/><lit-tag v="m"/></equal></test>
               <let><clip pos="2" side="tl" part="gen"/><lit-tag v="m"/></let>
             </when>
+            <when>
+              <test><equal><clip pos="2" side="tl" part="grau"/><lit-tag v="comp"/></equal></test>
+              <let><clip pos="2" side="tl" part="gen"/><lit-tag v="un"/></let>
+            </when>
             <otherwise>
               <let><clip pos="2" side="tl" part="gen"/><lit-tag v="fn"/></let>
             </otherwise>
