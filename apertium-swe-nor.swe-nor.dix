@@ -859,10 +859,10 @@
 <e>         <p><l>ingenting<s n="prn"/><s n="ind"/></l>	<r>ingenting<s n="prn"/><s n="ind"/></r></p></e>
 <e vr="nno"><p><l>någon<s n="prn"/><s n="ind"/></l>   <r>noko<s n="prn"/><s n="ind"/></r></p><par n="mf-gen_nbr"/></e>
 <e vr="nob"><p><l>någon<s n="prn"/><s n="ind"/></l>   <r>noe<s n="prn"/><s n="ind"/></r></p><par n="mf-gen_nbr"/></e>
-<e vr="nno"><p><l>någonting<s n="prn"/><s n="ind"/><s n="un"/><s n="pl"/></l> <r>noko<s n="prn"/><s n="ind"/><s n="un"/><s n="pl"/></r></p></e>
-<e vr="nob"><p><l>någonting<s n="prn"/><s n="ind"/><s n="un"/><s n="pl"/></l> <r>noe<s n="prn"/><s n="ind"/><s n="un"/><s n="pl"/></r></p></e>
-<e r="LR" vr="nno"><p><l>nånting<s n="prn"/><s n="ind"/></l> <r>noko<s n="prn"/><s n="ind"/></r></p><par n="mf-gen_nbr"/></e>
-<e r="LR" vr="nob"><p><l>nånting<s n="prn"/><s n="ind"/></l> <r>noe<s n="prn"/><s n="ind"/></r></p><par n="mf-gen_nbr"/></e>
+<e vr="nno"><p><l>någonting<s n="prn"/><s n="ind"/><s n="un"/><s n="sg"/></l> <r>noko<s n="prn"/><s n="ind"/><s n="nt"/><s n="sg"/></r></p></e>
+<e vr="nob"><p><l>någonting<s n="prn"/><s n="ind"/><s n="un"/><s n="sg"/></l> <r>noe<s n="prn"/><s n="ind"/><s n="un"/><s n="sg"/></r></p></e>
+<e r="LR" vr="nno"><p><l>nånting<s n="prn"/><s n="ind"/><s n="un"/><s n="sg"/></l> <r>noko<s n="prn"/><s n="ind"/><s n="nt"/><s n="sg"/></r></p></e>
+<e r="LR" vr="nob"><p><l>nånting<s n="prn"/><s n="ind"/><s n="un"/><s n="sg"/></l> <r>noe<s n="prn"/><s n="ind"/><s n="un"/><s n="sg"/></r></p></e>
 <e vr="nno"><p><l>somlig<s n="prn"/><s n="ind"/></l> <r>noko<s n="prn"/><s n="ind"/></r></p><par n="mf-gen_nbr"/></e>
 <e vr="nob"><p><l>somlig<s n="prn"/><s n="ind"/></l> <r>noe<s n="prn"/><s n="ind"/></r></p><par n="mf-gen_nbr"/></e>
 <e>         <p><l>ingen<s n="prn"/><s n="ind"/></l>   <r>ingen<s n="prn"/><s n="ind"/></r></p><par n="mf-gen_nbr"/></e>
