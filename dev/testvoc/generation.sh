@@ -109,7 +109,7 @@ only_errs () {
 }
 
 run_mode () {
-    if command -V parallel >/dev/null; then
+    if command -V parallel &>/dev/null; then
         parallel -j"$J" --pipe --block "${BLOCK}" -- bash "$@"
     else
         bash "$@"
