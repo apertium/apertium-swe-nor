@@ -14,7 +14,7 @@ declare -ir CYCLES=${CYCLES-0}
 declare -ir J=${J-1}
 # How much data to translate before restarting the pipeline (some
 # pipelines have memory leaks and need restarting every so often):
-declare -r BLOCK=${BLOCK:-10M}
+declare -r BLOCK=${BLOCK:-100M}
 
 
 if [[ $# -ge 1 && $1 = --hfst ]]; then
