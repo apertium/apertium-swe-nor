@@ -13,6 +13,8 @@
 
   <rule weight="1.0"> <match lemma="som"><select lemma="som"/></match> </rule>
 
+  <rule weight="1.0"> <match lemma="anledning"><select lemma="grunn"/></match> </rule>
+
   <rule weight="1.0"> <match lemma="räkna" tags="vblex.*"><select lemma="telje" tags="vblex.*"/></match> </rule>
 
   <rule weight="1.0"> <match lemma="kolla" tags="vblex.*"><select lemma="sjå" tags="vblex.*"/></match> </rule>

@@ -8,6 +8,8 @@
 
   <rule weight="1.0"> <match lemma="som"><select lemma="som"/></match> </rule>
 
+  <rule weight="1.0"> <match lemma="anledning"><select lemma="tillfälle"/></match> </rule>
+
   <rule weight="1.0"><match lemma="gå" tags="vblex.*"><select lemma="gå" tags="vblex.*"/></match></rule>
   <rule weight="2.0">
     <match lemma="korleis"/>
