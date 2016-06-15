@@ -11941,7 +11941,8 @@
 <e>         <p><l>tidevarv<s n="n"/><s n="nt"/></l>	<r>tidsalder<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>tidevarv<s n="n"/><s n="nt"/></l>	<r>tidsperiode<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>tidning<s n="n"/><s n="ut"/></l>	<r>avis<s n="n"/></r></p><par n=":f/m"/></e>
-<e>         <p><l>tidning<s n="n"/><s n="ut"/></l>	<r>tid<s n="n"/></r></p><par n=":f/m"/></e>
+<e>         <p><l>tidning<s n="n"/><s n="ut"/></l>	<r>blad<s n="n"/><s n="nt"/></r></p></e>
+<e>         <p><l>tidning<s n="n"/><s n="ut"/></l>	<r>tidsskrift<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>tidningsdöd<s n="n"/><s n="ut"/></l>	<r>avisdød<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>tidpunkt<s n="n"/><s n="ut"/></l>	<r>tidspunkt<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>tidsfaktor<s n="n"/><s n="ut"/></l>	<r>tidsfaktor<s n="n"/><s n="m"/></r></p></e>
@@ -12773,6 +12774,8 @@
 <e vr="nno"><p><l>vecka<s n="n"/><s n="ut"/></l>	<r>veke<s n="n"/></r></p><par n=":f/m"/></e>
 <e vr="nob"><p><l>veckodag<s n="n"/><s n="ut"/></l>	<r>ukedag<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>veckodag<s n="n"/><s n="ut"/></l>	<r>vekedag<s n="n"/><s n="m"/></r></p></e>
+<e vr="nob"><p><l>veckotidning<s n="n"/><s n="ut"/></l>	<r>ukeblad<s n="n"/><s n="nt"/></r></p></e>
+<e vr="nno"><p><l>veckotidning<s n="n"/><s n="ut"/></l>	<r>vekeblad<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>veckoslut<s n="n"/><s n="nt"/></l>	<r>weekend<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>ved<s n="n"/><s n="ut"/></l>	<r>ved<s n="n"/><s n="m"/></r></p></e>
 <e vr="nno"><p><l>vederbörande<s n="n"/><s n="nt"/></l>	<r>vedkomande<s n="n"/><s n="nt"/></r></p></e>
