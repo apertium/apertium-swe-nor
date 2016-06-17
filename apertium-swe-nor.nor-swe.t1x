@@ -462,6 +462,8 @@
             <test><and>
               <equal><clip pos="2" side="tl" part="nbr"/><lit-tag v="sg"/></equal>
               <equal><clip pos="2" side="tl" part="art"/><lit-tag v="ind"/></equal>
+              <!-- första is fn/m when sg-ind -->
+              <not><equal caseless="yes"><clip pos="2" side="tl" part="lemh"/><lit v="första"/></equal></not>
               <in><clip pos="1" side="tl" part="gen"/><list n="adj-sg-ind-genders"/></in>
             </and></test>
             <let><clip pos="2" side="tl" part="gen"/><clip pos="1" side="tl" part="gen"/></let>
