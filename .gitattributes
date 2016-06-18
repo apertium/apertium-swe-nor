@@ -35,6 +35,7 @@ dev/testvoc/generation.sh -text
 dev/testvoc/streamparser.py -text
 dev/testvoc/test-ngrams.sh -text
 dev/vr-fix-bidix.awk -text
+dev/wikidata.sh -text
 dev/wikipedia.nouns.txt -text
 /modes.xml -text
 t/README.org -text
