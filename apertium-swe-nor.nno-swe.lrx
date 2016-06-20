@@ -50,6 +50,7 @@
   </rule>
 
   <rule weight="1.0"><match lemma="enkel" tags="adj.*"><select lemma="enkel" tags="adj.*"/></match></rule>
+  <rule weight="1.0"><match lemma="akkumulere" tags="vblex.*"><select lemma="ackumulera" tags="vblex.*"/></match></rule>
 
   <!-- Frequency-based rules: -->
 
@@ -63,7 +64,6 @@
 <rule weight="0.9"><match lemma="agg" tags="n.nt.*"><select lemma="agg" tags="n.nt.*"/></match></rule><!-- 143 -->
 <rule weight="0.9"><match lemma="akkedere" tags="vblex.*"><select lemma="förhandla" tags="vblex.*"/></match></rule><!-- 1070 -->
 <rule weight="0.9"><match lemma="akkompagnere" tags="vblex.*"><select lemma="ackompanjera" tags="vblex.*"/></match></rule><!-- 41 -->
-<rule weight="0.9"><match lemma="akkumulere" tags="vblex.*"><select lemma="hopa" tags="vblex.*"/></match></rule><!-- 47 -->
 <rule weight="0.9"><match lemma="aksept" tags="n.m.*"><select lemma="godkännande" tags="n.nt.*"/></match></rule><!-- 309 -->
 <rule weight="0.9"><match lemma="aksje" tags="n.m.*"><select lemma="aktie" tags="n.ut.*"/></match></rule><!-- 929 -->
 <rule weight="0.9"><match lemma="akte" tags="vblex.*"><select lemma="akta" tags="vblex.*"/></match></rule><!-- 545 -->

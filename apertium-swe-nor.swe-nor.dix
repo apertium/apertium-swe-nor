@@ -2410,15 +2410,12 @@
 <e>         <p><l>bruttonation<s n="n"/><s n="ut"/></l>	<r>bruttonasjon<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>bruttonationalprodukt<s n="n"/><s n="ut"/></l>	<r>bruttonasjonalprodukt<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>brygd<s n="n"/><s n="ut"/></l>	<r>brygg<s n="n"/><s n="nt"/></r></p></e>
-<e vr="nob"><p><l>brygga<s n="n"/><s n="ut"/></l>	<r>bro<s n="n"/></r></p><par n=":f/m"/></e>
-<e vr="nno"><p><l>brygga<s n="n"/><s n="ut"/></l>	<r>bru<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>brygga<s n="n"/><s n="ut"/></l>	<r>brygge<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>bryggeri<s n="n"/><s n="nt"/></l>	<r>bryggeri<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>bryn<s n="n"/><s n="nt"/></l>	<r>bryn<s n="n"/><s n="nt"/></r></p></e>
 <e vr="nno"><p><l>bryn<s n="n"/><s n="nt"/></l>	<r>brå<s n="n"/></r></p><par n=":f/m"/></e>
 <e>         <p><l>brynsten<s n="n"/><s n="ut"/></l>	<r>bryne<s n="n"/><s n="nt"/></r></p></e>
-<e>         <p><l>brynsten<s n="n"/><s n="ut"/></l>	<r>hein<s n="n"/><s n="m"/></r></p></e>
-<e vr="nno"><p><l>brynsten<s n="n"/><s n="ut"/></l>	<r>sende<s n="n"/><s n="nt"/></r></p></e>
+<e r="RL">  <p><l>brynsten<s n="n"/><s n="ut"/></l>	<r>hein<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>brysselkål<s n="n"/><s n="ut"/></l>	<r>rosenkål<s n="n"/><s n="m"/></r></p></e>
 <e>         <p><l>brytningsår<s n="n"/><s n="nt"/></l>	<r>brytningsår<s n="n"/><s n="nt"/></r></p></e>
 <e>         <p><l>bräckjärn<s n="n"/><s n="nt"/></l>	<r>brekkjern<s n="n"/><s n="nt"/></r></p></e>
@@ -16882,7 +16879,7 @@
 <e vr="nno"><p><l>avjämna</l>	<r>jamne<g><b/>ut</g></r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>avjämna</l>	<r>utjevne</r></p><par n="vblex"/></e>
 <e>         <p><l>avklara</l>	<r>avklare</r></p><par n="vblex"/></e>
-<e>         <p><l>avklä</l>	<r>fjerne</r></p><par n="vblex"/></e>
+<e>         <p><l>avklä</l>	<r>avkle</r></p><par n="vblex"/></e>
 <e>         <p><l>avkolonisera</l>	<r>avkolonisere</r></p><par n="vblex"/></e>
 <e>         <p><l>avkorta</l>	<r>avkorte</r></p><par n="vblex"/></e>
 <e>         <p><l>avkriminalisera</l>	<r>avkriminalisere</r></p><par n="vblex"/></e>
@@ -16901,8 +16898,7 @@
 <e>         <p><l>avlyssna</l>	<r>avlytte</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>avlägga</l>	<r>avlegge</r></p><par n="vblex"/></e>
 <e vr="nno"><p><l>avlägga</l>	<r>avleggje</r></p><par n="vblex"/></e>
-<e>         <p><l>avlägsna</l>	<r>fjerne</r></p><par n="vblex"/></e>
-<e>         <p><l>avlämna</l>	<r>levere</r></p><par n="vblex"/></e>
+<e>         <p><l>avlämna</l>	<r>avlevere</r></p><par n="vblex"/></e>
 <e>         <p><l>avläsa</l>	<r>avlese</r></p><par n="vblex"/></e>
 <e vr="nob"><p><l>avlåta</l>	<r>overdra</r></p><par n="vblex"/></e>
 <e>         <p><l>avlöna</l>	<r>gasjere</r></p><par n="vblex"/></e>
@@ -17982,7 +17978,6 @@
 <e>         <p><l>exkommunicera</l>	<r>ekskommunisere</r></p><par n="vblex"/></e>
 <e>         <p><l>expandera</l>	<r>ekspandere</r></p><par n="vblex"/></e>
 <e>         <p><l>expediera</l>	<r>ekspedere</r></p><par n="vblex"/></e>
-<e>         <p><l>expediera</l>	<r>levere</r></p><par n="vblex"/></e>
 <e>         <p><l>experimentera</l>	<r>eksperimentere</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e>         <p><l>exploatera</l>	<r>utnytte</r></p><par n="vblex"/></e>
 <e>         <p><l>explodera</l>	<r>eksplodere</r></p><par n="vblex"/></e>
@@ -18095,7 +18090,9 @@
 <e>         <p><l>fixera</l>	<r>fikse</r></p><par n="vblex"/></e>
 <e>         <p><l>fixera</l>	<r>fiksere</r></p><par n="vblex"/></e>
 <e>         <p><l>fjanta</l>	<r>fjase</r></p><par n="vblex_no-adjpp-pasv"/></e>
+<e>         <p><l>avlägsna</l>	<r>fjerne</r></p><par n="vblex"/></e>
 <e>         <p><l>fjärma</l>	<r>fjerne</r></p><par n="vblex"/></e>
+<e r="LR">  <p><l>fjärna</l>	<r>fjerne</r></p><par n="vblex"/></e>
 <e>         <p><l>fjäska</l>	<r>fjeske</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e>         <p><l>fjättra</l>	<r>bende</r></p><par n="vblex"/></e>
 <e>         <p><l>fjättra</l>	<r>binde</r></p><par n="vblex"/></e>
@@ -20409,7 +20406,6 @@
 <e vr="nno"><p><l>lossna</l>	<r>lausne</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e vr="nob"><p><l>lossna</l>	<r>løsne</r></p><par n="vblex_no-adjpp-pasv"/></e>
 <e>         <p><l>lotsa</l>	<r>lose</r></p><par n="vblex"/></e>
-<e>         <p><l>lotsa</l>	<r>styre</r></p><par n="vblex"/></e>
 <e>         <p><l>lova</l>	<r>gjøle</r></p><par n="vblex"/></e>
 <e>         <p><l>lova</l>	<r>høle</r></p><par n="vblex"/></e>
 <e>         <p><l>lova</l>	<r>love</r></p><par n="vblex"/></e>
@@ -22742,9 +22738,8 @@
 <e>         <p><l>stylta</l>	<r>stylte</r></p><par n="vblex"/></e>
 <e>         <p><l>stylta</l>	<r>styltre</r></p><par n="vblex"/></e>
 <e>         <p><l>stympa</l>	<r>lemleste</r></p><par n="vblex"/></e>
-<e>         <p><l>styra</l>	<r>administrere</r></p><par n="vblex"/></e>
-<e>         <p><l>styra</l>	<r>hanske</r></p><par n="vblex"/></e>
-<e>         <p><l>styra</l>	<r>ratte</r></p><par n="vblex"/></e>
+<e r="RL">  <p><l>styra</l>	<r>hanske</r></p><par n="vblex"/></e>
+<e r="RL">  <p><l>styra</l>	<r>ratte</r></p><par n="vblex"/></e>
 <e>         <p><l>styra</l>	<r>styre</r></p><par n="vblex"/></e>
 <e>         <p><l>styrka</l>	<r>sterkne</r></p><par n="vblex"/></e>
 <e>         <p><l>styrka</l>	<r>styrke</r></p><par n="vblex"/></e>
