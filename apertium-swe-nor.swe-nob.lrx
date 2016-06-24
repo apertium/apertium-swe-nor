@@ -15,6 +15,7 @@
 
   <rule weight="1.0"> <match lemma="anledning"><select lemma="grunn"/></match> </rule>
 
+  <rule weight="1.0"> <match lemma="strax" tags="adv"><select lemma="rett"/></match> </rule>
 
   <rule weight="1.0"> <match lemma="räkna" tags="vblex.*"><select lemma="telle" tags="vblex.*"/></match> </rule>
 
