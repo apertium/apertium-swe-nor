@@ -78,49 +78,49 @@ $2 in d && $3 in d[$2]{for(t in d[$2][$3])print $0,t; next}
 
 <apertium-swe-nor.swe-nor.dix gawk '
 BEGIN{OFS=FS="\t";
-	while(getline<"with-nb.tsv")if(/^[+]/){
-			if($4) s[$2][$3][$4]++
-			else s[$2][$3]["_"]++
-		}
+        while(getline<"with-nb.tsv")if(/^[+]/){
+                        if($4) s[$2][$3][$4]++
+                        else s[$2][$3]["_"]++
+                }
 }
 
 /<s n="np"/ {
-	l=gensub(/.*<l>(.*)<\/l>.*/,"\\1","1")
-	sub(/<s .*/,"",l)
-	gsub(/<b\/>/," ",l)
-	r=gensub(/.*<r>(.*)<\/r>.*/,"\\1","1")
-	sub(/<s .*/,"",r)
-	gsub(/<b\/>/," ",r)
-	if(/vr="nno"/)seen["nno"][l][r]++
-	else if(/vr="nob"/)seen["nob"][l][r]++
-	else {
-		seen["nno"][l][r]++
-		seen["nob"][l][r]++
-	}
+        l=gensub(/.*<l>(.*)<\/l>.*/,"\\1","1")
+        sub(/<s .*/,"",l)
+        gsub(/<b\/>/," ",l)
+        r=gensub(/.*<r>(.*)<\/r>.*/,"\\1","1")
+        sub(/<s .*/,"",r)
+        gsub(/<b\/>/," ",r)
+        if(/vr="nno"/)seen["nno"][l][r]++
+        else if(/vr="nob"/)seen["nob"][l][r]++
+        else {
+                seen["nno"][l][r]++
+                seen["nob"][l][r]++
+        }
 }
 
 END {
-	for(sv in s)for(nn in s[sv]) {
-			bsv=gensub(/ /,"<b/>","g",sv)
-			bnn=gensub(/ /,"<b/>","g",nn)
-			if("_" in s[sv][nn]) {
-				if(!(sv in seen["nno"]&&nn in seen["nno"][sv]))
-					printf "<e vr=\"nno\"><p><l>%s<s n=\"np\"/><s n=\"top\"/></l>	<r>%s<s n=\"np\"/><s n=\"top\"/></r></p></e>\n", bsv, bnn
-			}
-			else for(nb in s[sv][nn]) {
-					bnb=gensub(/ /,"<b/>","g",nb)
-					if(nn == nb && !(sv in seen["nno"]&&nn in seen["nno"][sv])) {
-						printf "<e>         <p><l>%s<s n=\"np\"/><s n=\"top\"/></l>	<r>%s<s n=\"np\"/><s n=\"top\"/></r></p></e>\n", bsv, bnn
+        for(sv in s)for(nn in s[sv]) {
+                        bsv=gensub(/ /,"<b/>","g",sv)
+                        bnn=gensub(/ /,"<b/>","g",nn)
+                        if("_" in s[sv][nn]) {
+                                if(!(sv in seen["nno"]&&nn in seen["nno"][sv]))
+                                        printf "<e vr=\"nno\"><p><l>%s<s n=\"np\"/><s n=\"top\"/></l>   <r>%s<s n=\"np\"/><s n=\"top\"/></r></p></e>\n", bsv, bnn
+                        }
+                        else for(nb in s[sv][nn]) {
+                                        bnb=gensub(/ /,"<b/>","g",nb)
+                                        if(nn == nb && !(sv in seen["nno"]&&nn in seen["nno"][sv])) {
+                                                printf "<e>         <p><l>%s<s n=\"np\"/><s n=\"top\"/></l>     <r>%s<s n=\"np\"/><s n=\"top\"/></r></p></e>\n", bsv, bnn
 
-					}
-					else {
-						if(!(sv in seen["nno"]&&nn in seen["nno"][sv]))
-							printf "<e vr=\"nno\"><p><l>%s<s n=\"np\"/><s n=\"top\"/></l>	<r>%s<s n=\"np\"/><s n=\"top\"/></r></p></e>\n", bsv, bnn
-						if(!(sv in seen["nob"]&&nb in seen["nob"][sv]))
-							printf "<e vr=\"nob\"><p><l>%s<s n=\"np\"/><s n=\"top\"/></l>	<r>%s<s n=\"np\"/><s n=\"top\"/></r></p></e>\n", bsv, bnb
-					}
+                                        }
+                                        else {
+                                                if(!(sv in seen["nno"]&&nn in seen["nno"][sv]))
+                                                        printf "<e vr=\"nno\"><p><l>%s<s n=\"np\"/><s n=\"top\"/></l>   <r>%s<s n=\"np\"/><s n=\"top\"/></r></p></e>\n", bsv, bnn
+                                                if(!(sv in seen["nob"]&&nb in seen["nob"][sv]))
+                                                        printf "<e vr=\"nob\"><p><l>%s<s n=\"np\"/><s n=\"top\"/></l>   <r>%s<s n=\"np\"/><s n=\"top\"/></r></p></e>\n", bsv, bnb
+                                        }
 
-				}
-		}
+                                }
+                }
 }
 ' >new-bidix-entries.dix
