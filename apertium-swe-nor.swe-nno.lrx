@@ -13,7 +13,7 @@
   <rule weight="1.0"> <match lemma="intryck" tags="n.*"><select lemma="inntrykk" tags="n.*"/></match> </rule>
   <rule weight="2.0">
     <match lemma="under"/>
-    <match lemma="intryck" tags="n.*"><select lemma="påverkning" tags="n.*"/></match>
+    <match lemma="intryck" tags="n.*"><select lemma="påverking" tags="n.*"/></match>
   </rule>
 
   <rule weight="1.0"> <match lemma="avse" tags="vblex.*"><select lemma="sikte# til" tags="vblex.*"/></match> </rule>
