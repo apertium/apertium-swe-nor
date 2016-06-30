@@ -10,6 +10,14 @@
     <match lemma="mening" tags="n.*"><select lemma="forstand" tags="n.*"/></match>
   </rule>
 
+  <rule weight="1.0"> <match lemma="intryck" tags="n.*"><select lemma="inntrykk" tags="n.*"/></match> </rule>
+  <rule weight="2.0">
+    <match lemma="under"/>
+    <match lemma="intryck" tags="n.*"><select lemma="påvirkning" tags="n.*"/></match>
+  </rule>
+
+  <rule weight="1.0"> <match lemma="avse" tags="vblex.*"><select lemma="sikte# til" tags="vblex.*"/></match> </rule>
+
   <rule weight="1.0"> <match lemma="leka" tags="vblex.*"><select lemma="leke" tags="vblex.*"/></match> </rule>
   <rule weight="2.0">
     <match lemma="fisk" tags="n.*"/>
