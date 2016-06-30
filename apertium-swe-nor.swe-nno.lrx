@@ -4,6 +4,12 @@
   <rule weight="1.0"> <match lemma="behöva" tags="vblex.*"><select lemma="trenge" tags="vblex.*"/></match> </rule>
   <rule weight="1.0"> <match lemma="försöka" tags="vblex.*"><select lemma="freiste" tags="vblex.*"/></match> </rule>
 
+  <rule weight="1.0"> <match lemma="mening" tags="n.*"><select lemma="meining" tags="n.*"/></match> </rule>
+  <rule weight="2.0">
+    <match lemma="vid"/>
+    <match lemma="mening" tags="n.*"><select lemma="forstand" tags="n.*"/></match>
+  </rule>
+
   <rule weight="1.0"> <match lemma="leka" tags="vblex.*"><select lemma="leke" tags="vblex.*"/></match> </rule>
   <rule weight="2.0">
     <match lemma="fisk" tags="n.*"/>
@@ -16,6 +22,9 @@
   <rule weight="1.0"> <match lemma="anledning"><select lemma="grunn"/></match> </rule>
 
   <rule weight="1.0"> <match lemma="strax" tags="adv"><select lemma="rett"/></match> </rule>
+
+  <rule weight="1.0"> <match lemma="ämne" tags="n.nt.sg.*"><select lemma="stoff"/></match> </rule>
+  <rule weight="1.0"> <match lemma="ämne" tags="n.nt.pl.*"><select lemma="emne"/></match> </rule>
 
   <rule weight="1.0"> <match lemma="räkna" tags="vblex.*"><select lemma="telje" tags="vblex.*"/></match> </rule>
 
