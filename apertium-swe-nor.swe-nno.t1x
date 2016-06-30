@@ -403,9 +403,7 @@
       <!-- feels like these should have their own
            sub-pos... «<det><dem> som kan ha <ind> etter seg på
            bokmål» -->
-      <list-item v="denne"/>
-      <list-item v="disse"/>
-      <list-item v="dette"/>
+      <list-item v="denna"/>
       <list-item v="den"/>
       <list-item v="de"/>
     </def-list>
