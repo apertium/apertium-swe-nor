@@ -5,6 +5,12 @@
 <rule weight="0.9"><match lemma="länge" tags="adv.*"><select lemma="lenge" tags="adv"/></match></rule>
 <rule weight="0.9"><match lemma="mycket" tags="adv.*"><select lemma="veldig" tags="adv"/></match></rule>
 
+  <rule weight="2.0">
+    <match lemma="hur" tags="adv"><select lemma="hvor" tags="adv"/></match>
+    <match lemma="många"/>
+  </rule>
+  <rule weight="1.0"><match lemma="hur" tags="adv"><select lemma="hvordan" tags="adv"/></match></rule>
+
   <rule weight="1.0"> <match lemma="fela" tags="vblex.*"><select lemma="mislykkes" tags="vblex.pstv.*"/></match> </rule>
 
   <rule weight="1.0"> <match lemma="behöva" tags="vblex.*"><select lemma="trenge" tags="vblex.*"/></match> </rule>
@@ -88,6 +94,8 @@
     <match lemma="sedan"/>
     <match lemma="dess" tags="adv"><select lemma="da" tags="adv"/></match>
   </rule>
+
+  <rule weight="1.0"><match lemma="gå" tags="vblex.*"><select lemma="gå" tags="vblex.*"/></match></rule>
 
   <!-- Frequency-based rules: -->
 

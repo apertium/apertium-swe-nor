@@ -24,6 +24,11 @@
     </or>
   </rule>
 
+  <rule weight="2.0">
+    <match lemma="kor" tags="adv"><select lemma="hur" tags="adv"/></match>
+    <match lemma="mange"/>
+  </rule>
+
   <rule weight="1.0">
     <match lemma="måtte" tags="vblex.*"><select lemma="måste" tags="vblex.*"/></match>
   </rule>
