@@ -104,6 +104,8 @@
     <match lemma="dess" tags="adv"><select lemma="då" tags="adv"/></match>
   </rule>
 
+  <rule weight="1.0"><match lemma="samlag" tags="n.nt.*"><select lemma="samleie" tags="n.nt.*"/></match></rule>
+
   <!-- Frequency-based rules: -->
 
 <rule weight="0.9"><match lemma="brand" tags="n.ut.*"><select lemma="brann" tags="n.m.*"/></match></rule><!-- 1172 -->
@@ -1484,7 +1486,6 @@
 <rule weight="0.9"><match lemma="salong" tags="n.ut.*"><select lemma="salong" tags="n.m.*"/></match></rule><!-- 96 -->
 <rule weight="0.9"><match lemma="samarbete" tags="n.nt.*"><select lemma="samarbeid" tags="n.nt.*"/></match></rule><!-- 2144 -->
 <rule weight="0.9"><match lemma="samgående" tags="n.nt.*"><select lemma="samarbeid" tags="n.nt.*"/></match></rule><!-- 2144 -->
-<rule weight="0.9"><match lemma="samlag" tags="n.nt.*"><select lemma="samlag" tags="n.nt.*"/></match></rule><!-- 84 -->
 <rule weight="0.9"><match lemma="samla" tags="vblex.*"><select lemma="samle" tags="vblex.*"/></match></rule><!-- 3975 -->
 <rule weight="0.9"><match lemma="sammanblanda" tags="vblex.*"><select lemma="blande" tags="vblex.*"/></match></rule><!-- 1457 -->
 <rule weight="0.9"><match lemma="sammanslutning" tags="n.ut.*"><select lemma="samvirke" tags="n.nt.*"/></match></rule><!-- 55 -->
