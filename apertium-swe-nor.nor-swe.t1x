@@ -410,7 +410,8 @@
 
     <!-- Macros which set concordance variables: -->
     <def-macro n="set_gender1.adj" npar="1"
-               c="arg.1: adj">
+               c="arg.1: adj
+                  GD/ND only used when dan is un.sp.def, so un.pl fine for pst">
       <choose><when>
         <test><and>
           <equal><clip pos="1" side="tl" part="grau"/><lit-tag v="pst"/></equal>
