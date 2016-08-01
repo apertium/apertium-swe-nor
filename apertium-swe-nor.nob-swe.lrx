@@ -26,6 +26,9 @@
     </or>
   </rule>
 
+  <rule weight="1.0"><match lemma="òg" tags="adv"><select lemma="även" tags="adv"/></match></rule>
+  <rule weight="1.0"><match lemma="også" tags="adv"><select lemma="även" tags="adv"/></match></rule>
+
   <rule weight="2.0">
     <match lemma="hvor" tags="adv"><select lemma="hur" tags="adv"/></match>
     <match lemma="mange"/>
@@ -1879,7 +1882,6 @@
 <rule weight="0.9"><match lemma="nå" tags="vblex.*"><select lemma="hända" tags="vblex.*"/></match></rule><!-- 34392 -->
 <rule weight="0.9"><match lemma="observere" tags="vblex.*"><select lemma="observera" tags="vblex.*"/></match></rule><!-- 510 -->
 <rule weight="0.9"><match lemma="ofre" tags="vblex.*"><select lemma="offra" tags="vblex.*"/></match></rule><!-- 1694 -->
-<rule weight="0.9"><match lemma="også" tags="adv"><select lemma="också" tags="adv"/></match></rule><!-- 43586 -->
 <rule weight="0.9"><match lemma="oie" tags="vblex.*"><select lemma="skrika" tags="vblex.*"/></match></rule><!-- 3514 -->
 <rule weight="0.9"><match lemma="okse" tags="n.m.*"><select lemma="tjur" tags="n.ut.*"/></match></rule><!-- 481 -->
 <rule weight="0.9"><match lemma="oksygen" tags="n.nt.*"><select lemma="syre" tags="n.nt.*"/></match></rule><!-- 888 -->

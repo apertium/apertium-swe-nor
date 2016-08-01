@@ -1,7 +1,7 @@
-Revision: 69407
-AP_SRC1 Revision: 69407
-AP_SRC2b Revision: 69407
-AP_SRC2n Revision: 69407
+Revision: 71362
+AP_SRC1 Revision: 71362
+AP_SRC2b Revision: 71362
+AP_SRC2n Revision: 71362
 Running Regression-tests with mode "swe-nno" with updated tests ...
 
 swe-nno	  honom.
@@ -33,10 +33,10 @@ WORKS	  som har funnest.
 
 
 7 / 7, 100%
-Revision: 69407
-AP_SRC1 Revision: 69407
-AP_SRC2b Revision: 69407
-AP_SRC2n Revision: 69407
+Revision: 71362
+AP_SRC1 Revision: 71362
+AP_SRC2b Revision: 71362
+AP_SRC2n Revision: 71362
 Running Regression-tests with mode "nno-swe" with updated tests ...
 
 nno-swe	  ikkje.
@@ -44,10 +44,10 @@ WORKS	  inte.
 
 
 1 / 1, 100%
-Revision: 69407
-AP_SRC1 Revision: 69407
-AP_SRC2b Revision: 69407
-AP_SRC2n Revision: 69407
+Revision: 71362
+AP_SRC1 Revision: 71362
+AP_SRC2b Revision: 71362
+AP_SRC2n Revision: 71362
 Running Regression-tests with mode "swe-nob" with updated tests ...
 
 swe-nob	  honom.
@@ -79,14 +79,18 @@ WORKS	  som har funnes.
 
 
 7 / 7, 100%
-Revision: 69407
-AP_SRC1 Revision: 69407
-AP_SRC2b Revision: 69407
-AP_SRC2n Revision: 69407
+Revision: 71362
+AP_SRC1 Revision: 71362
+AP_SRC2b Revision: 71362
+AP_SRC2n Revision: 71362
 Running Regression-tests with mode "nob-swe" with updated tests ...
 
 nob-swe	  ikke.
 WORKS	  inte.
 
 
-1 / 1, 100%
+nob-swe	  Her har det også blitt opprettet litteraturpriser og blitt arrangert litteraturfestivaler.
+WORKS	  Här har det även etablerats litteraturpris och ordnats litteraturfestivaler.
+
+
+2 / 2, 100%
