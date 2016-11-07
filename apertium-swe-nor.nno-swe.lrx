@@ -8,6 +8,8 @@
 
   <rule weight="1.0"> <match lemma="som"><select lemma="som"/></match> </rule>
 
+  <rule weight="1.0"><match lemma="feile" tags="vblex.*"><select lemma="fela" tags="vblex.*"/></match></rule>
+
   <rule weight="1.0"><match lemma="gå" tags="vblex.*"><select lemma="gå" tags="vblex.*"/></match></rule>
   <rule weight="2.0">
     <match lemma="korleis"/>
@@ -640,7 +642,6 @@
 <rule weight="0.9"><match lemma="fedreland" tags="n.nt.*"><select lemma="hemland" tags="n.nt.*"/></match></rule><!-- 317 -->
 <rule weight="0.9"><match lemma="feiging" tags="n.m.*"><select lemma="fegis" tags="n.ut.*"/></match></rule><!-- 675 -->
 <rule weight="0.9"><match lemma="feilbedømme" tags="vblex.*"><select lemma="missbedöma" tags="vblex.*"/></match></rule><!-- 80 -->
-<rule weight="0.9"><match lemma="feile" tags="vblex.*"><select lemma="mista" tags="vblex.*"/></match></rule><!-- 1678 -->
 <rule weight="0.9"><match lemma="feil" tags="n.m.*"><select lemma="fel" tags="n.nt.*"/></match></rule><!-- 25150 -->
 <rule weight="0.9"><match lemma="feire" tags="vblex.*"><select lemma="fira" tags="vblex.*"/></match></rule><!-- 2949 -->
 <rule weight="0.9"><match lemma="fellesskap" tags="n.nt.*"><select lemma="gemenskap" tags="n.ut.*"/></match></rule><!-- 288 -->

@@ -12,6 +12,14 @@
   <rule weight="1.0"><match lemma="hur" tags="adv"><select lemma="korleis" tags="adv"/></match></rule>
 
   <rule weight="1.0"> <match lemma="fela" tags="vblex.*"><select lemma="mislukkast" tags="vblex.pstv.*"/></match> </rule>
+  <rule weight="2.0">
+    <match lemma="fela" tags="vblex.*"><select lemma="feile"/></match>
+    <or>
+      <match tags="n.*"/>
+      <match tags="det.qnt.*"/>
+      <match tags="prn.ind.*"/>
+    </or>
+  </rule>
 
   <rule weight="1.0"> <match lemma="behöva" tags="vblex.*"><select lemma="trenge" tags="vblex.*"/></match> </rule>
   <rule weight="1.0"> <match lemma="försöka" tags="vblex.*"><select lemma="freiste" tags="vblex.*"/></match> </rule>
