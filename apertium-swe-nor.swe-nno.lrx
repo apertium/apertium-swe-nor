@@ -114,6 +114,8 @@
 
   <rule weight="1.0"><match lemma="samlag" tags="n.nt.*"><select lemma="samleie" tags="n.nt.*"/></match></rule>
 
+  <rule weight="1.0"><match lemma="uppskatta" tags="vblex.*"><select lemma="verdsetje" tags="vblex.*"/></match></rule>
+
   <!-- Frequency-based rules: -->
 
 <rule weight="0.9"><match lemma="brand" tags="n.ut.*"><select lemma="brann" tags="n.m.*"/></match></rule><!-- 1172 -->
