@@ -7,7 +7,7 @@
 
   <rule weight="2.0">
     <match lemma="hur" tags="adv"><select lemma="kor" tags="adv"/></match>
-    <match lemma="många"/>
+    <match lemma="mången"/>
   </rule>
   <rule weight="1.0"><match lemma="hur" tags="adv"><select lemma="korleis" tags="adv"/></match></rule>
 
