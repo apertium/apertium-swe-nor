@@ -245,6 +245,7 @@ test: all
 	@echo "Jeg har åler i min luftputebåt" > .test-ref
 	@diff .test-ref .test-mt
 	@rm .test-ref .test-mt
+	t/hash-count
 
 # Slow but near-complete test of dictionary consistency:
 test-gen-%: all
