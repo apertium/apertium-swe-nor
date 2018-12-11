@@ -103,6 +103,12 @@
     <def-cat n="det">
       <cat-item tags="det.*"/>
     </def-cat>
+    <def-cat n="detqnt">
+      <cat-item tags="det.qnt.*"/>
+    </def-cat>
+    <def-cat n="remspc">
+      <cat-item tags="sent.clb.remspc"/>
+    </def-cat>
     <def-cat n="prn">
       <cat-item tags="prn.*"/>
     </def-cat>
@@ -246,6 +252,9 @@
       <attr-item tags="pasv"/>
       <attr-item tags="actv"/>
       <attr-item tags="VD"/>
+    </def-attr>
+    <def-attr n="a_remspc">
+      <attr-item tags="remspc"/>
     </def-attr>
     <def-attr n="a_det">
       <attr-item tags="det"/>
@@ -1445,6 +1454,27 @@
           <chunk name="cnjsub-at" case="caseFirstWord">
             <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
             <lu><clip pos="1" side="tl" part="whole"/></lu>
+          </chunk>
+        </out>
+      </action>
+    </rule>
+
+    <rule comment="DETQNT REMSPC: remove space inserted by pretransfer">
+      <pattern>
+        <pattern-item n="detqnt"/>
+        <pattern-item n="remspc"/>
+      </pattern>
+      <action>
+        <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <let><clip pos="2" side="tl" part="a_remspc"/><lit v=""/></let>
+        <out>
+          <chunk name="det" case="caseFirstWord">
+            <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
+            <lu><clip pos="1" side="tl" part="whole"/></lu>
+          </chunk>
+          <chunk name="default" case="caseFirstWord">
+            <tags><tag><clip pos="2" side="tl" part="tags"/></tag></tags>
+            <lu><clip pos="2" side="tl" part="whole"/></lu>
           </chunk>
         </out>
       </action>
