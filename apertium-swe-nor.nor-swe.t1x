@@ -241,11 +241,6 @@
       <attr-item tags="n"/>
       <attr-item tags="n.acr"/>
       <attr-item tags="np"/>
-      <attr-item tags="np.top"/>
-      <attr-item tags="np.ant"/>
-      <attr-item tags="np.org"/>
-      <attr-item tags="np.cog"/>
-      <attr-item tags="np.al"/>
     </def-attr>
     <def-attr n="persona">
       <attr-item tags="p1"/>
@@ -333,6 +328,7 @@
   <section-def-vars>
     <def-var n="gen-prep"/>
     <def-var n="caseFirstWord"/>
+    <def-var n="caseSecondWord"/>
     <def-var n="c_name"         c="chunk name"/>
     <def-var n="ntags"/>
     <def-var n="aux"/>
@@ -419,25 +415,32 @@
       </choose>
     </def-macro>
 
-    <def-macro n="set_caseFirstWord" npar="1">
+    <def-macro n="set_caseFirstWord" npar="1"
+               c="Downcases the argument, unless np">
+      <!-- TODO: Put a marker for acronyms where we don't want to copy case from them; then drop the tag -->
       <let><var n="caseFirstWord"/><get-case-from pos="1"><lit v="aa"/></get-case-from></let>
-      <modify-case><clip pos="1" side="tl" part="lemh"/><lit v="aa"/></modify-case>
+      <choose><when>
+        <test><not><equal><clip pos="1" side="tl" part="a_nom"/><lit-tag v="np"/></equal></not></test>
+        <modify-case><clip pos="1" side="tl" part="lemh"/><lit v="aa"/></modify-case>
+      </when></choose>
     </def-macro>
-    <def-macro n="set_caseFirstWord2" npar="2">
-      <!-- arg.1: possessed noun. arg.2: det.pos, gives typographic case -->
-      <choose>
-        <when>
-          <test><not>
-            <and>
-              <equal><clip pos="2" side="tl" part="lemh"/><lit v="De"/></equal>
-              <equal><clip pos="2" side="tl" part="a_det"/><lit-tag v="det.pos"/></equal>
-              <equal><clip pos="2" side="tl" part="persona"/><lit-tag v="p2"/></equal>
-            </and>
-          </not></test>
-          <let><var n="caseFirstWord"/><get-case-from pos="2"><lit v="aa"/></get-case-from></let>
-          <modify-case><clip pos="1" side="tl" part="lemh"/><lit v="aa"/></modify-case>
-        </when>
-      </choose>
+
+    <def-macro n="set_caseFirstWord2" npar="2"
+               c="arg1: first word, arg2: second word
+                  Downcases arg1, unless np">
+      <let><var n="caseFirstWord"/><get-case-from pos="1"><lit v="aa"/></get-case-from></let>
+      <let><var n="caseSecondWord"/><get-case-from pos="2"><lit v="aa"/></get-case-from></let>
+      <choose><when>
+        <test><and>
+          <equal><var n="caseFirstWord"/><lit v="AA"/></equal>
+          <not><equal><var n="caseSecondWord"/><lit v="AA"/></equal></not>
+        </and></test>
+        <let><var n="caseFirstWord"/><lit v="Aa"/></let> <!-- avoid applying shouting to whole chunk if only first word shouts -->
+      </when></choose>
+      <choose><when>
+        <test><not><equal><clip pos="1" side="tl" part="a_nom"/><lit-tag v="np"/></equal></not></test>
+        <modify-case><clip pos="1" side="tl" part="lemh"/><lit v="aa"/></modify-case>
+      </when></choose>
     </def-macro>
 
     <!-- Macros which set concordance variables: -->
@@ -655,30 +658,6 @@
     </def-macro>
 
     <!-- Output macros: -->
-    <def-macro n="out_ndef" npar="2">
-      <!-- arg.1: possessed noun. arg.2 gives typographic case
-
-           Strip case, add definiteness.  -->
-      <call-macro n="set_caseFirstWord2">
-        <with-param pos="1"/>
-        <with-param pos="2"/>
-      </call-macro>
-      <let><clip pos="1" side="tl" part="art"/><lit-tag v="def"/></let>
-      <out>
-        <chunk name="n" case="caseFirstWord">
-          <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
-          <lu>
-            <clip pos="1" side="tl" part="lemh"/>
-            <clip pos="1" side="tl" part="a_nom"/>
-            <clip pos="1" side="tl" part="gen"/>
-            <clip pos="1" side="tl" part="nbr"/>
-            <clip pos="1" side="tl" part="art"/>
-            <clip pos="1" side="tl" part="lemq"/>
-          </lu>
-        </chunk>
-      </out>
-    </def-macro>
-
     <def-macro n="out_gen-prep" npar="1"
                c="arg.1: noun. Only acts on genitives. Adds a space after.">
       <let><var n="gen-prep"/><lit v=""/></let>
@@ -757,7 +736,10 @@
         <pattern-item n="vblexpp"/>
       </pattern>
       <action>
-        <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="set_caseFirstWord2">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
         <choose>
           <when>
             <test><equal><clip pos="2" side="tl" part="voice"/><lit-tag v="VD"/></equal></test>
@@ -782,7 +764,10 @@
         <pattern-item n="verbpp"/>
       </pattern>
       <action>
-        <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="set_caseFirstWord2">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
         <let><var n="c_name"/><lit v="verb"/></let>
         <choose><when>
           <test><or>
@@ -860,7 +845,10 @@
         <!-- c_name setting after set_grau_aux since adv first in chunk -->
         <call-macro n="set_gender1.adj"><with-param pos="2"/></call-macro>
         <call-macro n="set_grau_aux1"><with-param pos="2"/></call-macro>
-        <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="set_caseFirstWord2">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
 
         <choose>
           <when>
@@ -919,7 +907,10 @@
         <let><var n="c_name"/><lit v="adj_n"/></let>
         <call-macro n="set_gender2.n.adj"><with-param pos="2"/><with-param pos="1"/></call-macro>
         <call-macro n="set_grau_aux1"><with-param pos="1"/></call-macro>
-        <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="set_caseFirstWord2">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
         <out>
           <chunk namefrom="c_name" case="caseFirstWord">
             <tags>
@@ -964,7 +955,10 @@
         <pattern-item n="n_np"/>
       </pattern>
       <action>
-        <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="set_caseFirstWord2">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
         <call-macro n="stash_case_in_ntags"><with-param pos="1"/></call-macro>
         <call-macro n="stash_case_in_ntags"><with-param pos="2"/></call-macro>
         <call-macro n="out_gen-prep"><with-param pos="1"/></call-macro>
@@ -985,7 +979,10 @@
         <pattern-item n="n_np"/>
       </pattern>
       <action>
-        <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="set_caseFirstWord2">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
         <call-macro n="stash_case_in_ntags"><with-param pos="1"/></call-macro>
         <call-macro n="stash_case_in_ntags"><with-param pos="2"/></call-macro>
         <call-macro n="stash_case_in_ntags"><with-param pos="3"/></call-macro>
@@ -1007,7 +1004,10 @@
         <pattern-item n="n_np"/>
       </pattern>
       <action>
-        <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="set_caseFirstWord2">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
         <call-macro n="stash_case_in_ntags"><with-param pos="1"/></call-macro>
         <call-macro n="stash_case_in_ntags"><with-param pos="2"/></call-macro>
         <call-macro n="stash_case_in_ntags"><with-param pos="3"/></call-macro>
@@ -1109,7 +1109,10 @@
         <let><var n="c_name"/><lit v="adj_n"/></let>
         <call-macro n="set_gender2.n.adj"><with-param pos="2"/><with-param pos="1"/></call-macro>
         <call-macro n="set_grau_aux1"><with-param pos="1"/></call-macro>
-        <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="set_caseFirstWord2">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
         <call-macro n="stash_case_in_ntags"><with-param pos="2"/></call-macro>
         <call-macro n="out_gen-prep"><with-param pos="2"/></call-macro>
         <out>
@@ -1137,7 +1140,10 @@
         <let><var n="c_name"/><lit v="adj_n_n"/></let>
         <call-macro n="set_gender2.n.adj"><with-param pos="3"/><with-param pos="1"/></call-macro>
         <call-macro n="set_grau_aux1"><with-param pos="1"/></call-macro>
-        <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="set_caseFirstWord2">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
         <call-macro n="stash_case_in_ntags"><with-param pos="2"/></call-macro>
         <call-macro n="stash_case_in_ntags"><with-param pos="3"/></call-macro>
         <call-macro n="out_gen-prep"><with-param pos="3"/></call-macro>
@@ -1168,7 +1174,10 @@
         <let><var n="c_name"/><lit v="adj_n_n_n"/></let>
         <call-macro n="set_gender2.n.adj"><with-param pos="4"/><with-param pos="1"/></call-macro>
         <call-macro n="set_grau_aux1"><with-param pos="1"/></call-macro>
-        <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="set_caseFirstWord2">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
         <call-macro n="stash_case_in_ntags"><with-param pos="2"/></call-macro>
         <call-macro n="stash_case_in_ntags"><with-param pos="3"/></call-macro>
         <call-macro n="stash_case_in_ntags"><with-param pos="4"/></call-macro>
@@ -1202,7 +1211,10 @@
         <let><var n="c_name"/><lit v="adj_n_n_n_n"/></let>
         <call-macro n="set_gender2.n.adj"><with-param pos="5"/><with-param pos="1"/></call-macro>
         <call-macro n="set_grau_aux1"><with-param pos="1"/></call-macro>
-        <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="set_caseFirstWord2">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
         <call-macro n="stash_case_in_ntags"><with-param pos="2"/></call-macro>
         <call-macro n="stash_case_in_ntags"><with-param pos="3"/></call-macro>
         <call-macro n="stash_case_in_ntags"><with-param pos="4"/></call-macro>
@@ -1238,7 +1250,10 @@
         <call-macro n="set_gender2.n.adj"><with-param pos="3"/><with-param pos="1"/></call-macro>
         <call-macro n="set_gender2.n.adj"><with-param pos="3"/><with-param pos="2"/></call-macro>
         <call-macro n="set_grau_aux2"><with-param pos="1"/><with-param pos="2"/></call-macro>
-        <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="set_caseFirstWord2">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
         <call-macro n="stash_case_in_ntags"><with-param pos="3"/></call-macro>
         <call-macro n="out_gen-prep"><with-param pos="3"/></call-macro>
         <choose><when>
@@ -1279,7 +1294,10 @@
         <call-macro n="set_gender2.n.adj"><with-param pos="4"/><with-param pos="1"/></call-macro>
         <call-macro n="set_gender2.n.adj"><with-param pos="4"/><with-param pos="2"/></call-macro>
         <call-macro n="set_grau_aux2"><with-param pos="1"/><with-param pos="2"/></call-macro>
-        <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="set_caseFirstWord2">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
         <call-macro n="stash_case_in_ntags"><with-param pos="3"/></call-macro>
         <call-macro n="stash_case_in_ntags"><with-param pos="4"/></call-macro>
         <call-macro n="out_gen-prep"><with-param pos="4"/></call-macro>
@@ -1323,7 +1341,10 @@
         <call-macro n="set_gender2.n.adj"><with-param pos="5"/><with-param pos="1"/></call-macro>
         <call-macro n="set_gender2.n.adj"><with-param pos="5"/><with-param pos="2"/></call-macro>
         <call-macro n="set_grau_aux2"><with-param pos="1"/><with-param pos="2"/></call-macro>
-        <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="set_caseFirstWord2">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
         <call-macro n="stash_case_in_ntags"><with-param pos="3"/></call-macro>
         <call-macro n="stash_case_in_ntags"><with-param pos="4"/></call-macro>
         <call-macro n="stash_case_in_ntags"><with-param pos="5"/></call-macro>
@@ -1370,7 +1391,10 @@
         <call-macro n="set_gender2.n.adj"><with-param pos="6"/><with-param pos="1"/></call-macro>
         <call-macro n="set_gender2.n.adj"><with-param pos="6"/><with-param pos="2"/></call-macro>
         <call-macro n="set_grau_aux2"><with-param pos="1"/><with-param pos="2"/></call-macro>
-        <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="set_caseFirstWord2">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
         <call-macro n="stash_case_in_ntags"><with-param pos="3"/></call-macro>
         <call-macro n="stash_case_in_ntags"><with-param pos="4"/></call-macro>
         <call-macro n="stash_case_in_ntags"><with-param pos="5"/></call-macro>
@@ -1439,7 +1463,10 @@
         <call-macro n="set_gender1.adj"><with-param pos="1"/></call-macro>
         <call-macro n="set_gender1.adj"><with-param pos="2"/></call-macro>
         <call-macro n="set_grau_aux2"><with-param pos="1"/><with-param pos="2"/></call-macro>
-        <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <call-macro n="set_caseFirstWord2">
+          <with-param pos="1"/>
+          <with-param pos="2"/>
+        </call-macro>
         <choose><when>
           <!-- set_grau_aux2 may have removed the first adj: -->
           <test><equal><clip pos="1" side="tl" part="whole"/><lit v=""/></equal></test>
