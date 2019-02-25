@@ -27,6 +27,7 @@ TARGETS_COMMON = \
       $(PREFIX1).prob \
       $(PREFIX1b).automorf.bin \
       $(PREFIX1n).automorf.bin \
+      $(PREFIX1n).autopgen.bin \
       $(PREFIX1).rlx.bin \
       $(PREFIX1b).autobil.bin \
       $(PREFIX1n).autobil.bin \
@@ -85,6 +86,8 @@ $(PREFIX1b).autogen.bin: $(AP_SRC2b)/$(LANG2b).autogen.bin
 $(PREFIX1n).autogen.bin: $(AP_SRC2n)/$(LANG2n).autogen.bin
 	cp $< $@
 
+$(PREFIX1n).autopgen.bin: $(AP_SRC2n)/$(LANG2n).autopgen.bin
+	cp $< $@
 
 
 ###############################################################################

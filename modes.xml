@@ -35,6 +35,9 @@
       <program name="lt-proc $1">
         <file name="swe-nno.autogen.bin"/>
       </program>
+      <program name="lt-proc -p">
+        <file name="nob-nno.autopgen.bin"/>
+      </program>
     </pipeline>
   </mode>
   <mode install="no" name="swe-nno-morph">
@@ -234,6 +237,9 @@
       </program>
       <program name="lt-proc -d">
         <file name="swe-nno.autogen.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="nob-nno.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
