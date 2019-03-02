@@ -152,6 +152,7 @@
       <cat-item tags="adj.*"/>
     </def-cat>
     <def-cat n="preadj-adv">
+      <cat-item lemma="ikkje" tags="adv"/>
       <cat-item lemma="ikke" tags="adv"/>
       <cat-item lemma="for" tags="adv"/>
       <cat-item lemma="altfor" tags="adv"/>
@@ -159,6 +160,7 @@
       <cat-item lemma="forhåpentlig" tags="adv"/>
       <cat-item lemma="forholdsvis" tags="adv"/>
       <cat-item lemma="hvor" tags="adv"/>
+      <cat-item lemma="kor" tags="adv"/>
       <cat-item lemma="kanon" tags="adv"/>
       <cat-item lemma="sørpe" tags="adv"/>
       <cat-item lemma="bom" tags="adv"/>
@@ -169,7 +171,7 @@
       <cat-item lemma="delvis" tags="adv"/>
     </def-cat>
     <def-cat n="adjind">
-      <cat-item tags="adj.*.*.*.ind"/>
+      <cat-item tags="adj.*.ind"/>
       <cat-item tags="adj.*.pl"/>
       <cat-item tags="adj.comp.*"/>
       <cat-item tags="adj.sint.comp.*"/>
@@ -259,8 +261,6 @@
       <attr-item tags="inf"/>
       <attr-item tags="imp"/>
       <attr-item tags="pres"/>
-      <attr-item tags="prs"/>
-      <attr-item tags="pis"/>
       <attr-item tags="past"/>
       <attr-item tags="pp"/>
       <attr-item tags="supn"/>
@@ -281,6 +281,9 @@
       <attr-item tags="det.qnt"/>
       <attr-item tags="det.qnt.neg"/>
       <attr-item tags="det.pos"/>
+    </def-attr>
+    <def-attr n="a_date">
+      <attr-item tags="date"/>
     </def-attr>
 
     <def-attr n="a_adj">
@@ -319,9 +322,19 @@
       <attr-item tags="acc"/>
       <attr-item tags="CD"/>
     </def-attr>
+    <def-attr n="AD">
+      <attr-item tags="AD"/>
+    </def-attr>
     <def-attr n="art">
       <attr-item tags="def"/>
       <attr-item tags="ind"/>
+    </def-attr>
+    <def-attr n="a_cmp">
+      <attr-item tags="cmp"/>
+      <attr-item tags="cmp-split"/>
+    </def-attr>
+    <def-attr n="cmp-split">
+      <attr-item tags="cmp-split"/>
     </def-attr>
   </section-def-attrs>
 
@@ -1510,6 +1523,7 @@
           <otherwise><let><var n="c_name"/><lit v="det"/></let></otherwise>
         </choose>
         <call-macro n="set_caseFirstWord"><with-param pos="1"/></call-macro>
+        <let><clip pos="1" side="tl" part="a_date"/><lit v=""/></let>
         <out>
           <chunk namefrom="c_name" case="caseFirstWord">
             <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
