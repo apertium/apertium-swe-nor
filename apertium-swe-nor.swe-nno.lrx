@@ -2212,4 +2212,5 @@
   </rule>
 
 
+  <rule><match lemma="ordningsföljd" tags="n.*"><select lemma="rekkefølgje"/></match></rule>
 </rules>
