@@ -1005,7 +1005,6 @@
 <rule weight="0.9"><match lemma="kork" tags="n.ut.*"><select lemma="kork" tags="n.m.*"/></match></rule><!-- 68 -->
 <rule weight="0.9"><match lemma="korn" tags="n.nt.*"><select lemma="bygg" tags="n.nt.*"/></match></rule><!-- 1139 -->
 <rule weight="0.9"><match lemma="korrigera" tags="vblex.*"><select lemma="rette# opp" tags="vblex.*"/></match></rule><!-- 184 -->
-<rule weight="0.9"><match lemma="kors" tags="n.nt.*"><select lemma="kryss" tags="n.nt.*"/></match></rule><!-- 394 -->
 <rule weight="0.9"><match lemma="kort" tags="adj.*"><select lemma="kort" tags="adj.*"/></match></rule><!-- 5346 -->
 <rule weight="0.9"><match lemma="kort" tags="n.nt.*"><select lemma="kart" tags="n.nt.*"/></match></rule><!-- 1896 -->
 <rule weight="0.9"><match lemma="kostnad" tags="n.ut.*"><select lemma="kostnad" tags="n.m.*"/></match></rule><!-- 347 -->
@@ -2151,5 +2150,66 @@
 <rule weight="0.9"><match lemma="åtskillnad" tags="n.ut.*"><select lemma="skilnad" tags="n.m.*"/></match></rule><!-- 1249 -->
 <rule weight="0.9"><match lemma="åt" tags="pr"><select lemma="til" tags="pr"/></match></rule><!-- 323347 -->
 <rule weight="0.9"><match lemma="åverkan" tags="n.ut.*"><select lemma="skade" tags="n.m.*"/></match></rule><!-- 1216 -->
+
+  <rule><match lemma="kors" tags="n.*"><select lemma="kross"/></match></rule>
+
+  <rule> <match lemma="antal" tags="n.*"> <select lemma="mengde"/> </match> </rule>
+  <rule weight="3.0" c="ei stor mengd søknader, but det store talet på søknader">
+    <match lemma="en"/>
+    <or><match tags="adj.*"/><match tags="adv"/></or>
+    <match lemma="antal">
+      <select lemma="mengde"/>
+    </match>
+    <or>
+      <match tags="n.*"/>
+      <match tags="adj.*"/>
+    </or>
+  </rule>
+  <rule weight="3.0" c="ei særs stor mengd søknader, but det store talet på søknader">
+    <match lemma="en"/>
+    <or><match tags="adj.*"/><match tags="adv"/></or>
+    <or><match tags="adj.*"/><match tags="adv"/></or>
+    <match lemma="antal">
+      <select lemma="mengde"/>
+    </match>
+    <or>
+      <match tags="n.*"/>
+      <match tags="adj.*"/>
+    </or>
+  </rule>
+  <rule weight="3.0" c="ei mengd søknader, but dette talet på søknader">
+    <match lemma="en"/>
+    <match lemma="antal">
+      <select lemma="mengde"/>
+    </match>
+    <or>
+      <match tags="n.*"/>
+      <match tags="adj.*"/>
+    </or>
+  </rule>
+  <rule weight="3.0">
+    <match lemma="antal">
+      <select lemma="talet på"/>
+    </match>
+    <or>
+      <match tags="n.*"/>
+      <match tags="adj.*"/>
+    </or>
+  </rule>
+  <rule weight="3.0">
+    <match lemma="antal">
+      <select lemma="talet på"/>
+    </match>
+    <or>
+      <match lemma="krone"/>
+      <match lemma="grad"/>
+    </or>
+  </rule>
+  <rule weight="2.0">
+    <match lemma="antal" tags="n.*.sg.def"> <!-- nno only can generate for this tagging -->
+      <select lemma="tal"/>
+    </match>
+  </rule>
+
 
 </rules>
