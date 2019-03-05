@@ -2,7 +2,7 @@
 <modes>
   <!-- Swedish → Norwegian Nynorsk -->
   <!-- **************** swe-nno: **************** -->
-  <mode name="swe-nno" install="yes" gendebug="true">
+  <mode name="swe-nno" install="yes" gendebug="yes">
     <pipeline>
       <program name="lt-proc -e">
         <file name="swe-nno.automorf.bin"/>
@@ -43,7 +43,7 @@
 
   <!-- Swedish → Norwegian Bokmål -->
   <!-- **************** swe-nob: **************** -->
-  <mode name="swe-nob" install="yes" gendebug="true">
+  <mode name="swe-nob" install="yes" gendebug="yes">
     <pipeline>
       <program name="lt-proc -e">
         <file name="swe-nob.automorf.bin"/>
@@ -81,7 +81,7 @@
 
   <!-- Norwegian Nynorsk → Swedish -->
   <!-- **************** nno-swe: **************** -->
-  <mode name="nno-swe" install="yes" gendebug="true">
+  <mode name="nno-swe" install="yes" gendebug="yes">
     <pipeline>
       <program name="lt-proc -e -w">
         <file name="nno-swe.automorf.bin"/>
@@ -119,7 +119,7 @@
 
   <!-- Norwegian bokmål → Swedish -->
   <!-- **************** nob-swe: **************** -->
-  <mode name="nob-swe" install="yes" gendebug="true">
+  <mode name="nob-swe" install="yes" gendebug="yes">
     <pipeline>
       <program name="lt-proc -e -w">
         <file name="nob-swe.automorf.bin"/>
