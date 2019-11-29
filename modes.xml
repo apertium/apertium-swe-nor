@@ -124,6 +124,9 @@
       <program name="lt-proc -e -w">
         <file name="nob-swe.automorf.bin"/>
       </program>
+      <program name="cg-proc">
+	<file name="nob-swe.seg.rlx.bin"/>
+      </program>
       <program name="cg-proc -w">
         <file name="nob-swe.rlx.bin"/>
       </program>
