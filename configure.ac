@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium Swedish-Norwegian], [0.3.1], [apertium-stuff@lists.sourceforge.net], [apertium-swe-nor], [http://wiki.apertium.org/wiki/Apertium-swe-nor])
+AC_INIT([Apertium Swedish-Norwegian], [0.3.1], [apertium-stuff@lists.sourceforge.net], [apertium-swe-nor], [https://wiki.apertium.org/wiki/Apertium-swe-nor])
 AM_INIT_AUTOMAKE
 AC_PROG_AWK
 
@@ -9,7 +9,7 @@ PKG_CHECK_MODULES(LTTOOLBOX, lttoolbox >= 3.5.0)
 PKG_CHECK_MODULES(CG3, cg3 >= 1.3.0)
 PKG_CHECK_MODULES(APERTIUM_LEX_TOOLS, apertium-lex-tools >= 0.2.2)
 
-m4_ifdef([AP_CHECK_LING],[],[AC_MSG_ERROR([AP_CHECK_LING not defined, is apertium.m4 in ACLOCAL_PATH? See: http://wiki.apertium.org/wiki/Installation_troubleshooting])])
+m4_ifdef([AP_CHECK_LING],[],[AC_MSG_ERROR([AP_CHECK_LING not defined, is apertium.m4 in ACLOCAL_PATH? See: https://wiki.apertium.org/wiki/Installation_troubleshooting])])
 
 AP_CHECK_LING([1], [apertium-swe], [0.8.1])
 AP_CHECK_LING([2n], [apertium-nno], [1.1.0])
