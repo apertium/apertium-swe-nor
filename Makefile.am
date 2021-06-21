@@ -63,11 +63,11 @@ TARGETS_PREFIX2b =             \
 
 
 # Debug/development goals:
-e: modes/$(PREFIX1).mode	# build just nob-swe
+e: modes/$(PREFIX1b).mode	# build just nob-swe
 	cd $(AP_SRC1) && ${MAKE} $(LANG1).autogen.bin
 	cd $(AP_SRC2b) && ${MAKE} $(LANG2b).automorf.bin  $(LANG2b).seg.rlx.bin $(LANG2b).rlx.bin $(LANG2b).prob
 	${MAKE} $(TARGETS_PREFIX2) $(TARGETS_PREFIX2b)
-r: modes/$(PREFIX1).mode $(PREFIX2b).autolex.bin $(PREFIX2).t1x.bin $(PREFIX2).t2bx.bin $(PREFIX2).t3x.bin # build just transfer and rlx files for nob-nno(_e)
+r: modes/$(PREFIX1b).mode $(PREFIX2b).autolex.bin $(PREFIX2).t1x.bin $(PREFIX2).t2bx.bin $(PREFIX2).t3x.bin # build just transfer and rlx files for nob-nno(_e)
 	cd $(AP_SRC2b) && ${MAKE} $(LANG2b).seg.rlx.bin $(LANG2b).rlx.bin
 	${MAKE} $(PREFIX2b).seg.rlx.bin $(PREFIX2b).rlx.bin
 
