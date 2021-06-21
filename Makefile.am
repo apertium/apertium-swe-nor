@@ -22,34 +22,54 @@ PREFIX2n=$(LANG2n)-$(LANG1)
 
 BASENAME=apertium-$(PREFIX1)
 
-TARGETS_COMMON = \
-      $(PREFIX1).prob \
-      $(PREFIX1b).automorf.bin \
-      $(PREFIX1n).automorf.bin \
-      $(PREFIX1n).autopgen.bin \
-      $(PREFIX1).rlx.bin \
-      $(PREFIX1b).autobil.bin \
-      $(PREFIX1n).autobil.bin \
-      $(PREFIX1b).autolex.bin \
-      $(PREFIX1n).autolex.bin \
-      $(PREFIX1b).t1x.bin $(PREFIX1b).t2x.bin $(PREFIX1b).t3x.bin \
+TARGETS_COMMON =                                               \
+    $(TARGETS_PREFIX1) $(TARGETS_PREFIX1n) $(TARGETS_PREFIX1b) \
+    $(TARGETS_PREFIX2) $(TARGETS_PREFIX2n) $(TARGETS_PREFIX2b)
+
+TARGETS_PREFIX1 =                                                 \
+      $(PREFIX1).prob                                             \
+      $(PREFIX1).rlx.bin
+TARGETS_PREFIX1n =                                                \
+      $(PREFIX1n).automorf.bin                                    \
+      $(PREFIX1n).autopgen.bin                                    \
+      $(PREFIX1n).autobil.bin                                     \
+      $(PREFIX1n).autolex.bin                                     \
       $(PREFIX1n).t1x.bin $(PREFIX1n).t2x.bin $(PREFIX1n).t3x.bin \
-      $(PREFIX1b).autogen.bin \
-      $(PREFIX1n).autogen.bin \
-      $(PREFIX2n).prob \
-      $(PREFIX2b).prob \
-      $(PREFIX2b).automorf.bin \
-      $(PREFIX2n).automorf.bin \
-      $(PREFIX2b).seg.rlx.bin \
-      $(PREFIX2b).rlx.bin \
-      $(PREFIX2n).rlx.bin \
-      $(PREFIX2).autobil.bin \
-      $(PREFIX2b).autolex.bin \
-      $(PREFIX2n).autolex.bin \
-      $(PREFIX2).autogen.bin \
-      $(PREFIX2).t1x.bin \
-      $(PREFIX2).t2x.bin \
+      $(PREFIX1n).autogen.bin
+TARGETS_PREFIX1b =                                                \
+      $(PREFIX1b).automorf.bin                                    \
+      $(PREFIX1b).autobil.bin                                     \
+      $(PREFIX1b).autolex.bin                                     \
+      $(PREFIX1b).t1x.bin $(PREFIX1b).t2x.bin $(PREFIX1b).t3x.bin \
+      $(PREFIX1b).autogen.bin
+
+TARGETS_PREFIX2 =              \
+      $(PREFIX2).autobil.bin   \
+      $(PREFIX2).autogen.bin   \
+      $(PREFIX2).t1x.bin       \
+      $(PREFIX2).t2x.bin       \
       $(PREFIX2).t3x.bin
+TARGETS_PREFIX2n =             \
+      $(PREFIX2n).prob         \
+      $(PREFIX2n).automorf.bin \
+      $(PREFIX2n).rlx.bin      \
+      $(PREFIX2n).autolex.bin
+TARGETS_PREFIX2b =             \
+      $(PREFIX2b).prob         \
+      $(PREFIX2b).automorf.bin \
+      $(PREFIX2b).seg.rlx.bin  \
+      $(PREFIX2b).rlx.bin      \
+      $(PREFIX2b).autolex.bin
+
+
+# Debug/development goals:
+e: modes/$(PREFIX1).mode	# build just nob-swe
+	cd $(AP_SRC1) && ${MAKE} $(LANG1).autogen.bin
+	cd $(AP_SRC2b) && ${MAKE} $(LANG2b).automorf.bin  $(LANG2b).seg.rlx.bin $(LANG2b).rlx.bin $(LANG2b).prob
+	${MAKE} $(TARGETS_PREFIX2) $(TARGETS_PREFIX2b)
+r: modes/$(PREFIX1).mode $(PREFIX2b).autolex.bin $(PREFIX2).t1x.bin $(PREFIX2).t2bx.bin $(PREFIX2).t3x.bin # build just transfer and rlx files for nob-nno(_e)
+	cd $(AP_SRC2b) && ${MAKE} $(LANG2b).seg.rlx.bin $(LANG2b).rlx.bin
+	${MAKE} $(PREFIX2b).seg.rlx.bin $(PREFIX2b).rlx.bin
 
 
 # This include defines goals for install-modes, .deps/.d and .mode files:
