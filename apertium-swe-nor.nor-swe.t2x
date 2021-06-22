@@ -357,6 +357,11 @@
             <and>
               <equal><clip pos="1" part="art"/><lit-tag v="ind"/></equal>
               <equal caseless="yes"><clip pos="2" part="lemh"/><lit v="detdd"/></equal>
+              <!-- [Dubbel bestämdhet] äger rum bara om det finns ett
+                   adjektivattribut före substantivet
+                   https://www.su.se/polopoly_fs/1.287372.1466166341!/menu/standard/file/Dubbel%20best%C3%A4mdhet%20.pdf
+              -->
+              <begins-with caseless="yes"><clip pos="1" part="lemh"/><lit v="adj"/></begins-with>
               <not><or>
                 <and><equal><clip pos="1" part="nbr"/><lit-tag v="pl"/></equal>
                      <equal><clip pos="2" part="nbr"/><lit-tag v="sg"/></equal></and>
