@@ -17,6 +17,7 @@ BEGIN {
         ana[lang]["f"][""]++; delete ana[lang]["f"][""]
         ana[lang]["nt"][""]++; delete ana[lang]["nt"][""]
         ana[lang]["ut"][""]++; delete ana[lang]["ut"][""]
+        ana[lang]["un"][""]++; delete ana[lang]["un"][""]
         ana[lang]["v"][""]++; delete ana[lang]["v"][""]
         ana[lang]["as"][""]++; delete ana[lang]["as"][""]
         ana[lang]["an"][""]++; delete ana[lang]["an"][""]
@@ -29,6 +30,7 @@ BEGIN {
         else if($a~$1"<n><f>"nrestrict)       ana[lang]["f"][$1]++;
         else if($a~$1"<n><nt>"nrestrict)      ana[lang]["nt"][$1]++;
         else if($a~$1"<n><ut>"nrestrict)      ana[lang]["ut"][$1]++;
+        else if($a~$1"<n><un>"nrestrict)      ana[lang]["un"][$1]++;
         else if($a~$1"<vblex>"vrestrict)      ana[lang]["v"][$1]++
         else if($a~$1"<adj><pp>"vprestrict)   ana[lang]["v"][$1]++
         else if($a~$1"<adj><sint>"asrestrict) ana[lang]["as"][$1]++
@@ -56,8 +58,10 @@ BEGIN {
        if(ng=="f" &&nw in ana["swe"]["m"]) print "swe-side dupe!"
        if(ng=="f" &&nw in ana["swe"]["nt"]) print "swe-side dupe!"
        if(ng=="f" &&nw in ana["swe"]["ut"]) print "swe-side dupe!"
+       if(ng=="f" &&nw in ana["swe"]["un"]) print "swe-side dupe!"
        if(ng=="m" &&nw in ana["swe"]["nt"]) print "swe-side dupe!"
        if(ng=="m" &&nw in ana["swe"]["ut"]) print "swe-side dupe!"
+       if(ng=="m" &&nw in ana["swe"]["un"]) print "swe-side dupe!"
        if(ng=="v" && bw in ana["nor"]["v"])        print "<e>       <p><l>"nw"</l><r>"bw"</r></p><par n=\"vblex_adj\"/></e>"
        else if(ng=="as" && bw in ana["nor"]["as"]) print "<e>       <p><l>"nw"</l><r>"bw"</r></p><par n=\"adj_sint\"/></e>"
        else if(ng=="an" && bw in ana["nor"]["as"]) print "<e>       <p><l>"nw"</l><r>"bw"</r></p><par n=\"adj:adj_sint\"/></e>"
