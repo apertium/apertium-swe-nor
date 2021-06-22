@@ -277,6 +277,10 @@
       <e><i>som<s n="cnjsub"/><j/></i></e>
     </pardef>
 
+    <pardef n="def:ind">
+      <e><p><l><s n="def"/></l>   <r><s n="ind"/></r></p></e>
+    </pardef>
+
   </pardefs>
 
   <section id="main" type="standard">
@@ -287,6 +291,13 @@
       <p><l>lov<t/><j/></l>   <r></r></p>
       <p><l>til<t/><j/></l>   <r></r></p>
       <p><l>å<t/><j/></l>   <r></r></p>
+    </e>
+
+    <e lm="et av landene -> et av de land" c="ett av de länder">
+      <i>en<t/><j/></i>
+      <i>av<t/><j/></i>
+      <p><l></l>   <r>den<s n="det"/><s n="dem"/><s n="un"/><s n="pl"/><j/></r></p>
+      <i>land<s n="n"/><s n="nt"/><s n="pl"/></i><par n="def:ind"/><i><j/></i>
     </e>
 
   </section>
