@@ -65,6 +65,26 @@
 
   <rule weight="1.0"><match lemma="uavhengig" tags="adj.*"><select lemma="oberoende" tags="adj.*"/></match></rule>
 
+  <rule><match lemma="tresko" tags="n.*"><select lemma="täppa"/></match></rule>
+
+  <rule><match lemma="reise" tags="n.m.*"><select lemma="resa" tags="n.ut.*"/></match></rule>
+
+  <rule><match lemma="reise" tags="vblex.*"><select lemma="resa" tags="vblex.*"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="reise" tags="vblex.*"><select lemma="ställa" tags="vblex.*"/></match>
+    <match lemma="opp"/>
+  </rule>
+
+  <rule><match lemma="ut av"><select lemma="ur"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="reise"/>
+    <match lemma="ut av"><select lemma="från"/></match>
+  </rule>
+
+  <rule><match lemma="by" tags="n.*"><select lemma="stad"/></match></rule>
+
+  <rule><match lemma="tittel" tags="n.*"><select lemma="rubrik"/></match></rule>
+
   <!-- Frequency-based rules: -->
 
 <rule weight="0.9"><match lemma="abbed" tags="n.m.*"><select lemma="abbot" tags="n.ut.*"/></match></rule><!-- 59 -->
@@ -2160,8 +2180,6 @@
 <rule weight="0.9"><match lemma="reike" tags="vblex.*"><select lemma="driva" tags="vblex.*"/></match></rule><!-- 3945 -->
 <rule weight="0.9"><match lemma="rein" tags="n.m.*"><select lemma="ren" tags="n.ut.*"/></match></rule><!-- 852 -->
 <rule weight="0.9"><match lemma="reir" tags="n.nt.*"><select lemma="reda" tags="n.ut.*"/></match></rule><!-- 5766 -->
-<rule weight="0.9"><match lemma="reise" tags="n.m.*"><select lemma="väg" tags="n.ut.*"/></match></rule><!-- 32185 -->
-<rule weight="0.9"><match lemma="reise" tags="vblex.*"><select lemma="ställa" tags="vblex.*"/></match></rule><!-- 8367 -->
 <rule weight="0.9"><match lemma="reis" tags="n.m.*"><select lemma="resa" tags="n.ut.*"/></match></rule><!-- 5240 -->
 <rule weight="0.9"><match lemma="reke" tags="vblex.*"><select lemma="driva" tags="vblex.*"/></match></rule><!-- 3945 -->
 <rule weight="0.9"><match lemma="rekke" tags="n.m.*"><select lemma="rad" tags="n.ut.*"/></match></rule><!-- 2357 -->
@@ -3131,6 +3149,4 @@
 <rule weight="0.9"><match lemma="årgang" tags="n.m.*"><select lemma="årgång" tags="n.ut.*"/></match></rule><!-- 137 -->
 <rule weight="0.9"><match lemma="århundre" tags="n.nt.*"><select lemma="århundrade" tags="n.nt.*"/></match></rule><!-- 971 -->
 <rule weight="0.9"><match lemma="årlig" tags="adj.*"><select lemma="årlig" tags="adj.*"/></match></rule><!-- 460 -->
-
-  <rule><match lemma="tresko" tags="n.*"><select lemma="täppa"/></match></rule>
 </rules>
