@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dictionary type="separable">
+  <!--
+      This file rewrites the analysed input Norwegian into a Norwegian
+      that has slightly more idiomatic Swedish word order and
+      choice. (Maybe think of it like a multi-word bidix from
+      Norwegian to more Swedish-like Norwegian.)
+
+      So both the <l> and the <r> of this file is Norwegian. All
+      mentioned lemmas need to be in bidix (even ones that are removed
+      by rules here, since compilation will remove lemmas from the
+      analyser that are not in bidix).
+  -->
+
+  <alphabet></alphabet>
+  <sdefs>
+    <sdef n="n"       c="Noun"/>
+    <sdef n="np"      c="Proper noun"/>
+    <sdef n="prn"     c="Pronoun"/>
+    <sdef n="det"     c="Determiner"/>
+    <sdef n="pos"     c="Possessive"/>
+
+    <sdef n="p1"      c="1st person"/>
+    <sdef n="p2"      c="2nd person"/>
+    <sdef n="p3"      c="3rd person"/>
+
+    <sdef n="nt"      c="Neuter"/>
+    <sdef n="mf"      c="Masculine / feminine, also utrum in nouns"/>
+    <sdef n="un"      c="No gender"/>
+    <sdef n="f"       c="Feminine"/>
+    <sdef n="m"       c="Masculine"/>
+
+    <sdef n="sp"      c="Singular / plural"/>
+    <sdef n="sg"      c="Singular"/>
+    <sdef n="pl"      c="Plural"/>
+
+    <sdef n="ind"     c="Indefinite"/>
+    <sdef n="def"     c="Definite"/>
+
+    <sdef n="nom"     c="Nominative"/>
+    <sdef n="acc"     c="Accusative"/>        <!-- objective case -->
+    <sdef n="gen"     c="Genitive"/>
+
+    <sdef n="dem"     c="Demonstrative"/>
+    <sdef n="itg"     c="Question word / interrogative"/>
+    <sdef n="qnt"     c="Quantifier"/>
+    <sdef n="neg"     c="Negative"/>
+    <sdef n="emph"    c="Emphatic"/>
+    <sdef n="pers"    c="Personal (pronoun)"/>
+	<sdef n="ref"     c="Reflexive pronoun"/>
+
+    <sdef n="vblex"   c="Verb"/>
+    <sdef n="pstv"    c="-st verb (Nynorsk)"/>
+    <sdef n="pasv"    c="Passive (Bokmål) or -st form (Nynorsk)"/>
+    <sdef n="inf"     c="Infinitive"/>
+    <sdef n="pres"    c="Present"/>
+    <sdef n="imp"     c="Imperative"/>
+    <sdef n="pret"    c="Preterite"/>
+    <sdef n="pp"      c="Perfect participle"/>
+    <sdef n="pprs"  c="Present participle (adjectival)"/>
+
+    <sdef n="pr"      c="Preposition"/>
+    <sdef n="ij"      c="Interjection"/>
+    <sdef n="adv"     c="Adverb"/>
+    <sdef n="adj"     c="Adjective"/>
+    <sdef n="sint"    c="Synthetic (of adjectives)"/>
+    <sdef n="part"    c="Participle (infinitive)"/>
+    <sdef n="cnjsub"  c="Subordinating conjunction"/>
+    <sdef n="cnjcoo"  c="Co-ordinating conjunction"/>
+    <sdef n="cnjadv"  c="Adverbial conjunction"/>
+
+    <sdef n="pst"    c="Positive"/>
+    <sdef n="comp"    c="Comparative"/>
+    <sdef n="sup"     c="Superlative"/>
+
+    <sdef n="ord"     c="Ordinal"/>
+    <sdef n="acr"     c="Acronym"/>
+    <sdef n="sent"    c="Sentence end" />
+    <sdef n="cm"      c="Comma" />
+    <sdef n="guio"      c="Dash" />
+    <sdef n="clb"     c="Possible clause boundary"/>
+    <sdef n="overskrift" c="Headline"/>
+    <sdef n="apos"    c="Apostrophe" />
+    <sdef n="lpar"    c="Left parenthesis" />
+    <sdef n="rpar"    c="Right parenthesis" />
+    <sdef n="lquot"   c="Left quotation mark"/>
+    <sdef n="rquot"   c="Right quotation mark"/>
+
+    <sdef n="top"     c="Toponym" />
+    <sdef n="cog"     c="Cognomen" />
+    <sdef n="org"     c="Organisation" />
+    <sdef n="ant"     c="Anthroponym" />
+
+    <sdef n="cmp"     c="Compound-left-part"/>
+    <sdef n="cmp-split" c="Split compound-left-part"/>
+
+    <sdef n="guess" 	c="Guesser"/>
+    <sdef n="cgguess" 	c="CG Guesser"/>
+    <sdef n="url" 	c="URL/E-mail"/>
+
+    <sdef n="GD"     c="Género por determinar" />
+    <sdef n="ND"     c="Número por determinar" />
+
+    <sdef n="aa"/>
+    <sdef n="AA"/>
+    <sdef n="Aa"/>
+  </sdefs>
+
+  <pardefs>
+
+    <pardef n="adj">
+      <e><i><w/><s n="adj"/><t/><j/></i></e>
+    </pardef>
+    <pardef n="adj.ord|comp">
+      <e><i><w/><s n="adj"/><s n="ord"/><t/><j/></i></e>
+      <e><i><w/><s n="adj"/><s n="comp"/><t/><j/></i></e>
+      <e><i><w/><s n="adj"/><s n="sint"/><s n="comp"/><t/><j/></i></e>
+    </pardef>
+    <pardef n="pr">
+      <e><i><w/><s n="pr"/><j/></i></e>
+      <e><i><w/><s n="pr"/><t/><j/></i></e>
+    </pardef>
+    <pardef n="n">
+      <e><i><w/><s n="n"/><t/><j/></i></e>
+    </pardef>
+    <pardef n="adv">
+      <e><i><w/><s n="adv"/><j/></i></e>
+      <e><i><w/><s n="adv"/><t/><j/></i></e>
+    </pardef>
+    <pardef n="prn">
+      <e><i><w/><s n="prn"/><j/></i></e>
+      <e><i><w/><s n="prn"/><t/><j/></i></e>
+    </pardef>
+
+    <pardef n="n.sg.ind" c="No final t/ – avoid cmp!">
+      <e><i><w/><s n="n"/><t/><s n="sg"/><s n="ind"/><j/></i></e>
+      <e><i><w/><s n="n"/><t/><s n="sg"/><s n="ind"/><s n="gen"/><j/></i></e>
+      <e><i><w/><s n="n"/><t/><s n="sg"/><s n="ind"/><s n="aa"/><j/></i></e>
+      <e><i><w/><s n="n"/><t/><s n="sg"/><s n="ind"/><s n="Aa"/><j/></i></e>
+      <e><i><w/><s n="n"/><t/><s n="sg"/><s n="ind"/><s n="AA"/><j/></i></e>
+      <e><i><w/><s n="n"/><t/><s n="sg"/><s n="ind"/><s n="gen"/><s n="aa"/><j/></i></e>
+      <e><i><w/><s n="n"/><t/><s n="sg"/><s n="ind"/><s n="gen"/><s n="Aa"/><j/></i></e>
+      <e><i><w/><s n="n"/><t/><s n="sg"/><s n="ind"/><s n="gen"/><s n="AA"/><j/></i></e>
+    </pardef>
+    <pardef n="ncmp">
+      <e><i><w/><s n="n"/><t/><s n="cmp"/><j/></i></e>
+      <e><i><w/><s n="n"/><t/><s n="cmp"/><t/><j/></i></e>
+    </pardef>
+    <pardef n="ncmp*.n.sg.ind">
+      <e>                                             <par n="n.sg.ind"/></e>
+      <e>                              <par n="ncmp"/><par n="n.sg.ind"/></e>
+      <e>               <par n="ncmp"/><par n="ncmp"/><par n="n.sg.ind"/></e>
+      <e><par n="ncmp"/><par n="ncmp"/><par n="ncmp"/><par n="n.sg.ind"/></e>
+    </pardef>
+
+    <pardef n="SN">
+      <e>                            <par n="n"/></e>
+      <e>              <par n="adj"/><par n="n"/></e>
+      <e><par n="adj"/><par n="adj"/><par n="n"/></e>
+    </pardef>
+
+    <pardef n="SN|adv|prn|" c="Includes empty!">
+      <e></e>
+      <e><par n="SN"/></e>
+      <e><par n="adv"/></e>
+      <e><par n="prn"/></e>
+      <e><i><w/><s n="det"/><s n="dem"/><t/><j/></i></e>
+    </pardef>
+
+    <pardef n="SN.sg.ind">
+      <e>                            <par n="ncmp*.n.sg.ind"/></e>
+      <e>              <par n="adj"/><par n="ncmp*.n.sg.ind"/></e>
+      <e><par n="adj"/><par n="adj"/><par n="ncmp*.n.sg.ind"/></e>
+    </pardef>
+
+    <pardef n="Tidsuttrykk">
+      <e><i>time<t/><j/></i></e>
+      <e><i>uke<t/><j/></i></e>
+      <e><i>år<t/><j/></i></e>
+      <e><i>måned<t/><j/></i></e>
+      <e><i>dag<t/><j/></i></e>
+    </pardef>
+
+    <pardef n="seg">
+      <e><i><w/><s n="prn"/><s n="ref"/><t/><j/></i></e>
+    </pardef>
+
+    <pardef n="rem-seg">
+      <e><p><l><w/><s n="prn"/><s n="ref"/><t/><j/></l> <r></r></p></e>
+    </pardef>
+
+    <pardef n="refl-prn">
+      <e><i><w/><s n="prn"/><s n="ref"/><t/><j/></i></e>
+      <e><i>jeg<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="acc"/><j/></i></e>
+      <e><i>du<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="acc"/><j/></i></e>
+      <e><i>vi<s n="prn"/><s n="pers"/><s n="p1"/><s n="un"/><s n="pl"/><s n="acc"/><j/></i></e>
+      <e><i>dere<s n="prn"/><s n="pers"/><s n="p2"/><s n="un"/><s n="pl"/><s n="acc"/><j/></i></e>
+    </pardef>
+
+    <pardef n="rem-refl-prn">
+      <e><p><l><w/><s n="prn"/><s n="ref"/><t/><j/></l> <r></r></p></e>
+      <e><p><l>jeg<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="acc"/><j/></l> <r></r></p></e>
+      <e><p><l>du<s n="prn"/><s n="pers"/><s n="p2"/><s n="mf"/><s n="sg"/><s n="acc"/><j/></l> <r></r></p></e>
+      <e><p><l>vi<s n="prn"/><s n="pers"/><s n="p1"/><s n="un"/><s n="pl"/><s n="acc"/><j/></l> <r></r></p></e>
+      <e><p><l>dere<s n="prn"/><s n="pers"/><s n="p2"/><s n="un"/><s n="pl"/><s n="acc"/><j/></l> <r></r></p></e>
+    </pardef>
+
+    <pardef n="pos">
+      <e><i><w/><s n="det"/><s n="pos"/><t/><j/></i></e>
+    </pardef>
+
+    <pardef n="rem-pos">
+      <e><p><l><w/><s n="det"/><s n="pos"/><t/><j/></l> <r></r></p></e>
+    </pardef>
+
+    <pardef n="modal+ville">
+      <e><i>ville<s n="vblex"/><t/><j/></i></e>
+      <e><i>skulle<s n="vblex"/><t/><j/></i></e>
+      <e><i>burde<s n="vblex"/><t/><j/></i></e>
+      <e><i>måtte<s n="vblex"/><t/><j/></i></e>
+      <e><i>kunne<s n="vblex"/><t/><j/></i></e>
+    </pardef>
+
+    <pardef n="modal">
+      <e><i>skulle<s n="vblex"/><t/><j/></i></e>
+      <e><i>burde<s n="vblex"/><t/><j/></i></e>
+      <e><i>måtte<s n="vblex"/><t/><j/></i></e>
+      <e><i>kunne<s n="vblex"/><t/><j/></i></e>
+    </pardef>
+
+    <pardef n="være/bli">
+      <e><i>være<s n="vblex"/><t/><j/></i></e>
+      <e><i>bli<s n="vblex"/><t/><j/></i></e>
+    </pardef>
+
+    <pardef n="sent-cm">
+      <e><i><w/><s n="sent"/><t/><j/></i></e>
+      <e><i><w/><s n="cm"/><j/></i></e>
+    </pardef>
+
+    <pardef n="spørjeord">
+      <e><i><w/><s n="prn"/><s n="itg"/><j/></i></e>
+      <e><i>hva<s n="adv"/><j/></i></e>
+      <e><i>hvor<s n="adv"/><j/></i></e>
+      <e><i>når<s n="adv"/><j/></i></e>
+      <e><i>hvorfor<s n="adv"/><j/></i></e>
+      <e><i>hvordan<s n="adv"/><j/></i></e>
+      <e><i>hvordan<s n="cnjsub"/><j/></i></e>
+      <e><i>hvor<b/>hen<s n="pr"/><j/></i></e>
+      <e><i>hvor<b/>mange<s n="adv"/><j/></i></e>
+      <e><i>hvor<b/>mange<s n="det"/><s n="qnt"/><s n="un"/><s n="pl"/><j/></i></e>
+      <e><i>hvor<b/>mye<s n="adv"/><j/></i></e>
+    </pardef>
+
+    <pardef n="stor:helt-mye:mer">
+      <e>
+        <p><l>stor<s n="adj"/><t/><j/></l> <r></r></p>
+        <p><l></l>                         <r>hel<s n="adj"/><s n="sint"/><s n="pst"/><s n="nt"/><s n="sg"/><s n="ind"/><j/></r></p>
+      </e>
+      <e>
+        <p><l>mye<s n="adj"/><t/><j/></l> <r></r></p>
+        <p><l></l>                        <r>mye<s n="adj"/><s n="sint"/><s n="comp"/><s n="un"/><s n="sp"/><j/></r></p>
+      </e>
+      <e>
+        <p><l>en<s n="det"/><s n="qnt"/><t/><j/></l>                 <r></r></p>
+        <p><l>del<s n="n"/><s n="m"/><s n="sg"/><s n="ind"/><j/></l> <r></r></p>
+        <p><l></l>                                                   <r>noe<s n="prn"/><s n="ind"/><s n="nt"/><s n="sg"/><s n="acc"/><j/></r></p>
+      </e>
+    </pardef>
+
+    <pardef n="at/om/av/som">
+      <e><i>at<s n="adv"/><j/></i></e>
+      <e><i>at<s n="cnjsub"/><j/></i></e>
+      <e><i>om<s n="pr"/><j/></i></e>
+      <e><i>om<s n="cnjsub"/><j/></i></e>
+      <e><i>av<s n="pr"/><j/></i></e>
+      <e><i>som<s n="cnjsub"/><j/></i></e>
+    </pardef>
+
+  </pardefs>
+
+  <section id="main" type="standard">
+
+    <e lm="får ikke lov til å -> får ikke" c="får inte">
+      <i>få<t/><j/></i>
+      <i>ikke<t/><j/></i>
+      <p><l>lov<t/><j/></l>   <r></r></p>
+      <p><l>til<t/><j/></l>   <r></r></p>
+      <p><l>å<t/><j/></l>   <r></r></p>
+    </e>
+
+  </section>
+
+</dictionary>

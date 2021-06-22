@@ -44,6 +44,7 @@ TARGETS_PREFIX1b =                                                \
       $(PREFIX1b).autogen.bin
 
 TARGETS_PREFIX2 =              \
+      $(PREFIX2).autoseq.bin   \
       $(PREFIX2).autobil.bin   \
       $(PREFIX2).autogen.bin   \
       $(PREFIX2).t1x.bin       \
@@ -69,7 +70,7 @@ e: modes/$(PREFIX1b).mode	# build just nob-swe
 	${MAKE} $(TARGETS_PREFIX2) $(TARGETS_PREFIX2b)
 r: modes/$(PREFIX1b).mode $(PREFIX2b).autolex.bin $(PREFIX2).t1x.bin $(PREFIX2).t2bx.bin $(PREFIX2).t3x.bin # build just transfer and rlx files for nob-nno(_e)
 	cd $(AP_SRC2b) && ${MAKE} $(LANG2b).seg.rlx.bin $(LANG2b).rlx.bin
-	${MAKE} $(PREFIX2b).seg.rlx.bin $(PREFIX2b).rlx.bin
+	${MAKE} $(PREFIX2b).seg.rlx.bin $(PREFIX2b).rlx.bin $(PREFIX2).autoseq.bin
 
 
 # This include defines goals for install-modes, .deps/.d and .mode files:
@@ -146,6 +147,16 @@ $(PREFIX2n).rlx.bin: $(AP_SRC2n)/apertium-$(LANG2n).$(LANG2n).rlx
 
 %.autolex.bin: $(BASENAME).%.lrx
 	lrx-comp $< $@
+
+###############################################################################
+## Separable / discontiguous multiwords
+###############################################################################
+
+$(PREFIX1).autoseq.bin: $(BASENAME).$(PREFIX1).lsx
+	lsx-comp lr $< $@
+
+$(PREFIX2).autoseq.bin: $(BASENAME).$(PREFIX2).lsx
+	lsx-comp lr $< $@
 
 ###############################################################################
 ## Bilingual dictionaries
