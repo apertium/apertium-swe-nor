@@ -94,7 +94,7 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lsx-proc">
-        <file name="nob-nno.autoseq.bin"/>
+        <file name="nor-swe.autoseq.bin"/>
       </program>
       <program name="lt-proc -b">
         <file name="nor-swe.autobil.bin"/>
@@ -138,7 +138,7 @@
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lsx-proc">
-        <file name="nob-nno.autoseq.bin"/>
+        <file name="nor-swe.autoseq.bin"/>
       </program>
       <program name="lt-proc -b">
         <file name="nor-swe.autobil.bin"/>
