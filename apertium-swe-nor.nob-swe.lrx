@@ -3132,4 +3132,5 @@
 <rule weight="0.9"><match lemma="århundre" tags="n.nt.*"><select lemma="århundrade" tags="n.nt.*"/></match></rule><!-- 971 -->
 <rule weight="0.9"><match lemma="årlig" tags="adj.*"><select lemma="årlig" tags="adj.*"/></match></rule><!-- 460 -->
 
+  <rule><match lemma="tresko" tags="n.*"><select lemma="täppa"/></match></rule>
 </rules>
