@@ -55,6 +55,8 @@ BEGIN {
        else if(bw in bknown) {
            print "<apertium-notrans>Only nor-side in, check that this gives the right translation:</apertium-notrans>"bw"<apertium-notrans>"nw":"bw"</apertium-notrans>"
        }
+       bwo=bw;gsub(/ /,"<b/>",bwo)
+       nwo=nw;gsub(/ /,"<b/>",nwo)
        if(ng=="f" &&nw in ana["swe"]["m"]) print "swe-side dupe!"
        if(ng=="f" &&nw in ana["swe"]["nt"]) print "swe-side dupe!"
        if(ng=="f" &&nw in ana["swe"]["ut"]) print "swe-side dupe!"
@@ -62,15 +64,15 @@ BEGIN {
        if(ng=="m" &&nw in ana["swe"]["nt"]) print "swe-side dupe!"
        if(ng=="m" &&nw in ana["swe"]["ut"]) print "swe-side dupe!"
        if(ng=="m" &&nw in ana["swe"]["un"]) print "swe-side dupe!"
-       if(ng=="v" && bw in ana["nor"]["v"])        print "<e>       <p><l>"nw"</l><r>"bw"</r></p><par n=\"vblex_adj\"/></e>"
-       else if(ng=="as" && bw in ana["nor"]["as"]) print "<e>       <p><l>"nw"</l><r>"bw"</r></p><par n=\"adj_sint\"/></e>"
-       else if(ng=="an" && bw in ana["nor"]["as"]) print "<e>       <p><l>"nw"</l><r>"bw"</r></p><par n=\"adj:adj_sint\"/></e>"
-       else if(ng=="as" && bw in ana["nor"]["an"]) print "<e>       <p><l>"nw"</l><r>"bw"</r></p><par n=\"adj_sint:adj\"/></e>"
-       else if(ng=="an" && bw in ana["nor"]["an"]) print "<e>       <p><l>"nw"</l><r>"bw"</r></p><par n=\"adj\"/></e>"
-       else if(ng=="av" && bw in ana["nor"]["av"]) print "<e>       <p><l>"nw"<s n=\"adv\"/></l><r>"bw"<s n=\"adv\"/></r></p></e>"
+       if(ng=="v" && bw in ana["nor"]["v"])        print "<e>       <p><l>"nwo"</l><r>"bwo"</r></p><par n=\"vblex_adj\"/></e>"
+       else if(ng=="as" && bw in ana["nor"]["as"]) print "<e>       <p><l>"nwo"</l><r>"bwo"</r></p><par n=\"adj_sint\"/></e>"
+       else if(ng=="an" && bw in ana["nor"]["as"]) print "<e>       <p><l>"nwo"</l><r>"bwo"</r></p><par n=\"adj:adj_sint\"/></e>"
+       else if(ng=="as" && bw in ana["nor"]["an"]) print "<e>       <p><l>"nwo"</l><r>"bwo"</r></p><par n=\"adj_sint:adj\"/></e>"
+       else if(ng=="an" && bw in ana["nor"]["an"]) print "<e>       <p><l>"nwo"</l><r>"bwo"</r></p><par n=\"adj\"/></e>"
+       else if(ng=="av" && bw in ana["nor"]["av"]) print "<e>       <p><l>"nwo"<s n=\"adv\"/></l><r>"bwo"<s n=\"adv\"/></r></p></e>"
        else {
-            if(bw in ana["nor"]["m"])              print "<e>       <p><l>"nw"<s n=\"n\"/><s n=\""ng"\"/></l><r>"bw"<s n=\"n\"/><s n=\"m\"/></r></p></e>"
-            if(bw in ana["nor"]["nt"])             print "<e>       <p><l>"nw"<s n=\"n\"/><s n=\""ng"\"/></l><r>"bw"<s n=\"n\"/><s n=\"nt\"/></r></p></e>"
+            if(bw in ana["nor"]["m"])              print "<e>       <p><l>"nwo"<s n=\"n\"/><s n=\""ng"\"/></l><r>"bwo"<s n=\"n\"/><s n=\"m\"/></r></p></e>"
+            if(bw in ana["nor"]["nt"])             print "<e>       <p><l>"nwo"<s n=\"n\"/><s n=\""ng"\"/></l><r>"bwo"<s n=\"n\"/><s n=\"nt\"/></r></p></e>"
             else if(!(bw in ana["nor"]["f"] || bw in ana["nor"]["m"])) {
                 # all the print <e> above failed:
                 bgg=""; for(bg in ana["nor"])if(bw in ana["nor"][bg])bgg=bgg"]["bg; sub(/^\]\[/,"",bgg)
