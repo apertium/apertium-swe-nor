@@ -110,6 +110,17 @@
     <match lemma="is" tags="n.m.*"><select lemma="glass" tags="n.ut.*"/></match>
   </rule>
 
+  <rule c="TODO: pojke if he's young enough …">
+    <match lemma="gutt" tags="n.m.*"><select lemma="kille" tags="n.ut.*"/></match>
+  </rule>
+  <rule><match lemma="guttunge" tags="n.m.*"><select lemma="pojke" tags="n.ut.*"/></match></rule>
+
+  <rule><match lemma="denne" tags="det.*"><select lemma="denna"/></match></rule>
+  <rule weight="2.0" c="denne gutten → den här killen">
+    <match lemma="denne" tags="det.dem.m.sg"><select lemma="den här"/></match>
+    <match tags="n.*.sg.def"/>
+  </rule>
+
   <!-- Frequency-based rules: -->
 
 <rule weight="0.9"><match lemma="abbed" tags="n.m.*"><select lemma="abbot" tags="n.ut.*"/></match></rule><!-- 59 -->
@@ -1530,8 +1541,6 @@
 <rule weight="0.9"><match lemma="gule" tags="n.m.*"><select lemma="gula" tags="n.ut.*"/></match></rule><!-- 308 -->
 <rule weight="0.9"><match lemma="gull" tags="n.nt.*"><select lemma="guld" tags="n.nt.*"/></match></rule><!-- 4070 -->
 <rule weight="0.9"><match lemma="gunstig" tags="adj.*"><select lemma="gynnsam" tags="adj.*"/></match></rule><!-- 135 -->
-<rule weight="0.9"><match lemma="gutt" tags="n.m.*"><select lemma="kille" tags="n.ut.*"/></match></rule><!-- 25857 -->
-<rule weight="0.9"><match lemma="guttunge" tags="n.m.*"><select lemma="pojke" tags="n.ut.*"/></match></rule><!-- 14843 -->
 <rule weight="0.9"><match lemma="gyldig" tags="adj.*"><select lemma="gill" tags="adj.*"/></match></rule><!-- 1680 -->
 <rule weight="0.9"><match lemma="gyroskop" tags="n.nt.*"><select lemma="gyro" tags="n.nt.*"/></match></rule><!-- 24 -->
 <rule weight="0.9"><match lemma="gørrande" tags="adv"><select lemma="mycket" tags="adv"/></match></rule><!-- 80279 -->
