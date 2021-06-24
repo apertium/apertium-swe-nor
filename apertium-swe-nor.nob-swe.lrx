@@ -101,6 +101,15 @@
 
   <rule><match lemma="plutselig" tags="adj.*"><select lemma="plötslig"/></match></rule>
 
+  <rule><match lemma="ramme" tags="vblex.*"><select lemma="drabba" tags="vblex.*"/></match></rule>
+  <rule><match lemma="ramme" tags="adj.pp.*"><select lemma="drabba" tags="adj.pp.*"/></match></rule>
+
+  <rule><match lemma="is" tags="n.m.*"><select lemma="is" tags="n.ut.*"/></match></rule>
+  <rule weigh="2.0">
+    <match lemma="spise"/>
+    <match lemma="is" tags="n.m.*"><select lemma="glass" tags="n.ut.*"/></match>
+  </rule>
+
   <!-- Frequency-based rules: -->
 
 <rule weight="0.9"><match lemma="abbed" tags="n.m.*"><select lemma="abbot" tags="n.ut.*"/></match></rule><!-- 59 -->
@@ -1814,9 +1823,8 @@
 <rule weight="0.9"><match lemma="irritere" tags="adj.pp.*"><select lemma="reta" tags="adj.pp.*"/></match></rule><!-- 953 -->
 <rule weight="0.9"><match lemma="ising" tags="n.m.*"><select lemma="sandskädda" tags="n.ut.*"/></match></rule><!-- 1 -->
 <rule weight="0.9"><match lemma="iskald" tags="adj.*"><select lemma="iskall" tags="adj.*"/></match></rule><!-- 431 -->
-<rule weight="0.9"><match lemma="iskrem" tags="n.m.*"><select lemma="is" tags="n.ut.*"/></match></rule><!-- 3194 -->
+<rule weight="0.9"><match lemma="iskrem" tags="n.m.*"><select lemma="glass" tags="n.ut.*"/></match></rule><!-- 3194 -->
 <rule weight="0.9"><match lemma="isolasjon" tags="n.m.*"><select lemma="isolering" tags="n.ut.*"/></match></rule><!-- 483 -->
-<rule weight="0.9"><match lemma="is" tags="n.m.*"><select lemma="is" tags="n.ut.*"/></match></rule><!-- 3194 -->
 <rule weight="0.9"><match lemma="istemme" tags="vblex.*"><select lemma="instämma" tags="vblex.*"/></match></rule><!-- 190 -->
 <rule weight="0.9"><match lemma="istemme" tags="adj.pp.*"><select lemma="instämma" tags="adj.pp.*"/></match></rule><!-- 190 -->
 <rule weight="0.9"><match lemma="jafse" tags="vblex.*"><select lemma="svälja" tags="vblex.*"/></match></rule><!-- 813 -->
@@ -3078,8 +3086,6 @@
 <rule weight="0.9"><match lemma="ramande" tags="adv"><select lemma="mycket" tags="adv"/></match></rule><!-- 80279 -->
 <rule weight="0.9"><match lemma="rammande" tags="adv"><select lemma="mycket" tags="adv"/></match></rule><!-- 80279 -->
 <rule weight="0.9"><match lemma="rammende" tags="adv"><select lemma="mycket" tags="adv"/></match></rule><!-- 80279 -->
-<rule weight="0.9"><match lemma="ramme" tags="vblex.*"><select lemma="träffa" tags="vblex.*"/></match></rule><!-- 32113 -->
-<rule weight="0.9"><match lemma="ramme" tags="adj.pp.*"><select lemma="träffa" tags="adj.pp.*"/></match></rule><!-- 32113 -->
 <rule weight="0.9"><match lemma="rande" tags="vblex.*"><select lemma="ränna" tags="vblex.*"/></match></rule><!-- 126 -->
 <rule weight="0.9"><match lemma="rande" tags="adj.pp.*"><select lemma="ränna" tags="adj.pp.*"/></match></rule><!-- 126 -->
 <rule weight="0.9"><match lemma="rangere" tags="vblex.*"><select lemma="ranka" tags="vblex.*"/></match></rule><!-- 170 -->
