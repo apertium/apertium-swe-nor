@@ -66,6 +66,7 @@
     </def-cat>
     <def-cat n="vblex">
       <cat-item name="vblex"/>
+      <cat-item name="verb"/>
     </def-cat>
   </section-def-cats>
 
@@ -230,10 +231,20 @@
       </pattern>
       <action>
         <choose>
-          <when><test><and>
-            <equal><clip pos="0" part="tags"/><lit-tag v="vblex.inf.pasv"/></equal>
-            <equal><clip pos="1" part="temps"/><lit-tag v="pp"/></equal>
-          </and></test>
+          <when><test><or>
+            <and>
+              <equal><clip pos="0" part="tags"/><lit-tag v="vblex.inf.pasv"/></equal>
+              <equal><clip pos="1" part="temps"/><lit-tag v="pp"/></equal>
+            </and>
+            <and>
+              <equal><clip pos="0" part="tags"/><lit-tag v="vblex.supn.pasv"/></equal>
+              <equal><clip pos="1" part="temps"/><lit-tag v="supn"/></equal>
+            </and>
+            <and>
+              <equal><clip pos="0" part="tags"/><lit-tag v="vblex.past.pasv"/></equal>
+              <equal><clip pos="1" part="temps"/><lit-tag v="supn"/></equal>
+            </and>
+          </or></test>
           <out>
             <lu>
               <clip pos="1" part="lemh"/>

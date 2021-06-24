@@ -709,7 +709,9 @@
       <choose><when>
         <test><or>
           <equal><clip pos="1" side="tl" part="lemh"/><lit v="bli"/></equal>
-          <equal><clip pos="1" side="tl" part="lemh"/><lit v="vere"/></equal>
+          <equal><clip pos="1" side="tl" part="lemh"/><lit v="vara"/></equal>
+          <equal><clip pos="1" side="tl" part="lemh"/><lit v="vara¹"/></equal>
+          <equal><clip pos="1" side="tl" part="lemh"/><lit v="ha"/></equal>
         </or></test>
         <let><var n="c_name"/><lit v="aux"/></let>
       </when></choose>
@@ -785,7 +787,9 @@
         <choose><when>
           <test><or>
             <equal><clip pos="1" side="tl" part="lemh"/><lit v="bli"/></equal>
-            <equal><clip pos="1" side="tl" part="lemh"/><lit v="vere"/></equal>
+            <equal><clip pos="1" side="tl" part="lemh"/><lit v="vara"/></equal>
+            <equal><clip pos="1" side="tl" part="lemh"/><lit v="vara¹"/></equal>
+            <equal><clip pos="1" side="tl" part="lemh"/><lit v="ha"/></equal>
           </or></test>
           <let><var n="c_name"/><lit v="aux"/></let>
         </when></choose>
