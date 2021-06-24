@@ -2213,4 +2213,5 @@
 
 
   <rule><match lemma="ordningsföljd" tags="n.*"><select lemma="rekkefølgje"/></match></rule>
+  <rule><match lemma="förbi" tags="adv"><select lemma="forbi"/></match></rule>
 </rules>

@@ -121,6 +121,18 @@
     <match tags="n.*.sg.def"/>
   </rule>
 
+  <rule><match lemma="distanse" tags="n.*"><select lemma="avstånd"/></match></rule>
+
+  <rule><match lemma="opprør" tags="n.*"><select lemma="uppror"/></match></rule>
+
+  <rule><match lemma="over" tags="adv"><select lemma="över"/></match></rule>
+
+  <rule><match lemma="salg" tags="n.*"><select lemma="försäljning"/></match></rule>
+  <rule weigh="2.0">
+    <match lemma="på"/>
+    <match lemma="salg" tags="n.*"><select lemma="rea"/></match>
+  </rule>
+
   <!-- Frequency-based rules: -->
 
 <rule weight="0.9"><match lemma="abbed" tags="n.m.*"><select lemma="abbot" tags="n.ut.*"/></match></rule><!-- 59 -->
