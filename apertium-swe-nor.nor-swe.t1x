@@ -343,6 +343,7 @@
     <def-var n="caseFirstWord"/>
     <def-var n="caseSecondWord"/>
     <def-var n="c_name"         c="chunk name"/>
+    <def-var n="c_tags"         c="chunk tags"/>
     <def-var n="ntags"/>
     <def-var n="aux"/>
     <def-var n="defnes"/>
@@ -706,6 +707,7 @@
       <call-macro n="set_voice"><with-param pos="1"/></call-macro>
 
       <let><var n="c_name"/><lit v="verb"/></let>
+      <let><var n="c_tags"/><clip pos="1" side="tl" part="tags"/></let>
       <choose><when>
         <test><or>
           <equal><clip pos="1" side="tl" part="lemh"/><lit v="bli"/></equal>
@@ -714,10 +716,11 @@
           <equal><clip pos="1" side="tl" part="lemh"/><lit v="ha"/></equal>
         </or></test>
         <let><var n="c_name"/><lit v="aux"/></let>
+        <append n="c_tags"><concat><lit v="&lt;"/><clip pos="1" side="tl" part="lemh"/><lit v="&gt;"/></concat></append>
       </when></choose>
       <out>
         <chunk namefrom="c_name" case="caseFirstWord">
-          <tags><tag><clip pos="1" side="tl" part="tags"/></tag></tags>
+          <tags><tag><var n="c_tags"/></tag></tags>
           <lu>
             <clip pos="1" side="tl" part="lemh"/>
             <clip pos="1" side="tl" part="a_verb"/>

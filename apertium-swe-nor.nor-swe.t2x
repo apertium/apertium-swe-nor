@@ -58,11 +58,15 @@
       <cat-item lemma="aux" tags="vblex"/>
       <cat-item lemma="aux" tags="vblex.*"/>
     </def-cat>
-    <def-cat n="aux.pres.actv">
-      <cat-item lemma="aux" tags="vblex.pres.actv"/>
+    <def-cat n="paux.pres" c="auxes used for passives (not 'ha')">
+      <cat-item lemma="aux" tags="vblex.pres.actv.bli"/>
+      <cat-item lemma="aux" tags="vblex.pres.actv.vara"/>
+      <cat-item lemma="aux" tags="vblex.pres.actv.vara¹"/>
     </def-cat>
-    <def-cat n="aux.past.actv">
-      <cat-item lemma="aux" tags="vblex.past.actv"/>
+    <def-cat n="paux.past" c="auxes used for passives (not 'ha')">
+      <cat-item lemma="aux" tags="vblex.past.actv.bli"/>
+      <cat-item lemma="aux" tags="vblex.past.actv.vara"/>
+      <cat-item lemma="aux" tags="vblex.past.actv.vara¹"/>
     </def-cat>
     <def-cat n="supn.actv">
       <cat-item tags="vblex.supn.actv"/>
@@ -569,9 +573,9 @@
     <!-- AUXPASS ADJPART ADV* => AUXPASS ADV* ADJPART ADV*
          and AUX ADV* ADJPART => AUX ADV* ADJPART rules -->
 
-    <rule comment="AUX.PRES.ACTV SUPN.ACTV => SUPN.PASV er rammet → drabbats">
+    <rule comment="PAUX.PRES SUPN.ACTV => SUPN.PASV er rammet → drabbats">
       <pattern>
-        <pattern-item n="aux.pres.actv"/>
+        <pattern-item n="paux.pres"/>
         <pattern-item n="supn.actv"/>
       </pattern>
       <action>
@@ -579,9 +583,9 @@
         <out><chunk><clip pos="2" part="whole"/></chunk></out>
       </action>
     </rule>
-    <rule comment="AUX.PRES.ACTV ADVL SUPN.ACTV => SUPN.PASV ADVL er hardt rammet → drabbats hårt">
+    <rule comment="PAUX.PRES ADVL SUPN.ACTV => SUPN.PASV ADVL er hardt rammet → drabbats hårt">
       <pattern>
-        <pattern-item n="aux.pres.actv"/>
+        <pattern-item n="paux.pres"/>
         <pattern-item n="advl"/>
         <pattern-item n="supn.actv"/>
       </pattern>
@@ -593,9 +597,9 @@
         </out>
       </action>
     </rule>
-    <rule comment="AUX.PAST NOM SUPN.ACTV => PAST.PASV NOM ble landet delt → delades landet">
+    <rule comment="PAUX.PAST NOM SUPN.ACTV => PAST.PASV NOM ble landet delt → delades landet">
       <pattern>
-        <pattern-item n="aux.past.actv"/>
+        <pattern-item n="paux.past"/>
         <pattern-item n="nom"/>
         <pattern-item n="supn.actv"/>
       </pattern>
