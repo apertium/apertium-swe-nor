@@ -104,9 +104,10 @@
   <rule><match lemma="ramme" tags="vblex.*"><select lemma="drabba" tags="vblex.*"/></match></rule>
   <rule><match lemma="ramme" tags="adj.pp.*"><select lemma="drabba" tags="adj.pp.*"/></match></rule>
 
-  <rule><match lemma="is" tags="n.m.*"><select lemma="is" tags="n.ut.*"/></match></rule>
+  <rule><match lemma="is" tags="n.m.*"><select lemma="glass" tags="n.ut.*"/></match></rule>
   <rule weigh="2.0">
     <match lemma="spise"/>
+    <repeat from="0" upto="6"><match/></repeat>
     <match lemma="is" tags="n.m.*"><select lemma="glass" tags="n.ut.*"/></match>
   </rule>
 
@@ -117,7 +118,7 @@
 
   <rule><match lemma="denne" tags="det.*"><select lemma="denna"/></match></rule>
   <rule weight="2.0" c="denne gutten → den här killen">
-    <match lemma="denne" tags="det.dem.m.sg"><select lemma="den här"/></match>
+    <match lemma="denne" tags="det.dem.*.sg"><select lemma="den här"/></match>
     <match tags="n.*.sg.def"/>
   </rule>
 
@@ -144,6 +145,13 @@
   <rule><match lemma="mamma" tags="n.*"><select lemma="mamma"/></match></rule>
 
   <rule><match lemma="sammen" tags="adv"><select lemma="tillsammans" tags="adv"/></match></rule>
+
+  <rule><match lemma="trist" tags="adj.*"><select lemma="ledsen" tags="adj.*"/></match></rule>
+  <rule weight="2.0" c="det har vært trist">
+    <match lemma="den" tags="prn.*.nt.*"/>
+    <repeat from="0" upto="3"><match/></repeat>
+    <match lemma="trist" tags="adj.*"><select lemma="tråkig" tags="adj.*"/></match>
+  </rule>
 
   <!-- Frequency-based rules: -->
 
@@ -4203,7 +4211,6 @@
 <rule weight="0.9"><match lemma="trine" tags="adj.pp.*"><select lemma="skrida" tags="adj.pp.*"/></match></rule><!-- 189 -->
 <rule weight="0.9"><match lemma="trippe" tags="vblex.*"><select lemma="trippa" tags="vblex.*"/></match></rule><!-- 40 -->
 <rule weight="0.9"><match lemma="trippe" tags="adj.pp.*"><select lemma="trippa" tags="adj.pp.*"/></match></rule><!-- 40 -->
-<rule weight="0.9"><match lemma="trist" tags="adj.*"><select lemma="ledsen" tags="adj.*"/></match></rule><!-- 13651 -->
 <rule weight="0.9"><match lemma="trivle" tags="vblex.*"><select lemma="famla" tags="vblex.*"/></match></rule><!-- 63 -->
 <rule weight="0.9"><match lemma="trivle" tags="adj.pp.*"><select lemma="famla" tags="adj.pp.*"/></match></rule><!-- 63 -->
 <rule weight="0.9"><match lemma="trolldom" tags="n.m.*"><select lemma="trolldom" tags="n.ut.*"/></match></rule><!-- 107 -->
