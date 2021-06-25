@@ -138,6 +138,13 @@
   <rule><match lemma="stenge" tags="vblex.*"><select lemma="stänga" tags="vblex.*"/></match></rule>
   <rule><match lemma="stenge" tags="adj.pp.*"><select lemma="stänga" tags="adj.pp.*"/></match></rule>
 
+  <rule><match lemma="butikk" tags="n.m.*"><select lemma="butik" tags="n.ut.*"/></match></rule>
+
+  <rule><match lemma="mor" tags="n.*"><select lemma="mor"/></match></rule>
+  <rule><match lemma="mamma" tags="n.*"><select lemma="mamma"/></match></rule>
+
+  <rule><match lemma="sammen" tags="adv"><select lemma="tillsammans" tags="adv"/></match></rule>
+
   <!-- Frequency-based rules: -->
 
 <rule weight="0.9"><match lemma="abbed" tags="n.m.*"><select lemma="abbot" tags="n.ut.*"/></match></rule><!-- 59 -->
@@ -606,7 +613,6 @@
 <rule weight="0.9"><match lemma="bunte" tags="adj.pp.*"><select lemma="knyta" tags="adj.pp.*"/></match></rule><!-- 1074 -->
 <rule weight="0.9"><match lemma="bunt" tags="n.m.*"><select lemma="bunt" tags="n.ut.*"/></match></rule><!-- 244 -->
 <rule weight="0.9"><match lemma="busse" tags="n.m.*"><select lemma="kompis" tags="n.ut.*"/></match></rule><!-- 7225 -->
-<rule weight="0.9"><match lemma="butikk" tags="n.m.*"><select lemma="affär" tags="n.ut.*"/></match></rule><!-- 8159 -->
 <rule weight="0.9"><match lemma="bydel" tags="n.m.*"><select lemma="stadsdel" tags="n.ut.*"/></match></rule><!-- 556 -->
 <rule weight="0.9"><match lemma="bygd" tags="n.m.*"><select lemma="bygd" tags="n.ut.*"/></match></rule><!-- 103 -->
 <rule weight="0.9"><match lemma="bygging" tags="n.m.*"><select lemma="byggnad" tags="n.ut.*"/></match></rule><!-- 4360 -->
@@ -3351,7 +3357,6 @@
 <rule weight="0.9"><match lemma="sammenlagt" tags="adj.*"><select lemma="sammanlagd" tags="adj.*"/></match></rule><!-- 309 -->
 <rule weight="0.9"><match lemma="sammensette" tags="vblex.*"><select lemma="sammansätta" tags="vblex.*"/></match></rule><!-- 123 -->
 <rule weight="0.9"><match lemma="sammensette" tags="adj.pp.*"><select lemma="sammansätta" tags="adj.pp.*"/></match></rule><!-- 123 -->
-<rule weight="0.9"><match lemma="sammen" tags="adv"><select lemma="ihop" tags="adv"/></match></rule><!-- 12778 -->
 <rule weight="0.9"><match lemma="samsvar" tags="n.nt.*"><select lemma="motsvarighet" tags="n.ut.*"/></match></rule><!-- 256 -->
 <rule weight="0.9"><match lemma="samtale" tags="vblex.*"><select lemma="samtala" tags="vblex.*"/></match></rule><!-- 142 -->
 <rule weight="0.9"><match lemma="samtale" tags="adj.pp.*"><select lemma="samtala" tags="adj.pp.*"/></match></rule><!-- 142 -->

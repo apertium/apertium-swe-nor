@@ -107,8 +107,11 @@
 
   <rule weight="1.0"><match lemma="samlag" tags="n.nt.*"><select lemma="samleie" tags="n.nt.*"/></match></rule>
 
-<rule weight="0.9"><match lemma="fungera" tags="vblex.*"><select lemma="fungere" tags="vblex.*"/></match></rule><!-- 7856 -->
-<rule weight="0.9"><match lemma="fungera" tags="adj.pp.*"><select lemma="fungere" tags="adj.pp.*"/></match></rule><!-- 7856 -->
+  <rule><match lemma="fungera" tags="vblex.*"><select lemma="fungere" tags="vblex.*"/></match></rule><!-- 7856 -->
+  <rule><match lemma="fungera" tags="adj.pp.*"><select lemma="fungere" tags="adj.pp.*"/></match></rule><!-- 7856 -->
+
+  <rule><match lemma="mor" tags="n.*"><select lemma="mor"/></match></rule>
+  <rule><match lemma="mamma" tags="n.*"><select lemma="mamma"/></match></rule>
 
   <!-- Frequency-based rules: -->
 
@@ -3205,5 +3208,4 @@
 <rule weight="0.9"><match lemma="åtskillnad" tags="n.ut.*"><select lemma="forskjell" tags="n.m.*"/></match></rule><!-- 3022 -->
 <rule weight="0.9"><match lemma="åt" tags="pr"><select lemma="til" tags="pr"/></match></rule><!-- 484486 -->
 <rule weight="0.9"><match lemma="åverkan" tags="n.ut.*"><select lemma="skade" tags="n.m.*"/></match></rule><!-- 3320 -->
-
 </rules>
