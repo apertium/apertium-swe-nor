@@ -76,9 +76,14 @@
   </rule>
 
   <rule><match lemma="ut av"><select lemma="ur"/></match></rule>
-  <rule weight="2.0">
+  <rule weight="2.0" c="att resa ut ur Prag">
+    <match lemma="reise"/>
+    <match lemma="ut av"><select lemma="ut ur"/></match>
+  </rule>
+  <rule weight="2.0" c="får inte resa från staden hon bor i">
     <match lemma="reise"/>
     <match lemma="ut av"><select lemma="från"/></match>
+    <match lemma="by"/>
   </rule>
 
   <rule><match lemma="by" tags="n.*"><select lemma="stad"/></match></rule>
@@ -145,12 +150,40 @@
   <rule><match lemma="mamma" tags="n.*"><select lemma="mamma"/></match></rule>
 
   <rule><match lemma="sammen" tags="adv"><select lemma="tillsammans" tags="adv"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="sammen" tags="adv"><select lemma="ihop" tags="adv"/></match>
+    <match lemma="med"/>
+  </rule>
 
   <rule><match lemma="trist" tags="adj.*"><select lemma="ledsen" tags="adj.*"/></match></rule>
   <rule weight="2.0" c="det har vært trist">
     <match lemma="den" tags="prn.*.nt.*"/>
     <repeat from="0" upto="3"><match/></repeat>
     <match lemma="trist" tags="adj.*"><select lemma="tråkig" tags="adj.*"/></match>
+  </rule>
+
+  <rule><match lemma="hva" tags="adv"><select lemma="va" tags="adv"/></match></rule>
+
+  <rule><match lemma="unntatt" tags="pr"><select lemma="utom"/></match></rule>
+
+  <rule><match lemma="gym" tags="n.*.ind"><select lemma="gympa"/></match></rule>
+  <rule weight="2.0" c="Westlings gym">
+    <or>
+      <match tags="n.*.gen"/>
+      <match tags="np.*.gen"/>
+      <match tags="det.qnt.*"/>
+    </or>
+    <match lemma="gym" tags="n.*"><select lemma="gym"/></match>
+  </rule>
+  <rule weight="2.0" c="badhus, gym, hotell">
+    <or>
+      <match lemma="bibliotek"/>
+      <match lemma="svømmehall"/>
+      <match lemma="hotell"/>
+      <match lemma="rådhus"/>
+    </or>
+    <repeat from="0" upto="3"><match/></repeat>
+    <match lemma="gym" tags="n.*"><select lemma="gym"/></match>
   </rule>
 
   <!-- Frequency-based rules: -->
@@ -1739,7 +1772,6 @@
 <rule weight="0.9"><match lemma="huske" tags="vblex.*"><select lemma="minnas" tags="vblex.*"/></match></rule><!-- 7833 -->
 <rule weight="0.9"><match lemma="huske" tags="adj.pp.*"><select lemma="minnas" tags="adj.pp.*"/></match></rule><!-- 7833 -->
 <rule weight="0.9"><match lemma="husstell" tags="n.nt.*"><select lemma="hushåll" tags="n.nt.*"/></match></rule><!-- 396 -->
-<rule weight="0.9"><match lemma="hva" tags="adv"><select lemma="vafalls" tags="adv"/></match></rule><!-- 1 -->
 <rule weight="0.9"><match lemma="hvese" tags="vblex.*"><select lemma="väsa" tags="vblex.*"/></match></rule><!-- 915 -->
 <rule weight="0.9"><match lemma="hvese" tags="adj.pp.*"><select lemma="väsa" tags="adj.pp.*"/></match></rule><!-- 915 -->
 <rule weight="0.9"><match lemma="hvetemel" tags="n.nt.*"><select lemma="vetemjöl" tags="n.nt.*"/></match></rule><!-- 17 -->
