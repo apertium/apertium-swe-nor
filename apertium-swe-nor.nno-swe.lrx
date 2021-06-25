@@ -64,6 +64,8 @@
 
   <rule weight="1.0"><match lemma="uavhengig" tags="adj.*"><select lemma="oberoende" tags="adj.*"/></match></rule>
 
+  <rule><match lemma="tal" tags="n.*"><select lemma="tal"/></match></rule>
+
   <!-- Frequency-based rules: -->
 
 <rule weight="0.9"><match lemma="abbed" tags="n.m.*"><select lemma="abbot" tags="n.ut.*"/></match></rule><!-- 59 -->
@@ -3144,6 +3146,4 @@
 <rule weight="0.9"><match lemma="åtgang" tags="n.m.*"><select lemma="tillgång" tags="n.ut.*"/></match></rule><!-- 2155 -->
 <rule weight="0.9"><match lemma="åt" tags="pr"><select lemma="till" tags="pr"/></match></rule><!-- 319127 -->
 <rule weight="0.9"><match lemma="åtvare" tags="vblex.*"><select lemma="varna" tags="vblex.*"/></match></rule><!-- 2509 -->
-
-  <rule><match lemma="tal" tags="n.*"><select lemma="tal"/></match></rule>
 </rules>
