@@ -133,6 +133,11 @@
     <match lemma="salg" tags="n.*"><select lemma="rea"/></match>
   </rule>
 
+  <rule><match lemma="fremdeles" tags="adv.*"><select lemma="fortfarande"/></match></rule>
+
+  <rule><match lemma="stenge" tags="vblex.*"><select lemma="stänga" tags="vblex.*"/></match></rule>
+  <rule><match lemma="stenge" tags="adj.pp.*"><select lemma="stänga" tags="adj.pp.*"/></match></rule>
+
   <!-- Frequency-based rules: -->
 
 <rule weight="0.9"><match lemma="abbed" tags="n.m.*"><select lemma="abbot" tags="n.ut.*"/></match></rule><!-- 59 -->
@@ -3819,8 +3824,6 @@
 <rule weight="0.9"><match lemma="stemme" tags="vblex.*"><select lemma="stämma" tags="vblex.*"/></match></rule><!-- 5678 -->
 <rule weight="0.9"><match lemma="stemme" tags="adj.pp.*"><select lemma="stämma" tags="adj.pp.*"/></match></rule><!-- 5678 -->
 <rule weight="0.9"><match lemma="stempel" tags="n.nt.*"><select lemma="stämpel" tags="n.ut.*"/></match></rule><!-- 124 -->
-<rule weight="0.9"><match lemma="stenge" tags="vblex.*"><select lemma="sluta" tags="vblex.*"/></match></rule><!-- 20812 -->
-<rule weight="0.9"><match lemma="stenge" tags="adj.pp.*"><select lemma="sluta" tags="adj.pp.*"/></match></rule><!-- 20812 -->
 <rule weight="0.9"><match lemma="stenke" tags="vblex.*"><select lemma="skvätta" tags="vblex.*"/></match></rule><!-- 175 -->
 <rule weight="0.9"><match lemma="stenke" tags="adj.pp.*"><select lemma="skvätta" tags="adj.pp.*"/></match></rule><!-- 175 -->
 <rule weight="0.9"><match lemma="stifte" tags="vblex.*"><select lemma="instifta" tags="vblex.*"/></match></rule><!-- 219 -->
