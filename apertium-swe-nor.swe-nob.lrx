@@ -107,6 +107,9 @@
 
   <rule weight="1.0"><match lemma="samlag" tags="n.nt.*"><select lemma="samleie" tags="n.nt.*"/></match></rule>
 
+<rule weight="0.9"><match lemma="fungera" tags="vblex.*"><select lemma="fungere" tags="vblex.*"/></match></rule><!-- 7856 -->
+<rule weight="0.9"><match lemma="fungera" tags="adj.pp.*"><select lemma="fungere" tags="adj.pp.*"/></match></rule><!-- 7856 -->
+
   <!-- Frequency-based rules: -->
 
 <rule weight="0.9"><match lemma="brand" tags="n.ut.*"><select lemma="brann" tags="n.m.*"/></match></rule><!-- 2347 -->
