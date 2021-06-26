@@ -66,6 +66,8 @@
 
   <rule><match lemma="tal" tags="n.*"><select lemma="tal"/></match></rule>
 
+  <rule><match lemma="Kviterussland" tags="np.*"><select lemma="Belarus"/></match></rule>
+
   <!-- Frequency-based rules: -->
 
 <rule weight="0.9"><match lemma="abbed" tags="n.m.*"><select lemma="abbot" tags="n.ut.*"/></match></rule><!-- 59 -->
