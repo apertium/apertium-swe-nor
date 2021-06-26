@@ -123,7 +123,7 @@
 
   <rule><match lemma="denne" tags="det.*"><select lemma="denna"/></match></rule>
   <rule weight="2.0" c="denne gutten → den här killen">
-    <match lemma="denne" tags="det.dem.*.sg"><select lemma="den här"/></match>
+    <match lemma="denne" tags="det.dem.*.sg"><select lemma="den# här"/></match>
     <match tags="n.*.sg.def"/>
   </rule>
 
