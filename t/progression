@@ -1,0 +1,97 @@
+#!/bin/bash
+
+set -u
+
+step=all
+mode=nob-swe
+
+cd "$(dirname "$0")"/.. || exit 1
+
+difs () {
+    ref=$1
+    declare -i errs=0
+    for f in tests/*.input.txt; do
+        name="$(basename "${f%.input.txt}")"
+        dif1 "${ref}" "${name}" || (( errs++ ))
+    done
+    return ${errs}
+}
+wdif () {
+    colorspec=$1
+    if command -V dwdiff &>/dev/null; then
+        dwdiff --color="${colorspec}" --diff-input
+    else
+        cat
+    fi
+}
+dif1 () {
+    ref=$1
+    name=$2
+    case ${ref} in
+        expected) colorspec=bcyan,green
+                  reffile=tests/out/"${name}.${step}".expected.txt ;;
+        gold) colorspec=bcyan,brown
+              reffile=tests/"${name}.${step}".gold.txt ;;
+        *)
+            echo "ERROR bug in call to dif1" >&2; exit 1 ;;
+    esac
+    (
+        set -o pipefail
+        diff -U0 -I'^swe-nor\|AP_SRC'                  \
+             tests/out/"${name}"."${step}".current.txt \
+             "${reffile}"                              \
+            | wdif "${colorspec}"
+    )
+}
+
+assert-translated () {
+    for f in tests/*.input.txt; do
+        name="$(basename "${f%.input.txt}")"
+        cur=tests/out/"${name}"."${step}".current.txt
+        if [[ ! -f "${cur}" ]]; then
+            echo "${cur} not found" >&2
+            echo >&2
+            echo "Please run '$0 translate' first" >&2
+            exit 1
+        fi
+    done
+}
+
+assert-usage () {
+    echo "USAGE:
+
+$0 translate      # run this after your edits and compiles
+$0 diff-expected  # compare result of 'translate' with expected output
+$0 diff-gold      # compare result of 'translate' with gold set
+$0 update         # update the current expected output with result of 'translate'
+"
+    exit 1
+}
+
+[[ $# -ne 1 ]] && assert-usage
+
+case $1 in
+    translate)
+        for f in tests/*.input.txt; do
+            name="$(basename "${f%.input.txt}")"
+            apertium -d . "${mode}" < tests/"${name}".input.txt >tests/out/"${name}.${step}".current.txt
+        done
+        ;;
+    update)
+        assert-translated
+        for cur in tests/out/*."${step}".current.txt; do
+            cp -v "${cur}" "${cur%current.txt}expected.txt"
+        done
+        ;;
+    diff-expected)
+        assert-translated
+        difs expected
+        ;;
+    diff-gold)
+        assert-translated
+        difs gold
+        ;;
+    *)
+        assert-usage
+        ;;
+esac

@@ -274,7 +274,7 @@ clean-local:
 ## Test
 ###############################################################################
 
-test: all
+test: all test-progression
 	echo "Såg hon inte orden?" | apertium -d . swe-nno | tee .test-mt
 	@echo "Såg ho ikkje orda?" > .test-ref
 	@diff .test-ref .test-mt
@@ -292,3 +292,11 @@ test-voc: test-gen-swe-nno \
           test-gen-swe-nob \
           test-gen-nno-swe \
           test-gen-nob-swe
+
+test-progression: all
+	t/progression translate
+	t/progression diff-expected
+
+update-progression: all
+	t/progression translate
+	t/progression update

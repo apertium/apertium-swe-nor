@@ -16,3 +16,4 @@
 /modes
 /ap_include.am
 /dev/testvoc/__pycache__/
+/tests/out/*.current.txt
