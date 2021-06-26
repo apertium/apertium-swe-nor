@@ -281,6 +281,12 @@
       <e><p><l><s n="def"/></l>   <r><s n="ind"/></r></p></e>
     </pardef>
 
+    <pardef n="prn.pers.nom|adv|">
+      <e></e>
+      <e><i><w/><s n="adv"/><j/></i></e>
+      <e><i><w/><s n="prn"/><s n="pers"/><t/><s n="nom"/><j/></i></e>
+    </pardef>
+
   </pardefs>
 
   <section id="main" type="standard">
@@ -298,6 +304,12 @@
       <i>av<t/><j/></i>
       <p><l></l>   <r>den<s n="det"/><s n="dem"/><s n="un"/><s n="pl"/><j/></r></p>
       <i>land<s n="n"/><s n="nt"/><s n="pl"/></i><par n="def:ind"/><i><j/></i>
+    </e>
+
+    <e lm="ringes vi → holder vi kontakt" c="hålla vi kontakt">
+      <p><l>ringe<s n="vblex"/><s n="pres"/><s n="pasv"/><j/></l> <r>holde<s n="vblex"/><s n="pres"/><j/></r></p>
+      <par n="prn.pers.nom|adv|"/>
+      <p><l></l>   <r>kontakt<s n="n"/><s n="m"/><s n="sg"/><s n="ind"/><j/></r></p>
     </e>
 
   </section>

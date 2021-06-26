@@ -28,8 +28,8 @@
     </or>
   </rule>
 
-  <rule weight="1.0"><match lemma="òg" tags="adv"><select lemma="även" tags="adv"/></match></rule>
-  <rule weight="1.0"><match lemma="også" tags="adv"><select lemma="även" tags="adv"/></match></rule>
+  <rule><match lemma="òg" tags="adv"><select lemma="också" tags="adv"/></match></rule>
+  <rule><match lemma="også" tags="adv"><select lemma="också" tags="adv"/></match></rule>
 
   <!-- var: ställe; vart: riktning -->
   <rule><match lemma="hvor" tags="adv"><select lemma="var" tags="adv"/></match></rule>
