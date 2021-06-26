@@ -296,16 +296,16 @@
   <section id="main" type="standard">
 
     <e lm="får ikke lov til å -> får ikke" c="får inte">
-      <i>få<t/><j/></i>
-      <i>ikke<t/><j/></i>
+      <i>få</i>   <par n="TagsEnd"/>
+      <i>ikke</i> <par n="TagsEnd"/>
       <p><l>lov<t/><j/></l>   <r></r></p>
       <p><l>til<t/><j/></l>   <r></r></p>
       <p><l>å<t/><j/></l>   <r></r></p>
     </e>
 
     <e lm="et av landene -> et av de land" c="ett av de länder">
-      <i>en<t/><j/></i>
-      <i>av<t/><j/></i>
+      <i>en</i> <par n="TagsEnd"/>
+      <i>av</i> <par n="TagsEnd"/>
       <p><l></l>   <r>den<s n="det"/><s n="dem"/><s n="un"/><s n="pl"/><j/></r></p>
       <i>land<s n="n"/><s n="nt"/><s n="pl"/></i><par n="def:ind"/><i><j/></i>
     </e>
@@ -319,7 +319,15 @@
     <e lm="liker du deg → trives du" c="trivst du">
       <p><l>like<s n="vblex"/></l> <r>trives<s n="vblex"/><s n="pstv"/></r></p> <par n="TagsEnd"/>
       <par n="prn.pers.nom|adv|"/>
-      <p><l><w/><s n="prn"/><s n="pers"/><t/><s n="acc"/><j/></l>   <r></r></p>
+      <par n="rem-refl-prn"/>
+    </e>
+
+    <e lm="gleder seg til å → ser fram til å" c="ser fram till at">
+      <p><l>glede<s n="vblex"/></l> <r>se<s n="vblex"/></r></p> <par n="TagsEnd"/>
+      <par n="rem-refl-prn"/>
+      <p><l></l>   <r>fram<s n="adv"/><j/></r></p>
+      <i>til</i> <par n="TagsEnd"/>
+      <i>å</i> <par n="TagsEnd"/>
     </e>
 
   </section>
