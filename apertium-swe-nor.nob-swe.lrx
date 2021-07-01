@@ -122,7 +122,7 @@
 
   <!-- IS vs GLASS: -->
   <rule><match lemma="is" tags="n.m.*"><select lemma="is" tags="n.ut.*"/></match></rule>
-  <rule weigh="2.0">
+  <rule weight="2.0">
     <or>
       <match lemma="spise"/>
       <match lemma="pølse"/>
@@ -130,11 +130,11 @@
     <repeat from="0" upto="6"><match/></repeat>
     <match lemma="is" tags="n.m.*"><select lemma="glass" tags="n.ut.*"/></match>
   </rule>
-  <rule weigh="2.0" c="[en ring] av is">
+  <rule weight="2.0" c="[en ring] av is">
     <match lemma="av"/>
     <match lemma="is" tags="n.m.*"><select lemma="is" tags="n.ut.*"/></match>
   </rule>
-  <rule weigh="2.0" c="dekket av is">
+  <rule weight="2.0" c="dekket av is">
     <or>
       <match lemma="snø"/>
       <match lemma="krystall"/>
@@ -162,7 +162,7 @@
   <rule><match lemma="over" tags="adv"><select lemma="över"/></match></rule>
 
   <rule><match lemma="salg" tags="n.*"><select lemma="försäljning"/></match></rule>
-  <rule weigh="2.0">
+  <rule weight="2.0">
     <match lemma="på"/>
     <match lemma="salg" tags="n.*"><select lemma="rea"/></match>
   </rule>
