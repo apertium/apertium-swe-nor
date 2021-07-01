@@ -120,11 +120,28 @@
   <rule><match lemma="ramme" tags="vblex.*"><select lemma="drabba" tags="vblex.*"/></match></rule>
   <rule><match lemma="ramme" tags="adj.pp.*"><select lemma="drabba" tags="adj.pp.*"/></match></rule>
 
-  <rule><match lemma="is" tags="n.m.*"><select lemma="glass" tags="n.ut.*"/></match></rule>
+  <!-- IS vs GLASS: -->
+  <rule><match lemma="is" tags="n.m.*"><select lemma="is" tags="n.ut.*"/></match></rule>
   <rule weigh="2.0">
-    <match lemma="spise"/>
+    <or>
+      <match lemma="spise"/>
+      <match lemma="pølse"/>
+    </or>
     <repeat from="0" upto="6"><match/></repeat>
     <match lemma="is" tags="n.m.*"><select lemma="glass" tags="n.ut.*"/></match>
+  </rule>
+  <rule weigh="2.0" c="[en ring] av is">
+    <match lemma="av"/>
+    <match lemma="is" tags="n.m.*"><select lemma="is" tags="n.ut.*"/></match>
+  </rule>
+  <rule weigh="2.0" c="dekket av is">
+    <or>
+      <match lemma="snø"/>
+      <match lemma="krystall"/>
+      <match lemma="dekke"/>
+    </or>
+    <repeat from="0" upto="3"><match/></repeat>
+    <match lemma="is" tags="n.m.*"><select lemma="is" tags="n.ut.*"/></match>
   </rule>
 
   <rule c="TODO: pojke if he's young enough …">
