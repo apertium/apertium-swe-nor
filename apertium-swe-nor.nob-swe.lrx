@@ -289,6 +289,22 @@
     </or>
   </rule>
 
+  <rule><match lemma="bra" tags="adj.*"><select lemma="bra"/></match></rule>
+  <rule><match lemma="god" tags="adj.*"><select lemma="god"/></match></rule>
+  <rule><match lemma="godt" tags="adv"><select lemma="bra"/></match></rule>
+
+  <rule weight="2.0" c="en matta">
+    <match tags="det.*"/>
+    <match lemma="matte" tags="n.*"><select lemma="matta" tags="n.ut.*"/></match>
+  </rule>
+  <rule weight="2.0" c="god i matte">
+    <or>
+      <match tags="pr"/>
+      <match tags="pr.*"/>
+    </or>
+    <match lemma="matte" tags="n.*"><select lemma="matte" tags="n.ut.*"/></match>
+  </rule>
+
   <!-- Frequency-based rules: -->
 <rule weight="0.9"><match lemma="brett" tags="n.m.*"><select lemma="kull" tags="n.ut.*"/></match></rule><!-- 707 -->
 <rule weight="0.9"><match lemma="brett" tags="n.nt.*"><select lemma="bräda" tags="n.ut.*"/></match></rule><!-- 318 -->
@@ -715,7 +731,6 @@
 <rule weight="0.9"><match lemma="brannvern" tags="n.nt.*"><select lemma="brandförsvar" tags="n.nt.*"/></match></rule><!-- 12 -->
 <rule weight="0.9"><match lemma="braske" tags="vblex.*"><select lemma="väsnas" tags="vblex.*"/></match></rule><!-- 122 -->
 <rule weight="0.9"><match lemma="braske" tags="adj.pp.*"><select lemma="väsnas" tags="adj.pp.*"/></match></rule><!-- 122 -->
-<rule weight="0.9"><match lemma="bra" tags="adj.*"><select lemma="god" tags="adj.*"/></match></rule><!-- 43655 -->
 <rule weight="0.9"><match lemma="braute" tags="vblex.*"><select lemma="skrävla" tags="vblex.*"/></match></rule><!-- 18 -->
 <rule weight="0.9"><match lemma="braute" tags="adj.pp.*"><select lemma="skrävla" tags="adj.pp.*"/></match></rule><!-- 18 -->
 <rule weight="0.9"><match lemma="bravere" tags="vblex.*"><select lemma="skrävla" tags="vblex.*"/></match></rule><!-- 18 -->
@@ -1653,8 +1668,6 @@
 <rule weight="0.9"><match lemma="godkjenne" tags="adj.pp.*"><select lemma="godkänna" tags="adj.pp.*"/></match></rule><!-- 1872 -->
 <rule weight="0.9"><match lemma="godlåt" tags="n.*"><select lemma="ros" tags="n.ut.*"/></match></rule><!-- 543 -->
 <rule weight="0.9"><match lemma="godord" tags="n.nt.*"><select lemma="ros" tags="n.ut.*"/></match></rule><!-- 543 -->
-<rule weight="0.9"><match lemma="god" tags="adj.*"><select lemma="god" tags="adj.*"/></match></rule><!-- 43655 -->
-<rule weight="0.9"><match lemma="godt" tags="adv"><select lemma="bra" tags="adv"/></match></rule><!-- 97652 -->
 <rule weight="0.9"><match lemma="godt" tags="n.nt.*"><select lemma="godsak" tags="n.ut.*"/></match></rule><!-- 130 -->
 <rule weight="0.9"><match lemma="golf" tags="n.*"><select lemma="golf" tags="n.ut.*"/></match></rule><!-- 902 -->
 <rule weight="0.9"><match lemma="gorande" tags="adv"><select lemma="mycket" tags="adv"/></match></rule><!-- 80279 -->
@@ -2685,7 +2698,6 @@
 <rule weight="0.9"><match lemma="matros" tags="n.*"><select lemma="matros" tags="n.ut.*"/></match></rule><!-- 98 -->
 <rule weight="0.9"><match lemma="matstell" tags="n.nt.*"><select lemma="hushåll" tags="n.nt.*"/></match></rule><!-- 396 -->
 <rule weight="0.9"><match lemma="mat" tags="n.*"><select lemma="mat" tags="n.ut.*"/></match></rule><!-- 10109 -->
-<rule weight="0.9"><match lemma="matte" tags="n.*"><select lemma="matta" tags="n.ut.*"/></match></rule><!-- 850 -->
 <rule weight="0.9"><match lemma="maure" tags="n.*"><select lemma="snäsa" tags="n.ut.*"/></match></rule><!-- 1 -->
 <rule weight="0.9"><match lemma="maure" tags="vblex.*"><select lemma="slita" tags="vblex.*"/></match></rule><!-- 2612 -->
 <rule weight="0.9"><match lemma="maure" tags="adj.pp.*"><select lemma="slita" tags="adj.pp.*"/></match></rule><!-- 2612 -->

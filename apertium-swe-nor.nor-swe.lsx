@@ -394,6 +394,13 @@
       <i>slags</i> <par n="TagsEnd"/>
     </e>
 
+    <e lm="er god i → er bra på" c="är bra på">
+      <i>være</i> <par n="TagsEnd"/>
+      <par n="SN|adv|prn|"/>
+      <p><l>god</l> <r>bra</r></p> <par n="TagsEnd"/>
+      <p><l>i</l> <r>på</r></p> <par n="TagsEnd"/>
+    </e>
+
   </section>
 
 </dictionary>
