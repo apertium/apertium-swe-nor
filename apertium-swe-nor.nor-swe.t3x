@@ -123,6 +123,11 @@
     <def-var n="foo"/>
   </section-def-vars>
 
+  <section-def-lists>
+    <def-list n="n-keep-sg.ind" c="Don't change ind→def on these familiar nouns if sg, even if preceding adj gets def (tl/swe)">
+      <list-item v="klass"/>
+    </def-list>
+  </section-def-lists>
 
   <section-def-macros>
     <def-macro n="out_adj" npar="1"
@@ -180,12 +185,17 @@
       <!-- </when></choose> -->
 
       <!-- TODO: -->
-      <choose><when>
+      <choose><when c="noun gets chunk defnes">
         <test><and>
+          <not><equal><clip pos="1" part="a_cmp"/><lit-tag v="cmp-split"/></equal></not>
           <or>
             <equal><clip pos="2" part="art"/><lit-tag v="ind"/></equal>
             <equal><clip pos="2" part="art"/><lit v=""/></equal>
           </or>
+          <not><and>
+            <equal><clip pos="1" part="nbr"/><lit-tag v="sg"/></equal>
+            <in caseless="yes"><clip pos="1" part="lemh"/><list n="n-keep-sg.ind"/></in>
+          </and></not>
           <equal><clip pos="3" part="art"/><lit-tag v="def"/></equal>
         </and></test>
         <let><clip pos="1" part="art"/><clip pos="3" part="art"/></let>

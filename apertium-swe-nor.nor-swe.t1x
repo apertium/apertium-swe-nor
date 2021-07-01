@@ -889,14 +889,7 @@
       </when></choose>
       <!-- In case the above didn't help: -->
       <call-macro n="set_gender1.adj"><with-param pos="2"/></call-macro>
-      <!-- Make n def if adj seems def:
-           NB: This means all swe.dix nouns have to be able to take def (at least RL) -->
-      <choose>
-        <when>
-          <test><equal><clip pos="2" side="tl" part="art"/><lit-tag v="def"/></equal></test>
-          <let><clip pos="1" side="tl" part="art"/><lit-tag v="def"/></let>
-        </when>
-      </choose>
+      <!-- Postchunk might make n def if adj def – we don't do that here though. -->
     </def-macro>
 
     <def-macro n="set_grau_aux1" npar="1"
