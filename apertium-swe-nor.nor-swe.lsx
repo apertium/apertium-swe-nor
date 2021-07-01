@@ -370,6 +370,13 @@
       <par n="FV"/>
     </e>
 
+    <e lm="driver X med → holder X på med" c="håller X på med">
+      <p><l>drive<s n="vblex"/></l> <r>holde<s n="vblex"/></r></p> <par n="TagsEnd"/>
+      <par n="SN|adv|prn|"/>
+      <p><l></l> <r>på<s n="pr"/><j/></r></p>
+      <i>med</i> <par n="TagsEnd"/>
+    </e>
+
     <e lm="hva slags → hva for slags" c="va för slags">
       <i>hva</i> <par n="TagsEnd"/>
       <p><l></l> <r>for<s n="pr"/><j/></r></p>
