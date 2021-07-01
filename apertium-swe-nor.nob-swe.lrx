@@ -245,8 +245,6 @@
 
   <rule c="han→den should only happen from nno"><match lemma="han" tags="prn.*"><select lemma="han"/></match></rule>
 
-  <rule><match lemma="Hviterussland" tags="np.*"><select lemma="Belarus"/></match></rule>
-
   <rule><match lemma="likevel" tags="adv"><select lemma="ändå" tags="adv"/></match></rule>
   <rule><match lemma="allikevel" tags="adv"><select lemma="ändå" tags="adv"/></match></rule>
 
