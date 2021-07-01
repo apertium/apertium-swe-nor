@@ -37,6 +37,11 @@
     <match lemma="gå"/>
     <match lemma="hvor" tags="adv"><select lemma="vart" tags="adv"/></match>
   </rule>
+  <rule c="vart vil du resa">
+    <match lemma="hvor" tags="adv"><select lemma="vart" tags="adv"/></match>
+    <repeat from="0" upto="6"><match/></repeat>
+    <match lemma="reise"/>
+  </rule>
   <rule weight="2.0">
     <match lemma="hvor" tags="adv"><select lemma="hur" tags="adv"/></match>
     <match lemma="mange"/>
