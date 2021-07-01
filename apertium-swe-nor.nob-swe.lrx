@@ -302,7 +302,7 @@
       <match tags="pr"/>
       <match tags="pr.*"/>
     </or>
-    <match lemma="matte" tags="n.*"><select lemma="matte" tags="n.ut.*"/></match>
+    <match lemma="matte" tags="n.*"><select lemma="matte" tags="n.nt.*"/></match>
   </rule>
 
   <rule><match lemma="være" tags="vblex.*"><select lemma="vara¹" tags="vblex.*"/></match></rule>
