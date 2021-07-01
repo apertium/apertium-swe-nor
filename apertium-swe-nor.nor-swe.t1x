@@ -879,7 +879,7 @@
           <equal><clip pos="1" side="tl" part="grau"/><lit-tag v="sup"/></equal>
           <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="GD"/></equal>
         </and></test>
-        <let><clip pos="1" side="tl" part="gen"/><lit-tag v="m"/></let>
+        <let><clip pos="1" side="tl" part="gen"/><lit-tag v="fn"/></let>
       </when></choose>
     </def-macro>
 
