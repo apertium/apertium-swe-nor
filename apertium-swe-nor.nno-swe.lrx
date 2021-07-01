@@ -68,6 +68,8 @@
 
   <rule><match lemma="Kviterussland" tags="np.*"><select lemma="Belarus"/></match></rule>
 
+  <rule><match lemma="synast" tags="vblex.*"><select lemma="tycka" tags="vblex.*"/></match></rule>
+
   <!-- Frequency-based rules: -->
 
 <rule weight="0.9"><match lemma="abbed" tags="n.m.*"><select lemma="abbot" tags="n.ut.*"/></match></rule><!-- 59 -->
@@ -3926,8 +3928,6 @@
 <rule weight="0.9"><match lemma="symbol" tags="n.nt.*"><select lemma="symbol" tags="n.ut.*"/></match></rule><!-- 1185 -->
 <rule weight="0.9"><match lemma="symptomatisk" tags="adj.*"><select lemma="symtomatisk" tags="adj.*"/></match></rule><!-- 3 -->
 <rule weight="0.9"><match lemma="symptom" tags="n.nt.*"><select lemma="symptom" tags="n.nt.*"/></match></rule><!-- 391 -->
-<rule weight="0.9"><match lemma="synast" tags="vblex.*"><select lemma="finna" tags="vblex.*"/></match></rule><!-- 80388 -->
-<rule weight="0.9"><match lemma="synast" tags="adj.pp.*"><select lemma="finna" tags="adj.pp.*"/></match></rule><!-- 80388 -->
 <rule weight="0.9"><match lemma="syne" tags="vblex.*"><select lemma="syna" tags="vblex.*"/></match></rule><!-- 540 -->
 <rule weight="0.9"><match lemma="syne" tags="adj.pp.*"><select lemma="syna" tags="adj.pp.*"/></match></rule><!-- 540 -->
 <rule weight="0.9"><match lemma="synkronisere" tags="vblex.*"><select lemma="synkronisera" tags="vblex.*"/></match></rule><!-- 97 -->

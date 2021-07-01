@@ -132,6 +132,17 @@
       <e><i><w/><s n="prn"/><t/><j/></i></e>
     </pardef>
 
+    <pardef n="FV">
+      <e><i><w/><s n="vblex"/><s n="pres"/><j/></i></e>
+      <e><i><w/><s n="vblex"/><s n="pret"/><j/></i></e>
+      <e><i><w/><s n="vblex"/><s n="pres"/><t/><j/></i></e>
+      <e><i><w/><s n="vblex"/><s n="pret"/><t/><j/></i></e>
+      <e><i><w/><s n="vblex"/><s n="pstv"/><s n="pres"/><j/></i></e>
+      <e><i><w/><s n="vblex"/><s n="pstv"/><s n="pret"/><j/></i></e>
+      <e><i><w/><s n="vblex"/><s n="pstv"/><s n="pres"/><t/><j/></i></e>
+      <e><i><w/><s n="vblex"/><s n="pstv"/><s n="pret"/><t/><j/></i></e>
+    </pardef>
+
     <pardef n="n.sg.ind" c="No final t/ – avoid cmp!">
       <e><i><w/><s n="n"/><t/><s n="sg"/><s n="ind"/><j/></i></e>
       <e><i><w/><s n="n"/><t/><s n="sg"/><s n="ind"/><s n="gen"/><j/></i></e>
@@ -165,6 +176,11 @@
       <e><par n="adv"/></e>
       <e><par n="prn"/></e>
       <e><i><w/><s n="det"/><s n="dem"/><t/><j/></i></e>
+    </pardef>
+
+    <pardef n="SN|prn" c="nonempty">
+      <e><par n="SN"/></e>
+      <e><par n="prn"/></e>
     </pardef>
 
     <pardef n="SN.sg.ind">
@@ -328,6 +344,23 @@
       <p><l></l>   <r>fram<s n="adv"/><j/></r></p>
       <i>til</i> <par n="TagsEnd"/>
       <i>å</i> <par n="TagsEnd"/>
+    </e>
+
+    <e lm="gleder seg til X FV → ser fram til at X FV" c="ser fram till att X FV">
+      <i>glede<s n="vblex"/></i> <par n="TagsEnd"/>
+      <par n="SN|adv|prn|"/>
+      <par n="refl-prn"/>
+      <i>til</i> <par n="TagsEnd"/>
+      <p><l></l> <r>at<s n="cnjsub"/><j/></r></p>
+      <par n="SN|prn"/>
+      <par n="FV"/>
+    </e>
+    <e lm="synes han X FV → synes han at X FV" c="tycker han att X FV">
+      <i>synes<s n="vblex"/></i> <par n="TagsEnd"/>
+      <par n="SN|adv|prn|"/>
+      <p><l></l> <r>at<s n="cnjsub"/><j/></r></p>
+      <par n="SN|prn"/>
+      <par n="FV"/>
     </e>
 
   </section>
