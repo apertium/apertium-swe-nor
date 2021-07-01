@@ -70,6 +70,20 @@
 
   <rule><match lemma="synast" tags="vblex.*"><select lemma="tycka" tags="vblex.*"/></match></rule>
 
+  <rule><match lemma="være" tags="vblex.*"><select lemma="vara¹" tags="vblex.*"/></match></rule>
+  <rule weight="2.0" c="er blitt smittet → har blitt smittet">
+    <match lemma="være" tags="vblex.*"><select lemma="vara¹" tags="vblex.*"/></match>
+    <or>
+      <match lemma="bli" tags="vblex.pp"/>
+      <match lemma="bli" tags="adj.pp.*"/>
+    </or>
+    <or>
+      <match tags="vblex.pp"/>
+      <match tags="adj.pp.*"/>
+    </or>
+  </rule>
+  <rule><match lemma="være" tags="adj.pp.*"><select lemma="vara¹" tags="adj.pp.*"/></match></rule>
+
   <!-- Frequency-based rules: -->
 
 <rule weight="0.9"><match lemma="abbed" tags="n.m.*"><select lemma="abbot" tags="n.ut.*"/></match></rule><!-- 59 -->
