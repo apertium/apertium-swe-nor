@@ -275,6 +275,10 @@
   <!-- eller er det betre med «hva slags» → «vilken typ av»? -->
   <rule><match lemma="slags" tags="n.*"><select lemma="slags"/></match></rule>
 
+  <!-- TODO: When do we use «fast»? -->
+  <rule><match lemma="men" tags="cnjcoo.clb"><select lemma="men" tags="cnjcoo"/></match></rule>
+  <rule><match lemma="men" tags="cnjcoo"><select lemma="men" tags="cnjcoo"/></match></rule>
+
   <!-- Frequency-based rules: -->
 <rule weight="0.9"><match lemma="brett" tags="n.m.*"><select lemma="kull" tags="n.ut.*"/></match></rule><!-- 707 -->
 <rule weight="0.9"><match lemma="brett" tags="n.nt.*"><select lemma="bräda" tags="n.ut.*"/></match></rule><!-- 318 -->
@@ -2692,7 +2696,6 @@
 <rule weight="0.9"><match lemma="mene" tags="vblex.*"><select lemma="tro" tags="vblex.*"/></match></rule><!-- 98143 -->
 <rule weight="0.9"><match lemma="mene" tags="adj.pp.*"><select lemma="tro" tags="adj.pp.*"/></match></rule><!-- 98143 -->
 <rule weight="0.9"><match lemma="mening" tags="n.*"><select lemma="mening" tags="n.ut.*"/></match></rule><!-- 4307 -->
-<rule weight="0.9"><match lemma="men" tags="cnjcoo"><select lemma="men" tags="cnjcoo"/></match></rule><!-- 131261 -->
 <rule weight="0.9"><match lemma="mental" tags="adj.*"><select lemma="psykisk" tags="adj.*"/></match></rule><!-- 718 -->
 <rule weight="0.9"><match lemma="meny" tags="n.*"><select lemma="meny" tags="n.ut.*"/></match></rule><!-- 446 -->
 <rule weight="0.9"><match lemma="merke" tags="vblex.*"><select lemma="märka" tags="vblex.*"/></match></rule><!-- 4193 -->
