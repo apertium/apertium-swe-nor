@@ -401,23 +401,53 @@
     </def-list>
 
     <def-list n="noun-use-masc-adj" c="nouns for which we use the 'm' form of adj's (tl/swe lemmas)">
+      <list-item v="anhängare"/>
+      <list-item v="användare"/>
+      <list-item v="arvinge"/>
       <list-item v="befälhavare"/>
       <list-item v="beskyddare"/>
+      <list-item v="bror"/>
       <list-item v="chef"/>
       <list-item v="domare"/>
+      <list-item v="forskare"/>
       <list-item v="företrädare"/>
+      <list-item v="granne"/>
       <list-item v="Gud"/>
       <list-item v="gud"/>
       <list-item v="gudom"/>
       <list-item v="hövding"/>
+      <list-item v="invånare"/>
+      <list-item v="katolik"/>
+      <list-item v="kejsare"/>
+      <list-item v="konung"/>
+      <list-item v="krigare"/>
+      <list-item v="kung"/>
       <list-item v="ledare"/>
+      <list-item v="länd"/>
       <list-item v="makthavare"/>
       <list-item v="man"/>
+      <list-item v="medarbetare"/>
+      <list-item v="muslim"/>
+      <list-item v="människa"/>
+      <list-item v="person"/>
+      <list-item v="plattform"/>
       <list-item v="polischef"/>
+      <list-item v="profet"/>
+      <list-item v="religion"/>
       <list-item v="representant"/>
       <list-item v="rådgivare"/>
+      <list-item v="skarprättare"/>
+      <list-item v="släkting"/>
+      <list-item v="son"/>
+      <list-item v="spelare"/>
+      <list-item v="storhertig"/>
+      <list-item v="teoretiker"/>
+      <list-item v="tsar"/>
+      <list-item v="vän"/>
       <list-item v="vårdare"/>
+      <list-item v="zoolog"/>
       <list-item v="ämbetsman"/>
+      <list-item v="ärkebiskop"/>
       <list-item v="överlevande"/>
     </def-list>
 
