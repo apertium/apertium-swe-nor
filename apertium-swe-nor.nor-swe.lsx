@@ -377,9 +377,9 @@
       <i>med</i> <par n="TagsEnd"/>
     </e>
 
-    <e lm="mange tror → mange anser at" c="många anser att">
+    <e lm="mange mener → mange anser at" c="många anser att">
       <i>mange</i> <par n="TagsEnd"/>
-      <p><l>tro<s n="vblex"/></l> <r>anse<s n="vblex"/></r></p> <par n="TagsEnd"/>
+      <p><l>mene<s n="vblex"/></l> <r>anse<s n="vblex"/></r></p> <par n="TagsEnd"/>
       <p><l></l> <r>at<s n="cnjsub"/><j/></r></p>
     </e>
     <e lm="mange tror at → mange anser at (avoid double 'at' if input has 'at')" c="många anser att">

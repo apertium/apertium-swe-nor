@@ -277,6 +277,18 @@
   <rule><match lemma="men" tags="cnjcoo.clb"><select lemma="men" tags="cnjcoo"/></match></rule>
   <rule><match lemma="men" tags="cnjcoo"><select lemma="men" tags="cnjcoo"/></match></rule>
 
+  <rule><match lemma="slippe" tags="vblex.*"><select lemma="släppa"/></match></rule>
+  <rule weight="2.0" c="Da slipper jeg å → Då slipper jag att">
+    <match lemma="slippe" tags="vblex.*"><select lemma="slippa"/></match>
+    <repeat from="0" upto="1"><match/></repeat>
+    <or>
+      <match lemma="løs"/>
+      <match lemma="fri"/>
+      <match lemma="å"/>
+      <match lemma="vel"/>
+    </or>
+  </rule>
+
   <!-- Frequency-based rules: -->
 <rule weight="0.9"><match lemma="brett" tags="n.m.*"><select lemma="kull" tags="n.ut.*"/></match></rule><!-- 707 -->
 <rule weight="0.9"><match lemma="brett" tags="n.nt.*"><select lemma="bräda" tags="n.ut.*"/></match></rule><!-- 318 -->
