@@ -400,6 +400,26 @@
       <list-item v="&lt;nt&gt;"/>
     </def-list>
 
+    <def-list n="noun-use-masc-adj" c="nouns for which we use the 'm' form of adj's (tl/swe lemmas)">
+      <list-item v="befälhavare"/>
+      <list-item v="beskyddare"/>
+      <list-item v="chef"/>
+      <list-item v="domare"/>
+      <list-item v="företrädare"/>
+      <list-item v="Gud"/>
+      <list-item v="gud"/>
+      <list-item v="gudom"/>
+      <list-item v="hövding"/>
+      <list-item v="ledare"/>
+      <list-item v="makthavare"/>
+      <list-item v="man"/>
+      <list-item v="polischef"/>
+      <list-item v="representant"/>
+      <list-item v="rådgivare"/>
+      <list-item v="vårdare"/>
+      <list-item v="ämbetsman"/>
+      <list-item v="överlevande"/>
+    </def-list>
 
     <def-list n="verb-keep-periphrastic" c="don't turn into s-passives for these
                                             We currently turn vblex.pp→supn into s-passive after vara¹/bli.
@@ -835,11 +855,10 @@
 
     <def-macro n="set_gender2.n.adj" npar="2"
                c="arg.1: noun, arg.2: adjective
+                  In Swedish, 'adj.m' is only used on a subset of masc nouns, see noun-use-masc-adj.
                   Only take noun gender if adj is GD, or if noun has changed gender.
                   (We want to allow 'helt.nt svart.mf katt.m', no gender change nor GD on 'helt',
-                  but o/w make sure adj corresponds: 'helt.nt forfatterskap => heil.mf forfattarskap')
-
-                  Also: make n def if adj is def.">
+                  but o/w make sure adj corresponds: 'helt.nt forfatterskap => hel.ut forfattarskap')">
       <choose><when c="The 'un' gender is only on taggings that never have other possibilities.
                        also, be conservative: only set gender if sl→tl changed gender, or we have a GD">
         <test><and>
@@ -876,7 +895,10 @@
               </or>
             </and></test>
             <choose><when>
-              <test><equal><clip pos="1" side="tl" part="gen"/><lit-tag v="ut"/></equal></test>
+              <test><and>
+                <equal><clip pos="1" side="tl" part="gen"/><lit-tag v="ut"/></equal>
+                <in caseless="yes"><clip pos="1" side="tl" part="lemh"/><list n="noun-use-masc-adj"/></in>
+              </and></test>
               <let><clip pos="2" side="tl" part="gen"/><lit-tag v="m"/></let>
             </when></choose>
             <choose><when>
