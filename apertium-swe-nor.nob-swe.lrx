@@ -268,6 +268,13 @@
   <rule><match lemma="far" tags="n.m.*"><select lemma="far" tags="n.ut.*"/></match></rule>
   <rule><match lemma="pappa" tags="n.m.*"><select lemma="pappa" tags="n.ut.*"/></match></rule>
 
+  <rule><match lemma="grei" tags="adj.*"><select lemma="OK"/></match></rule>
+
+  <rule><match lemma="aktivitet" tags="n.*"><select lemma="aktivitet" tags="n.ut.*"/></match></rule>
+
+  <!-- eller er det betre med «hva slags» → «vilken typ av»? -->
+  <rule><match lemma="slags" tags="n.*"><select lemma="slags"/></match></rule>
+
   <!-- Frequency-based rules: -->
 <rule weight="0.9"><match lemma="brett" tags="n.m.*"><select lemma="kull" tags="n.ut.*"/></match></rule><!-- 707 -->
 <rule weight="0.9"><match lemma="brett" tags="n.nt.*"><select lemma="bräda" tags="n.ut.*"/></match></rule><!-- 318 -->
@@ -314,7 +321,6 @@
 <rule weight="0.9"><match lemma="aksje" tags="n.*"><select lemma="aktie" tags="n.ut.*"/></match></rule><!-- 929 -->
 <rule weight="0.9"><match lemma="akte" tags="vblex.*"><select lemma="akta" tags="vblex.*"/></match></rule><!-- 545 -->
 <rule weight="0.9"><match lemma="akte" tags="adj.pp.*"><select lemma="akta" tags="adj.pp.*"/></match></rule><!-- 545 -->
-<rule weight="0.9"><match lemma="aktivitet" tags="n.*"><select lemma="verksamhet" tags="n.ut.*"/></match></rule><!-- 1874 -->
 <rule weight="0.9"><match lemma="alarmere" tags="vblex.*"><select lemma="larma" tags="vblex.*"/></match></rule><!-- 229 -->
 <rule weight="0.9"><match lemma="alarmere" tags="adj.pp.*"><select lemma="larma" tags="adj.pp.*"/></match></rule><!-- 229 -->
 <rule weight="0.9"><match lemma="alarm" tags="n.*"><select lemma="larm" tags="n.nt.*"/></match></rule><!-- 1147 -->

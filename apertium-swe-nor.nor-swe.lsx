@@ -370,6 +370,12 @@
       <par n="FV"/>
     </e>
 
+    <e lm="hva slags → hva for slags" c="va för slags">
+      <i>hva</i> <par n="TagsEnd"/>
+      <p><l></l> <r>for<s n="pr"/><j/></r></p>
+      <i>slags</i> <par n="TagsEnd"/>
+    </e>
+
   </section>
 
 </dictionary>
