@@ -1,0 +1,14 @@
+[4ezRqmPuJ3lS#0] ^ha<vblex><pres><actv>$ ^uppföra<vblex><supn><pasv>$
+[/4ezRqmPuJ3lS]
+[BGSXM-VaHxKz#0] ^som<pr>$ ^inte<adv>$ ^uppföra<vblex><supn><pasv>$
+[/BGSXM-VaHxKz]
+[I1a7gtD3zHRi#0] ^ha<vblex><pres><actv>$ ^finna<vblex><supn><pasv>$
+[/I1a7gtD3zHRi]
+[W-fqMeU--uw4#0] ^som<pr>$ ^finna<vblex><supn><pasv>$
+[/W-fqMeU--uw4]
+[eLrB2F8Y26uc#0] ^söka<adj><pprs>$ ^vilken<prn><rel><un><pl><gen>$ ^förmåga<n><ut><sg><ind>$ ^att<cnjsub>$ ^utnyttja<vblex><inf><actv>$
+[/eLrB2F8Y26uc]
+[jONRw3Es7Fmy#0] ^den<det><dem><un><pl>$ ^part<n><ut><pl><ind>$ ^vilken<prn><rel><un><pl><gen>$ ^ansökning<n><ut><pl><ind>$
+[/jONRw3Es7Fmy]
+[zTuZzFUZoMgA#0] ^han<prn><pers><p3><m><sg><acc>$
+[/zTuZzFUZoMgA]

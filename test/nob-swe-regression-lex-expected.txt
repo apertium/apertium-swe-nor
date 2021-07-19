@@ -1,0 +1,4 @@
+[SCBaXMWwe1nl#0] ^ikke<adv>/inte<adv>$
+[/SCBaXMWwe1nl]
+[iCRNj2geRoJM#0] ^Her<adv>/Här<adv>$ ^ha<vblex><pres>/ha<vblex><pres><actv>$ ^den<prn><pers><p3><nt><sg><nom>/den<prn><pers><p3><nt><sg><nom>$ ^også<adv>/också<adv>$ ^bli<vblex><pp>/bli<vblex><supn><actv>$ ^opprette<adj><pp><nt><sg><ind>/etablera<adj><pp><nt><sg><ind>$ ^litteratur<n><m><sg><ind><cmp>/litteratur<n><ut><sg><ind><cmp>$ ^pris<n><m><pl><ind>/pris<n><nt><pl><ind>$ ^og<cnjcoo>/och<cnjcoo>$ ^bli<vblex><pp>/bli<vblex><supn><actv>$ ^arrangere<adj><pp><pl>/ordna<adj><pp><pl><ind>$ ^litteratur<n><m><sg><ind><cmp>/litteratur<n><ut><sg><ind><cmp>$ ^festival<n><m><pl><ind>/festival<n><ut><pl><ind>$
+[/iCRNj2geRoJM]

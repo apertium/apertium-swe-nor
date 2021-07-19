@@ -1,0 +1,14 @@
+[4ezRqmPuJ3lS#0] ^ha<vblex><pres>$ ^bli<vblex><pp>$ ^oppføre<vblex><pp>$
+[/4ezRqmPuJ3lS]
+[BGSXM-VaHxKz#0] ^som<pr>$ ^ikkje<adv>$ ^ha<vblex><pres>$ ^bli<vblex><pp>$ ^oppføre<vblex><pp>$
+[/BGSXM-VaHxKz]
+[I1a7gtD3zHRi#0] ^ha<vblex><pres>$ ^finnast<vblex><pstv><pp>$
+[/I1a7gtD3zHRi]
+[W-fqMeU--uw4#0] ^som<pr>$ ^ha<vblex><pres>$ ^finnast<vblex><pstv><pp>$
+[/W-fqMeU--uw4]
+[eLrB2F8Y26uc#0] ^søkje<adj><pprs>$ ^der<cnjsub>$ ^evne<n><f><sg><def>$ ^til å<cnjsub>$ ^utnytte<vblex><inf>$
+[/eLrB2F8Y26uc]
+[jONRw3Es7Fmy#0] ^den<det><dem><un><pl>$ ^part<n><m><pl><def>$ ^som<prn><rel><un><sp><nom>$ ^ha<vblex><pres>$ ^søknad<n><m><pl><ind>$ ^som<prn><rel><un><sp><nom>$
+[/jONRw3Es7Fmy]
+[zTuZzFUZoMgA#0] ^han<prn><pers><p3><m><sg><acc>$
+[/zTuZzFUZoMgA]

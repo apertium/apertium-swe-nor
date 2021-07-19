@@ -1,0 +1,4 @@
+[SCBaXMWwe1nl#0] ^adv<adv>{^inte<adv>$}$
+[/SCBaXMWwe1nl]
+[iCRNj2geRoJM#0] ^Adv<adv>{^här<adv>$}$ ^aux<vblex><pres><actv><ha>{^ha<vblex><pres><actv>$}$ ^prn<prn><pers><p3><nt><sg><nom>{^den<prn><pers><p3><nt><sg><nom>$}$ ^adv<adv>{^också<adv>$}$ ^aux<vblex><supn><actv><bli>{^bli<vblex><supn><actv>$}$ ^adj_n_n<n><nt><pl><ind>{^etablera<adj><pp><nt><sg><ind>$ ^litteratur<n><ut><sg><ind><cmp>$^pris<n><nt><pl><ind>$}$ ^default<default>{^och<cnjcoo>$}$ ^aux<vblex><supn><actv><bli>{^bli<vblex><supn><actv>$}$ ^adj_n_n<n><ut><pl><ind>{^ordna<adj><pp><pl><ind>$ ^litteratur<n><ut><sg><ind><cmp>$^festival<n><ut><pl><ind>$}$
+[/iCRNj2geRoJM]

@@ -1,0 +1,2 @@
+[tMKlZei_zLhv#0] ^Jag/Jag<n><nt><sg><ind>/Jag<n><nt><pl><ind>/Jag<n><nt><sg><ind>/Jag<n><nt><pl><ind>/Jag<prn><pers><p1><ut><sg><nom>$ ^har/ha<vblex><pres><actv>$ ^ålar/åla<vblex><pres><actv>/ål<n><ut><pl><ind>$ ^i/i<pr>$ ^min/min<det><pos><ut><sg>/min<prn><pos><ut><sg>$ ^svävare/svävare<n><ut><sg><ind>/svävare<n><ut><sg><ind>/svävare<n><ut><pl><ind>/svävare<n><ut><pl><ind>$
+[/tMKlZei_zLhv]

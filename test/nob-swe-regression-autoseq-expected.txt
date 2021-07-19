@@ -1,0 +1,4 @@
+[SCBaXMWwe1nl#0] ^ikke<adv>$
+[/SCBaXMWwe1nl]
+[iCRNj2geRoJM#0] ^Her<adv>$ ^ha<vblex><pres>$ ^den<prn><pers><p3><nt><sg><nom>$ ^også<adv>$ ^bli<vblex><pp>$ ^opprette<adj><pp><nt><sg><ind>$ ^litteratur<n><m><sg><ind><cmp>$ ^pris<n><m><pl><ind>$ ^og<cnjcoo>$ ^bli<vblex><pp>$ ^arrangere<adj><pp><pl>$ ^litteratur<n><m><sg><ind><cmp>$ ^festival<n><m><pl><ind>$
+[/iCRNj2geRoJM]

@@ -1,0 +1,14 @@
+[4ezRqmPuJ3lS#0] ^har/ha<vblex><pres><actv>$ ^uppförts/uppföra<vblex><supn><pasv>$
+[/4ezRqmPuJ3lS]
+[BGSXM-VaHxKz#0] ^som/som<cnjsub>/som<pr>$ ^inte/inte<adv>$ ^uppförts/uppföra<vblex><supn><pasv>$
+[/BGSXM-VaHxKz]
+[I1a7gtD3zHRi#0] ^har/ha<vblex><pres><actv>$ ^funnits/finna<vblex><supn><pasv>$
+[/I1a7gtD3zHRi]
+[W-fqMeU--uw4#0] ^som/som<cnjsub>/som<pr>$ ^funnits/finna<vblex><supn><pasv>$
+[/W-fqMeU--uw4]
+[eLrB2F8Y26uc#0] ^sökande/söka<adj><pprs>$ ^vars/vilken<prn><rel><un><pl><gen>/vilken<prn><rel><nt><sg><gen>/vilken<prn><rel><ut><sg><gen>$ ^förmåga/förmåga<n><ut><sg><ind>$ ^att/att<cnjsub>$ ^utnyttja/utnyttja<vblex><inf><actv>$
+[/eLrB2F8Y26uc]
+[jONRw3Es7Fmy#0] ^de/den<det><dem><un><pl>/de<prn><pers><p3><un><pl><nom>$ ^parter/part<n><ut><pl><ind>$ ^vars/vilken<prn><rel><un><pl><gen>/vilken<prn><rel><nt><sg><gen>/vilken<prn><rel><ut><sg><gen>$ ^ansökningar/ansökning<n><ut><pl><ind>$
+[/jONRw3Es7Fmy]
+[zTuZzFUZoMgA#0] ^honom/han<prn><pers><p3><m><sg><acc>$
+[/zTuZzFUZoMgA]

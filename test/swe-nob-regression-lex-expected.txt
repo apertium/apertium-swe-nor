@@ -1,0 +1,14 @@
+[4ezRqmPuJ3lS#0] ^ha<vblex><pres><actv>/ha<vblex><pres>$ ^uppföra<vblex><supn><pasv>/oppføre<vblex><pp>$
+[/4ezRqmPuJ3lS]
+[BGSXM-VaHxKz#0] ^som<pr>/som<pr>$ ^inte<adv>/ikke<adv>$ ^uppföra<vblex><supn><pasv>/oppføre<vblex><pp>$
+[/BGSXM-VaHxKz]
+[I1a7gtD3zHRi#0] ^ha<vblex><pres><actv>/ha<vblex><pres>$ ^finna<vblex><supn><pasv>/finnes<vblex><pstv><pp>$
+[/I1a7gtD3zHRi]
+[W-fqMeU--uw4#0] ^som<pr>/som<pr>$ ^finna<vblex><supn><pasv>/finnes<vblex><pstv><pp>$
+[/W-fqMeU--uw4]
+[eLrB2F8Y26uc#0] ^söka<adj><pprs>/søke<adj><pprs>$ ^vilken<prn><rel><un><pl><gen>/som<prn><rel><un><sp><nom>/hvilken<det><itg><un><pl>$ ^förmåga<n><ut><sg><ind>/evne<n><m><sg><ind>$ ^att<cnjsub>/til å<cnjsub>$ ^utnyttja<vblex><inf><actv>/utnytte<vblex><inf>$
+[/eLrB2F8Y26uc]
+[jONRw3Es7Fmy#0] ^den<det><dem><un><pl>/den<det><dem><un><pl>$ ^part<n><ut><pl><ind>/part<n><m><pl><ind>$ ^vilken<prn><rel><un><pl><gen>/som<prn><rel><un><sp><nom>/hvilken<det><itg><un><pl>$ ^ansökning<n><ut><pl><ind>/søknad<n><m><pl><ind>$
+[/jONRw3Es7Fmy]
+[zTuZzFUZoMgA#0] ^han<prn><pers><p3><m><sg><acc>/han<prn><pers><p3><m><sg><acc>$
+[/zTuZzFUZoMgA]

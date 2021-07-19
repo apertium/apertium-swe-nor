@@ -1,0 +1,4 @@
+[SCBaXMWwe1nl#0] ^inte<adv>$
+[/SCBaXMWwe1nl]
+[iCRNj2geRoJM#0] ^Här<adv>$ ^ha<vblex><pres><actv>$ ^den<prn><pers><p3><nt><sg><nom>$ ^också<adv>$ ^bli<vblex><supn><actv>$ ^etablera<adj><pp><nt><sg><ind>$ ^litteratur<n><ut><sg><ind><cmp>$^pris<n><nt><pl><ind>$ ^och<cnjcoo>$ ^bli<vblex><supn><actv>$ ^ordna<adj><pp><pl><ind>$ ^litteratur<n><ut><sg><ind><cmp>$^festival<n><ut><pl><ind>$
+[/iCRNj2geRoJM]

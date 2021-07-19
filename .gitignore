@@ -17,3 +17,10 @@
 /ap_include.am
 /dev/testvoc/__pycache__/
 /tests/out/*.current.txt
+/*.gz
+/*.pc
+/*.zhfst
+/.DS_Store
+/config.in
+/config
+/test/*-output.txt

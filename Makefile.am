@@ -274,15 +274,8 @@ clean-local:
 ## Test
 ###############################################################################
 
-test: all test-progression
-	echo "Såg hon inte orden?" | apertium -d . swe-nno | tee .test-mt
-	@echo "Såg ho ikkje orda?" > .test-ref
-	@diff .test-ref .test-mt
-	echo "Jag har ålar i min svävare" | apertium -d . swe-nob | tee .test-mt
-	@echo "Jeg har åler i min luftputebåt" > .test-ref
-	@diff .test-ref .test-mt
-	@rm .test-ref .test-mt
-	t/hash-count
+test: all
+	apertium-regtest test
 
 # Slow but near-complete test of dictionary consistency:
 test-gen-%: all

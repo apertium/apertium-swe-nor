@@ -1,0 +1,14 @@
+[4ezRqmPuJ3lS#0] ^verb<vblex><pres>{^ha<vblex><pres>$}$ ^aux<vblex><pp>{^bli<vblex><pp>$}$ ^adj<adj><pp><nt><sg><ind>{^oppføre<vblex><pp>$}$
+[/4ezRqmPuJ3lS]
+[BGSXM-VaHxKz#0] ^pr<pr>{^som<pr>$}$ ^adv<adv>{^ikkje<adv>$}$ ^aux<vblex><pp>{^ha<vblex><pres>$}$ ^adj<adj><pp><nt><sg><ind>{^bli<vblex><pp>$}$ ^vblex<vblex><pp>{^oppføre<vblex><pp>$}$
+[/BGSXM-VaHxKz]
+[I1a7gtD3zHRi#0] ^verb<vblex><pres>{^ha<vblex><pres>$}$ ^vblex<vblex><pstv><pp>{^finnast<vblex><pstv><pp>$}$
+[/I1a7gtD3zHRi]
+[W-fqMeU--uw4#0] ^pr<pr>{^som<pr>$}$ ^aux<vblex><pstv><pp>{^ha<vblex><pres>$}$ ^vblex<vblex><pstv><pp>{^finnast<vblex><pstv><pp>$}$
+[/W-fqMeU--uw4]
+[eLrB2F8Y26uc#0] ^adj<adj><pprs>{^søkje<adj><pprs>$}$ ^cnjsub<cnjsub>{^der<cnjsub>$}$ ^n<n><f><sg><def>{^evne<n><f><sg><ind>$}$ ^infm<cnjsub>{^til å<cnjsub>$}$ ^verb<vblex><inf>{^utnytte<vblex><inf>$}$
+[/eLrB2F8Y26uc]
+[jONRw3Es7Fmy#0] ^detdd<det><dem><un><pl>{^den<det><dem><un><pl>$}$ ^n<n><m><pl><def>{^part<n><m><pl><ind>$}$ ^prn<prn><rel><un><pl><gen>{^som<prn><rel><un><sp><nom>$}$ ^verb<vblex><pres>{^ha<vblex><pres>$}$ ^n<n><m><pl><ind>{^søknad<n><m><pl><ind>$}$ ^prn<prn><rel><un><pl><gen>{^som<prn><rel><un><sp><nom>$}$
+[/jONRw3Es7Fmy]
+[zTuZzFUZoMgA#0] ^prn<prn><pers><p3><m><sg><acc>{^han<prn><pers><p3><m><sg><acc>$}$
+[/zTuZzFUZoMgA]
