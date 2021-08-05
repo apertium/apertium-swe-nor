@@ -275,6 +275,7 @@ clean-local:
 ###############################################################################
 
 test: all
+	t/hash-count
 	apertium-regtest test
 
 # Slow but near-complete test of dictionary consistency:
