@@ -158,7 +158,6 @@
       <attr-item tags="n"/>
       <attr-item tags="n.acr"/>
       <attr-item tags="np"/>
-      <attr-item tags="np.top"/>
     </def-attr>
     <def-attr n="persona">
       <attr-item tags="p1"/>
@@ -246,6 +245,7 @@
   <section-def-vars>
     <def-var n="gen-prep"/>
     <def-var n="caseFirstWord"/>
+    <def-var n="caseSecondWord"/>
     <def-var n="c_name"         c="chunk name"/>
     <def-var n="ntags"/>
     <def-var n="aux"/>
@@ -316,23 +316,28 @@
 
     <def-macro n="set_caseFirstWord" npar="1">
       <let><var n="caseFirstWord"/><get-case-from pos="1"><lit v="aa"/></get-case-from></let>
-      <modify-case><clip pos="1" side="tl" part="lemh"/><lit v="aa"/></modify-case>
+      <choose><when>
+        <test><not><equal><clip pos="1" side="tl" part="a_nom"/><lit-tag v="np"/></equal></not></test>
+        <modify-case><clip pos="1" side="tl" part="lemh"/><lit v="aa"/></modify-case>
+      </when></choose>
     </def-macro>
-    <def-macro n="set_caseFirstWord2" npar="2">
-      <!-- arg.1: possessed noun. arg.2: det.pos, gives typographic case -->
-      <choose>
-        <when>
-          <test><not>
-            <and>
-              <equal><clip pos="2" side="tl" part="lemh"/><lit v="De"/></equal>
-              <equal><clip pos="2" side="tl" part="a_det"/><lit-tag v="det.pos"/></equal>
-              <equal><clip pos="2" side="tl" part="persona"/><lit-tag v="p2"/></equal>
-            </and>
-          </not></test>
-          <let><var n="caseFirstWord"/><get-case-from pos="2"><lit v="aa"/></get-case-from></let>
-          <modify-case><clip pos="1" side="tl" part="lemh"/><lit v="aa"/></modify-case>
-        </when>
-      </choose>
+
+    <def-macro n="set_caseFirstWord2" npar="2"
+               c="arg1: first word, arg2: second word
+                  Downcases arg1, unless np">
+      <let><var n="caseFirstWord"/><get-case-from pos="1"><lit v="aa"/></get-case-from></let>
+      <let><var n="caseSecondWord"/><get-case-from pos="2"><lit v="aa"/></get-case-from></let>
+      <choose><when>
+        <test><and>
+          <equal><var n="caseFirstWord"/><lit v="AA"/></equal>
+          <not><equal><var n="caseSecondWord"/><lit v="AA"/></equal></not>
+        </and></test>
+        <let><var n="caseFirstWord"/><lit v="Aa"/></let> <!-- avoid applying shouting to whole chunk if only first word shouts -->
+      </when></choose>
+      <choose><when>
+        <test><not><equal><clip pos="1" side="tl" part="a_nom"/><lit-tag v="np"/></equal></not></test>
+        <modify-case><clip pos="1" side="tl" part="lemh"/><lit v="aa"/></modify-case>
+      </when></choose>
     </def-macro>
 
     <!-- Macros which set concordance variables: -->
