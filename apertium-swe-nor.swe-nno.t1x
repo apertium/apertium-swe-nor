@@ -846,7 +846,7 @@
   <section-rules>
     <!-- Verbs -->
     <rule comment="VBLEX.SUPN.PASV: som inte funnits → som ikke har funnes
-                                    har uppförts → som har blitt oppført
+                                    som har uppförts → som har blitt oppført
                                     har funnits → har funnes
                                     som inte uppförts → som ikke har blitt oppført">
       <pattern>
