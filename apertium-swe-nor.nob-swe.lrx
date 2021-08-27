@@ -319,6 +319,8 @@
     </or>
   </rule>
 
+  <rule><match lemma="internasjonal" tags="adj.*"><select lemma="internationell"/></match></rule>
+
   <!-- Frequency-based rules: -->
 <rule weight="0.9"><match lemma="brett" tags="n.m.*"><select lemma="kull" tags="n.ut.*"/></match></rule><!-- 707 -->
 <rule weight="0.9"><match lemma="brett" tags="n.nt.*"><select lemma="bräda" tags="n.ut.*"/></match></rule><!-- 318 -->
@@ -4754,4 +4756,10 @@
 <rule weight="0.9"><match lemma="årgang" tags="n.*"><select lemma="årgång" tags="n.ut.*"/></match></rule><!-- 137 -->
 <rule weight="0.9"><match lemma="århundre" tags="n.nt.*"><select lemma="århundrade" tags="n.nt.*"/></match></rule><!-- 971 -->
 <rule weight="0.9"><match lemma="årlig" tags="adj.*"><select lemma="årlig" tags="adj.*"/></match></rule><!-- 460 -->
+  <rule><match lemma="hi" tags="n.*"><select lemma="bo"/></match></rule>
+  <rule><match lemma="truende" tags="adj.*"><select lemma="hotande"/></match></rule>
+  <rule><match lemma="kjøretur" tags="n.*"><select lemma="åktur"/></match></rule>
+  <rule><match lemma="i nærheten"><select lemma="i närheten"/></match></rule>
+  <rule><match lemma="ustabil" tags="adj.*"><select lemma="instabil"/></match></rule>
+  <rule><match lemma="forkjølelse" tags="n.*"><select lemma="förkylning"/></match></rule>
 </rules>

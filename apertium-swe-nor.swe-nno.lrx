@@ -3251,4 +3251,7 @@
   <rule><match lemma="ordningsföljd" tags="n.*"><select lemma="rekkefølgje"/></match></rule>
   <rule><match lemma="förbi" tags="adv"><select lemma="forbi"/></match></rule>
   <rule><match lemma="val" tags="n.*"><select lemma="val"/></match></rule>
+  <rule><match lemma="robust" tags="adj.*"><select lemma="robust"/></match></rule>
+  <rule><match lemma="bo" tags="n.*"><select lemma="bu"/></match></rule>
+  <rule><match lemma="i nærheten"><select lemma="i närheten"/></match></rule>
 </rules>

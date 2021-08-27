@@ -113,6 +113,8 @@
   <rule><match lemma="mor" tags="n.*"><select lemma="mor"/></match></rule>
   <rule><match lemma="mamma" tags="n.*"><select lemma="mamma"/></match></rule>
 
+  <rule><match lemma="robust" tags="adj.*"><select lemma="robust"/></match></rule>
+
   <!-- Frequency-based rules: -->
 
 <rule weight="0.9"><match lemma="brand" tags="n.ut.*"><select lemma="brann" tags="n.m.*"/></match></rule><!-- 2347 -->
@@ -3208,4 +3210,5 @@
 <rule weight="0.9"><match lemma="åtskillnad" tags="n.ut.*"><select lemma="forskjell" tags="n.m.*"/></match></rule><!-- 3022 -->
 <rule weight="0.9"><match lemma="åt" tags="pr"><select lemma="til" tags="pr"/></match></rule><!-- 484486 -->
 <rule weight="0.9"><match lemma="åverkan" tags="n.ut.*"><select lemma="skade" tags="n.m.*"/></match></rule><!-- 3320 -->
+  <rule><match lemma="bo" tags="n.*"><select lemma="bo"/></match></rule>
 </rules>
