@@ -274,7 +274,7 @@ clean-local:
 ## Test
 ###############################################################################
 
-test: all
+test: all test-progression
 	t/hash-count
 	apertium-regtest test
 
