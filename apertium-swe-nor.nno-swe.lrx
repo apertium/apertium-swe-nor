@@ -4569,4 +4569,8 @@
   <rule><match lemma="køyretur" tags="n.*"><select lemma="åktur"/></match></rule>
   <rule><match lemma="internasjonal" tags="adj.*"><select lemma="internationell"/></match></rule>
   <rule><match lemma="ustabil" tags="adj.*"><select lemma="instabil"/></match></rule>
+  <rule><match lemma="blokk" tags="n.*"><select lemma="block"/></match></rule>
+  <rule><match lemma="tildeling" tags="n.*"><select lemma="tilldelning"/></match></rule>
+  <rule><match lemma="strid"><select lemma="strid" tags="n.ut.*"/></match></rule>
+  <rule><match lemma="beregning" tags="n.*"><select lemma="kalkyl"/></match></rule>
 </rules>

@@ -4201,7 +4201,6 @@
 <rule weight="0.9"><match lemma="tak" tags="n.nt.*"><select lemma="tag" tags="n.nt.*"/></match></rule><!-- 14881 -->
 <rule weight="0.9"><match lemma="talent" tags="n.*"><select lemma="talang" tags="n.ut.*"/></match></rule><!-- 1413 -->
 <rule weight="0.9"><match lemma="talent" tags="n.nt.*"><select lemma="talang" tags="n.ut.*"/></match></rule><!-- 1413 -->
-<rule weight="0.9"><match lemma="tale" tags="n.*"><select lemma="tal" tags="n.nt.*"/></match></rule><!-- 19000 -->
 <rule weight="0.9"><match lemma="tank" tags="n.*"><select lemma="tank" tags="n.ut.*"/></match></rule><!-- 4595 -->
 <rule weight="0.9"><match lemma="tannkrem" tags="n.*"><select lemma="tandkräm" tags="n.ut.*"/></match></rule><!-- 121 -->
 <rule weight="0.9"><match lemma="tann" tags="n.*"><select lemma="tand" tags="n.ut.*"/></match></rule><!-- 3099 -->
@@ -4762,4 +4761,10 @@
   <rule><match lemma="i nærheten"><select lemma="i närheten"/></match></rule>
   <rule><match lemma="ustabil" tags="adj.*"><select lemma="instabil"/></match></rule>
   <rule><match lemma="forkjølelse" tags="n.*"><select lemma="förkylning"/></match></rule>
+  <rule><match lemma="blokk" tags="n.*"><select lemma="block"/></match></rule>
+  <rule><match lemma="kurs" tags="n.*"><select lemma="kurs"/></match></rule>
+  <rule><match lemma="usikker" tags="adj.*"><select lemma="osäker"/></match></rule>
+  <rule><match lemma="omskiftelig" tags="adj.*"><select lemma="ombytlig"/></match></rule>
+  <rule><match lemma="vaklevoren" tags="adj.*"><select lemma="skranglig"/></match></rule>
+  <rule><match lemma="tale" tags="n.*"><select lemma="anförande"/></match></rule>
 </rules>
