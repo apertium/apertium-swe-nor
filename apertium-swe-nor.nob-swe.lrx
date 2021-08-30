@@ -4767,4 +4767,6 @@
   <rule><match lemma="omskiftelig" tags="adj.*"><select lemma="ombytlig"/></match></rule>
   <rule><match lemma="vaklevoren" tags="adj.*"><select lemma="skranglig"/></match></rule>
   <rule><match lemma="tale" tags="n.*"><select lemma="anförande"/></match></rule>
+  <rule><match lemma="torden" tags="n.*"><select lemma="åska"/></match></rule>
+  <rule><match lemma="vær" tags="n.*"><select lemma="väder"/></match></rule>
 </rules>

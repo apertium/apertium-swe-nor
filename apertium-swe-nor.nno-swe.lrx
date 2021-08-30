@@ -4573,4 +4573,5 @@
   <rule><match lemma="tildeling" tags="n.*"><select lemma="tilldelning"/></match></rule>
   <rule><match lemma="strid"><select lemma="strid" tags="n.ut.*"/></match></rule>
   <rule><match lemma="beregning" tags="n.*"><select lemma="kalkyl"/></match></rule>
+  <rule><match lemma="vêr" tags="n.*"><select lemma="väder"/></match></rule>
 </rules>
