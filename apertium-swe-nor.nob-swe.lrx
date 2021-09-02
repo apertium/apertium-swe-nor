@@ -1167,10 +1167,6 @@
 <rule weight="0.9"><match lemma="filtrere" tags="adj.pp.*"><select lemma="filtrera" tags="adj.pp.*"/></match></rule><!-- 93 -->
 <rule weight="0.9"><match lemma="finansiere" tags="vblex.*"><select lemma="finansiera" tags="vblex.*"/></match></rule><!-- 557 -->
 <rule weight="0.9"><match lemma="finansiere" tags="adj.pp.*"><select lemma="finansiera" tags="adj.pp.*"/></match></rule><!-- 557 -->
-<rule weight="0.9"><match lemma="finne" tags="n.*"><select lemma="finne" tags="n.ut.*"/></match></rule><!-- 196 -->
-<rule weight="0.9"><match lemma="finne" tags="vblex.*"><select lemma="finna" tags="vblex.*"/></match></rule><!-- 80388 -->
-<rule weight="0.9"><match lemma="finne" tags="adj.pp.*"><select lemma="finna" tags="adj.pp.*"/></match></rule><!-- 80388 -->
-<rule weight="0.9"><match lemma="finn" tags="n.*"><select lemma="finne" tags="n.ut.*"/></match></rule><!-- 196 -->
 <rule weight="0.9"><match lemma="fiolin" tags="n.*"><select lemma="fiol" tags="n.ut.*"/></match></rule><!-- 186 -->
 <rule weight="0.9"><match lemma="firkant" tags="n.*"><select lemma="fyrkant" tags="n.ut.*"/></match></rule><!-- 110 -->
 <rule weight="0.9"><match lemma="fjelge" tags="vblex.*"><select lemma="ställa" tags="vblex.*"/></match></rule><!-- 8367 -->
@@ -4755,6 +4751,8 @@
 <rule weight="0.9"><match lemma="årgang" tags="n.*"><select lemma="årgång" tags="n.ut.*"/></match></rule><!-- 137 -->
 <rule weight="0.9"><match lemma="århundre" tags="n.nt.*"><select lemma="århundrade" tags="n.nt.*"/></match></rule><!-- 971 -->
 <rule weight="0.9"><match lemma="årlig" tags="adj.*"><select lemma="årlig" tags="adj.*"/></match></rule><!-- 460 -->
+<!-- /frequency based rules  -->
+
   <rule><match lemma="hi" tags="n.*"><select lemma="bo"/></match></rule>
   <rule><match lemma="truende" tags="adj.*"><select lemma="hotande"/></match></rule>
   <rule><match lemma="kjøretur" tags="n.*"><select lemma="åktur"/></match></rule>
@@ -4769,4 +4767,465 @@
   <rule><match lemma="tale" tags="n.*"><select lemma="anförande"/></match></rule>
   <rule><match lemma="torden" tags="n.*"><select lemma="åska"/></match></rule>
   <rule><match lemma="vær" tags="n.*"><select lemma="väder"/></match></rule>
+
+  <!-- finna vs hitta -->
+  <rule weight="0.9"><match lemma="finne" tags="vblex.*"><select lemma="hitta" tags="vblex.*"/></match></rule>
+  <rule weight="0.9"><match lemma="finne" tags="adj.pp.*"><select lemma="hitta" tags="adj.pp.*"/></match></rule>
+  <rule c="1008 4399: 34" weight="1.9">
+    <match lemma="finne" tags="vblex.pres"><select lemma="finna" tags="vblex.pres.pasv"/></match>
+    <match lemma="man" tags="prn.pers"/>
+  </rule>
+  <rule c="1009 4403: 6" weight="6.0">
+    <match lemma="her" tags="adv"/>
+    <match lemma="finne" tags="vblex.pres"><select lemma="finna" tags="vblex.pres.pasv"/></match>
+  </rule>
+  <rule c="1010 4407: 6" weight="3.0">
+    <match lemma="her" tags="adv"/>
+    <match lemma="finne" tags="vblex.pres"><select lemma="hitta" tags="vblex.pres.actv"/></match>
+  </rule>
+  <rule c="1011 4411: 3" weight="3.0">
+    <match lemma="her" tags="adv"/>
+    <match lemma="finne" tags="vblex.pres"><select lemma="finna" tags="vblex.pres.pasv"/></match>
+    <match lemma="man" tags="prn.pers"/>
+  </rule>
+  <rule c="1012 4416: 3" weight="2.0">
+    <match lemma="her" tags="adv"/>
+    <match lemma="finne" tags="vblex.pres"><select lemma="hitta" tags="vblex.pres.actv"/></match>
+    <match lemma="man" tags="prn.pers"/>
+  </rule>
+  <rule c="1014 4425: 9" weight="3.0">
+    <match lemma="finne" tags="vblex.pres"><select lemma="hitta" tags="vblex.pres.actv"/></match>
+    <match lemma="en" tags="det.qnt.m.sg"/>
+  </rule>
+  <rule c="1016 4433: 2" weight="2.0">
+    <match lemma="finne" tags="vblex.pres"><select lemma="hitta" tags="vblex.pres.actv"/></match>
+    <match lemma="i" tags="pr"/>
+  </rule>
+  <rule c="1019 4445: 19" weight="19.0">
+    <match lemma="finne" tags="vblex.pres"><select lemma="finna" tags="vblex.pres.pasv"/></match>
+    <match lemma="vi" tags="prn.pers.p1"/>
+  </rule>
+  <rule c="1022 4457: 2" weight="2.0">
+    <match lemma="finne" tags="vblex.pres"><select lemma="hitta" tags="vblex.pres.actv"/></match>
+    <match lemma="en" tags="det.qnt.nt.sg"/>
+  </rule>
+  <rule c="1605 6930: 7" weight="2.3">
+    <match lemma="ikke" tags="adv"/>
+    <match lemma="finne" tags="vblex.pp"><select lemma="finna" tags="vblex.supn.actv"/></match>
+  </rule>
+  <rule c="1606 6934: 3" weight="3.0">
+    <match lemma="finne" tags="vblex.pp"><select lemma="hitta" tags="vblex.supn.pasv"/></match>
+    <match lemma="på" tags="pr"/>
+  </rule>
+  <rule c="1607 6938: 3" weight="2.0">
+    <match lemma="finne" tags="vblex.pp"><select lemma="finna" tags="vblex.past.pasv"/></match>
+    <match lemma="på" tags="pr"/>
+  </rule>
+  <rule c="1608 6942: 2" weight="2.0">
+    <match lemma="bli" tags="vblex.pres"/>
+    <match lemma="finne" tags="vblex.pp"><select lemma="hitta" tags="vblex.pres.pasv"/></match>
+  </rule>
+  <rule c="1722 7421: 3" weight="3.0">
+    <match lemma="finne" tags="vblex.pret"><select lemma="hitta" tags="vblex.past.actv"/></match>
+    <match lemma="den" tags="det.dem.m.sg"/>
+  </rule>
+  <rule c="1726 7438: 2" weight="2.0">
+    <match lemma="men" tags="cnjcoo.clb"/>
+    <match lemma="finne" tags="vblex.pret"><select lemma="hitta" tags="vblex.past.actv"/></match>
+  </rule>
+  <rule c="1727 7442: 18" weight="9.0">
+    <match lemma="finne" tags="vblex.pret"><select lemma="hitta" tags="vblex.past.actv"/></match>
+    <match lemma="sin" tags="det.pos.m"/>
+  </rule>
+  <rule c="3287 14020: 26" weight="3.7">
+    <match lemma="bli" tags="vblex.pret"/>
+    <match lemma="finne" tags="adj.pp.mf.sg.ind"><select lemma="hitta" tags="vblex.past.pasv"/></match>
+  </rule>
+  <rule c="3288 14024: 10" weight="10.0">
+    <match lemma="bli" tags="vblex.pres"/>
+    <match lemma="finne" tags="adj.pp.mf.sg.ind"><select lemma="hitta" tags="vblex.pres.pasv"/></match>
+  </rule>
+  <rule c="3289 14028: 10" weight="2.0">
+    <match lemma="bli" tags="vblex.pres"/>
+    <match lemma="finne" tags="adj.pp.mf.sg.ind"><select lemma="hitta" tags="vblex.pres.actv"/></match>
+  </rule>
+  <rule c="3290 14032: 13" weight="6.5">
+    <match lemma="finne" tags="adj.pp.mf.sg.ind"><select lemma="hitta" tags="vblex.past.pasv"/></match>
+    <match lemma="i" tags="pr"/>
+  </rule>
+  <rule c="3291 14036: 13" weight="3.0">
+    <match lemma="finne" tags="adj.pp.mf.sg.ind"><select lemma="hitta" tags="vblex.supn.pasv"/></match>
+    <match lemma="i" tags="pr"/>
+  </rule>
+  <rule c="3293 14044: 12" weight="12.0">
+    <match lemma="bli" tags="vblex.pret"/>
+    <match lemma="finne" tags="adj.pp.mf.sg.ind"><select lemma="hitta" tags="vblex.past.pasv"/></match>
+    <match lemma="i" tags="pr"/>
+  </rule>
+  <rule c="3296 14059: 2" weight="2.0">
+    <match lemma="han" tags="prn.pers.p3"/>
+    <match lemma="finne" tags="adj.pp.mf.sg.ind"><select lemma="hitta" tags="vblex.past.pasv"/></match>
+  </rule>
+  <rule c="3504 14935: 2" weight="2.0">
+    <match lemma="finne" tags="vblex.inf"><select lemma="finna" tags="vblex.inf.actv"/></match>
+    <match lemma="nordvestpassasjen" tags="np.cgguess"/>
+  </rule>
+  <rule c="3505 14939: 2" weight="2.0">
+    <match lemma="å" tags="part"/>
+    <match lemma="finne" tags="vblex.inf"><select lemma="finna" tags="vblex.inf.actv"/></match>
+    <match lemma="nordvestpassasjen" tags="np.cgguess"/>
+  </rule>
+  <rule c="3506 14944: 6" weight="3.0">
+    <match lemma="finne" tags="vblex.inf"><select lemma="finna" tags="vblex.inf.actv"/></match>
+    <match lemma="seg" tags="prn"/>
+  </rule>
+  <rule c="3510 14960: 4" weight="4.0">
+    <match lemma="ikke" tags="adv"/>
+    <match lemma="finne" tags="vblex.inf"><select lemma="finna" tags="vblex.inf.actv"/></match>
+  </rule>
+  <rule c="3511 14964: 3" weight="3.0">
+    <match lemma="finne" tags="vblex.inf"><select lemma="finna" tags="vblex.inf.actv"/></match>
+    <match lemma="sin" tags="det.pos.m"/>
+  </rule>
+  <rule c="3512 14968: 2" weight="2.0">
+    <match lemma="å" tags="part"/>
+    <match lemma="finne" tags="vblex.inf"><select lemma="finna" tags="vblex.inf.actv"/></match>
+    <match lemma="sin" tags="det.pos.m"/>
+  </rule>
+  <rule c="3514 14977: 4" weight="2.0">
+    <match lemma="og" tags="cnjcoo"/>
+    <match lemma="finne" tags="vblex.inf"><select lemma="finna" tags="vblex.inf.actv"/></match>
+  </rule>
+  <rule c="3515 14981: 2" weight="2.0">
+    <match lemma="og" tags="cnjcoo"/>
+    <match lemma="finne" tags="vblex.inf"><select lemma="finna" tags="vblex.inf.actv"/></match>
+    <match lemma="en" tags="det.qnt.m.sg"/>
+  </rule>
+  <rule c="3518 14995: 2" weight="2.0">
+    <match lemma="finne" tags="vblex.inf"><select lemma="finna" tags="vblex.inf.actv"/></match>
+    <match lemma="arbeid" tags="n.nt"/>
+  </rule>
+  <rule c="4500 19118: 8" weight="1.6">
+    <match lemma="den" tags="prn.pers.p3.nt"/>
+    <match lemma="finne" tags="adj.pp.nt.sg.ind"><select lemma="hitta" tags="vblex.past.pasv"/></match>
+  </rule>
+
+
+  <!-- være/ha: -->
+  <rule c="101 447: 262" weight="2.943820224719101">
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="bli" tags="vblex.pp"/>
+  </rule>
+  <rule c="102 451: 3" weight="2.9999999999999996">
+    <match lemma="også" tags="adv"/>
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="bli" tags="vblex.pp"/>
+  </rule>
+  <rule c="103 456: 4" weight="4.0">
+    <match lemma="de" tags="prn.pers.p3"/>
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="bli" tags="vblex.pp"/>
+  </rule>
+  <rule c="107 476: 9" weight="2.9999999999999996">
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="aldri" tags="adv"/>
+  </rule>
+  <rule c="110 488: 2" weight="2.0">
+    <match lemma="historisk" tags="adj.pst.nt.sg.ind"/>
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+  </rule>
+  <rule c="113 501: 2" weight="2.0">
+    <match lemma="prosess" tags="n.m"/>
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+  </rule>
+  <rule c="118 522: 4" weight="2.0">
+    <match lemma="år" tags="n.nt"/>
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="den" tags="prn.pers.p3.nt"/>
+  </rule>
+  <rule c="123 545: 2" weight="2.0">
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="oppdage" tags="adj.pp.pl"/>
+  </rule>
+  <rule c="126 559: 2" weight="2.0">
+    <match lemma="derimot" tags="adv"/>
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="den" tags="det.dem.nt.sg"/>
+  </rule>
+  <rule c="128 569: 19" weight="3.0">
+    <match lemma="den" tags="prn.pers.p3.nt"/>
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="to" tags="det.qnt"/>
+  </rule>
+  <rule c="129 574: 2" weight="2.0">
+    <match lemma="den" tags="prn.pers.p3.nt"/>
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="bygge" tags="vblex.pp"/>
+  </rule>
+  <rule c="131 583: 2" weight="2.0">
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="ha" tags="vblex.pres"/>
+  </rule>
+  <rule c="133 592: 15" weight="1.875">
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="senere" tags="adv"/>
+  </rule>
+  <rule c="135 600: 8" weight="2.0">
+    <match lemma="senere" tags="adv"/>
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+  </rule>
+  <rule c="140 622: 2" weight="2.0">
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="foreslå" tags="vblex.pp"/>
+  </rule>
+  <rule c="141 626: 7" weight="6.999999999999999">
+    <match lemma="den" tags="prn.pers.p3.nt"/>
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="finne" tags="vblex.pp"/>
+  </rule>
+  <rule c="143 636: 10" weight="1.6666666666666665">
+    <match lemma="og" tags="cnjcoo"/>
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="bli" tags="vblex.pp"/>
+  </rule>
+  <rule c="146 651: 7" weight="7.0">
+    <match lemma="han" tags="prn.pers.p3"/>
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="bli" tags="vblex.pp"/>
+  </rule>
+  <rule c="148 660: 6" weight="6.0">
+    <match lemma="den" tags="prn.pers.p3.nt"/>
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="bli" tags="vblex.pp"/>
+  </rule>
+  <rule c="150 670: 2" weight="2.0">
+    <match lemma="som" tags="cnjsub"/>
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="dobbel" tags="adj.sint.pst.nt.sg.ind"/>
+  </rule>
+  <rule c="153 683: 2" weight="2.0">
+    <match lemma="den" tags="prn.pers.p3.nt"/>
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="gjøre" tags="vblex.pp"/>
+  </rule>
+  <rule c="155 693: 2" weight="2.0">
+    <match lemma="hun" tags="prn.pers.p3.f"/>
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="bli" tags="vblex.pp"/>
+  </rule>
+  <rule c="165 739: 5" weight="2.0">
+    <match lemma="i tillegg" tags="adv"/>
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="den" tags="det.dem.nt.sg"/>
+  </rule>
+  <rule c="170 761: 2" weight="2.0">
+    <match lemma="dessuten" tags="adv"/>
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="den" tags="det.dem.m.sg"/>
+  </rule>
+  <rule c="172 770: 2" weight="2.0">
+    <match lemma="tiår" tags="n.nt"/>
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+  </rule>
+  <rule c="187 837: 2" weight="2.0">
+    <match lemma="han" tags="prn.pers.p3"/>
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="i" tags="pr"/>
+  </rule>
+  <rule c="188 842: 2" weight="2.0">
+    <match lemma="han" tags="prn.pers.p3"/>
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="bli" tags="vblex.pp"/>
+  </rule>
+  <rule c="189 847: 2" weight="2.0">
+    <match lemma="men" tags="cnjcoo.clb"/>
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="i" tags="pr"/>
+  </rule>
+  <rule c="190 852: 2" weight="2.0">
+    <match lemma="som" tags="cnjsub"/>
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="omgi" tags="vblex.pp"/>
+  </rule>
+  <rule c="192 862: 3" weight="2.9999999999999996">
+    <match lemma="den" tags="prn.pers.p3.nt"/>
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="finne" tags="vblex.pp"/>
+  </rule>
+  <rule c="200 900: 2" weight="2.0">
+    <match lemma="tid" tags="n.m"/>
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="den" tags="prn.pers.p3.nt"/>
+  </rule>
+  <rule c="202 910: 2" weight="2.0">
+    <match lemma="men" tags="cnjcoo.clb"/>
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="siden" tags="adv"/>
+  </rule>
+  <rule c="204 919: 2" weight="2.0">
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="skape" tags="adj.pp.pl"/>
+  </rule>
+  <rule c="207 931: 2" weight="2.0">
+    <match lemma="analyse" tags="n.m"/>
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+  </rule>
+  <rule c="219 984: 2" weight="2.0">
+    <match lemma="senere" tags="adv"/>
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="den" tags="det.dem.nt.sg"/>
+  </rule>
+  <rule c="221 993: 2" weight="2.0">
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="indonesia" tags="np.top"/>
+  </rule>
+  <rule c="224 1006: 2" weight="2.0">
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="benytte" tags="adj.pp.nt.sg.ind"/>
+  </rule>
+  <rule c="228 1024: 2" weight="2.0">
+    <match lemma="være" tags="vblex.pres"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="tape" tags="vblex.pp"/>
+  </rule>
+  <rule c="794 3473: 2" weight="2.0">
+    <match lemma="være" tags="vblex.pret"><select lemma="ha" tags="vblex.past.actv"/></match>
+    <match lemma="gjøre" tags="adj.pp.pl"/>
+  </rule>
+  <rule c="796 3481: 7" weight="2.0">
+    <match lemma="være" tags="vblex.pret"><select lemma="ha" tags="vblex.past.actv"/></match>
+    <match lemma="gå" tags="vblex.pp"/>
+  </rule>
+  <rule c="799 3494: 154" weight="2.0">
+    <match lemma="være" tags="vblex.pret"><select lemma="ha" tags="vblex.past.actv"/></match>
+    <match lemma="bli" tags="vblex.pp"/>
+  </rule>
+  <rule c="800 3498: 6" weight="2.9999999999999996">
+    <match lemma="de" tags="prn.pers.p3"/>
+    <match lemma="være" tags="vblex.pret"><select lemma="ha" tags="vblex.past.actv"/></match>
+    <match lemma="bli" tags="vblex.pp"/>
+  </rule>
+  <rule c="801 3503: 4" weight="4.0">
+    <match lemma="tidligere" tags="adv"/>
+    <match lemma="være" tags="vblex.pret"><select lemma="ha" tags="vblex.past.actv"/></match>
+    <match lemma="bli" tags="vblex.pp"/>
+  </rule>
+  <rule c="802 3508: 30" weight="1.6666666666666667">
+    <match lemma="som" tags="cnjsub"/>
+    <match lemma="være" tags="vblex.pret"><select lemma="ha" tags="vblex.past.actv"/></match>
+    <match lemma="bli" tags="vblex.pp"/>
+  </rule>
+  <rule c="807 3530: 2" weight="2.0">
+    <match lemma="fredsavtale" tags="n.m"/>
+    <match lemma="være" tags="vblex.pret"><select lemma="ha" tags="vblex.past.actv"/></match>
+  </rule>
+  <rule c="808 3534: 16" weight="2.6666666666666665">
+    <match lemma="være" tags="vblex.pret"><select lemma="ha" tags="vblex.past.actv"/></match>
+    <match lemma="komme" tags="vblex.pp"/>
+  </rule>
+  <rule c="816 3568: 2" weight="2.0">
+    <match lemma="allerede" tags="adv"/>
+    <match lemma="være" tags="vblex.pret"><select lemma="ha" tags="vblex.past.actv"/></match>
+    <match lemma="i" tags="pr"/>
+  </rule>
+  <rule c="818 3578: 2" weight="2.0">
+    <match lemma="komet" tags="n.m"/>
+    <match lemma="være" tags="vblex.pret"><select lemma="ha" tags="vblex.past.actv"/></match>
+  </rule>
+  <rule c="827 3620: 4" weight="4.0">
+    <match lemma="og" tags="cnjcoo"/>
+    <match lemma="være" tags="vblex.pret"><select lemma="ha" tags="vblex.past.actv"/></match>
+    <match lemma="bli" tags="vblex.pp"/>
+  </rule>
+  <rule c="832 3642: 2" weight="2.0">
+    <match lemma="octavius" tags="np"/>
+    <match lemma="være" tags="vblex.pret"><select lemma="ha" tags="vblex.past.actv"/></match>
+  </rule>
+  <rule c="838 3667: 2" weight="2.0">
+    <match lemma="være" tags="vblex.pret"><select lemma="ha" tags="vblex.past.actv"/></match>
+    <match lemma="trekke" tags="adj.pp.mf.sg.ind"/>
+  </rule>
+  <rule c="839 3671: 2" weight="2.0">
+    <match lemma="tidligere" tags="adv"/>
+    <match lemma="være" tags="vblex.pret"><select lemma="ha" tags="vblex.past.actv"/></match>
+    <match lemma="den" tags="det.dem.nt.sg"/>
+  </rule>
+  <rule c="841 3681: 2" weight="2.0">
+    <match lemma="være" tags="vblex.pret"><select lemma="ha" tags="vblex.past.actv"/></match>
+    <match lemma="tall" tags="n.nt"/>
+  </rule>
+  <rule c="842 3685: 2" weight="2.0">
+    <match lemma="endring" tags="n.f"/>
+    <match lemma="være" tags="vblex.pret"><select lemma="ha" tags="vblex.past.actv"/></match>
+  </rule>
+  <rule c="848 3711: 2" weight="2.0">
+    <match lemma="være" tags="vblex.pret"><select lemma="ha" tags="vblex.past.actv"/></match>
+    <match lemma="løse" tags="adj.pp.mf.sg.ind"/>
+  </rule>
+  <rule c="849 3715: 2" weight="2.0">
+    <match lemma="fremme" tags="vblex.imp"/>
+    <match lemma="være" tags="vblex.pret"><select lemma="ha" tags="vblex.past.actv"/></match>
+  </rule>
+  <rule c="852 3727: 2" weight="2.0">
+    <match lemma="være" tags="vblex.pret"><select lemma="ha" tags="vblex.past.actv"/></match>
+    <match lemma="arrangere" tags="adj.pp.mf.sg.ind"/>
+  </rule>
+  <rule c="855 3740: 2" weight="2.0">
+    <match lemma="stand" tags="n.m"/>
+    <match lemma="være" tags="vblex.pret"><select lemma="ha" tags="vblex.past.actv"/></match>
+  </rule>
+  <rule c="857 3748: 2" weight="2.0">
+    <match lemma="være" tags="vblex.pret"><select lemma="ha" tags="vblex.past.actv"/></match>
+    <match lemma="tegne" tags="vblex.pp"/>
+  </rule>
+  <rule c="1361 5893: 6" weight="2.0">
+    <match lemma="den" tags="prn.pers.p3.nt"/>
+    <match lemma="være" tags="vblex.pp"><select lemma="vara¹" tags="vblex.past.actv"/></match>
+    <match lemma="en" tags="det.qnt.m.sg"/>
+  </rule>
+  <rule c="1364 5907: 5" weight="2.5">
+    <match lemma="være" tags="vblex.pp"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="mange" tags="adj.sint.comp.un.sp"/>
+  </rule>
+  <rule c="1370 5934: 2" weight="2.0">
+    <match lemma="være" tags="vblex.pp"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="involvere" tags="vblex.pp"/>
+  </rule>
+  <rule c="1372 5943: 2" weight="2.0">
+    <match lemma="være" tags="vblex.pp"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="opphav" tags="n"/>
+  </rule>
+  <rule c="1373 5947: 2" weight="2.0">
+    <match lemma="være" tags="vblex.pp"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="forfatter" tags="n.m"/>
+  </rule>
+  <rule c="1374 5951: 2" weight="2.0">
+    <match lemma="være" tags="vblex.pp"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="stor" tags="adj.sint.pst.un.pl.ind"/>
+  </rule>
+  <rule c="1375 5955: 2" weight="2.0">
+    <match lemma="være" tags="vblex.pp"><select lemma="vara¹" tags="vblex.past.actv"/></match>
+    <match lemma="spesiell" tags="adj.pst.nt.sg.ind"/>
+  </rule>
+  <rule c="1377 5963: 2" weight="2.0">
+    <match lemma="være" tags="vblex.pp"><select lemma="ha" tags="vblex.pres.actv"/></match>
+    <match lemma="veldig" tags="adj.sint.pst.nt.sg.ind"/>
+  </rule>
+  <rule c="1500 6487: 4" weight="2.0">
+    <match lemma="være" tags="vblex.inf"><select lemma="vara¹" tags="vblex.prs.actv"/></match>
+    <match lemma="hans" tags="det.pos.m"/>
+  </rule>
+  <rule c="1501 6491: 2" weight="2.0">
+    <match lemma="være" tags="vblex.inf"><select lemma="vara¹" tags="vblex.prs.actv"/></match>
+    <match lemma="hans" tags="det.pos"/>
+  </rule>
+  <rule c="1508 6521: 7" weight="3.4999999999999996">
+    <match lemma="være" tags="vblex.inf"><select lemma="vara¹" tags="vblex.prs.actv"/></match>
+    <match lemma="sin" tags="det.pos"/>
+  </rule>
+  <rule c="1510 6529: 4" weight="4.0">
+    <match lemma="være" tags="vblex.inf"><select lemma="vara¹" tags="vblex.prs.actv"/></match>
+    <match lemma="god" tags="adj.sint.pst.mf.sg.ind"/>
+  </rule>
+
+
 </rules>
