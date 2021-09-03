@@ -1048,7 +1048,6 @@
 <rule weight="0.9"><match lemma="emigrere" tags="vblex.*"><select lemma="emigrera" tags="vblex.*"/></match></rule><!-- 105 -->
 <rule weight="0.9"><match lemma="emigrere" tags="adj.pp.*"><select lemma="emigrera" tags="adj.pp.*"/></match></rule><!-- 105 -->
 <rule weight="0.9"><match lemma="emmen" tags="adj.*"><select lemma="sliskig" tags="adj.*"/></match></rule><!-- 69 -->
-<rule weight="0.9"><match lemma="enda" tags="adv"><select lemma="än" tags="adv"/></match></rule><!-- 55526 -->
 <rule weight="0.9"><match lemma="endelig" tags="adj.*"><select lemma="definitiv" tags="adj.*"/></match></rule><!-- 1446 -->
 <rule weight="0.9"><match lemma="ende" tags="adv"><select lemma="lika" tags="adv"/></match></rule><!-- 8340 -->
 <rule weight="0.9"><match lemma="ende" tags="vblex.*"><select lemma="avsluta" tags="vblex.*"/></match></rule><!-- 4464 -->
@@ -2132,7 +2131,6 @@
 <rule weight="0.9"><match lemma="kjappe" tags="vblex.*"><select lemma="skynda" tags="vblex.*"/></match></rule><!-- 2167 -->
 <rule weight="0.9"><match lemma="kjappe" tags="adj.pp.*"><select lemma="skynda" tags="adj.pp.*"/></match></rule><!-- 2167 -->
 <rule weight="0.9"><match lemma="kjapp" tags="adj.*"><select lemma="snabb" tags="adj.*"/></match></rule><!-- 9718 -->
-<rule weight="0.9"><match lemma="kjedelig" tags="adj.*"><select lemma="ledsam" tags="adj.*"/></match></rule><!-- 96 -->
 <rule weight="0.9"><match lemma="kjede" tags="n.*"><select lemma="kedja" tags="n.ut.*"/></match></rule><!-- 776 -->
 <rule weight="0.9"><match lemma="kjekke" tags="vblex.*"><select lemma="visa" tags="vblex.*"/></match></rule><!-- 13515 -->
 <rule weight="0.9"><match lemma="kjekke" tags="adj.pp.*"><select lemma="visa" tags="adj.pp.*"/></match></rule><!-- 13515 -->
@@ -4751,8 +4749,11 @@
 <rule weight="0.9"><match lemma="årgang" tags="n.*"><select lemma="årgång" tags="n.ut.*"/></match></rule><!-- 137 -->
 <rule weight="0.9"><match lemma="århundre" tags="n.nt.*"><select lemma="århundrade" tags="n.nt.*"/></match></rule><!-- 971 -->
 <rule weight="0.9"><match lemma="årlig" tags="adj.*"><select lemma="årlig" tags="adj.*"/></match></rule><!-- 460 -->
-<!-- /frequency based rules  -->
+  <!-- /frequency based rules  -->
 
+  <rule><match lemma="enda" tags="adv"><select lemma="ännu" tags="adv"/></match></rule>
+
+  <rule><match lemma="kjedelig" tags="adj.*"><select lemma="tråkig" tags="adj.*"/></match></rule>
   <rule><match lemma="hi" tags="n.*"><select lemma="bo"/></match></rule>
   <rule><match lemma="truende" tags="adj.*"><select lemma="hotande"/></match></rule>
   <rule><match lemma="kjøretur" tags="n.*"><select lemma="åktur"/></match></rule>
@@ -5227,5 +5228,7 @@
     <match lemma="god" tags="adj.sint.pst.mf.sg.ind"/>
   </rule>
 
+  <rule><match lemma="særlig" ><select lemma="särskilt"/></match></rule>
+  <rule><match lemma="særlig" ><select lemma="särskild"/></match></rule>
 
 </rules>
