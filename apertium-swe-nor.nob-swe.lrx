@@ -853,7 +853,6 @@
 <rule weight="0.9"><match lemma="dass" tags="n.nt.*"><select lemma="dass" tags="n.nt.*"/></match></rule><!-- 122 -->
 <rule weight="0.9"><match lemma="data" tags="n.*"><select lemma="data" tags="n.ut.*"/></match></rule><!-- 2482 -->
 <rule weight="0.9"><match lemma="data" tags="n.nt.*"><select lemma="data" tags="n.ut.*"/></match></rule><!-- 2482 -->
-<rule weight="0.9"><match lemma="dato" tags="n.*"><select lemma="dato" tags="n.ut.*"/></match></rule><!-- 36 -->
 <rule weight="0.9"><match lemma="daude" tags="vblex.*"><select lemma="dö" tags="vblex.*"/></match></rule><!-- 34057 -->
 <rule weight="0.9"><match lemma="daude" tags="adj.pp.*"><select lemma="dö" tags="adj.pp.*"/></match></rule><!-- 34057 -->
 <rule weight="0.9"><match lemma="decennium" tags="n.nt.*"><select lemma="decennium" tags="n.nt.*"/></match></rule><!-- 436 -->
@@ -2539,8 +2538,6 @@
 <rule weight="0.9"><match lemma="lenke" tags="adj.pp.*"><select lemma="fjättra" tags="adj.pp.*"/></match></rule><!-- 1632 -->
 <rule weight="0.9"><match lemma="lese" tags="vblex.*"><select lemma="läsa" tags="vblex.*"/></match></rule><!-- 12807 -->
 <rule weight="0.9"><match lemma="lese" tags="adj.pp.*"><select lemma="läsa" tags="adj.pp.*"/></match></rule><!-- 12807 -->
-<rule weight="0.9"><match lemma="le" tags="vblex.*"><select lemma="skratta" tags="vblex.*"/></match></rule><!-- 3239 -->
-<rule weight="0.9"><match lemma="le" tags="adj.pp.*"><select lemma="skratta" tags="adj.pp.*"/></match></rule><!-- 3239 -->
 <rule weight="0.9"><match lemma="lete" tags="vblex.*"><select lemma="leta" tags="vblex.*"/></match></rule><!-- 12673 -->
 <rule weight="0.9"><match lemma="lete" tags="adj.pp.*"><select lemma="leta" tags="adj.pp.*"/></match></rule><!-- 12673 -->
 <rule weight="0.9"><match lemma="lette" tags="vblex.*"><select lemma="le" tags="vblex.*"/></match></rule><!-- 2516 -->
@@ -4745,6 +4742,9 @@
 
   <rule><match lemma="enda" tags="adv"><select lemma="ännu" tags="adv"/></match></rule>
 
+  <rule><match lemma="le" tags="vblex.*"><select lemma="skratta"/></match></rule>
+  <rule><match lemma="le" tags="adj.pp.*"><select lemma="skratta"/></match></rule>
+
   <rule><match lemma="kjedelig" tags="adj.*"><select lemma="tråkig" tags="adj.*"/></match></rule>
   <rule><match lemma="hi" tags="n.*"><select lemma="bo"/></match></rule>
   <rule><match lemma="truende" tags="adj.*"><select lemma="hotande"/></match></rule>
@@ -5220,16 +5220,31 @@
     <match lemma="god" tags="adj.sint.pst.mf.sg.ind"/>
   </rule>
 
+
   <rule><match lemma="særlig" ><select lemma="särskilt"/></match></rule>
   <rule><match lemma="særlig" ><select lemma="särskild"/></match></rule>
 
   <rule><match lemma="angripe" tags="vblex.*"><select lemma="angripa"/></match></rule>
   <rule><match lemma="angripe" tags="adj.*"><select lemma="angripa"/></match></rule>
 
-  <rule weight="2.0">
+  <rule><match lemma="mene" tags="vblex.*"><select lemma="mena"/></match></rule>
+  <rule weight="2.0" c="forskare anser inte att">
     <match lemma="mene" tags="vblex.*"><select lemma="anse"/></match>
     <repeat from="0" upto="2"><match/></repeat>
     <match lemma="at"/>
+  </rule>
+  <rule weight="3.0" c="hon tycker att (oftare 'tycka' enn 'anse' etter prpers?)">
+    <match tags="prn.pers.*"/>
+    <match lemma="mene" tags="vblex.*"><select lemma="tycka"/></match>
+    <repeat from="0" upto="2"><match/></repeat>
+    <match lemma="at"/>
+  </rule>
+  <rule weight="3.0" c="hon tycker att (oftare 'tycka' enn 'anse' etter prpers?)">
+    <match tags="prn.pers.*"/>
+    <match lemma="mene" tags="vblex.*"><select lemma="tycka"/></match>
+    <repeat from="0" upto="2"><match/></repeat>
+    <match lemma="den"/>
+    <match lemma="være"/>
   </rule>
 
 <!-- WikiMatrix fast_align default rules: -->
@@ -5416,7 +5431,6 @@
 <rule weight="0.95"><match lemma="ekteskap" tags="n.nt.*"><select lemma="äktenskap"/></match></rule>
 <rule weight="0.95"><match lemma="arbeide" tags="n.nt.*"><select lemma="arbete"/></match></rule>
 <rule weight="0.95"><match lemma="spiller" tags="n.m.*"><select lemma="spelare"/></match></rule>
-<rule weight="0.95"><match lemma="mene" tags="vblex.*"><select lemma="mena"/></match></rule>
 <rule weight="0.95"><match lemma="energi" tags="n.m.*"><select lemma="energi"/></match></rule>
 <rule weight="0.95"><match lemma="sjef" tags="n.m.*"><select lemma="chef"/></match></rule>
 <rule weight="0.95"><match lemma="si" tags="vblex.*"><select lemma="säga"/></match></rule>
@@ -5575,7 +5589,6 @@
 <rule weight="0.95"><match lemma="gate" tags="n.m.*"><select lemma="gata"/></match></rule>
 <rule weight="0.95"><match lemma="gass" tags="n.m.*"><select lemma="gas"/></match></rule>
 <rule weight="0.95"><match lemma="ennå" tags="adv>"><select lemma="ännu"/></match></rule>
-<rule weight="0.95"><match lemma="dato" tags="n.m.*"><select lemma="datum"/></match></rule>
 <rule weight="0.95"><match lemma="be" tags="vblex.*"><select lemma="be"/></match></rule>
 <rule weight="0.95"><match lemma="vold" tags="n.m.*"><select lemma="våld"/></match></rule>
 <rule weight="0.95"><match lemma="virksomhet" tags="n.f.*"><select lemma="verksamhet"/></match></rule>
@@ -6059,7 +6072,6 @@
 <rule weight="0.95"><match lemma="lysstyrke" tags="n.m.*"><select lemma="ljusstyrka"/></match></rule>
 <rule weight="0.95"><match lemma="lykkelig" tags="adj.*"><select lemma="lycklig"/></match></rule>
 <rule weight="0.95"><match lemma="levende" tags="adj.*"><select lemma="leva"/></match></rule>
-<rule weight="0.95"><match lemma="le" tags="vblex.*"><select lemma="le"/></match></rule>
 <rule weight="0.95"><match lemma="laboratorium" tags="n.nt.*"><select lemma="laboratorium"/></match></rule>
 <rule weight="0.95"><match lemma="krysse" tags="vblex.*"><select lemma="korsa"/></match></rule>
 <rule weight="0.95"><match lemma="konkurrere" tags="vblex.*"><select lemma="konkurrera"/></match></rule>
@@ -6340,6 +6352,12 @@
 <rule weight="0.95"><match lemma="anlegg" tags="n.nt.*"><select lemma="anläggning"/></match></rule>
 <rule weight="0.95"><match lemma="advare" tags="vblex.*"><select lemma="varna"/></match></rule>
 <rule weight="0.95"><match lemma="adelsmann" tags="n.m.*"><select lemma="adelsman"/></match></rule>
+
+  <rule><match lemma="dato" tags="n.*"><select lemma="datum"/></match></rule>
+  <rule weight="2.0" c="dags dato">
+    <match lemma="dag" tags="n.*.gen"/>
+    <match lemma="dato" tags="n.*"><select lemma="dato"/></match>
+  </rule>
 
   <rule><match lemma="match" tags="n.*"><select lemma="match"/></match></rule>
   <rule><match lemma="kamp" tags="n.*"><select lemma="kamp" tags="n.ut.*"/></match></rule>
