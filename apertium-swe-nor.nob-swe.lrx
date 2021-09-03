@@ -1046,7 +1046,6 @@
 <rule weight="0.9"><match lemma="emigrere" tags="vblex.*"><select lemma="emigrera" tags="vblex.*"/></match></rule><!-- 105 -->
 <rule weight="0.9"><match lemma="emigrere" tags="adj.pp.*"><select lemma="emigrera" tags="adj.pp.*"/></match></rule><!-- 105 -->
 <rule weight="0.9"><match lemma="emmen" tags="adj.*"><select lemma="sliskig" tags="adj.*"/></match></rule><!-- 69 -->
-<rule weight="0.9"><match lemma="endelig" tags="adj.*"><select lemma="definitiv" tags="adj.*"/></match></rule><!-- 1446 -->
 <rule weight="0.9"><match lemma="ende" tags="adv"><select lemma="lika" tags="adv"/></match></rule><!-- 8340 -->
 <rule weight="0.9"><match lemma="ende" tags="vblex.*"><select lemma="avsluta" tags="vblex.*"/></match></rule><!-- 4464 -->
 <rule weight="0.9"><match lemma="ende" tags="adj.pp.*"><select lemma="avsluta" tags="adj.pp.*"/></match></rule><!-- 4464 -->
@@ -6227,7 +6226,6 @@
 <rule weight="0.95"><match lemma="etterlate" tags="vblex.*"><select lemma="efterlämna"/></match></rule>
 <rule weight="0.95"><match lemma="enorm" tags="adj.*"><select lemma="enorm"/></match></rule>
 <rule weight="0.95"><match lemma="endring" tags="n.f.*"><select lemma="ändring"/></match></rule>
-<rule weight="0.95"><match lemma="endelig" tags="adj.*"><select lemma="slutgiltig"/></match></rule>
 <rule weight="0.95"><match lemma="elv" tags="n.f.*"><select lemma="flod"/></match></rule>
 <rule weight="0.95"><match lemma="eksistere" tags="adj.*"><select lemma="existera"/></match></rule>
 <rule weight="0.95"><match lemma="drift" tags="n.m.*"><select lemma="drift"/></match></rule>
@@ -6365,5 +6363,8 @@
     <match lemma="engasjere" tags="adj.pp.*"><select lemma="anlita" tags="adj.pp.*"/></match>
     <match lemma="en"/>
   </rule>
+
+  <rule><match lemma="endelig" ><select lemma="äntlig"/></match></rule>
+  <!-- <rule><match lemma="endelig" tags="adj.*"><select lemma="slutgiltig"/></match></rule> -->
 
 </rules>
