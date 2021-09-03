@@ -1841,7 +1841,7 @@
 <rule weight="0.9"><match lemma="kampere" tags="vblex.*"><select lemma="campa" tags="vblex.*"/></match></rule><!-- 228 -->
 <rule weight="0.9"><match lemma="kampere" tags="adj.pp.*"><select lemma="campa" tags="adj.pp.*"/></match></rule><!-- 228 -->
 <rule weight="0.9"><match lemma="kampfly" tags="n.nt.*"><select lemma="stridsflygplan" tags="n.nt.*"/></match></rule><!-- 48 -->
-<rule weight="0.9"><match lemma="kamp" tags="n.m.*"><select lemma="strid" tags="n.ut.*"/></match></rule><!-- 3450 -->
+<rule weight="0.9"><match lemma="kamp" tags="n.m.*"><select lemma="kamp" tags="n.ut.*"/></match></rule><!-- 3450 -->
 <rule weight="0.9"><match lemma="kamse" tags="vblex.*"><select lemma="älta" tags="vblex.*"/></match></rule><!-- 99 -->
 <rule weight="0.9"><match lemma="kamse" tags="adj.pp.*"><select lemma="älta" tags="adj.pp.*"/></match></rule><!-- 99 -->
 <rule weight="0.9"><match lemma="kanal" tags="n.m.*"><select lemma="grav" tags="n.ut.*"/></match></rule><!-- 2376 -->
@@ -4574,4 +4574,5 @@
   <rule><match lemma="strid"><select lemma="strid" tags="n.ut.*"/></match></rule>
   <rule><match lemma="beregning" tags="n.*"><select lemma="kalkyl"/></match></rule>
   <rule><match lemma="vêr" tags="n.*"><select lemma="väder"/></match></rule>
+  <rule><match lemma="match" tags="n.*"><select lemma="match"/></match></rule>
 </rules>

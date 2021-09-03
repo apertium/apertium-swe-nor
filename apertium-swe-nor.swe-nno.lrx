@@ -3254,4 +3254,5 @@
   <rule><match lemma="robust" tags="adj.*"><select lemma="robust"/></match></rule>
   <rule><match lemma="bo" tags="n.*"><select lemma="bu"/></match></rule>
   <rule><match lemma="i nærheten"><select lemma="i närheten"/></match></rule>
+  <rule><match lemma="match" tags="n.*"><select lemma="match"/></match></rule>
 </rules>
