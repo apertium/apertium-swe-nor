@@ -24,6 +24,20 @@
           <match lemma="årtusen"/>
         </or>
       </def-seq>
+      <def-seq n="skulefag">
+        <or>
+          <match lemma="naturfag"/>
+          <match lemma="fransk"/>
+          <match lemma="engelsk"/>
+          <match lemma="tysk"/>
+          <match lemma="musikk"/>
+          <match lemma="historie"/>
+          <match lemma="forming"/>
+          <match lemma="tegning"/>
+          <match lemma="gym"/>
+          <match lemma="gymnastikk"/>
+        </or>
+      </def-seq>
     </def-seqs>
 
 <rules>
@@ -329,6 +343,16 @@
       <match tags="pr"/>
       <match tags="pr.*"/>
     </or>
+    <match lemma="matte" tags="n.*"><select lemma="matte" tags="n.nt.*"/></match>
+  </rule>
+  <rule weight="2.0" c="matte, naturfag, …">
+    <match lemma="matte" tags="n.*"><select lemma="matte" tags="n.nt.*"/></match>
+    <repeat from="0" upto="3"><match/></repeat>
+    <seq n="skulefag"/>
+  </rule>
+  <rule weight="2.0" c="naturfag, matte, …">
+    <seq n="skulefag"/>
+    <repeat from="0" upto="3"><match/></repeat>
     <match lemma="matte" tags="n.*"><select lemma="matte" tags="n.nt.*"/></match>
   </rule>
 
