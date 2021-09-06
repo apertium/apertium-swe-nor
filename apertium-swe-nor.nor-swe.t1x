@@ -443,7 +443,7 @@
       <list-item v="storhertig"/>
       <list-item v="teoretiker"/>
       <list-item v="tsar"/>
-      <list-item v="vän"/>
+      <!-- <list-item v="vän"/> seems like they use -a at least as often for this one? -->
       <list-item v="vårdare"/>
       <list-item v="zoolog"/>
       <list-item v="ämbetsman"/>
