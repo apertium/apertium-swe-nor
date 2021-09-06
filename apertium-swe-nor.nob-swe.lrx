@@ -1483,7 +1483,6 @@
 <rule weight="0.9"><match lemma="framskritt" tags="n.nt.*"><select lemma="framsteg" tags="n.nt.*"/></match></rule><!-- 699 -->
 <rule weight="0.9"><match lemma="framvise" tags="vblex.*"><select lemma="uppvisa" tags="vblex.*"/></match></rule><!-- 325 -->
 <rule weight="0.9"><match lemma="framvise" tags="adj.pp.*"><select lemma="uppvisa" tags="adj.pp.*"/></match></rule><!-- 325 -->
-<rule weight="0.9"><match lemma="fra" tags="pr"><select lemma="från" tags="pr"/></match></rule><!-- 107195 -->
 <rule weight="0.9"><match lemma="fredelig" tags="adj.*"><select lemma="fredlig" tags="adj.*"/></match></rule><!-- 405 -->
 <rule weight="0.9"><match lemma="frede" tags="vblex.*"><select lemma="fridlysa" tags="vblex.*"/></match></rule><!-- 39 -->
 <rule weight="0.9"><match lemma="frede" tags="adj.pp.*"><select lemma="fridlysa" tags="adj.pp.*"/></match></rule><!-- 39 -->
@@ -4790,6 +4789,8 @@
 <rule weight="0.9"><match lemma="årlig" tags="adj.*"><select lemma="årlig" tags="adj.*"/></match></rule><!-- 460 -->
   <!-- /frequency based rules  -->
 
+  <rule><match lemma="fra" tags="pr"><select lemma="från" tags="pr"/></match></rule>
+
   <rule><match lemma="enda" tags="adv"><select lemma="ännu" tags="adv"/></match></rule>
 
   <rule><match lemma="sist" tags="adj.*"><select lemma="sista" tags="adj.*"/></match></rule>
@@ -5307,7 +5308,6 @@
 <rule weight="0.95"><match lemma="til" tags="pr>"><select lemma="till"/></match></rule>
 <rule weight="0.95"><match lemma="være" tags="vblex.*"><select lemma="vara¹"/></match></rule>
 <rule weight="0.95"><match lemma="som" tags="pr>"><select lemma="som"/></match></rule>
-<rule weight="0.95"><match lemma="fra" tags="pr>"><select lemma="från"/></match></rule>
 <rule weight="0.95"><match lemma="ikke" tags="adv>"><select lemma="inte"/></match></rule>
 <rule weight="0.95"><match lemma="også" tags="adv>"><select lemma="också"/></match></rule>
 <rule weight="0.95"><match lemma="etter" tags="pr>"><select lemma="efter"/></match></rule>
