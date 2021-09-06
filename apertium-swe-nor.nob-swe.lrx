@@ -1,5 +1,32 @@
-<rules>
+<lrx>
 
+    <def-seqs>
+      <def-seq n="tidseining">
+        <or>
+          <match lemma="millisekund"/>
+          <match lemma="mikrosekund"/>
+          <match lemma="hundredel"/>
+          <match lemma="sekund"/>
+          <match lemma="halvsekund"/>
+          <match lemma="minutt"/>
+          <match lemma="halvminutt"/>
+          <match lemma="time"/>
+          <match lemma="halvtime"/>
+          <match lemma="uke"/>
+          <match lemma="dag"/>
+          <match lemma="døgn"/>
+          <match lemma="uke"/>
+          <match lemma="måned"/>
+          <match lemma="år"/>
+          <match lemma="halvår"/>
+          <match lemma="tiår"/>
+          <match lemma="århundre"/>
+          <match lemma="årtusen"/>
+        </or>
+      </def-seq>
+    </def-seqs>
+
+<rules>
   <rule weight="1.0"> <match lemma="øre" tags="n.*"><select lemma="öra" tags="n.*"/></match> </rule>
   <rule weight="2.0">
     <match tags="det.qnt.*"/>
@@ -3578,7 +3605,6 @@
 <rule weight="0.9"><match lemma="siregne" tags="vblex.*"><select lemma="ösregna" tags="vblex.*"/></match></rule><!-- 17 -->
 <rule weight="0.9"><match lemma="siregne" tags="adj.pp.*"><select lemma="ösregna" tags="adj.pp.*"/></match></rule><!-- 17 -->
 <rule weight="0.9"><match lemma="sirup" tags="n.*"><select lemma="sirap" tags="n.ut.*"/></match></rule><!-- 115 -->
-<rule weight="0.9"><match lemma="sist" tags="adj.*"><select lemma="sist" tags="adj.*"/></match></rule><!-- 14055 -->
 <rule weight="0.9"><match lemma="si" tags="vblex.*"><select lemma="säga" tags="vblex.*"/></match></rule><!-- 164498 -->
 <rule weight="0.9"><match lemma="si" tags="adj.pp.*"><select lemma="säga" tags="adj.pp.*"/></match></rule><!-- 164498 -->
 <rule weight="0.9"><match lemma="situasjon" tags="n.*"><select lemma="situation" tags="n.ut.*"/></match></rule><!-- 3684 -->
@@ -4741,6 +4767,12 @@
   <!-- /frequency based rules  -->
 
   <rule><match lemma="enda" tags="adv"><select lemma="ännu" tags="adv"/></match></rule>
+
+  <rule><match lemma="sist" tags="adj.*"><select lemma="sista" tags="adj.*"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="sist" tags="adj..sint.sup.*"><select lemma="sen" tags="adj.*"/></match>
+    <seq n="tidseining"/>
+  </rule>
 
   <rule><match lemma="le" tags="vblex.*"><select lemma="skratta"/></match></rule>
   <rule><match lemma="le" tags="adj.pp.*"><select lemma="skratta"/></match></rule>
@@ -6386,3 +6418,4 @@
   <!-- <rule><match lemma="endelig" tags="adj.*"><select lemma="slutgiltig"/></match></rule> -->
 
 </rules>
+</lrx>
