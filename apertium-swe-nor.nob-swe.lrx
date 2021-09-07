@@ -6489,5 +6489,10 @@
     <match lemma="verre" tags="adv"><select lemma="värre"/></match>
   </rule>
 
+  <rule><match lemma="lov" tags="n.*"><select lemma="lag"/></match></rule>
+  <rule weight="2.0" c="får ikke lov å">
+    <match lemma="lov" tags="n.*"><select lemma="lov"/></match>
+    <match lemma="å"/>
+  </rule>
 </rules>
 </lrx>
