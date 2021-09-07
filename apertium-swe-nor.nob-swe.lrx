@@ -5878,7 +5878,6 @@
 <rule weight="0.95"><match lemma="møtes" tags="vblex.*"><select lemma="möta"/></match></rule>
 <rule weight="0.95"><match lemma="måling" tags="n.f.*"><select lemma="mätning"/></match></rule>
 <rule weight="0.95"><match lemma="latin" tags="n.nt.*"><select lemma="latin"/></match></rule>
-<rule weight="0.95"><match lemma="landsby" tags="n.m.*"><select lemma="by"/></match></rule>
 <rule weight="0.95"><match lemma="kirkegård" tags="n.m.*"><select lemma="kyrkogård"/></match></rule>
 <rule weight="0.95"><match lemma="hvit" tags="adj.*"><select lemma="vit"/></match></rule>
 <rule weight="0.95"><match lemma="holdning" tags="n.m.*"><select lemma="hållning"/></match></rule>
@@ -6436,6 +6435,8 @@
     <match lemma="dato" tags="n.*"><select lemma="dato"/></match>
   </rule>
 
+  <rule><match lemma="landsby" tags="n.m.*"><select lemma="stad"/></match></rule>
+
   <rule><match lemma="match" tags="n.*"><select lemma="match"/></match></rule>
   <rule><match lemma="kamp" tags="n.*"><select lemma="kamp" tags="n.ut.*"/></match></rule>
   <rule weight="2.0">
@@ -6465,6 +6466,16 @@
   <rule><match lemma="nedstenge" tags="vblex.*"><select lemma="stänga"/></match></rule>
   <rule weight="2.0"><match lemma="nedstenge" tags="vblex.pp"><select lemma="nedstänga"/></match></rule>
   <rule weight="2.0"><match lemma="nedstenge" tags="adj.*"><select lemma="nedstänga"/></match></rule>
+
+  <rule><match lemma="verre" tags="adv"><select lemma="illa" tags="adv.comp"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="verre" tags="adv"><select lemma="värre"/></match>
+    <match lemma="enn"/>
+  </rule>
+  <rule weight="2.0">
+    <match lemma="enda"/>
+    <match lemma="verre" tags="adv"><select lemma="värre"/></match>
+  </rule>
 
 </rules>
 </lrx>
