@@ -2258,8 +2258,6 @@
 <rule weight="0.9"><match lemma="klassifisere" tags="adj.pp.*"><select lemma="klassa" tags="adj.pp.*"/></match></rule><!-- 201 -->
 <rule weight="0.9"><match lemma="klatre" tags="vblex.*"><select lemma="klättra" tags="vblex.*"/></match></rule><!-- 1299 -->
 <rule weight="0.9"><match lemma="klatre" tags="adj.pp.*"><select lemma="klättra" tags="adj.pp.*"/></match></rule><!-- 1299 -->
-<rule weight="0.9"><match lemma="klemme" tags="vblex.*"><select lemma="klämma" tags="vblex.*"/></match></rule><!-- 440 -->
-<rule weight="0.9"><match lemma="klemme" tags="adj.pp.*"><select lemma="klämma" tags="adj.pp.*"/></match></rule><!-- 440 -->
 <rule weight="0.9"><match lemma="klem" tags="n.*"><select lemma="kram" tags="n.ut.*"/></match></rule><!-- 773 -->
 <rule weight="0.9"><match lemma="kleppe" tags="vblex.*"><select lemma="dela" tags="vblex.*"/></match></rule><!-- 6550 -->
 <rule weight="0.9"><match lemma="kleppe" tags="adj.pp.*"><select lemma="dela" tags="adj.pp.*"/></match></rule><!-- 6550 -->
@@ -4808,6 +4806,20 @@
   <!-- /frequency based rules  -->
 
   <rule><match lemma="fra" tags="pr"><select lemma="från" tags="pr"/></match></rule>
+
+  <rule><match lemma="klemme" tags="vblex.*"><select lemma="krama" tags="vblex.*"/></match></rule>
+  <rule><match lemma="klemme" tags="adj.pp.*"><select lemma="krama" tags="adj.pp.*"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="klemme" tags="vblex.*"><select lemma="klämma"/></match>
+    <or>
+      <match lemma="inn"/>
+      <match lemma="fast"/>
+      <match lemma="til"/>
+      <match lemma="mellom"/>
+      <match lemma="ihjel"/>
+      <match lemma="i hjel"/>
+    </or>
+  </rule>
 
   <rule><match lemma="slutte" tags="vblex.*"><select lemma="sluta"/></match></rule>
   <rule><match lemma="slutte" tags="adj.pp.*"><select lemma="sluta"/></match></rule>
