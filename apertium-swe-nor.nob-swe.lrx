@@ -3833,8 +3833,6 @@
 <rule weight="0.9"><match lemma="slurk" tags="n.*"><select lemma="klunk" tags="n.ut.*"/></match></rule><!-- 178 -->
 <rule weight="0.9"><match lemma="sluseport" tags="n.*"><select lemma="dammlucka" tags="n.ut.*"/></match></rule><!-- 6 -->
 <rule weight="0.9"><match lemma="slut" tags="n.nt.*"><select lemma="slut" tags="n.nt.*"/></match></rule><!-- 19848 -->
-<rule weight="0.9"><match lemma="slutte" tags="vblex.*"><select lemma="sluta" tags="vblex.*"/></match></rule><!-- 20812 -->
-<rule weight="0.9"><match lemma="slutte" tags="adj.pp.*"><select lemma="sluta" tags="adj.pp.*"/></match></rule><!-- 20812 -->
 <rule weight="0.9"><match lemma="sløkke" tags="vblex.*"><select lemma="slockna" tags="vblex.*"/></match></rule><!-- 400 -->
 <rule weight="0.9"><match lemma="sløkke" tags="adj.pp.*"><select lemma="slockna" tags="adj.pp.*"/></match></rule><!-- 400 -->
 <rule weight="0.9"><match lemma="sløseri" tags="n.nt.*"><select lemma="slöseri" tags="n.nt.*"/></match></rule><!-- 522 -->
@@ -4058,8 +4056,6 @@
 <rule weight="0.9"><match lemma="stolpre" tags="adj.pp.*"><select lemma="stappla" tags="adj.pp.*"/></match></rule><!-- 37 -->
 <rule weight="0.9"><match lemma="stomle" tags="vblex.*"><select lemma="famla" tags="vblex.*"/></match></rule><!-- 63 -->
 <rule weight="0.9"><match lemma="stomle" tags="adj.pp.*"><select lemma="famla" tags="adj.pp.*"/></match></rule><!-- 63 -->
-<rule weight="0.9"><match lemma="stoppe" tags="vblex.*"><select lemma="sluta" tags="vblex.*"/></match></rule><!-- 20812 -->
-<rule weight="0.9"><match lemma="stoppe" tags="adj.pp.*"><select lemma="sluta" tags="adj.pp.*"/></match></rule><!-- 20812 -->
 <rule weight="0.9"><match lemma="stopp" tags="n.*"><select lemma="stopp" tags="n.nt.*"/></match></rule><!-- 1360 -->
 <rule weight="0.9"><match lemma="stopp" tags="n.nt.*"><select lemma="stopp" tags="n.nt.*"/></match></rule><!-- 1360 -->
 <rule weight="0.9"><match lemma="stotre" tags="vblex.*"><select lemma="hacka" tags="vblex.*"/></match></rule><!-- 898 -->
@@ -4800,6 +4796,17 @@
   <!-- /frequency based rules  -->
 
   <rule><match lemma="fra" tags="pr"><select lemma="från" tags="pr"/></match></rule>
+
+  <rule><match lemma="slutte" tags="vblex.*"><select lemma="sluta"/></match></rule>
+  <rule><match lemma="slutte" tags="adj.pp.*"><select lemma="sluta"/></match></rule>
+
+  <rule><match lemma="stoppe" tags="vblex.*"><select lemma="stoppa"/></match></rule>
+  <rule><match lemma="stoppe" tags="adj.pp.*"><select lemma="stoppa"/></match></rule>
+  <rule weight="2.0" c="prøve (ikke) å stoppe">
+    <match lemma="prøve" tags="*"/>
+    <repeat from="0" upto="2"><match/></repeat>
+    <match lemma="stoppe" tags="vblex.*"><select lemma="förhindra" tags="vblex.*"/></match>
+  </rule>
 
   <rule><match lemma="pris" tags="n.mf.*"><select lemma="pris" tags="n.m.*"/></match></rule>
   <rule><match lemma="pris" tags="n.m.*"><select lemma="pris" tags="n.nt.*"/></match></rule>
@@ -5712,7 +5719,6 @@
 <rule weight="0.95"><match lemma="tro" tags="n.m.*"><select lemma="tro"/></match></rule>
 <rule weight="0.95"><match lemma="tiår" tags="n.nt.*"><select lemma="decennium"/></match></rule>
 <rule weight="0.95"><match lemma="stilling" tags="n.f.*"><select lemma="ställning"/></match></rule>
-<rule weight="0.95"><match lemma="slutte" tags="vblex.*"><select lemma="sluta"/></match></rule>
 <rule weight="0.95"><match lemma="skala" tags="n.m.*"><select lemma="skala"/></match></rule>
 <rule weight="0.95"><match lemma="sende" tags="vblex.*"><select lemma="sända"/></match></rule>
 <rule weight="0.95"><match lemma="russer" tags="n.m.*"><select lemma="ryss"/></match></rule>
@@ -5893,7 +5899,6 @@
 <rule weight="0.95"><match lemma="tilby" tags="vblex.*"><select lemma="erbjuda"/></match></rule>
 <rule weight="0.95"><match lemma="tenke" tags="vblex.*"><select lemma="tänka"/></match></rule>
 <rule weight="0.95"><match lemma="stråling" tags="n.m.*"><select lemma="strålning"/></match></rule>
-<rule weight="0.95"><match lemma="stoppe" tags="vblex.*"><select lemma="stoppa"/></match></rule>
 <rule weight="0.95"><match lemma="spredning" tags="n.m.*"><select lemma="spridning"/></match></rule>
 <rule weight="0.95"><match lemma="reis" tags="n.f.*"><select lemma="resa"/></match></rule>
 <rule weight="0.95"><match lemma="overgang" tags="n.m.*"><select lemma="övergång"/></match></rule>
