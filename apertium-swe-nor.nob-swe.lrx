@@ -261,10 +261,22 @@
 
   <rule><match lemma="dataprogram" tags="n.nt.*"><select lemma="dataprogram" tags="n.ut.*"/></match></rule>
 
+  <rule><match lemma="før" tags="pr"><select lemma="innan"/></match></rule>
+
+  <rule><match lemma="før" tags="cnjsub"><select lemma="innan"/></match></rule>
+
   <rule><match lemma="før" tags="adv"><select lemma="förut" tags="adv"/></match></rule>
   <rule weight="2.0">
     <match lemma="før" tags="adv"><select lemma="tidigare" tags="adv.comp"/></match>
     <match lemma="være"/>
+  </rule>
+  <rule weight="2.0">
+    <or>
+      <match lemma="gjøre"/>
+      <match lemma="være"/>
+      <match lemma="enn"/>
+    </or>
+    <match lemma="før" tags="adv"><select lemma="tidigare" tags="adv.comp"/></match>
   </rule>
 
   <rule><match lemma="ringe" tags="vblex.*"><select lemma="ringa" tags="vblex.*"/></match></rule>
