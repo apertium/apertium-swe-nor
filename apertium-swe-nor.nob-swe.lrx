@@ -4844,6 +4844,7 @@
   <rule><match lemma="sist" tags="adj.*"><select lemma="sista" tags="adj.*"/></match></rule>
   <rule weight="2.0">
     <match lemma="sist" tags="adj..sint.sup.*"><select lemma="sen" tags="adj.*"/></match>
+    <repeat from="0" upto="1"><match tags="det.*"/></repeat>
     <seq n="tidseining"/>
   </rule>
 
