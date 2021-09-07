@@ -310,6 +310,14 @@
       <e><i><w/><s n="prn"/><s n="pers"/><t/><s n="nom"/><j/></i></e>
     </pardef>
 
+    <pardef n="verb_remove_å">
+      <e><i>begynne</i></e>
+      <e><i>pleie</i></e>
+      <e><i>forsøke</i></e>
+      <e><i>prøve</i></e>
+      <e><i>slippe</i></e>
+    </pardef>
+
     <pardef n="tj">
       <e><i><t/><j/></i></e>
     </pardef>
@@ -318,6 +326,7 @@
 
   <section id="main" type="standard">
 
+    <!-- å/att-removal: -->
     <e lm="får ikke lov til å -> får ikke" c="får inte">
       <i>få</i>   <par n="tj"/>
       <i>ikke</i> <par n="tj"/>
@@ -325,6 +334,14 @@
       <p><l>til<t/><j/></l>   <r></r></p>
       <p><l>å<t/><j/></l>   <r></r></p>
     </e>
+    <e lm="begynte (jeg) å sykle -> begynte (jeg) sykle" c="började (jag) sykla">
+      <par n="verb_remove_å"/> <par n="tj"/>
+      <par n="prn.pers.nom|adv|"/>
+      <par n="prn.pers.nom|adv|"/>
+      <p><l>å<t/><j/></l>   <r></r></p>
+      <i><w/><s n="vblex"/><s n="inf"/><j/></i>
+    </e>
+
 
     <e lm="et av landene -> et av de land" c="ett av de länder">
       <i>en</i> <par n="tj"/>
