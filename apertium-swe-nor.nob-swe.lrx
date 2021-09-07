@@ -5367,7 +5367,6 @@
 <rule weight="0.95"><match lemma="by" tags="n.m.*"><select lemma="stad"/></match></rule>
 <rule weight="0.95"><match lemma="tid" tags="n.m.*"><select lemma="tid"/></match></rule>
 <rule weight="0.95"><match lemma="del" tags="n.m.*"><select lemma="del"/></match></rule>
-<rule weight="0.95"><match lemma="finnes" tags="vblex.*"><select lemma="finna"/></match></rule>
 <rule weight="0.95"><match lemma="område" tags="n.nt.*"><select lemma="område"/></match></rule>
 <rule weight="0.95"><match lemma="gang" tags="n.m.*"><select lemma="gång"/></match></rule>
 <rule weight="0.95"><match lemma="komme" tags="vblex.*"><select lemma="komma"/></match></rule>
@@ -6453,6 +6452,8 @@
 <rule weight="0.95"><match lemma="anlegg" tags="n.nt.*"><select lemma="anläggning"/></match></rule>
 <rule weight="0.95"><match lemma="advare" tags="vblex.*"><select lemma="varna"/></match></rule>
 <rule weight="0.95"><match lemma="adelsmann" tags="n.m.*"><select lemma="adelsman"/></match></rule>
+
+  <rule><match lemma="finnes" tags="vblex.*"><select lemma="finna" tags="vblex.*.pasv"/></match></rule>
 
   <rule><match lemma="dato" tags="n.*"><select lemma="datum"/></match></rule>
   <rule weight="2.0" c="dags dato">
