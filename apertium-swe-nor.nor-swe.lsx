@@ -342,6 +342,23 @@
       <i><w/><s n="vblex"/><s n="inf"/><j/></i>
     </e>
 
+    <!-- TODO: possible to generalise a bit? -->
+    <e lm="og jeg har begynt → og så har jeg begynt" c="och så har jag börjad">
+      <i>og</i> <par n="tj"/>
+      <p><l>jeg<t/><j/></l> <r></r></p>
+      <p><l></l> <r>så<s n="adv"/><j/></r></p>
+      <i>ha</i> <par n="tj"/>
+      <p><l></l> <r>jeg<s n="prn"/><s n="pers"/><s n="p1"/><s n="mf"/><s n="sg"/><s n="nom"/><j/></r></p>
+      <i><w/><s n="vblex"/><s n="pp"/><j/></i>
+      <p><l>å<t/><j/></l>   <r></r></p>
+    </e>
+
+
+    <e lm="lov til å → lov å" c="lov att">
+      <i>lov</i> <par n="tj"/>
+      <p><l>til<t/><j/></l>   <r></r></p>
+      <i>å</i> <par n="tj"/>
+    </e>
 
     <e lm="et av landene -> et av de land" c="ett av de länder">
       <i>en</i> <par n="tj"/>
