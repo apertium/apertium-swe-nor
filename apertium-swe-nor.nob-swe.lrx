@@ -3227,8 +3227,6 @@
 <rule weight="0.9"><match lemma="prille" tags="adj.pp.*"><select lemma="spela" tags="adj.pp.*"/></match></rule><!-- 21327 -->
 <rule weight="0.9"><match lemma="prise" tags="vblex.*"><select lemma="berömma" tags="vblex.*"/></match></rule><!-- 1780 -->
 <rule weight="0.9"><match lemma="prise" tags="adj.pp.*"><select lemma="berömma" tags="adj.pp.*"/></match></rule><!-- 1780 -->
-<rule weight="0.9"><match lemma="pris" tags="n.mf.*"><select lemma="pris" tags="n.nt.*"/></match></rule><!-- 3200 -->
-<rule weight="0.9"><match lemma="pris" tags="n.*"><select lemma="pris" tags="n.nt.*"/></match></rule><!-- 3200 -->
 <rule weight="0.9"><match lemma="privilegium" tags="n.nt.*"><select lemma="förmån" tags="n.ut.*"/></match></rule><!-- 610 -->
 <rule weight="0.9"><match lemma="problematikk" tags="n.*"><select lemma="frågeställning" tags="n.ut.*"/></match></rule><!-- 40 -->
 <rule weight="0.9"><match lemma="problem" tags="n.nt.*"><select lemma="problem" tags="n.nt.*"/></match></rule><!-- 20217 -->
@@ -4791,6 +4789,13 @@
 
   <rule><match lemma="fra" tags="pr"><select lemma="från" tags="pr"/></match></rule>
 
+  <rule><match lemma="pris" tags="n.mf.*"><select lemma="pris" tags="n.m.*"/></match></rule>
+  <rule><match lemma="pris" tags="n.m.*"><select lemma="pris" tags="n.nt.*"/></match></rule>
+  <rule weight="2.0" c="litteraturpris">
+    <match tags="n.*.cmp"/>
+    <match lemma="pris"><select lemma="pris¹"/></match>
+  </rule>
+
   <rule><match lemma="enda" tags="adv"><select lemma="ännu" tags="adv"/></match></rule>
 
   <rule><match lemma="sist" tags="adj.*"><select lemma="sista" tags="adj.*"/></match></rule>
@@ -5577,7 +5582,6 @@
 <rule weight="0.95"><match lemma="stilling" tags="n.m.*"><select lemma="ställning"/></match></rule>
 <rule weight="0.95"><match lemma="standard" tags="n.m.*"><select lemma="standard"/></match></rule>
 <rule weight="0.95"><match lemma="scene" tags="n.m.*"><select lemma="scen"/></match></rule>
-<rule weight="0.95"><match lemma="pris" tags="n.m.*"><select lemma="pris"/></match></rule>
 <rule weight="0.95"><match lemma="gjennombrudd" tags="n.nt.*"><select lemma="genombrott"/></match></rule>
 <rule weight="0.95"><match lemma="forhandling" tags="n.f.*"><select lemma="förhandling"/></match></rule>
 <rule weight="0.95"><match lemma="bolig" tags="n.m.*"><select lemma="bostad"/></match></rule>
