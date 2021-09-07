@@ -3212,4 +3212,5 @@
 <rule weight="0.9"><match lemma="åverkan" tags="n.ut.*"><select lemma="skade" tags="n.m.*"/></match></rule><!-- 3320 -->
   <rule><match lemma="bo" tags="n.*"><select lemma="bo"/></match></rule>
   <rule><match lemma="match" tags="n.*"><select lemma="match"/></match></rule>
+  <rule><match lemma="bild" tags="n.*"><select lemma="bilde"/></match></rule>
 </rules>
