@@ -419,6 +419,12 @@
       <p><l></l>                     <r>god<s n="adj"/><s n="sint"/><s n="sup"/><s n="un"/><s n="sp"/><s n="def"/><j/></r></p>
       <p><l></l>                     <r>venn<s n="n"/><s n="m"/><s n="sg"/><s n="ind"/></r></p>
     </e>
+
+    <e lm="stengt ned → nedstengt" c="nedstängt">
+      <p><l>stenge</l><r>nedstenge</r></p> <par n="tj"/>
+      <!-- <par n="SN|adv|prn|"/> -->
+      <p><l>ned<t/><j/></l><r></r></p>
+    </e>
   </section>
 
 </dictionary>

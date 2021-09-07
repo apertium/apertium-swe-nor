@@ -6445,5 +6445,9 @@
   <rule><match lemma="endelig" ><select lemma="äntlig"/></match></rule>
   <!-- <rule><match lemma="endelig" tags="adj.*"><select lemma="slutgiltig"/></match></rule> -->
 
+  <rule><match lemma="nedstenge" tags="vblex.*"><select lemma="stänga"/></match></rule>
+  <rule weight="2.0"><match lemma="nedstenge" tags="vblex.pp"><select lemma="nedstänga"/></match></rule>
+  <rule weight="2.0"><match lemma="nedstenge" tags="adj.*"><select lemma="nedstänga"/></match></rule>
+
 </rules>
 </lrx>
