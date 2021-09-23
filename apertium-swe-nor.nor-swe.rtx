@@ -1,5 +1,5 @@
 ! comment
-gender = m f nt;
+gender = m f nt ut;
 number = (ND sg) sg pl ND;
 defnes = def ind;
 tense = inf pret pres pp imp;
@@ -21,16 +21,19 @@ DP: _.gender.number;
 PP: _;
 VP: _.tense.person.number;
 
-NP -> %n { 1 } |
+NP -> %n { 1 }
+    |
       10: %n PP { 1 _ 2 } ;
 
 PP -> pr DP { 1 _ 2 } ;
 
 DP -> det %NP { 1[gender=2.gender, number=2.number] _ 2 } ;
 
-VP -> %vblex DP { 1[tense=$tense, person=$person, number=$number] _ 2 } |
+VP -> %vblex DP { 1[tense=$tense, person=$person, number=$number] _ 2 }
+    |
       adv %VP (if (1.lem/sl = there)
                   { %2 }
                else
-                  { 1 _ %2 } ) |
+                  { 1 _ %2 } )
+    |
       PP %VP { 1 _ %2 } ;
