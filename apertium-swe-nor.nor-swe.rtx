@@ -1,0 +1,36 @@
+! comment
+gender = m f nt;
+number = (ND sg) sg pl ND;
+defnes = def ind;
+tense = inf pret pres pp imp;
+person = (PD p3) p1 p2 p3 PD;
+voice = (VD actv) pasv actv ;
+
+detsub = qnt emph ;
+
+tense > tense : pret inf;
+
+n: _.gender.number.defnes;
+det: _.detsub.gender.number;
+pr: _;
+vblex: _.tense.voice;
+adv: _;
+
+NP: _.gender.number;
+DP: _.gender.number;
+PP: _;
+VP: _.tense.person.number;
+
+NP -> %n { 1 } |
+      10: %n PP { 1 _ 2 } ;
+
+PP -> pr DP { 1 _ 2 } ;
+
+DP -> det %NP { 1[gender=2.gender, number=2.number] _ 2 } ;
+
+VP -> %vblex DP { 1[tense=$tense, person=$person, number=$number] _ 2 } |
+      adv %VP (if (1.lem/sl = there)
+                  { %2 }
+               else
+                  { 1 _ %2 } ) |
+      PP %VP { 1 _ %2 } ;
