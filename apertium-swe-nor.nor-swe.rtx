@@ -39,16 +39,16 @@ VP: _.tense.number.voice;
 
 !! Reduction Rules: !!
 
-N -> %n         { 1   }
-   | %n.*.cmp N { 1 2 }
+N -> %n         { %1   }
+   | %n.*.cmp N { 1 %2 }
    ;
 
-A -> %adj       { 1   }
-   | %n.*.cmp A { 1 2 }
+A -> %adj       { %1   }
+   | %n.*.cmp A { 1 %2 }
    ;
 
-NP -> %N { 1 }
-    | A %N { 1 _ 2 }
+NP -> %N { %1 }
+    | A %N { 1 _ %2 }
     ;
 
 PP -> pr %DP { 1 _ 2 } ;
