@@ -1,39 +1,63 @@
-! comment
-gender = m f nt ut;
-number = (ND sg) sg pl ND;
-defnes = def ind;
-tense = inf pret pres pp imp;
-person = (PD p3) p1 p2 p3 PD;
+! nor-swe.rtx
+
+!! Attribute Categories: !!
+gender = m f nt ut un @mf ;
+number = (ND sg) sg pl ND ;
+defnes = def ind ;
+tense = inf pret pres pp imp ;
+person = (PD p3) p1 p2 p3 PD ;
 voice = (VD actv) pasv actv ;
+a_cmp = cmp ;
+a_det = dem qnt pos emph ;
+a_neg = neg ;
+a_sint = sint ;
+a_comp = pst comp sup ;
 
-detsub = qnt emph ;
-
+!! Tag Rewrite Rules: !!
 tense > tense : pret inf;
 
-n: _.gender.number.defnes;
-det: _.detsub.gender.number;
-pr: _;
-vblex: _.tense.voice;
-adv: _;
 
+!! Tag Order (Output Patterns): !!
+adj:   _.gender.number.defnes.a_cmp;
+n:     _.gender.number.defnes.a_cmp;
+det:   _.a_det.gender.number;
+vblex: _.tense.voice;
+pr:    _;
+adv:   _;
+ij:    _;
+
+
+N: _.gender.number.a_cmp;
+A: _.a_sint.a_comp.gender.number.defnes.a_cmp;
 NP: _.gender.number;
 DP: _.gender.number;
 PP: _;
 VP: _.tense.person.number;
 
+
+
+!! Reduction Rules: !!
+
+N -> %n         { 1   }
+   | %n.*.cmp N { 1 2 }
+   ;
+
+A -> %adj       { 1   }
+   | %n.*.cmp A { 1 2 }
+   ;
+
 NP -> %n { 1 }
-    |
-      10: %n PP { 1 _ 2 } ;
+    ! | 10: N PP { 1 _ 2 }
+    ;
 
 PP -> pr DP { 1 _ 2 } ;
 
 DP -> det %NP { 1[gender=2.gender, number=2.number] _ 2 } ;
 
 VP -> %vblex DP { 1[tense=$tense, person=$person, number=$number] _ 2 }
-    |
-      adv %VP (if (1.lem/sl = there)
+    | adv %VP (if (1.lem/sl = there)
                   { %2 }
                else
                   { 1 _ %2 } )
-    |
-      PP %VP { 1 _ %2 } ;
+    | PP %VP { 1 _ %2 }
+    ;
