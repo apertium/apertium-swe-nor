@@ -14,7 +14,7 @@ a_sint = sint ;
 a_comp = pst comp sup ;
 
 !! Tag Rewrite Rules: !!
-tense > tense : pret inf;
+tense > tense : pret inf ;
 
 
 !! Tag Order (Output Patterns): !!
@@ -26,13 +26,14 @@ pr:    _;
 adv:   _;
 ij:    _;
 
-
-N: _.gender.number.a_cmp;
+! Note: attrs not included here are not available to reduction rules
+N: _.gender.number.defnes.a_cmp;
 A: _.a_sint.a_comp.gender.number.defnes.a_cmp;
-NP: _.gender.number;
-DP: _.gender.number;
+NP: _.gender.number.defnes;
+DP: _.gender.number.defnes;
 PP: _;
-VP: _.tense.person.number;
+VP: _.tense.number.voice;
+! TODO: Put gender/number on VP for pp-samsvar stuff?
 
 
 
@@ -46,13 +47,21 @@ A -> %adj       { 1   }
    | %n.*.cmp A { 1 2 }
    ;
 
-NP -> %n { 1 }
-    ! | 10: N PP { 1 _ 2 }
+NP -> %N { 1 }
+    | A %N { 1 _ 2 }
     ;
 
-PP -> pr DP { 1 _ 2 } ;
+PP -> pr %DP { 1 _ 2 } ;
 
-DP -> det %NP { 1[gender=2.gender, number=2.number] _ 2 } ;
+DP -> det %NP
+      { 1[gender=(if (2.number = pl) un else 2.gender), number=2.number] _ 2 }
+    | "n.def det -> det n.ind"
+      %NP det.pos
+      { 2[gender=(if (1.number = pl) un else 1.gender), number=1.number]
+        _
+        1[defnes=ind]
+      }
+      ;
 
 VP -> %vblex DP { 1[tense=$tense, person=$person, number=$number] _ 2 }
     | adv %VP (if (1.lem/sl = there)
