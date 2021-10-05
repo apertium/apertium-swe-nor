@@ -4,21 +4,25 @@
 gender = m f nt ut un @mf ;
 number = (ND sg) sg pl ND ;
 defnes = def ind ;
-tense = inf pret pres pp imp ;
+tense = inf pret pres pp supn imp ;
 person = (PD p3) p1 p2 p3 PD ;
 voice = (VD actv) pasv actv ;
+a_adj = sint ord ;
 a_cmp = cmp ;
 a_det = dem qnt pos emph ;
 a_neg = neg ;
-a_sint = sint ;
 a_comp = pst comp sup ;
+
+! Word sets:
+w_paux = bli være vara vara¹ ;
+
 
 !! Tag Rewrite Rules: !!
 tense > tense : pret inf ;
 
 
 !! Tag Order (Output Patterns): !!
-adj:   _.gender.number.defnes.a_cmp;
+adj:   _.a_adj.a_comp.gender.number.defnes.a_cmp;
 n:     _.gender.number.defnes.a_cmp;
 det:   _.a_det.gender.number;
 vblex: _.tense.voice;
@@ -27,12 +31,13 @@ adv:   _;
 ij:    _;
 
 ! Note: attrs not included here are not available to reduction rules
-N: _.gender.number.defnes.a_cmp;
-A: _.a_sint.a_comp.gender.number.defnes.a_cmp;
-NP: _.gender.number.defnes;
-DP: _.gender.number.defnes;
-PP: _;
-VP: _.tense.number.voice;
+N:     _.gender.number.defnes.a_cmp;
+A:     _.a_adj.a_comp.gender.number.defnes.a_cmp;
+NP:    _.gender.number.defnes;
+DP:    _.gender.number.defnes;
+PP:    _;
+VP:    _.tense.number.voice;
+ADV:   _;
 ! TODO: Put gender/number on VP for pp-samsvar stuff?
 
 
@@ -43,8 +48,8 @@ N -> %n         { %1   }
    | n.*.cmp %N { 1 %2 }
    ;
 
-A -> %adj       { %1   }
-   | n.*.cmp %A { 1 %2 }
+A -> "A->adj"       %adj {   %1 }
+   | "A->n+A" n.*.cmp %A { 1 %2 }
    ;
 
 NP -> %N { %1 }
@@ -55,7 +60,7 @@ PP -> pr %DP { 1 _ 2 } ;
 
 DP -> det %NP
       { 1[gender=(if (2.number = pl) un else 2.gender), number=2.number] _ 2 }
-    | "n.def det -> det n.ind"
+    | "n.def det ~> det n.ind"
       %NP det.pos
       { 2[gender=(if (1.number = pl) un else 1.gender), number=1.number]
         _
@@ -63,10 +68,40 @@ DP -> det %NP
       }
       ;
 
-VP -> %vblex DP { 1[tense=$tense, person=$person, number=$number] _ 2 }
-    | adv %VP (if (1.lem/sl = there)
-                  { %2 }
-               else
-                  { 1 _ %2 } )
-    | PP %VP { 1 _ %2 }
+! TODO: Do any tags need propagating here?
+ADV -> "ADV" adv { 1 }
+    | "ADV.nt" A.*.nt { 1 }
     ;
+
+VP ->
+    !   %vblex DP { 1[tense=$tense, person=$person, number=$number] _ 2 }
+    ! | adv %VP (if (1.lem/sl = there)
+    !               { %2 }
+    !            else
+    !               { 1 _ %2 } )
+    ! | PP %VP { 1 _ %2 }
+    ! |
+    "er hardt rammet ~> drabbats hårt"
+    %vblex ADV vblex.pp
+    !! Would prefer to do %[w_paux]@vblex but
+    !! https://github.com/apertium/apertium-recursive/issues/75
+    ?(1.lemh/tl IsSubstring vara or 1.lemh/tl = bli )
+    { 3[voice = pasv] _ 2 }
+    ;
+
+
+    ! <rule comment="PASV at ha PP: Menes at have dræbt → Tros ha dödat">
+
+    ! <def-cat n="paux.pres" c="auxes used for passives (not 'ha')">
+    !   <cat-item lemma="aux" tags="vblex.pres.actv.bli"/>
+    !   <cat-item lemma="aux" tags="vblex.pres.actv.vara"/>
+    !   <cat-item lemma="aux" tags="vblex.pres.actv.vara¹"/>
+    ! </def-cat>
+    ! <def-cat n="paux.past" c="auxes used for passives (not 'ha')">
+    !   <cat-item lemma="aux" tags="vblex.past.actv.bli"/>
+    !   <cat-item lemma="aux" tags="vblex.past.actv.vara"/>
+    !   <cat-item lemma="aux" tags="vblex.past.actv.vara¹"/>
+    ! </def-cat>
+    ! <def-cat n="supn.actv">
+    !   <cat-item tags="vblex.supn.actv"/>
+    ! </def-cat>
