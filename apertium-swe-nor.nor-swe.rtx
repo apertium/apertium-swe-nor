@@ -1,13 +1,13 @@
 ! nor-swe.rtx
 
 !! Attribute Categories: !!
-gender = m f nt ut un @mf ;
-number = (ND sg) sg pl ND ;
+gender = m f nt ut un fn @mf ;
+number = (ND sg) sg pl sp ND ;
 defnes = def ind ;
 tense = inf pret pres pp supn imp ;
 person = (PD p3) p1 p2 p3 PD ;
 voice = (VD actv) pasv actv ;
-a_adj = sint ord ;
+a_adj = sint ord pp pprs ;
 a_cmp = cmp ;
 a_det = dem qnt pos emph ;
 a_neg = neg ;
@@ -29,6 +29,9 @@ vblex: _.tense.voice;
 pr:    _;
 adv:   _;
 ij:    _;
+cnjsub: _;
+cnjcoo: _;
+part:   _;
 
 ! Note: attrs not included here are not available to reduction rules
 N:     _.gender.number.defnes.a_cmp;
@@ -87,21 +90,8 @@ VP ->
     !! https://github.com/apertium/apertium-recursive/issues/75
     ?(1.lemh/tl IsSubstring vara or 1.lemh/tl = bli )
     { 3[voice = pasv] _ 2 }
+    |
+    "rm att"
+    %vblex.*.pasv part ha@vblex vblex.pp
+    { 1 _ 3 _ 4 }
     ;
-
-
-    ! <rule comment="PASV at ha PP: Menes at have dræbt → Tros ha dödat">
-
-    ! <def-cat n="paux.pres" c="auxes used for passives (not 'ha')">
-    !   <cat-item lemma="aux" tags="vblex.pres.actv.bli"/>
-    !   <cat-item lemma="aux" tags="vblex.pres.actv.vara"/>
-    !   <cat-item lemma="aux" tags="vblex.pres.actv.vara¹"/>
-    ! </def-cat>
-    ! <def-cat n="paux.past" c="auxes used for passives (not 'ha')">
-    !   <cat-item lemma="aux" tags="vblex.past.actv.bli"/>
-    !   <cat-item lemma="aux" tags="vblex.past.actv.vara"/>
-    !   <cat-item lemma="aux" tags="vblex.past.actv.vara¹"/>
-    ! </def-cat>
-    ! <def-cat n="supn.actv">
-    !   <cat-item tags="vblex.supn.actv"/>
-    ! </def-cat>
