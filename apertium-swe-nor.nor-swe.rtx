@@ -37,7 +37,6 @@ tense > tense : pret past ;
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 adj:   _.a_adj.a_comp.gender.number.defnes.a_cmp;
-adj_pst: _.a_adj.<pst>.pst_gender.number.defnes.a_cmp;
 n:     _.gender.number.defnes.a_cmp;
 det:   _.a_det.gender.number;
 vblex: _.tense.voice;
@@ -83,6 +82,12 @@ A -> "A->adj"       %adj { %1[gender=(if (1.a_comp = pst and 1.gender = GD) un e
    | "A->n+A" n.*.cmp %A { 1 %2 }
    ;
 
+! TODO: Stop <sint> getting copied from sl side if not in tl side!
+! <popcorndude> if you specify a side it takes that side or empty, if you don't specify a side it tries tl->ref->sl  [15:41]
+! ^nøye<adj><sint><pst><nt><sg><ind>/noga<adj><pst><nt><sg><ind>$
+! should not get sint!
+
+
 NP ->   %N { %1[lemcase=$lemcase] }
     | "ANun" 4: A.*.un %N
        ! Forms with <un> on the swe side of bidix don't inflect for gender
@@ -117,11 +122,13 @@ DP -> det %NP
       ;
 
 ! TODO: Do any tags need propagating here?
-ADV -> "ADV" adv { 1 }
-    | "ADV.nt" A.*.nt { 1 }
+ADV -> "ADV" %adv { %1 }
+    | "ADV.nt" %A.*.nt { %1 }
     ;
 
-VP -> %vblex { 1 }
+VP ->
+      2: %vblex.imp { 1[voice=""] }
+    | %vblex { 1 }
     !   %vblex DP { 1[tense=$tense, person=$person, number=$number] _ 2 }
     ! | adv %VP (if (1.lem/sl = there)
     !               { %2 }
