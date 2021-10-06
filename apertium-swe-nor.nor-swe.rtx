@@ -1,7 +1,12 @@
 ! nor-swe.rtx
 
-!! Attribute Categories: !!
-gender = m f nt ut un fn @mf ;
+!!!!!!!!!!!!!!!!!!!!!!!!!
+! Attribute Categories: !
+!!!!!!!!!!!!!!!!!!!!!!!!!
+
+gender = m f nt ut un fn mf GD ;
+! TODO do I need non_overwritable_gender = … @mf ;
+gender_adj_sg_ind = nt ut ;
 number = (ND sg) sg pl sp ND ;
 defnes = def ind ;
 tense = inf pret pres pp supn imp ;
@@ -16,18 +21,28 @@ a_comp = pst comp sup ;
 ! Word sets:
 w_paux = bli være vara vara¹ ;
 
+! nouns for which we use the 'm' form of adj's (tl/swe lemmas)
+w_noun_use_masc_adj = anhängare användare arvinge befälhavare beskyddare bror chef domare forskare företrädare granne Gud gud gudom hövding invånare katolik kejsare konung krigare kung ledare länd makthavare man medarbetare muslim människa person plattform polischef profet religion representant rådgivare skarprättare släkting son spelare storhertig teoretiker tsar vårdare zoolog ämbetsman ärkebiskop överlevande
+      ! vän ! seems like they use -a at least as often for this one?
+      ;
 
-!! Tag Rewrite Rules: !!
-tense > tense : pret inf ;
+!!!!!!!!!!!!!!!!!!!!!!
+! Tag Rewrite Rules: !
+!!!!!!!!!!!!!!!!!!!!!!
 
+! tense > tense : pret inf ;
 
-!! Tag Order (Output Patterns): !!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Tag Order (Output Patterns): !
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 adj:   _.a_adj.a_comp.gender.number.defnes.a_cmp;
+adj_pst: _.a_adj.<pst>.pst_gender.number.defnes.a_cmp;
 n:     _.gender.number.defnes.a_cmp;
 det:   _.a_det.gender.number;
 vblex: _.tense.voice;
 pr:    _;
-adv:   _;
+adv:   _.a_comp;
 ij:    _;
 cnjsub: _;
 cnjcoo: _;
@@ -44,19 +59,46 @@ ADV:   _;
 ! TODO: Put gender/number on VP for pp-samsvar stuff?
 
 
-
-!! Reduction Rules: !!
+!!!!!!!!!!!!!!!!!!!!
+! Reduction Rules: !
+!!!!!!!!!!!!!!!!!!!!
 
 N -> %n         { %1   }
    | n.*.cmp %N { 1 %2 }
    ;
 
-A -> "A->adj"       %adj {   %1 }
+
+! A gender:
+! - if pst and ND/GD: pl/un
+! - if sup and GD: fn
+! A N gender:
+! - if NOT adj.un and adj.GD OR n.gen/sl != n.gen/tl:
+!   - if sg and ind and n.lemh!=första and n.gen in ut/nt: adj.gen=n.gen
+!   - if sg/sp and def/första:
+!     - if ut and noun-use-masc-adj: adj.gen=m
+!     - if nt: adj.gen=fn
+
+A -> "A->adj"       %adj { %1[gender=(if (1.a_comp = pst and 1.gender = GD) un el-if (1.a_comp = sup and 1.gender = GD) fn else $gender),
+                              number=(if (1.a_comp = pst and 1.number = ND) pl else $number)] }
    | "A->n+A" n.*.cmp %A { 1 %2 }
    ;
 
-NP -> %N { %1 }
-    | A %N { 1 _ %2 }
+NP ->   %N { %1 }
+    | "ANun" 4: A.*.un %N
+       ! Forms with <un> don't inflect for gender
+       { 1 _ %2 }
+    | "AN2" 4: A %N
+       ?(2.gender/sl = 2.gender/tl and (1.gender not = GD))
+       ! Gender didn't change in bidix
+       { 1 _ %2 }
+    | "ANmdef" 2: A.*.ut.sg.def    %N ?(2.lemh/tl in w_noun_use_masc_adj) { 1[gender=m] _ %2 }
+    | "ANmfö" 3: första@A.*.ut.sg  %N ?(2.lemh/tl in w_noun_use_masc_adj) { 1[gender=m] _ %2 }
+    | "ANntfö" 3: första@A.*.nt.sg %N { 1[gender=nt] _                                    %2 }
+    | "ANntsg" 2: A.*.nt.sg.def    %N { 1[gender=nt] _                                    %2 }
+    | "ANntsp" 2: A.*.nt.sp.def    %N { 1[gender=nt] _                                    %2 }
+    | "ANnt2N" 2: A.*.nt.sg.ind    %N { 1[gender=2.gender] _                              %2 }
+    | "ANut2N" 2: A.*.ut.sg.ind    %N { 1[gender=2.gender] _                              %2 }
+    | "AN0"    0: A                %N { 1 _                                               %2 }
     ;
 
 PP -> pr %DP { 1 _ 2 } ;
@@ -76,7 +118,7 @@ ADV -> "ADV" adv { 1 }
     | "ADV.nt" A.*.nt { 1 }
     ;
 
-VP ->
+VP -> %vblex { 1 }
     !   %vblex DP { 1[tense=$tense, person=$person, number=$number] _ 2 }
     ! | adv %VP (if (1.lem/sl = there)
     !               { %2 }
@@ -84,14 +126,13 @@ VP ->
     !               { 1 _ %2 } )
     ! | PP %VP { 1 _ %2 }
     ! |
-    "er hardt rammet ~> drabbats hårt"
-    %vblex ADV vblex.pp
-    !! Would prefer to do %[w_paux]@vblex but
-    !! https://github.com/apertium/apertium-recursive/issues/75
-    ?(1.lemh/tl IsSubstring vara or 1.lemh/tl = bli )
-    { 3[voice = pasv] _ 2 }
-    |
-    "rm att"
-    %vblex.*.pasv part ha@vblex vblex.pp
-    { 1 _ 3 _ 4 }
+    | "er hardt rammet ~> drabbats hårt"
+      %vblex ADV vblex.pp
+      ! Would prefer to do %[w_paux]@vblex but
+      ! https://github.com/apertium/apertium-recursive/issues/75
+      ?(1.lemh/tl IsSubstring vara or 1.lemh/tl = bli )
+      { 3[voice = pasv] _ 2 }
+    | "rm att"
+      %vblex.*.pasv part ha@vblex vblex.pp
+      { 1 _ 3 _ 4 }
     ;
