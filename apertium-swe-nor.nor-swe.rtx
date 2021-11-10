@@ -21,6 +21,7 @@ a_clb = clb ;
 
 ! Word sets:
 w_paux = bli være vara vara¹ ;
+w_bli = bli ;
 
 ! nouns for which we use the 'm' form of adj's (tl/swe lemmas)
 w_noun_use_masc_adj = anhängare användare arvinge befälhavare beskyddare bror chef domare forskare företrädare granne Gud gud gudom hövding invånare katolik kejsare konung krigare kung ledare länd makthavare man medarbetare muslim människa person plattform polischef profet religion representant rådgivare skarprättare släkting son spelare storhertig teoretiker tsar vårdare zoolog ämbetsman ärkebiskop överlevande
@@ -142,6 +143,11 @@ VP ->
     !               { 1 _ %2 } )
     ! | PP %VP { 1 _ %2 }
     ! |
+
+    | "ble landet delt ~> delades landet"
+      %[w_bli]@vblex NP vblex.pp
+      { 3[voice = pasv, tense = 1.tense] _ 2 }
+
     | "er hardt rammet ~> drabbats hårt"
       %[w_paux]@vblex ADV vblex.pp
       { 3[voice = pasv] _ 2 }
