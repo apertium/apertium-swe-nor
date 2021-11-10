@@ -122,7 +122,7 @@
 
   <!-- Norwegian bokmål → Swedish -->
   <!-- **************** nob-swe: **************** -->
-  <mode name="nob-swe" install="yes" gendebug="yes">
+  <mode name="tnob-swe" install="yes" gendebug="yes">
     <pipeline>
       <program name="lt-proc -e -w">
         <file name="nob-swe.automorf.bin"/>
@@ -164,7 +164,7 @@
     </pipeline>
   </mode>
 
-  <mode name="rnob-swe" install="yes" gendebug="yes">
+  <mode name="nob-swe" install="yes" gendebug="yes">
     <pipeline>
       <program name="lt-proc -e -w">
         <file name="nob-swe.automorf.bin"/>
