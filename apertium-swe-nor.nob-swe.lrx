@@ -132,7 +132,7 @@
     <match lemma="reise"/>
     <match lemma="ut av"><select lemma="ut ur"/></match>
   </rule>
-  <rule weight="2.0" c="får inte resa från staden hon bor i">
+  <rule weight="3.0" c="får inte resa från staden hon bor i">
     <match lemma="reise"/>
     <match lemma="ut av"><select lemma="från"/></match>
     <match lemma="by"/>
