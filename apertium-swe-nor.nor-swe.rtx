@@ -143,11 +143,9 @@ VP ->
     ! | PP %VP { 1 _ %2 }
     ! |
     | "er hardt rammet ~> drabbats hårt"
-      %vblex ADV vblex.pp
-      ! Would prefer to do %[w_paux]@vblex but
-      ! https://github.com/apertium/apertium-recursive/issues/75
-      ?(1.lemh/tl IsSubstring vara or 1.lemh/tl = bli )
+      %[w_paux]@vblex ADV vblex.pp
       { 3[voice = pasv] _ 2 }
+
     | "rm att"
       %vblex.*.pasv part ha@vblex vblex.pp
       { 1 _ 3 _ 4 }
