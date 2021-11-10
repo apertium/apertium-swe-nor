@@ -17,6 +17,7 @@ a_cmp = cmp ;
 a_det = dem qnt pos emph ;
 a_neg = neg ;
 a_comp = pst comp sup ;
+a_clb = clb ;
 
 ! Word sets:
 w_paux = bli være vara vara¹ ;
@@ -46,6 +47,7 @@ ij:    _;
 cnjsub: _;
 cnjcoo: _;
 part:   _;
+sent:   _.a_clb;
 
 ! Note: attrs not included here are not available to reduction rules
 N:     _.gender.number.defnes.a_cmp;
@@ -55,6 +57,7 @@ DP:    _.gender.number.defnes;
 PP:    _;
 VP:    _.tense.number.voice;
 ADV:   _;
+SENT:  _;
 ! TODO: Put gender/number on VP for pp-samsvar stuff?
 
 
@@ -146,3 +149,6 @@ VP ->
       %vblex.*.pasv part ha@vblex vblex.pp
       { 1 _ 3 _ 4 }
     ;
+
+! If bidix removed clb, ensure it stays removed:
+SENT -> %sent { %1[a_clb = 1.a_clb/tl] } ;
