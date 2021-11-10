@@ -124,6 +124,7 @@ DP -> det %NP
         _
         1[defnes=ind, lemcase=2.lemcase]
       }
+    | %det { %1 }
       ;
 
 ! TODO: Do any tags need propagating here?
