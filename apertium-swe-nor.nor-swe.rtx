@@ -42,7 +42,6 @@ tense > tense : pret past ;
 
 adj:   _.a_adj.a_comp.gender.number.defnes.a_cmp;
 n:     _.gender.number.defnes.case.a_cmp;
-det:   _.a_det.gender.number;
 vblex: _.tense.voice;
 pr:    _;
 adv:   _.a_comp;
@@ -51,6 +50,14 @@ cnjsub: _;
 cnjcoo: _;
 part:   _;
 sent:   _.a_clb;
+
+det_withdef: _.a_det.gender.number.case.defnes;
+det_nodef:   _.a_det.gender.number.case;
+det: (if (1.a_det = dem)
+         1(det_withdef)
+      else
+         1(det_nodef)
+     );
 
 ! Note: attrs not included here are not available to reduction rules
 N:     _.gender.number.defnes.case.a_cmp;
