@@ -16,7 +16,7 @@ case = nom acc gen ;
 ! a_ for attribute:
 a_adj = sint ord pp pprs ;
 a_cmp = cmp ;
-a_det = dem qnt pos emph ;
+a_det = dem rel qnt pos emph ;
 a_neg = neg ;
 a_comp = pst comp sup ;
 a_clb = clb ;
