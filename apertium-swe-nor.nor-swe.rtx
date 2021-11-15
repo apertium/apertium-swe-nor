@@ -12,6 +12,8 @@ defnes = def ind ;
 tense = inf pret pres pp supn imp ;
 person = (PD p3) p1 p2 p3 PD ;
 voice = (VD actv) pasv actv ;
+case = nom acc gen ;
+! a_ for attribute:
 a_adj = sint ord pp pprs ;
 a_cmp = cmp ;
 a_det = dem qnt pos emph ;
@@ -39,7 +41,7 @@ tense > tense : pret past ;
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 adj:   _.a_adj.a_comp.gender.number.defnes.a_cmp;
-n:     _.gender.number.defnes.a_cmp;
+n:     _.gender.number.defnes.case.a_cmp;
 det:   _.a_det.gender.number;
 vblex: _.tense.voice;
 pr:    _;
@@ -51,7 +53,7 @@ part:   _;
 sent:   _.a_clb;
 
 ! Note: attrs not included here are not available to reduction rules
-N:     _.gender.number.defnes.a_cmp;
+N:     _.gender.number.defnes.case.a_cmp;
 A:     _.a_adj.a_comp.gender.number.defnes.a_cmp;
 NP:    _.gender.number.defnes;
 DP:    _.gender.number.defnes;
