@@ -120,11 +120,11 @@ NP ->   %N { %1[lemcase=$lemcase] }
 PP -> pr %DP { 1 _ 2 } ;
 
 DP -> det %NP
-      { 1[gender=(if (2.number = pl) un else 2.gender), number=2.number] _ 2 }
+      { 1[gender=(if (2.number = pl or 1.gender/sl = un) un else 2.gender), number=2.number] _ 2 }
 
     | "vennene mine ~> mina vänner"
       %NP det.pos
-      { 2[gender=(if (1.number = pl) un else 1.gender), number=1.number, lemcase=1.lemcase]
+      { 2[gender=(if (1.number = pl or 1.gender/sl = un) un else 1.gender), number=1.number, lemcase=1.lemcase]
         _
         1[defnes=ind, lemcase=2.lemcase]
       }
@@ -132,7 +132,7 @@ DP -> det %NP
     ! Shouldn't this rule be unnecessary? https://github.com/apertium/apertium-recursive/issues/80
     | "vennene mine virtuelt ~> mina vänner virtuelt"
       %NP det.pos ADV
-      { 2[gender=(if (1.number = pl) un else 1.gender), number=1.number, lemcase=1.lemcase]
+      { 2[gender=(if (1.number = pl or 1.gender/sl = un) un else 1.gender), number=1.number, lemcase=1.lemcase]
         _
         1[defnes=ind, lemcase=2.lemcase]
         _
