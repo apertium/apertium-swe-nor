@@ -1,2 +1,0 @@
-[w0tTxQc12qvl#0] ^Verb<vblex><pret>{^sjå<vblex><pret>$}$ ^prn<prn><pers><p3><f><sg><nom>{^ho<prn><pers><p3><f><sg><nom>$}$ ^adv<adv>{^ikkje<adv>$}$ ^n<n><nt><pl><def>{^ord<n><nt><pl><def>$}$^default<default>{^?<sent><clb>$}$
-[/w0tTxQc12qvl]

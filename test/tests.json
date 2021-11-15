@@ -1,39 +1,15 @@
 {
-    "swe-nno": {
-        "input": "swe-nno-input.txt",
-        "mode": "swe-nno"
-    },
-    "swe-nob": {
-        "input": "swe-nob-input.txt",
-        "mode": "swe-nob"
-    },
-    "nno-swe-pending": {
-        "input": "nno-swe-pending-input.txt",
-        "mode": "nno-swe"
-    },
     "nno-swe-regression": {
         "input": "nno-swe-regression-input.txt",
         "mode": "nno-swe"
-    },
-    "nob-swe-pending": {
-        "input": "nob-swe-pending-input.txt",
-        "mode": "nob-swe"
     },
     "nob-swe-regression": {
         "input": "nob-swe-regression-input.txt",
         "mode": "nob-swe"
     },
-    "swe-nno-pending": {
-        "input": "swe-nno-pending-input.txt",
-        "mode": "swe-nno"
-    },
     "swe-nno-regression": {
         "input": "swe-nno-regression-input.txt",
         "mode": "swe-nno"
-    },
-    "swe-nob-pending": {
-        "input": "swe-nob-pending-input.txt",
-        "mode": "swe-nob"
     },
     "swe-nob-regression": {
         "input": "swe-nob-regression-input.txt",

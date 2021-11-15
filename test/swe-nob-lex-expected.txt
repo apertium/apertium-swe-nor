@@ -1,2 +1,0 @@
-[tMKlZei_zLhv#0] ^Jag<prn><pers><p1><ut><sg><nom>/Jeg<prn><pers><p1><mf><sg><nom>$ ^ha<vblex><pres><actv>/ha<vblex><pres>$ ^ål<n><ut><pl><ind>/ål<n><m><pl><ind>$ ^i<pr>/i<pr>$ ^min<det><pos><ut><sg>/min<det><pos><m><sg>$ ^svävare<n><ut><sg><ind>/luftputebåt<n><m><sg><ind>$
-[/tMKlZei_zLhv]
