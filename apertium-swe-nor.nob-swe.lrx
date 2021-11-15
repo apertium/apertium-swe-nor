@@ -6508,5 +6508,7 @@
     <match lemma="lov" tags="n.*"><select lemma="lov"/></match>
     <match lemma="å"/>
   </rule>
+
+  <rule><match lemma="selvsagt" tags="adv"><select lemma="självklart"/></match></rule>
 </rules>
 </lrx>
