@@ -10,5 +10,7 @@
 [/eLrB2F8Y26uc]
 [jONRw3Es7Fmy#0] ^den<det><dem><un><pl>$ ^part<n><ut><pl><ind>$ ^vilken<prn><rel><un><pl><gen>$ ^ansökning<n><ut><pl><ind>$
 [/jONRw3Es7Fmy]
+[w0tTxQc12qvl#0] ^Se<vblex><past><actv>$ ^hon<prn><pers><p3><f><sg><nom>$ ^inte<adv>$ ^ord<n><nt><pl><def>$^?<sent>$
+[/w0tTxQc12qvl]
 [zTuZzFUZoMgA#0] ^han<prn><pers><p3><m><sg><acc>$
 [/zTuZzFUZoMgA]

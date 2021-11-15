@@ -10,5 +10,7 @@
 [/eLrB2F8Y26uc]
 [jONRw3Es7Fmy#0] ^detdd<det><dem><un><pl>{^den<det><dem><un><pl>$}$ ^n<n><m><pl><ind>{^part<n><m><pl><ind>$}$ ^prn<prn><rel><un><pl><gen>{^som<prn><rel><un><sp><nom>$}$ ^n<n><m><pl><ind>{^søknad<n><m><pl><ind>$}$
 [/jONRw3Es7Fmy]
+[w0tTxQc12qvl#0] ^Verb<vblex><pret>{^sjå<vblex><pret>$}$ ^prn<prn><pers><p3><f><sg><nom>{^ho<prn><pers><p3><f><sg><nom>$}$ ^adv<adv>{^ikkje<adv>$}$ ^n<n><nt><pl><def>{^ord<n><nt><pl><def>$}$^default<default>{^?<sent><clb>$}$
+[/w0tTxQc12qvl]
 [zTuZzFUZoMgA#0] ^prn<prn><pers><p3><m><sg><acc>{^han<prn><pers><p3><m><sg><acc>$}$
 [/zTuZzFUZoMgA]

@@ -1,4 +1,12 @@
-[SCBaXMWwe1nl#0] ^ikke/ikke<adv>$
-[/SCBaXMWwe1nl]
-[iCRNj2geRoJM#0] ^Her/Her<adv>$ ^har/ha<vblex><pres>$ ^det/den<prn><pers><p3><nt><sg><nom>$ ^også/også<adv>$ ^blitt/bli<vblex><pp>$ ^opprettet/opprette<adj><pp><nt><sg><ind>$ ^litteraturpriser/litteratur<n><m><sg><ind><cmp>+pris<n><m><pl><ind>$ ^og/og<cnjcoo>$ ^blitt/bli<vblex><pp>$ ^arrangert/arrangere<adj><pp><pl>$ ^litteraturfestivaler/litteratur<n><m><sg><ind><cmp>+festival<n><m><pl><ind>$
-[/iCRNj2geRoJM]
+[8VMBw4Lp7TA0#0] ^Her/Her<adv>$ ^har/ha<vblex><pres>$ ^det/den<prn><pers><p3><nt><sg><nom>$ ^også/også<adv>$ ^blitt/bli<vblex><pp>$ ^opprettet/opprette<adj><pp><nt><sg><ind>$ ^litteraturpriser/litteratur<n><m><sg><ind><cmp>+pris<n><m><pl><ind>$ ^og/og<cnjcoo>$ ^blitt/bli<vblex><pp>$ ^arrangert/arrangere<adj><pp><pl>$ ^litteraturfestivaler/litteratur<n><m><sg><ind><cmp>+festival<n><m><pl><ind>$^./.<sent><clb>$
+[/8VMBw4Lp7TA0]
+[AWA7hOPgO92I#0] ^ikke/ikke<adv>$^./.<sent><clb>$
+[/AWA7hOPgO92I]
+[B9i8-sqBsyuY#0] ^hvilke/hvilken<det><itg><un><pl>$ ^aktiviteter/aktivitet<n><m><pl><ind>$^./.<sent><clb>$
+[/B9i8-sqBsyuY]
+[M_hpqOV05M0j#0] ^mammas/mamma<n><m><sg><ind><gen>$ ^telefon/telefon<n><m><sg><ind>$^./.<sent><clb>$
+[/M_hpqOV05M0j]
+[dGFAyy7M9Fgp#0] ^Jeg/Jeg<prn><pers><p1><mf><sg><nom>$ ^ser/se<vblex><pres>$ ^bare/bare<adv>$ ^vennene/venn<n><m><pl><def>$ ^mine/min<det><pos><un><pl>$ ^virtuelt/virtuell<adj><pst><nt><sg><ind>$^./.<sent><clb>$
+[/dGFAyy7M9Fgp]
+[uXuhSTHKMz88#0] ^noe/noe<det><qnt><nt><sg>/noe<prn><ind><nt><sg><acc>/noe<prn><ind><nt><sg><nom>$ ^annet/annen<det><dem><nt><sg><ind>/annen<prn><ind><nt><sg><nom>$ ^land/land<n><nt><sg><ind>$ ^i/i<pr>$ ^verden/verd<n><m><sg><def>$^./.<sent><clb>$
+[/uXuhSTHKMz88]

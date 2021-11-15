@@ -2,13 +2,15 @@
 [/4ezRqmPuJ3lS]
 [BGSXM-VaHxKz#0] ^som/som<cnjsub>/som<pr>$ ^inte/inte<adv>$ ^uppförts/uppföra<adj><pp><nt><sg><ind><gen>/uppföra<vblex><supn><pasv>$
 [/BGSXM-VaHxKz]
-[I1a7gtD3zHRi#0] ^har/ha<vblex><pres><actv>$ ^funnits/finna<vblex><supn><pasv>$
+[I1a7gtD3zHRi#0] ^har/ha<vblex><pres><actv>$ ^funnits/finna<vblex><supn><pasv>/finnas<vblex><supn><pasv>$
 [/I1a7gtD3zHRi]
-[W-fqMeU--uw4#0] ^som/som<cnjsub>/som<pr>$ ^funnits/finna<vblex><supn><pasv>$
+[W-fqMeU--uw4#0] ^som/som<cnjsub>/som<pr>$ ^funnits/finna<vblex><supn><pasv>/finnas<vblex><supn><pasv>$
 [/W-fqMeU--uw4]
 [eLrB2F8Y26uc#0] ^sökande/söka<adj><pprs>$ ^vars/vilken<prn><rel><un><pl><gen>/vilken<prn><rel><nt><sg><gen>/vilken<prn><rel><ut><sg><gen>$ ^förmåga/förmåga<n><ut><sg><ind>/förmåga<n><ut><sg><ind>$ ^att/att<cnjsub>$ ^utnyttja/utnyttja<vblex><imp>/utnyttja<vblex><inf><actv>$
 [/eLrB2F8Y26uc]
 [jONRw3Es7Fmy#0] ^de/de<np><attr>/den<det><dem><un><pl>/de<prn><pers><p3><un><pl><nom>$ ^parter/part<n><ut><pl><ind>/part<n><ut><pl><ind>$ ^vars/vilken<prn><rel><un><pl><gen>/vilken<prn><rel><nt><sg><gen>/vilken<prn><rel><ut><sg><gen>$ ^ansökningar/ansökning<n><ut><pl><ind>/ansökning<n><ut><pl><ind>$
 [/jONRw3Es7Fmy]
+[tMKlZei_zLhv#0] ^Jag/Jag<n><nt><sg><ind>/Jag<n><nt><pl><ind>/Jag<n><nt><sg><ind>/Jag<n><nt><pl><ind>/Jag<prn><pers><p1><ut><sg><nom>$ ^har/ha<vblex><pres><actv>$ ^ålar/åla<vblex><pres><actv>/ål<n><ut><pl><ind>$ ^i/i<pr>$ ^min/min<det><pos><ut><sg>/min<prn><pos><ut><sg>$ ^svävare/svävare<n><ut><sg><ind>/svävare<n><ut><sg><ind>/svävare<n><ut><pl><ind>/svävare<n><ut><pl><ind>$
+[/tMKlZei_zLhv]
 [zTuZzFUZoMgA#0] ^honom/han<prn><pers><p3><m><sg><acc>$
 [/zTuZzFUZoMgA]

@@ -10,5 +10,7 @@
 [/eLrB2F8Y26uc]
 [jONRw3Es7Fmy#0] ^den<det><dem><un><pl>/den<det><dem><un><pl>$ ^part<n><ut><pl><ind>/part<n><m><pl><ind>$ ^vilken<prn><rel><un><pl><gen>/som<prn><rel><un><sp><nom>/hvilken<det><itg><un><pl>$ ^ansökning<n><ut><pl><ind>/søknad<n><m><pl><ind>$
 [/jONRw3Es7Fmy]
+[tMKlZei_zLhv#0] ^Jag<prn><pers><p1><ut><sg><nom>/Jeg<prn><pers><p1><mf><sg><nom>$ ^ha<vblex><pres><actv>/ha<vblex><pres>$ ^ål<n><ut><pl><ind>/ål<n><m><pl><ind>$ ^i<pr>/i<pr>$ ^min<det><pos><ut><sg>/min<det><pos><m><sg>$ ^svävare<n><ut><sg><ind>/luftputebåt<n><m><sg><ind>$
+[/tMKlZei_zLhv]
 [zTuZzFUZoMgA#0] ^han<prn><pers><p3><m><sg><acc>/han<prn><pers><p3><m><sg><acc>$
 [/zTuZzFUZoMgA]
