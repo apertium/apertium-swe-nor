@@ -5,9 +5,11 @@
 !!!!!!!!!!!!!!!!!!!!!!!!!
 
 gender = m f nt ut un fn mf GD ;
+gender_n = m f nt ut un fn mf GD ;
 ! TODO do I need non_overwritable_gender = … @mf ;
 gender_adj_sg_ind = nt ut ;
 number = sg pl sp ND ;
+number_n = sg pl sp ND ;
 defnes = def ind ;
 tense = inf pret pres pp supn imp ;
 person = (PD p3) p1 p2 p3 PD ;
@@ -36,6 +38,8 @@ w_noun_use_masc_adj = anhängare användare arvinge befälhavare beskyddare bror
 !!!!!!!!!!!!!!!!!!!!!!
 
 tense > tense : pret past ;
+gender > gender_n : m m, f f, nt nt, ut ut, un un, fn fn, mf mf, GD GD ;
+number > number_n : sg sg, sp sp, pl pl, ND ND ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ! Tag Order (Output Patterns): !
@@ -132,12 +136,16 @@ NP ->   %N { %1[lemcase=$lemcase] }
 
 PP -> pr %DP { 1 _ 2 } ;
 
+detOfN: (always
+         1(det)[gender=(if (1.number_n = pl or 1.gender/sl = un) un else 1.gender_n), number=1.number_n]
+        ) ;
+
 DP -> det %NP
-      { 1[gender=(if (2.number = pl or 1.gender/sl = un) un else 2.gender), number=2.number] _ 2 }
+      { 1(detOfN)[gender=1.gender, gender_n=2.gender, number_n=2.number, lemcase=1.lemcase] _ 2 }
 
     | "vennene mine ~> mina vänner"
       %NP det.pos
-      { 2[gender=(if (1.number = pl or 1.gender/sl = un) un else 1.gender), number=1.number, lemcase=1.lemcase]
+      { 2(detOfN)[gender=2.gender, gender_n=1.gender, number_n=1.number, lemcase=1.lemcase]
         _
         1[defnes=ind, lemcase=2.lemcase]
       }
@@ -145,7 +153,7 @@ DP -> det %NP
     ! Shouldn't this rule be unnecessary? https://github.com/apertium/apertium-recursive/issues/80
     | "vennene mine virtuelt ~> mina vänner virtuelt"
       %NP det.pos ADV
-      { 2[gender=(if (1.number = pl or 1.gender/sl = un) un else 1.gender), number=1.number, lemcase=1.lemcase]
+      { 2(detOfN)[gender=2.gender, gender_n=1.gender, number_n=1.number, lemcase=1.lemcase]
         _
         1[defnes=ind, lemcase=2.lemcase]
         _
