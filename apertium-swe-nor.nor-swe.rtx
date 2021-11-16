@@ -152,7 +152,7 @@ DP -> det %NP
 
     ! Shouldn't this rule be unnecessary? https://github.com/apertium/apertium-recursive/issues/80
     | "vennene mine virtuelt ~> mina vänner virtuelt"
-      %NP det.pos ADV
+      %NP det.pos A
       { 2(detOfN)[gender=2.gender, gender_n=1.gender, number_n=1.number, lemcase=1.lemcase]
         _
         1[defnes=ind, lemcase=2.lemcase]
