@@ -396,6 +396,17 @@
 
   <rule><match lemma="internasjonal" tags="adj.*"><select lemma="internationell"/></match></rule>
 
+  <rule><match lemma="mange" tags="adj.*"><select lemma="mången"/></match></rule>
+  <rule weight="2.0" c="fler än">
+    <match lemma="mange" tags="adj.*"><select lemma="mången¹"/></match>
+    <repeat from="0" upto="2"><match/></repeat>
+    <match lemma="enn"/>
+  </rule>
+  <rule weight="2.0" c="fler blir smittade">
+    <match lemma="mange" tags="adj.*"><select lemma="mången¹"/></match>
+    <match lemma="bli"/>
+  </rule>
+
   <!-- Frequency-based rules: -->
 <rule weight="0.9"><match lemma="brett" tags="n.m.*"><select lemma="kull" tags="n.ut.*"/></match></rule><!-- 707 -->
 <rule weight="0.9"><match lemma="brett" tags="n.nt.*"><select lemma="bräda" tags="n.ut.*"/></match></rule><!-- 318 -->
