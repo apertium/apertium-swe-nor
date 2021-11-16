@@ -14,5 +14,8 @@
     "swe-nob-regression": {
         "input": "swe-nob-regression-input.txt",
         "mode": "swe-nob"
+    },
+    "settings": {
+        "structure": "nested"
     }
 }

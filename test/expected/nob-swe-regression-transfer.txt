@@ -1,0 +1,12 @@
+[8VMBw4Lp7TA0#0] ^Här<adv>$ ^ha<vblex><pres><actv>$ ^den<prn><pers><p3><nt><sg><nom>$ ^också<adv>$ ^bli<vblex><supn><actv>$ ^etablera<adj><pp><nt><sg><ind>$ ^litteratur<n><ut><sg><ind><cmp>$^pris¹<n><nt><pl><ind>$ ^och<cnjcoo>$ ^bli<vblex><supn><actv>$ ^ordna<adj><pp><pl><ind>$ ^litteratur<n><ut><sg><ind><cmp>$^festival<n><ut><pl><ind>$^.<sent>$
+[/8VMBw4Lp7TA0]
+[AWA7hOPgO92I#0] ^inte<adv>$^.<sent>$
+[/AWA7hOPgO92I]
+[B9i8-sqBsyuY#0] ^vilken<prn><rel><un><pl><nom>$ ^aktivitet<n><ut><pl><ind>$^.<sent>$
+[/B9i8-sqBsyuY]
+[M_hpqOV05M0j#0] ^mamma<n><ut><sg><ind><gen>$ ^telefon<n><ut><sg><ind>$^.<sent>$
+[/M_hpqOV05M0j]
+[dGFAyy7M9Fgp#0] ^Jag<prn><pers><p1><ut><sg><nom>$ ^se<vblex><pres><actv>$ ^bara<adv>$ ^min<det><pos><un><pl>$ ^vän<n><ut><pl><ind>$ ^virtuell<adj><sint><pst><nt><sg><ind>$^.<sent>$
+[/dGFAyy7M9Fgp]
+[uXuhSTHKMz88#0] ^någon<det><qnt><nt><sg>$ ^annan<det><dem><nt><sg><ind>$ ^land<n><nt><sg><ind>$ ^i<pr>$ ^värld<n><ut><sg><def>$^.<sent>$
+[/uXuhSTHKMz88]
