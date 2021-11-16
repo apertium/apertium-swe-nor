@@ -17,7 +17,7 @@ voice = (VD actv) pasv actv ;
 case = nom acc gen ;
 ! a_ for attribute:
 a_adj = sint ord pp pprs ;
-a_cmp = cmp ;
+a_cmp = cmp cmp-split ;
 a_det = dem rel qnt pos emph ;
 a_neg = neg ;
 a_comp = pst comp sup ;
@@ -32,6 +32,7 @@ w_bli = bli ;
 w_noun_use_masc_adj = anhängare användare arvinge befälhavare beskyddare bror chef domare forskare företrädare granne Gud gud gudom hövding invånare katolik kejsare konung krigare kung ledare länd makthavare man medarbetare muslim människa person plattform polischef profet religion representant rådgivare skarprättare släkting son spelare storhertig teoretiker tsar vårdare zoolog ämbetsman ärkebiskop överlevande
       ! vän ! seems like they use -a at least as often for this one?
       ;
+w_ogeller = og eller ;
 
 !!!!!!!!!!!!!!!!!!!!!!
 ! Tag Rewrite Rules: !
@@ -87,6 +88,7 @@ DP2:   _;                       ! issue 80-workaround
 
 N -> %n         { %1[lemcase=$lemcase] }
    | n.*.cmp %N { 1[lemcase=$lemcase] %2 }
+   | n.*.cmp-split [w_ogeller]@cnjcoo %N { 1[lemcase=$lemcase] _ 2 _ %3 }
    ;
 
 
@@ -150,7 +152,10 @@ detOfN: (always
 DP ->
      "en god venn ~> en god vänn"
       det %NP
-      { 1(detOfN)[gender=1.gender, gender_n=2.gender, number_n=2.number, lemcase=1.lemcase] _ 2 }
+      { 1(detOfN)[gender=1.gender, gender_n=2.gender, number_n=2.number, lemcase=1.lemcase]
+        _
+        2
+      }
 
     | "vennene mine ~> mina vänner"
       %NP det.pos
@@ -160,12 +165,18 @@ DP ->
       }
 
     | %det { %1 }
+
+    | %NP { %1 }
       ;
 
-! Workaround for issue 80, match DP followed by anything at all :-/
+! Workaround for https://github.com/apertium/apertium-recursive/issues/80
+! – match DP followed by … anything at all (why do we need this
+! do-nothing rule?)
 DP2 ->
-      DP A   { %1 _ 2 }
-    | DP ADV { %1 _ 2 };
+      "vennene mine virtuelt" DP A         { %1 _ 2 }
+    | "vennene hennes redde"  DP ADV       { %1 _ 2 }
+    | "et sekund eller to"    DP cnjcoo DP { %1 _ 2 _ 3 }
+    ;
 
 ! TODO: Do any tags need propagating here?
 ADV -> "ADV" %adv { %1 }
