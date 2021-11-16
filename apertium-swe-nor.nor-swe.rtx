@@ -20,6 +20,7 @@ a_det = dem rel qnt pos emph ;
 a_neg = neg ;
 a_comp = pst comp sup ;
 a_clb = clb ;
+mainpos = prn det adv adj n np cnjcoo cnjsub pr ij vbmod vbhaver vblex vbser ;
 
 ! Word sets:
 w_paux = bli være vara vara¹ ;
@@ -51,10 +52,15 @@ cnjcoo: _;
 part:   _;
 sent:   _.a_clb;
 
-det_withdef: _.a_det.gender.number.case.defnes;
-det_nodef:   _.a_det.gender.number.case;
-det: (if (1.a_det = dem)
-         1(det_withdef)
+det_nodef:    _.a_det.gender.number.case;
+det_finaldef: _.a_det.gender.number.case.defnes;
+det_initdef:  _.defnes.gender.number.case; ! samma<prn><def><un><pl><nom>
+det: (if (1.a_det/tl = dem)
+         1(det_finaldef)
+      el-if (1.mainpos/tl = prn and 1.a_det/tl = "")
+         1(det_initdef)
+      el-if (1.defnes/tl = ind and 1.a_det/tl = "")
+         1(det_initdef)
       else
          1(det_nodef)
      );
