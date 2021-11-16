@@ -27,6 +27,7 @@ mainpos = prn det adv adj n np cnjcoo cnjsub pr ij vbmod vbhaver vblex vbser ;
 ! Word sets:
 w_paux = bli være vara vara¹ ;
 w_bli = bli ;
+w_supnaux = ha være vara vara¹ ;
 
 ! nouns for which we use the 'm' form of adj's (tl/swe lemmas)
 w_noun_use_masc_adj = anhängare användare arvinge befälhavare beskyddare bror chef domare forskare företrädare granne Gud gud gudom hövding invånare katolik kejsare konung krigare kung ledare länd makthavare man medarbetare muslim människa person plattform polischef profet religion representant rådgivare skarprättare släkting son spelare storhertig teoretiker tsar vårdare zoolog ämbetsman ärkebiskop överlevande
@@ -203,6 +204,14 @@ VP ->
     | "er hardt rammet ~> drabbats hårt"
       %[w_paux]@vblex ADV vblex.pp
       { 3[voice = pasv] _ 2 }
+
+    | "er blitt smittet ~> har smittatsV"
+      %[w_supnaux]@vblex [w_bli]@vblex vblex.pp ! TODO: can I match both adj.pp and vblex.pp in one rule here?
+      { 1 _ *(vblex)[lemh=3.lemh, voice = pasv, tense = supn] }
+
+    | "er blitt smittet ~> har smittatsA"
+      %[w_supnaux]@vblex [w_bli]@vblex adj.pp   ! TODO: can I match both adj.pp and vblex.pp in one rule here?
+      { 1 _ *(vblex)[lemh=3.lemh, voice = pasv, tense = supn] }
 
     | "rm att"
       %vblex.*.pasv part ha@vblex vblex.pp
