@@ -753,8 +753,6 @@
 <rule weight="0.9"><match lemma="bind" tags="n.nt.*"><select lemma="band" tags="n.nt.*"/></match></rule><!-- 3743 -->
 <rule weight="0.9"><match lemma="biograf" tags="n.*"><select lemma="bio" tags="n.ut.*"/></match></rule><!-- 1440 -->
 <rule weight="0.9"><match lemma="bistand" tags="n.*"><select lemma="bistånd" tags="n.nt.*"/></match></rule><!-- 236 -->
-<rule weight="0.9"><match lemma="bite" tags="vblex.*"><select lemma="plocka" tags="vblex.*"/></match></rule><!-- 2432 -->
-<rule weight="0.9"><match lemma="bite" tags="adj.pp.*"><select lemma="plocka" tags="adj.pp.*"/></match></rule><!-- 2432 -->
 <rule weight="0.9"><match lemma="bit" tags="n.*"><select lemma="bit" tags="n.ut.*"/></match></rule><!-- 3590 -->
 <rule weight="0.9"><match lemma="bitter" tags="adj.*"><select lemma="bitter" tags="adj.*"/></match></rule><!-- 482 -->
 <rule weight="0.9"><match lemma="bitt" tags="n.nt.*"><select lemma="bit" tags="n.ut.*"/></match></rule><!-- 3590 -->
@@ -4804,6 +4802,9 @@
 <rule weight="0.9"><match lemma="århundre" tags="n.nt.*"><select lemma="århundrade" tags="n.nt.*"/></match></rule><!-- 971 -->
 <rule weight="0.9"><match lemma="årlig" tags="adj.*"><select lemma="årlig" tags="adj.*"/></match></rule><!-- 460 -->
   <!-- /frequency based rules  -->
+
+  <rule><match lemma="bite" tags="vblex.*"><select lemma="bite"/></match></rule>
+  <rule><match lemma="bite" tags="adj.pp.*"><select lemma="bite"/></match></rule>
 
   <rule><match lemma="fra" tags="pr"><select lemma="från" tags="pr"/></match></rule>
 
