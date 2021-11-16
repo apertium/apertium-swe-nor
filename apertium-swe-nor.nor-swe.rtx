@@ -75,10 +75,10 @@ A:     _.a_adj.a_comp.gender.number.defnes.a_cmp;
 NP:    _.gender.number.defnes;
 DP:    _.gender.number.defnes;
 PP:    _;
-VP:    _.tense.number.voice;
+VP:    _.tense.number.voice; ! TODO: Put gender/number on VP for pp-samsvar stuff?
 ADV:   _;
 SENT:  _;
-! TODO: Put gender/number on VP for pp-samsvar stuff?
+DP2:   _;                       ! issue 80-workaround
 
 
 !!!!!!!!!!!!!!!!!!!!
@@ -159,27 +159,24 @@ DP ->
         1[defnes=ind, lemcase=2.lemcase]
       }
 
-    ! Shouldn't this rule be unnecessary? https://github.com/apertium/apertium-recursive/issues/80
-    | "vennene mine virtuelt ~> mina vänner virtuelt"
-      %NP det.pos A
-      { 2(detOfN)[gender=2.gender, gender_n=1.gender, number_n=1.number, lemcase=1.lemcase]
-        _
-        1[defnes=ind, lemcase=2.lemcase]
-        _
-        3
-      }
-
     | %det { %1 }
       ;
+
+! Workaround for issue 80, match DP followed by anything at all :-/
+DP2 ->
+      DP A   { %1 _ 2 }
+    | DP ADV { %1 _ 2 };
 
 ! TODO: Do any tags need propagating here?
 ADV -> "ADV" %adv { %1 }
     | "ADV.nt" %A.*.nt { %1 }
+    | det.dem år@N { 1 _ %2 }
     ;
 
 VP ->
-      2: %vblex.imp { 1[voice=""] }
-    | %vblex { 1 }
+      3: %vblex.imp { 1[voice=""] }
+    |    %vblex { 1 }
+
     !   %vblex DP { 1[tense=$tense, person=$person, number=$number] _ 2 }
     ! | adv %VP (if (1.lem/sl = there)
     !               { %2 }
