@@ -4576,4 +4576,5 @@
   <rule><match lemma="vêr" tags="n.*"><select lemma="väder"/></match></rule>
   <rule><match lemma="match" tags="n.*"><select lemma="match"/></match></rule>
   <rule><match lemma="sjølvsagt" tags="adv"><select lemma="självklart"/></match></rule>
+  <rule><match lemma="dyrlege" tags="n.*"><select lemma="djurläkar"/></match></rule>
 </rules>
