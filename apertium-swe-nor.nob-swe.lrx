@@ -193,7 +193,17 @@
   <rule><match lemma="denne" tags="det.*"><select lemma="denna"/></match></rule>
   <rule weight="2.0" c="denne gutten → den här killen">
     <match lemma="denne" tags="det.dem.*.sg"><select lemma="den# här"/></match>
+    <repeat from="0" upto="1"><match tags="adj.*"/></repeat>
     <match tags="n.*.sg.def"/>
+  </rule>
+  <rule weight="2.0" c="[lurt på] dette lenge → [funderat på] det här länge">
+    <match lemma="denne" tags="det.dem.*.sg"><select lemma="den# här"/></match>
+    <repeat from="0" upto="2"><or><match tags="adv"/><match tags="adv.*"/></or></repeat>
+    <or>
+      <match lemma="länge"/>    <!-- lurt på dette veldig lenge -->
+      <match lemma=":"/>        <!-- tenk på dette: -->
+      <match lemma="være"/>     <!-- Men dette er spennende. -->
+    </or>
   </rule>
 
   <rule><match lemma="distanse" tags="n.*"><select lemma="avstånd"/></match></rule>
@@ -2683,8 +2693,6 @@
 <rule weight="0.9"><match lemma="lukke" tags="vblex.*"><select lemma="stänga" tags="vblex.*"/></match></rule><!-- 7377 -->
 <rule weight="0.9"><match lemma="lukke" tags="adj.pp.*"><select lemma="stänga" tags="adj.pp.*"/></match></rule><!-- 7377 -->
 <rule weight="0.9"><match lemma="lukt" tags="n.*"><select lemma="lukt" tags="n.ut.*"/></match></rule><!-- 1325 -->
-<rule weight="0.9"><match lemma="lure" tags="vblex.*"><select lemma="lura" tags="vblex.*"/></match></rule><!-- 4399 -->
-<rule weight="0.9"><match lemma="lure" tags="adj.pp.*"><select lemma="lura" tags="adj.pp.*"/></match></rule><!-- 4399 -->
 <rule weight="0.9"><match lemma="lur" tags="adj.*"><select lemma="lömsk" tags="adj.*"/></match></rule><!-- 167 -->
 <rule weight="0.9"><match lemma="lurveleven" tags="n.nt.*"><select lemma="spektakel" tags="n.nt.*"/></match></rule><!-- 87 -->
 <rule weight="0.9"><match lemma="lurv" tags="n.*"><select lemma="tuss" tags="n.ut.*"/></match></rule><!-- 15 -->
@@ -4814,6 +4822,17 @@
 <rule weight="0.9"><match lemma="århundre" tags="n.nt.*"><select lemma="århundrade" tags="n.nt.*"/></match></rule><!-- 971 -->
 <rule weight="0.9"><match lemma="årlig" tags="adj.*"><select lemma="årlig" tags="adj.*"/></match></rule><!-- 460 -->
   <!-- /frequency based rules  -->
+
+  <rule><match lemma="lure" tags="vblex.*"><select lemma="lura" tags="vblex.*"/></match></rule>
+  <rule><match lemma="lure" tags="adj.pp.*"><select lemma="lura" tags="adj.pp.*"/></match></rule>
+  <rule weight="2.0" c="lurte på → funderade på">
+    <or>
+      <match lemma="lure" tags="vblex.*"><select lemma="lura" tags="vblex.*"/></match>
+      <match lemma="lure" tags="adj.pp.*"><select lemma="lura" tags="adj.pp.*"/></match>
+    </or>
+    <repeat from="0" upto="2"><match/></repeat>
+    <match lemma="på"/>
+  </rule>
 
   <rule><match lemma="bite" tags="vblex.*"><select lemma="bite"/></match></rule>
   <rule><match lemma="bite" tags="adj.pp.*"><select lemma="bite"/></match></rule>
