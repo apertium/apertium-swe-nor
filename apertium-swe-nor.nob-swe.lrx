@@ -6465,7 +6465,7 @@
 <rule weight="0.95"><match lemma="advare" tags="vblex.*"><select lemma="varna"/></match></rule>
 <rule weight="0.95"><match lemma="adelsmann" tags="n.m.*"><select lemma="adelsman"/></match></rule>
 
-  <rule><match lemma="finnes" tags="vblex.*"><select lemma="finna" tags="vblex.*.pasv"/></match></rule>
+  <rule><match lemma="finnes" tags="vblex.*"><select lemma="finnas"/></match></rule>
 
   <rule><match lemma="dato" tags="n.*"><select lemma="datum"/></match></rule>
   <rule weight="2.0" c="dags dato">
