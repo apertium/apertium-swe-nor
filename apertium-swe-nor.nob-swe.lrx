@@ -196,6 +196,11 @@
     <repeat from="0" upto="1"><match tags="adj.*"/></repeat>
     <match tags="n.*.sg.def"/>
   </rule>
+  <rule weight="2.0" c="disse dyra → de här djuren">
+    <match lemma="denne" tags="det.dem.*.pl"><select lemma="den# här"/></match>
+    <repeat from="0" upto="1"><match tags="adj.*"/></repeat>
+    <match tags="n.*.pl.def"/>
+  </rule>
   <rule weight="2.0" c="[lurt på] dette lenge → [funderat på] det här länge">
     <match lemma="denne" tags="det.dem.*.sg"><select lemma="den# här"/></match>
     <repeat from="0" upto="2"><or><match tags="adv"/><match tags="adv.*"/></or></repeat>
