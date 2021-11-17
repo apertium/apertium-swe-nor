@@ -214,6 +214,14 @@ VP ->
       %[w_bli]@vblex NP [w_adj2pasv]@adj.pp
       { *(vblex)[lemh=3.lemh, voice = pasv, tense = 1.tense] _ 2 }
 
+    | "ble delt ~> deladesV"
+      %[w_bli]@vblex vblex.pp
+      { 2[voice = pasv, tense = 1.tense] }
+
+    | "ble delt ~> deladesA"
+      %[w_bli]@vblex [w_adj2pasv]@adj.pp
+      { *(vblex)[lemh=2.lemh, voice = pasv, tense = 1.tense] }
+
     | "er hardt rammet ~> drabbats hårt"
       %[w_paux]@vblex ADV vblex.pp
       { 3[voice = pasv] _ 2 }
