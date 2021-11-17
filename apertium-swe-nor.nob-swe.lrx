@@ -2769,8 +2769,6 @@
 <rule weight="0.9"><match lemma="maksle" tags="vblex.*"><select lemma="sammansätta" tags="vblex.*"/></match></rule><!-- 123 -->
 <rule weight="0.9"><match lemma="maksle" tags="adj.pp.*"><select lemma="sammansätta" tags="adj.pp.*"/></match></rule><!-- 123 -->
 <rule weight="0.9"><match lemma="makt" tags="n.*"><select lemma="makt" tags="n.ut.*"/></match></rule><!-- 5201 -->
-<rule weight="0.9"><match lemma="male" tags="vblex.*"><select lemma="måla" tags="vblex.*"/></match></rule><!-- 2230 -->
-<rule weight="0.9"><match lemma="male" tags="adj.pp.*"><select lemma="måla" tags="adj.pp.*"/></match></rule><!-- 2230 -->
 <rule weight="0.9"><match lemma="mal" tags="n.*"><select lemma="mall" tags="n.ut.*"/></match></rule><!-- 109 -->
 <rule weight="0.9"><match lemma="mamma" tags="n.*"><select lemma="mamma" tags="n.ut.*"/></match></rule><!-- 25829 -->
 <rule weight="0.9"><match lemma="mandarin" tags="n.*"><select lemma="mandarin" tags="n.ut.*"/></match></rule><!-- 54 -->
@@ -4823,6 +4821,11 @@
 <rule weight="0.9"><match lemma="årlig" tags="adj.*"><select lemma="årlig" tags="adj.*"/></match></rule><!-- 460 -->
   <!-- /frequency based rules  -->
 
+  <rule><match lemma="male" tags="vblex.*"><select lemma="måla"/></match></rule>
+  <rule><match lemma="male" tags="adj.pp.*"><select lemma="måla"/></match></rule>
+  <rule><match lemma="måle" tags="vblex.*"><select lemma="mäta" tags="vblex.*"/></match></rule>
+  <rule><match lemma="måle" tags="adj.pp.*"><select lemma="mäta" tags="adj.pp.*"/></match></rule>
+
   <rule><match lemma="irritere" tags="vblex.*"><select lemma="irritera" tags="vblex.*"/></match></rule><!-- 953 -->
   <rule><match lemma="irritere" tags="adj.pp.*"><select lemma="irritera" tags="adj.pp.*"/></match></rule><!-- 953 -->
 
@@ -6212,7 +6215,6 @@
 <rule weight="0.95"><match lemma="onkel" tags="n.m.*"><select lemma="farbror"/></match></rule>
 <rule weight="0.95"><match lemma="øke" tags="adj.*"><select lemma="öka"/></match></rule>
 <rule weight="0.95"><match lemma="nederlandsk" tags="adj.*"><select lemma="nederländsk"/></match></rule>
-<rule weight="0.95"><match lemma="male" tags="vblex.*"><select lemma="måla"/></match></rule>
 <rule weight="0.95"><match lemma="lysstyrke" tags="n.m.*"><select lemma="ljusstyrka"/></match></rule>
 <rule weight="0.95"><match lemma="lykkelig" tags="adj.*"><select lemma="lycklig"/></match></rule>
 <rule weight="0.95"><match lemma="levende" tags="adj.*"><select lemma="leva"/></match></rule>

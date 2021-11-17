@@ -2595,8 +2595,6 @@
 <rule weight="0.9"><match lemma="møte" tags="vblex.*"><select lemma="möta" tags="vblex.*"/></match></rule><!-- 7355 -->
 <rule weight="0.9"><match lemma="møte" tags="adj.pp.*"><select lemma="möta" tags="adj.pp.*"/></match></rule><!-- 7355 -->
 <rule weight="0.9"><match lemma="måke" tags="n.f.*"><select lemma="trut" tags="n.ut.*"/></match></rule><!-- 321 -->
-<rule weight="0.9"><match lemma="måle" tags="vblex.*"><select lemma="måla" tags="vblex.*"/></match></rule><!-- 2230 -->
-<rule weight="0.9"><match lemma="måle" tags="adj.pp.*"><select lemma="måla" tags="adj.pp.*"/></match></rule><!-- 2230 -->
 <rule weight="0.9"><match lemma="måling" tags="n.f.*"><select lemma="mätning" tags="n.ut.*"/></match></rule><!-- 230 -->
 <rule weight="0.9"><match lemma="mål" tags="n.nt.*"><select lemma="mål" tags="n.nt.*"/></match></rule><!-- 6203 -->
 <rule weight="0.9"><match lemma="måse" tags="n.m.*"><select lemma="trut" tags="n.ut.*"/></match></rule><!-- 321 -->
@@ -4561,6 +4559,9 @@
 <rule weight="0.9"><match lemma="åtvare" tags="vblex.*"><select lemma="varna" tags="vblex.*"/></match></rule><!-- 2509 -->
 <rule weight="0.9"><match lemma="åtvare" tags="adj.pp.*"><select lemma="varna" tags="adj.pp.*"/></match></rule><!-- 2509 -->
   <!-- /frequency based rules  -->
+
+  <rule><match lemma="måle" tags="vblex.*"><select lemma="mäta" tags="vblex.*"/></match></rule>
+  <rule><match lemma="måle" tags="adj.pp.*"><select lemma="mäta" tags="adj.pp.*"/></match></rule>
 
   <rule><match lemma="irritere" tags="vblex.*"><select lemma="irritera" tags="vblex.*"/></match></rule><!-- 953 -->
   <rule><match lemma="irritere" tags="adj.pp.*"><select lemma="irritera" tags="adj.pp.*"/></match></rule><!-- 953 -->
