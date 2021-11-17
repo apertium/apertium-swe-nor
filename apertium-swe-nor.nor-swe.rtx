@@ -149,6 +149,8 @@ detOfN: (always
                         ),
                 number=1.number_n]
         ) ;
+! TODO: when https://github.com/apertium/apertium-recursive/issues/81
+! is solved, use that instead of gender_n hack
 
 DP ->
      "en god venn ~> en god vänn"
