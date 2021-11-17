@@ -6523,5 +6523,7 @@
 
   <rule><match lemma="selvsagt" tags="adv"><select lemma="självklart"/></match></rule>
   <rule><match lemma="dyrlege" tags="n.*"><select lemma="djurläkar"/></match></rule>
+
+  <rule><match lemma="hvis" tags="cnjsub"><select lemma="om"/></match></rule>
 </rules>
 </lrx>

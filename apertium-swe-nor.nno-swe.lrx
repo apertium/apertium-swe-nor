@@ -4566,6 +4566,8 @@
 <rule weight="0.9"><match lemma="åt" tags="pr"><select lemma="till" tags="pr"/></match></rule><!-- 319127 -->
 <rule weight="0.9"><match lemma="åtvare" tags="vblex.*"><select lemma="varna" tags="vblex.*"/></match></rule><!-- 2509 -->
 <rule weight="0.9"><match lemma="åtvare" tags="adj.pp.*"><select lemma="varna" tags="adj.pp.*"/></match></rule><!-- 2509 -->
+  <!-- /frequency based rules  -->
+
   <rule><match lemma="køyretur" tags="n.*"><select lemma="åktur"/></match></rule>
   <rule><match lemma="internasjonal" tags="adj.*"><select lemma="internationell"/></match></rule>
   <rule><match lemma="ustabil" tags="adj.*"><select lemma="instabil"/></match></rule>
@@ -4577,4 +4579,5 @@
   <rule><match lemma="match" tags="n.*"><select lemma="match"/></match></rule>
   <rule><match lemma="sjølvsagt" tags="adv"><select lemma="självklart"/></match></rule>
   <rule><match lemma="dyrlege" tags="n.*"><select lemma="djurläkar"/></match></rule>
+  <rule><match lemma="viss" tags="cnjsub.*"><select lemma="ifall"/></match></rule>
 </rules>
