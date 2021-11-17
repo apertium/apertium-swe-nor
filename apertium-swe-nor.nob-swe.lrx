@@ -4504,8 +4504,6 @@
 <rule weight="0.9"><match lemma="understreke" tags="vblex.*"><select lemma="betona" tags="vblex.*"/></match></rule><!-- 305 -->
 <rule weight="0.9"><match lemma="understreke" tags="adj.pp.*"><select lemma="betona" tags="adj.pp.*"/></match></rule><!-- 305 -->
 <rule weight="0.9"><match lemma="undersøkelse" tags="n.*"><select lemma="utredning" tags="n.ut.*"/></match></rule><!-- 1905 -->
-<rule weight="0.9"><match lemma="undersøke" tags="vblex.*"><select lemma="kolla" tags="vblex.*"/></match></rule><!-- 12397 -->
-<rule weight="0.9"><match lemma="undersøke" tags="adj.pp.*"><select lemma="kolla" tags="adj.pp.*"/></match></rule><!-- 12397 -->
 <rule weight="0.9"><match lemma="undertrykke" tags="vblex.*"><select lemma="förtrycka" tags="vblex.*"/></match></rule><!-- 148 -->
 <rule weight="0.9"><match lemma="undertrykke" tags="adj.pp.*"><select lemma="förtrycka" tags="adj.pp.*"/></match></rule><!-- 148 -->
 <rule weight="0.9"><match lemma="undervurdere" tags="vblex.*"><select lemma="underskatta" tags="vblex.*"/></match></rule><!-- 336 -->
@@ -4826,6 +4824,9 @@
 <rule weight="0.9"><match lemma="århundre" tags="n.nt.*"><select lemma="århundrade" tags="n.nt.*"/></match></rule><!-- 971 -->
 <rule weight="0.9"><match lemma="årlig" tags="adj.*"><select lemma="årlig" tags="adj.*"/></match></rule><!-- 460 -->
   <!-- /frequency based rules  -->
+
+  <rule><match lemma="undersøke" tags="vblex.*"><select lemma="undersöka" tags="vblex.*"/></match></rule>
+  <rule><match lemma="undersøke" tags="adj.pp.*"><select lemma="undersöka" tags="adj.pp.*"/></match></rule>
 
   <rule><match lemma="vond" tags="adj.*"><select lemma="dålig" tags="adj.*"/></match></rule>
   <rule weight="2.0">

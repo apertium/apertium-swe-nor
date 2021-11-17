@@ -4237,8 +4237,6 @@
 <rule weight="0.9"><match lemma="undersøke" tags="vblex.*"><select lemma="kolla" tags="vblex.*"/></match></rule><!-- 12397 -->
 <rule weight="0.9"><match lemma="undersøke" tags="adj.pp.*"><select lemma="kolla" tags="adj.pp.*"/></match></rule><!-- 12397 -->
 <rule weight="0.9"><match lemma="undersøking" tags="n.f.*"><select lemma="utredning" tags="n.ut.*"/></match></rule><!-- 1905 -->
-<rule weight="0.9"><match lemma="undersøkje" tags="vblex.*"><select lemma="granska" tags="vblex.*"/></match></rule><!-- 503 -->
-<rule weight="0.9"><match lemma="undersøkje" tags="adj.pp.*"><select lemma="granska" tags="adj.pp.*"/></match></rule><!-- 503 -->
 <rule weight="0.9"><match lemma="undertrykke" tags="vblex.*"><select lemma="förtrycka" tags="vblex.*"/></match></rule><!-- 148 -->
 <rule weight="0.9"><match lemma="undertrykke" tags="adj.pp.*"><select lemma="förtrycka" tags="adj.pp.*"/></match></rule><!-- 148 -->
 <rule weight="0.9"><match lemma="undertrykkje" tags="vblex.*"><select lemma="förtrycka" tags="vblex.*"/></match></rule><!-- 148 -->
@@ -4565,6 +4563,9 @@
 <rule weight="0.9"><match lemma="åtvare" tags="vblex.*"><select lemma="varna" tags="vblex.*"/></match></rule><!-- 2509 -->
 <rule weight="0.9"><match lemma="åtvare" tags="adj.pp.*"><select lemma="varna" tags="adj.pp.*"/></match></rule><!-- 2509 -->
   <!-- /frequency based rules  -->
+
+  <rule><match lemma="undersøke" tags="vblex.*"><select lemma="undersöka" tags="vblex.*"/></match></rule>
+  <rule><match lemma="undersøke" tags="adj.pp.*"><select lemma="undersöka" tags="adj.pp.*"/></match></rule>
 
   <rule weight="0.9"><match lemma="vond" tags="adj.*"><select lemma="ond" tags="adj.*"/></match></rule><!-- 15290 -->
   <rule><match lemma="vond" tags="adj.*"><select lemma="dålig" tags="adj.*"/></match></rule>

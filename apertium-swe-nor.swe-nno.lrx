@@ -2548,8 +2548,6 @@
 <rule weight="0.9"><match lemma="stilla" tags="vblex.*"><select lemma="stille" tags="vblex.*"/></match></rule><!-- 1862 -->
 <rule weight="0.9"><match lemma="stilla" tags="adj.pp.*"><select lemma="stille" tags="adj.pp.*"/></match></rule><!-- 1862 -->
 <rule weight="0.9"><match lemma="stipendiat" tags="n.ut.*"><select lemma="stipend" tags="n.nt.*"/></match></rule><!-- 322 -->
-<rule weight="0.9"><match lemma="stjäla" tags="vblex.*"><select lemma="orge" tags="vblex.*"/></match></rule><!-- 4390 -->
-<rule weight="0.9"><match lemma="stjäla" tags="adj.pp.*"><select lemma="orge" tags="adj.pp.*"/></match></rule><!-- 4390 -->
 <rule weight="0.9"><match lemma="stjälpa" tags="vblex.*"><select lemma="velte" tags="vblex.*"/></match></rule><!-- 1134 -->
 <rule weight="0.9"><match lemma="stjälpa" tags="adj.pp.*"><select lemma="velte" tags="adj.pp.*"/></match></rule><!-- 1134 -->
 <rule weight="0.9"><match lemma="stod" tags="n.ut.*"><select lemma="statue" tags="n.m.*"/></match></rule><!-- 685 -->
@@ -3186,6 +3184,10 @@
 <rule weight="0.9"><match lemma="åtskillnad" tags="n.ut.*"><select lemma="skilnad" tags="n.m.*"/></match></rule><!-- 1249 -->
 <rule weight="0.9"><match lemma="åt" tags="pr"><select lemma="til" tags="pr"/></match></rule><!-- 323347 -->
 <rule weight="0.9"><match lemma="åverkan" tags="n.ut.*"><select lemma="skade" tags="n.m.*"/></match></rule><!-- 1216 -->
+  <!-- /frequency-based rules -->
+
+  <rule><match lemma="stjäla" tags="vblex.*"><select lemma="stele" tags="vblex.*"/></match></rule><!-- 4390 -->
+  <rule><match lemma="stjäla" tags="adj.pp.*"><select lemma="stele" tags="adj.pp.*"/></match></rule><!-- 4390 -->
 
   <rule><match lemma="kors" tags="n.*"><select lemma="kross"/></match></rule>
 
