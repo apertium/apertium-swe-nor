@@ -2109,8 +2109,6 @@
 <rule weight="0.9"><match lemma="irre" tags="vblex.*"><select lemma="irra" tags="vblex.*"/></match></rule><!-- 108 -->
 <rule weight="0.9"><match lemma="irre" tags="adj.pp.*"><select lemma="irra" tags="adj.pp.*"/></match></rule><!-- 108 -->
 <rule weight="0.9"><match lemma="irritasjon" tags="n.*"><select lemma="irriterande" tags="n.nt.*"/></match></rule><!-- 423 -->
-<rule weight="0.9"><match lemma="irritere" tags="vblex.*"><select lemma="reta" tags="vblex.*"/></match></rule><!-- 953 -->
-<rule weight="0.9"><match lemma="irritere" tags="adj.pp.*"><select lemma="reta" tags="adj.pp.*"/></match></rule><!-- 953 -->
 <rule weight="0.9"><match lemma="ising" tags="n.*"><select lemma="sandskädda" tags="n.ut.*"/></match></rule><!-- 1 -->
 <rule weight="0.9"><match lemma="iskald" tags="adj.*"><select lemma="iskall" tags="adj.*"/></match></rule><!-- 431 -->
 <rule weight="0.9"><match lemma="iskrem" tags="n.*"><select lemma="glass" tags="n.ut.*"/></match></rule><!-- 3194 -->
@@ -4824,6 +4822,9 @@
 <rule weight="0.9"><match lemma="århundre" tags="n.nt.*"><select lemma="århundrade" tags="n.nt.*"/></match></rule><!-- 971 -->
 <rule weight="0.9"><match lemma="årlig" tags="adj.*"><select lemma="årlig" tags="adj.*"/></match></rule><!-- 460 -->
   <!-- /frequency based rules  -->
+
+  <rule><match lemma="irritere" tags="vblex.*"><select lemma="irritera" tags="vblex.*"/></match></rule><!-- 953 -->
+  <rule><match lemma="irritere" tags="adj.pp.*"><select lemma="irritera" tags="adj.pp.*"/></match></rule><!-- 953 -->
 
   <rule><match lemma="undersøke" tags="vblex.*"><select lemma="undersöka" tags="vblex.*"/></match></rule>
   <rule><match lemma="undersøke" tags="adj.pp.*"><select lemma="undersöka" tags="adj.pp.*"/></match></rule>
