@@ -4417,7 +4417,6 @@
 <rule weight="0.9"><match lemma="vekt" tags="n.f.*"><select lemma="våg" tags="n.ut.*"/></match></rule><!-- 1733 -->
 <rule weight="0.9"><match lemma="vekttap" tags="n.nt.*"><select lemma="viktminskning" tags="n.ut.*"/></match></rule><!-- 11 -->
 <rule weight="0.9"><match lemma="veldig" tags="adj.*"><select lemma="rätt" tags="adj.*"/></match></rule><!-- 26811 -->
-<rule weight="0.9"><match lemma="veldig" tags="adv"><select lemma="mycket" tags="adv"/></match></rule><!-- 80279 -->
 <rule weight="0.9"><match lemma="veljar" tags="n.m.*"><select lemma="väljare" tags="n.ut.*"/></match></rule><!-- 289 -->
 <rule weight="0.9"><match lemma="velje" tags="vblex.*"><select lemma="välja" tags="vblex.*"/></match></rule><!-- 11820 -->
 <rule weight="0.9"><match lemma="velje" tags="adj.pp.*"><select lemma="välja" tags="adj.pp.*"/></match></rule><!-- 11820 -->
@@ -4568,6 +4567,7 @@
 <rule weight="0.9"><match lemma="åtvare" tags="adj.pp.*"><select lemma="varna" tags="adj.pp.*"/></match></rule><!-- 2509 -->
   <!-- /frequency based rules  -->
 
+  <rule><match lemma="veldig" tags="adv"><select lemma="väldigt" tags="adv"/></match></rule>
   <rule><match lemma="køyretur" tags="n.*"><select lemma="åktur"/></match></rule>
   <rule><match lemma="internasjonal" tags="adj.*"><select lemma="internationell"/></match></rule>
   <rule><match lemma="ustabil" tags="adj.*"><select lemma="instabil"/></match></rule>

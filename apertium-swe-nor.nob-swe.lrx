@@ -291,7 +291,8 @@
 
 
   <rule><match lemma="veldig" tags="adj.*"><select lemma="väldig" tags="adj.*"/></match></rule>
-  <rule><match lemma="veldig" tags="adv"><select lemma="mycket" tags="adv"/></match></rule>
+  <!-- <rule><match lemma="veldig" tags="adv"><select lemma="mycket" tags="adv.pst"/></match></rule> -->
+  <rule><match lemma="veldig" tags="adv"><select lemma="väldigt" tags="adv"/></match></rule>
 
   <rule><match lemma="ting" tags="n.m.*"><select lemma="sak" tags="n.ut.*"/></match></rule><!-- 41629 -->
   <rule><match lemma="ting" tags="n.nt.*"><select lemma="ting" tags="n.ut.*"/></match></rule><!-- 7541 -->
