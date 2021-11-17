@@ -212,7 +212,7 @@ VP ->
 
     | "ble landet delt ~> delades landetA"
       %[w_bli]@vblex NP [w_adj2pasv]@adj.pp
-      { *(vblex)[lemh=3.lemh, voice = pasv, tense = supn] _ 2 }
+      { *(vblex)[lemh=3.lemh, voice = pasv, tense = 1.tense] _ 2 }
 
     | "er hardt rammet ~> drabbats hårt"
       %[w_paux]@vblex ADV vblex.pp
