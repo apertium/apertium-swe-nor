@@ -214,6 +214,14 @@ VP ->
       %[w_bli]@vblex NP [w_adj2pasv]@adj.pp
       { *(vblex)[lemh=3.lemh, voice = pasv, tense = 1.tense] _ 2 }
 
+    | "ble senere delt ~> delades senareV"
+      %[w_bli]@vblex ADV vblex.pp
+      { 3[voice = pasv, tense = 1.tense] _ 2 }
+
+    | "ble senere delt ~> delades senareA"
+      %[w_bli]@vblex ADV [w_adj2pasv]@adj.pp
+      { *(vblex)[lemh=3.lemh, voice = pasv, tense = 1.tense] _ 2 }
+
     | "ble delt ~> deladesV"
       %[w_bli]@vblex vblex.pp
       { 2[voice = pasv, tense = 1.tense] }
