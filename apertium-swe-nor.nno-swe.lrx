@@ -4491,7 +4491,6 @@
 <rule weight="0.9"><match lemma="vitskap" tags="n.m.*"><select lemma="vetenskap" tags="n.ut.*"/></match></rule><!-- 1559 -->
 <rule weight="0.9"><match lemma="vits" tags="n.m.*"><select lemma="skämt" tags="n.nt.*"/></match></rule><!-- 2271 -->
 <rule weight="0.9"><match lemma="voll" tags="n.m.*"><select lemma="våld" tags="n.nt.*"/></match></rule><!-- 1902 -->
-<rule weight="0.9"><match lemma="vond" tags="adj.*"><select lemma="ond" tags="adj.*"/></match></rule><!-- 15290 -->
 <rule weight="0.9"><match lemma="vonleg" tags="adv"><select lemma="förhoppningsvis" tags="adv"/></match></rule><!-- 208 -->
 <rule weight="0.9"><match lemma="von" tags="n.f.*"><select lemma="hopp" tags="n.nt.*"/></match></rule><!-- 2851 -->
 <rule weight="0.9"><match lemma="vrake" tags="vblex.*"><select lemma="vräka" tags="vblex.*"/></match></rule><!-- 259 -->
@@ -4566,6 +4565,14 @@
 <rule weight="0.9"><match lemma="åtvare" tags="vblex.*"><select lemma="varna" tags="vblex.*"/></match></rule><!-- 2509 -->
 <rule weight="0.9"><match lemma="åtvare" tags="adj.pp.*"><select lemma="varna" tags="adj.pp.*"/></match></rule><!-- 2509 -->
   <!-- /frequency based rules  -->
+
+  <rule weight="0.9"><match lemma="vond" tags="adj.*"><select lemma="ond" tags="adj.*"/></match></rule><!-- 15290 -->
+  <rule><match lemma="vond" tags="adj.*"><select lemma="dålig" tags="adj.*"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="vond" tags="adj.*"><select lemma="smärtsam" tags="adj.*"/></match>
+    <match lemma="syn"/>
+  </rule>
+
 
   <rule><match lemma="veldig" tags="adv"><select lemma="väldigt" tags="adv"/></match></rule>
   <rule><match lemma="køyretur" tags="n.*"><select lemma="åktur"/></match></rule>

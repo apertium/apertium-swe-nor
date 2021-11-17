@@ -4752,7 +4752,6 @@
 <rule weight="0.9"><match lemma="vokse" tags="adj.pp.*"><select lemma="växa" tags="adj.pp.*"/></match></rule><!-- 8564 -->
 <rule weight="0.9"><match lemma="vold" tags="n.*"><select lemma="våld" tags="n.nt.*"/></match></rule><!-- 1902 -->
 <rule weight="0.9"><match lemma="voll" tags="n.*"><select lemma="våld" tags="n.nt.*"/></match></rule><!-- 1902 -->
-<rule weight="0.9"><match lemma="vond" tags="adj.*"><select lemma="dålig" tags="adj.*"/></match></rule><!-- 11840 -->
 <rule weight="0.9"><match lemma="vonlig" tags="adv"><select lemma="förhoppningsvis" tags="adv"/></match></rule><!-- 208 -->
 <rule weight="0.9"><match lemma="vrake" tags="vblex.*"><select lemma="vräka" tags="vblex.*"/></match></rule><!-- 259 -->
 <rule weight="0.9"><match lemma="vrake" tags="adj.pp.*"><select lemma="vräka" tags="adj.pp.*"/></match></rule><!-- 259 -->
@@ -4822,6 +4821,12 @@
 <rule weight="0.9"><match lemma="århundre" tags="n.nt.*"><select lemma="århundrade" tags="n.nt.*"/></match></rule><!-- 971 -->
 <rule weight="0.9"><match lemma="årlig" tags="adj.*"><select lemma="årlig" tags="adj.*"/></match></rule><!-- 460 -->
   <!-- /frequency based rules  -->
+
+  <rule><match lemma="vond" tags="adj.*"><select lemma="dålig" tags="adj.*"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="vond" tags="adj.*"><select lemma="smärtsam" tags="adj.*"/></match>
+    <match lemma="syn"/>
+  </rule>
 
   <rule><match lemma="lure" tags="vblex.*"><select lemma="lura" tags="vblex.*"/></match></rule>
   <rule><match lemma="lure" tags="adj.pp.*"><select lemma="lura" tags="adj.pp.*"/></match></rule>
