@@ -6584,5 +6584,7 @@
 
   <rule><match lemma="av og til" tags="adv"><select lemma="av och till"/></match></rule>
 
+  <rule><match lemma="klut" tags="n.*"><select lemma="duk"/></match></rule>
+
 </rules>
 </lrx>
