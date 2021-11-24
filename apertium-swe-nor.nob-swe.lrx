@@ -346,7 +346,8 @@
   <rule><match lemma="men" tags="cnjcoo.clb"><select lemma="men" tags="cnjcoo"/></match></rule>
   <rule><match lemma="men" tags="cnjcoo"><select lemma="men" tags="cnjcoo"/></match></rule>
 
-  <rule><match lemma="slippe" tags="vblex.*"><select lemma="släppa"/></match></rule>
+  <rule><match lemma="slippe"><select lemma="släppa"/></match></rule>
+  <rule><match lemma="sleppe"><select lemma="släppa"/></match></rule>
   <rule weight="2.0" c="Da slipper jeg å → Då slipper jag att">
     <match lemma="slippe" tags="vblex.*"><select lemma="slippa"/></match>
     <repeat from="0" upto="1"><match/></repeat>
@@ -355,6 +356,7 @@
       <match lemma="fri"/>
       <match lemma="å"/>
       <match lemma="vel"/>
+      <match tags="vblex.inf"/>
     </or>
   </rule>
 
@@ -3838,8 +3840,6 @@
 <rule weight="0.9"><match lemma="slekt" tags="n.*"><select lemma="släkt" tags="n.ut.*"/></match></rule><!-- 2139 -->
 <rule weight="0.9"><match lemma="slenge" tags="vblex.*"><select lemma="slänga" tags="vblex.*"/></match></rule><!-- 2337 -->
 <rule weight="0.9"><match lemma="slenge" tags="adj.pp.*"><select lemma="slänga" tags="adj.pp.*"/></match></rule><!-- 2337 -->
-<rule weight="0.9"><match lemma="sleppe" tags="vblex.*"><select lemma="släppa" tags="vblex.*"/></match></rule><!-- 9200 -->
-<rule weight="0.9"><match lemma="sleppe" tags="adj.pp.*"><select lemma="släppa" tags="adj.pp.*"/></match></rule><!-- 9200 -->
 <rule weight="0.9"><match lemma="slette" tags="n.*"><select lemma="slätt" tags="n.ut.*"/></match></rule><!-- 255 -->
 <rule weight="0.9"><match lemma="slingre" tags="vblex.*"><select lemma="slingra" tags="vblex.*"/></match></rule><!-- 204 -->
 <rule weight="0.9"><match lemma="slingre" tags="adj.pp.*"><select lemma="slingra" tags="adj.pp.*"/></match></rule><!-- 204 -->
@@ -6165,7 +6165,6 @@
 <rule weight="0.95"><match lemma="synlig" tags="adj.*"><select lemma="synlig"/></match></rule>
 <rule weight="0.95"><match lemma="strekke" tags="vblex.*"><select lemma="sträcka"/></match></rule>
 <rule weight="0.95"><match lemma="straks" tags="adv>"><select lemma="strax"/></match></rule>
-<rule weight="0.95"><match lemma="sleppe" tags="vblex.*"><select lemma="släppa"/></match></rule>
 <rule weight="0.95"><match lemma="skjønnhet" tags="n.m.*"><select lemma="skönhet"/></match></rule>
 <rule weight="0.95"><match lemma="sending" tags="n.m.*"><select lemma="sändning"/></match></rule>
 <rule weight="0.95"><match lemma="profesjonell" tags="adj.*"><select lemma="professionell"/></match></rule>
@@ -6332,7 +6331,6 @@
 <rule weight="0.95"><match lemma="stridsvogn" tags="n.m.*"><select lemma="stridsvagn"/></match></rule>
 <rule weight="0.95"><match lemma="stråling" tags="n.f.*"><select lemma="strålning"/></match></rule>
 <rule weight="0.95"><match lemma="spørre" tags="vblex.*"><select lemma="fråga"/></match></rule>
-<rule weight="0.95"><match lemma="slippe" tags="vblex.*"><select lemma="släppa"/></match></rule>
 <rule weight="0.95"><match lemma="skuespill" tags="n.nt.*"><select lemma="skådespel"/></match></rule>
 <rule weight="0.95"><match lemma="skrive" tags="adj.*"><select lemma="skriva"/></match></rule>
 <rule weight="0.95"><match lemma="signatur" tags="n.m.*"><select lemma="signatur"/></match></rule>
@@ -6556,5 +6554,16 @@
   <rule><match lemma="dyrlege" tags="n.*"><select lemma="djurläkar"/></match></rule>
 
   <rule><match lemma="hvis" tags="cnjsub"><select lemma="om"/></match></rule>
+
+  <rule><match lemma="med" tags="pr"><select lemma="med"/></match></rule>
+  <rule weight="3.0" c="avoid double tilsammans">
+    <match lemma="sammen"/>
+    <match lemma="med" tags="pr"><select lemma="med"/></match>
+  </rule>
+  <rule weight="2.0">
+    <or><match lemma="være"/><match lemma="vere"/></or>
+    <match lemma="med" tags="pr"><select lemma="tillsammans med"/></match>
+    <match tags="prn.*"/>
+  </rule>
 </rules>
 </lrx>

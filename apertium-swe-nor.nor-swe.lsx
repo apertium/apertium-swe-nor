@@ -139,6 +139,10 @@
       <e><i><w/><s n="prn"/><t/><s n="nom"/><d/></i></e>
       <e><i><w/><s n="prn"/><t/><s n="nom"/><t/><d/></i></e>
     </pardef>
+    <pardef n="prn_nom|adv">
+      <e><par n="prn_nom"/></e>
+      <e><par n="adv"/></e>
+    </pardef>
 
     <pardef n="FV">
       <e><i><w/><s n="vblex"/><s n="pres"/><d/></i></e>
@@ -467,7 +471,7 @@
 
     <e lm="liker du → tykker du om" c="tycker du om">
       <p><l>like</l><r>tykke</r></p> <par n="td"/>
-      <par n="prn_nom"/>
+      <par n="prn_nom|adv"/>
       <p><l></l><r>om<s n="pr"/></r></p>
     </e>
 
