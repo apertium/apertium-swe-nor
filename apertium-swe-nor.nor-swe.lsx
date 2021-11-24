@@ -135,6 +135,10 @@
       <e><i><w/><s n="prn"/><d/></i></e>
       <e><i><w/><s n="prn"/><t/><d/></i></e>
     </pardef>
+    <pardef n="prn_nom">
+      <e><i><w/><s n="prn"/><t/><s n="nom"/><d/></i></e>
+      <e><i><w/><s n="prn"/><t/><s n="nom"/><t/><d/></i></e>
+    </pardef>
 
     <pardef n="FV">
       <e><i><w/><s n="vblex"/><s n="pres"/><d/></i></e>

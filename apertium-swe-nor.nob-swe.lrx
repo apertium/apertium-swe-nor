@@ -6455,7 +6455,6 @@
 <rule weight="0.95"><match lemma="mening" tags="n.m.*"><select lemma="mening"/></match></rule>
 <rule weight="0.95"><match lemma="måle" tags="vblex.*"><select lemma="mäta"/></match></rule>
 <rule weight="0.95"><match lemma="lyse" tags="adj.*"><select lemma="lysa"/></match></rule>
-<rule weight="0.95"><match lemma="like" tags="vblex.*"><select lemma="tycka om"/></match></rule>
 <rule weight="0.95"><match lemma="levere" tags="vblex.*"><select lemma="leverera"/></match></rule>
 <rule weight="0.95"><match lemma="levende" tags="adj.*"><select lemma="levande"/></match></rule>
 <rule weight="0.95"><match lemma="lett" tags="adj.*"><select lemma="lätt"/></match></rule>
