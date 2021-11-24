@@ -6585,6 +6585,8 @@
   <rule><match lemma="av og til" tags="adv"><select lemma="av och till"/></match></rule>
 
   <rule><match lemma="klut" tags="n.*"><select lemma="duk"/></match></rule>
-
+  <rule><match lemma="spiss" tags="n.*"><select lemma="spets"/></match></rule>
+  <rule><match lemma="pung" tags="n.*"><select lemma="pung"/></match></rule>
+  <rule><match lemma="innvoll" tags="n.*"><select lemma="inälvor"/></match></rule>
 </rules>
 </lrx>
