@@ -970,8 +970,6 @@
 <rule weight="0.9"><match lemma="deltakelse" tags="n.*"><select lemma="deltagande" tags="n.nt.*"/></match></rule><!-- 205 -->
 <rule weight="0.9"><match lemma="delta" tags="vblex.*"><select lemma="delta" tags="vblex.*"/></match></rule><!-- 2476 -->
 <rule weight="0.9"><match lemma="delta" tags="adj.pp.*"><select lemma="delta" tags="adj.pp.*"/></match></rule><!-- 2476 -->
-<rule weight="0.9"><match lemma="demonstrere" tags="vblex.*"><select lemma="uppvisa" tags="vblex.*"/></match></rule><!-- 325 -->
-<rule weight="0.9"><match lemma="demonstrere" tags="adj.pp.*"><select lemma="uppvisa" tags="adj.pp.*"/></match></rule><!-- 325 -->
 <rule weight="0.9"><match lemma="demontere" tags="vblex.*"><select lemma="demontera" tags="vblex.*"/></match></rule><!-- 31 -->
 <rule weight="0.9"><match lemma="demontere" tags="adj.pp.*"><select lemma="demontera" tags="adj.pp.*"/></match></rule><!-- 31 -->
 <rule weight="0.9"><match lemma="dempe" tags="vblex.*"><select lemma="stilla" tags="vblex.*"/></match></rule><!-- 1609 -->
@@ -4821,6 +4819,9 @@
 <rule weight="0.9"><match lemma="årlig" tags="adj.*"><select lemma="årlig" tags="adj.*"/></match></rule><!-- 460 -->
   <!-- /frequency based rules  -->
 
+  <rule><match lemma="demonstrere" tags="vblex.*"><select lemma="demonstrere" tags="vblex.*"/></match></rule>
+  <rule><match lemma="demonstrere" tags="adj.pp.*"><select lemma="demonstrere" tags="adj.pp.*"/></match></rule>
+
   <rule><match lemma="male" tags="vblex.*"><select lemma="måla"/></match></rule>
   <rule><match lemma="male" tags="adj.pp.*"><select lemma="måla"/></match></rule>
   <rule><match lemma="måle" tags="vblex.*"><select lemma="mäta" tags="vblex.*"/></match></rule>
@@ -6565,5 +6566,8 @@
     <match lemma="med" tags="pr"><select lemma="tillsammans med"/></match>
     <match tags="prn.*"/>
   </rule>
+
+  <rule><match lemma="av og til" tags="adv"><select lemma="av och till"/></match></rule>
+
 </rules>
 </lrx>
