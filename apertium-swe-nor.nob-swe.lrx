@@ -280,7 +280,22 @@
 
   <rule><match lemma="før" tags="cnjsub"><select lemma="innan"/></match></rule>
 
-  <rule><match lemma="før" tags="adv"><select lemma="förut" tags="adv"/></match></rule>
+  <rule><match lemma="før" tags="adv"><select lemma="innan" tags="adv"/></match></rule>
+  <rule weight="2.0">
+    <or>
+      <match lemma="enn"/>      <!-- än förut -->
+      <match lemma="hete"/>     <!-- han hette förut -->
+      <match lemma="som"/>      <!-- som förut -->
+    </or>
+    <match lemma="før" tags="adv"><select lemma="förut" tags="adv"/></match>
+  </rule>
+  <rule weight="2.0">
+    <match lemma="før" tags="adv"><select lemma="förut" tags="adv"/></match>
+    <or>
+      <match lemma="."/>
+      <match lemma=","/>
+    </or>
+  </rule>
   <rule weight="2.0">
     <match lemma="før" tags="adv"><select lemma="tidigare" tags="adv.comp"/></match>
     <match lemma="være"/>
