@@ -475,6 +475,14 @@
       <p><l></l><r>om<s n="pr"/></r></p>
     </e>
 
+    <e lm="trekker N seg sammen → trekker N ihop seg" c="drar N ihop sig">
+      <p><l>trekke</l><r>trekke</r></p> <par n="td"/>
+      <par n="SN|adv|prn|"/>
+      <p><l></l><r>ihop<s n="adv"/><d/></r></p>
+      <i>seg<t/><d/></i>
+      <p><l>sammen<t/><d/></l><r></r></p>
+    </e>
+
   </section>
 
 </dictionary>
