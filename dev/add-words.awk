@@ -64,7 +64,7 @@ BEGIN {
        if(ng=="m" &&nw in ana["swe"]["nt"]) print "swe-side dupe!"
        if(ng=="m" &&nw in ana["swe"]["ut"]) print "swe-side dupe!"
        if(ng=="m" &&nw in ana["swe"]["un"]) print "swe-side dupe!"
-       if(ng=="v" && bw in ana["nor"]["v"])        print "<e>       <p><l>"nwo"</l><r>"bwo"</r></p><par n=\"vblex_adj\"/></e>"
+       if(ng=="v" && bw in ana["nor"]["v"])        print "<e>       <p><l>"nwo"</l><r>"bwo"</r></p><par n=\"vblex\"/></e>"
        else if(ng=="as" && bw in ana["nor"]["as"]) print "<e>       <p><l>"nwo"</l><r>"bwo"</r></p><par n=\"adj_sint\"/></e>"
        else if(ng=="an" && bw in ana["nor"]["as"]) print "<e>       <p><l>"nwo"</l><r>"bwo"</r></p><par n=\"adj:adj_sint\"/></e>"
        else if(ng=="as" && bw in ana["nor"]["an"]) print "<e>       <p><l>"nwo"</l><r>"bwo"</r></p><par n=\"adj_sint:adj\"/></e>"
