@@ -68,7 +68,7 @@ sent:   _.a_clb;
 det_nodef:    _.a_det.gender.number.case;
 det_finaldef: _.a_det.gender.number.case.defnes;
 det_initdef:  _.defnes.gender.number.case; ! samma<prn><def><un><pl><nom>
-det: (if (1.a_det/tl = dem)
+det: (if (1.a_det/tl = dem or 1.lemh/tl = "ena")
          1(det_finaldef)
       el-if (1.mainpos/tl = prn and 1.a_det/tl = "")
          1(det_initdef)

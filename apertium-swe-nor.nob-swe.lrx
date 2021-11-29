@@ -4070,8 +4070,6 @@
 <rule weight="0.9"><match lemma="stenke" tags="adj.pp.*"><select lemma="skvätta" tags="adj.pp.*"/></match></rule><!-- 175 -->
 <rule weight="0.9"><match lemma="stifte" tags="vblex.*"><select lemma="instifta" tags="vblex.*"/></match></rule><!-- 219 -->
 <rule weight="0.9"><match lemma="stifte" tags="adj.pp.*"><select lemma="instifta" tags="adj.pp.*"/></match></rule><!-- 219 -->
-<rule weight="0.9"><match lemma="stikke" tags="vblex.*"><select lemma="steka" tags="vblex.*"/></match></rule><!-- 680 -->
-<rule weight="0.9"><match lemma="stikke" tags="adj.pp.*"><select lemma="steka" tags="adj.pp.*"/></match></rule><!-- 680 -->
 <rule weight="0.9"><match lemma="stilk" tags="n.*"><select lemma="strå" tags="n.nt.*"/></match></rule><!-- 147 -->
 <rule weight="0.9"><match lemma="stille" tags="vblex.*"><select lemma="sätta" tags="vblex.*"/></match></rule><!-- 15775 -->
 <rule weight="0.9"><match lemma="stille" tags="adj.pp.*"><select lemma="sätta" tags="adj.pp.*"/></match></rule><!-- 15775 -->
@@ -4833,6 +4831,9 @@
 <rule weight="0.9"><match lemma="århundre" tags="n.nt.*"><select lemma="århundrade" tags="n.nt.*"/></match></rule><!-- 971 -->
 <rule weight="0.9"><match lemma="årlig" tags="adj.*"><select lemma="årlig" tags="adj.*"/></match></rule><!-- 460 -->
   <!-- /frequency based rules  -->
+
+  <rule><match lemma="stikke" tags="vblex.*"><select lemma="sticka" tags="vblex.*"/></match></rule>
+  <rule><match lemma="stikke" tags="adj.pp.*"><select lemma="sticka" tags="adj.pp.*"/></match></rule>
 
   <rule><match lemma="demonstrere" tags="vblex.*"><select lemma="demonstrere" tags="vblex.*"/></match></rule>
   <rule><match lemma="demonstrere" tags="adj.pp.*"><select lemma="demonstrere" tags="adj.pp.*"/></match></rule>
@@ -6588,5 +6589,7 @@
   <rule><match lemma="spiss" tags="n.*"><select lemma="spets"/></match></rule>
   <rule><match lemma="pung" tags="n.*"><select lemma="pung"/></match></rule>
   <rule><match lemma="innvoll" tags="n.*"><select lemma="inälvor"/></match></rule>
+  <rule><match lemma="varlig" tags="adj.*"><select lemma="varlig"/></match></rule>
+  <rule><match lemma="antageligvis" tags="adv"><select lemma="tydligen"/></match></rule>
 </rules>
 </lrx>

@@ -469,6 +469,11 @@
       <p><l>ned<t/><d/></l><r></r></p>
     </e>
 
+    <e lm="tiltrekkes av → tykker om" c="tyckar om">
+      <p><l>tiltrekke<s n="vblex"/><s n="pres"/><s n="pasv"/></l><r>tykke<s n="vblex"/><s n="pres"/></r></p> <i><d/></i>
+      <p><l>av<t/></l><r>om<s n="pr"/></r></p>
+    </e>
+
     <e lm="liker du → tykker du om" c="tycker du om">
       <p><l>like</l><r>tykke</r></p> <par n="td"/>
       <par n="prn_nom|adv"/>
