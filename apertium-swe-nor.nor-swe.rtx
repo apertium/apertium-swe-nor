@@ -56,7 +56,7 @@ number > number_n : sg sg, sp sp, pl pl, ND ND ;
 
 adj:   _.a_adj.a_comp.gender.number.defnes.a_cmp;
 n:     _.gender.number.defnes.case.a_cmp;
-vblex: _.tense.voice;
+vblex: _.tense.voice.a_cmp;
 pr:    _;
 adv:   _.a_comp;
 ij:    _;
@@ -94,8 +94,9 @@ DP2:   _;                       ! issue 80-workaround
 ! Reduction Rules: !
 !!!!!!!!!!!!!!!!!!!!
 
-N -> %n         { %1[lemcase=$lemcase] }
-   | n.*.cmp %N { 1[lemcase=$lemcase] %2 }
+N -> %n            { %1[lemcase=$lemcase] }
+   | n.*.cmp %N     { 1[lemcase=$lemcase] %2 }
+   | vblex.*.cmp %N { 1[lemcase=$lemcase] %2 }
    | n.*.cmp-split [w_ogeller]@cnjcoo %N { 1[lemcase=$lemcase] _ 2 _ %3 }
    ;
 
