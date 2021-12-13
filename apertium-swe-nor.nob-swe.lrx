@@ -6591,5 +6591,7 @@
   <rule><match lemma="innvoll" tags="n.*"><select lemma="inälvor"/></match></rule>
   <rule><match lemma="varlig" tags="adj.*"><select lemma="varlig"/></match></rule>
   <rule><match lemma="antageligvis" tags="adv"><select lemma="tydligen"/></match></rule>
+
+  <rule><match lemma="vern" tags="n.*"><select lemma="skydd"/></match></rule>
 </rules>
 </lrx>
