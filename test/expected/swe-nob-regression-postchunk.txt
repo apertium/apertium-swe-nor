@@ -2,9 +2,9 @@
 [/4ezRqmPuJ3lS]
 [BGSXM-VaHxKz#0] ^som<pr>$ ^ikke<adv>$ ^ha<vblex><pres>$ ^bli<vblex><pp>$ ^oppføre<vblex><pp>$
 [/BGSXM-VaHxKz]
-[I1a7gtD3zHRi#0] ^ha<vblex><pres>$ ^finnes<vblex><pstv><pp>$
+[I1a7gtD3zHRi#0] ^ha<vblex><pres>$ ^bli<vblex><pp>$ ^finne<vblex><pp>$
 [/I1a7gtD3zHRi]
-[W-fqMeU--uw4#0] ^som<pr>$ ^ha<vblex><pres>$ ^finnes<vblex><pstv><pp>$
+[W-fqMeU--uw4#0] ^som<pr>$ ^ha<vblex><pres>$ ^bli<vblex><pp>$ ^finne<vblex><pp>$
 [/W-fqMeU--uw4]
 [eLrB2F8Y26uc#0] ^søke<adj><pprs>$ ^der<cnjsub>$ ^evne<n><m><sg><def>$ ^til å<cnjsub>$ ^utnytte<vblex><inf>$
 [/eLrB2F8Y26uc]
