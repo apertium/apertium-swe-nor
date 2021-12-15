@@ -488,6 +488,11 @@
       <p><l>sammen<t/><d/></l><r></r></p>
     </e>
 
+    <e lm="og meg → og jeg" c="och jag">
+      <i>og</i><par n="td"/>
+      <i>jeg<t/></i> <p><l><s n="acc"/></l> <r><s n="nom"/></r></p>
+    </e>
+
   </section>
 
 </dictionary>
