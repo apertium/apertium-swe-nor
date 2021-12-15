@@ -2,9 +2,9 @@
 [/4ezRqmPuJ3lS]
 [BGSXM-VaHxKz#0] ^pr<pr>{^som<pr>$}$ ^adv<adv>{^ikkje<adv>$}$ ^aux<vblex><pp>{^ha<vblex><pres>$}$ ^aux<vblex><pp>{^bli<vblex><pp>$}$ ^vblex<vblex><pp>{^oppføre<vblex><pp>$}$
 [/BGSXM-VaHxKz]
-[I1a7gtD3zHRi#0] ^verb<vblex><pres>{^ha<vblex><pres>$}$ ^vblex<vblex><pstv><pp>{^finnast<vblex><pstv><pp>$}$
+[I1a7gtD3zHRi#0] ^verb<vblex><pres>{^ha<vblex><pres>$}$ ^aux<vblex><pp>{^bli<vblex><pp>$}$ ^vblex<vblex><pp>{^finne<vblex><pp>$}$
 [/I1a7gtD3zHRi]
-[W-fqMeU--uw4#0] ^pr<pr>{^som<pr>$}$ ^aux<vblex><pstv><pp>{^ha<vblex><pres>$}$ ^vblex<vblex><pstv><pp>{^finnast<vblex><pstv><pp>$}$
+[W-fqMeU--uw4#0] ^pr<pr>{^som<pr>$}$ ^aux<vblex><pp>{^ha<vblex><pres>$}$ ^aux<vblex><pp>{^bli<vblex><pp>$}$ ^vblex<vblex><pp>{^finne<vblex><pp>$}$
 [/W-fqMeU--uw4]
 [eLrB2F8Y26uc#0] ^adj<adj><pprs>{^søkje<adj><pprs>$}$ ^prn<prn><rel><un><pl><gen>{^som<prn><rel><un><sp><nom>$}$ ^n<n><f><sg><ind>{^evne<n><f><sg><ind>$}$ ^infm<cnjsub>{^til å<cnjsub>$}$ ^verb<vblex><inf>{^utnytte<vblex><inf>$}$
 [/eLrB2F8Y26uc]
