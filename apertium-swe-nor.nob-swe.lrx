@@ -285,7 +285,9 @@
 
   <rule><match lemma="før" tags="cnjsub"><select lemma="innan"/></match></rule>
 
-  <rule><match lemma="før" tags="adv"><select lemma="innan" tags="adv"/></match></rule>
+  <rule weight="2"><match/><match lemma="før" tags="adv"><select lemma="innan" tags="adv"/></match></rule>
+  <rule><match tags="sent.*"/><match lemma="før" tags="adv"><select lemma="förut" tags="adv"/></match></rule>
+  <rule><match lemma="før" tags="adv"><select lemma="förut" tags="adv"/></match></rule>
   <rule weight="2.0">
     <or>
       <match lemma="enn"/>      <!-- än förut -->
@@ -841,7 +843,6 @@
 <rule weight="0.9"><match lemma="bog" tags="n.*"><select lemma="bok" tags="n.ut.*"/></match></rule><!-- 10741 -->
 <rule weight="0.9"><match lemma="bokse" tags="vblex.*"><select lemma="boxas" tags="vblex.*"/></match></rule><!-- 383 -->
 <rule weight="0.9"><match lemma="bokse" tags="adj.pp.*"><select lemma="boxas" tags="adj.pp.*"/></match></rule><!-- 383 -->
-<rule weight="0.9"><match lemma="boks" tags="n.*"><select lemma="burk" tags="n.ut.*"/></match></rule><!-- 819 -->
 <rule weight="0.9"><match lemma="bokverk" tags="n.nt.*"><select lemma="bokverk" tags="n.nt.*"/></match></rule><!-- 12 -->
 <rule weight="0.9"><match lemma="bolk" tags="n.*"><select lemma="bit" tags="n.ut.*"/></match></rule><!-- 3590 -->
 <rule weight="0.9"><match lemma="bommende" tags="adv"><select lemma="platt" tags="adv"/></match></rule><!-- 161 -->
@@ -4610,8 +4611,6 @@
 <rule weight="0.9"><match lemma="utvalg" tags="n.nt.*"><select lemma="urval" tags="n.nt.*"/></match></rule><!-- 728 -->
 <rule weight="0.9"><match lemma="utveksling" tags="n.*"><select lemma="utbyte" tags="n.nt.*"/></match></rule><!-- 863 -->
 <rule weight="0.9"><match lemma="utvidelse" tags="n.*"><select lemma="utvidgning" tags="n.ut.*"/></match></rule><!-- 81 -->
-<rule weight="0.9"><match lemma="utvide" tags="vblex.*"><select lemma="utöka" tags="vblex.*"/></match></rule><!-- 549 -->
-<rule weight="0.9"><match lemma="utvide" tags="adj.pp.*"><select lemma="utöka" tags="adj.pp.*"/></match></rule><!-- 549 -->
 <rule weight="0.9"><match lemma="utøvelse" tags="n.*"><select lemma="utövande" tags="n.nt.*"/></match></rule><!-- 54 -->
 <rule weight="0.9"><match lemma="utøve" tags="vblex.*"><select lemma="utöva" tags="vblex.*"/></match></rule><!-- 729 -->
 <rule weight="0.9"><match lemma="utøve" tags="adj.pp.*"><select lemma="utöva" tags="adj.pp.*"/></match></rule><!-- 729 -->
@@ -4836,6 +4835,15 @@
 <rule weight="0.9"><match lemma="århundre" tags="n.nt.*"><select lemma="århundrade" tags="n.nt.*"/></match></rule><!-- 971 -->
 <rule weight="0.9"><match lemma="årlig" tags="adj.*"><select lemma="årlig" tags="adj.*"/></match></rule><!-- 460 -->
   <!-- /frequency based rules  -->
+
+  <rule><match lemma="utvide" tags="vblex.*"><select lemma="utvidga" tags="vblex.*"/></match></rule>
+  <rule><match lemma="utvide" tags="adj.pp.*"><select lemma="utvidga" tags="adj.pp.*"/></match></rule>
+
+  <rule><match lemma="boks" tags="n.*"><select lemma="burk" tags="n.ut.*"/></match></rule>
+  <rule weight="2.0">
+    <match tags="*.cmp"/>
+    <match lemma="boks" tags="n.*"><select lemma="ruta"/></match>
+  </rule>
 
   <rule><match lemma="stikke" tags="vblex.*"><select lemma="sticka" tags="vblex.*"/></match></rule>
   <rule><match lemma="stikke" tags="adj.pp.*"><select lemma="sticka" tags="adj.pp.*"/></match></rule>
