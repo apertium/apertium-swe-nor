@@ -41,6 +41,11 @@
     </def-seqs>
 
 <rules>
+  <!-- MWE VS CMP: Remove multiword expressions from compounds, otherwise prefer them. -->
+  <rule c="after cmp"><match tags="*.cmp"/>   <match><remove contains="#"/></match></rule>
+  <rule c="after cmp"><match tags="*.cmp.*"/> <match><remove contains="#"/></match></rule>
+  <rule c="is cmp">              <match tags="*.cmp"><remove contains="#"/></match></rule>
+
   <rule weight="1.0"> <match lemma="øre" tags="n.*"><select lemma="öra" tags="n.*"/></match> </rule>
   <rule weight="2.0">
     <match tags="det.qnt.*"/>

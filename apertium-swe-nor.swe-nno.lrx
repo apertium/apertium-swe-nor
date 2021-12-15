@@ -1,4 +1,10 @@
 <rules>
+
+  <!-- MWE VS CMP: Remove multiword expressions from compounds, otherwise prefer them. -->
+  <rule c="after cmp"><match tags="*.cmp"/>   <match><remove contains="#"/></match></rule>
+  <rule c="after cmp"><match tags="*.cmp.*"/> <match><remove contains="#"/></match></rule>
+  <rule c="is cmp">              <match tags="*.cmp"><remove contains="#"/></match></rule>
+
   <!-- adv.pst etc. -->
 <rule weight="0.9"><match lemma="bra" tags="adv.*"><select lemma="godt" tags="adv"/></match></rule>
 <rule weight="0.9"><match lemma="gärna" tags="adv.*"><select lemma="gjerne" tags="adv"/></match></rule>
@@ -3258,4 +3264,7 @@
   <rule><match lemma="i nærheten"><select lemma="i närheten"/></match></rule>
   <rule><match lemma="match" tags="n.*"><select lemma="match"/></match></rule>
   <rule><match lemma="bild" tags="n.*"><select lemma="bilde"/></match></rule>
+
+  <rule><match lemma="låtsa" tags="vblex.*"><select lemma="late# som"/></match></rule>
+  <rule><match lemma="låtsas" tags="vblex.*"><select lemma="late# som"/></match></rule>
 </rules>
