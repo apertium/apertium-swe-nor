@@ -3386,7 +3386,6 @@
 <rule weight="0.9"><match lemma="sjusk" tags="n.nt.*"><select lemma="slarva" tags="n.ut.*"/></match></rule><!-- 15 -->
 <rule weight="0.9"><match lemma="sjy" tags="n.m.*"><select lemma="moln" tags="n.nt.*"/></match></rule><!-- 687 -->
 <rule weight="0.9"><match lemma="sjølvgod" tags="adj.*"><select lemma="självbelåten" tags="adj.*"/></match></rule><!-- 56 -->
-<rule weight="0.9"><match lemma="sjølv om" tags="cnjsub"><select lemma="fast" tags="cnjsub"/></match></rule><!-- 2805 -->
 <rule weight="0.9"><match lemma="sjølvsagd" tags="adj.*"><select lemma="självklar" tags="adj.*"/></match></rule><!-- 1165 -->
 <rule weight="0.9"><match lemma="sjølvstende" tags="n.nt.*"><select lemma="självständighet" tags="n.ut.*"/></match></rule><!-- 900 -->
 <rule weight="0.9"><match lemma="sjå# på" tags="vblex.*"><select lemma="titta på" tags="vblex.*"/></match></rule><!-- 7511 -->
@@ -4563,6 +4562,9 @@
 <rule weight="0.9"><match lemma="åtvare" tags="vblex.*"><select lemma="varna" tags="vblex.*"/></match></rule><!-- 2509 -->
 <rule weight="0.9"><match lemma="åtvare" tags="adj.pp.*"><select lemma="varna" tags="adj.pp.*"/></match></rule><!-- 2509 -->
   <!-- /frequency based rules  -->
+
+  <rule><match lemma="sjølv om" tags="cnjsub"><select lemma="även om"/></match></rule>
+  <rule><match lemma="sjølv om" tags="cnjsub.*"><select lemma="även om"/></match></rule>
 
   <rule><match lemma="måle" tags="vblex.*"><select lemma="mäta" tags="vblex.*"/></match></rule>
   <rule><match lemma="måle" tags="adj.pp.*"><select lemma="mäta" tags="adj.pp.*"/></match></rule>

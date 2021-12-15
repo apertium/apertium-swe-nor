@@ -365,6 +365,7 @@
   <rule><match lemma="slags" tags="n.*"><select lemma="slags"/></match></rule>
 
   <!-- TODO: When do we use «fast»? -->
+  <!-- https://www.omsvenska.se/ord-och-uttryck/ordval/fast-fastan-aven-fast -->
   <rule><match lemma="men" tags="cnjcoo.clb"><select lemma="men" tags="cnjcoo"/></match></rule>
   <rule><match lemma="men" tags="cnjcoo"><select lemma="men" tags="cnjcoo"/></match></rule>
 
@@ -3642,7 +3643,6 @@
 <rule weight="0.9"><match lemma="selskapslokale" tags="n.nt.*"><select lemma="sällskapsrum" tags="n.nt.*"/></match></rule><!-- 45 -->
 <rule weight="0.9"><match lemma="selskap" tags="n.nt.*"><select lemma="företag" tags="n.nt.*"/></match></rule><!-- 4501 -->
 <rule weight="0.9"><match lemma="selvfølgelig" tags="adj.*"><select lemma="självklar" tags="adj.*"/></match></rule><!-- 1165 -->
-<rule weight="0.9"><match lemma="selv om" tags="cnjsub"><select lemma="fast" tags="cnjsub"/></match></rule><!-- 2805 -->
 <rule weight="0.9"><match lemma="sende# hjem" tags="vblex.*"><select lemma="hemförlova" tags="vblex.*"/></match></rule><!-- 18 -->
 <rule weight="0.9"><match lemma="sende# hjem" tags="adj.pp.*"><select lemma="hemförlova" tags="adj.pp.*"/></match></rule><!-- 18 -->
 <rule weight="0.9"><match lemma="sende" tags="vblex.*"><select lemma="skicka" tags="vblex.*"/></match></rule><!-- 14862 -->
@@ -4835,6 +4835,9 @@
 <rule weight="0.9"><match lemma="århundre" tags="n.nt.*"><select lemma="århundrade" tags="n.nt.*"/></match></rule><!-- 971 -->
 <rule weight="0.9"><match lemma="årlig" tags="adj.*"><select lemma="årlig" tags="adj.*"/></match></rule><!-- 460 -->
   <!-- /frequency based rules  -->
+
+  <rule><match lemma="selv om" tags="cnjsub"><select lemma="även om"/></match></rule>
+  <rule><match lemma="selv om" tags="cnjsub.*"><select lemma="även om"/></match></rule>
 
   <rule><match lemma="utvide" tags="vblex.*"><select lemma="utvidga" tags="vblex.*"/></match></rule>
   <rule><match lemma="utvide" tags="adj.pp.*"><select lemma="utvidga" tags="adj.pp.*"/></match></rule>
