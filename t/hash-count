@@ -15,7 +15,9 @@ trap 'rm -f "${out}"' EXIT
 for dir in swe-nob nno-swe; do
     src=${dir%%-*}
 
-    cat ../texts/*."${src}".txt | apertium -f html-noent -d .. "${dir}"-dgen > "${out}"
+    # cat ../texts/*."${src}".txt | apertium -f html-noent -d .. "${dir}"-dgen > "${out}"
+    # TODO: -f html-noent does rehtml or something turning dgen tags into &lt;&gt;
+    cat ../texts/*."${src}".txt | apertium-deshtml | apertium -f none -d .. "${dir}"-dgen > "${out}"
 
     current=$(grep -c '[#@]' "${out}" || true)
 
