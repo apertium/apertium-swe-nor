@@ -264,5 +264,8 @@ DP2 ->
     ;
 
 S ->
-      "S-intrans" DP VP    { %1 _ 2 }
-    | "S-trans"   DP VP DP { %1 _ 2 _ 3 };
+      "S-intrans" DP VP     { %1 _ 2 }
+    | "S-trans"   DP VP DP  { %1 _ 2 _ 3 }
+    | "S-trans"   DP VP DP2 { %1 _ 2 _ 3 }
+    | "S-transA"  DP VP A   { %1 _ 2 _ 3 }
+    ;
