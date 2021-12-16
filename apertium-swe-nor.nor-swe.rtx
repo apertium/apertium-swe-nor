@@ -163,6 +163,7 @@ detOfN: (always
 DP ->
      "en god venn ~> en god vänn"
       det %NP
+      ?(not (1.number = sg and 2.number = pl)) ! reject if number mismatch (det doesn't modify n)
       { 1(detOfN)[gender=1.gender, gender_n=2.gender, number_n=2.number, lemcase=1.lemcase]
         _
         2
@@ -170,6 +171,7 @@ DP ->
 
     | "vennene mine ~> mina vänner"
       %NP det.pos
+      ?(not (2.number = pl and 1.number = sg)) ! reject if number mismatch (det doesn't modify n)
       { 2(detOfN)[gender=2.gender, gender_n=1.gender, number_n=1.number, lemcase=1.lemcase]
         _
         1[defnes=ind, lemcase=2.lemcase]
