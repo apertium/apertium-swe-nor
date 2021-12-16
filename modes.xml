@@ -86,6 +86,9 @@
       <program name="lt-proc -e -w">
         <file name="nno-swe.automorf.bin"/>
       </program>
+      <program name="cg-proc" debug-suff="seg">
+	<file name="nob-swe.seg.rlx.bin"/>
+      </program>
       <program name="cg-proc -w">
         <file name="nno-swe.rlx.bin"/>
       </program>

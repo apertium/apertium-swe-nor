@@ -51,6 +51,7 @@ TARGETS_PREFIX2 =              \
 TARGETS_PREFIX2n =             \
       $(PREFIX2n).prob         \
       $(PREFIX2n).automorf.bin \
+      $(PREFIX2b).seg.rlx.bin  \
       $(PREFIX2n).rlx.bin      \
       $(PREFIX2n).autolex.bin
 TARGETS_PREFIX2b =             \
@@ -130,6 +131,9 @@ $(PREFIX1).rlx.bin: $(AP_SRC1)/apertium-$(LANG1).$(LANG1).rlx
 	cg-comp $< $@
 
 $(PREFIX2b).seg.rlx.bin: $(AP_SRC2b)/apertium-$(LANG2b).$(LANG2b).seg.rlx
+	cg-comp $< $@
+
+$(PREFIX2n).seg.rlx.bin: $(AP_SRC2n)/apertium-$(LANG2n).$(LANG2n).seg.rlx
 	cg-comp $< $@
 
 $(PREFIX2b).rlx.bin: $(AP_SRC2b)/apertium-$(LANG2b).$(LANG2b).rlx
