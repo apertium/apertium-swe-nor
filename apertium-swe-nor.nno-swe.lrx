@@ -4563,6 +4563,8 @@
 <rule weight="0.9"><match lemma="åtvare" tags="adj.pp.*"><select lemma="varna" tags="adj.pp.*"/></match></rule><!-- 2509 -->
   <!-- /frequency based rules  -->
 
+  <rule><match lemma="bæsj" tags="n.*"><select lemma="bajs"/></match></rule>
+
   <rule><match lemma="sjølv om" tags="cnjsub"><select lemma="även om"/></match></rule>
   <rule><match lemma="sjølv om" tags="cnjsub.*"><select lemma="även om"/></match></rule>
 

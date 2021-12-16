@@ -935,7 +935,6 @@
 <rule weight="0.9"><match lemma="bære" tags="adj.pp.*"><select lemma="bära" tags="adj.pp.*"/></match></rule><!-- 6746 -->
 <rule weight="0.9"><match lemma="bæsje" tags="vblex.*"><select lemma="skita" tags="vblex.*"/></match></rule><!-- 3596 -->
 <rule weight="0.9"><match lemma="bæsje" tags="adj.pp.*"><select lemma="skita" tags="adj.pp.*"/></match></rule><!-- 3596 -->
-<rule weight="0.9"><match lemma="bæsj" tags="n.*"><select lemma="lort" tags="n.ut.*"/></match></rule><!-- 417 -->
 <rule weight="0.9"><match lemma="bølge" tags="vblex.*"><select lemma="bölja" tags="vblex.*"/></match></rule><!-- 57 -->
 <rule weight="0.9"><match lemma="bølge" tags="adj.pp.*"><select lemma="bölja" tags="adj.pp.*"/></match></rule><!-- 57 -->
 <rule weight="0.9"><match lemma="bønn" tags="n.*"><select lemma="bön" tags="n.ut.*"/></match></rule><!-- 1305 -->
@@ -4835,6 +4834,8 @@
 <rule weight="0.9"><match lemma="århundre" tags="n.nt.*"><select lemma="århundrade" tags="n.nt.*"/></match></rule><!-- 971 -->
 <rule weight="0.9"><match lemma="årlig" tags="adj.*"><select lemma="årlig" tags="adj.*"/></match></rule><!-- 460 -->
   <!-- /frequency based rules  -->
+
+  <rule><match lemma="bæsj" tags="n.*"><select lemma="bajs"/></match></rule>
 
   <rule><match lemma="selv om" tags="cnjsub"><select lemma="även om"/></match></rule>
   <rule><match lemma="selv om" tags="cnjsub.*"><select lemma="även om"/></match></rule>
