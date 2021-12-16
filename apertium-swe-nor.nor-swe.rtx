@@ -263,4 +263,6 @@ DP2 ->
     | "et sekund eller to"    DP cnjcoo DP { %1 _ 2 _ 3 }
     ;
 
-S -> "S-intrans" DP VP { %1 _ 2 };
+S ->
+      "S-intrans" DP VP    { %1 _ 2 }
+    | "S-trans"   DP VP DP { %1 _ 2 _ 3 };
