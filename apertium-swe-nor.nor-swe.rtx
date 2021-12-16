@@ -56,6 +56,7 @@ number > number_n : sg sg, sp sp, pl pl, ND ND ;
 
 adj:   _.a_adj.a_comp.gender.number.defnes.a_cmp;
 n:     _.gender.number.defnes.case.a_cmp;
+np:    _.gender.number.defnes.case.a_cmp;
 vblex: _.tense.voice.a_cmp;
 pr:    _;
 adv:   _.a_comp;
@@ -88,6 +89,7 @@ VP:    _.tense.number.voice; ! TODO: Put gender/number on VP for pp-samsvar stuf
 ADV:   _;
 SENT:  _;
 DP2:   _;                       ! issue 80-workaround
+S:     _;                       ! issue 80-workaround
 
 
 !!!!!!!!!!!!!!!!!!!!
@@ -182,15 +184,6 @@ DP ->
     | %NP { %1 }
       ;
 
-! Workaround for https://github.com/apertium/apertium-recursive/issues/80
-! – match DP followed by … anything at all (why do we need this
-! do-nothing rule?)
-DP2 ->
-      "vennene mine virtuelt" DP A         { %1 _ 2 }
-    | "vennene hennes redde"  DP ADV       { %1 _ 2 }
-    | "et sekund eller to"    DP cnjcoo DP { %1 _ 2 _ 3 }
-    ;
-
 ! TODO: Do any tags need propagating here?
 ADV -> "ADV" %adv { %1 }
     | "ADV.nt" %A.*.nt { %1 }
@@ -252,3 +245,22 @@ VP ->
 
 ! If bidix removed clb, ensure it stays removed:
 SENT -> %sent { %1[a_clb = 1.a_clb/tl] } ;
+
+
+! We need to parse wider contexts in order to work around
+! https://github.com/apertium/apertium-recursive/issues/80
+
+! Ideally, we'd only have rules that cover contexts where we need to
+! apply a change, but unfortunately there's some deep issue with
+! lookahead that means that a verb to the right can block an analysis
+! of a verb to the left or something if we try to only do fragmented
+! "bottom up" analyses. But if there's a parse covering both verbs,
+! the rules will apply.
+
+DP2 ->
+      "vennene mine virtuelt" DP A         { %1 _ 2 }
+    | "vennene hennes redde"  DP ADV       { %1 _ 2 }
+    | "et sekund eller to"    DP cnjcoo DP { %1 _ 2 _ 3 }
+    ;
+
+S -> "S-intrans" DP VP { %1 _ 2 };
