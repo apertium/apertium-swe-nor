@@ -102,17 +102,8 @@
       <program name="lrx-proc -m">
         <file name="nno-swe.autolex.bin"/>
       </program>
-      <program name="apertium-transfer -b">
-        <file name="apertium-swe-nor.nor-swe.t1x"/>
-        <file name="nor-swe.t1x.bin"/>
-      </program>
-      <program name="apertium-interchunk">
-        <file name="apertium-swe-nor.nor-swe.t2x"/>
-        <file name="nor-swe.t2x.bin"/>
-      </program>
-      <program name="apertium-postchunk">
-        <file name="apertium-swe-nor.nor-swe.t3x"/>
-        <file name="nor-swe.t3x.bin"/>
+      <program name="rtx-proc">
+        <file name="nor-swe.rtx.bin"/>
       </program>
       <program name="lt-proc $1">
         <file name="nor-swe.autogen.bin"/>
