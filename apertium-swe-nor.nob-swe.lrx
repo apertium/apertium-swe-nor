@@ -303,11 +303,11 @@
       <match lemma=","/>
     </or>
   </rule>
-  <rule weight="2.0">
+  <rule weight="3.0">
     <match lemma="før" tags="adv"><select lemma="tidigare" tags="adv.comp"/></match>
     <match lemma="være"/>
   </rule>
-  <rule weight="2.0">
+  <rule weight="3.0">
     <or>
       <match lemma="gjøre"/>
       <match lemma="være"/>
