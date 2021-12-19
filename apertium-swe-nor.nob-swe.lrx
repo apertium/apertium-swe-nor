@@ -46,6 +46,9 @@
   <rule c="after cmp"><match tags="*.cmp.*"/> <match><remove contains="#"/></match></rule>
   <rule c="is cmp">              <match tags="*.cmp"><remove contains="#"/></match></rule>
 
+  <!-- TODO: Exceptions where we want :e/:a -->
+  <rule weight="1.3" c="prefer numbers without :e"> <match tags="adj.ord.*"><remove suffix=":e"/></match></rule>
+
   <rule weight="1.0"> <match lemma="øre" tags="n.*"><select lemma="öra" tags="n.*"/></match> </rule>
   <rule weight="2.0">
     <match tags="det.qnt.*"/>
