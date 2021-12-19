@@ -125,6 +125,12 @@ A -> "A->adj"       %adj { %1[gender=(if (1.a_comp = pst and 1.gender = GD) un e
 ! ^nøye<adj><sint><pst><nt><sg><ind>/noga<adj><pst><nt><sg><ind>$
 ! should not get sint!
 
+! > Suffixet -e ersätter i vissa fall bestämdhetssuffixet -a i singularis.
+! > Det kan väljas bl.a. när predikationsbasen har manligt kön, men det kräver
+! > vanligen också att det substantiv som betecknar predikationsbasen har det
+! > grammatiska genus utrum. Valet av suffixet -e är optionellt utom i vissa
+! > stilarter när adjektivet står självständigt.
+! https://svenska.se/SAG_Volym_2.pdf#page=212
 
 NP ->   %N { %1[lemcase=$lemcase] }
     | "ANun" 4: A.*.un %N
