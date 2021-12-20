@@ -4,7 +4,7 @@
 ! Attribute Categories: !
 !!!!!!!!!!!!!!!!!!!!!!!!!
 
-gender = m f nt ut un fn mf GD ;
+gender = m f nt ut un fn mf xpst xpsts xpsto xcomp xsup GD ;
 gender_n = m f nt ut un fn mf GD ;
 ! TODO do I need non_overwritable_gender = … @mf ;
 gender_adj_sg_ind = nt ut ;
@@ -47,7 +47,7 @@ w_adj2pasv = dele åpne opne måle fange stjele stele finne teste lage undersøk
 !!!!!!!!!!!!!!!!!!!!!!
 
 tense > tense : pret past ;
-gender > gender_n : m m, f f, nt nt, ut ut, un un, fn fn, mf mf, GD GD ;
+gender > gender_n : m m, f f, nt nt, ut ut, un un, fn fn, mf mf, xpst xpst, xpsts xpsts, xpsto xpsto, xcomp xcomp, xsup xsup, GD GD ;
 number > number_n : sg sg, sp sp, pl pl, ND ND ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -81,7 +81,7 @@ det: (if (1.a_det/tl = dem or 1.lemh/tl = "ena")
 
 ! Note: attrs not included here are not available to reduction rules
 N:     _.gender.number.defnes.case.a_cmp;
-A:     _.a_adj.a_comp.gender.number.defnes.a_cmp;
+A:     _.a_adj.a_comp.gender.number.defnes.case.a_cmp;
 NP:    _.gender.number.defnes;
 DP:    _.gender.number.defnes;
 PP:    _;
@@ -96,7 +96,9 @@ S:     _;                       ! issue 80-workaround
 ! Reduction Rules: !
 !!!!!!!!!!!!!!!!!!!!
 
-N -> %n            { %1[lemcase=$lemcase] }
+N ->
+     "N2A" %n ?(1.mainpos=adj) { %1(A)[lemcase=$lemcase] }
+   |  %n            { %1[lemcase=$lemcase] }
    | n.*.cmp %N     { 1[lemcase=$lemcase] %2 }
    | vblex.*.cmp %N { 1[lemcase=$lemcase] %2 }
    | n.*.cmp-split [w_ogeller]@cnjcoo %N { 1[lemcase=$lemcase] _ 2 _ %3 }
