@@ -413,7 +413,8 @@
       <par n="SN|prn"/>
       <par n="FV"/>
     </e>
-    <e lm="noe synes han FV → noe synes han at FV" c="något tycker han att FV">
+    <e lm="noe synes han FV → noe synes han at FV" c="något tycker han att FV (topicalisation)">
+      <i><w/><s n="cnjcoo"/></i> <par n="td"/>
       <par n="SN|adv|prn|"/>
       <i>synes<s n="vblex"/></i> <par n="td"/>
       <par n="prn_nom"/>
