@@ -421,6 +421,14 @@
       <p><l></l> <r>at<s n="cnjsub"/><d/></r></p>
       <par n="FV"/>
     </e>
+    <e lm=". Det synes han FV → . Det synes han at FV" c=". Det tycker han att FV (topicalisation)">
+      <i><w/><s n="sent"/></i> <par n="td"/>
+      <par n="SN|adv|prn|"/>
+      <i>synes<s n="vblex"/></i> <par n="td"/>
+      <par n="prn_nom"/>
+      <p><l></l> <r>at<s n="cnjsub"/><d/></r></p>
+      <par n="FV"/>
+    </e>
 
     <e lm="driver X med → holder X på med" c="håller X på med">
       <p><l>drive<s n="vblex"/></l> <r>holde<s n="vblex"/></r></p> <par n="td"/>
