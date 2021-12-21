@@ -6619,5 +6619,7 @@
     <match lemma="akkurat" tags="adv"><select lemma="just"/></match>
     <match lemma="nå"/>
   </rule>
+
+  <rule><match lemma="kjæledyr" tags="n.*"><select lemma="keldjur"/></match></rule>
 </rules>
 </lrx>
