@@ -4598,4 +4598,11 @@
   <rule><match lemma="sjølvsagt" tags="adv"><select lemma="självklart"/></match></rule>
   <rule><match lemma="dyrlege" tags="n.*"><select lemma="djurläkar"/></match></rule>
   <rule><match lemma="viss" tags="cnjsub.*"><select lemma="ifall"/></match></rule>
+
+  <rule><match lemma="av" tags="pr"><select lemma="av"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="smitte"/>
+    <match lemma="av" tags="pr"><select lemma="med"/></match>
+  </rule>
+
 </rules>
