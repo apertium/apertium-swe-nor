@@ -430,20 +430,6 @@
     <match lemma="forming" tags="n.*"><select lemma="teckning"/></match>
   </rule>
 
-  <rule><match lemma="være" tags="vblex.*"><select lemma="vara¹" tags="vblex.*"/></match></rule>
-  <rule><match lemma="være" tags="adj.pp.*"><select lemma="vara¹" tags="adj.pp.*"/></match></rule>
-  <rule weight="2.0" c="er blitt smittet → har blitt smittet">
-    <match lemma="være" tags="vblex.*"><select lemma="ha" tags="vblex.*"/></match>
-    <or>
-      <match lemma="bli" tags="vblex.pp"/>
-      <match lemma="bli" tags="adj.pp.*"/>
-    </or>
-    <or>
-      <match tags="vblex.pp"/>
-      <match tags="adj.pp.*"/>
-    </or>
-  </rule>
-
   <rule><match lemma="internasjonal" tags="adj.*"><select lemma="internationell"/></match></rule>
 
   <rule><match lemma="mange" tags="adj.*"><select lemma="mången"/></match></rule>
@@ -5419,7 +5405,24 @@
     <match lemma="være" tags="vblex.inf"><select lemma="vara¹" tags="vblex.prs.actv"/></match>
     <match lemma="god" tags="adj.sint.pst.mf.sg.ind"/>
   </rule>
-
+  <!-- handwritten være/ha: -->
+  <rule weight="0.95"><match lemma="vare" tags="vblex.*"><select lemma="vara²"/></match></rule>
+  <rule weight="0.95"><match lemma="være" tags="vblex.*"><select lemma="vara¹"/></match></rule>
+  <rule><match lemma="være" tags="vblex.*"><select lemma="vara¹" tags="vblex.*"/></match></rule>
+  <rule><match lemma="være" tags="adj.pp.*"><select lemma="vara¹" tags="adj.pp.*"/></match></rule>
+  <rule weight="2.2" c="er blitt smittet → har blitt smittet
+                        er livet blitt digitalt → har livet blitt digitalt">
+    <match lemma="være" tags="vblex.*"><select lemma="ha" tags="vblex.*"/></match>
+    <repeat from="0" upto="1"><match tags="n.*.def"/></repeat>
+    <or>
+      <match lemma="bli" tags="vblex.pp"/>
+      <match lemma="bli" tags="adj.pp.*"/>
+    </or>
+    <or>
+      <match tags="vblex.pp"/>
+      <match tags="adj.*"/>
+    </or>
+  </rule>
 
   <rule><match lemma="særlig" ><select lemma="särskilt"/></match></rule>
   <rule><match lemma="særlig" ><select lemma="särskild"/></match></rule>
@@ -5449,7 +5452,6 @@
 
 <!-- WikiMatrix fast_align default rules: -->
 <rule weight="0.95"><match lemma="til" tags="pr>"><select lemma="till"/></match></rule>
-<rule weight="0.95"><match lemma="være" tags="vblex.*"><select lemma="vara¹"/></match></rule>
 <rule weight="0.95"><match lemma="som" tags="pr>"><select lemma="som"/></match></rule>
 <rule weight="0.95"><match lemma="ikke" tags="adv>"><select lemma="inte"/></match></rule>
 <rule weight="0.95"><match lemma="også" tags="adv>"><select lemma="också"/></match></rule>
@@ -5962,7 +5964,6 @@
 <rule weight="0.95"><match lemma="anledning" tags="n.m.*"><select lemma="tillfälle"/></match></rule>
 <rule weight="0.95"><match lemma="verktøy" tags="n.nt.*"><select lemma="verktyg"/></match></rule>
 <rule weight="0.95"><match lemma="vel" tags="adv>"><select lemma="väl"/></match></rule>
-<rule weight="0.95"><match lemma="vare" tags="vblex.*"><select lemma="vara²"/></match></rule>
 <rule weight="0.95"><match lemma="tyde" tags="vblex.*"><select lemma="tyda"/></match></rule>
 <rule weight="0.95"><match lemma="tvinge" tags="vblex.*"><select lemma="tvinga"/></match></rule>
 <rule weight="0.95"><match lemma="tillatelse" tags="n.m.*"><select lemma="tillåtelse"/></match></rule>
