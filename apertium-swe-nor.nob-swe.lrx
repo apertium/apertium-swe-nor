@@ -91,9 +91,15 @@
     <repeat from="0" upto="6"><match/></repeat>
     <match lemma="reise"/>
   </rule>
-  <rule weight="2.0">
+  <rule weight="2.0" c="hur många">
     <match lemma="hvor" tags="adv"><select lemma="hur" tags="adv"/></match>
-    <match lemma="mange"/>
+    <match lemma="mange" tags="adj.sint.pst.*" />
+  </rule>
+  <rule weight="2.0" c="ett av de … där">
+    <match lemma="en"/>
+    <match lemma="av"/>
+    <repeat from="1" upto="2"><match/></repeat>
+    <match lemma="hvor" tags="adv"><select lemma="där" tags="adv"/></match>
   </rule>
 
   <rule weight="1.0">
@@ -6621,5 +6627,15 @@
   </rule>
 
   <rule><match lemma="kjæledyr" tags="n.*"><select lemma="keldjur"/></match></rule>
+
+  <rule><match lemma="mer" tags="adv"><select lemma="mycket" tags="adv.comp"/></match></rule>
+  <rule weight="2.0">
+    <or>
+      <match lemma="med"/>
+      <match lemma="og"/>
+      <match lemma="ännu"/>
+    </or>
+    <match lemma="mer" tags="adv"><select lemma="mera"/></match>
+  </rule>
 </rules>
 </lrx>
