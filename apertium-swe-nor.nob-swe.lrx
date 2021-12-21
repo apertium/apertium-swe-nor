@@ -6613,5 +6613,11 @@
   <rule><match lemma="antageligvis" tags="adv"><select lemma="tydligen"/></match></rule>
 
   <rule><match lemma="vern" tags="n.*"><select lemma="skydd"/></match></rule>
+
+  <rule><match lemma="akkurat" tags="adv"><select lemma="precis"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="akkurat" tags="adv"><select lemma="just"/></match>
+    <match lemma="nå"/>
+  </rule>
 </rules>
 </lrx>
