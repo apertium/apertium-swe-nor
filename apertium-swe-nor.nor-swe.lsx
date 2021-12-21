@@ -405,11 +405,19 @@
       <par n="SN|prn"/>
       <par n="FV"/>
     </e>
+
     <e lm="synes han X FV → synes han at X FV" c="tycker han att X FV">
       <i>synes<s n="vblex"/></i> <par n="td"/>
       <par n="SN|adv|prn|"/>
       <p><l></l> <r>at<s n="cnjsub"/><d/></r></p>
       <par n="SN|prn"/>
+      <par n="FV"/>
+    </e>
+    <e lm="noe synes han FV → noe synes han at FV" c="något tycker han att FV">
+      <par n="SN|adv|prn|"/>
+      <i>synes<s n="vblex"/></i> <par n="td"/>
+      <par n="prn_nom"/>
+      <p><l></l> <r>at<s n="cnjsub"/><d/></r></p>
       <par n="FV"/>
     </e>
 
