@@ -1052,8 +1052,6 @@
 <rule weight="0.9"><match lemma="dose" tags="n.*"><select lemma="dos" tags="n.ut.*"/></match></rule><!-- 570 -->
 <rule weight="0.9"><match lemma="dosis" tags="n.*"><select lemma="dos" tags="n.ut.*"/></match></rule><!-- 570 -->
 <rule weight="0.9"><match lemma="do" tags="n.nt.*"><select lemma="dass" tags="n.nt.*"/></match></rule><!-- 122 -->
-<rule weight="0.9"><match lemma="dra" tags="vblex.*"><select lemma="dra" tags="vblex.*"/></match></rule><!-- 16517 -->
-<rule weight="0.9"><match lemma="dra" tags="adj.pp.*"><select lemma="dra" tags="adj.pp.*"/></match></rule><!-- 16517 -->
 <rule weight="0.9"><match lemma="dreise" tags="vblex.*"><select lemma="slå" tags="vblex.*"/></match></rule><!-- 16277 -->
 <rule weight="0.9"><match lemma="dreise" tags="adj.pp.*"><select lemma="slå" tags="adj.pp.*"/></match></rule><!-- 16277 -->
 <rule weight="0.9"><match lemma="dreis" tags="n.*"><select lemma="fart" tags="n.ut.*"/></match></rule><!-- 3843 -->
@@ -3467,8 +3465,6 @@
 <rule weight="0.9"><match lemma="rettferdig" tags="adj.*"><select lemma="rättvis" tags="adj.*"/></match></rule><!-- 2100 -->
 <rule weight="0.9"><match lemma="rettmessig" tags="adj.*"><select lemma="rättmätig" tags="adj.*"/></match></rule><!-- 174 -->
 <rule weight="0.9"><match lemma="rettsvitenskap" tags="n.*"><select lemma="rättsvetenskap" tags="n.ut.*"/></match></rule><!-- 9 -->
-<rule weight="0.9"><match lemma="rett" tags="adj.*"><select lemma="rätt" tags="adj.*"/></match></rule><!-- 26811 -->
-<rule weight="0.9"><match lemma="rett" tags="n.*"><select lemma="rätt" tags="n.ut.*"/></match></rule><!-- 7768 -->
 <rule weight="0.9"><match lemma="returnere" tags="vblex.*"><select lemma="återkomma" tags="vblex.*"/></match></rule><!-- 1170 -->
 <rule weight="0.9"><match lemma="returnere" tags="adj.pp.*"><select lemma="återkomma" tags="adj.pp.*"/></match></rule><!-- 1170 -->
 <rule weight="0.9"><match lemma="revisjon" tags="n.*"><select lemma="bedömning" tags="n.ut.*"/></match></rule><!-- 281 -->
@@ -4843,6 +4839,14 @@
 <rule weight="0.9"><match lemma="århundre" tags="n.nt.*"><select lemma="århundrade" tags="n.nt.*"/></match></rule><!-- 971 -->
 <rule weight="0.9"><match lemma="årlig" tags="adj.*"><select lemma="årlig" tags="adj.*"/></match></rule><!-- 460 -->
   <!-- /frequency based rules  -->
+
+  <rule><match lemma="dra" tags="vblex.*"><select lemma="dra" tags="vblex.*"/></match></rule>
+  <rule><match lemma="dra" tags="adj.pp.*"><select lemma="dra" tags="adj.pp.*"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="dra"><select lemma="åka"/></match>
+    <match lemma="rett"><select lemma="direkt"/></match>
+  </rule>
+  <rule><match lemma="rett"><select lemma="rätt"/></match></rule>
 
   <rule><match lemma="bæsj" tags="n.*"><select lemma="bajs"/></match></rule>
 
