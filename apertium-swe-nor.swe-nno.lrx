@@ -3269,4 +3269,5 @@
   <rule><match lemma="låtsas" tags="vblex.*"><select lemma="late# som"/></match></rule>
 
   <rule><match lemma="med" tags="pr"><select lemma="med"/></match></rule>
+  <rule><match lemma="kram" tags="n.*"><select lemma="klem"/></match></rule>
 </rules>
