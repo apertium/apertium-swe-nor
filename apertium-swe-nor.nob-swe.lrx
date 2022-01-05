@@ -6670,5 +6670,7 @@
     </or>
     <match lemma="pass" tags="n.*"><select lemma="vakt"/></match>
   </rule>
+
+  <rule><match lemma="flat" tags="adj.*"><select lemma="platt"/></match></rule>
 </rules>
 </lrx>

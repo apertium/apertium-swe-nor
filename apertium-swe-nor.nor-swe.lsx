@@ -368,6 +368,12 @@
       <p><l>av<t/><d/></l>   <r></r></p>
     </e>
 
+    <e lm="bakerst → lengst bak" c="längst bak">
+      <p> <l>bakre<s n="adj"/><s n="sint"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/><d/></l> <r></r></p>
+      <p><l></l> <r>lengst<s n="adv"/><d/></r></p>
+      <p><l></l> <r>bak<s n="adv"/><d/></r></p>
+    </e>
+
     <e lm="lov til å → lov å" c="lov att">
       <i>lov</i> <par n="td"/>
       <p><l>til<t/><d/></l>   <r></r></p>
