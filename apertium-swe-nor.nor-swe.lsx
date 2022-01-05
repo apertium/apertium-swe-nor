@@ -363,6 +363,11 @@
     </e>
 
 
+    <e lm="tusenvis av → tusenvis" c="tusantals">
+      <i>tusenvis</i> <par n="td"/>
+      <p><l>av<t/><d/></l>   <r></r></p>
+    </e>
+
     <e lm="lov til å → lov å" c="lov att">
       <i>lov</i> <par n="td"/>
       <p><l>til<t/><d/></l>   <r></r></p>
