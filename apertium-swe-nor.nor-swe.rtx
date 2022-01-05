@@ -269,6 +269,7 @@ DP2 ->
       "vennene mine virtuelt" DP A         { %1 _ 2 }
     | "vennene hennes redde"  DP ADV       { %1 _ 2 }
     | "et sekund eller to"    DP cnjcoo DP { %1 _ 2 _ 3 }
+    | "gode og fine folk"     A cnjcoo DP  { 1 _ 2 _ %3 }
     ;
 
 S ->
