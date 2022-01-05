@@ -6644,10 +6644,11 @@
   </rule>
 
   <rule><match lemma="av" tags="pr"><select lemma="av"/></match></rule>
-  <rule weight="2.0">
-    <match lemma="smitte"/>
-    <match lemma="av" tags="pr"><select lemma="med"/></match>
-  </rule>
+  <!-- seems «smittad med» is used less than «smittad av» -->
+  <!-- <rule weight="2.0"> -->
+  <!--   <match lemma="smitte"/> -->
+  <!--   <match lemma="av" tags="pr"><select lemma="med"/></match> -->
+  <!-- </rule> -->
 
 </rules>
 </lrx>
