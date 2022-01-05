@@ -6650,5 +6650,9 @@
   <!--   <match lemma="av" tags="pr"><select lemma="med"/></match> -->
   <!-- </rule> -->
 
+  <!-- nt more likely than ut for godis: -->
+  <rule><match lemma="godteri" tags="n.*"><select lemma="godis" tags="n.nt.*"/></match></rule>
+  <rule><match lemma="søtsaker" tags="n.*"><select lemma="godis" tags="n.nt.*"/></match></rule>
+  <rule><match lemma="sukkertøy" tags="n.*"><select lemma="godis" tags="n.nt.*"/></match></rule>
 </rules>
 </lrx>
