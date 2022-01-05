@@ -6654,5 +6654,21 @@
   <rule><match lemma="godteri" tags="n.*"><select lemma="godis" tags="n.nt.*"/></match></rule>
   <rule><match lemma="søtsaker" tags="n.*"><select lemma="godis" tags="n.nt.*"/></match></rule>
   <rule><match lemma="sukkertøy" tags="n.*"><select lemma="godis" tags="n.nt.*"/></match></rule>
+
+  <rule><match lemma="ekkel" tags="adj.*"><select lemma="läskig"/></match></rule>
+
+  <rule><match lemma="hårete" tags="adj.*"><select lemma="hårig"/></match></rule>
+
+  <rule><match lemma="pass" tags="n.*"><select lemma="pass"/></match></rule>
+  <rule c="kattepass">
+    <or>
+      <match lemma="katt"/>
+      <match lemma="hund"/>
+      <match lemma="hest"/>
+      <match lemma="barn"/>
+      <match lemma="gris"/>
+    </or>
+    <match lemma="pass" tags="n.*"><select lemma="vakt"/></match>
+  </rule>
 </rules>
 </lrx>
