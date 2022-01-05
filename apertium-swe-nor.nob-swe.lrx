@@ -6672,5 +6672,9 @@
   </rule>
 
   <rule><match lemma="flat" tags="adj.*"><select lemma="platt"/></match></rule>
+  <rule><match lemma="datamaskin" tags="n.*"><select lemma="dator"/></match></rule>
+  <rule><match lemma="halvpart" tags="n.*"><select lemma="hälft"/></match></rule>
+  <rule><match lemma="smil" tags="n.*"><select lemma="leende"/></match></rule>
+  <rule><match lemma="bol" tags="n.*"><select lemma="bo"/></match></rule>
 </rules>
 </lrx>

@@ -4605,4 +4605,7 @@
     <match lemma="av" tags="pr"><select lemma="med"/></match>
   </rule>
 
+  <rule><match lemma="datamaskin" tags="n.*"><select lemma="dator"/></match></rule>
+  <rule><match lemma="halvpart" tags="n.*"><select lemma="hälft"/></match></rule>
+  <rule><match lemma="smil" tags="n.*"><select lemma="leende"/></match></rule>
 </rules>
