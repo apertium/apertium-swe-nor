@@ -391,6 +391,13 @@
       <i>at</i> <par n="td"/>
     </e>
 
+    <e lm="virker begge veier → drar til begge veier" c="drar åt bägge håll">
+      <p> <l>virke<s n="vblex"/></l> <r>dra<s n="vblex"/></r></p> <par n="td"/>
+      <p> <l></l> <r>til<s n="pr"/><d/></r></p>
+      <i>begge</i> <par n="td"/>
+      <i>vei</i> <par n="td"/>
+    </e>
+
     <e lm="lov til å → lov å" c="lov att">
       <i>lov</i> <par n="td"/>
       <p><l>til<t/><d/></l>   <r></r></p>

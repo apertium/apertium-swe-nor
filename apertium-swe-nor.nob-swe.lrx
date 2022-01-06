@@ -4345,7 +4345,6 @@
 <rule weight="0.9"><match lemma="tilstand" tags="n.*"><select lemma="situation" tags="n.ut.*"/></match></rule><!-- 3684 -->
 <rule weight="0.9"><match lemma="tilstå" tags="vblex.*"><select lemma="bekänna" tags="vblex.*"/></match></rule><!-- 428 -->
 <rule weight="0.9"><match lemma="tilstå" tags="adj.pp.*"><select lemma="bekänna" tags="adj.pp.*"/></match></rule><!-- 428 -->
-<rule weight="0.9"><match lemma="til" tags="pr"><select lemma="till" tags="pr"/></match></rule><!-- 319127 -->
 <rule weight="0.9"><match lemma="tiltak" tags="n.nt.*"><select lemma="åtgärd" tags="n.ut.*"/></match></rule><!-- 700 -->
 <rule weight="0.9"><match lemma="tiltale" tags="n.*"><select lemma="anklagelse" tags="n.ut.*"/></match></rule><!-- 874 -->
 <rule weight="0.9"><match lemma="time" tags="vblex.*"><select lemma="tajma" tags="vblex.*"/></match></rule><!-- 57 -->
@@ -4664,7 +4663,6 @@
 <rule weight="0.9"><match lemma="veikant" tags="n.*"><select lemma="vägkant" tags="n.ut.*"/></match></rule><!-- 88 -->
 <rule weight="0.9"><match lemma="veikje" tags="vblex.*"><select lemma="försvaga" tags="vblex.*"/></match></rule><!-- 432 -->
 <rule weight="0.9"><match lemma="veikje" tags="adj.pp.*"><select lemma="försvaga" tags="adj.pp.*"/></match></rule><!-- 432 -->
-<rule weight="0.9"><match lemma="vei" tags="n.*"><select lemma="väg" tags="n.ut.*"/></match></rule><!-- 32185 -->
 <rule weight="0.9"><match lemma="veive" tags="vblex.*"><select lemma="slänga" tags="vblex.*"/></match></rule><!-- 2337 -->
 <rule weight="0.9"><match lemma="veive" tags="adj.pp.*"><select lemma="slänga" tags="adj.pp.*"/></match></rule><!-- 2337 -->
 <rule weight="0.9"><match lemma="vekke" tags="vblex.*"><select lemma="väcka" tags="vblex.*"/></match></rule><!-- 2978 -->
@@ -5459,7 +5457,6 @@
   </rule>
 
 <!-- WikiMatrix fast_align default rules: -->
-<rule weight="0.95"><match lemma="til" tags="pr>"><select lemma="till"/></match></rule>
 <rule weight="0.95"><match lemma="som" tags="pr>"><select lemma="som"/></match></rule>
 <rule weight="0.95"><match lemma="ikke" tags="adv>"><select lemma="inte"/></match></rule>
 <rule weight="0.95"><match lemma="også" tags="adv>"><select lemma="också"/></match></rule>
@@ -5504,7 +5501,6 @@
 <rule weight="0.95"><match lemma="begynnelse" tags="n.m.*"><select lemma="början"/></match></rule>
 <rule weight="0.95"><match lemma="fortsette" tags="vblex.*"><select lemma="fortsätta"/></match></rule>
 <rule weight="0.95"><match lemma="hus" tags="n.nt.*"><select lemma="hus"/></match></rule>
-<rule weight="0.95"><match lemma="vei" tags="n.m.*"><select lemma="väg"/></match></rule>
 <rule weight="0.95"><match lemma="ulik" tags="adj.*"><select lemma="olik"/></match></rule>
 <rule weight="0.95"><match lemma="problem" tags="n.nt.*"><select lemma="problem"/></match></rule>
 <rule weight="0.95"><match lemma="da" tags="adv>"><select lemma="då"/></match></rule>
@@ -6551,6 +6547,17 @@
 <rule weight="0.95"><match lemma="anlegg" tags="n.nt.*"><select lemma="anläggning"/></match></rule>
 <rule weight="0.95"><match lemma="advare" tags="vblex.*"><select lemma="varna"/></match></rule>
 <rule weight="0.95"><match lemma="adelsmann" tags="n.m.*"><select lemma="adelsman"/></match></rule>
+
+  <!-- manual rules: -->
+  <rule><match lemma="til" tags="pr"><select lemma="till"/></match></rule>
+  <rule><match lemma="begge" tags="prn.*"><select lemma="båda"/></match></rule>
+
+  <rule><match lemma="vei" tags="n.*"><select lemma="väg"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="til"><select lemma="åt"/></match>
+    <match lemma="begge"><select lemma="bägge"/></match>
+    <match lemma="vei" tags="n.*"><select lemma="håll"/></match>
+  </rule>
 
   <rule><match lemma="dato" tags="n.*"><select lemma="datum"/></match></rule>
   <rule weight="2.0" c="dags dato">
