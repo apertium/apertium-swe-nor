@@ -4825,7 +4825,7 @@
 
   <rule><match lemma="runde" tags="n.*"><select lemma="omgång"/></match></rule>
   <rule weight="2.0">
-    <match lemma="runde" tags="n.*"><select lemma="tur"/></match>
+    <match lemma="runde" tags="n.*"><select lemma="runda"/></match>
     <or>
       <match lemma="rundt"/>
       <match lemma="rund"/>
