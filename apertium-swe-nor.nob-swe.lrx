@@ -3515,7 +3515,6 @@
 <rule weight="0.9"><match lemma="rulle" tags="vblex.*"><select lemma="rulla" tags="vblex.*"/></match></rule><!-- 942 -->
 <rule weight="0.9"><match lemma="rulle" tags="adj.pp.*"><select lemma="rulla" tags="adj.pp.*"/></match></rule><!-- 942 -->
 <rule weight="0.9"><match lemma="rull" tags="n.*"><select lemma="rulle" tags="n.ut.*"/></match></rule><!-- 528 -->
-<rule weight="0.9"><match lemma="runde" tags="n.*"><select lemma="varv" tags="n.nt.*"/></match></rule><!-- 650 -->
 <rule weight="0.9"><match lemma="rundtur" tags="n.*"><select lemma="rundtur" tags="n.ut.*"/></match></rule><!-- 204 -->
 <rule weight="0.9"><match lemma="ruske" tags="vblex.*"><select lemma="ruska" tags="vblex.*"/></match></rule><!-- 51 -->
 <rule weight="0.9"><match lemma="ruske" tags="adj.pp.*"><select lemma="ruska" tags="adj.pp.*"/></match></rule><!-- 51 -->
@@ -4825,6 +4824,15 @@
 <rule weight="0.9"><match lemma="århundre" tags="n.nt.*"><select lemma="århundrade" tags="n.nt.*"/></match></rule><!-- 971 -->
 <rule weight="0.9"><match lemma="årlig" tags="adj.*"><select lemma="årlig" tags="adj.*"/></match></rule><!-- 460 -->
   <!-- /frequency based rules  -->
+
+  <rule><match lemma="runde" tags="n.*"><select lemma="omgång"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="runde" tags="n.*"><select lemma="tur"/></match>
+    <or>
+      <match lemma="rundt"/>
+      <match lemma="rund"/>
+    </or>
+  </rule>
 
   <rule><match lemma="dra" tags="vblex.*"><select lemma="dra" tags="vblex.*"/></match></rule>
   <rule><match lemma="dra" tags="adj.pp.*"><select lemma="dra" tags="adj.pp.*"/></match></rule>
@@ -6677,5 +6685,8 @@
   <rule><match lemma="smil" tags="n.*"><select lemma="leende"/></match></rule>
   <rule><match lemma="bol" tags="n.*"><select lemma="bo"/></match></rule>
   <rule><match lemma="menighet" tags="n.*"><select lemma="församling"/></match></rule>
+
+  <rule><match lemma="flis" tags="n.*"><select lemma="platta"/></match></rule>
+  <rule><match lemma="legg" tags="n.*"><select lemma="ben"/></match></rule>
 </rules>
 </lrx>
