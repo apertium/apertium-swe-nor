@@ -5457,10 +5457,10 @@
   </rule>
 
 <!-- WikiMatrix fast_align default rules: -->
-<rule weight="0.95"><match lemma="som" tags="pr>"><select lemma="som"/></match></rule>
+<rule weight="0.95"><match lemma="som" tags="pr"><select lemma="som"/></match></rule>
 <rule weight="0.95"><match lemma="ikke" tags="adv>"><select lemma="inte"/></match></rule>
 <rule weight="0.95"><match lemma="også" tags="adv>"><select lemma="också"/></match></rule>
-<rule weight="0.95"><match lemma="etter" tags="pr>"><select lemma="efter"/></match></rule>
+<rule weight="0.95"><match lemma="etter" tags="pr"><select lemma="efter"/></match></rule>
 <rule weight="0.95"><match lemma="men" tags="cnjcoo.clb>"><select lemma="men"/></match></rule>
 <rule weight="0.95"><match lemma="få" tags="vblex.*"><select lemma="få"/></match></rule>
 <rule weight="0.95"><match lemma="kunne" tags="vblex.*"><select lemma="kunna"/></match></rule>
@@ -5480,7 +5480,7 @@
 <rule weight="0.95"><match lemma="begynne" tags="vblex.*"><select lemma="börja"/></match></rule>
 <rule weight="0.95"><match lemma="parti" tags="n.nt.*"><select lemma="parti"/></match></rule>
 <rule weight="0.95"><match lemma="slutt" tags="n.m.*"><select lemma="slut"/></match></rule>
-<rule weight="0.95"><match lemma="gjennom" tags="pr>"><select lemma="genom"/></match></rule>
+<rule weight="0.95"><match lemma="gjennom" tags="pr"><select lemma="genom"/></match></rule>
 <rule weight="0.95"><match lemma="gå" tags="vblex.*"><select lemma="gå"/></match></rule>
 <rule weight="0.95"><match lemma="medlem" tags="n.nt.*"><select lemma="medlem"/></match></rule>
 <rule weight="0.95"><match lemma="liten" tags="adj.*"><select lemma="liten"/></match></rule>
@@ -5504,7 +5504,7 @@
 <rule weight="0.95"><match lemma="ulik" tags="adj.*"><select lemma="olik"/></match></rule>
 <rule weight="0.95"><match lemma="problem" tags="n.nt.*"><select lemma="problem"/></match></rule>
 <rule weight="0.95"><match lemma="da" tags="adv>"><select lemma="då"/></match></rule>
-<rule weight="0.95"><match lemma="sted" tags="n>"><select lemma="plats"/></match></rule>
+<rule weight="0.95"><match lemma="sted" tags="n.*"><select lemma="plats"/></match></rule>
 <rule weight="0.95"><match lemma="makt" tags="n.m.*"><select lemma="makt"/></match></rule>
 <rule weight="0.95"><match lemma="forskjellig" tags="adj.*"><select lemma="olik"/></match></rule>
 <rule weight="0.95"><match lemma="allerede" tags="adv>"><select lemma="redan"/></match></rule>
@@ -5544,7 +5544,7 @@
 <rule weight="0.95"><match lemma="alltid" tags="adv>"><select lemma="alltid"/></match></rule>
 <rule weight="0.95"><match lemma="soldat" tags="n.m.*"><select lemma="soldat"/></match></rule>
 <rule weight="0.95"><match lemma="selskap" tags="n.nt.*"><select lemma="företag"/></match></rule>
-<rule weight="0.95"><match lemma="omkring" tags="pr>"><select lemma="omkring"/></match></rule>
+<rule weight="0.95"><match lemma="omkring" tags="pr"><select lemma="omkring"/></match></rule>
 <rule weight="0.95"><match lemma="igjen" tags="adv>"><select lemma="igen"/></match></rule>
 <rule weight="0.95"><match lemma="tjeneste" tags="n.m.*"><select lemma="tjänst"/></match></rule>
 <rule weight="0.95"><match lemma="møte" tags="n.nt.*"><select lemma="möte"/></match></rule>
@@ -5596,7 +5596,7 @@
 <rule weight="0.95"><match lemma="dog" tags="adv>"><select lemma="dock"/></match></rule>
 <rule weight="0.95"><match lemma="vokse" tags="vblex.*"><select lemma="växa"/></match></rule>
 <rule weight="0.95"><match lemma="velge" tags="vblex.*"><select lemma="välja"/></match></rule>
-<rule weight="0.95"><match lemma="opprør" tags="n>"><select lemma="uppror"/></match></rule>
+<rule weight="0.95"><match lemma="opprør" tags="n.*"><select lemma="uppror"/></match></rule>
 <rule weight="0.95"><match lemma="samarbeid" tags="n.nt.*"><select lemma="samarbete"/></match></rule>
 <rule weight="0.95"><match lemma="forbindelse" tags="n.m.*"><select lemma="förbindelse"/></match></rule>
 <rule weight="0.95"><match lemma="sang" tags="n.m.*"><select lemma="sång"/></match></rule>
@@ -5641,7 +5641,7 @@
 <rule weight="0.95"><match lemma="linje" tags="n.m.*"><select lemma="linje"/></match></rule>
 <rule weight="0.95"><match lemma="jernbane" tags="n.m.*"><select lemma="järnväg"/></match></rule>
 <rule weight="0.95"><match lemma="hovedsakelig" tags="adv>"><select lemma="huvudsakligen"/></match></rule>
-<rule weight="0.95"><match lemma="dikt" tags="n>"><select lemma="dikt"/></match></rule>
+<rule weight="0.95"><match lemma="dikt" tags="n.*"><select lemma="dikt"/></match></rule>
 <rule weight="0.95"><match lemma="bane" tags="n.m.*"><select lemma="bana"/></match></rule>
 <rule weight="0.95"><match lemma="kjøpe" tags="vblex.*"><select lemma="köpa"/></match></rule>
 <rule weight="0.95"><match lemma="forekomme" tags="vblex.*"><select lemma="förekomma"/></match></rule>
@@ -5676,7 +5676,7 @@
 <rule weight="0.95"><match lemma="situasjon" tags="n.m.*"><select lemma="situation"/></match></rule>
 <rule weight="0.95"><match lemma="ordre" tags="n.m.*"><select lemma="order"/></match></rule>
 <rule weight="0.95"><match lemma="milliard" tags="n.m.*"><select lemma="miljard"/></match></rule>
-<rule weight="0.95"><match lemma="innenfor" tags="pr>"><select lemma="inom"/></match></rule>
+<rule weight="0.95"><match lemma="innenfor" tags="pr"><select lemma="inom"/></match></rule>
 <rule weight="0.95"><match lemma="fange" tags="n.m.*"><select lemma="fånge"/></match></rule>
 <rule weight="0.95"><match lemma="elv" tags="n.m.*"><select lemma="flod"/></match></rule>
 <rule weight="0.95"><match lemma="kontor" tags="n.nt.*"><select lemma="kontor"/></match></rule>
@@ -5719,9 +5719,9 @@
 <rule weight="0.95"><match lemma="rom" tags="n.nt.*"><select lemma="rum"/></match></rule>
 <rule weight="0.95"><match lemma="omfatte" tags="vblex.*"><select lemma="omfatta"/></match></rule>
 <rule weight="0.95"><match lemma="klokke" tags="n.m.*"><select lemma="klocka"/></match></rule>
-<rule weight="0.95"><match lemma="hoff" tags="n>"><select lemma="hov"/></match></rule>
+<rule weight="0.95"><match lemma="hoff" tags="n.*"><select lemma="hov"/></match></rule>
 <rule weight="0.95"><match lemma="handling" tags="n.m.*"><select lemma="handling"/></match></rule>
-<rule weight="0.95"><match lemma="symbol" tags="n>"><select lemma="symbol"/></match></rule>
+<rule weight="0.95"><match lemma="symbol" tags="n.*"><select lemma="symbol"/></match></rule>
 <rule weight="0.95"><match lemma="stilling" tags="n.m.*"><select lemma="ställning"/></match></rule>
 <rule weight="0.95"><match lemma="standard" tags="n.m.*"><select lemma="standard"/></match></rule>
 <rule weight="0.95"><match lemma="scene" tags="n.m.*"><select lemma="scen"/></match></rule>
@@ -5776,7 +5776,7 @@
 <rule weight="0.95"><match lemma="brann" tags="n.m.*"><select lemma="brand"/></match></rule>
 <rule weight="0.95"><match lemma="bevis" tags="n.nt.*"><select lemma="bevis"/></match></rule>
 <rule weight="0.95"><match lemma="altså" tags="adv>"><select lemma="alltså"/></match></rule>
-<rule weight="0.95"><match lemma="tonn" tags="n>"><select lemma="ton"/></match></rule>
+<rule weight="0.95"><match lemma="tonn" tags="n.*"><select lemma="ton"/></match></rule>
 <rule weight="0.95"><match lemma="nord" tags="n.nt.*"><select lemma="norr"/></match></rule>
 <rule weight="0.95"><match lemma="konstruksjon" tags="n.m.*"><select lemma="konstruktion"/></match></rule>
 <rule weight="0.95"><match lemma="kart" tags="n.nt.*"><select lemma="karta"/></match></rule>
@@ -5814,7 +5814,7 @@
 <rule weight="0.95"><match lemma="hard" tags="adj.*"><select lemma="hård"/></match></rule>
 <rule weight="0.95"><match lemma="eiendom" tags="n.m.*"><select lemma="egendom"/></match></rule>
 <rule weight="0.95"><match lemma="betydelig" tags="adj.*"><select lemma="betydlig"/></match></rule>
-<rule weight="0.95"><match lemma="tidspunkt" tags="n>"><select lemma="tidpunkt"/></match></rule>
+<rule weight="0.95"><match lemma="tidspunkt" tags="n.*"><select lemma="tidpunkt"/></match></rule>
 <rule weight="0.95"><match lemma="synes" tags="vblex.*"><select lemma="tycka"/></match></rule>
 <rule weight="0.95"><match lemma="spor" tags="n.nt.*"><select lemma="spår"/></match></rule>
 <rule weight="0.95"><match lemma="produsent" tags="n.m.*"><select lemma="producent"/></match></rule>
@@ -5825,7 +5825,7 @@
 <rule weight="0.95"><match lemma="bokstav" tags="n.m.*"><select lemma="bokstav"/></match></rule>
 <rule weight="0.95"><match lemma="svar" tags="n.nt.*"><select lemma="svar"/></match></rule>
 <rule weight="0.95"><match lemma="støtte" tags="vblex.*"><select lemma="stödja"/></match></rule>
-<rule weight="0.95"><match lemma="sete" tags="n>"><select lemma="säte"/></match></rule>
+<rule weight="0.95"><match lemma="sete" tags="n.*"><select lemma="säte"/></match></rule>
 <rule weight="0.95"><match lemma="sak" tags="n.m.*"><select lemma="sak"/></match></rule>
 <rule weight="0.95"><match lemma="reise" tags="n.m.*"><select lemma="resa"/></match></rule>
 <rule weight="0.95"><match lemma="reaksjon" tags="n.m.*"><select lemma="reaktion"/></match></rule>
@@ -5885,8 +5885,8 @@
 <rule weight="0.95"><match lemma="opprinnelse" tags="n.m.*"><select lemma="ursprung"/></match></rule>
 <rule weight="0.95"><match lemma="likevel" tags="adv>"><select lemma="ändå"/></match></rule>
 <rule weight="0.95"><match lemma="karakter" tags="n.m.*"><select lemma="karaktär"/></match></rule>
-<rule weight="0.95"><match lemma="innhold" tags="n>"><select lemma="innehåll"/></match></rule>
-<rule weight="0.95"><match lemma="hensyn" tags="n>"><select lemma="hänsyn"/></match></rule>
+<rule weight="0.95"><match lemma="innhold" tags="n.*"><select lemma="innehåll"/></match></rule>
+<rule weight="0.95"><match lemma="hensyn" tags="n.*"><select lemma="hänsyn"/></match></rule>
 <rule weight="0.95"><match lemma="gren" tags="n.m.*"><select lemma="gren"/></match></rule>
 <rule weight="0.95"><match lemma="følge" tags="adj.*"><select lemma="följa"/></match></rule>
 <rule weight="0.95"><match lemma="beskrivelse" tags="n.m.*"><select lemma="beskrivning"/></match></rule>
@@ -5898,7 +5898,7 @@
 <rule weight="0.95"><match lemma="umiddelbar" tags="adj.*"><select lemma="omedelbar"/></match></rule>
 <rule weight="0.95"><match lemma="torg" tags="n.nt.*"><select lemma="torg"/></match></rule>
 <rule weight="0.95"><match lemma="stille" tags="vblex.*"><select lemma="ställa"/></match></rule>
-<rule weight="0.95"><match lemma="skrift" tags="n>"><select lemma="skrift"/></match></rule>
+<rule weight="0.95"><match lemma="skrift" tags="n.*"><select lemma="skrift"/></match></rule>
 <rule weight="0.95"><match lemma="skille" tags="vblex.*"><select lemma="skilja"/></match></rule>
 <rule weight="0.95"><match lemma="retning" tags="n.m.*"><select lemma="riktning"/></match></rule>
 <rule weight="0.95"><match lemma="oppfatning" tags="n.m.*"><select lemma="uppfattning"/></match></rule>
@@ -5913,7 +5913,7 @@
 <rule weight="0.95"><match lemma="ankomme" tags="vblex.*"><select lemma="anlända"/></match></rule>
 <rule weight="0.95"><match lemma="amerikaner" tags="n.m.*"><select lemma="amerikan"/></match></rule>
 <rule weight="0.95"><match lemma="virke" tags="vblex.*"><select lemma="verka"/></match></rule>
-<rule weight="0.95"><match lemma="ut av" tags="pr>"><select lemma="ur"/></match></rule>
+<rule weight="0.95"><match lemma="ut av" tags="pr"><select lemma="ur"/></match></rule>
 <rule weight="0.95"><match lemma="tape" tags="vblex.*"><select lemma="förlora"/></match></rule>
 <rule weight="0.95"><match lemma="start" tags="n.m.*"><select lemma="början"/></match></rule>
 <rule weight="0.95"><match lemma="skrift" tags="n.m.*"><select lemma="skrift"/></match></rule>
@@ -5976,7 +5976,7 @@
 <rule weight="0.95"><match lemma="returnere" tags="vblex.*"><select lemma="återvända"/></match></rule>
 <rule weight="0.95"><match lemma="presentere" tags="vblex.*"><select lemma="presentera"/></match></rule>
 <rule weight="0.95"><match lemma="partner" tags="n.m.*"><select lemma="partner"/></match></rule>
-<rule weight="0.95"><match lemma="opphav" tags="n>"><select lemma="ursprung"/></match></rule>
+<rule weight="0.95"><match lemma="opphav" tags="n.*"><select lemma="ursprung"/></match></rule>
 <rule weight="0.95"><match lemma="motsetning" tags="n.f.*"><select lemma="motsats"/></match></rule>
 <rule weight="0.95"><match lemma="medisin" tags="n.m.*"><select lemma="medicin"/></match></rule>
 <rule weight="0.95"><match lemma="konkurs" tags="n.m.*"><select lemma="konkurs"/></match></rule>
@@ -6013,7 +6013,7 @@
 <rule weight="0.95"><match lemma="ben" tags="n.nt.*"><select lemma="ben"/></match></rule>
 <rule weight="0.95"><match lemma="åpning" tags="n.m.*"><select lemma="öppning"/></match></rule>
 <rule weight="0.95"><match lemma="utgave" tags="n.m.*"><select lemma="utgåva"/></match></rule>
-<rule weight="0.95"><match lemma="utgangspunkt" tags="n>"><select lemma="utgångspunkt"/></match></rule>
+<rule weight="0.95"><match lemma="utgangspunkt" tags="n.*"><select lemma="utgångspunkt"/></match></rule>
 <rule weight="0.95"><match lemma="unngå" tags="vblex.*"><select lemma="undvika"/></match></rule>
 <rule weight="0.95"><match lemma="uklar" tags="adj.*"><select lemma="oklar"/></match></rule>
 <rule weight="0.95"><match lemma="tydelig" tags="adj.*"><select lemma="tydlig"/></match></rule>
@@ -6026,7 +6026,7 @@
 <rule weight="0.95"><match lemma="overgang" tags="n.m.*"><select lemma="övergång"/></match></rule>
 <rule weight="0.95"><match lemma="øst" tags="n.m.*"><select lemma="öst"/></match></rule>
 <rule weight="0.95"><match lemma="ønske" tags="vblex.*"><select lemma="vilja"/></match></rule>
-<rule weight="0.95"><match lemma="ønske" tags="n>"><select lemma="önskan"/></match></rule>
+<rule weight="0.95"><match lemma="ønske" tags="n.*"><select lemma="önskan"/></match></rule>
 <rule weight="0.95"><match lemma="nøkkel" tags="n.m.*"><select lemma="nyckel"/></match></rule>
 <rule weight="0.95"><match lemma="nettopp" tags="adv>"><select lemma="just"/></match></rule>
 <rule weight="0.95"><match lemma="nabo" tags="n.m.*"><select lemma="granne"/></match></rule>
@@ -6048,10 +6048,10 @@
 <rule weight="0.95"><match lemma="alvorlig" tags="adj.*"><select lemma="allvarlig"/></match></rule>
 <rule weight="0.95"><match lemma="allikevel" tags="adv>"><select lemma="dock"/></match></rule>
 <rule weight="0.95"><match lemma="alliere" tags="vblex.*"><select lemma="alliera"/></match></rule>
-<rule weight="0.95"><match lemma="vennskap" tags="n>"><select lemma="vänskap"/></match></rule>
+<rule weight="0.95"><match lemma="vennskap" tags="n.*"><select lemma="vänskap"/></match></rule>
 <rule weight="0.95"><match lemma="varme" tags="n.m.*"><select lemma="värme"/></match></rule>
 <rule weight="0.95"><match lemma="uvanlig" tags="adj.*"><select lemma="ovanlig"/></match></rule>
-<rule weight="0.95"><match lemma="stipend" tags="n>"><select lemma="stipendium"/></match></rule>
+<rule weight="0.95"><match lemma="stipend" tags="n.*"><select lemma="stipendium"/></match></rule>
 <rule weight="0.95"><match lemma="stad" tags="n.m.*"><select lemma="stad"/></match></rule>
 <rule weight="0.95"><match lemma="spre" tags="vblex.*"><select lemma="sprida"/></match></rule>
 <rule weight="0.95"><match lemma="skildring" tags="n.m.*"><select lemma="skildring"/></match></rule>
@@ -6091,7 +6091,7 @@
 <rule weight="0.95"><match lemma="samarbeide" tags="vblex.*"><select lemma="samarbeta"/></match></rule>
 <rule weight="0.95"><match lemma="samarbeide" tags="n.nt.*"><select lemma="samarbete"/></match></rule>
 <rule weight="0.95"><match lemma="ramme" tags="vblex.*"><select lemma="drabba"/></match></rule>
-<rule weight="0.95"><match lemma="pseudonym" tags="n>"><select lemma="pseudonym"/></match></rule>
+<rule weight="0.95"><match lemma="pseudonym" tags="n.*"><select lemma="pseudonym"/></match></rule>
 <rule weight="0.95"><match lemma="press" tags="n.m.*"><select lemma="press"/></match></rule>
 <rule weight="0.95"><match lemma="pleie" tags="vblex.*"><select lemma="bruka"/></match></rule>
 <rule weight="0.95"><match lemma="pensjon" tags="n.m.*"><select lemma="pension"/></match></rule>
@@ -6152,7 +6152,7 @@
 <rule weight="0.95"><match lemma="havne" tags="vblex.*"><select lemma="hamna"/></match></rule>
 <rule weight="0.95"><match lemma="gratis" tags="adj.*"><select lemma="gratis"/></match></rule>
 <rule weight="0.95"><match lemma="fullstendig" tags="adj.*"><select lemma="fullständig"/></match></rule>
-<rule weight="0.95"><match lemma="framfor" tags="pr>"><select lemma="framför"/></match></rule>
+<rule weight="0.95"><match lemma="framfor" tags="pr"><select lemma="framför"/></match></rule>
 <rule weight="0.95"><match lemma="forsamling" tags="n.f.*"><select lemma="församling"/></match></rule>
 <rule weight="0.95"><match lemma="forfader" tags="n.m.*"><select lemma="förfader"/></match></rule>
 <rule weight="0.95"><match lemma="fordeling" tags="n.m.*"><select lemma="fördelning"/></match></rule>
@@ -6199,7 +6199,7 @@
 <rule weight="0.95"><match lemma="hensikt" tags="n.m.*"><select lemma="syfte"/></match></rule>
 <rule weight="0.95"><match lemma="gjelde" tags="adj.*"><select lemma="gälla"/></match></rule>
 <rule weight="0.95"><match lemma="formann" tags="n.m.*"><select lemma="ordförande"/></match></rule>
-<rule weight="0.95"><match lemma="foran" tags="pr>"><select lemma="framför"/></match></rule>
+<rule weight="0.95"><match lemma="foran" tags="pr"><select lemma="framför"/></match></rule>
 <rule weight="0.95"><match lemma="folkeavstemning" tags="n.m.*"><select lemma="folkomröstning"/></match></rule>
 <rule weight="0.95"><match lemma="effektiv" tags="adj.*"><select lemma="effektiv"/></match></rule>
 <rule weight="0.95"><match lemma="drepe" tags="vblex.*"><select lemma="döda"/></match></rule>
@@ -6247,7 +6247,7 @@
 <rule weight="0.95"><match lemma="årlig" tags="adj.*"><select lemma="årlig"/></match></rule>
 <rule weight="0.95"><match lemma="ansvarlig" tags="adj.*"><select lemma="ansvarig"/></match></rule>
 <rule weight="0.95"><match lemma="ånd" tags="n.m.*"><select lemma="anda"/></match></rule>
-<rule weight="0.95"><match lemma="tiltak" tags="n>"><select lemma="åtgärd"/></match></rule>
+<rule weight="0.95"><match lemma="tiltak" tags="n.*"><select lemma="åtgärd"/></match></rule>
 <rule weight="0.95"><match lemma="tilpasse" tags="vblex.*"><select lemma="anpassa"/></match></rule>
 <rule weight="0.95"><match lemma="styrke" tags="vblex.*"><select lemma="stärka"/></match></rule>
 <rule weight="0.95"><match lemma="strekning" tags="n.m.*"><select lemma="sträcka"/></match></rule>
@@ -6457,7 +6457,7 @@
 <rule weight="0.95"><match lemma="vekt" tags="n.f.*"><select lemma="vikt"/></match></rule>
 <rule weight="0.95"><match lemma="utgi" tags="vblex.*"><select lemma="ge ut"/></match></rule>
 <rule weight="0.95"><match lemma="utgang" tags="n.m.*"><select lemma="utgång"/></match></rule>
-<rule weight="0.95"><match lemma="unntatt" tags="pr>"><select lemma="utom"/></match></rule>
+<rule weight="0.95"><match lemma="unntatt" tags="pr"><select lemma="utom"/></match></rule>
 <rule weight="0.95"><match lemma="underholdning" tags="n.m.*"><select lemma="underhållning"/></match></rule>
 <rule weight="0.95"><match lemma="tro" tags="adj.*"><select lemma="tro"/></match></rule>
 <rule weight="0.95"><match lemma="tråd" tags="n.m.*"><select lemma="tråd"/></match></rule>
@@ -6508,7 +6508,7 @@
 <rule weight="0.95"><match lemma="levere" tags="vblex.*"><select lemma="leverera"/></match></rule>
 <rule weight="0.95"><match lemma="levende" tags="adj.*"><select lemma="levande"/></match></rule>
 <rule weight="0.95"><match lemma="lett" tags="adj.*"><select lemma="lätt"/></match></rule>
-<rule weight="0.95"><match lemma="ledd" tags="n>"><select lemma="led"/></match></rule>
+<rule weight="0.95"><match lemma="ledd" tags="n.*"><select lemma="led"/></match></rule>
 <rule weight="0.95"><match lemma="kurs" tags="n.m.*"><select lemma="kur"/></match></rule>
 <rule weight="0.95"><match lemma="kritisere" tags="vblex.*"><select lemma="kritisera"/></match></rule>
 <rule weight="0.95"><match lemma="kraftverk" tags="n.nt.*"><select lemma="kraftverk"/></match></rule>
