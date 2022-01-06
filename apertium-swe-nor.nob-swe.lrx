@@ -4823,6 +4823,12 @@
 <rule weight="0.9"><match lemma="årlig" tags="adj.*"><select lemma="årlig" tags="adj.*"/></match></rule><!-- 460 -->
   <!-- /frequency based rules  -->
 
+  <rule><match lemma="rundt" tags="pr"><select lemma="runt"/></match></rule>
+  <rule weight="2.0" c="ungefär tre">
+    <match lemma="rundt" tags="pr"><select lemma="ungefär"/></match>
+    <match tags="det.qnt.*"/>
+  </rule>
+
   <rule><match lemma="runde" tags="n.*"><select lemma="omgång"/></match></rule>
   <rule weight="2.0">
     <match lemma="runde" tags="n.*"><select lemma="runda"/></match>
