@@ -111,6 +111,9 @@
     <pardef n="td">
       <e><i><t/><d/></i></e>
     </pardef>
+    <pardef n="td:">
+      <e><p><l><t/><d/></l><r></r></p></e>
+    </pardef>
 
     <pardef n="adj">
       <e><i><w/><s n="adj"/><t/><d/></i></e>
@@ -372,6 +375,20 @@
       <p> <l>bakre<s n="adj"/><s n="sint"/><s n="sup"/><s n="un"/><s n="sp"/><s n="ind"/><d/></l> <r></r></p>
       <p><l></l> <r>lengst<s n="adv"/><d/></r></p>
       <p><l></l> <r>bak<s n="adv"/><d/></r></p>
+    </e>
+
+    <e lm="folk og fe → mennesker og buskap" c="människor och boskap">
+      <p> <l>folk</l> <r>menneske</r></p> <par n="td"/>
+      <i>og</i> <par n="td"/>
+      <p><l>fe</l> <r></r></p><par n="td:"/>
+      <p><l></l> <r>buskap<s n="n"/><s n="m"/><s n="sg"/><s n="ind"/><d/></r></p>
+    </e>
+
+    <e lm="til tross for at → tross at" c="trots att">
+      <p> <l>til</l> <r></r></p> <par n="td:"/>
+      <i>tross</i> <par n="td"/>
+      <p> <l>for</l> <r></r></p> <par n="td:"/>
+      <i>at</i> <par n="td"/>
     </e>
 
     <e lm="lov til å → lov å" c="lov att">

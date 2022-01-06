@@ -6676,5 +6676,6 @@
   <rule><match lemma="halvpart" tags="n.*"><select lemma="hälft"/></match></rule>
   <rule><match lemma="smil" tags="n.*"><select lemma="leende"/></match></rule>
   <rule><match lemma="bol" tags="n.*"><select lemma="bo"/></match></rule>
+  <rule><match lemma="menighet" tags="n.*"><select lemma="församling"/></match></rule>
 </rules>
 </lrx>
