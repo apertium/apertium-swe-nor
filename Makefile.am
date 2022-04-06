@@ -67,7 +67,7 @@ e: modes/$(PREFIX1b).mode	# build just nob-swe
 	cd $(AP_SRC1) && ${MAKE} $(LANG1).autogen.bin
 	cd $(AP_SRC2b) && ${MAKE} $(LANG2b).automorf.bin  $(LANG2b).seg.rlx.bin $(LANG2b).rlx.bin $(LANG2b).prob
 	${MAKE} $(TARGETS_PREFIX2) $(TARGETS_PREFIX2b)
-r: modes/$(PREFIX1b).mode $(PREFIX2b).autolex.bin $(PREFIX2).rtx.bin $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin # build just transfer and rlx files for nob-nno(_e)
+r: modes/$(PREFIX1b).mode $(PREFIX2b).autolex.bin $(PREFIX2).rtx.bin $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin # build just transfer and rlx files for nob-swe
 	cd $(AP_SRC2b) && ${MAKE} $(LANG2b).seg.rlx.bin $(LANG2b).rlx.bin
 	${MAKE} $(PREFIX2b).seg.rlx.bin $(PREFIX2b).rlx.bin $(PREFIX2).autoseq.bin
 
@@ -154,10 +154,7 @@ $(PREFIX2n).rlx.bin: $(AP_SRC2n)/apertium-$(LANG2n).$(LANG2n).rlx
 ## Separable / discontiguous multiwords
 ###############################################################################
 
-$(PREFIX1).autoseq.bin: $(BASENAME).$(PREFIX1).lsx
-	lsx-comp lr $< $@
-
-$(PREFIX2).autoseq.bin: $(BASENAME).$(PREFIX2).lsx
+%.autoseq.bin: $(BASENAME).%.lsx
 	lsx-comp lr $< $@
 
 ###############################################################################
