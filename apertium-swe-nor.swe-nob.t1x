@@ -13,6 +13,7 @@
     <def-cat n="nind">
       <cat-item tags="n.*.ind.*"/>
       <cat-item tags="n.*.ind.gen"/>
+      <cat-item tags="adj.*.ind.gen"/>
     </def-cat>
     <!-- n does not include compound lhs's: -->
     <def-cat n="n_np">
@@ -22,6 +23,7 @@
       <cat-item tags="n.*.acr"/>
       <cat-item tags="n.*.sp"/>
       <cat-item tags="n.*.gen"/>
+      <cat-item tags="adj.*.gen"/>
       <cat-item tags="np.*.cmp-split"/>
       <cat-item tags="np.*.gen"/>
       <cat-item tags="np.*.gen.guio"/>
@@ -49,6 +51,7 @@
     <def-cat n="ndef">
       <cat-item tags="n.*.*.def"/>
       <cat-item tags="n.*.*.def.gen"/>
+      <cat-item tags="adj.*.def.gen"/>
     </def-cat>
     <def-cat n="ngen">
       <cat-item tags="n.*.*.*.gen"/>
@@ -898,6 +901,7 @@
         <!--     </and> -->
         <!--   </test> -->
         <!-- </exception> -->
+        <choose><when><test><not><equal><clip pos="1" side="tl" part="a_nom"/><lit v=""/></equal></not></test><reject-current-rule shifting="no"/></when></choose>
         <let><var n="c_name"/><lit v="adj_n"/></let>
         <call-macro n="set_gender2.n.adj"><with-param pos="2"/><with-param pos="1"/></call-macro>
         <call-macro n="set_grau_aux1"><with-param pos="1"/></call-macro>
@@ -925,6 +929,7 @@
         <pattern-item n="n_np"/>
       </pattern>
       <action>
+        <choose><when><test><not><equal><clip pos="1" side="tl" part="a_nom"/><lit v=""/></equal></not></test><reject-current-rule shifting="no"/></when></choose>
         <let><var n="c_name"/><lit v="adj_n_n"/></let>
         <call-macro n="set_gender2.n.adj"><with-param pos="3"/><with-param pos="1"/></call-macro>
         <call-macro n="set_grau_aux1"><with-param pos="1"/></call-macro>
@@ -955,6 +960,7 @@
         <pattern-item n="n_np"/>
       </pattern>
       <action>
+        <choose><when><test><not><equal><clip pos="1" side="tl" part="a_nom"/><lit v=""/></equal></not></test><reject-current-rule shifting="no"/></when></choose>
         <let><var n="c_name"/><lit v="adj_n_n_n"/></let>
         <call-macro n="set_gender2.n.adj"><with-param pos="4"/><with-param pos="1"/></call-macro>
         <call-macro n="set_grau_aux1"><with-param pos="1"/></call-macro>
@@ -988,6 +994,7 @@
         <pattern-item n="n_np"/>
       </pattern>
       <action>
+        <choose><when><test><not><equal><clip pos="1" side="tl" part="a_nom"/><lit v=""/></equal></not></test><reject-current-rule shifting="no"/></when></choose>
         <let><var n="c_name"/><lit v="adj_n_n_n_n"/></let>
         <call-macro n="set_gender2.n.adj"><with-param pos="5"/><with-param pos="1"/></call-macro>
         <call-macro n="set_grau_aux1"><with-param pos="1"/></call-macro>
@@ -1022,6 +1029,8 @@
         <pattern-item n="n_np"/>
       </pattern>
       <action>
+        <choose><when><test><not><equal><clip pos="1" side="tl" part="a_nom"/><lit v=""/></equal></not></test><reject-current-rule shifting="no"/></when></choose>
+        <choose><when><test><not><equal><clip pos="2" side="tl" part="a_nom"/><lit v=""/></equal></not></test><reject-current-rule shifting="no"/></when></choose>
         <let><var n="c_name"/><lit v="adj_adj_n"/></let>
         <call-macro n="set_gender2.n.adj"><with-param pos="3"/><with-param pos="1"/></call-macro>
         <call-macro n="set_gender2.n.adj"><with-param pos="3"/><with-param pos="2"/></call-macro>
@@ -1062,6 +1071,8 @@
         <pattern-item n="n_np"/>
       </pattern>
       <action>
+        <choose><when><test><not><equal><clip pos="1" side="tl" part="a_nom"/><lit v=""/></equal></not></test><reject-current-rule shifting="no"/></when></choose>
+        <choose><when><test><not><equal><clip pos="2" side="tl" part="a_nom"/><lit v=""/></equal></not></test><reject-current-rule shifting="no"/></when></choose>
         <let><var n="c_name"/><lit v="adj_adj_n_n"/></let>
         <call-macro n="set_gender2.n.adj"><with-param pos="4"/><with-param pos="1"/></call-macro>
         <call-macro n="set_gender2.n.adj"><with-param pos="4"/><with-param pos="2"/></call-macro>
@@ -1105,6 +1116,8 @@
         <pattern-item n="n_np"/>
       </pattern>
       <action>
+        <choose><when><test><not><equal><clip pos="1" side="tl" part="a_nom"/><lit v=""/></equal></not></test><reject-current-rule shifting="no"/></when></choose>
+        <choose><when><test><not><equal><clip pos="2" side="tl" part="a_nom"/><lit v=""/></equal></not></test><reject-current-rule shifting="no"/></when></choose>
         <let><var n="c_name"/><lit v="adj_adj_n_n_n"/></let>
         <call-macro n="set_gender2.n.adj"><with-param pos="5"/><with-param pos="1"/></call-macro>
         <call-macro n="set_gender2.n.adj"><with-param pos="5"/><with-param pos="2"/></call-macro>
@@ -1151,6 +1164,8 @@
         <pattern-item n="n_np"/>
       </pattern>
       <action>
+        <choose><when><test><not><equal><clip pos="1" side="tl" part="a_nom"/><lit v=""/></equal></not></test><reject-current-rule shifting="no"/></when></choose>
+        <choose><when><test><not><equal><clip pos="2" side="tl" part="a_nom"/><lit v=""/></equal></not></test><reject-current-rule shifting="no"/></when></choose>
         <let><var n="c_name"/><lit v="adj_adj_n_n_n_n"/></let>
         <call-macro n="set_gender2.n.adj"><with-param pos="6"/><with-param pos="1"/></call-macro>
         <call-macro n="set_gender2.n.adj"><with-param pos="6"/><with-param pos="2"/></call-macro>
@@ -1196,6 +1211,7 @@
         <pattern-item n="adj"/>
       </pattern>
       <action>
+        <choose><when><test><not><equal><clip pos="1" side="tl" part="a_nom"/><lit v=""/></equal></not></test><reject-current-rule shifting="no"/></when></choose>
         <let><var n="c_name"/><lit v="adj"/></let>
         <call-macro n="set_gender1.adj"><with-param pos="1"/></call-macro>
         <call-macro n="set_grau_aux1"><with-param pos="1"/></call-macro>
@@ -1219,6 +1235,8 @@
         <pattern-item n="adj"/>
       </pattern>
       <action>
+        <choose><when><test><not><equal><clip pos="1" side="tl" part="a_nom"/><lit v=""/></equal></not></test><reject-current-rule shifting="no"/></when></choose>
+        <choose><when><test><not><equal><clip pos="2" side="tl" part="a_nom"/><lit v=""/></equal></not></test><reject-current-rule shifting="no"/></when></choose>
         <let><var n="c_name"/><lit v="adj_adj"/></let>
         <call-macro n="set_gender1.adj"><with-param pos="1"/></call-macro>
         <call-macro n="set_gender1.adj"><with-param pos="2"/></call-macro>
