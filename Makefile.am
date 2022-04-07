@@ -35,6 +35,7 @@ TARGETS_PREFIX1n =                                                \
       $(PREFIX1n).autobil.bin                                     \
       $(PREFIX1n).autolex.bin                                     \
       $(PREFIX1n).t1x.bin $(PREFIX1n).t2x.bin $(PREFIX1n).t3x.bin \
+      $(PREFIX1n).genprefs.rlx.bin                                \
       $(PREFIX1n).autogen.bin
 TARGETS_PREFIX1b =                                                \
       $(PREFIX1b).automorf.bin                                    \
@@ -141,6 +142,14 @@ $(PREFIX2b).rlx.bin: $(AP_SRC2b)/apertium-$(LANG2b).$(LANG2b).rlx
 
 $(PREFIX2n).rlx.bin: $(AP_SRC2n)/apertium-$(LANG2n).$(LANG2n).rlx
 	cg-comp $< $@
+
+
+###############################################################################
+## Variant preferences
+###############################################################################
+
+$(PREFIX1n).genprefs.rlx.bin: $(AP_SRC2n)/$(LANG2n).prefs.rlx.bin
+	cp $< $@
 
 
 ###############################################################################

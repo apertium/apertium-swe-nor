@@ -32,8 +32,11 @@
         <file name="apertium-swe-nor.swe-nno.t3x"/>
         <file name="swe-nno.t3x.bin"/>
       </program>
-      <program name="lt-proc $1">
+      <program name="lt-proc $1 -b" debug-suff="dgen">
         <file name="swe-nno.autogen.bin"/>
+      </program>
+      <program name="cg-proc -1 -n -g" debug-suff="genprefs">
+        <file name="swe-nno.genprefs.rlx.bin"/>
       </program>
       <program name="lt-proc -p">
         <file name="swe-nno.autopgen.bin"/>
