@@ -375,7 +375,7 @@
 
   <!-- TODO: When do we use «fast»? -->
   <!-- https://www.omsvenska.se/ord-och-uttryck/ordval/fast-fastan-aven-fast -->
-  <rule><match lemma="men" tags="cnjcoo.clb"><select lemma="men" tags="cnjcoo"/></match></rule>
+  <rule><match lemma="men" tags="cnjcoo.clb"><select lemma="men" tags="cnjcoo.clb"/></match></rule>
   <rule><match lemma="men" tags="cnjcoo"><select lemma="men" tags="cnjcoo"/></match></rule>
 
   <rule><match lemma="slippe"><select lemma="släppa"/></match></rule>
@@ -5467,7 +5467,6 @@
 <rule weight="0.95"><match lemma="ikke" tags="adv>"><select lemma="inte"/></match></rule>
 <rule weight="0.95"><match lemma="også" tags="adv>"><select lemma="också"/></match></rule>
 <rule weight="0.95"><match lemma="etter" tags="pr"><select lemma="efter"/></match></rule>
-<rule weight="0.95"><match lemma="men" tags="cnjcoo.clb>"><select lemma="men"/></match></rule>
 <rule weight="0.95"><match lemma="få" tags="vblex.*"><select lemma="få"/></match></rule>
 <rule weight="0.95"><match lemma="kunne" tags="vblex.*"><select lemma="kunna"/></match></rule>
 <rule weight="0.95"><match lemma="land" tags="n.nt.*"><select lemma="land"/></match></rule>
