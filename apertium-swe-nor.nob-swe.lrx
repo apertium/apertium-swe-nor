@@ -6700,5 +6700,11 @@
 
   <rule><match lemma="flis" tags="n.*"><select lemma="platta"/></match></rule>
   <rule><match lemma="legg" tags="n.*"><select lemma="ben"/></match></rule>
+
+  <rule><match lemma="fag" tags="n.*"><select lemma="ämne"/></match></rule>
+  <rule weight="2.0">
+    <match tags="n.*.cmp"/>
+    <match lemma="fag" tags="n.*"><select lemma="fack"/></match>
+  </rule>
 </rules>
 </lrx>
