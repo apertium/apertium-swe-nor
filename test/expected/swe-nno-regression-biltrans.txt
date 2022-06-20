@@ -1,3 +1,5 @@
+[0tkleIoBBRxj#0] ^överskådlig<adj><sint><sup><un><sp><ind>/overskuelig<adj><sup><un><sp><ind>$
+[/0tkleIoBBRxj]
 [4ezRqmPuJ3lS#0] ^ha<vblex><pres><actv>/ha<vblex><pres>$ ^uppföra<vblex><supn><pasv>/oppføre<vblex><pp>$
 [/4ezRqmPuJ3lS]
 [BGSXM-VaHxKz#0] ^som<pr>/som<pr>$ ^inte<adv>/ikkje<adv>$ ^uppföra<vblex><supn><pasv>/oppføre<vblex><pp>$
@@ -8,6 +10,10 @@
 [/W-fqMeU--uw4]
 [eLrB2F8Y26uc#0] ^söka<adj><pprs>/søkje<adj><pprs>$ ^vilken<prn><rel><un><pl><gen>/som<prn><rel><un><sp><nom>$ ^förmåga<n><ut><sg><ind>/evne<n><f><sg><ind>$ ^att<cnjsub>/at<cnjsub>/å<part>/til å<cnjsub>$ ^utnyttja<vblex><inf><actv>/utnytte<vblex><inf>/eksploatere<vblex><inf>$
 [/eLrB2F8Y26uc]
+[hqvcBLgqrUlV#0] ^överskådlig<adj><sint><sup><fn><sp><def>/overskuelig<adj><sup><un><sp><def>$
+[/hqvcBLgqrUlV]
+[i9_os4amzrP1#0] ^överskådlig<adj><sint><comp><un><sp>/overskuelig<adj><comp><un><sp>$
+[/i9_os4amzrP1]
 [jONRw3Es7Fmy#0] ^den<det><dem><un><pl>/den<det><dem><un><pl>$ ^part<n><ut><pl><ind>/part<n><m><pl><ind>$ ^vilken<prn><rel><un><pl><gen>/som<prn><rel><un><sp><nom>$ ^ansökning<n><ut><pl><ind>/søknad<n><m><pl><ind>$
 [/jONRw3Es7Fmy]
 [w0tTxQc12qvl#0] ^Se<vblex><past><actv>/Sjå<vblex><pret>$ ^hon<prn><pers><p3><f><sg><nom>/ho<prn><pers><p3><f><sg><nom>$ ^inte<adv>/ikkje<adv>$ ^ord<n><nt><pl><def>/ord<n><nt><pl><def>$^?<sent>/?<sent><clb>$

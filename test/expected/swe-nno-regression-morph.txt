@@ -1,3 +1,5 @@
+[0tkleIoBBRxj#0] ^överskådligast/överskådlig<adj><sint><sup><un><sp><ind>$
+[/0tkleIoBBRxj]
 [4ezRqmPuJ3lS#0] ^har/ha<vblex><pres><actv>$ ^uppförts/uppföra<adj><pp><nt><sg><ind><gen>/uppföra<vblex><supn><pasv>$
 [/4ezRqmPuJ3lS]
 [BGSXM-VaHxKz#0] ^som/som<cnjsub>/som<pr>$ ^inte/inte<adv>$ ^uppförts/uppföra<adj><pp><nt><sg><ind><gen>/uppföra<vblex><supn><pasv>$
@@ -8,6 +10,10 @@
 [/W-fqMeU--uw4]
 [eLrB2F8Y26uc#0] ^sökande/söka<adj><pprs>$ ^vars/vilken<prn><rel><un><pl><gen>/vilken<prn><rel><nt><sg><gen>/vilken<prn><rel><ut><sg><gen>$ ^förmåga/förmåga<n><ut><sg><ind>/förmåga<n><ut><sg><ind>$ ^att/att<cnjsub>$ ^utnyttja/utnyttja<vblex><imp>/utnyttja<vblex><inf><actv>$
 [/eLrB2F8Y26uc]
+[hqvcBLgqrUlV#0] ^överskådligaste/överskådlig<adj><sint><sup><fn><sp><def>/överskådlig<adj><sint><sup><m><sp><def>$
+[/hqvcBLgqrUlV]
+[i9_os4amzrP1#0] ^överskådligare/överskådlig<adj><sint><comp><un><sp>$
+[/i9_os4amzrP1]
 [jONRw3Es7Fmy#0] ^de/de<np><attr>/den<det><dem><un><pl>/de<prn><pers><p3><un><pl><nom>$ ^parter/part<n><ut><pl><ind>/part<n><ut><pl><ind>$ ^vars/vilken<prn><rel><un><pl><gen>/vilken<prn><rel><nt><sg><gen>/vilken<prn><rel><ut><sg><gen>$ ^ansökningar/ansökning<n><ut><pl><ind>/ansökning<n><ut><pl><ind>$
 [/jONRw3Es7Fmy]
 [w0tTxQc12qvl#0] ^Såg/Se<vblex><past><actv>$ ^hon/ho<n><ut><sg><def>/hon<prn><pers><p3><f><sg><nom>$ ^inte/inte<adv>$ ^orden/ord<n><nt><pl><def>/ord<n><nt><pl><def>$^?/?<sent>$

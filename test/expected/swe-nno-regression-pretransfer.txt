@@ -1,3 +1,5 @@
+[0tkleIoBBRxj#0] ^överskådlig<adj><sint><sup><un><sp><ind>$
+[/0tkleIoBBRxj]
 [4ezRqmPuJ3lS#0] ^ha<vblex><pres><actv>$ ^uppföra<vblex><supn><pasv>$
 [/4ezRqmPuJ3lS]
 [BGSXM-VaHxKz#0] ^som<pr>$ ^inte<adv>$ ^uppföra<vblex><supn><pasv>$
@@ -8,6 +10,10 @@
 [/W-fqMeU--uw4]
 [eLrB2F8Y26uc#0] ^söka<adj><pprs>$ ^vilken<prn><rel><un><pl><gen>$ ^förmåga<n><ut><sg><ind>$ ^att<cnjsub>$ ^utnyttja<vblex><inf><actv>$
 [/eLrB2F8Y26uc]
+[hqvcBLgqrUlV#0] ^överskådlig<adj><sint><sup><fn><sp><def>$
+[/hqvcBLgqrUlV]
+[i9_os4amzrP1#0] ^överskådlig<adj><sint><comp><un><sp>$
+[/i9_os4amzrP1]
 [jONRw3Es7Fmy#0] ^den<det><dem><un><pl>$ ^part<n><ut><pl><ind>$ ^vilken<prn><rel><un><pl><gen>$ ^ansökning<n><ut><pl><ind>$
 [/jONRw3Es7Fmy]
 [w0tTxQc12qvl#0] ^Se<vblex><past><actv>$ ^hon<prn><pers><p3><f><sg><nom>$ ^inte<adv>$ ^ord<n><nt><pl><def>$^?<sent>$
