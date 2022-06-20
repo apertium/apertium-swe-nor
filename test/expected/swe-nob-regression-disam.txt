@@ -1,22 +1,62 @@
 [0tkleIoBBRxj#0] ^överskådligast/överskådlig<adj><sint><sup><un><sp><ind>$
 [/0tkleIoBBRxj]
+[2GDnjhHKwf6J#0] ^Många/Mången<adj><sint><pst><m><sg><def>/Mången<adj><sint><pst><fn><sg><def>$ ^i/ialphabet<n><ut><sg><ind>$ ^landet/land<n><nt><sg><def>$ ^är/vara¹<vblex><pres><actv>$ ^smittade/smitta<vblex><past><actv>$ ^av/av<pr>$ ^coronaviruset/corona<n><ut><sg><ind><cmp>+virus<n><nt><sg><def>$^./.<sent><clb>$
+[/2GDnjhHKwf6J]
+[36IxZUNQhhLL#0] ^Allt/All<prn><def><nt><sg><nom>$ ^är/vara¹<vblex><pres><actv>$ ^stängt/stänga<vblex><supn><actv>$^,/,<cm>/,<cm><clb>$ ^vi/vi<prn><pers><p1><un><pl><nom>$ ^har/ha<vblex><pres><actv>$ ^hemmaskola/hemma<n><nt><sp><cmp>+skola<n><ut><sg><ind>$^,/,<cm>/,<cm><clb>$ ^och/och<cnjcoo>/och<cnjcoo><clb>$ ^alla/all<det><qnt><un><pl>/all<prn><def><un><pl><nom>$ ^butiker/butik<n><ut><pl><ind>$ ^är/vara¹<vblex><pres><actv>$ ^stängda/stänga<adj><pp><pl><ind>$^./.<sent><clb>$
+[/36IxZUNQhhLL]
 [4ezRqmPuJ3lS#0] ^har/ha<vblex><pres><actv>$ ^uppförts/uppföra<vblex><supn><pasv>$
 [/4ezRqmPuJ3lS]
+[4iZiMQNEYvPN#0] ^När/När<adv>/När<cnjadv>/När<np><top>/Nära<vblex><pres><actv>$ ^coronapandemin/corona<n><ut><sg><ind><cmp>+pandemi<n><ut><sg><def>$ ^är/vara¹<vblex><pres><actv>$ ^över/över<adv>/över<pr>$ ^gläder/glädja<vblex><pres><actv>$ ^hon/hon<prn><pers><p3><f><sg><nom>$ ^sig/sig<prn><ref><p3><un><sp><acc>$ ^till/till<cnjadv>/till<pr>$ ^tre/tre<det><qnt><un><pl>$ ^saker/sak<n><ut><pl><ind>$^./.<sent><clb>$
+[/4iZiMQNEYvPN]
+[5s9LdTP8RzBI#0] ^Den här/Den# här<det><dem><ut><sg>$ ^killen/kille<n><ut><sg><def>$ ^fick/få<vblex><past><actv>/ficka<n><ut><sg><ind><cmp>$ ^hjälp/hjälp<n><ut><sg><ind>$ ^av/av<pr>$ ^sin/sin<det><pos><ut><sg>$ ^mor/mor<n><ut><sg><ind>/mora<n><ut><sg><ind><cmp>$ ^till/till<cnjadv>/till<pr>$ ^att/att<cnjsub>$ ^ta/ta<vblex><inf><actv>$ ^en/en<det><qnt><ut><sg>/en<det><ind><ut><sg>/man<prn><pers><p3><un><sg><acc>$ ^coronatest/corona<n><ut><sg><ind><cmp>+test<n><ut><sg><ind>/corona<n><ut><sg><ind><cmp>+test<n><un><sg><ind>$ ^på/på<pr>$ ^skolan/skola<n><ut><sg><def>$ ^han/han<prn><pers><p3><m><sg><nom>$ ^går på/gå på<vblex><pres><actv>$ ^i/i<pr>$ ^Prag/Prag<np><top><nt>$^./.<sent><clb>$
+[/5s9LdTP8RzBI]
+[BGKetWFycO5a#0] ^Det/Den<prn><pers><p3><nt><sg><nom>/Den<prn><pers><p3><nt><sg><acc>$ ^är/vara¹<vblex><pres><actv>$ ^omöjligt/omöjlig<adj><sint><pst><nt><sg><ind>$ ^att/att<cnjsub>$ ^resa/resa<vblex><inf><actv>$ ^ut ur/ut ur<pr>$ ^Prag/Prag<np><top><nt>$ ^till/till<cnjadv>/till<pr>$ ^andra/andra<adj><ord><pst><un><pl><ind>$ ^platser/plats<n><ut><pl><ind>$ ^i/i<pr>$ ^landet/land<n><nt><sg><def>$^./.<sent><clb>$
+[/BGKetWFycO5a]
 [BGSXM-VaHxKz#0] ^som/som<cnjsub>/som<pr>$ ^inte/inte<adv>$ ^uppförts/uppföra<vblex><supn><pasv>$
 [/BGSXM-VaHxKz]
+[CyO-MNcXRLGx#0] ^Jag/Jag<prn><pers><p1><ut><sg><nom>$ ^är/vara¹<vblex><pres><actv>$ ^väldigt/väldigt<adv>$ ^glad/glad<adj><sint><pst><ut><sg><ind>$ ^för att/för att<cnjsub>$ ^vi/vi<prn><pers><p1><un><pl><nom>$ ^kan/kunna<vblex><pres><actv>$ ^se/se<vblex><inf><actv>$ ^varandra/varandra<prn><res><un><pl><acc>$ ^och/och<cnjcoo>/och<cnjcoo><clb>$ ^göra/göra<vblex><inf><actv>$ ^saker/sak<n><ut><pl><ind>$ ^tillsammans/tillsammans<adv>$^./.<sent><clb>$
+[/CyO-MNcXRLGx]
+[DT_dE5-PXBrJ#0] ^Och/Och<cnjcoo>/Och<cnjcoo><clb>$ ^så/så<cnjsub>$ ^ska/skola¹<vblex><pres><actv>$ ^jag/jag<prn><pers><p1><ut><sg><nom>$ ^äta/äta<vblex><inf><actv>$ ^glass/glass<n><ut><sg><ind>/glass<n><ut><pl><ind>/glass<n><ut><sg><ind><gen>/glass<n><ut><pl><ind><gen>$ ^ute/ute<adv>$^!/!<sent><clb>$
+[/DT_dE5-PXBrJ]
+[EM8lSAP-warx#0] ^Jag/Jag<prn><pers><p1><ut><sg><nom>$ ^fick/få<vblex><past><actv>/ficka<n><ut><sg><ind><cmp>$ ^också/också<adv>$ ^en/en<det><qnt><ut><sg>/en<det><ind><ut><sg>/man<prn><pers><p3><un><sg><acc>$ ^ny/ny<adj><sint><pst><ut><sg><ind>$ ^kusin/kusin<n><ut><sg><ind>$ ^i/i<pr>$ ^år/år<n><nt><sg><ind>/år<n><nt><pl><ind>/åra<n><ut><sg><ind><cmp>$ ^som/som<cnjsub>/som<pr>$ ^jag/jag<prn><pers><p1><ut><sg><nom>$ ^nästan/nästan<adv>$ ^inte/inte<adv>$ ^har/ha<vblex><pres><actv>$ ^sett/se<vblex><supn><actv>$^./.<sent><clb>$
+[/EM8lSAP-warx]
+[Ep5NrTWjxfXF#0] ^Rubrik/Rubrik<n><ut><sg><ind>$^:/:<sent><clb>$ ^Anna/Anna<np><ant><f>$ ^får/få<vblex><pres><actv>/får<n><nt><sg><ind>/får<n><nt><pl><ind>$ ^inte/inte<adv>$ ^resa/resa<vblex><inf><actv>/resa<n><ut><sg><ind>$ ^från/från<pr>$ ^staden/stad<n><ut><sg><def>$ ^hon/hon<prn><pers><p3><f><sg><nom>$ ^bor/bo<vblex><pres><actv>/bor<n><ut><sg><ind>$ ^i/i<pr>$^./.<sent><clb>$
+[/Ep5NrTWjxfXF]
 [I1a7gtD3zHRi#0] ^har/ha<vblex><pres><actv>$ ^funnits/finna<vblex><supn><pasv>/finnas<vblex><supn><pasv>$
 [/I1a7gtD3zHRi]
+[OVS3LAp5qVU5#0] ^Det/Den<prn><pers><p3><nt><sg><nom>/Den<prn><pers><p3><nt><sg><acc>$ ^delades/dela<vblex><past><pasv>$ ^senare/sen<adj><sint><comp><un><sp>$ ^i/i<pr>$ ^tre/tre<det><qnt><un><pl>$^./.<sent><clb>$
+[/OVS3LAp5qVU5]
+[Ts-xb30SAAsc#0] ^Jag/Jag<prn><pers><p1><ut><sg><nom>$ ^ser/se<vblex><pres><actv>$ ^fram/fram<adv>$ ^till/till<cnjadv>/till<pr>$ ^att/att<cnjsub>$ ^vara/vara¹<vblex><inf><actv>$ ^tillsammans/tillsammans<adv>$ ^med/med<adv>/med<pr>$ ^henne/hon<prn><pers><p3><f><sg><acc>$
+[/Ts-xb30SAAsc]
+[V01qA6qi0kKt#0] ^Ingress/Ingress<n><ut><sg><ind>/Ingress<n><ut><sg><ind><gen>$^:/:<sent><clb>$ ^Anna/Anna<np><ant><f>$ ^är/vara¹<vblex><pres><actv>$ ^bara/bara<adv>$ ^ihop/ihop<adv>$ ^med/med<adv>/med<pr>$ ^sina/sin<det><pos><un><pl>$ ^vänner/vän<n><ut><pl><ind>$ ^på/på<pr>$ ^Teams/Team<n><nt><sg><ind><gen>/Team<n><nt><pl><ind><gen>$ ^nu för tiden/nu för tiden<adv>$^./.<sent><clb>$
+[/V01qA6qi0kKt]
 [W-fqMeU--uw4#0] ^som/som<cnjsub>/som<pr>$ ^funnits/finna<vblex><supn><pasv>/finnas<vblex><supn><pasv>$
 [/W-fqMeU--uw4]
+[_C4fXLa-MSE3#0] ^Hur/Hur<adv>$ ^har/ha<vblex><pres><actv>$ ^detta/denna<det><dem><nt><sg>/denna<prn><dem><nt><sg><nom>/denna<prn><dem><nt><sg><acc>$ ^sista/sista<adj><sint><sup><un><sp><ind>/sista<adj><sint><sup><fn><sp><def>$ ^året/år<n><nt><sg><def>$ ^varit/vara¹<vblex><supn><actv>$^?/?<sent><clb>$
+[/_C4fXLa-MSE3]
+[dMemZE94Geg0#0] ^Pannkakor/Pannkaka<n><ut><pl><ind>$ ^och/och<cnjcoo>/och<cnjcoo><clb>$ ^lasagne/lasagne<n><ut><sg><ind>$^./.<sent><clb>$
+[/dMemZE94Geg0]
+[deic5AkTXplQ#0] ^Tidigare/Tidig<adj><sint><comp><un><sp>/Tidigare<adv><comp>$ ^var/vara¹<vblex><past><actv>$ ^länderna/land<n><nt><pl><def>$ ^ett/en<det><qnt><nt><sg>/en<det><ind><nt><sg>$ ^gemensamt/gemensam<adj><sint><pst><nt><sg><ind>$ ^land/land<n><nt><sg><ind>$^./.<sent><clb>$
+[/deic5AkTXplQ]
 [eLrB2F8Y26uc#0] ^sökande/söka<adj><pprs>$ ^vars/vilken<prn><rel><un><pl><gen>/vilken<prn><rel><nt><sg><gen>/vilken<prn><rel><ut><sg><gen>$ ^förmåga/förmåga<n><ut><sg><ind>$ ^att/att<cnjsub>$ ^utnyttja/utnyttja<vblex><inf><actv>$
 [/eLrB2F8Y26uc]
 [hqvcBLgqrUlV#0] ^överskådligaste/överskådlig<adj><sint><sup><fn><sp><def>/överskådlig<adj><sint><sup><m><sp><def>$
 [/hqvcBLgqrUlV]
 [i9_os4amzrP1#0] ^överskådligare/överskådlig<adj><sint><comp><un><sp>$
 [/i9_os4amzrP1]
+[iVpJjgVw2Siq#0] ^Det/Den<prn><pers><p3><nt><sg><nom>/Den<prn><pers><p3><nt><sg><acc>$ ^är/vara¹<vblex><pres><actv>$ ^alla/all<det><qnt><un><pl>/all<prn><def><un><pl><nom>$ ^reglerna/regel<n><ut><pl><def>$^,/,<cm>/,<cm><clb>$ ^att/att<cnjsub>$ ^vi/vi<prn><pers><p1><un><pl><nom>$ ^måste/måste<vblex><pres><actv>/måste<vblex><past><actv>$ ^använda/använda<vblex><inf><actv>$ ^munskydd/munskydd<n><nt><sg><ind>/munskydd<n><nt><pl><ind>$^,/,<cm>/,<cm><clb>$ ^och/och<cnjcoo>/och<cnjcoo><clb>$ ^att/att<cnjsub>$ ^jag/jag<prn><pers><p1><ut><sg><nom>$ ^inte/inte<adv>$ ^kan/kunna<vblex><pres><actv>$ ^gå/gå<vblex><inf><actv>$ ^vart/vart<adv>$ ^jag/jag<prn><pers><p1><ut><sg><nom>$ ^vill/vilja<vblex><pres><actv>/villa<n><ut><sg><ind><cmp>$^./.<sent><clb>$
+[/iVpJjgVw2Siq]
 [jONRw3Es7Fmy#0] ^de/den<det><dem><un><pl>/de<prn><pers><p3><un><pl><nom>$ ^parter/part<n><ut><pl><ind>$ ^vars/vilken<prn><rel><un><pl><gen>/vilken<prn><rel><nt><sg><gen>/vilken<prn><rel><ut><sg><gen>$ ^ansökningar/ansökning<n><ut><pl><ind>$
 [/jONRw3Es7Fmy]
+[qR-4Q7XeL9SZ#0] ^För/För<adv>/För<pr>/Föra<vblex><pres><actv>$ ^24/24<adj><ord><pst><un><pl><ind>/24<adj><ord><pst><m><sg><ind>/24<adj><ord><pst><fn><sg><ind>$ ^år/år<n><nt><sg><ind>/år<n><nt><pl><ind>/åra<n><ut><sg><ind><cmp>$ ^sedan/sedan<adv>/sedan<cnjsub>$ ^(/(<lpar>$^i/i<pr>$ ^1993/1993<det><qnt><un><pl>/1993<adj><ord><pst><un><pl><ind>/1993<adj><ord><pst><un><sp><def>/1993<adj><ord><pst><m><sg><ind>/1993<adj><ord><pst><fn><sg><ind>$^)/)<rpar>$ ^delades/dela<adj><pp><fn><sg><def><gen>$ ^landet/land<n><nt><sg><def>$ ^i/i<pr>$ ^två/två<det><qnt><un><pl>$^./.<sent><clb>$
+[/qR-4Q7XeL9SZ]
+[qvkWbP2Kd4fO#0] ^Vi/Vi<np><top>/Vi<prn><pers><p1><un><pl><nom>$ ^har/ha<vblex><pres><actv>$ ^inte/inte<adv>$ ^längre/lång<adj><sint><comp><un><sp>$ ^ämne/ämne<n><nt><sg><ind>$ ^som/som<pr>$ ^gympa/gympa<n><ut><sg><ind>$^./.<sent><clb>$
+[/qvkWbP2Kd4fO]
 [tMKlZei_zLhv#0] ^Jag/Jag<prn><pers><p1><ut><sg><nom>$ ^har/ha<vblex><pres><actv>$ ^ålar/åla<vblex><pres><actv>/ål<n><ut><pl><ind>$ ^i/i<pr>$ ^min/min<det><pos><ut><sg>$ ^svävare/svävare<n><ut><sg><ind>$
 [/tMKlZei_zLhv]
+[xr87sIaNgHKM#0] ^Tjeckien/Tjeckien<np><top><nt>$ ^drabbats/drabba<vblex><supn><pasv>$ ^hårt/hård<adj><sint><pst><nt><sg><ind>$ ^av/av<pr>$ ^coronaviruset/corona<n><ut><sg><ind><cmp>+virus<n><nt><sg><def>$^./.<sent><clb>$
+[/xr87sIaNgHKM]
+[yaT9Y83vKE5G#0] ^Det/Den<prn><pers><p3><nt><sg><nom>/Den<prn><pers><p3><nt><sg><acc>$ ^har/ha<vblex><pres><actv>$ ^varit/vara¹<vblex><supn><actv>$ ^tråkigt/tråkig<adj><sint><pst><nt><sg><ind>$^!/!<sent><clb>$
+[/yaT9Y83vKE5G]
 [zTuZzFUZoMgA#0] ^honom/han<prn><pers><p3><m><sg><acc>$
 [/zTuZzFUZoMgA]

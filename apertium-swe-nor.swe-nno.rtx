@@ -16,6 +16,7 @@ number = sg pl sp ;
 number_n = sg pl sp ;
 defnes = def ind ;
 tense = inf pret past pres pp supn imp ;
+tense_ana = inf pret past pres pp supn imp ; ! anaphoric, previously seen tense (TODO: apertium-anaphora here?)
 person = (PD p3) p1 p2 p3 PD ;
 voice = pasv actv ;
 a_pstv = pstv ;
@@ -46,6 +47,7 @@ w_dendenne = Denne Den den denne ;
 
 w_month = januar jan februar feb mars mar april apr mai juni jun juli jul august aug september sep oktober okt november nov desember des ;
 
+w_verepass = vite eie eige ; ! TODO: vere instead of bli for pasv aux for these
 
 !!!!!!!!!!!!!!!!!!!!!!
 ! Tag Rewrite Rules: !
@@ -269,7 +271,18 @@ VP ->
 
     | "VP→v"   0: %vblex.*.pasv { %1 }
     | "VP→v"   0: %vblex.*.actv { %1[voice=""] }
-    
+
+    | "VP→VP"     0: %VP     VP [$%cur_modal=1.lemh] { %1 _     2 }
+    | "VP→ADV VP" 0: %VP ADV VP [$%cur_modal=1.lemh] { %1 _ 2 _ 3 }
+
+    | "VP.supn.pasv→ha (bli) v.pp: inte funnits → ikke ha funnes"
+      3: %vblex.supn.pasv
+      { (if ($%cur_modal not = "ha") [ *(vblex)[lemh = "ha", tense = pres, voice = ""] _ ] )
+        *(vblex)[lemh = "bli", tense = 1.tense, voice = ""]
+        _
+        %1[tense = pp, voice = ""]
+      }
+
     | "VP.pasv→bli v.pp:solgtes teen → ble teen solgt"
       2: %vblex.*.pasv
       { *(vblex)[lemh = "bli", tense = 1.tense, voice = ""] _ %1[tense = pp, voice = ""] }

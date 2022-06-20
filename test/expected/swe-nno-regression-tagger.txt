@@ -1,22 +1,62 @@
 [0tkleIoBBRxj#0] ^överskådlig<adj><sint><sup><un><sp><ind>$
 [/0tkleIoBBRxj]
+[2GDnjhHKwf6J#0] ^Mången<adj><sint><pst><m><sg><def>$ ^ialphabet<n><ut><sg><ind>$ ^land<n><nt><sg><def>$ ^vara¹<vblex><pres><actv>$ ^smitta<vblex><past><actv>$ ^av<pr>$ ^corona<n><ut><sg><ind><cmp>+virus<n><nt><sg><def>$^.<sent><clb>$
+[/2GDnjhHKwf6J]
+[36IxZUNQhhLL#0] ^All<prn><def><nt><sg><nom>$ ^vara¹<vblex><pres><actv>$ ^stänga<vblex><supn><actv>$^,<cm>$ ^vi<prn><pers><p1><un><pl><nom>$ ^ha<vblex><pres><actv>$ ^hemma<n><nt><sp><cmp>+skola<n><ut><sg><ind>$^,<cm>$ ^och<cnjcoo>$ ^all<det><qnt><un><pl>$ ^butik<n><ut><pl><ind>$ ^vara¹<vblex><pres><actv>$ ^stänga<adj><pp><pl><ind>$^.<sent><clb>$
+[/36IxZUNQhhLL]
 [4ezRqmPuJ3lS#0] ^ha<vblex><pres><actv>$ ^uppföra<vblex><supn><pasv>$
 [/4ezRqmPuJ3lS]
+[4iZiMQNEYvPN#0] ^När<cnjadv>$ ^corona<n><ut><sg><ind><cmp>+pandemi<n><ut><sg><def>$ ^vara¹<vblex><pres><actv>$ ^över<adv>$ ^glädja<vblex><pres><actv>$ ^hon<prn><pers><p3><f><sg><nom>$ ^sig<prn><ref><p3><un><sp><acc>$ ^till<pr>$ ^tre<det><qnt><un><pl>$ ^sak<n><ut><pl><ind>$^.<sent><clb>$
+[/4iZiMQNEYvPN]
+[5s9LdTP8RzBI#0] ^Den# här<det><dem><ut><sg>$ ^kille<n><ut><sg><def>$ ^få<vblex><past><actv>$ ^hjälp<n><ut><sg><ind>$ ^av<pr>$ ^sin<det><pos><ut><sg>$ ^mor<n><ut><sg><ind>$ ^till<pr>$ ^att<cnjsub>$ ^ta<vblex><inf><actv>$ ^en<det><ind><ut><sg>$ ^corona<n><ut><sg><ind><cmp>+test<n><ut><sg><ind>$ ^på<pr>$ ^skola<n><ut><sg><def>$ ^han<prn><pers><p3><m><sg><nom>$ ^gå på<vblex><pres><actv>$ ^i<pr>$ ^Prag<np><top><nt>$^.<sent><clb>$
+[/5s9LdTP8RzBI]
+[BGKetWFycO5a#0] ^Den<prn><pers><p3><nt><sg><nom>$ ^vara¹<vblex><pres><actv>$ ^omöjlig<adj><sint><pst><nt><sg><ind>$ ^att<cnjsub>$ ^resa<vblex><inf><actv>$ ^ut ur<pr>$ ^Prag<np><top><nt>$ ^till<pr>$ ^andra<adj><ord><pst><un><pl><ind>$ ^plats<n><ut><pl><ind>$ ^i<pr>$ ^land<n><nt><sg><def>$^.<sent><clb>$
+[/BGKetWFycO5a]
 [BGSXM-VaHxKz#0] ^som<pr>$ ^inte<adv>$ ^uppföra<vblex><supn><pasv>$
 [/BGSXM-VaHxKz]
+[CyO-MNcXRLGx#0] ^Jag<prn><pers><p1><ut><sg><nom>$ ^vara¹<vblex><pres><actv>$ ^väldigt<adv>$ ^glad<adj><sint><pst><ut><sg><ind>$ ^för att<cnjsub>$ ^vi<prn><pers><p1><un><pl><nom>$ ^kunna<vblex><pres><actv>$ ^se<vblex><inf><actv>$ ^varandra<prn><res><un><pl><acc>$ ^och<cnjcoo>$ ^göra<vblex><inf><actv>$ ^sak<n><ut><pl><ind>$ ^tillsammans<adv>$^.<sent><clb>$
+[/CyO-MNcXRLGx]
+[DT_dE5-PXBrJ#0] ^Och<cnjcoo>$ ^så<cnjsub>$ ^skola¹<vblex><pres><actv>$ ^jag<prn><pers><p1><ut><sg><nom>$ ^äta<vblex><inf><actv>$ ^glass<n><ut><sg><ind>$ ^ute<adv>$^!<sent><clb>$
+[/DT_dE5-PXBrJ]
+[EM8lSAP-warx#0] ^Jag<prn><pers><p1><ut><sg><nom>$ ^få<vblex><past><actv>$ ^också<adv>$ ^en<det><ind><ut><sg>$ ^ny<adj><sint><pst><ut><sg><ind>$ ^kusin<n><ut><sg><ind>$ ^i<pr>$ ^år<n><nt><sg><ind>$ ^som<pr>$ ^jag<prn><pers><p1><ut><sg><nom>$ ^nästan<adv>$ ^inte<adv>$ ^ha<vblex><pres><actv>$ ^se<vblex><supn><actv>$^.<sent><clb>$
+[/EM8lSAP-warx]
+[Ep5NrTWjxfXF#0] ^Rubrik<n><ut><sg><ind>$^:<sent><clb>$ ^Anna<np><ant><f>$ ^få<vblex><pres><actv>$ ^inte<adv>$ ^resa<vblex><inf><actv>$ ^från<pr>$ ^stad<n><ut><sg><def>$ ^hon<prn><pers><p3><f><sg><nom>$ ^bo<vblex><pres><actv>$ ^i<pr>$^.<sent><clb>$
+[/Ep5NrTWjxfXF]
 [I1a7gtD3zHRi#0] ^ha<vblex><pres><actv>$ ^finna<vblex><supn><pasv>$
 [/I1a7gtD3zHRi]
+[OVS3LAp5qVU5#0] ^Den<prn><pers><p3><nt><sg><nom>$ ^dela<vblex><past><pasv>$ ^sen<adj><sint><comp><un><sp>$ ^i<pr>$ ^tre<det><qnt><un><pl>$^.<sent><clb>$
+[/OVS3LAp5qVU5]
+[Ts-xb30SAAsc#0] ^Jag<prn><pers><p1><ut><sg><nom>$ ^se<vblex><pres><actv>$ ^fram<adv>$ ^till<pr>$ ^att<cnjsub>$ ^vara¹<vblex><inf><actv>$ ^tillsammans<adv>$ ^med<pr>$ ^hon<prn><pers><p3><f><sg><acc>$
+[/Ts-xb30SAAsc]
+[V01qA6qi0kKt#0] ^Ingress<n><ut><sg><ind>$^:<sent><clb>$ ^Anna<np><ant><f>$ ^vara¹<vblex><pres><actv>$ ^bara<adv>$ ^ihop<adv>$ ^med<pr>$ ^sin<det><pos><un><pl>$ ^vän<n><ut><pl><ind>$ ^på<pr>$ ^Team<n><nt><sg><ind><gen>$ ^nu för tiden<adv>$^.<sent><clb>$
+[/V01qA6qi0kKt]
 [W-fqMeU--uw4#0] ^som<pr>$ ^finna<vblex><supn><pasv>$
 [/W-fqMeU--uw4]
+[_C4fXLa-MSE3#0] ^Hur<adv>$ ^ha<vblex><pres><actv>$ ^denna<det><dem><nt><sg>$ ^sista<adj><sint><sup><un><sp><ind>$ ^år<n><nt><sg><def>$ ^vara¹<vblex><supn><actv>$^?<sent><clb>$
+[/_C4fXLa-MSE3]
+[dMemZE94Geg0#0] ^Pannkaka<n><ut><pl><ind>$ ^och<cnjcoo>$ ^lasagne<n><ut><sg><ind>$^.<sent><clb>$
+[/dMemZE94Geg0]
+[deic5AkTXplQ#0] ^Tidigare<adv><comp>$ ^vara¹<vblex><past><actv>$ ^land<n><nt><pl><def>$ ^en<det><ind><nt><sg>$ ^gemensam<adj><sint><pst><nt><sg><ind>$ ^land<n><nt><sg><ind>$^.<sent><clb>$
+[/deic5AkTXplQ]
 [eLrB2F8Y26uc#0] ^söka<adj><pprs>$ ^vilken<prn><rel><un><pl><gen>$ ^förmåga<n><ut><sg><ind>$ ^att<cnjsub>$ ^utnyttja<vblex><inf><actv>$
 [/eLrB2F8Y26uc]
 [hqvcBLgqrUlV#0] ^överskådlig<adj><sint><sup><fn><sp><def>$
 [/hqvcBLgqrUlV]
 [i9_os4amzrP1#0] ^överskådlig<adj><sint><comp><un><sp>$
 [/i9_os4amzrP1]
+[iVpJjgVw2Siq#0] ^Den<prn><pers><p3><nt><sg><nom>$ ^vara¹<vblex><pres><actv>$ ^all<det><qnt><un><pl>$ ^regel<n><ut><pl><def>$^,<cm>$ ^att<cnjsub>$ ^vi<prn><pers><p1><un><pl><nom>$ ^måste<vblex><pres><actv>$ ^använda<vblex><inf><actv>$ ^munskydd<n><nt><sg><ind>$^,<cm>$ ^och<cnjcoo>$ ^att<cnjsub>$ ^jag<prn><pers><p1><ut><sg><nom>$ ^inte<adv>$ ^kunna<vblex><pres><actv>$ ^gå<vblex><inf><actv>$ ^vart<adv>$ ^jag<prn><pers><p1><ut><sg><nom>$ ^vilja<vblex><pres><actv>$^.<sent><clb>$
+[/iVpJjgVw2Siq]
 [jONRw3Es7Fmy#0] ^den<det><dem><un><pl>$ ^part<n><ut><pl><ind>$ ^vilken<prn><rel><un><pl><gen>$ ^ansökning<n><ut><pl><ind>$
 [/jONRw3Es7Fmy]
+[qR-4Q7XeL9SZ#0] ^För<pr>$ ^24<adj><ord><pst><un><pl><ind>$ ^år<n><nt><sg><ind>$ ^sedan<cnjsub>$ ^(<lpar>$^i<pr>$ ^1993<adj><ord><pst><un><pl><ind>$^)<rpar>$ ^dela<adj><pp><fn><sg><def><gen>$ ^land<n><nt><sg><def>$ ^i<pr>$ ^två<det><qnt><un><pl>$^.<sent><clb>$
+[/qR-4Q7XeL9SZ]
+[qvkWbP2Kd4fO#0] ^Vi<np><top>$ ^ha<vblex><pres><actv>$ ^inte<adv>$ ^lång<adj><sint><comp><un><sp>$ ^ämne<n><nt><sg><ind>$ ^som<pr>$ ^gympa<n><ut><sg><ind>$^.<sent><clb>$
+[/qvkWbP2Kd4fO]
 [w0tTxQc12qvl#0] ^Se<vblex><past><actv>$ ^hon<prn><pers><p3><f><sg><nom>$ ^inte<adv>$ ^ord<n><nt><pl><def>$^?<sent>$
 [/w0tTxQc12qvl]
+[xr87sIaNgHKM#0] ^Tjeckien<np><top><nt>$ ^drabba<vblex><supn><pasv>$ ^hård<adj><sint><pst><nt><sg><ind>$ ^av<pr>$ ^corona<n><ut><sg><ind><cmp>+virus<n><nt><sg><def>$^.<sent><clb>$
+[/xr87sIaNgHKM]
+[yaT9Y83vKE5G#0] ^Den<prn><pers><p3><nt><sg><nom>$ ^ha<vblex><pres><actv>$ ^vara¹<vblex><supn><actv>$ ^tråkig<adj><sint><pst><nt><sg><ind>$^!<sent><clb>$
+[/yaT9Y83vKE5G]
 [zTuZzFUZoMgA#0] ^han<prn><pers><p3><m><sg><acc>$
 [/zTuZzFUZoMgA]
