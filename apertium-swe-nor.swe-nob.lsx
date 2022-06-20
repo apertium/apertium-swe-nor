@@ -421,9 +421,9 @@
 
   <section id="main" type="standard">
 
-    <e lm="lov att → lov til att" c="lov til å">
+    <e lm="lov att → lov till att" c="lov til å">
       <i>lov</i> <par n="td"/>
-      <p><l></l> <r>til<s n="pr"/><d/></r></p>
+      <p><l></l> <r>till<s n="pr"/><d/></r></p>
       <i>att</i> <par n="td"/>
     </e>
 
