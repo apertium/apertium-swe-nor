@@ -26,22 +26,25 @@ TARGETS_COMMON =                                               \
     $(TARGETS_PREFIX1) $(TARGETS_PREFIX1n) $(TARGETS_PREFIX1b) \
     $(TARGETS_PREFIX2) $(TARGETS_PREFIX2n) $(TARGETS_PREFIX2b)
 
+# There is no $(PREFIX1).seg.rlx.bin – swe uses "1:a maj", not "1. maj", so not as much of an issue
 TARGETS_PREFIX1 =                                                 \
       $(PREFIX1).prob                                             \
       $(PREFIX1).rlx.bin
 TARGETS_PREFIX1n =                                                \
       $(PREFIX1n).automorf.bin                                    \
       $(PREFIX1n).autopgen.bin                                    \
+      $(PREFIX1n).autoseq.bin                                     \
       $(PREFIX1n).autobil.bin                                     \
       $(PREFIX1n).autolex.bin                                     \
-      $(PREFIX1n).t1x.bin $(PREFIX1n).t2x.bin $(PREFIX1n).t3x.bin \
+      $(PREFIX1n).rtx.bin                                         \
       $(PREFIX1n).genprefs.rlx.bin                                \
       $(PREFIX1n).autogen.bin
 TARGETS_PREFIX1b =                                                \
       $(PREFIX1b).automorf.bin                                    \
       $(PREFIX1b).autobil.bin                                     \
       $(PREFIX1b).autolex.bin                                     \
-      $(PREFIX1b).t1x.bin $(PREFIX1b).t2x.bin $(PREFIX1b).t3x.bin \
+      $(PREFIX1b).autoseq.bin                                     \
+      $(PREFIX1b).rtx.bin                                         \
       $(PREFIX1b).autogen.bin
 
 TARGETS_PREFIX2 =              \
@@ -67,11 +70,22 @@ TARGETS_PREFIX2b =             \
 e: modes/$(PREFIX1b).mode	# build just nob-swe
 	cd $(AP_SRC1) && ${MAKE} $(LANG1).autogen.bin
 	cd $(AP_SRC2b) && ${MAKE} $(LANG2b).automorf.bin  $(LANG2b).seg.rlx.bin $(LANG2b).rlx.bin $(LANG2b).prob
-	${MAKE} $(TARGETS_PREFIX2) $(TARGETS_PREFIX2b)
-r: modes/$(PREFIX1b).mode $(PREFIX2b).autolex.bin $(PREFIX2).rtx.bin $(PREFIX2).t1x.bin $(PREFIX2).t2x.bin $(PREFIX2).t3x.bin # build just transfer and rlx files for nob-swe
-	cd $(AP_SRC2b) && ${MAKE} $(LANG2b).seg.rlx.bin $(LANG2b).rlx.bin
-	${MAKE} $(PREFIX2b).seg.rlx.bin $(PREFIX2b).rlx.bin $(PREFIX2).autoseq.bin
+	${MAKE} $(TARGETS_PREFIX2) $(TARGETS_PREFIX2b) $(PREFIX2b).automorf-untrimmed.bin
 
+# Fast build – nearly everything but dictionaries:
+r: modes/$(PREFIX1b).mode  \
+   $(PREFIX1b).t1x.bin $(PREFIX1b).t2x.bin $(PREFIX1b).t3x.bin \
+   $(PREFIX1n).t1x.bin $(PREFIX1n).t2x.bin $(PREFIX1n).t3x.bin \
+   $(PREFIX2).t1x.bin  $(PREFIX2).t2x.bin  $(PREFIX2).t3x.bin  \
+   $(PREFIX1n).autoseq.bin \
+   $(PREFIX1n).rtx.bin     \
+   $(PREFIX1b).autoseq.bin \
+   $(PREFIX1b).rtx.bin     \
+   $(PREFIX2).rtx.bin  \
+   $(PREFIX2).autoseq.bin
+	cd $(AP_SRC2n) && ${MAKE} $(LANG2n).seg.rlx.bin $(LANG2n).rlx.bin
+	cd $(AP_SRC2b) && ${MAKE} $(LANG2b).seg.rlx.bin $(LANG2b).rlx.bin
+	${MAKE}                        $(PREFIX1).rlx.bin $(PREFIX2n).seg.rlx.bin $(PREFIX2n).rlx.bin $(PREFIX2b).seg.rlx.bin $(PREFIX2b).rlx.bin
 
 # This include defines goals for install-modes, .deps/.d and .mode files:
 @ap_include@
@@ -95,10 +109,14 @@ $(PREFIX2).autogen.bin: $(AP_SRC1)/$(LANG1).autogen.bin
 # Norwegian
 
 $(PREFIX2b).automorf.bin: $(AP_SRC2b)/$(LANG2b).automorf.bin $(PREFIX2).autobil.bin
-	lt-trim $(AP_SRC2b)/$(LANG2b).automorf.bin $(PREFIX2).autobil.bin $@
+	lt-trim $^ $@
+$(PREFIX2b).automorf-untrimmed.bin: $(AP_SRC2b)/$(LANG2b).automorf.bin
+	cp $< $@
 
 $(PREFIX2n).automorf.bin: $(AP_SRC2n)/$(LANG2n).automorf.bin $(PREFIX2).autobil.bin
-	lt-trim $(AP_SRC2n)/$(LANG2n).automorf.bin $(PREFIX2).autobil.bin $@
+	lt-trim $^ $@
+$(PREFIX2n).automorf-untrimmed.bin: $(AP_SRC2n)/$(LANG2n).automorf.bin
+	cp $< $@
 
 
 $(PREFIX1b).autogen.bin: $(AP_SRC2b)/$(LANG2b).autogen.bin
@@ -131,16 +149,16 @@ $(PREFIX2n).prob: $(AP_SRC2n)/$(LANG2n).prob
 $(PREFIX1).rlx.bin: $(AP_SRC1)/apertium-$(LANG1).$(LANG1).rlx
 	cg-comp $< $@
 
-$(PREFIX2b).seg.rlx.bin: $(AP_SRC2b)/apertium-$(LANG2b).$(LANG2b).seg.rlx
-	cg-comp $< $@
-
-$(PREFIX2n).seg.rlx.bin: $(AP_SRC2n)/apertium-$(LANG2n).$(LANG2n).seg.rlx
-	cg-comp $< $@
-
 $(PREFIX2b).rlx.bin: $(AP_SRC2b)/apertium-$(LANG2b).$(LANG2b).rlx
 	cg-comp $< $@
 
+$(PREFIX2b).seg.rlx.bin: $(AP_SRC2b)/apertium-$(LANG2b).$(LANG2b).seg.rlx
+	cg-comp $< $@
+
 $(PREFIX2n).rlx.bin: $(AP_SRC2n)/apertium-$(LANG2n).$(LANG2n).rlx
+	cg-comp $< $@
+
+$(PREFIX2n).seg.rlx.bin: $(AP_SRC2n)/apertium-$(LANG2n).$(LANG2n).seg.rlx
 	cg-comp $< $@
 
 
@@ -186,43 +204,17 @@ $(PREFIX2).autobil.bin: $(BASENAME).$(PREFIX1).dix
 ###############################################################################
 ## Structural transfer rules
 ###############################################################################
+# DEPRECATED – but kept around for debug modes while transitioning to rtx
 
-$(PREFIX1b).t1x.bin: $(BASENAME).$(PREFIX1b).t1x
+%.t1x.bin: $(BASENAME).%.t1x
 	apertium-validate-transfer $<
 	apertium-preprocess-transfer $< $@
 
-$(PREFIX1b).t2x.bin: $(BASENAME).$(PREFIX1b).t2x
+%.t2x.bin: $(BASENAME).%.t2x
 	apertium-validate-interchunk $<
 	apertium-preprocess-transfer $< $@
 
-$(PREFIX1b).t3x.bin: $(BASENAME).$(PREFIX1b).t3x
-	apertium-validate-postchunk $<
-	apertium-preprocess-transfer $< $@
-
-
-$(PREFIX1n).t1x.bin: $(BASENAME).$(PREFIX1n).t1x
-	apertium-validate-transfer $<
-	apertium-preprocess-transfer $< $@
-
-$(PREFIX1n).t2x.bin: $(BASENAME).$(PREFIX1n).t2x
-	apertium-validate-interchunk $<
-	apertium-preprocess-transfer $< $@
-
-$(PREFIX1n).t3x.bin: $(BASENAME).$(PREFIX1n).t3x
-	apertium-validate-postchunk $<
-	apertium-preprocess-transfer $< $@
-
-
-
-$(PREFIX2).t1x.bin: $(BASENAME).$(PREFIX2).t1x
-	apertium-validate-transfer $<
-	apertium-preprocess-transfer $< $@
-
-$(PREFIX2).t2x.bin: $(BASENAME).$(PREFIX2).t2x
-	apertium-validate-interchunk $<
-	apertium-preprocess-transfer $< $@
-
-$(PREFIX2).t3x.bin: $(BASENAME).$(PREFIX2).t3x
+%.t3x.bin: $(BASENAME).%.t3x
 	apertium-validate-postchunk $<
 	apertium-preprocess-transfer $< $@
 
@@ -231,20 +223,14 @@ $(PREFIX2).t3x.bin: $(BASENAME).$(PREFIX2).t3x
 ## Distribution
 ###############################################################################
 
-EXTRA_DIST=$(BASENAME).$(PREFIX1).dix \
+EXTRA_DIST=$(BASENAME).$(PREFIX1).dix  \
 	   $(BASENAME).$(PREFIX1b).lrx \
 	   $(BASENAME).$(PREFIX1n).lrx \
 	   $(BASENAME).$(PREFIX2b).lrx \
 	   $(BASENAME).$(PREFIX2n).lrx \
-	   $(BASENAME).$(PREFIX1n).t1x \
-	   $(BASENAME).$(PREFIX1b).t1x \
-	   $(BASENAME).$(PREFIX1n).t2x \
-	   $(BASENAME).$(PREFIX1b).t2x \
-	   $(BASENAME).$(PREFIX1n).t3x \
-	   $(BASENAME).$(PREFIX1b).t3x \
-	   $(BASENAME).$(PREFIX2).t1x \
-	   $(BASENAME).$(PREFIX2).t2x \
-	   $(BASENAME).$(PREFIX2).t3x \
+	   $(BASENAME).$(PREFIX1b).rtx \
+	   $(BASENAME).$(PREFIX1n).rtx \
+	   $(BASENAME).$(PREFIX2).rtx  \
 	   modes.xml
 
 ###############################################################################
@@ -253,20 +239,10 @@ EXTRA_DIST=$(BASENAME).$(PREFIX1).dix \
 
 apertium_swe_nordir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
 
-apertium_swe_nor_DATA=$(TARGETS_COMMON) \
-	$(BASENAME).$(PREFIX1n).t1x \
-	$(BASENAME).$(PREFIX1b).t1x \
-	$(BASENAME).$(PREFIX1n).t2x \
-	$(BASENAME).$(PREFIX1b).t2x \
-	$(BASENAME).$(PREFIX1n).t3x \
-	$(BASENAME).$(PREFIX1b).t3x \
-	$(BASENAME).$(PREFIX2).t1x \
-	$(BASENAME).$(PREFIX2).t2x \
-	$(BASENAME).$(PREFIX2).t3x
+apertium_swe_nor_DATA=$(TARGETS_COMMON)
 
 # All modes are created by the same goal, listing several will just give problems with make -j2
 noinst_DATA=modes/$(PREFIX1b).mode
-
 
 install-data-local: install-modes
 

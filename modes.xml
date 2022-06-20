@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
+
   <!-- Swedish → Norwegian Nynorsk -->
-  <!-- **************** swe-nno: **************** -->
   <mode name="swe-nno" install="yes" gendebug="yes">
     <pipeline>
-      <program name="lt-proc -e">
+      <program name="lt-proc -e -w">
         <file name="swe-nno.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
@@ -14,6 +14,45 @@
         <file name="swe-nor.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
+      <program name="lsx-proc">
+        <file name="swe-nno.autoseq.bin"/>
+      </program>
+      <program name="lt-proc -b">
+        <file name="swe-nno.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="swe-nno.autolex.bin"/>
+      </program>
+      <program name="rtx-proc">
+        <file name="swe-nno.rtx.bin"/>
+      </program>
+      <program name="lt-proc $1 -b" debug-suff="dgen">
+        <file name="swe-nno.autogen.bin"/>
+      </program>
+      <program name="cg-proc -1 -n -g" debug-suff="genprefs">
+        <file name="swe-nno.genprefs.rlx.bin"/>
+      </program>
+      <program name="lt-proc -p">
+        <file name="swe-nno.autopgen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="tswe-nno" install="no" gendebug="yes">
+    <pipeline>
+      <program name="lt-proc -e -w">
+        <file name="swe-nno.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="swe-nor.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="swe-nor.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lsx-proc">
+        <file name="swe-nno.autoseq.bin"/>
+      </program>
       <program name="lt-proc -b">
         <file name="swe-nno.autobil.bin"/>
       </program>
@@ -44,11 +83,11 @@
     </pipeline>
   </mode>
 
+
   <!-- Swedish → Norwegian Bokmål -->
-  <!-- **************** swe-nob: **************** -->
   <mode name="swe-nob" install="yes" gendebug="yes">
     <pipeline>
-      <program name="lt-proc -e">
+      <program name="lt-proc -e -w">
         <file name="swe-nob.automorf.bin"/>
       </program>
       <program name="cg-proc -w">
@@ -58,6 +97,38 @@
         <file name="swe-nor.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
+      <program name="lsx-proc">
+        <file name="swe-nob.autoseq.bin"/>
+      </program>
+      <program name="lt-proc -b">
+        <file name="swe-nob.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="swe-nob.autolex.bin"/>
+      </program>
+      <program name="rtx-proc">
+        <file name="swe-nob.rtx.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="swe-nob.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+  <mode name="tswe-nob" install="no" gendebug="yes">
+    <pipeline>
+      <program name="lt-proc -e -w">
+        <file name="swe-nob.automorf.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="swe-nor.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="swe-nor.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lsx-proc">
+        <file name="swe-nob.autoseq.bin"/>
+      </program>
       <program name="lt-proc -b">
         <file name="swe-nob.autobil.bin"/>
       </program>
@@ -82,15 +153,15 @@
     </pipeline>
   </mode>
 
+
   <!-- Norwegian Nynorsk → Swedish -->
-  <!-- **************** nno-swe: **************** -->
   <mode name="nno-swe" install="yes" gendebug="yes">
     <pipeline>
       <program name="lt-proc -e -w">
         <file name="nno-swe.automorf.bin"/>
       </program>
       <program name="cg-proc" debug-suff="seg">
-	<file name="nob-swe.seg.rlx.bin"/>
+	<file name="nno-swe.seg.rlx.bin"/>
       </program>
       <program name="cg-proc -w">
         <file name="nno-swe.rlx.bin"/>
@@ -117,9 +188,84 @@
     </pipeline>
   </mode>
 
+  <mode name="tnno-swe" install="no" gendebug="yes">
+    <pipeline>
+      <program name="lt-proc -e -w">
+        <file name="nno-swe.automorf.bin"/>
+      </program>
+      <program name="cg-proc" debug-suff="seg">
+	<file name="nno-swe.seg.rlx.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="nno-swe.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="nno-swe.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lsx-proc">
+        <file name="nor-swe.autoseq.bin"/>
+      </program>
+      <program name="lt-proc -b">
+        <file name="nor-swe.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="nno-swe.autolex.bin"/>
+      </program>
+      <program name="apertium-transfer -b">
+        <file name="apertium-swe-nor.nor-swe.t1x"/>
+        <file name="nor-swe.t1x.bin"/>
+      </program>
+      <program name="apertium-interchunk">
+        <file name="apertium-swe-nor.nor-swe.t2x"/>
+        <file name="nor-swe.t2x.bin"/>
+      </program>
+      <program name="apertium-postchunk">
+        <file name="apertium-swe-nor.nor-swe.t3x"/>
+        <file name="nor-swe.t3x.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="nor-swe.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
   <!-- Norwegian bokmål → Swedish -->
-  <!-- **************** nob-swe: **************** -->
-  <mode name="tnob-swe" install="yes" gendebug="yes">
+  <mode name="nob-swe" install="yes" gendebug="yes">
+    <pipeline>
+      <program name="lt-proc -e -w">
+        <file name="nob-swe.automorf.bin"/>
+      </program>
+      <program name="cg-proc" debug-suff="seg">
+	<file name="nob-swe.seg.rlx.bin"/>
+      </program>
+      <program name="cg-proc -w">
+        <file name="nob-swe.rlx.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="nob-swe.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lsx-proc">
+        <file name="nor-swe.autoseq.bin"/>
+      </program>
+      <program name="lt-proc -b">
+        <file name="nor-swe.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m">
+        <file name="nob-swe.autolex.bin"/>
+      </program>
+      <program name="rtx-proc">
+        <file name="nor-swe.rtx.bin"/>
+      </program>
+      <program name="lt-proc $1">
+        <file name="nor-swe.autogen.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+  <mode name="tnob-swe" install="no" gendebug="yes">
     <pipeline>
       <program name="lt-proc -e -w">
         <file name="nob-swe.automorf.bin"/>
@@ -161,36 +307,4 @@
     </pipeline>
   </mode>
 
-  <mode name="nob-swe" install="yes" gendebug="yes">
-    <pipeline>
-      <program name="lt-proc -e -w">
-        <file name="nob-swe.automorf.bin"/>
-      </program>
-      <program name="cg-proc" debug-suff="seg">
-	<file name="nob-swe.seg.rlx.bin"/>
-      </program>
-      <program name="cg-proc -w">
-        <file name="nob-swe.rlx.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="nob-swe.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lsx-proc">
-        <file name="nor-swe.autoseq.bin"/>
-      </program>
-      <program name="lt-proc -b">
-        <file name="nor-swe.autobil.bin"/>
-      </program>
-      <program name="lrx-proc -m">
-        <file name="nob-swe.autolex.bin"/>
-      </program>
-      <program name="rtx-proc">
-        <file name="nor-swe.rtx.bin"/>
-      </program>
-      <program name="lt-proc $1">
-        <file name="nor-swe.autogen.bin"/>
-      </program>
-    </pipeline>
-  </mode>
 </modes>

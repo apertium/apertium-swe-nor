@@ -88,6 +88,7 @@ PP:    _;
 VP:    _.tense.number.voice; ! TODO: Put gender/number on VP for pp-samsvar stuff?
 ADV:   _;
 SENT:  _;
+CNJCOO:  _;
 DP2:   _;                       ! issue 80-workaround
 S:     _;                       ! issue 80-workaround
 
@@ -97,11 +98,15 @@ S:     _;                       ! issue 80-workaround
 !!!!!!!!!!!!!!!!!!!!
 
 N ->
-     "N2A" %n ?(1.mainpos=adj) { %1(A)[lemcase=$lemcase] }
-   |  %n            { %1[lemcase=$lemcase] }
-   | n.*.cmp %N     { 1[lemcase=$lemcase] %2 }
-   | vblex.*.cmp %N { 1[lemcase=$lemcase] %2 }
-   | n.*.cmp-split [w_ogeller]@cnjcoo %N { 1[lemcase=$lemcase] _ 2 _ %3 }
+     "N→A" %n ?(1.mainpos=adj) { %1(A)[lemcase=$lemcase] }
+   | "N→n.acr"      2: %n.acr      { %1 }      ! don't change lemcase on acronyms
+   | "N→n"          %n ?(1.a_cmp not = cmp) { %1[lemcase=$lemcase] }
+   | "N→ncmpN"      n.*.cmp  %N    { 1[lemcase=$lemcase] %2 }
+   | "N→npcmpN"     np.*.cmp %N    { 1 %2 }    ! don't change lemcase on propers
+   | "N→vbcmpN"     vblex.*.cmp %N { 1[lemcase=$lemcase] %2 }
+   | "N→ncmpsplit"  n.*.cmp-split     [w_ogeller]@CNJCOO %N { 1[lemcase=$lemcase] _ 2 _ %3 }
+   | "N→npcmpsplit" np.*.cmp-split    [w_ogeller]@CNJCOO %N { 1[lemcase=$lemcase] _ 2 _ %3 }
+   | "N→vbcmpsplit" vblex.*.cmp-split [w_ogeller]@CNJCOO %N { 1 _ 2 _ %3 } ! don't change lemcase on propers
    ;
 
 
