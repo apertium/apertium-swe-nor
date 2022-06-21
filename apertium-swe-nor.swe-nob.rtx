@@ -278,9 +278,8 @@ VP ->
 
     | "VP.supn.pasv→ha (bli) v.pp: inte funnits → ikke ha funnes"
       3: %vblex.supn.pasv
-      { (if ($%cur_modal not = "ha") [ *(vblex)[lemh = "ha", tense = pres, voice = ""] _ ] )
-        *(vblex)[lemh = "bli", tense = 1.tense, voice = ""]
-        _
+      { (if ($%cur_modal not = "ha") [ *(vblex)[lemh = "ha", tense = pres, voice = "", a_pstv = ""] _ ] )
+        (if (1.a_pstv  not = "pstv") [ *(vblex)[lemh = "bli", tense = 1.tense, voice = ""] _ ] )
         %1[tense = pp, voice = ""]
       }
 
