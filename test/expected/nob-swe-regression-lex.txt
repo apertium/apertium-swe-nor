@@ -1,4 +1,4 @@
-[8VMBw4Lp7TA0#0] ^Her<adv>/Här<adv>$ ^ha<vblex><pres>/ha<vblex><pres><actv>$ ^den<prn><pers><p3><nt><sg><nom>/den<prn><pers><p3><nt><sg><nom>$ ^også<adv>/också<adv>$ ^bli<vblex><pp>/bli<vblex><supn><actv>$ ^opprette<adj><pp><nt><sg><ind>/etablera<adj><pp><nt><sg><ind>$ ^litteratur<n><m><sg><ind><cmp>/litteratur<n><ut><sg><ind><cmp>$ ^pris<n><m><pl><ind>/pris¹<n><nt><pl><ind>$ ^og<cnjcoo>/och<cnjcoo>$ ^bli<vblex><pp>/bli<vblex><supn><actv>$ ^arrangere<adj><pp><pl>/ordna<adj><pp><pl><ind>$ ^litteratur<n><m><sg><ind><cmp>/litteratur<n><ut><sg><ind><cmp>$ ^festival<n><m><pl><ind>/festival<n><ut><pl><ind>$^.<sent><clb>/.<sent>$
+[8VMBw4Lp7TA0#0] ^Her<adv>/Här<adv>$ ^ha<vblex><pres>/ha<vblex><pres><actv>$ ^den<prn><pers><p3><nt><sg><nom>/den<prn><pers><p3><nt><sg><nom>$ ^også<adv>/också<adv>$ ^bli<vblex><pp>/bli<vblex><supn><actv>$ ^opprette<adj><pp><nt><sg><ind>/etablera<adj><pp><nt><sg><ind>$ ^litteratur<n><m><sg><ind><cmp>/litteratur<n><ut><sg><ind><cmp>$ ^pris<n><m><pl><ind>/pris¹<n><nt><pl><ind>$ ^og<cnjcoo>/och<cnjcoo>$ ^bli<vblex><pp>/bli<vblex><supn><actv>$ ^arrangere<adj><pp><pl>/ordna<adj><pp><pl><ind>$ ^litteratur<n><m><sg><ind><cmp>/litteratur<n><ut><sg><ind><cmp>$ ^festival<n><m><pl><ind>/festival<n><ut><pl><ind>$^.<sent><clb>/.<sent><clb>$
 [/8VMBw4Lp7TA0]
 [AWA7hOPgO92I#0] ^ikke<adv>/inte<adv>$^.<sent><clb>/.<sent>$
 [/AWA7hOPgO92I]
@@ -6,7 +6,7 @@
 [/B9i8-sqBsyuY]
 [M_hpqOV05M0j#0] ^mamma<n><m><sg><ind><gen>/mamma<n><ut><sg><ind><gen>$ ^telefon<n><m><sg><ind>/telefon<n><ut><sg><ind>$^.<sent><clb>/.<sent>$
 [/M_hpqOV05M0j]
-[dGFAyy7M9Fgp#0] ^Jeg<prn><pers><p1><mf><sg><nom>/Jag<prn><pers><p1><ut><sg><nom>$ ^se<vblex><pres>/se<vblex><pres><actv>$ ^bare<adv>/bara<adv>$ ^venn<n><m><pl><def>/vän<n><ut><pl><def>$ ^min<det><pos><un><pl>/min<det><pos><un><pl>$ ^virtuell<adj><pst><nt><sg><ind>/virtuell<adj><sint><pst><nt><sg><ind>$^.<sent><clb>/.<sent>$
+[dGFAyy7M9Fgp#0] ^Jeg<prn><pers><p1><mf><sg><nom>/Jag<prn><pers><p1><ut><sg><nom>$ ^se<vblex><pres>/se<vblex><pres><actv>$ ^bare<adv>/bara<adv>$ ^venn<n><m><pl><def>/vän<n><ut><pl><def>$ ^min<det><pos><un><pl>/min<det><pos><un><pl>$ ^virtuell<adj><pst><nt><sg><ind>/virtuell<adj><sint><pst><nt><sg><ind>$^.<sent><clb>/.<sent><clb>$
 [/dGFAyy7M9Fgp]
-[uXuhSTHKMz88#0] ^noe<det><qnt><nt><sg>/någon<det><qnt><nt><sg>$ ^annen<det><dem><nt><sg><ind>/annan<det><dem><nt><sg><ind>$ ^land<n><nt><sg><ind>/land<n><nt><sg><ind>$ ^i<pr>/i<pr>$ ^verd<n><m><sg><def>/värld<n><ut><sg><def>$^.<sent><clb>/.<sent>$
+[uXuhSTHKMz88#0] ^noe<det><qnt><nt><sg>/någon<det><qnt><nt><sg>$ ^annen<det><dem><nt><sg><ind>/annan<det><dem><nt><sg><ind>$ ^land<n><nt><sg><ind>/land<n><nt><sg><ind>$ ^i<pr>/i<pr>$ ^verd<n><m><sg><def>/värld<n><ut><sg><def>$^.<sent><clb>/.<sent><clb>$
 [/uXuhSTHKMz88]

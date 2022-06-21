@@ -1,14 +1,14 @@
-honom
-de parter vars ansökningar
-sökande vars förmåga att utnyttja
-som inte uppförts
-har uppförts
-har funnits
-som funnits
-Jag har ålar i min svävare
-överskådligare
-överskådligast
-överskådligaste
+honom.
+de parter vars ansökningar.
+sökande vars förmåga att utnyttja.
+som inte uppförts.
+har uppförts.
+har funnits.
+som funnits.
+Jag har ålar i min svävare.
+överskådligare.
+överskådligast.
+överskådligaste.
 Rubrik: Anna får inte resa från staden hon bor i.
 Ingress: Anna är bara ihop med sina vänner på Teams nu för tiden.
 När coronapandemin är över gläder hon sig till tre saker.
@@ -28,4 +28,4 @@ Många i landet är smittade av coronaviruset.
 Tidigare var länderna ett gemensamt land.
 För 24 år sedan (i 1993) delades landet i två.
 Det delades senare i tre.
-Jag ser fram till att vara tillsammans med henne
+Jag ser fram till att vara tillsammans med henne.

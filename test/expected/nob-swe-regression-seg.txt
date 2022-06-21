@@ -8,5 +8,5 @@
 [/M_hpqOV05M0j]
 [dGFAyy7M9Fgp#0] ^Jeg/jeg<n><nt><sg><ind>/jeg<n><nt><pl><ind>/jeg<prn><pers><p1><mf><sg><nom>$ ^ser/se<vblex><pres>$ ^bare/bare<adv>/bar<adj><sint><pst><un><sp><def>/bar<adj><sint><pst><un><pl><ind>$ ^vennene/venn<n><m><pl><def>$ ^mine/min<det><pos><un><pl>/min<prn><pos><un><pl>/mine<n><m><sg><ind>/mine<n><f><sg><ind>$ ^virtuelt/virtuell<adj><pst><nt><sg><ind>$^./.<sent><clb>$
 [/dGFAyy7M9Fgp]
-[uXuhSTHKMz88#0] ^noe/noe<det><qnt><nt><sg>/noe<prn><ind><nt><sg><acc>/noe<prn><ind><nt><sg><nom>$ ^annet/annen<det><dem><nt><sg><ind>/annen<det><dem><un><sg><def>/annen<prn><ind><nt><sg><nom>$ ^land/lande<vblex><imp>/land<n><nt><sg><ind>/land<n><nt><pl><ind>$ ^i/i<pr>$ ^verden/verd<n><m><sg><def>/verden<n><m><sg><ind>$^./.<sent><clb>$
+[uXuhSTHKMz88#0] ^noe/noe<det><qnt><nt><sg>/noe<prn><ind><nt><sg><acc>/noe<prn><ind><nt><sg><nom>$ ^annet/annen<det><dem><nt><sg><ind>/annen<det><dem><un><sg><def>/annen<prn><ind><nt><sg><nom>$ ^land/lande<vblex><imp>/land<n><nt><sg><ind>/land<n><nt><pl><ind>$ ^i/i<pr>/ialphabet<n><m><sg><ind>$ ^verden/verd<n><m><sg><def>/verden<n><m><sg><ind>$^./.<sent><clb>$
 [/uXuhSTHKMz88]
