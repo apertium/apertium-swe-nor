@@ -399,6 +399,18 @@
       </e>
     </pardef>
 
+    <pardef n="väderstreck">
+      <e><i>syd</i></e>
+      <e><i>söder</i></e>
+      <e><i>norr</i></e>
+      <e><i>nord</i></e>
+      <e><i>ost</i></e>
+      <e><i>öst</i></e>
+      <e><i>öster</i></e>
+      <e><i>väst</i></e>
+      <e><i>väster</i></e>
+    </pardef>
+
     <pardef n="ANYWORD">
       <e><i><w/><t/><d/></i></e>
       <e><i><w/><d/></i></e>    <!--unknown-->
@@ -425,6 +437,11 @@
       <i>lov</i> <par n="td"/>
       <p><l></l> <r>till<s n="pr"/><d/></r></p>
       <i>att</i> <par n="td"/>
+    </e>
+
+    <e lm="sör om → sör för" c="sør for">
+      <par n="väderstreck"/><par n="td"/>
+      <p><l>om</l> <r>för</r></p> <par n="td"/>
     </e>
 
   </section>
