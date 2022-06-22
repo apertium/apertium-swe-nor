@@ -3228,4 +3228,5 @@
 
   <rule><match lemma="med" tags="pr"><select lemma="med"/></match></rule>
   <rule><match lemma="kram" tags="n.*"><select lemma="klem"/></match></rule>
+  <rule><match lemma="störning" tags="n.*"><select lemma="interferens"/></match></rule>
 </rules>
