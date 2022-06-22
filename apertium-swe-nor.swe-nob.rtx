@@ -75,6 +75,7 @@ cnjcoo: _;
 part:   _;
 sent:   _.a_clb;
 cm:     _.a_clb;
+prn:   _.a_prn.person.gender.defnes.number.case;
 
 det_nodef:    <det>.a_det.gender.number.case.a_expl;
 det_finaldef: <det>.a_det.gender.number.case.defnes.a_expl;
