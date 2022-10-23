@@ -1,95 +1,48 @@
+<lrx>
+
+    <def-seqs>
+      <def-seq n="tidseining">
+        <or>
+          <match lemma="millisekund"/>
+          <match lemma="mikrosekund"/>
+          <match lemma="hundredel"/>
+          <match lemma="sekund"/>
+          <match lemma="halvsekund"/>
+          <match lemma="minutt"/>
+          <match lemma="halvminutt"/>
+          <match lemma="time"/>
+          <match lemma="halvtime"/>
+          <match lemma="uke"/>
+          <match lemma="dag"/>
+          <match lemma="døgn"/>
+          <match lemma="uke"/>
+          <match lemma="måned"/>
+          <match lemma="år"/>
+          <match lemma="halvår"/>
+          <match lemma="tiår"/>
+          <match lemma="århundre"/>
+          <match lemma="årtusen"/>
+        </or>
+      </def-seq>
+      <def-seq n="skulefag">
+        <or>
+          <match lemma="naturfag"/>
+          <match lemma="fransk"/>
+          <match lemma="engelsk"/>
+          <match lemma="tysk"/>
+          <match lemma="musikk"/>
+          <match lemma="historie"/>
+          <match lemma="forming"/>
+          <match lemma="tegning"/>
+          <match lemma="gym"/>
+          <match lemma="gymnastikk"/>
+        </or>
+      </def-seq>
+    </def-seqs>
+
 <rules>
-  <!-- MWE VS CMP: Remove multiword expressions from compounds, otherwise prefer them. -->
-  <rule c="after cmp"><match tags="*.cmp"/>   <match><remove contains="#"/></match></rule>
-  <rule c="after cmp"><match tags="*.cmp.*"/> <match><remove contains="#"/></match></rule>
-  <rule c="is cmp">              <match tags="*.cmp"><remove contains="#"/></match></rule>
-
-  <rule weight="1.0"> <match lemma="øre" tags="n.*"><select lemma="öra" tags="n.*"/></match> </rule>
-  <rule weight="2.0">
-    <match tags="det.qnt.*"/>
-    <match lemma="øre" tags="n.*"><select lemma="öre" tags="n.*"/></match>
-  </rule>
-
-  <rule weight="1.0"> <match lemma="som"><select lemma="som"/></match> </rule>
-
-  <rule weight="1.0"><match lemma="feile" tags="vblex.*"><select lemma="fela" tags="vblex.*"/></match></rule>
-
-  <rule weight="1.0"><match lemma="gå" tags="vblex.*"><select lemma="gå" tags="vblex.*"/></match></rule>
-  <rule weight="2.0">
-    <match lemma="korleis"/>
-    <match lemma="gå" tags="vblex.*"><select lemma="må¹" tags="n.*"/></match>
-  </rule>
-  <rule weight="2.0">
-    <match lemma="gå" tags="vblex.*"><select lemma="må¹" tags="n.*"/></match>
-    <or>
-      <match lemma="bra"/>
-      <match lemma="god"/>
-      <match lemma="godt"/>
-      <match lemma="dårleg"/>
-      <match lemma="ille"/>
-    </or>
-  </rule>
-
-  <rule weight="1.0"><match lemma="òg" tags="adv"><select lemma="även" tags="adv"/></match></rule>
-  <rule weight="1.0"><match lemma="også" tags="adv"><select lemma="även" tags="adv"/></match></rule>
-
-  <rule weight="2.0">
-    <match lemma="kor" tags="adv"><select lemma="hur" tags="adv"/></match>
-    <match lemma="mange"/>
-  </rule>
-
-  <rule weight="1.0">
-    <match lemma="måtte" tags="vblex.*"><select lemma="måste" tags="vblex.*"/></match>
-  </rule>
-  <rule weight="2.0">
-    <match lemma="måtte" tags="vblex.*"><select lemma="få" tags="vblex.*"/></match>
-    <match lemma="ikkje"/>
-  </rule>
-
-  <rule weight="1.0"> <match lemma="skuld" tags="n.*"><select lemma="skuld" tags="n.*"/></match> </rule>
-  <rule weight="1.0"> <match lemma="skyld" tags="n.*"><select lemma="skuld" tags="n.*"/></match> </rule>
-  <rule weight="2.0">
-    <or>
-      <match tags="*.gen"/>
-      <match tags="det.pos.*"/>
-    </or>
-    <match lemma="skuld" tags="n.*"><select lemma="skull" tags="n.*"/></match>
-  </rule>
-  <rule weight="2.0">
-    <or>
-      <match tags="*.gen"/>
-      <match tags="det.pos.*"/>
-    </or>
-    <match lemma="skyld" tags="n.*"><select lemma="skull" tags="n.*"/></match>
-  </rule>
-
-  <rule weight="1.0"><match lemma="enkel" tags="adj.*"><select lemma="enkel" tags="adj.*"/></match></rule>
-  <rule weight="1.0"><match lemma="akkumulere" tags="vblex.*"><select lemma="ackumulera" tags="vblex.*"/></match></rule>
-
-  <rule weight="1.0"><match lemma="uavhengig" tags="adj.*"><select lemma="oberoende" tags="adj.*"/></match></rule>
-
-  <rule><match lemma="tal" tags="n.*"><select lemma="tal"/></match></rule>
-
-  <rule><match lemma="Kviterussland" tags="np.*"><select lemma="Belarus"/></match></rule>
-
-  <rule><match lemma="synast" tags="vblex.*"><select lemma="tycka" tags="vblex.*"/></match></rule>
-
-  <rule><match lemma="være" tags="vblex.*"><select lemma="vara¹" tags="vblex.*"/></match></rule>
-  <rule weight="2.0" c="er blitt smittet → har blitt smittet">
-    <match lemma="være" tags="vblex.*"><select lemma="vara¹" tags="vblex.*"/></match>
-    <or>
-      <match lemma="bli" tags="vblex.pp"/>
-      <match lemma="bli" tags="adj.pp.*"/>
-    </or>
-    <or>
-      <match tags="vblex.pp"/>
-      <match tags="adj.pp.*"/>
-    </or>
-  </rule>
-  <rule><match lemma="være" tags="adj.pp.*"><select lemma="vara¹" tags="adj.pp.*"/></match></rule>
 
   <!-- Frequency-based rules: -->
-
 <rule weight="0.9"><match lemma="abbed" tags="n.m.*"><select lemma="abbot" tags="n.ut.*"/></match></rule><!-- 59 -->
 <rule weight="0.9"><match lemma="abonnement" tags="n.nt.*"><select lemma="abonnemang" tags="n.nt.*"/></match></rule><!-- 35 -->
 <rule weight="0.9"><match lemma="abonnere" tags="vblex.*"><select lemma="teckna" tags="vblex.*"/></match></rule><!-- 717 -->
@@ -4563,19 +4516,27 @@
 <rule weight="0.9"><match lemma="åtvare" tags="adj.pp.*"><select lemma="varna" tags="adj.pp.*"/></match></rule><!-- 2509 -->
   <!-- /frequency based rules  -->
 
-  <rule><match lemma="bæsj" tags="n.*"><select lemma="bajs"/></match></rule>
+
+  <rule weight="1.0"><match lemma="òg" tags="adv"><select lemma="även" tags="adv"/></match></rule>
+  <rule weight="1.0"><match lemma="også" tags="adv"><select lemma="även" tags="adv"/></match></rule>
+
+  <rule weight="2.0">
+    <match lemma="kor" tags="adv"><select lemma="hur" tags="adv"/></match>
+    <match lemma="mange"/>
+  </rule>
+
+  <rule weight="1.0"><match lemma="akkumulere" tags="vblex.*"><select lemma="ackumulera" tags="vblex.*"/></match></rule>
+
+  <rule><match lemma="tal" tags="n.*"><select lemma="tal"/></match></rule>
+
+  <rule><match lemma="Kviterussland" tags="np.*"><select lemma="Belarus"/></match></rule>
+
+  <rule><match lemma="synast" tags="vblex.*"><select lemma="tycka" tags="vblex.*"/></match></rule>
+
 
   <rule><match lemma="sjølv om" tags="cnjsub"><select lemma="även om"/></match></rule>
   <rule><match lemma="sjølv om" tags="cnjsub.*"><select lemma="även om"/></match></rule>
 
-  <rule><match lemma="måle" tags="vblex.*"><select lemma="mäta" tags="vblex.*"/></match></rule>
-  <rule><match lemma="måle" tags="adj.pp.*"><select lemma="mäta" tags="adj.pp.*"/></match></rule>
-
-  <rule><match lemma="irritere" tags="vblex.*"><select lemma="irritera" tags="vblex.*"/></match></rule><!-- 953 -->
-  <rule><match lemma="irritere" tags="adj.pp.*"><select lemma="irritera" tags="adj.pp.*"/></match></rule><!-- 953 -->
-
-  <rule><match lemma="undersøke" tags="vblex.*"><select lemma="undersöka" tags="vblex.*"/></match></rule>
-  <rule><match lemma="undersøke" tags="adj.pp.*"><select lemma="undersöka" tags="adj.pp.*"/></match></rule>
 
   <rule weight="0.9"><match lemma="vond" tags="adj.*"><select lemma="ond" tags="adj.*"/></match></rule><!-- 15290 -->
   <rule><match lemma="vond" tags="adj.*"><select lemma="dålig" tags="adj.*"/></match></rule>
@@ -4609,3 +4570,4 @@
   <rule><match lemma="halvpart" tags="n.*"><select lemma="hälft"/></match></rule>
   <rule><match lemma="smil" tags="n.*"><select lemma="leende"/></match></rule>
 </rules>
+</lrx>

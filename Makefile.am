@@ -49,6 +49,7 @@ TARGETS_PREFIX1b =                                                \
 
 TARGETS_PREFIX2 =              \
       $(PREFIX2).autoseq.bin   \
+      $(PREFIX2).autolex.bin   \
       $(PREFIX2).autobil.bin   \
       $(PREFIX2).autogen.bin   \
       $(PREFIX2).rtx.bin
@@ -77,6 +78,11 @@ r: modes/$(PREFIX1b).mode  \
    $(PREFIX1b).t1x.bin $(PREFIX1b).t2x.bin $(PREFIX1b).t3x.bin \
    $(PREFIX1n).t1x.bin $(PREFIX1n).t2x.bin $(PREFIX1n).t3x.bin \
    $(PREFIX2).t1x.bin  $(PREFIX2).t2x.bin  $(PREFIX2).t3x.bin  \
+   $(PREFIX1n).autolex.bin  \
+   $(PREFIX1b).autolex.bin  \
+   $(PREFIX2).autolex.bin   \
+   $(PREFIX2n).autolex.bin  \
+   $(PREFIX2b).autolex.bin  \
    $(PREFIX1n).autoseq.bin \
    $(PREFIX1n).rtx.bin     \
    $(PREFIX1b).autoseq.bin \
@@ -228,6 +234,7 @@ EXTRA_DIST=$(BASENAME).$(PREFIX1).dix  \
 	   $(BASENAME).$(PREFIX1n).lrx \
 	   $(BASENAME).$(PREFIX2b).lrx \
 	   $(BASENAME).$(PREFIX2n).lrx \
+	   $(BASENAME).$(PREFIX2).lrx  \
 	   $(BASENAME).$(PREFIX1b).rtx \
 	   $(BASENAME).$(PREFIX1n).rtx \
 	   $(BASENAME).$(PREFIX2).rtx  \

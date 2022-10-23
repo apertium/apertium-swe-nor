@@ -176,6 +176,9 @@
       <program name="lt-proc -b">
         <file name="nor-swe.autobil.bin"/>
       </program>
+      <program name="lrx-proc -m" debug-suff="lex-nor">
+        <file name="nor-swe.autolex.bin"/>
+      </program>
       <program name="lrx-proc -m">
         <file name="nno-swe.autolex.bin"/>
       </program>
@@ -208,6 +211,9 @@
       </program>
       <program name="lt-proc -b">
         <file name="nor-swe.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m" debug-suff="lex-nor">
+        <file name="nor-swe.autolex.bin"/>
       </program>
       <program name="lrx-proc -m">
         <file name="nno-swe.autolex.bin"/>
@@ -253,6 +259,9 @@
       <program name="lt-proc -b">
         <file name="nor-swe.autobil.bin"/>
       </program>
+      <program name="lrx-proc -m" debug-suff="lex-nor">
+        <file name="nor-swe.autolex.bin"/>
+      </program>
       <program name="lrx-proc -m">
         <file name="nob-swe.autolex.bin"/>
       </program>
@@ -285,6 +294,9 @@
       </program>
       <program name="lt-proc -b">
         <file name="nor-swe.autobil.bin"/>
+      </program>
+      <program name="lrx-proc -m" debug-suff="lex-nor">
+        <file name="nor-swe.autolex.bin"/>
       </program>
       <program name="lrx-proc -m">
         <file name="nob-swe.autolex.bin"/>
