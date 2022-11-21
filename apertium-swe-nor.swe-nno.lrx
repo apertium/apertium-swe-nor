@@ -1925,7 +1925,7 @@
 <rule weight="0.9"><match lemma="plaska" tags="vblex.*"><select lemma="plaske" tags="vblex.*"/></match></rule><!-- 6 -->
 <rule weight="0.9"><match lemma="plaska" tags="adj.pp.*"><select lemma="plaske" tags="adj.pp.*"/></match></rule><!-- 6 -->
 <rule weight="0.9"><match lemma="plast" tags="n.ut.*"><select lemma="plast" tags="n.m.*"/></match></rule><!-- 335 -->
-<rule weight="0.9"><match lemma="platt" tags="adv"><select lemma="spent" tags="adv"/></match></rule><!-- 59 -->
+<rule weight="0.9"><match lemma="platt" tags="adv"><select lemma="platt" tags="adv"/></match></rule><!-- 59 -->
 <rule weight="0.9"><match lemma="plocka" tags="vblex.*"><select lemma="plukke" tags="vblex.*"/></match></rule><!-- 428 -->
 <rule weight="0.9"><match lemma="plocka" tags="adj.pp.*"><select lemma="plukke" tags="adj.pp.*"/></match></rule><!-- 428 -->
 <rule weight="0.9"><match lemma="ploga" tags="vblex.*"><select lemma="pløye" tags="vblex.*"/></match></rule><!-- 60 -->
@@ -3194,6 +3194,9 @@
 
   <rule><match lemma="stjäla" tags="vblex.*"><select lemma="stele" tags="vblex.*"/></match></rule><!-- 4390 -->
   <rule><match lemma="stjäla" tags="adj.pp.*"><select lemma="stele" tags="adj.pp.*"/></match></rule><!-- 4390 -->
+
+  <rule><match lemma="platt" tags="adv"><select lemma="jamnt" tags="adv"/></match></rule>
+  <rule><match lemma="platt" tags="adj.*"><select lemma="flat" tags="adj.*"/></match></rule>
 
   <rule><match lemma="kors" tags="n.*"><select lemma="kross"/></match></rule>
 
