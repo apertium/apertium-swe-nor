@@ -385,8 +385,6 @@
 <rule weight="0.9"><match lemma="broder" tags="n.ut.*"><select lemma="bror" tags="n.m.*"/></match></rule><!-- 9521 -->
 <rule weight="0.9"><match lemma="bror" tags="n.ut.*"><select lemma="bror" tags="n.m.*"/></match></rule><!-- 9521 -->
 <rule weight="0.9"><match lemma="brott" tags="n.nt.*"><select lemma="brott" tags="n.nt.*"/></match></rule><!-- 9 -->
-<rule weight="0.9"><match lemma="bruka" tags="vblex.*"><select lemma="bruke" tags="vblex.*"/></match></rule><!-- 49310 -->
-<rule weight="0.9"><match lemma="bruka" tags="adj.pp.*"><select lemma="bruke" tags="adj.pp.*"/></match></rule><!-- 49310 -->
 <rule weight="0.9"><match lemma="bruk" tags="n.nt.*"><select lemma="bruk" tags="n.nt.*"/></match></rule><!-- 10436 -->
 <rule weight="0.9"><match lemma="brumma" tags="vblex.*"><select lemma="knurre" tags="vblex.*"/></match></rule><!-- 18 -->
 <rule weight="0.9"><match lemma="brumma" tags="adj.pp.*"><select lemma="knurre" tags="adj.pp.*"/></match></rule><!-- 18 -->
@@ -3215,6 +3213,14 @@
 <rule weight="0.9"><match lemma="åt" tags="pr"><select lemma="til" tags="pr"/></match></rule><!-- 484486 -->
 <rule weight="0.9"><match lemma="åverkan" tags="n.ut.*"><select lemma="skade" tags="n.m.*"/></match></rule><!-- 3320 -->
   <!-- /frequency-based rules -->
+
+  <rule><match lemma="bruka" tags="vblex.*"><select lemma="bruke" tags="vblex.*"/></match></rule>
+  <rule><match lemma="bruka" tags="adj.pp.*"><select lemma="bruke" tags="adj.pp.*"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="bruka" tags="vblex.*"><select lemma="pleie" tags="vblex.*"/></match>
+    <match lemma="i"/>
+    <match lemma="början"/>
+  </rule>
 
   <rule><match lemma="platt" tags="adv"><select lemma="jamt" tags="adv"/></match></rule>
   <rule><match lemma="platt" tags="adj.*"><select lemma="flat" tags="adj.*"/></match></rule>

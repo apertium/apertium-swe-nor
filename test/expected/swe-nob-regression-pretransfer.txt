@@ -54,6 +54,8 @@
 [/qR-4Q7XeL9SZ]
 [qvkWbP2Kd4fO#0] ^Vi<np><top>$ ^ha<vblex><pres><actv>$ ^inte<adv>$ ^lång<adj><sint><comp><un><sp>$ ^ämne<n><nt><sg><ind>$ ^som<pr>$ ^gympa<n><ut><sg><ind>$^.<sent><clb>$
 [/qvkWbP2Kd4fO]
+[sUeAUQFdczWW#0] ^Spanjor<n><ut><pl><def>$ ^bruka<vblex><past><actv>$ ^i<pr>$ ^början<n><ut><sg><def>$ ^ha<vblex><inf><actv>$ ^andra<adj><ord><pst><un><pl><ind>$ ^namn<n><nt><sg><ind>$^.<sent><clb>$
+[/sUeAUQFdczWW]
 [xr87sIaNgHKM#0] ^Tjeckien<np><top><nt>$ ^drabba<vblex><supn><pasv>$ ^hård<adj><sint><pst><nt><sg><ind>$ ^av<pr>$ ^corona<n><ut><sg><ind><cmp>$ ^virus<n><nt><sg><def>$^.<sent><clb>$
 [/xr87sIaNgHKM]
 [yaT9Y83vKE5G#0] ^Den<prn><pers><p3><nt><sg><nom>$ ^ha<vblex><pres><actv>$ ^vara¹<vblex><supn><actv>$ ^tråkig<adj><sint><pst><nt><sg><ind>$^!<sent><clb>$

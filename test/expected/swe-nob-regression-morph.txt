@@ -54,6 +54,8 @@
 [/qR-4Q7XeL9SZ]
 [qvkWbP2Kd4fO#0] ^Vi/Vi<np><top>/vi<prn><pers><p1><un><pl><nom>$ ^har/ha<vblex><pres><actv>$ ^inte/inte<adv>$ ^längre/lång<adj><sint><comp><un><sp>$ ^ämne/ämne<n><nt><sg><ind>$ ^som/som<cnjsub>/som<pr>$ ^gympa/gympa<n><ut><sg><ind>$^./.<sent><clb>$
 [/qvkWbP2Kd4fO]
+[sUeAUQFdczWW#0] ^Spanjorerna/spanjor<n><ut><pl><def>$ ^brukade/bruka<vblex><past><actv>/bruka<adj><pp><pl><ind>/bruka<adj><pp><fn><sg><def>$ ^i/i<pr>/ialphabet<n><ut><sg><ind>$ ^början/början<n><ut><sg><ind>/början<n><ut><sg><def>$ ^ha/ha<vblex><imp>/ha<vblex><inf><actv>$ ^andra/andra<vblex><imp>/andra<vblex><inf><actv>/annan<det><dem><un><pl>/annan<det><dem><un><sg><def>/annan<prn><ind><un><pl><nom>/andra<adj><ord><pst><un><pl><ind>/andra<adj><ord><pst><un><sp><def>/andra<adj><ord><pst><nt><sg><ind>/andra<adj><ord><pst><ut><sg><ind>$ ^namn/namn<n><nt><sg><ind>/namn<n><nt><pl><ind>$^./.<sent><clb>$
+[/sUeAUQFdczWW]
 [xr87sIaNgHKM#0] ^Tjeckien/Tjeckien<np><top><nt>$ ^drabbats/drabba<adj><pp><nt><sg><ind><gen>/drabba<vblex><supn><pasv>$ ^hårt/hård<adj><sint><pst><nt><sg><ind>$ ^av/av<pr>$ ^coronaviruset/corona<n><ut><sg><ind><cmp>+virus<n><nt><sg><def>$^./.<sent><clb>$
 [/xr87sIaNgHKM]
 [yaT9Y83vKE5G#0] ^Det/den<det><dem><nt><sg>/den<det><dem><nt><sg><expl>/den<prn><pers><p3><nt><sg><nom>/den<prn><pers><p3><nt><sg><acc>$ ^har/ha<vblex><pres><actv>$ ^varit/vara¹<vblex><supn><actv>$ ^tråkigt/tråkig<adj><sint><pst><nt><sg><ind>$^!/!<sent><clb>$
