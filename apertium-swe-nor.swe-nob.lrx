@@ -3214,12 +3214,13 @@
 <rule weight="0.9"><match lemma="åverkan" tags="n.ut.*"><select lemma="skade" tags="n.m.*"/></match></rule><!-- 3320 -->
   <!-- /frequency-based rules -->
 
-  <rule><match lemma="bruka" tags="vblex.*"><select lemma="bruke" tags="vblex.*"/></match></rule>
-  <rule><match lemma="bruka" tags="adj.pp.*"><select lemma="bruke" tags="adj.pp.*"/></match></rule>
+  <rule><match lemma="bruka"><select lemma="pleie"/></match></rule>
   <rule weight="2.0">
-    <match lemma="bruka" tags="vblex.*"><select lemma="pleie" tags="vblex.*"/></match>
-    <match lemma="i"/>
-    <match lemma="början"/>
+    <match lemma="bruka"><select lemma="bruke"/></match>
+    <or>
+      <match tags="det.*"/>
+      <match lemma="av"/>
+    </or>
   </rule>
 
   <rule><match lemma="platt" tags="adv"><select lemma="jamt" tags="adv"/></match></rule>

@@ -67,14 +67,19 @@
 
   <rule weight="1.0"> <match lemma="finna" tags="vblex.*.pasv"><select lemma="finnast" tags="vblex.*"/></match> </rule>
 
-<rule weight="1.0">
+  <rule weight="1.0">
    <match lemma="träffa" tags="vblex.*"><select lemma="treffe" tags="vblex.*"/></match>
-   <or><match tags="n.ut.*"/><match tags="det.*.ut.*"/><match tags="prn.*.ut.*"/><match tags="prn.pers.*"/></or></rule>
+   <or><match tags="n.ut.*"/><match tags="det.*.ut.*"/><match tags="prn.*.ut.*"/><match tags="prn.pers.*"/></or>
+  </rule>
 
-<rule weight="1.0">
-   <match lemma="bruka" tags="vblex.*"><select lemma="pleie" tags="vblex.*"/></match>
-   <match tags="vblex.inf.*"/></rule>
-
+  <rule><match lemma="bruka"><select lemma="pleie"/></match></rule>
+  <rule weight="2.0">
+    <match lemma="bruka"><select lemma="bruke"/></match>
+    <or>
+      <match tags="det.*"/>
+      <match lemma="av"/>
+    </or>
+  </rule>
 
   <!-- TODO: more of a CG thing? -->
   <rule weight="1.0"> <match lemma="att" tags="cnjsub"><select lemma="at" tags="cnjsub"/></match> </rule>
@@ -384,8 +389,6 @@
 <rule weight="0.9"><match lemma="broder" tags="n.ut.*"><select lemma="bror" tags="n.m.*"/></match></rule><!-- 2887 -->
 <rule weight="0.9"><match lemma="bror" tags="n.ut.*"><select lemma="bror" tags="n.m.*"/></match></rule><!-- 2887 -->
 <rule weight="0.9"><match lemma="brott" tags="n.nt.*"><select lemma="brot" tags="n.nt.*"/></match></rule><!-- 723 -->
-<rule weight="0.9"><match lemma="bruka" tags="vblex.*"><select lemma="bruke" tags="vblex.*"/></match></rule><!-- 24363 -->
-<rule weight="0.9"><match lemma="bruka" tags="adj.pp.*"><select lemma="bruke" tags="adj.pp.*"/></match></rule><!-- 24363 -->
 <rule weight="0.9"><match lemma="bruk" tags="n.nt.*"><select lemma="bruk" tags="n.nt.*"/></match></rule><!-- 6005 -->
 <rule weight="0.9"><match lemma="brumma" tags="vblex.*"><select lemma="knurre" tags="vblex.*"/></match></rule><!-- 14 -->
 <rule weight="0.9"><match lemma="brumma" tags="adj.pp.*"><select lemma="knurre" tags="adj.pp.*"/></match></rule><!-- 14 -->
