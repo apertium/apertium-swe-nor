@@ -1,4 +1,4 @@
-[8VMBw4Lp7TA0#0] ^Her/Her<adv>$ ^har/ha<vblex><pres>$ ^det/den<prn><pers><p3><nt><sg><nom>$ ^også/også<adv>$ ^blitt/bli<vblex><pp>$ ^opprettet/opprette<adj><pp><nt><sg><ind>$ ^litteraturpriser/litteratur<n><m><sg><ind><cmp>+pris<n><m><pl><ind>$ ^og/og<cnjcoo>$ ^blitt/bli<vblex><pp>$ ^arrangert/arrangere<adj><pp><pl>$ ^litteraturfestivaler/litteratur<n><m><sg><ind><cmp>+festival<n><m><pl><ind>$^./.<sent><clb>$
+[8VMBw4Lp7TA0#0] ^Her/Her<adv>$ ^har/ha<vblex><pres>$ ^det/den<det><dem><nt><sg><expl>$ ^også/også<adv>$ ^blitt/bli<vblex><pp>$ ^opprettet/opprette<vblex><pp>$ ^litteraturpriser/litteratur<n><m><sg><ind><cmp>+pris<n><m><pl><ind>$ ^og/og<cnjcoo>$ ^blitt/bli<vblex><pp>$ ^arrangert/arrangere<adj><pp><pl>$ ^litteraturfestivaler/litteratur<n><m><sg><ind><cmp>+festival<n><m><pl><ind>$^./.<sent><clb>$
 [/8VMBw4Lp7TA0]
 [AWA7hOPgO92I#0] ^ikke/ikke<adv>$^./.<sent><clb>$
 [/AWA7hOPgO92I]

@@ -1,4 +1,4 @@
-[8VMBw4Lp7TA0#0] ^Här<adv>$ ^ha<vblex><pres><actv>$ ^den<prn><pers><p3><nt><sg><nom>$ ^också<adv>$ ^bli<vblex><supn><actv>$ ^etablera<adj><pp><nt><sg><ind>$ ^litteratur<n><ut><sg><ind><cmp>$^pris¹<n><nt><pl><ind>$ ^och<cnjcoo>$ ^bli<vblex><supn><actv>$ ^ordna<adj><pp><pl><ind>$ ^litteratur<n><ut><sg><ind><cmp>$^festival<n><ut><pl><ind>$^.<sent><clb>$
+[8VMBw4Lp7TA0#0] ^Här<adv>$ ^ha<vblex><pres><actv>$ ^den<det><dem><nt><sg>$ ^också<adv>$ ^upprätta<vblex><supn><pasv>$ ^litteratur<n><ut><sg><ind><cmp>$^pris¹<n><nt><pl><ind>$ ^och<cnjcoo>$ ^bli<vblex><supn><actv>$ ^ordna<adj><pp><pl><ind>$ ^litteratur<n><ut><sg><ind><cmp>$^festival<n><ut><pl><ind>$^.<sent><clb>$
 [/8VMBw4Lp7TA0]
 [AWA7hOPgO92I#0] ^inte<adv>$^.<sent>$
 [/AWA7hOPgO92I]
