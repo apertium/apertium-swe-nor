@@ -735,7 +735,6 @@
 <rule weight="0.9"><match lemma="fräsa" tags="vblex.*"><select lemma="kvese" tags="vblex.*"/></match></rule><!-- 10 -->
 <rule weight="0.9"><match lemma="fräsa" tags="adj.pp.*"><select lemma="kvese" tags="adj.pp.*"/></match></rule><!-- 10 -->
 <rule weight="0.9"><match lemma="frö" tags="n.nt.*"><select lemma="frø" tags="n.nt.*"/></match></rule><!-- 591 -->
-<rule weight="0.9"><match lemma="från" tags="pr"><select lemma="frå" tags="pr"/></match></rule><!-- 243671 -->
 <rule weight="0.9"><match lemma="fullborda" tags="vblex.*"><select lemma="fullføre" tags="vblex.*"/></match></rule><!-- 1242 -->
 <rule weight="0.9"><match lemma="fullborda" tags="adj.pp.*"><select lemma="fullføre" tags="adj.pp.*"/></match></rule><!-- 1242 -->
 <rule weight="0.9"><match lemma="fundera" tags="vblex.*"><select lemma="spekulere" tags="vblex.*"/></match></rule><!-- 154 -->
@@ -3277,4 +3276,17 @@
   <rule><match lemma="med" tags="pr"><select lemma="med"/></match></rule>
   <rule><match lemma="kram" tags="n.*"><select lemma="klem"/></match></rule>
   <rule><match lemma="störning" tags="n.*"><select lemma="interferens"/></match></rule>
+
+  <rule><match lemma="omdöme" tags="n.*"><select lemma="dømmekraft"/></match></rule>
+  <rule weight="2.0">
+    <or>
+      <match lemma="få"/>
+      <match lemma="god"/>
+      <match lemma="positiv"/>
+      <match lemma="negativ"/>
+    </or>
+    <match lemma="omdöme" tags="n.*"><select lemma="vurdering"/></match>
+  </rule>
+
+  <rule><match lemma="från" tags="pr"><select lemma="frå" tags="pr"/></match></rule>
 </rules>
