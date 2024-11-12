@@ -1393,7 +1393,7 @@
 
   <rule><match lemma="trist" tags="adj.*"><select lemma="ledsen" tags="adj.*"/></match></rule>
   <rule weight="2.0" c="det har vært trist">
-    <match lemma="den" tags="prn.*.nt.*"/>
+    <match lemma="den" tags="*.nt.*"/>
     <repeat from="0" upto="3"><match/></repeat>
     <match lemma="trist" tags="adj.*"><select lemma="tråkig" tags="adj.*"/></match>
   </rule>
